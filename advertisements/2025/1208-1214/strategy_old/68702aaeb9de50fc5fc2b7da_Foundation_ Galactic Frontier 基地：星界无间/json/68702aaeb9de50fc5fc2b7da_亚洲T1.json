@@ -1,0 +1,1136 @@
+{
+  "count": 12,
+  "available_networks": [
+    "Admob",
+    "Applovin",
+    "BidMachine",
+    "Digital Turbine",
+    "Facebook",
+    "InMobi",
+    "Instagram",
+    "Meta Audience Network",
+    "Supersonic",
+    "TikTok",
+    "Unity",
+    "Vungle",
+    "Youtube"
+  ],
+  "ad_units": [
+    {
+      "id": "d32e7162a78f03ed",
+      "app_id": "68702aaeb9de50fc5fc2b7da",
+      "network": "Unity",
+      "phashion_group": "d32e7162a78f03ed",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-12",
+      "last_seen_at": "2026-01-08",
+      "creatives": [
+        {
+          "id": "d32e7162a78f03ed",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/44a8c79e9dda0255/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/44a8c79e9dda0255/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/44a8c79e9dda0255/thumb",
+          "video_duration": 53,
+          "width": 1080,
+          "height": 1920,
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "rewarded"
+      ],
+      "share": 0.706763,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.647325
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.19667
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.16265
+          ]
+        ],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 1,
+        "data": [
+          [
+            "65bb9bc515b20c137cbc15ee",
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "id": "5892680242d52e4c",
+      "app_id": "68702aaeb9de50fc5fc2b7da",
+      "network": "Unity",
+      "phashion_group": "5892680242d52e4c",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-10",
+      "last_seen_at": "2025-12-18",
+      "creatives": [
+        {
+          "id": "5892680242d52e4c",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/cf14defe78802ff4/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/cf14defe78802ff4/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/cf14defe78802ff4/thumb",
+          "video_duration": 41,
+          "width": 720,
+          "height": 1280,
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "rewarded"
+      ],
+      "share": 0.071494,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.371803
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.482242
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.060894
+          ]
+        ],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 1,
+        "data": [
+          [
+            "65bb9bc515b20c137cbc15ee",
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "id": "29ba6e1806dfe592",
+      "app_id": "68702aaeb9de50fc5fc2b7da",
+      "network": "Unity",
+      "phashion_group": "29ba6e1806dfe592",
+      "ad_type": "video",
+      "first_seen_at": "2025-10-28",
+      "last_seen_at": "2026-01-02",
+      "creatives": [
+        {
+          "id": "29ba6e1806dfe592",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/be3cd8e43c8ae42a/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/be3cd8e43c8ae42a/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/be3cd8e43c8ae42a/thumb",
+          "video_duration": 41,
+          "width": 720,
+          "height": 720,
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "rewarded"
+      ],
+      "share": 0.064175,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.303716
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.109559
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "720x720",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 1,
+        "data": [
+          [
+            "65bb9bc515b20c137cbc15ee",
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "id": "363c5f9a1be9c1c1",
+      "app_id": "68702aaeb9de50fc5fc2b7da",
+      "network": "Unity",
+      "phashion_group": "363c5f9a1be9c1c1",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-11",
+      "last_seen_at": "2025-12-24",
+      "creatives": [
+        {
+          "id": "363c5f9a1be9c1c1",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/a1bae96621bcc079/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/a1bae96621bcc079/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/a1bae96621bcc079/thumb",
+          "video_duration": 23,
+          "width": 720,
+          "height": 1280,
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "rewarded"
+      ],
+      "share": 0.042931,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.378236
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 1,
+        "data": [
+          [
+            "65bb9bc515b20c137cbc15ee",
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "id": "2d826b24f7b41f97",
+      "app_id": "68702aaeb9de50fc5fc2b7da",
+      "network": "Unity",
+      "phashion_group": "2d826b24f7b41f97",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-20",
+      "last_seen_at": "2026-01-08",
+      "creatives": [
+        {
+          "id": "2d826b24f7b41f97",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/ba04ddd8cde11e2f/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/ba04ddd8cde11e2f/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/ba04ddd8cde11e2f/thumb",
+          "video_duration": 41,
+          "width": 720,
+          "height": 1280,
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "rewarded"
+      ],
+      "share": 0.035801,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.346144
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 1,
+        "data": [
+          [
+            "65bb9bc515b20c137cbc15ee",
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "id": "3f9d5d56ac058f33",
+      "app_id": "68702aaeb9de50fc5fc2b7da",
+      "network": "Unity",
+      "phashion_group": "3f9d5d56ac058f33",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-11",
+      "last_seen_at": "2026-01-04",
+      "creatives": [
+        {
+          "id": "3f9d5d56ac058f33",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/a81bebaa96508e8b/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/a81bebaa96508e8b/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/a81bebaa96508e8b/thumb",
+          "video_duration": 51,
+          "width": 720,
+          "height": 720,
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "rewarded"
+      ],
+      "share": 0.023344,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "720x720",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 1,
+        "data": [
+          [
+            "65bb9bc515b20c137cbc15ee",
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "id": "b77f2a16659c53fc",
+      "app_id": "68702aaeb9de50fc5fc2b7da",
+      "network": "Unity",
+      "phashion_group": "b77f2a16659c53fc",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-30",
+      "last_seen_at": "2025-12-11",
+      "creatives": [
+        {
+          "id": "b77f2a16659c53fc",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/20f99cea5fc95244/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/20f99cea5fc95244/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/20f99cea5fc95244/thumb",
+          "video_duration": 44,
+          "width": 720,
+          "height": 1280,
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "rewarded"
+      ],
+      "share": 0.021746,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 1,
+        "data": [
+          [
+            "65bb9bc515b20c137cbc15ee",
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "id": "126c2ebd617e4e91",
+      "app_id": "68702aaeb9de50fc5fc2b7da",
+      "network": "Unity",
+      "phashion_group": "126c2ebd617e4e91",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-12",
+      "last_seen_at": "2025-12-18",
+      "creatives": [
+        {
+          "id": "126c2ebd617e4e91",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/85ea98415b2b4f29/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/85ea98415b2b4f29/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/85ea98415b2b4f29/thumb",
+          "video_duration": 53,
+          "width": 720,
+          "height": 1280,
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "rewarded"
+      ],
+      "share": 0.014635,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 1,
+        "data": [
+          [
+            "65bb9bc515b20c137cbc15ee",
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "id": "11e879d5834cd7cd",
+      "app_id": "68702aaeb9de50fc5fc2b7da",
+      "network": "Unity",
+      "phashion_group": "11e879d5834cd7cd",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-12",
+      "last_seen_at": "2026-01-03",
+      "creatives": [
+        {
+          "id": "11e879d5834cd7cd",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/866ecf29b919d675/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/866ecf29b919d675/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/866ecf29b919d675/thumb",
+          "video_duration": 60,
+          "width": 720,
+          "height": 1280,
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "rewarded"
+      ],
+      "share": 0.007745,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 1,
+        "data": [
+          [
+            "65bb9bc515b20c137cbc15ee",
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "id": "e78a684ee9de3ee6",
+      "app_id": "68702aaeb9de50fc5fc2b7da",
+      "network": "Unity",
+      "phashion_group": "e78a684ee9de3ee6",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-27",
+      "last_seen_at": "2026-01-11",
+      "creatives": [
+        {
+          "id": "e78a684ee9de3ee6",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/700cdeb2d38b3f5e/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/700cdeb2d38b3f5e/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/700cdeb2d38b3f5e/thumb",
+          "video_duration": 23,
+          "width": 720,
+          "height": 720,
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "rewarded"
+      ],
+      "share": 0.004818,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "720x720",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 1,
+        "data": [
+          [
+            "65bb9bc515b20c137cbc15ee",
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "id": "48e6592cb2bccac3",
+      "app_id": "68702aaeb9de50fc5fc2b7da",
+      "network": "Unity",
+      "phashion_group": "48e6592cb2bccac3",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-30",
+      "last_seen_at": "2025-12-12",
+      "creatives": [
+        {
+          "id": "48e6592cb2bccac3",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/df60efd088e9cb7b/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/df60efd088e9cb7b/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/df60efd088e9cb7b/thumb",
+          "video_duration": 25,
+          "width": 720,
+          "height": 1280,
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "rewarded"
+      ],
+      "share": 0.003361,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 1,
+        "data": [
+          [
+            "65bb9bc515b20c137cbc15ee",
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "id": "cd9e5733ee237847",
+      "app_id": "68702aaeb9de50fc5fc2b7da",
+      "network": "Unity",
+      "phashion_group": "cd9e5733ee237847",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-28",
+      "last_seen_at": "2025-12-14",
+      "creatives": [
+        {
+          "id": "cd9e5733ee237847",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/5a18e1cfd47679ff/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/5a18e1cfd47679ff/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/5a18e1cfd47679ff/thumb",
+          "video_duration": 42,
+          "width": 720,
+          "height": 1280,
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "rewarded"
+      ],
+      "share": 0.003189,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            1.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 1,
+        "data": [
+          [
+            "65bb9bc515b20c137cbc15ee",
+            1
+          ]
+        ]
+      }
+    }
+  ]
+}

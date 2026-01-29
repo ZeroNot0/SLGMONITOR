@@ -1,0 +1,1083 @@
+{
+  "count": 15,
+  "available_networks": [
+    "Admob",
+    "Applovin",
+    "Facebook",
+    "Instagram",
+    "Meta Audience Network",
+    "TikTok",
+    "Unity",
+    "Youtube"
+  ],
+  "ad_units": [
+    {
+      "id": "6e5ad589835db31f",
+      "app_id": "55c5233d02ac64f9c00029f3",
+      "network": "Applovin",
+      "phashion_group": "6e5ad589835db31f",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-29",
+      "last_seen_at": "2026-01-12",
+      "creatives": [
+        {
+          "id": "6e5ad589835db31f",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/e53c9f359a5f24c2/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/e53c9f359a5f24c2/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/e53c9f359a5f24c2/thumb",
+          "video_duration": 60,
+          "width": 720,
+          "height": 1280,
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "rewarded"
+      ],
+      "share": 0.230266,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 1,
+        "data": [
+          [
+            "68788ae9403f1fd5572ade04",
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "id": "a42674fc2b0ae625",
+      "app_id": "55c5233d02ac64f9c00029f3",
+      "network": "Applovin",
+      "phashion_group": "a42674fc2b0ae625",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-17",
+      "last_seen_at": "2026-01-28",
+      "creatives": [
+        {
+          "id": "a42674fc2b0ae625",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2f403e40320871f8/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2f403e40320871f8/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2f403e40320871f8/thumb",
+          "video_duration": 59,
+          "width": 720,
+          "height": 1280,
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "rewarded"
+      ],
+      "share": 0.207563,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.438404
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 2,
+        "data": [
+          [
+            "5fcaf8ace9bbdb401d914cb5",
+            0.695215
+          ],
+          [
+            "5f379d5dfacc786b93e82be7",
+            0.304785
+          ]
+        ]
+      }
+    },
+    {
+      "id": "a55da4c07bf7fe6a",
+      "app_id": "55c5233d02ac64f9c00029f3",
+      "network": "Applovin",
+      "phashion_group": "a55da4c07bf7fe6a",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-29",
+      "last_seen_at": "2026-01-26",
+      "creatives": [
+        {
+          "id": "a55da4c07bf7fe6a",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2e3bee7c62f569b7/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2e3bee7c62f569b7/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2e3bee7c62f569b7/thumb",
+          "video_duration": 60,
+          "width": 720,
+          "height": 1280,
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "rewarded"
+      ],
+      "share": 0.167425,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 1,
+        "data": [
+          [
+            "68788ae9403f1fd5572ade04",
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "id": "6cb3fd47bf08c7cd",
+      "app_id": "55c5233d02ac64f9c00029f3",
+      "network": "Applovin",
+      "phashion_group": "6cb3fd47bf08c7cd",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-17",
+      "last_seen_at": "2026-01-28",
+      "creatives": [
+        {
+          "id": "6cb3fd47bf08c7cd",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/e7d5b7fba60a5010/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/e7d5b7fba60a5010/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/e7d5b7fba60a5010/thumb",
+          "video_duration": 60,
+          "width": 720,
+          "height": 1280,
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "rewarded"
+      ],
+      "share": 0.157612,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.621233
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 2,
+        "data": [
+          [
+            "5f379d5dfacc786b93e82be7",
+            0.616815
+          ],
+          [
+            "685cc42382f7e9467051476b",
+            0.383185
+          ]
+        ]
+      }
+    },
+    {
+      "id": "cfff8c1db952b3d5",
+      "app_id": "55c5233d02ac64f9c00029f3",
+      "network": "Applovin",
+      "phashion_group": "cfff8c1db952b3d5",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-17",
+      "last_seen_at": "2026-01-26",
+      "creatives": [
+        {
+          "id": "cfff8c1db952b3d5",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4499c6a1a0502408/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4499c6a1a0502408/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4499c6a1a0502408/thumb",
+          "video_duration": 60,
+          "width": 720,
+          "height": 1280,
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "rewarded"
+      ],
+      "share": 0.111617,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 1,
+        "data": [
+          [
+            "68788ae9403f1fd5572ade04",
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "id": "936bad7038bd4304",
+      "app_id": "55c5233d02ac64f9c00029f3",
+      "network": "Applovin",
+      "phashion_group": "936bad7038bd4304",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-05",
+      "last_seen_at": "2026-01-26",
+      "creatives": [
+        {
+          "id": "936bad7038bd4304",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/180de7cc21bfd4d9/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/180de7cc21bfd4d9/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/180de7cc21bfd4d9/thumb",
+          "video_duration": 30,
+          "width": 720,
+          "height": 1280,
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "rewarded",
+        "interstitial"
+      ],
+      "share": 0.107459,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.307872
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 2,
+        "data": [
+          [
+            "636c4e26080e980fa381a2b9",
+            0.764601
+          ],
+          [
+            "5a72671d0dc0bc69efd2cad4",
+            0.235399
+          ]
+        ]
+      }
+    },
+    {
+      "id": "c018ec9e83eb15e6",
+      "app_id": "55c5233d02ac64f9c00029f3",
+      "network": "Applovin",
+      "phashion_group": "c018ec9e83eb15e6",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-05",
+      "last_seen_at": "2026-01-22",
+      "creatives": [
+        {
+          "id": "c018ec9e83eb15e6",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4b7ea6229ae9823b/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4b7ea6229ae9823b/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4b7ea6229ae9823b/thumb",
+          "video_duration": 60,
+          "width": 720,
+          "height": 1280,
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "rewarded"
+      ],
+      "share": 0.018058,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 1,
+        "data": [
+          [
+            "61298fb033c4d633f9258426",
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "id": "c3247e4431e22e20",
+      "app_id": "55c5233d02ac64f9c00029f3",
+      "network": "TikTok",
+      "phashion_group": "c3247e4431e22e20",
+      "ad_type": "video",
+      "first_seen_at": "2025-09-08",
+      "last_seen_at": "2026-01-08",
+      "creatives": [
+        {
+          "id": "c3247e4431e22e20",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/47a1a787a079faae/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/47a1a787a079faae/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/47a1a787a079faae/thumb",
+          "video_duration": 26,
+          "width": 720,
+          "height": 1280,
+          "message": "Explore Monster Legends: A World of Epic Battles!"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "f36409f18c8af1e3",
+      "app_id": "55c5233d02ac64f9c00029f3",
+      "network": "TikTok",
+      "phashion_group": "f36409f18c8af1e3",
+      "ad_type": "video",
+      "first_seen_at": "2025-09-08",
+      "last_seen_at": "2026-01-12",
+      "creatives": [
+        {
+          "id": "f36409f18c8af1e3",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/645705fa241c8bf6/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/645705fa241c8bf6/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/645705fa241c8bf6/thumb",
+          "video_duration": 30,
+          "width": 720,
+          "height": 1280,
+          "message": "Explore Monster Legends: A World of Epic Battles!"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "e221d74f1e687647",
+      "app_id": "55c5233d02ac64f9c00029f3",
+      "network": "TikTok",
+      "phashion_group": "e221d74f1e687647",
+      "ad_type": "video",
+      "first_seen_at": "2025-09-06",
+      "last_seen_at": "2026-01-12",
+      "creatives": [
+        {
+          "id": "e221d74f1e687647",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/66a40e8c8ff3a2c9/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/66a40e8c8ff3a2c9/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/66a40e8c8ff3a2c9/thumb",
+          "video_duration": 30,
+          "width": 720,
+          "height": 1280,
+          "message": "Explore Monster Legends: A World of Epic Battles!"
+        },
+        {
+          "id": "edcfa957f923de63",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/66a40e8c8ff3a2c9/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/66a40e8c8ff3a2c9/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/66a40e8c8ff3a2c9/thumb",
+          "video_duration": 30,
+          "width": 720,
+          "height": 1280,
+          "message": "Explore Monster Evolution: Train Your Creatures to Dominate"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "04bc254843ed36a8",
+      "app_id": "55c5233d02ac64f9c00029f3",
+      "network": "TikTok",
+      "phashion_group": "04bc254843ed36a8",
+      "ad_type": "video",
+      "first_seen_at": "2025-09-06",
+      "last_seen_at": "2026-01-12",
+      "creatives": [
+        {
+          "id": "04bc254843ed36a8",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/8039fc8bd276e226/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/8039fc8bd276e226/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/8039fc8bd276e226/thumb",
+          "video_duration": 26,
+          "width": 720,
+          "height": 1280,
+          "message": "Explore Monster Legends: A World of Epic Battles!"
+        },
+        {
+          "id": "0b525b50a4a69e8c",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/8039fc8bd276e226/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/8039fc8bd276e226/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/8039fc8bd276e226/thumb",
+          "video_duration": 26,
+          "width": 720,
+          "height": 1280,
+          "message": "Explore Monster Evolution: Train Your Creatures to Dominate"
+        },
+        {
+          "id": "18e48e989dab3017",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/8039fc8bd276e226/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/8039fc8bd276e226/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/8039fc8bd276e226/thumb",
+          "video_duration": 26,
+          "width": 720,
+          "height": 1280,
+          "message": "Explore Monster Evolution: Train Your Creatures to Dominate"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "0fd07fea7691f553",
+      "app_id": "55c5233d02ac64f9c00029f3",
+      "network": "TikTok",
+      "phashion_group": "0fd07fea7691f553",
+      "ad_type": "video",
+      "first_seen_at": "2025-09-06",
+      "last_seen_at": "2026-01-12",
+      "creatives": [
+        {
+          "id": "0fd07fea7691f553",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/84bbd831004189f9/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/84bbd831004189f9/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/84bbd831004189f9/thumb",
+          "video_duration": 26,
+          "width": 720,
+          "height": 1280,
+          "message": "Explore Monster Evolution: Train Your Creatures to Dominate"
+        },
+        {
+          "id": "1c66aa224f9c5bc8",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/84bbd831004189f9/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/84bbd831004189f9/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/84bbd831004189f9/thumb",
+          "video_duration": 26,
+          "width": 720,
+          "height": 1280,
+          "message": "Explore Monster Evolution: Train Your Creatures to Dominate"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "05551933d19d67a8",
+      "app_id": "55c5233d02ac64f9c00029f3",
+      "network": "TikTok",
+      "phashion_group": "05551933d19d67a8",
+      "ad_type": "video",
+      "first_seen_at": "2025-09-06",
+      "last_seen_at": "2026-01-12",
+      "creatives": [
+        {
+          "id": "05551933d19d67a8",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/8e3ebee8a74d1b02/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/8e3ebee8a74d1b02/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/8e3ebee8a74d1b02/thumb",
+          "video_duration": 30,
+          "width": 720,
+          "height": 1280,
+          "message": "Explore Monster Evolution: Train Your Creatures to Dominate"
+        },
+        {
+          "id": "0abb672b36d6cf8c",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/8e3ebee8a74d1b02/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/8e3ebee8a74d1b02/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/8e3ebee8a74d1b02/thumb",
+          "video_duration": 30,
+          "width": 720,
+          "height": 1280,
+          "message": "Explore Monster Legends: A World of Epic Battles!"
+        },
+        {
+          "id": "16e3ccfbe890c933",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/8e3ebee8a74d1b02/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/8e3ebee8a74d1b02/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/8e3ebee8a74d1b02/thumb",
+          "video_duration": 30,
+          "width": 720,
+          "height": 1280,
+          "message": "Explore Monster Evolution: Train Your Creatures to Dominate"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "4031e28a06280d00",
+      "app_id": "55c5233d02ac64f9c00029f3",
+      "network": "TikTok",
+      "phashion_group": "4031e28a06280d00",
+      "ad_type": "video",
+      "first_seen_at": "2025-09-06",
+      "last_seen_at": "2026-01-12",
+      "creatives": [
+        {
+          "id": "4031e28a06280d00",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/d8ec909949f5df31/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/d8ec909949f5df31/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/d8ec909949f5df31/thumb",
+          "video_duration": 30,
+          "width": 720,
+          "height": 1280,
+          "message": "Explore Monster Evolution: Train Your Creatures to Dominate"
+        },
+        {
+          "id": "538737423f25a39b",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/d8ec909949f5df31/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/d8ec909949f5df31/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/d8ec909949f5df31/thumb",
+          "video_duration": 30,
+          "width": 720,
+          "height": 1280,
+          "message": "Explore Monster Evolution: Train Your Creatures to Dominate"
+        },
+        {
+          "id": "5c69495ad86e0bbf",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/d8ec909949f5df31/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/d8ec909949f5df31/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/d8ec909949f5df31/thumb",
+          "video_duration": 30,
+          "width": 720,
+          "height": 1280,
+          "message": "Explore Monster Legends: A World of Epic Battles!"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "6a4ccdab83ddd40c",
+      "app_id": "55c5233d02ac64f9c00029f3",
+      "network": "TikTok",
+      "phashion_group": "6a4ccdab83ddd40c",
+      "ad_type": "video",
+      "first_seen_at": "2025-09-06",
+      "last_seen_at": "2026-01-12",
+      "creatives": [
+        {
+          "id": "6a4ccdab83ddd40c",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/e1276a70f50da8a6/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/e1276a70f50da8a6/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/e1276a70f50da8a6/thumb",
+          "video_duration": 30,
+          "width": 720,
+          "height": 1280,
+          "message": "Explore Monster Evolution: Train Your Creatures to Dominate"
+        },
+        {
+          "id": "7614667b5d9bd2b3",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/e1276a70f50da8a6/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/e1276a70f50da8a6/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/e1276a70f50da8a6/thumb",
+          "video_duration": 30,
+          "width": 720,
+          "height": 1280,
+          "message": "Explore Monster Legends: A World of Epic Battles!"
+        },
+        {
+          "id": "79fa1863bad07a97",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/e1276a70f50da8a6/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/e1276a70f50da8a6/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/e1276a70f50da8a6/thumb",
+          "video_duration": 30,
+          "width": 720,
+          "height": 1280,
+          "message": "Explore Monster Evolution: Train Your Creatures to Dominate"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    }
+  ]
+}

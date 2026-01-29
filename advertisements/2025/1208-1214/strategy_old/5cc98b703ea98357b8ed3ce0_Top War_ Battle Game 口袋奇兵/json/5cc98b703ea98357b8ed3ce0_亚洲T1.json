@@ -1,0 +1,6393 @@
+{
+  "count": 1070,
+  "available_networks": [
+    "Admob",
+    "Applovin",
+    "BidMachine",
+    "Facebook",
+    "Instagram",
+    "Meta Audience Network",
+    "Moloco",
+    "Supersonic",
+    "TikTok",
+    "Vungle",
+    "Youtube"
+  ],
+  "ad_units": [
+    {
+      "id": "efb3860e79a11ee9",
+      "app_id": "5cc98b703ea98357b8ed3ce0",
+      "network": "Applovin",
+      "phashion_group": "efb3860e79a11ee9",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-25",
+      "last_seen_at": "2025-12-23",
+      "creatives": [
+        {
+          "id": "efb3860e79a11ee9",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/47e98c0f606178d1/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/47e98c0f606178d1/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/47e98c0f606178d1/thumb",
+          "video_duration": 39,
+          "width": 720,
+          "height": 1280,
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "rewarded",
+        "interstitial",
+        "other"
+      ],
+      "share": 0.14695,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.301476
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.62905
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.579708
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.474051
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.534629
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.996684
+          ]
+        ],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 13,
+        "data": [
+          [
+            "5e47c88584ba8f0ffc44d183",
+            0.275686
+          ],
+          [
+            "593841480211a63b60000a27",
+            0.25586
+          ],
+          [
+            "60d5ef80b3ae2707117ec25f",
+            0.108584
+          ],
+          [
+            "5919fd19ee05f407440011a7",
+            0.107447
+          ],
+          [
+            "55c500a002ac64f9c0001ee6",
+            0.077648
+          ],
+          [
+            "55de03dc02ac6453fd00cf27",
+            0.036942
+          ],
+          [
+            "58df12a60211a6acc4000e93",
+            0.021862
+          ],
+          [
+            "5b9ae557249f1f6f2828d0a9",
+            0.021862
+          ],
+          [
+            "61f2589ad6a1a37c2a983e16",
+            0.021862
+          ],
+          [
+            "5970c7470211a6f5930006e7",
+            0.021291
+          ],
+          [
+            "595af2650335d6788a000243",
+            0.019614
+          ],
+          [
+            "62dda88e1800973f6cb6b791",
+            0.019614
+          ],
+          [
+            "5e53656d53cf672bd6102c34",
+            0.011732
+          ]
+        ]
+      }
+    },
+    {
+      "id": "806a93d10fdab5d6",
+      "app_id": "5cc98b703ea98357b8ed3ce0",
+      "network": "Applovin",
+      "phashion_group": "806a93d10fdab5d6",
+      "ad_type": "video",
+      "first_seen_at": "2025-09-28",
+      "last_seen_at": "2026-01-23",
+      "creatives": [
+        {
+          "id": "806a93d10fdab5d6",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/283099d0161ad3ee/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/283099d0161ad3ee/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/283099d0161ad3ee/thumb",
+          "video_duration": 52,
+          "width": 720,
+          "height": 1280,
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "rewarded",
+        "interstitial",
+        "other"
+      ],
+      "share": 0.11393,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.812757
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.235603
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.152554
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.473079
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.964504
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.197543
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            1.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 12,
+        "data": [
+          [
+            "55c500a002ac64f9c0001ee6",
+            0.54138
+          ],
+          [
+            "60d5ef80b3ae2707117ec25f",
+            0.209125
+          ],
+          [
+            "5fcaf8ace9bbdb401d914cb5",
+            0.067038
+          ],
+          [
+            "6478d3edb3ae272847ad30f8",
+            0.035359
+          ],
+          [
+            "5f379d5dfacc786b93e82be7",
+            0.033584
+          ],
+          [
+            "5b9ae557249f1f6f2828d0a9",
+            0.028198
+          ],
+          [
+            "55d56a3a02ac64025000002e",
+            0.02768
+          ],
+          [
+            "5e47c88584ba8f0ffc44d183",
+            0.025321
+          ],
+          [
+            "62ad2a2538ca53700083675f",
+            0.025219
+          ],
+          [
+            "55d20e4302ac64ee730001ff",
+            0.004478
+          ],
+          [
+            "5e53656d53cf672bd6102c34",
+            0.002436
+          ],
+          [
+            "5919fd19ee05f407440011a7",
+            0.000182
+          ]
+        ]
+      }
+    },
+    {
+      "id": "33005204129b6e35",
+      "app_id": "5cc98b703ea98357b8ed3ce0",
+      "network": "Facebook",
+      "phashion_group": "33005204129b6e35",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-11",
+      "last_seen_at": "2026-01-16",
+      "creatives": [
+        {
+          "id": "33005204129b6e35",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/99e914b0212ecd9c/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/99e914b0212ecd9c/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/99e914b0212ecd9c/thumb",
+          "video_duration": 31,
+          "width": 1080,
+          "height": 1920,
+          "title": "Unleash Your Tactical Skills",
+          "button_text": "Play Game",
+          "message": "Casual war strategy with a worldwide player base."
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": 0.098224,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.953944
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "4925bf058d78558b",
+      "app_id": "5cc98b703ea98357b8ed3ce0",
+      "network": "Facebook",
+      "phashion_group": "4925bf058d78558b",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-03",
+      "last_seen_at": "2025-12-12",
+      "creatives": [
+        {
+          "id": "4925bf058d78558b",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/65b9dc6dab41b66f/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/65b9dc6dab41b66f/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/65b9dc6dab41b66f/thumb",
+          "video_duration": 52,
+          "width": 1080,
+          "height": 1350,
+          "title": "堅守策略，稱霸Top War",
+          "button_text": "Play Game",
+          "message": "簡單策略，無限樂趣"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": 0.088626,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.19108
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "1080x1350",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "7f73d7001af71472",
+      "app_id": "5cc98b703ea98357b8ed3ce0",
+      "network": "Youtube",
+      "phashion_group": "7f73d7001af71472",
+      "ad_type": "video",
+      "first_seen_at": "2025-10-14",
+      "last_seen_at": "2026-01-11",
+      "creatives": [
+        {
+          "id": "7f73d7001af71472",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/44a4df6a9a3d9e9e/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/44a4df6a9a3d9e9e/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/44a4df6a9a3d9e9e/thumb",
+          "video_duration": 57,
+          "width": 1280,
+          "height": 720,
+          "title": "トップウォー",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": 0.061856,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.912681
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "1280x720",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "4bab15c30a17a8ca",
+      "app_id": "5cc98b703ea98357b8ed3ce0",
+      "network": "Facebook",
+      "phashion_group": "4bab15c30a17a8ca",
+      "ad_type": "video",
+      "first_seen_at": "2025-10-22",
+      "last_seen_at": "2026-01-19",
+      "creatives": [
+        {
+          "id": "4bab15c30a17a8ca",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/9f9a4b54bb9c385b/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/9f9a4b54bb9c385b/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/9f9a4b54bb9c385b/thumb",
+          "video_duration": 63,
+          "width": 1080,
+          "height": 1920,
+          "title": "Stay true to strategy: Top War",
+          "button_text": "Install now",
+          "message": ""
+        },
+        {
+          "id": "e82a962d36eb83bb",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/9f9a4b54bb9c385b/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/9f9a4b54bb9c385b/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/9f9a4b54bb9c385b/thumb",
+          "video_duration": 63,
+          "width": 1080,
+          "height": 1920,
+          "title": "Stay true to strategy: Top War",
+          "button_text": "Play Game",
+          "message": "Fun with simple strategy"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": 0.050989,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            1.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "1215bda2834decfc",
+      "app_id": "5cc98b703ea98357b8ed3ce0",
+      "network": "Youtube",
+      "phashion_group": "1215bda2834decfc",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-05",
+      "last_seen_at": "2025-12-11",
+      "creatives": [
+        {
+          "id": "1215bda2834decfc",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/29c2b5c803876610/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/29c2b5c803876610/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/29c2b5c803876610/thumb",
+          "video_duration": 54,
+          "width": 1280,
+          "height": 720,
+          "title": "Top War: Battle Game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": 0.04851,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "1280x720",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "ecde42552ce06bf4",
+      "app_id": "5cc98b703ea98357b8ed3ce0",
+      "network": "Youtube",
+      "phashion_group": "ecde42552ce06bf4",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-05",
+      "last_seen_at": "2025-12-09",
+      "creatives": [
+        {
+          "id": "ecde42552ce06bf4",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/d7094a3fac2ae118/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/d7094a3fac2ae118/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/d7094a3fac2ae118/thumb",
+          "video_duration": 35,
+          "width": 1280,
+          "height": 720,
+          "title": "トップウォー",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": 0.044274,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "1280x720",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "40fea9564da8706e",
+      "app_id": "5cc98b703ea98357b8ed3ce0",
+      "network": "Youtube",
+      "phashion_group": "40fea9564da8706e",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-06",
+      "last_seen_at": "2025-12-24",
+      "creatives": [
+        {
+          "id": "40fea9564da8706e",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/7b29a13ccd62fa82/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/7b29a13ccd62fa82/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/7b29a13ccd62fa82/thumb",
+          "video_duration": 55,
+          "width": 1280,
+          "height": 720,
+          "title": "トップウォー",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": 0.033881,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.047663
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "1280x720",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "acbe2b2a728cc698",
+      "app_id": "5cc98b703ea98357b8ed3ce0",
+      "network": "Youtube",
+      "phashion_group": "acbe2b2a728cc698",
+      "ad_type": "video",
+      "first_seen_at": "2025-09-19",
+      "last_seen_at": "2026-01-28",
+      "creatives": [
+        {
+          "id": "acbe2b2a728cc698",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/97692340f2464c74/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/97692340f2464c74/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/97692340f2464c74/thumb",
+          "video_duration": 40,
+          "width": 1280,
+          "height": 720,
+          "title": "Top War: Battle Game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": 0.032212,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.845531
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "1280x720",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "9ea04a3b9703b0b0",
+      "app_id": "5cc98b703ea98357b8ed3ce0",
+      "network": "Youtube",
+      "phashion_group": "9ea04a3b9703b0b0",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-13",
+      "last_seen_at": "2025-12-13",
+      "creatives": [
+        {
+          "id": "9ea04a3b9703b0b0",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/a577425117c93a5c/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/a577425117c93a5c/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/a577425117c93a5c/thumb",
+          "video_duration": 34,
+          "width": 1280,
+          "height": 720,
+          "title": "トップウォー",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": 0.031235,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "1280x720",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "dac071d80e8a5f50",
+      "app_id": "5cc98b703ea98357b8ed3ce0",
+      "network": "Instagram",
+      "phashion_group": "dac071d80e8a5f50",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-09",
+      "last_seen_at": "2025-12-12",
+      "creatives": [
+        {
+          "id": "dac071d80e8a5f50",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/510edae12c36b1ce/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/510edae12c36b1ce/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/510edae12c36b1ce/thumb",
+          "video_duration": 57,
+          "width": 1080,
+          "height": 1920,
+          "title": "堅守策略，稱霸Top War",
+          "button_text": "Play Game",
+          "message": "全球玩家齊聚，輕鬆掌握戰爭策略"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": 0.029692,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.274026
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "f782d3bb5c642714",
+      "app_id": "5cc98b703ea98357b8ed3ce0",
+      "network": "Applovin",
+      "phashion_group": "f782d3bb5c642714",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-06",
+      "last_seen_at": "2025-12-22",
+      "creatives": [
+        {
+          "id": "f782d3bb5c642714",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/5fd8d9ba45a4412c/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/5fd8d9ba45a4412c/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/5fd8d9ba45a4412c/thumb",
+          "video_duration": 56,
+          "width": 720,
+          "height": 1280,
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "rewarded",
+        "other"
+      ],
+      "share": 0.02804,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.580852
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.089692
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.440829
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.353563
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 6,
+        "data": [
+          [
+            "55c500a002ac64f9c0001ee6",
+            0.425229
+          ],
+          [
+            "593f5ee95b004b0acd0011ba",
+            0.229143
+          ],
+          [
+            "5919fd19ee05f407440011a7",
+            0.121299
+          ],
+          [
+            "55d20e4302ac64ee730001ff",
+            0.115034
+          ],
+          [
+            "5fbf4235eaf95f4b0f53131f",
+            0.102792
+          ],
+          [
+            "5e47c88584ba8f0ffc44d183",
+            0.006502
+          ]
+        ]
+      }
+    },
+    {
+      "id": "c204c9a12974da57",
+      "app_id": "5cc98b703ea98357b8ed3ce0",
+      "network": "Youtube",
+      "phashion_group": "c204c9a12974da57",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-01",
+      "last_seen_at": "2025-12-10",
+      "creatives": [
+        {
+          "id": "c204c9a12974da57",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/f9d3c1cba9be50bb/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/f9d3c1cba9be50bb/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/f9d3c1cba9be50bb/thumb",
+          "video_duration": 49,
+          "width": 1280,
+          "height": 720,
+          "title": "トップウォー",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": 0.022144,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "1280x720",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "6ad25971821ac82e",
+      "app_id": "5cc98b703ea98357b8ed3ce0",
+      "network": "Youtube",
+      "phashion_group": "6ad25971821ac82e",
+      "ad_type": "video",
+      "first_seen_at": "2025-10-05",
+      "last_seen_at": "2026-01-25",
+      "creatives": [
+        {
+          "id": "6ad25971821ac82e",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/5105511b02d042c2/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/5105511b02d042c2/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/5105511b02d042c2/thumb",
+          "video_duration": 57,
+          "width": 1280,
+          "height": 720,
+          "title": "トップウォー",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": 0.017454,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "1280x720",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "9d6f2a4818cc61fd",
+      "app_id": "5cc98b703ea98357b8ed3ce0",
+      "network": "Youtube",
+      "phashion_group": "9d6f2a4818cc61fd",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-08",
+      "last_seen_at": "2025-12-08",
+      "creatives": [
+        {
+          "id": "9d6f2a4818cc61fd",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/52ec0497b3be1946/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/52ec0497b3be1946/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/52ec0497b3be1946/thumb",
+          "video_duration": 35,
+          "width": 1280,
+          "height": 720,
+          "title": "トップウォー",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": 0.017454,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "1280x720",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "0a16c78eb67fde11",
+      "app_id": "5cc98b703ea98357b8ed3ce0",
+      "network": "Youtube",
+      "phashion_group": "0a16c78eb67fde11",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-09",
+      "last_seen_at": "2025-12-09",
+      "creatives": [
+        {
+          "id": "0a16c78eb67fde11",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/31c1cfe436b554fd/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/31c1cfe436b554fd/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/31c1cfe436b554fd/thumb",
+          "video_duration": 26,
+          "width": 1280,
+          "height": 720,
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": 0.014758,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "1280x720",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "5c89940d65bf07de",
+      "app_id": "5cc98b703ea98357b8ed3ce0",
+      "network": "Youtube",
+      "phashion_group": "5c89940d65bf07de",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-09",
+      "last_seen_at": "2025-12-28",
+      "creatives": [
+        {
+          "id": "5c89940d65bf07de",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/675e9c67e5758d32/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/675e9c67e5758d32/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/675e9c67e5758d32/thumb",
+          "video_duration": 39,
+          "width": 1280,
+          "height": 720,
+          "title": "Top War: Battle Game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": 0.014758,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "1280x720",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "ef540234d8b14674",
+      "app_id": "5cc98b703ea98357b8ed3ce0",
+      "network": "Applovin",
+      "phashion_group": "ef540234d8b14674",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-10",
+      "last_seen_at": "2025-12-11",
+      "creatives": [
+        {
+          "id": "ef540234d8b14674",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/470e0835c171204c/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/470e0835c171204c/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/470e0835c171204c/thumb",
+          "video_duration": 56,
+          "width": 720,
+          "height": 1280,
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "interstitial"
+      ],
+      "share": 0.012927,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.420453
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 2,
+        "data": [
+          [
+            "55c500a002ac64f9c0001ee6",
+            0.704001
+          ],
+          [
+            "5919fd19ee05f407440011a7",
+            0.295999
+          ]
+        ]
+      }
+    },
+    {
+      "id": "ce3c4996b0e5b6ee",
+      "app_id": "5cc98b703ea98357b8ed3ce0",
+      "network": "Facebook",
+      "phashion_group": "ce3c4996b0e5b6ee",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-09",
+      "last_seen_at": "2025-12-12",
+      "creatives": [
+        {
+          "id": "ce3c4996b0e5b6ee",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/510edae12c36b1ce/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/510edae12c36b1ce/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/510edae12c36b1ce/thumb",
+          "video_duration": 57,
+          "width": 1080,
+          "height": 1920,
+          "title": "堅守策略，稱霸Top War",
+          "button_text": "Play Game",
+          "message": "全球玩家齊聚，輕鬆掌握戰爭策略"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": 0.012401,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "27fc6a4aacf4878b",
+      "app_id": "5cc98b703ea98357b8ed3ce0",
+      "network": "Instagram",
+      "phashion_group": "27fc6a4aacf4878b",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-11",
+      "last_seen_at": "2026-01-16",
+      "creatives": [
+        {
+          "id": "27fc6a4aacf4878b",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/99e914b0212ecd9c/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/99e914b0212ecd9c/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/99e914b0212ecd9c/thumb",
+          "video_duration": 31,
+          "width": 1080,
+          "height": 1920,
+          "title": "Unleash Your Tactical Skills",
+          "button_text": "Play Game",
+          "message": "Casual war strategy with a worldwide player base."
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": 0.011304,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "0c49371cb182ea1b",
+      "app_id": "5cc98b703ea98357b8ed3ce0",
+      "network": "Applovin",
+      "phashion_group": "0c49371cb182ea1b",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-03",
+      "last_seen_at": "2026-01-18",
+      "creatives": [
+        {
+          "id": "0c49371cb182ea1b",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/a4133d1da8428c23/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/a4133d1da8428c23/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/a4133d1da8428c23/thumb",
+          "video_duration": 55,
+          "width": 720,
+          "height": 1280,
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "rewarded",
+        "interstitial",
+        "other"
+      ],
+      "share": 0.010777,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.419701
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.105494
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.372107
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.090836
+          ]
+        ],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 6,
+        "data": [
+          [
+            "593841480211a63b60000a27",
+            0.502983
+          ],
+          [
+            "5919fd19ee05f407440011a7",
+            0.211102
+          ],
+          [
+            "5e47c88584ba8f0ffc44d183",
+            0.153122
+          ],
+          [
+            "55c502e802ac64f9c0001fed",
+            0.069756
+          ],
+          [
+            "5e53656d53cf672bd6102c34",
+            0.042024
+          ],
+          [
+            "5d5b97412abd3d12ef100cea",
+            0.021012
+          ]
+        ]
+      }
+    },
+    {
+      "id": "9030e954ed8e0a4b",
+      "app_id": "5cc98b703ea98357b8ed3ce0",
+      "network": "Instagram",
+      "phashion_group": "9030e954ed8e0a4b",
+      "ad_type": "video",
+      "first_seen_at": "2025-10-22",
+      "last_seen_at": "2026-01-19",
+      "creatives": [
+        {
+          "id": "9030e954ed8e0a4b",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/762d50470eec5d40/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/762d50470eec5d40/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/762d50470eec5d40/thumb",
+          "video_duration": 63,
+          "width": 1078,
+          "height": 1348,
+          "title": "Unleash Your Tactical Skills",
+          "button_text": "Play Game",
+          "message": "Join the addiction and see what's real."
+        },
+        {
+          "id": "c8382ebd83361757",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/762d50470eec5d40/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/762d50470eec5d40/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/762d50470eec5d40/thumb",
+          "video_duration": 63,
+          "width": 1078,
+          "height": 1348,
+          "title": "Unleash Your Tactical Skills",
+          "button_text": "Play Game",
+          "message": "Casual war strategy with a worldwide player base."
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": 0.009027,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "1078x1348",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "842c9f0a9fec4540",
+      "app_id": "5cc98b703ea98357b8ed3ce0",
+      "network": "Youtube",
+      "phashion_group": "842c9f0a9fec4540",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-08",
+      "last_seen_at": "2026-01-09",
+      "creatives": [
+        {
+          "id": "842c9f0a9fec4540",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1e0514656c78bdb0/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1e0514656c78bdb0/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1e0514656c78bdb0/thumb",
+          "video_duration": 37,
+          "width": 1280,
+          "height": 720,
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": 0.007441,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "1280x720",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "34a22426fd699ad2",
+      "app_id": "5cc98b703ea98357b8ed3ce0",
+      "network": "Applovin",
+      "phashion_group": "34a22426fd699ad2",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-02",
+      "last_seen_at": "2025-12-21",
+      "creatives": [
+        {
+          "id": "34a22426fd699ad2",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/9cf82e27e4a9fcea/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/9cf82e27e4a9fcea/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/9cf82e27e4a9fcea/thumb",
+          "video_duration": 56,
+          "width": 720,
+          "height": 1280,
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "rewarded",
+        "interstitial"
+      ],
+      "share": 0.006444,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.97942
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.256257
+          ]
+        ],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 3,
+        "data": [
+          [
+            "5919fd19ee05f407440011a7",
+            0.447292
+          ],
+          [
+            "55c500a002ac64f9c0001ee6",
+            0.438086
+          ],
+          [
+            "5e47c88584ba8f0ffc44d183",
+            0.114622
+          ]
+        ]
+      }
+    },
+    {
+      "id": "5dd9874b3317bc35",
+      "app_id": "5cc98b703ea98357b8ed3ce0",
+      "network": "Instagram",
+      "phashion_group": "5dd9874b3317bc35",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-03",
+      "last_seen_at": "2025-12-12",
+      "creatives": [
+        {
+          "id": "5dd9874b3317bc35",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/65b9dc6dab41b66f/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/65b9dc6dab41b66f/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/65b9dc6dab41b66f/thumb",
+          "video_duration": 52,
+          "width": 1080,
+          "height": 1350,
+          "title": "堅守策略，稱霸Top War",
+          "button_text": "Play Game",
+          "message": "簡單策略，無限樂趣"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": 0.005826,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "1080x1350",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "8c60df90c075dc63",
+      "app_id": "5cc98b703ea98357b8ed3ce0",
+      "network": "Applovin",
+      "phashion_group": "8c60df90c075dc63",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-10",
+      "last_seen_at": "2025-12-20",
+      "creatives": [
+        {
+          "id": "8c60df90c075dc63",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/243ad591d9b5ba5b/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/243ad591d9b5ba5b/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/243ad591d9b5ba5b/thumb",
+          "video_duration": 39,
+          "width": 720,
+          "height": 1280,
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "rewarded",
+        "interstitial"
+      ],
+      "share": 0.005635,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.083226
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.606215
+          ]
+        ],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 4,
+        "data": [
+          [
+            "5919fd19ee05f407440011a7",
+            0.511532
+          ],
+          [
+            "5e47c88584ba8f0ffc44d183",
+            0.41911
+          ],
+          [
+            "5e53656d53cf672bd6102c34",
+            0.049263
+          ],
+          [
+            "5d5b97412abd3d12ef100cea",
+            0.020095
+          ]
+        ]
+      }
+    },
+    {
+      "id": "3e0c94eed43b9ab1",
+      "app_id": "5cc98b703ea98357b8ed3ce0",
+      "network": "Applovin",
+      "phashion_group": "3e0c94eed43b9ab1",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-03",
+      "last_seen_at": "2025-12-12",
+      "creatives": [
+        {
+          "id": "3e0c94eed43b9ab1",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/96569eefcdfbfc89/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/96569eefcdfbfc89/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/96569eefcdfbfc89/thumb",
+          "video_duration": 37,
+          "width": 720,
+          "height": 1280,
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "rewarded"
+      ],
+      "share": 0.005603,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.033635
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 2,
+        "data": [
+          [
+            "60d5ef80b3ae2707117ec25f",
+            0.96746
+          ],
+          [
+            "5e47c88584ba8f0ffc44d183",
+            0.03254
+          ]
+        ]
+      }
+    },
+    {
+      "id": "7c57fd1cfedc6193",
+      "app_id": "5cc98b703ea98357b8ed3ce0",
+      "network": "Applovin",
+      "phashion_group": "7c57fd1cfedc6193",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-04",
+      "last_seen_at": "2025-12-21",
+      "creatives": [
+        {
+          "id": "7c57fd1cfedc6193",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/d40df71de71c07ab/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/d40df71de71c07ab/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/d40df71de71c07ab/thumb",
+          "video_duration": 36,
+          "width": 720,
+          "height": 1280,
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "rewarded",
+        "interstitial",
+        "other"
+      ],
+      "share": 0.004191,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.135568
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.289067
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.07437
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.059244
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 3,
+        "data": [
+          [
+            "60d5ef80b3ae2707117ec25f",
+            0.601669
+          ],
+          [
+            "5e47c88584ba8f0ffc44d183",
+            0.360312
+          ],
+          [
+            "55c502e802ac64f9c0001fed",
+            0.038019
+          ]
+        ]
+      }
+    },
+    {
+      "id": "1dcfec4c6d71a45a",
+      "app_id": "5cc98b703ea98357b8ed3ce0",
+      "network": "Youtube",
+      "phashion_group": "1dcfec4c6d71a45a",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-06",
+      "last_seen_at": "2026-01-24",
+      "creatives": [
+        {
+          "id": "1dcfec4c6d71a45a",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2618e426edbb2eb6/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2618e426edbb2eb6/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2618e426edbb2eb6/thumb",
+          "video_duration": 63,
+          "width": 1280,
+          "height": 720,
+          "title": "Top War: Battle Game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": 0.003721,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "1280x720",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "a7d39f523d8aa1cd",
+      "app_id": "5cc98b703ea98357b8ed3ce0",
+      "network": "Applovin",
+      "phashion_group": "a7d39f523d8aa1cd",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-03",
+      "last_seen_at": "2025-12-09",
+      "creatives": [
+        {
+          "id": "a7d39f523d8aa1cd",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0f899553244ac7f5/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0f899553244ac7f5/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0f899553244ac7f5/thumb",
+          "video_duration": 36,
+          "width": 720,
+          "height": 1280,
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "rewarded"
+      ],
+      "share": 0.003209,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 1,
+        "data": [
+          [
+            "62ad2a2538ca53700083675f",
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "id": "a987f92528277d8a",
+      "app_id": "5cc98b703ea98357b8ed3ce0",
+      "network": "Applovin",
+      "phashion_group": "a987f92528277d8a",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-14",
+      "last_seen_at": "2025-12-14",
+      "creatives": [
+        {
+          "id": "a987f92528277d8a",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/01ddf32431e71bb2/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/01ddf32431e71bb2/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/01ddf32431e71bb2/thumb",
+          "video_duration": 58,
+          "width": 720,
+          "height": 1280,
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "interstitial"
+      ],
+      "share": 0.003154,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            1.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 1,
+        "data": [
+          [
+            "5e53656d53cf672bd6102c34",
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "id": "d9017116396ea175",
+      "app_id": "5cc98b703ea98357b8ed3ce0",
+      "network": "Applovin",
+      "phashion_group": "d9017116396ea175",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-03",
+      "last_seen_at": "2025-12-18",
+      "creatives": [
+        {
+          "id": "d9017116396ea175",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/715b7b1720aec74d/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/715b7b1720aec74d/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/715b7b1720aec74d/thumb",
+          "video_duration": 31,
+          "width": 720,
+          "height": 1280,
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "rewarded",
+        "interstitial"
+      ],
+      "share": 0.002559,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.883364
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 2,
+        "data": [
+          [
+            "5e47c88584ba8f0ffc44d183",
+            0.911506
+          ],
+          [
+            "5d5b97412abd3d12ef100cea",
+            0.088494
+          ]
+        ]
+      }
+    },
+    {
+      "id": "86d760e99e7798bc",
+      "app_id": "5cc98b703ea98357b8ed3ce0",
+      "network": "Applovin",
+      "phashion_group": "86d760e99e7798bc",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-13",
+      "last_seen_at": "2026-01-02",
+      "creatives": [
+        {
+          "id": "86d760e99e7798bc",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2e8d6ae887b7fe84/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2e8d6ae887b7fe84/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2e8d6ae887b7fe84/thumb",
+          "video_duration": 31,
+          "width": 720,
+          "height": 1280,
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "interstitial"
+      ],
+      "share": 0.000453,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 1,
+        "data": [
+          [
+            "5e47c88584ba8f0ffc44d183",
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "id": "dae9a3ceb4597c7d",
+      "app_id": "5cc98b703ea98357b8ed3ce0",
+      "network": "Applovin",
+      "phashion_group": "dae9a3ceb4597c7d",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-12",
+      "last_seen_at": "2025-12-16",
+      "creatives": [
+        {
+          "id": "dae9a3ceb4597c7d",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/72b3a9cfad991a45/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/72b3a9cfad991a45/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/72b3a9cfad991a45/thumb",
+          "video_duration": 35,
+          "width": 720,
+          "height": 1280,
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "interstitial"
+      ],
+      "share": 0.00034,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 1,
+        "data": [
+          [
+            "5e53656d53cf672bd6102c34",
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "id": "aafe27323841490c",
+      "app_id": "5cc98b703ea98357b8ed3ce0",
+      "network": "Facebook",
+      "phashion_group": "aafe27323841490c",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-12",
+      "last_seen_at": "2025-12-14",
+      "creatives": [
+        {
+          "id": "aafe27323841490c",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/005d547c0f6aeb6e/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/005d547c0f6aeb6e/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/005d547c0f6aeb6e/thumb",
+          "video_duration": 34,
+          "width": 1080,
+          "height": 1350,
+          "title": "選對強化，無人能擋！🚀🔒",
+          "button_text": "Play Game",
+          "message": "以為輕鬆？先證明你能贏！🎮🥇"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1350",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "be021f7c862ea0b2",
+      "app_id": "5cc98b703ea98357b8ed3ce0",
+      "network": "Instagram",
+      "phashion_group": "be021f7c862ea0b2",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-12",
+      "last_seen_at": "2025-12-14",
+      "creatives": [
+        {
+          "id": "be021f7c862ea0b2",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/005d547c0f6aeb6e/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/005d547c0f6aeb6e/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/005d547c0f6aeb6e/thumb",
+          "video_duration": 34,
+          "width": 1080,
+          "height": 1350,
+          "title": "選對強化，無人能擋！🚀🔒",
+          "button_text": "Play Game",
+          "message": "以為輕鬆？先證明你能贏！🎮🥇"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1350",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "987cf446375958bd",
+      "app_id": "5cc98b703ea98357b8ed3ce0",
+      "network": "Meta Audience Network",
+      "phashion_group": "987cf446375958bd",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-12",
+      "last_seen_at": "2025-12-14",
+      "creatives": [
+        {
+          "id": "987cf446375958bd",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/005d547c0f6aeb6e/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/005d547c0f6aeb6e/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/005d547c0f6aeb6e/thumb",
+          "video_duration": 34,
+          "width": 1080,
+          "height": 1350,
+          "title": "選對強化，無人能擋！🚀🔒",
+          "button_text": "Play Game",
+          "message": "以為輕鬆？先證明你能贏！🎮🥇"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1350",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "4f31fa5333c18b4f",
+      "app_id": "5cc98b703ea98357b8ed3ce0",
+      "network": "Facebook",
+      "phashion_group": "4f31fa5333c18b4f",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-07",
+      "last_seen_at": "2025-12-18",
+      "creatives": [
+        {
+          "id": "4f31fa5333c18b4f",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/006a1ddc173512a8/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/006a1ddc173512a8/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/006a1ddc173512a8/thumb",
+          "video_duration": 40,
+          "width": 1080,
+          "height": 1350,
+          "title": "戦術と戦略で勝利を手にしよう！",
+          "button_text": "Play Game",
+          "message": "1000人以上のプレイヤーが同じ戦場で熱戦！"
+        },
+        {
+          "id": "aa835b682480b101",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/006a1ddc173512a8/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/006a1ddc173512a8/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/006a1ddc173512a8/thumb",
+          "video_duration": 40,
+          "width": 1080,
+          "height": 1350,
+          "title": "Unleash Your Tactical Skills",
+          "button_text": "Play Game",
+          "message": "Casual war strategy with a worldwide player base."
+        },
+        {
+          "id": "f28b9c814a38ac1d",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/006a1ddc173512a8/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/006a1ddc173512a8/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/006a1ddc173512a8/thumb",
+          "video_duration": 40,
+          "width": 1080,
+          "height": 1350,
+          "title": "Unleash Your Tactical Skills",
+          "button_text": "Play Game",
+          "message": "Join the addiction and see what's real."
+        },
+        {
+          "id": "ff9ac62daa7719b2",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/006a1ddc173512a8/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/006a1ddc173512a8/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/006a1ddc173512a8/thumb",
+          "video_duration": 40,
+          "width": 1080,
+          "height": 1350,
+          "title": "戦術と戦略で勝利を手にしよう！",
+          "button_text": "Play Game",
+          "message": "トップウォー：本物の戦略ゲーム"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1350",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "5bcdc21d8dae62f1",
+      "app_id": "5cc98b703ea98357b8ed3ce0",
+      "network": "Instagram",
+      "phashion_group": "5bcdc21d8dae62f1",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-07",
+      "last_seen_at": "2025-12-18",
+      "creatives": [
+        {
+          "id": "5bcdc21d8dae62f1",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/006a1ddc173512a8/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/006a1ddc173512a8/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/006a1ddc173512a8/thumb",
+          "video_duration": 40,
+          "width": 1080,
+          "height": 1350,
+          "title": "戦術と戦略で勝利を手にしよう！",
+          "button_text": "Play Game",
+          "message": "1000人以上のプレイヤーが同じ戦場で熱戦！"
+        },
+        {
+          "id": "be7f63269aef58bf",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/006a1ddc173512a8/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/006a1ddc173512a8/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/006a1ddc173512a8/thumb",
+          "video_duration": 40,
+          "width": 1080,
+          "height": 1350,
+          "title": "Unleash Your Tactical Skills",
+          "button_text": "Play Game",
+          "message": "Casual war strategy with a worldwide player base."
+        },
+        {
+          "id": "e677a4cff45745a3",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/006a1ddc173512a8/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/006a1ddc173512a8/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/006a1ddc173512a8/thumb",
+          "video_duration": 40,
+          "width": 1080,
+          "height": 1350,
+          "title": "Unleash Your Tactical Skills",
+          "button_text": "Play Game",
+          "message": "Join the addiction and see what's real."
+        },
+        {
+          "id": "eb66fe631418f00c",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/006a1ddc173512a8/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/006a1ddc173512a8/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/006a1ddc173512a8/thumb",
+          "video_duration": 40,
+          "width": 1080,
+          "height": 1350,
+          "title": "戦術と戦略で勝利を手にしよう！",
+          "button_text": "Play Game",
+          "message": "トップウォー：本物の戦略ゲーム"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1350",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "7db329273cd99afe",
+      "app_id": "5cc98b703ea98357b8ed3ce0",
+      "network": "Meta Audience Network",
+      "phashion_group": "7db329273cd99afe",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-07",
+      "last_seen_at": "2025-12-18",
+      "creatives": [
+        {
+          "id": "7db329273cd99afe",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/006a1ddc173512a8/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/006a1ddc173512a8/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/006a1ddc173512a8/thumb",
+          "video_duration": 40,
+          "width": 1080,
+          "height": 1350,
+          "title": "戦術と戦略で勝利を手にしよう！",
+          "button_text": "Play Game",
+          "message": "1000人以上のプレイヤーが同じ戦場で熱戦！"
+        },
+        {
+          "id": "9801881c2b98a0b0",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/006a1ddc173512a8/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/006a1ddc173512a8/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/006a1ddc173512a8/thumb",
+          "video_duration": 40,
+          "width": 1080,
+          "height": 1350,
+          "title": "Unleash Your Tactical Skills",
+          "button_text": "Play Game",
+          "message": "Casual war strategy with a worldwide player base."
+        },
+        {
+          "id": "c0094ff54520bdac",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/006a1ddc173512a8/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/006a1ddc173512a8/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/006a1ddc173512a8/thumb",
+          "video_duration": 40,
+          "width": 1080,
+          "height": 1350,
+          "title": "Unleash Your Tactical Skills",
+          "button_text": "Play Game",
+          "message": "Join the addiction and see what's real."
+        },
+        {
+          "id": "cd181559a56f0803",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/006a1ddc173512a8/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/006a1ddc173512a8/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/006a1ddc173512a8/thumb",
+          "video_duration": 40,
+          "width": 1080,
+          "height": 1350,
+          "title": "戦術と戦略で勝利を手にしよう！",
+          "button_text": "Play Game",
+          "message": "トップウォー：本物の戦略ゲーム"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1350",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "f2912c52a8278a47",
+      "app_id": "5cc98b703ea98357b8ed3ce0",
+      "network": "Facebook",
+      "phashion_group": "f2912c52a8278a47",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-02",
+      "last_seen_at": "2025-12-10",
+      "creatives": [
+        {
+          "id": "f2912c52a8278a47",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0070ad0ff52a34f2/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0070ad0ff52a34f2/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0070ad0ff52a34f2/thumb",
+          "video_duration": 51,
+          "width": 1080,
+          "height": 1920,
+          "title": "Stay true to strategy: Top War",
+          "button_text": "Play Game",
+          "message": "Join the addiction and see what's real."
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "e66d141c164863f9",
+      "app_id": "5cc98b703ea98357b8ed3ce0",
+      "network": "Instagram",
+      "phashion_group": "e66d141c164863f9",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-02",
+      "last_seen_at": "2025-12-10",
+      "creatives": [
+        {
+          "id": "e66d141c164863f9",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0070ad0ff52a34f2/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0070ad0ff52a34f2/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0070ad0ff52a34f2/thumb",
+          "video_duration": 51,
+          "width": 1080,
+          "height": 1920,
+          "title": "Stay true to strategy: Top War",
+          "button_text": "Play Game",
+          "message": "Join the addiction and see what's real."
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "c013ff26a73f9bf6",
+      "app_id": "5cc98b703ea98357b8ed3ce0",
+      "network": "Meta Audience Network",
+      "phashion_group": "c013ff26a73f9bf6",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-02",
+      "last_seen_at": "2025-12-10",
+      "creatives": [
+        {
+          "id": "c013ff26a73f9bf6",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0070ad0ff52a34f2/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0070ad0ff52a34f2/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0070ad0ff52a34f2/thumb",
+          "video_duration": 51,
+          "width": 1080,
+          "height": 1920,
+          "title": "Stay true to strategy: Top War",
+          "button_text": "Play Game",
+          "message": "Join the addiction and see what's real."
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "e2ac9d2e9962ea48",
+      "app_id": "5cc98b703ea98357b8ed3ce0",
+      "network": "TikTok",
+      "phashion_group": "e2ac9d2e9962ea48",
+      "ad_type": "video",
+      "first_seen_at": "2025-07-04",
+      "last_seen_at": "2025-12-20",
+      "creatives": [
+        {
+          "id": "e2ac9d2e9962ea48",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/011c992981d26cb2/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/011c992981d26cb2/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/011c992981d26cb2/thumb",
+          "video_duration": 41,
+          "width": 1080,
+          "height": 1920,
+          "message": "Join alliances and conquer the world together"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "f3d0fffe84bb8145",
+      "app_id": "5cc98b703ea98357b8ed3ce0",
+      "network": "Facebook",
+      "phashion_group": "f3d0fffe84bb8145",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-09",
+      "last_seen_at": "2025-12-16",
+      "creatives": [
+        {
+          "id": "f3d0fffe84bb8145",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/01317ea3d9b63ff0/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/01317ea3d9b63ff0/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/01317ea3d9b63ff0/thumb",
+          "video_duration": 37,
+          "width": 1080,
+          "height": 1350,
+          "title": "Stay true to strategy: Top War",
+          "button_text": "Play Game",
+          "message": "Join the addiction and see what's real."
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1350",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "e72cc7b03ad468fb",
+      "app_id": "5cc98b703ea98357b8ed3ce0",
+      "network": "Instagram",
+      "phashion_group": "e72cc7b03ad468fb",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-09",
+      "last_seen_at": "2025-12-16",
+      "creatives": [
+        {
+          "id": "e72cc7b03ad468fb",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/01317ea3d9b63ff0/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/01317ea3d9b63ff0/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/01317ea3d9b63ff0/thumb",
+          "video_duration": 37,
+          "width": 1080,
+          "height": 1350,
+          "title": "Stay true to strategy: Top War",
+          "button_text": "Play Game",
+          "message": "Join the addiction and see what's real."
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1350",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "c1522c8a8ba390f4",
+      "app_id": "5cc98b703ea98357b8ed3ce0",
+      "network": "Meta Audience Network",
+      "phashion_group": "c1522c8a8ba390f4",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-09",
+      "last_seen_at": "2025-12-16",
+      "creatives": [
+        {
+          "id": "c1522c8a8ba390f4",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/01317ea3d9b63ff0/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/01317ea3d9b63ff0/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/01317ea3d9b63ff0/thumb",
+          "video_duration": 37,
+          "width": 1080,
+          "height": 1350,
+          "title": "Stay true to strategy: Top War",
+          "button_text": "Play Game",
+          "message": "Join the addiction and see what's real."
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1350",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "a9f0b559d3ac4c7e",
+      "app_id": "5cc98b703ea98357b8ed3ce0",
+      "network": "Facebook",
+      "phashion_group": "a9f0b559d3ac4c7e",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-02",
+      "last_seen_at": "2025-12-21",
+      "creatives": [
+        {
+          "id": "a9f0b559d3ac4c7e",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0319f3ede019efd7/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0319f3ede019efd7/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0319f3ede019efd7/thumb",
+          "video_duration": 40,
+          "width": 1080,
+          "height": 1350,
+          "title": "Unleash Your Tactical Skills",
+          "button_text": "Play Game",
+          "message": "Casual war strategy with a worldwide player base."
+        },
+        {
+          "id": "f1f872b0bd145162",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0319f3ede019efd7/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0319f3ede019efd7/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0319f3ede019efd7/thumb",
+          "video_duration": 40,
+          "width": 1080,
+          "height": 1350,
+          "title": "Stay true to strategy: Top War",
+          "button_text": "Play Game",
+          "message": "Join the addiction and see what's real."
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1350",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "bd0c8d176dc3a5c0",
+      "app_id": "5cc98b703ea98357b8ed3ce0",
+      "network": "Instagram",
+      "phashion_group": "bd0c8d176dc3a5c0",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-02",
+      "last_seen_at": "2025-12-21",
+      "creatives": [
+        {
+          "id": "bd0c8d176dc3a5c0",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0319f3ede019efd7/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0319f3ede019efd7/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0319f3ede019efd7/thumb",
+          "video_duration": 40,
+          "width": 1080,
+          "height": 1350,
+          "title": "Unleash Your Tactical Skills",
+          "button_text": "Play Game",
+          "message": "Casual war strategy with a worldwide player base."
+        },
+        {
+          "id": "e5044afe037bb8dc",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0319f3ede019efd7/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0319f3ede019efd7/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0319f3ede019efd7/thumb",
+          "video_duration": 40,
+          "width": 1080,
+          "height": 1350,
+          "title": "Stay true to strategy: Top War",
+          "button_text": "Play Game",
+          "message": "Join the addiction and see what's real."
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1350",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "9b72662ddcb45dcf",
+      "app_id": "5cc98b703ea98357b8ed3ce0",
+      "network": "Meta Audience Network",
+      "phashion_group": "9b72662ddcb45dcf",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-02",
+      "last_seen_at": "2025-12-21",
+      "creatives": [
+        {
+          "id": "9b72662ddcb45dcf",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0319f3ede019efd7/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0319f3ede019efd7/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0319f3ede019efd7/thumb",
+          "video_duration": 40,
+          "width": 1080,
+          "height": 1350,
+          "title": "Unleash Your Tactical Skills",
+          "button_text": "Play Game",
+          "message": "Casual war strategy with a worldwide player base."
+        },
+        {
+          "id": "c37aa1c4b20c40d3",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0319f3ede019efd7/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0319f3ede019efd7/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0319f3ede019efd7/thumb",
+          "video_duration": 40,
+          "width": 1080,
+          "height": 1350,
+          "title": "Stay true to strategy: Top War",
+          "button_text": "Play Game",
+          "message": "Join the addiction and see what's real."
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1350",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "4c7e39ca28011068",
+      "app_id": "5cc98b703ea98357b8ed3ce0",
+      "network": "Facebook",
+      "phashion_group": "4c7e39ca28011068",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-08",
+      "last_seen_at": "2025-12-17",
+      "creatives": [
+        {
+          "id": "4c7e39ca28011068",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0325de450cf5898f/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0325de450cf5898f/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0325de450cf5898f/thumb",
+          "video_duration": 55,
+          "width": 1080,
+          "height": 1350,
+          "title": "世界中のプレイヤーと戦略を競い合え！",
+          "button_text": "Play Game",
+          "message": "1000人以上のプレイヤーが同じ戦場で熱戦！"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1350",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "58820184966ef9d6",
+      "app_id": "5cc98b703ea98357b8ed3ce0",
+      "network": "Instagram",
+      "phashion_group": "58820184966ef9d6",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-08",
+      "last_seen_at": "2025-12-17",
+      "creatives": [
+        {
+          "id": "58820184966ef9d6",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0325de450cf5898f/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0325de450cf5898f/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0325de450cf5898f/thumb",
+          "video_duration": 55,
+          "width": 1080,
+          "height": 1350,
+          "title": "世界中のプレイヤーと戦略を競い合え！",
+          "button_text": "Play Game",
+          "message": "1000人以上のプレイヤーが同じ戦場で熱戦！"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1350",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "7efceabe271901d9",
+      "app_id": "5cc98b703ea98357b8ed3ce0",
+      "network": "Meta Audience Network",
+      "phashion_group": "7efceabe271901d9",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-08",
+      "last_seen_at": "2025-12-17",
+      "creatives": [
+        {
+          "id": "7efceabe271901d9",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0325de450cf5898f/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0325de450cf5898f/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0325de450cf5898f/thumb",
+          "video_duration": 55,
+          "width": 1080,
+          "height": 1350,
+          "title": "世界中のプレイヤーと戦略を競い合え！",
+          "button_text": "Play Game",
+          "message": "1000人以上のプレイヤーが同じ戦場で熱戦！"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1350",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "75df89aa6efa46fb",
+      "app_id": "5cc98b703ea98357b8ed3ce0",
+      "network": "Facebook",
+      "phashion_group": "75df89aa6efa46fb",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-12",
+      "last_seen_at": "2025-12-14",
+      "creatives": [
+        {
+          "id": "75df89aa6efa46fb",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/04544bf6f9264a65/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/04544bf6f9264a65/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/04544bf6f9264a65/thumb",
+          "video_duration": 40,
+          "width": 1080,
+          "height": 1350,
+          "title": "看著簡單嗎？你贏一個試試！",
+          "button_text": "Play Game",
+          "message": "戰爭與休閒的極致融合 ⚔️😎"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1350",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "6123b1e4d095af45",
+      "app_id": "5cc98b703ea98357b8ed3ce0",
+      "network": "Instagram",
+      "phashion_group": "6123b1e4d095af45",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-12",
+      "last_seen_at": "2025-12-14",
+      "creatives": [
+        {
+          "id": "6123b1e4d095af45",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/04544bf6f9264a65/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/04544bf6f9264a65/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/04544bf6f9264a65/thumb",
+          "video_duration": 40,
+          "width": 1080,
+          "height": 1350,
+          "title": "看著簡單嗎？你贏一個試試！",
+          "button_text": "Play Game",
+          "message": "戰爭與休閒的極致融合 ⚔️😎"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1350",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "475d5ade61e2574a",
+      "app_id": "5cc98b703ea98357b8ed3ce0",
+      "network": "Meta Audience Network",
+      "phashion_group": "475d5ade61e2574a",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-12",
+      "last_seen_at": "2025-12-14",
+      "creatives": [
+        {
+          "id": "475d5ade61e2574a",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/04544bf6f9264a65/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/04544bf6f9264a65/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/04544bf6f9264a65/thumb",
+          "video_duration": 40,
+          "width": 1080,
+          "height": 1350,
+          "title": "看著簡單嗎？你贏一個試試！",
+          "button_text": "Play Game",
+          "message": "戰爭與休閒的極致融合 ⚔️😎"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1350",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "4b2c1b09dec9666e",
+      "app_id": "5cc98b703ea98357b8ed3ce0",
+      "network": "TikTok",
+      "phashion_group": "4b2c1b09dec9666e",
+      "ad_type": "video",
+      "first_seen_at": "2025-09-14",
+      "last_seen_at": "2026-01-14",
+      "creatives": [
+        {
+          "id": "4b2c1b09dec9666e",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/048abde3c237302a/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/048abde3c237302a/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/048abde3c237302a/thumb",
+          "video_duration": 56,
+          "width": 1080,
+          "height": 1920,
+          "message": "Over 100 Million Downloads Worldwide!"
+        },
+        {
+          "id": "65d13ffe7aa2930b",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/048abde3c237302a/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/048abde3c237302a/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/048abde3c237302a/thumb",
+          "video_duration": 56,
+          "width": 1080,
+          "height": 1920,
+          "message": "Can You Do Better?"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "16800d7e132a2e05",
+      "app_id": "5cc98b703ea98357b8ed3ce0",
+      "network": "TikTok",
+      "phashion_group": "16800d7e132a2e05",
+      "ad_type": "video",
+      "first_seen_at": "2025-09-05",
+      "last_seen_at": "2026-01-23",
+      "creatives": [
+        {
+          "id": "16800d7e132a2e05",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/04ab3465742509ef/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/04ab3465742509ef/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/04ab3465742509ef/thumb",
+          "video_duration": 49,
+          "width": 720,
+          "height": 1280,
+          "message": "Simple Swipes Can Win You Epic Battles"
+        },
+        {
+          "id": "cc5ec31e9f9495a3",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/04ab3465742509ef/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/04ab3465742509ef/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/04ab3465742509ef/thumb",
+          "video_duration": 49,
+          "width": 720,
+          "height": 1280,
+          "message": "Can you do better"
+        },
+        {
+          "id": "f79812eec7cf15d7",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/04ab3465742509ef/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/04ab3465742509ef/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/04ab3465742509ef/thumb",
+          "video_duration": 49,
+          "width": 720,
+          "height": 1280,
+          "message": "Merge, Swipe, and Crush Your Enemies"
+        },
+        {
+          "id": "f8901af1df9ed3d9",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/04ab3465742509ef/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/04ab3465742509ef/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/04ab3465742509ef/thumb",
+          "video_duration": 49,
+          "width": 720,
+          "height": 1280,
+          "message": "War Meets Casual Play"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "4b946bee2f42d397",
+      "app_id": "5cc98b703ea98357b8ed3ce0",
+      "network": "Facebook",
+      "phashion_group": "4b946bee2f42d397",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-12",
+      "last_seen_at": "2025-12-29",
+      "creatives": [
+        {
+          "id": "4b946bee2f42d397",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/04cf8c610bb64a70/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/04cf8c610bb64a70/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/04cf8c610bb64a70/thumb",
+          "video_duration": 37,
+          "width": 1080,
+          "height": 1350,
+          "title": "戦術と戦略で勝利を手にしよう！",
+          "button_text": "Play Game",
+          "message": "1000人以上のプレイヤーが同じ戦場で熱戦！"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1350",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "5f6853a0912d3a29",
+      "app_id": "5cc98b703ea98357b8ed3ce0",
+      "network": "Instagram",
+      "phashion_group": "5f6853a0912d3a29",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-12",
+      "last_seen_at": "2025-12-29",
+      "creatives": [
+        {
+          "id": "5f6853a0912d3a29",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/04cf8c610bb64a70/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/04cf8c610bb64a70/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/04cf8c610bb64a70/thumb",
+          "video_duration": 37,
+          "width": 1080,
+          "height": 1350,
+          "title": "戦術と戦略で勝利を手にしよう！",
+          "button_text": "Play Game",
+          "message": "1000人以上のプレイヤーが同じ戦場で熱戦！"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1350",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "7916b89a205ac226",
+      "app_id": "5cc98b703ea98357b8ed3ce0",
+      "network": "Meta Audience Network",
+      "phashion_group": "7916b89a205ac226",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-12",
+      "last_seen_at": "2025-12-29",
+      "creatives": [
+        {
+          "id": "7916b89a205ac226",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/04cf8c610bb64a70/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/04cf8c610bb64a70/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/04cf8c610bb64a70/thumb",
+          "video_duration": 37,
+          "width": 1080,
+          "height": 1350,
+          "title": "戦術と戦略で勝利を手にしよう！",
+          "button_text": "Play Game",
+          "message": "1000人以上のプレイヤーが同じ戦場で熱戦！"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1350",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "9a64430c4802cd14",
+      "app_id": "5cc98b703ea98357b8ed3ce0",
+      "network": "Facebook",
+      "phashion_group": "9a64430c4802cd14",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-09",
+      "last_seen_at": "2025-12-14",
+      "creatives": [
+        {
+          "id": "9a64430c4802cd14",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0556d07bd4d1ca34/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0556d07bd4d1ca34/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0556d07bd4d1ca34/thumb",
+          "video_duration": 51,
+          "width": 1080,
+          "height": 1350,
+          "title": "堅守策略，稱霸Top War",
+          "button_text": "Play Game",
+          "message": "全球玩家齊聚，輕鬆掌握戰爭策略"
+        },
+        {
+          "id": "aff5a335e3fa6856",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0556d07bd4d1ca34/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0556d07bd4d1ca34/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0556d07bd4d1ca34/thumb",
+          "video_duration": 51,
+          "width": 1080,
+          "height": 1350,
+          "title": "看著簡單嗎？你贏一個試試！",
+          "button_text": "Play Game",
+          "message": "以為輕鬆？先證明你能贏！🎮🥇"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1350",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "8e987b42f66d24aa",
+      "app_id": "5cc98b703ea98357b8ed3ce0",
+      "network": "Instagram",
+      "phashion_group": "8e987b42f66d24aa",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-09",
+      "last_seen_at": "2025-12-14",
+      "creatives": [
+        {
+          "id": "8e987b42f66d24aa",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0556d07bd4d1ca34/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0556d07bd4d1ca34/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0556d07bd4d1ca34/thumb",
+          "video_duration": 51,
+          "width": 1080,
+          "height": 1350,
+          "title": "堅守策略，稱霸Top War",
+          "button_text": "Play Game",
+          "message": "全球玩家齊聚，輕鬆掌握戰爭策略"
+        },
+        {
+          "id": "bb099b7b5d9581e8",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0556d07bd4d1ca34/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0556d07bd4d1ca34/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0556d07bd4d1ca34/thumb",
+          "video_duration": 51,
+          "width": 1080,
+          "height": 1350,
+          "title": "看著簡單嗎？你贏一個試試！",
+          "button_text": "Play Game",
+          "message": "以為輕鬆？先證明你能贏！🎮🥇"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1350",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "9d777041ece279e7",
+      "app_id": "5cc98b703ea98357b8ed3ce0",
+      "network": "Meta Audience Network",
+      "phashion_group": "9d777041ece279e7",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-09",
+      "last_seen_at": "2025-12-14",
+      "creatives": [
+        {
+          "id": "9d777041ece279e7",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0556d07bd4d1ca34/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0556d07bd4d1ca34/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0556d07bd4d1ca34/thumb",
+          "video_duration": 51,
+          "width": 1080,
+          "height": 1350,
+          "title": "看著簡單嗎？你贏一個試試！",
+          "button_text": "Play Game",
+          "message": "以為輕鬆？先證明你能贏！🎮🥇"
+        },
+        {
+          "id": "a8e69078471adca5",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0556d07bd4d1ca34/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0556d07bd4d1ca34/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0556d07bd4d1ca34/thumb",
+          "video_duration": 51,
+          "width": 1080,
+          "height": 1350,
+          "title": "堅守策略，稱霸Top War",
+          "button_text": "Play Game",
+          "message": "全球玩家齊聚，輕鬆掌握戰爭策略"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1350",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "17886ad409c6bab4",
+      "app_id": "5cc98b703ea98357b8ed3ce0",
+      "network": "TikTok",
+      "phashion_group": "17886ad409c6bab4",
+      "ad_type": "video",
+      "first_seen_at": "2025-07-12",
+      "last_seen_at": "2026-01-18",
+      "creatives": [
+        {
+          "id": "17886ad409c6bab4",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/05a353cf6ec99d5e/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/05a353cf6ec99d5e/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/05a353cf6ec99d5e/thumb",
+          "video_duration": 33,
+          "width": 720,
+          "height": 1280,
+          "message": "Simple Swipes Can Win You Epic Battles"
+        },
+        {
+          "id": "cd56a4b485780112",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/05a353cf6ec99d5e/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/05a353cf6ec99d5e/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/05a353cf6ec99d5e/thumb",
+          "video_duration": 33,
+          "width": 720,
+          "height": 1280,
+          "message": "Can you do better"
+        },
+        {
+          "id": "f6907544dd238166",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/05a353cf6ec99d5e/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/05a353cf6ec99d5e/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/05a353cf6ec99d5e/thumb",
+          "video_duration": 33,
+          "width": 720,
+          "height": 1280,
+          "message": "Merge, Swipe, and Crush Your Enemies"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "cd0a261c155888ba",
+      "app_id": "5cc98b703ea98357b8ed3ce0",
+      "network": "TikTok",
+      "phashion_group": "cd0a261c155888ba",
+      "ad_type": "video",
+      "first_seen_at": "2025-07-12",
+      "last_seen_at": "2026-01-12",
+      "creatives": [
+        {
+          "id": "cd0a261c155888ba",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/05ffd167fee914f6/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/05ffd167fee914f6/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/05ffd167fee914f6/thumb",
+          "video_duration": 31,
+          "width": 720,
+          "height": 1280,
+          "message": "Can you do better"
+        },
+        {
+          "id": "f6ccf7ec4d0308ce",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/05ffd167fee914f6/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/05ffd167fee914f6/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/05ffd167fee914f6/thumb",
+          "video_duration": 31,
+          "width": 720,
+          "height": 1280,
+          "message": "Merge, Swipe, and Crush Your Enemies"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "495434c5fcdf0b15",
+      "app_id": "5cc98b703ea98357b8ed3ce0",
+      "network": "Facebook",
+      "phashion_group": "495434c5fcdf0b15",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-12",
+      "last_seen_at": "2026-01-24",
+      "creatives": [
+        {
+          "id": "495434c5fcdf0b15",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/060fd34ad82b92f2/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/060fd34ad82b92f2/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/060fd34ad82b92f2/thumb",
+          "video_duration": 39,
+          "width": 1080,
+          "height": 1350,
+          "title": "世界中のプレイヤーと戦略を競い合え！",
+          "button_text": "Play Game",
+          "message": "1000人以上のプレイヤーが同じ戦場で熱戦！"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1350",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "5da80c8b42b0e2ab",
+      "app_id": "5cc98b703ea98357b8ed3ce0",
+      "network": "Instagram",
+      "phashion_group": "5da80c8b42b0e2ab",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-12",
+      "last_seen_at": "2026-01-24",
+      "creatives": [
+        {
+          "id": "5da80c8b42b0e2ab",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/060fd34ad82b92f2/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/060fd34ad82b92f2/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/060fd34ad82b92f2/thumb",
+          "video_duration": 39,
+          "width": 1080,
+          "height": 1350,
+          "title": "世界中のプレイヤーと戦略を競い合え！",
+          "button_text": "Play Game",
+          "message": "1000人以上のプレイヤーが同じ戦場で熱戦！"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1350",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "7bd6e7b1f3c71aa4",
+      "app_id": "5cc98b703ea98357b8ed3ce0",
+      "network": "Meta Audience Network",
+      "phashion_group": "7bd6e7b1f3c71aa4",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-12",
+      "last_seen_at": "2026-01-24",
+      "creatives": [
+        {
+          "id": "7bd6e7b1f3c71aa4",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/060fd34ad82b92f2/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/060fd34ad82b92f2/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/060fd34ad82b92f2/thumb",
+          "video_duration": 39,
+          "width": 1080,
+          "height": 1350,
+          "title": "世界中のプレイヤーと戦略を競い合え！",
+          "button_text": "Play Game",
+          "message": "1000人以上のプレイヤーが同じ戦場で熱戦！"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1350",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "71c21c2c3e0fbc88",
+      "app_id": "5cc98b703ea98357b8ed3ce0",
+      "network": "Facebook",
+      "phashion_group": "71c21c2c3e0fbc88",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-07",
+      "last_seen_at": "2025-12-15",
+      "creatives": [
+        {
+          "id": "71c21c2c3e0fbc88",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0672c155b3780768/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0672c155b3780768/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0672c155b3780768/thumb",
+          "video_duration": 56,
+          "width": 1080,
+          "height": 1350,
+          "title": "Unleash Your Tactical Skills",
+          "button_text": "Play Game",
+          "message": "Fun with simple strategy"
+        },
+        {
+          "id": "ac9b87e180cda4c1",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0672c155b3780768/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0672c155b3780768/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0672c155b3780768/thumb",
+          "video_duration": 56,
+          "width": 1080,
+          "height": 1350,
+          "title": "Unleash Your Tactical Skills",
+          "button_text": "Play Game",
+          "message": "Casual war strategy with a worldwide player base."
+        },
+        {
+          "id": "f4934008ee75b9dd",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0672c155b3780768/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0672c155b3780768/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0672c155b3780768/thumb",
+          "video_duration": 56,
+          "width": 1080,
+          "height": 1350,
+          "title": "Unleash Your Tactical Skills",
+          "button_text": "Play Game",
+          "message": "Join the addiction and see what's real."
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1350",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "653e246280605536",
+      "app_id": "5cc98b703ea98357b8ed3ce0",
+      "network": "Instagram",
+      "phashion_group": "653e246280605536",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-07",
+      "last_seen_at": "2025-12-15",
+      "creatives": [
+        {
+          "id": "653e246280605536",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0672c155b3780768/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0672c155b3780768/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0672c155b3780768/thumb",
+          "video_duration": 56,
+          "width": 1080,
+          "height": 1350,
+          "title": "Unleash Your Tactical Skills",
+          "button_text": "Play Game",
+          "message": "Fun with simple strategy"
+        },
+        {
+          "id": "b867bfaf3ea24d7f",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0672c155b3780768/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0672c155b3780768/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0672c155b3780768/thumb",
+          "video_duration": 56,
+          "width": 1080,
+          "height": 1350,
+          "title": "Unleash Your Tactical Skills",
+          "button_text": "Play Game",
+          "message": "Casual war strategy with a worldwide player base."
+        },
+        {
+          "id": "e06f7846501a5063",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0672c155b3780768/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0672c155b3780768/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0672c155b3780768/thumb",
+          "video_duration": 56,
+          "width": 1080,
+          "height": 1350,
+          "title": "Unleash Your Tactical Skills",
+          "button_text": "Play Game",
+          "message": "Join the addiction and see what's real."
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1350",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "4340cf583117ad39",
+      "app_id": "5cc98b703ea98357b8ed3ce0",
+      "network": "Meta Audience Network",
+      "phashion_group": "4340cf583117ad39",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-07",
+      "last_seen_at": "2025-12-15",
+      "creatives": [
+        {
+          "id": "4340cf583117ad39",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0672c155b3780768/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0672c155b3780768/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0672c155b3780768/thumb",
+          "video_duration": 56,
+          "width": 1080,
+          "height": 1350,
+          "title": "Unleash Your Tactical Skills",
+          "button_text": "Play Game",
+          "message": "Fun with simple strategy"
+        },
+        {
+          "id": "9e1954958fd5b570",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0672c155b3780768/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0672c155b3780768/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0672c155b3780768/thumb",
+          "video_duration": 56,
+          "width": 1080,
+          "height": 1350,
+          "title": "Unleash Your Tactical Skills",
+          "button_text": "Play Game",
+          "message": "Casual war strategy with a worldwide player base."
+        },
+        {
+          "id": "c611937ce16da86c",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0672c155b3780768/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0672c155b3780768/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0672c155b3780768/thumb",
+          "video_duration": 56,
+          "width": 1080,
+          "height": 1350,
+          "title": "Unleash Your Tactical Skills",
+          "button_text": "Play Game",
+          "message": "Join the addiction and see what's real."
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1350",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "57fe689163988eed",
+      "app_id": "5cc98b703ea98357b8ed3ce0",
+      "network": "Instagram",
+      "phashion_group": "57fe689163988eed",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-14",
+      "last_seen_at": "2025-12-25",
+      "creatives": [
+        {
+          "id": "57fe689163988eed",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/06d82c115e71cc74/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/06d82c115e71cc74/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/06d82c115e71cc74/thumb",
+          "video_duration": 57,
+          "width": 1080,
+          "height": 1350,
+          "title": "War Meets Casual Play ⚔️😎",
+          "button_text": "Play Game",
+          "message": "Think Casual? Try Winning First! 🎮🥇"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1350",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "99d287ad1d071d02",
+      "app_id": "5cc98b703ea98357b8ed3ce0",
+      "network": "Facebook",
+      "phashion_group": "99d287ad1d071d02",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-09",
+      "last_seen_at": "2025-12-14",
+      "creatives": [
+        {
+          "id": "99d287ad1d071d02",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/06e014da81d41a22/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/06e014da81d41a22/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/06e014da81d41a22/thumb",
+          "video_duration": 51,
+          "width": 1080,
+          "height": 1920,
+          "title": "釋放你的戰術本能",
+          "button_text": "Play Game",
+          "message": "全球玩家齊聚，輕鬆掌握戰爭策略"
+        },
+        {
+          "id": "f230c6407f3cc59e",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/06e014da81d41a22/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/06e014da81d41a22/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/06e014da81d41a22/thumb",
+          "video_duration": 51,
+          "width": 1080,
+          "height": 1920,
+          "title": "看著簡單嗎？你贏一個試試！",
+          "button_text": "Play Game",
+          "message": "合成、征服、再主宰戰場——盡在Top War"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "8d2ebfe3a368f4bc",
+      "app_id": "5cc98b703ea98357b8ed3ce0",
+      "network": "Instagram",
+      "phashion_group": "8d2ebfe3a368f4bc",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-09",
+      "last_seen_at": "2025-12-14",
+      "creatives": [
+        {
+          "id": "8d2ebfe3a368f4bc",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/06e014da81d41a22/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/06e014da81d41a22/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/06e014da81d41a22/thumb",
+          "video_duration": 51,
+          "width": 1080,
+          "height": 1920,
+          "title": "釋放你的戰術本能",
+          "button_text": "Play Game",
+          "message": "全球玩家齊聚，輕鬆掌握戰爭策略"
+        },
+        {
+          "id": "e6ccfe0ec1532c20",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/06e014da81d41a22/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/06e014da81d41a22/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/06e014da81d41a22/thumb",
+          "video_duration": 51,
+          "width": 1080,
+          "height": 1920,
+          "title": "看著簡單嗎？你贏一個試試！",
+          "button_text": "Play Game",
+          "message": "合成、征服、再主宰戰場——盡在Top War"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "ab5054d9121f0cb3",
+      "app_id": "5cc98b703ea98357b8ed3ce0",
+      "network": "Meta Audience Network",
+      "phashion_group": "ab5054d9121f0cb3",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-09",
+      "last_seen_at": "2025-12-14",
+      "creatives": [
+        {
+          "id": "ab5054d9121f0cb3",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/06e014da81d41a22/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/06e014da81d41a22/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/06e014da81d41a22/thumb",
+          "video_duration": 51,
+          "width": 1080,
+          "height": 1920,
+          "title": "釋放你的戰術本能",
+          "button_text": "Play Game",
+          "message": "全球玩家齊聚，輕鬆掌握戰爭策略"
+        },
+        {
+          "id": "c0b215347024d42f",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/06e014da81d41a22/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/06e014da81d41a22/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/06e014da81d41a22/thumb",
+          "video_duration": 51,
+          "width": 1080,
+          "height": 1920,
+          "title": "看著簡單嗎？你贏一個試試！",
+          "button_text": "Play Game",
+          "message": "合成、征服、再主宰戰場——盡在Top War"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "ad284848ba20f96d",
+      "app_id": "5cc98b703ea98357b8ed3ce0",
+      "network": "Facebook",
+      "phashion_group": "ad284848ba20f96d",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-08",
+      "last_seen_at": "2025-12-10",
+      "creatives": [
+        {
+          "id": "ad284848ba20f96d",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/07c10efc89955ac4/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/07c10efc89955ac4/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/07c10efc89955ac4/thumb",
+          "video_duration": 41,
+          "width": 1080,
+          "height": 1920,
+          "title": "Stay true to strategy: Top War",
+          "button_text": "Play Game",
+          "message": "Casual war strategy with a worldwide player base."
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "b9d47006044f10d3",
+      "app_id": "5cc98b703ea98357b8ed3ce0",
+      "network": "Instagram",
+      "phashion_group": "b9d47006044f10d3",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-08",
+      "last_seen_at": "2025-12-10",
+      "creatives": [
+        {
+          "id": "b9d47006044f10d3",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/07c10efc89955ac4/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/07c10efc89955ac4/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/07c10efc89955ac4/thumb",
+          "video_duration": 41,
+          "width": 1080,
+          "height": 1920,
+          "title": "Stay true to strategy: Top War",
+          "button_text": "Play Game",
+          "message": "Casual war strategy with a worldwide player base."
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "9faa9b3cb538e8dc",
+      "app_id": "5cc98b703ea98357b8ed3ce0",
+      "network": "Meta Audience Network",
+      "phashion_group": "9faa9b3cb538e8dc",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-08",
+      "last_seen_at": "2025-12-10",
+      "creatives": [
+        {
+          "id": "9faa9b3cb538e8dc",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/07c10efc89955ac4/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/07c10efc89955ac4/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/07c10efc89955ac4/thumb",
+          "video_duration": 41,
+          "width": 1080,
+          "height": 1920,
+          "title": "Stay true to strategy: Top War",
+          "button_text": "Play Game",
+          "message": "Casual war strategy with a worldwide player base."
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "691fab7e9947a2d0",
+      "app_id": "5cc98b703ea98357b8ed3ce0",
+      "network": "TikTok",
+      "phashion_group": "691fab7e9947a2d0",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-05",
+      "last_seen_at": "2026-01-26",
+      "creatives": [
+        {
+          "id": "691fab7e9947a2d0",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0844296321d201f1/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0844296321d201f1/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0844296321d201f1/thumb",
+          "video_duration": 57,
+          "width": 1080,
+          "height": 1920,
+          "message": "Can You Do Better?"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "fa82772e00678036",
+      "app_id": "5cc98b703ea98357b8ed3ce0",
+      "network": "Facebook",
+      "phashion_group": "fa82772e00678036",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-02",
+      "last_seen_at": "2025-12-08",
+      "creatives": [
+        {
+          "id": "fa82772e00678036",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0863f6735d6a3e83/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0863f6735d6a3e83/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0863f6735d6a3e83/thumb",
+          "video_duration": 56,
+          "width": 1080,
+          "height": 1350,
+          "title": "Unleash Your Tactical Skills",
+          "button_text": "Play Game",
+          "message": "Join the addiction and see what's real."
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1350",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "ee7e4f60be086988",
+      "app_id": "5cc98b703ea98357b8ed3ce0",
+      "network": "Instagram",
+      "phashion_group": "ee7e4f60be086988",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-02",
+      "last_seen_at": "2025-12-08",
+      "creatives": [
+        {
+          "id": "ee7e4f60be086988",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0863f6735d6a3e83/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0863f6735d6a3e83/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0863f6735d6a3e83/thumb",
+          "video_duration": 56,
+          "width": 1080,
+          "height": 1350,
+          "title": "Unleash Your Tactical Skills",
+          "button_text": "Play Game",
+          "message": "Join the addiction and see what's real."
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1350",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "c800a45a0f7f9187",
+      "app_id": "5cc98b703ea98357b8ed3ce0",
+      "network": "Meta Audience Network",
+      "phashion_group": "c800a45a0f7f9187",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-02",
+      "last_seen_at": "2025-12-08",
+      "creatives": [
+        {
+          "id": "c800a45a0f7f9187",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0863f6735d6a3e83/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0863f6735d6a3e83/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0863f6735d6a3e83/thumb",
+          "video_duration": 56,
+          "width": 1080,
+          "height": 1350,
+          "title": "Unleash Your Tactical Skills",
+          "button_text": "Play Game",
+          "message": "Join the addiction and see what's real."
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1350",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "ce1cd2d974159e46",
+      "app_id": "5cc98b703ea98357b8ed3ce0",
+      "network": "Facebook",
+      "phashion_group": "ce1cd2d974159e46",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-11",
+      "last_seen_at": "2025-12-31",
+      "creatives": [
+        {
+          "id": "ce1cd2d974159e46",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/08a86d961d5ca82b/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/08a86d961d5ca82b/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/08a86d961d5ca82b/thumb",
+          "video_duration": 45,
+          "width": 1080,
+          "height": 1920,
+          "title": "戦術と戦略で勝利を手にしよう！",
+          "button_text": "Play Game",
+          "message": "最高の戦略で世界を制覇せよ！"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "dae0ea97ca7a77f8",
+      "app_id": "5cc98b703ea98357b8ed3ce0",
+      "network": "Instagram",
+      "phashion_group": "dae0ea97ca7a77f8",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-11",
+      "last_seen_at": "2025-12-31",
+      "creatives": [
+        {
+          "id": "dae0ea97ca7a77f8",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/08a86d961d5ca82b/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/08a86d961d5ca82b/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/08a86d961d5ca82b/thumb",
+          "video_duration": 45,
+          "width": 1080,
+          "height": 1920,
+          "title": "戦術と戦略で勝利を手にしよう！",
+          "button_text": "Play Game",
+          "message": "最高の戦略で世界を制覇せよ！"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "fc9e01ad7b0d8ff7",
+      "app_id": "5cc98b703ea98357b8ed3ce0",
+      "network": "Meta Audience Network",
+      "phashion_group": "fc9e01ad7b0d8ff7",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-11",
+      "last_seen_at": "2025-12-31",
+      "creatives": [
+        {
+          "id": "fc9e01ad7b0d8ff7",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/08a86d961d5ca82b/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/08a86d961d5ca82b/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/08a86d961d5ca82b/thumb",
+          "video_duration": 45,
+          "width": 1080,
+          "height": 1920,
+          "title": "戦術と戦略で勝利を手にしよう！",
+          "button_text": "Play Game",
+          "message": "最高の戦略で世界を制覇せよ！"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "a22bf8cc23078142",
+      "app_id": "5cc98b703ea98357b8ed3ce0",
+      "network": "Facebook",
+      "phashion_group": "a22bf8cc23078142",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-09",
+      "last_seen_at": "2026-01-04",
+      "creatives": [
+        {
+          "id": "a22bf8cc23078142",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/08c2be7810b222eb/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/08c2be7810b222eb/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/08c2be7810b222eb/thumb",
+          "video_duration": 43,
+          "width": 1080,
+          "height": 1920,
+          "title": "Unleash Your Tactical Skills",
+          "button_text": "Play Game",
+          "message": "Casual war strategy with a worldwide player base."
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "b6d7c0829d6868fc",
+      "app_id": "5cc98b703ea98357b8ed3ce0",
+      "network": "Instagram",
+      "phashion_group": "b6d7c0829d6868fc",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-09",
+      "last_seen_at": "2026-01-04",
+      "creatives": [
+        {
+          "id": "b6d7c0829d6868fc",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/08c2be7810b222eb/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/08c2be7810b222eb/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/08c2be7810b222eb/thumb",
+          "video_duration": 43,
+          "width": 1080,
+          "height": 1920,
+          "title": "Unleash Your Tactical Skills",
+          "button_text": "Play Game",
+          "message": "Casual war strategy with a worldwide player base."
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "90a92bb82c1f90f3",
+      "app_id": "5cc98b703ea98357b8ed3ce0",
+      "network": "Meta Audience Network",
+      "phashion_group": "90a92bb82c1f90f3",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-09",
+      "last_seen_at": "2026-01-04",
+      "creatives": [
+        {
+          "id": "90a92bb82c1f90f3",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/08c2be7810b222eb/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/08c2be7810b222eb/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/08c2be7810b222eb/thumb",
+          "video_duration": 43,
+          "width": 1080,
+          "height": 1920,
+          "title": "Unleash Your Tactical Skills",
+          "button_text": "Play Game",
+          "message": "Casual war strategy with a worldwide player base."
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "cd89d0e9b1ed6af2",
+      "app_id": "5cc98b703ea98357b8ed3ce0",
+      "network": "TikTok",
+      "phashion_group": "cd89d0e9b1ed6af2",
+      "ad_type": "video",
+      "first_seen_at": "2025-09-16",
+      "last_seen_at": "2026-01-20",
+      "creatives": [
+        {
+          "id": "cd89d0e9b1ed6af2",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/099f2c3b967d8ef5/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/099f2c3b967d8ef5/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/099f2c3b967d8ef5/thumb",
+          "video_duration": 35,
+          "width": 720,
+          "height": 1280,
+          "message": "100m players and growing"
+        },
+        {
+          "id": "ed3352ec730d91db",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/099f2c3b967d8ef5/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/099f2c3b967d8ef5/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/099f2c3b967d8ef5/thumb",
+          "video_duration": 35,
+          "width": 720,
+          "height": 1280,
+          "message": "Can you do better"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "14322a72e32c66c1",
+      "app_id": "5cc98b703ea98357b8ed3ce0",
+      "network": "Facebook",
+      "phashion_group": "14322a72e32c66c1",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-09",
+      "last_seen_at": "2025-12-11",
+      "creatives": [
+        {
+          "id": "14322a72e32c66c1",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0a3d323a49524d94/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0a3d323a49524d94/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0a3d323a49524d94/thumb",
+          "video_duration": 52,
+          "width": 1078,
+          "height": 1348,
+          "title": "堅守策略，稱霸Top War",
+          "button_text": "Play Game",
+          "message": "上癮的戰場，才是真正的較量"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1078x1348",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "00ce123c5d438f7f",
+      "app_id": "5cc98b703ea98357b8ed3ce0",
+      "network": "Instagram",
+      "phashion_group": "00ce123c5d438f7f",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-09",
+      "last_seen_at": "2025-12-11",
+      "creatives": [
+        {
+          "id": "00ce123c5d438f7f",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0a3d323a49524d94/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0a3d323a49524d94/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0a3d323a49524d94/thumb",
+          "video_duration": 52,
+          "width": 1078,
+          "height": 1348,
+          "title": "堅守策略，稱霸Top War",
+          "button_text": "Play Game",
+          "message": "上癮的戰場，才是真正的較量"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1078x1348",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "26b0f906ec347770",
+      "app_id": "5cc98b703ea98357b8ed3ce0",
+      "network": "Meta Audience Network",
+      "phashion_group": "26b0f906ec347770",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-09",
+      "last_seen_at": "2025-12-11",
+      "creatives": [
+        {
+          "id": "26b0f906ec347770",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0a3d323a49524d94/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0a3d323a49524d94/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0a3d323a49524d94/thumb",
+          "video_duration": 52,
+          "width": 1078,
+          "height": 1348,
+          "title": "堅守策略，稱霸Top War",
+          "button_text": "Play Game",
+          "message": "上癮的戰場，才是真正的較量"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1078x1348",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "7d6e355ce129e128",
+      "app_id": "5cc98b703ea98357b8ed3ce0",
+      "network": "Facebook",
+      "phashion_group": "7d6e355ce129e128",
+      "ad_type": "video",
+      "first_seen_at": "2025-10-30",
+      "last_seen_at": "2025-12-25",
+      "creatives": [
+        {
+          "id": "7d6e355ce129e128",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0adee8256c5e5ac8/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0adee8256c5e5ac8/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0adee8256c5e5ac8/thumb",
+          "video_duration": 51,
+          "width": 1080,
+          "height": 1920,
+          "title": "Unleash Your Tactical Skills",
+          "button_text": "Play Game",
+          "message": "Fun with simple strategy"
+        },
+        {
+          "id": "f83f69783153e47d",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0adee8256c5e5ac8/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0adee8256c5e5ac8/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0adee8256c5e5ac8/thumb",
+          "video_duration": 51,
+          "width": 1080,
+          "height": 1920,
+          "title": "Stay true to strategy: Top War",
+          "button_text": "Play Game",
+          "message": "Join the addiction and see what's real."
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "69920d125f460896",
+      "app_id": "5cc98b703ea98357b8ed3ce0",
+      "network": "Instagram",
+      "phashion_group": "69920d125f460896",
+      "ad_type": "video",
+      "first_seen_at": "2025-10-30",
+      "last_seen_at": "2025-12-25",
+      "creatives": [
+        {
+          "id": "69920d125f460896",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0adee8256c5e5ac8/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0adee8256c5e5ac8/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0adee8256c5e5ac8/thumb",
+          "video_duration": 51,
+          "width": 1080,
+          "height": 1920,
+          "title": "Unleash Your Tactical Skills",
+          "button_text": "Play Game",
+          "message": "Fun with simple strategy"
+        },
+        {
+          "id": "ecc351368f3c0dc3",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0adee8256c5e5ac8/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0adee8256c5e5ac8/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0adee8256c5e5ac8/thumb",
+          "video_duration": 51,
+          "width": 1080,
+          "height": 1920,
+          "title": "Stay true to strategy: Top War",
+          "button_text": "Play Game",
+          "message": "Join the addiction and see what's real."
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "4fece628ee31f099",
+      "app_id": "5cc98b703ea98357b8ed3ce0",
+      "network": "Meta Audience Network",
+      "phashion_group": "4fece628ee31f099",
+      "ad_type": "video",
+      "first_seen_at": "2025-10-30",
+      "last_seen_at": "2025-12-25",
+      "creatives": [
+        {
+          "id": "4fece628ee31f099",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0adee8256c5e5ac8/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0adee8256c5e5ac8/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0adee8256c5e5ac8/thumb",
+          "video_duration": 51,
+          "width": 1080,
+          "height": 1920,
+          "title": "Unleash Your Tactical Skills",
+          "button_text": "Play Game",
+          "message": "Fun with simple strategy"
+        },
+        {
+          "id": "cabdba0c3e4bf5cc",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0adee8256c5e5ac8/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0adee8256c5e5ac8/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0adee8256c5e5ac8/thumb",
+          "video_duration": 51,
+          "width": 1080,
+          "height": 1920,
+          "title": "Stay true to strategy: Top War",
+          "button_text": "Play Game",
+          "message": "Join the addiction and see what's real."
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "4400141d9dd4177e",
+      "app_id": "5cc98b703ea98357b8ed3ce0",
+      "network": "Facebook",
+      "phashion_group": "4400141d9dd4177e",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-12",
+      "last_seen_at": "2025-12-19",
+      "creatives": [
+        {
+          "id": "4400141d9dd4177e",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0b5bf392b9208e99/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0b5bf392b9208e99/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0b5bf392b9208e99/thumb",
+          "video_duration": 38,
+          "width": 1080,
+          "height": 1350,
+          "title": "戦術と戦略で勝利を手にしよう！",
+          "button_text": "Play Game",
+          "message": "1000人以上のプレイヤーが同じ戦場で熱戦！"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1350",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "50fc2c5323bbfec0",
+      "app_id": "5cc98b703ea98357b8ed3ce0",
+      "network": "Instagram",
+      "phashion_group": "50fc2c5323bbfec0",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-12",
+      "last_seen_at": "2025-12-19",
+      "creatives": [
+        {
+          "id": "50fc2c5323bbfec0",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0b5bf392b9208e99/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0b5bf392b9208e99/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0b5bf392b9208e99/thumb",
+          "video_duration": 38,
+          "width": 1080,
+          "height": 1350,
+          "title": "戦術と戦略で勝利を手にしよう！",
+          "button_text": "Play Game",
+          "message": "1000人以上のプレイヤーが同じ戦場で熱戦！"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1350",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "7682c76992cc06cf",
+      "app_id": "5cc98b703ea98357b8ed3ce0",
+      "network": "Meta Audience Network",
+      "phashion_group": "7682c76992cc06cf",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-12",
+      "last_seen_at": "2025-12-19",
+      "creatives": [
+        {
+          "id": "7682c76992cc06cf",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0b5bf392b9208e99/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0b5bf392b9208e99/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0b5bf392b9208e99/thumb",
+          "video_duration": 38,
+          "width": 1080,
+          "height": 1350,
+          "title": "戦術と戦略で勝利を手にしよう！",
+          "button_text": "Play Game",
+          "message": "1000人以上のプレイヤーが同じ戦場で熱戦！"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1350",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    }
+  ]
+}

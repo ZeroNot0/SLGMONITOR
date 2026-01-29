@@ -1,0 +1,3910 @@
+{
+  "count": 486,
+  "available_networks": [
+    "Facebook",
+    "Instagram",
+    "Meta Audience Network"
+  ],
+  "ad_units": [
+    {
+      "id": "3df2b846c04fd321",
+      "app_id": "63dcc6e2b964155d936b84da",
+      "network": "Facebook",
+      "phashion_group": "3df2b846c04fd321",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-10",
+      "last_seen_at": "2025-12-12",
+      "creatives": [
+        {
+          "id": "3df2b846c04fd321",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/00870db9b23b3152/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/00870db9b23b3152/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/00870db9b23b3152/thumb",
+          "video_duration": 30,
+          "width": 1080,
+          "height": 1920,
+          "button_text": "Play Game",
+          "message": "🏰 Construa e gerencie a taverna dos seus sonhos! 🍻"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "89f1d20bde99b266",
+      "app_id": "63dcc6e2b964155d936b84da",
+      "network": "Instagram",
+      "phashion_group": "89f1d20bde99b266",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-10",
+      "last_seen_at": "2025-12-12",
+      "creatives": [
+        {
+          "id": "89f1d20bde99b266",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/00870db9b23b3152/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/00870db9b23b3152/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/00870db9b23b3152/thumb",
+          "video_duration": 30,
+          "width": 1080,
+          "height": 1920,
+          "button_text": "Play Game",
+          "message": "🏰 Construa e gerencie a taverna dos seus sonhos! 🍻"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "0f706b32cf57c290",
+      "app_id": "63dcc6e2b964155d936b84da",
+      "network": "Meta Audience Network",
+      "phashion_group": "0f706b32cf57c290",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-10",
+      "last_seen_at": "2025-12-12",
+      "creatives": [
+        {
+          "id": "0f706b32cf57c290",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/00870db9b23b3152/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/00870db9b23b3152/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/00870db9b23b3152/thumb",
+          "video_duration": 30,
+          "width": 1080,
+          "height": 1920,
+          "button_text": "Play Game",
+          "message": "🏰 Construa e gerencie a taverna dos seus sonhos! 🍻"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "3c6093af757fe657",
+      "app_id": "63dcc6e2b964155d936b84da",
+      "network": "Facebook",
+      "phashion_group": "3c6093af757fe657",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-10",
+      "last_seen_at": "2025-12-12",
+      "creatives": [
+        {
+          "id": "3c6093af757fe657",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/01152650070b0424/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/01152650070b0424/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/01152650070b0424/thumb",
+          "video_duration": 41,
+          "width": 1080,
+          "height": 1920,
+          "button_text": "Play Game",
+          "message": "🏰 Construa e gerencie a taverna dos seus sonhos! 🍻"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "8863f9e26ba98710",
+      "app_id": "63dcc6e2b964155d936b84da",
+      "network": "Instagram",
+      "phashion_group": "8863f9e26ba98710",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-10",
+      "last_seen_at": "2025-12-12",
+      "creatives": [
+        {
+          "id": "8863f9e26ba98710",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/01152650070b0424/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/01152650070b0424/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/01152650070b0424/thumb",
+          "video_duration": 41,
+          "width": 1080,
+          "height": 1920,
+          "button_text": "Play Game",
+          "message": "🏰 Construa e gerencie a taverna dos seus sonhos! 🍻"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "0ee240db7a67f7e6",
+      "app_id": "63dcc6e2b964155d936b84da",
+      "network": "Meta Audience Network",
+      "phashion_group": "0ee240db7a67f7e6",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-10",
+      "last_seen_at": "2025-12-12",
+      "creatives": [
+        {
+          "id": "0ee240db7a67f7e6",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/01152650070b0424/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/01152650070b0424/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/01152650070b0424/thumb",
+          "video_duration": 41,
+          "width": 1080,
+          "height": 1920,
+          "button_text": "Play Game",
+          "message": "🏰 Construa e gerencie a taverna dos seus sonhos! 🍻"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "3fcac43d7e1738c5",
+      "app_id": "63dcc6e2b964155d936b84da",
+      "network": "Facebook",
+      "phashion_group": "3fcac43d7e1738c5",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-07",
+      "last_seen_at": "2025-12-12",
+      "creatives": [
+        {
+          "id": "3fcac43d7e1738c5",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/02bf71c20c63dab6/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/02bf71c20c63dab6/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/02bf71c20c63dab6/thumb",
+          "video_duration": 17,
+          "width": 1920,
+          "height": 1080,
+          "button_text": "Play Game",
+          "message": "🏰 Construa e gerencie a taverna dos seus sonhos! 🍻"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1920x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "8bc9ae7060c15982",
+      "app_id": "63dcc6e2b964155d936b84da",
+      "network": "Instagram",
+      "phashion_group": "8bc9ae7060c15982",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-07",
+      "last_seen_at": "2025-12-12",
+      "creatives": [
+        {
+          "id": "8bc9ae7060c15982",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/02bf71c20c63dab6/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/02bf71c20c63dab6/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/02bf71c20c63dab6/thumb",
+          "video_duration": 17,
+          "width": 1920,
+          "height": 1080,
+          "button_text": "Play Game",
+          "message": "🏰 Construa e gerencie a taverna dos seus sonhos! 🍻"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1920x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "0d481749710f2974",
+      "app_id": "63dcc6e2b964155d936b84da",
+      "network": "Meta Audience Network",
+      "phashion_group": "0d481749710f2974",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-07",
+      "last_seen_at": "2025-12-12",
+      "creatives": [
+        {
+          "id": "0d481749710f2974",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/02bf71c20c63dab6/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/02bf71c20c63dab6/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/02bf71c20c63dab6/thumb",
+          "video_duration": 17,
+          "width": 1920,
+          "height": 1080,
+          "button_text": "Play Game",
+          "message": "🏰 Construa e gerencie a taverna dos seus sonhos! 🍻"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1920x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "355ab1289f99a530",
+      "app_id": "63dcc6e2b964155d936b84da",
+      "network": "Facebook",
+      "phashion_group": "355ab1289f99a530",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-10",
+      "last_seen_at": "2025-12-12",
+      "creatives": [
+        {
+          "id": "355ab1289f99a530",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/082f04d7eded4743/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/082f04d7eded4743/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/082f04d7eded4743/thumb",
+          "video_duration": 30,
+          "width": 1080,
+          "height": 1350,
+          "button_text": "Play Game",
+          "message": "🏰 Construa e gerencie a taverna dos seus sonhos! 🍻"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1350",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "8159db65814fc477",
+      "app_id": "63dcc6e2b964155d936b84da",
+      "network": "Instagram",
+      "phashion_group": "8159db65814fc477",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-10",
+      "last_seen_at": "2025-12-12",
+      "creatives": [
+        {
+          "id": "8159db65814fc477",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/082f04d7eded4743/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/082f04d7eded4743/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/082f04d7eded4743/thumb",
+          "video_duration": 30,
+          "width": 1080,
+          "height": 1350,
+          "button_text": "Play Game",
+          "message": "🏰 Construa e gerencie a taverna dos seus sonhos! 🍻"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1350",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "07d8625c9081b481",
+      "app_id": "63dcc6e2b964155d936b84da",
+      "network": "Meta Audience Network",
+      "phashion_group": "07d8625c9081b481",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-10",
+      "last_seen_at": "2025-12-12",
+      "creatives": [
+        {
+          "id": "07d8625c9081b481",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/082f04d7eded4743/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/082f04d7eded4743/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/082f04d7eded4743/thumb",
+          "video_duration": 30,
+          "width": 1080,
+          "height": 1350,
+          "button_text": "Play Game",
+          "message": "🏰 Construa e gerencie a taverna dos seus sonhos! 🍻"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1350",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "2b61242f67154d43",
+      "app_id": "63dcc6e2b964155d936b84da",
+      "network": "Facebook",
+      "phashion_group": "2b61242f67154d43",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-03",
+      "last_seen_at": "2025-12-12",
+      "creatives": [
+        {
+          "id": "2b61242f67154d43",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/083ab4960214090f/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/083ab4960214090f/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/083ab4960214090f/thumb",
+          "video_duration": 41,
+          "width": 1080,
+          "height": 1350,
+          "button_text": "Play Game",
+          "message": "🏰 ¡Construye y gestiona la taberna de tus sueños! 🍻"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1350",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "9f624e6279c32c04",
+      "app_id": "63dcc6e2b964155d936b84da",
+      "network": "Instagram",
+      "phashion_group": "9f624e6279c32c04",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-03",
+      "last_seen_at": "2025-12-12",
+      "creatives": [
+        {
+          "id": "9f624e6279c32c04",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/083ab4960214090f/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/083ab4960214090f/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/083ab4960214090f/thumb",
+          "video_duration": 41,
+          "width": 1080,
+          "height": 1350,
+          "button_text": "Play Game",
+          "message": "🏰 ¡Construye y gestiona la taberna de tus sueños! 🍻"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1350",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "19e3f75b680d5cf2",
+      "app_id": "63dcc6e2b964155d936b84da",
+      "network": "Meta Audience Network",
+      "phashion_group": "19e3f75b680d5cf2",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-03",
+      "last_seen_at": "2025-12-12",
+      "creatives": [
+        {
+          "id": "19e3f75b680d5cf2",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/083ab4960214090f/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/083ab4960214090f/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/083ab4960214090f/thumb",
+          "video_duration": 41,
+          "width": 1080,
+          "height": 1350,
+          "button_text": "Play Game",
+          "message": "🏰 ¡Construye y gestiona la taberna de tus sueños! 🍻"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1350",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "2bc42e570d17bf35",
+      "app_id": "63dcc6e2b964155d936b84da",
+      "network": "Facebook",
+      "phashion_group": "2bc42e570d17bf35",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-03",
+      "last_seen_at": "2025-12-12",
+      "creatives": [
+        {
+          "id": "2bc42e570d17bf35",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/089fbeee6816fb79/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/089fbeee6816fb79/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/089fbeee6816fb79/thumb",
+          "video_duration": 35,
+          "width": 1920,
+          "height": 1080,
+          "button_text": "Play Game",
+          "message": "🏰 ¡Construye y gestiona la taberna de tus sueños! 🍻"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1920x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "9fc7441a13c1de72",
+      "app_id": "63dcc6e2b964155d936b84da",
+      "network": "Instagram",
+      "phashion_group": "9fc7441a13c1de72",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-03",
+      "last_seen_at": "2025-12-12",
+      "creatives": [
+        {
+          "id": "9fc7441a13c1de72",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/089fbeee6816fb79/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/089fbeee6816fb79/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/089fbeee6816fb79/thumb",
+          "video_duration": 35,
+          "width": 1920,
+          "height": 1080,
+          "button_text": "Play Game",
+          "message": "🏰 ¡Construye y gestiona la taberna de tus sueños! 🍻"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1920x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "1946fd23020fae84",
+      "app_id": "63dcc6e2b964155d936b84da",
+      "network": "Meta Audience Network",
+      "phashion_group": "1946fd23020fae84",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-03",
+      "last_seen_at": "2025-12-12",
+      "creatives": [
+        {
+          "id": "1946fd23020fae84",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/089fbeee6816fb79/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/089fbeee6816fb79/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/089fbeee6816fb79/thumb",
+          "video_duration": 35,
+          "width": 1920,
+          "height": 1080,
+          "button_text": "Play Game",
+          "message": "🏰 ¡Construye y gestiona la taberna de tus sueños! 🍻"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1920x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "2ac6633831d1fa37",
+      "app_id": "63dcc6e2b964155d936b84da",
+      "network": "Facebook",
+      "phashion_group": "2ac6633831d1fa37",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-03",
+      "last_seen_at": "2025-12-12",
+      "creatives": [
+        {
+          "id": "2ac6633831d1fa37",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/099df38154d0be7b/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/099df38154d0be7b/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/099df38154d0be7b/thumb",
+          "video_duration": 57,
+          "width": 1920,
+          "height": 1080,
+          "button_text": "Play Game",
+          "message": "🏰 ¡Construye y gestiona la taberna de tus sueños! 🍻"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1920x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "9ec509752f079b70",
+      "app_id": "63dcc6e2b964155d936b84da",
+      "network": "Instagram",
+      "phashion_group": "9ec509752f079b70",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-03",
+      "last_seen_at": "2025-12-12",
+      "creatives": [
+        {
+          "id": "9ec509752f079b70",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/099df38154d0be7b/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/099df38154d0be7b/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/099df38154d0be7b/thumb",
+          "video_duration": 57,
+          "width": 1920,
+          "height": 1080,
+          "button_text": "Play Game",
+          "message": "🏰 ¡Construye y gestiona la taberna de tus sueños! 🍻"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1920x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "1844b04c3ec9eb86",
+      "app_id": "63dcc6e2b964155d936b84da",
+      "network": "Meta Audience Network",
+      "phashion_group": "1844b04c3ec9eb86",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-03",
+      "last_seen_at": "2025-12-12",
+      "creatives": [
+        {
+          "id": "1844b04c3ec9eb86",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/099df38154d0be7b/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/099df38154d0be7b/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/099df38154d0be7b/thumb",
+          "video_duration": 57,
+          "width": 1920,
+          "height": 1080,
+          "button_text": "Play Game",
+          "message": "🏰 ¡Construye y gestiona la taberna de tus sueños! 🍻"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1920x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "2fb4bd5da341ee0a",
+      "app_id": "63dcc6e2b964155d936b84da",
+      "network": "Facebook",
+      "phashion_group": "2fb4bd5da341ee0a",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-07",
+      "last_seen_at": "2025-12-12",
+      "creatives": [
+        {
+          "id": "2fb4bd5da341ee0a",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0cef2de4c640aa46/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0cef2de4c640aa46/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0cef2de4c640aa46/thumb",
+          "video_duration": 33,
+          "width": 1080,
+          "height": 1920,
+          "button_text": "Play Game",
+          "message": "🏰 ¡Construye y gestiona la taberna de tus sueños! 🍻"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "9bb7d710bd978f4d",
+      "app_id": "63dcc6e2b964155d936b84da",
+      "network": "Instagram",
+      "phashion_group": "9bb7d710bd978f4d",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-07",
+      "last_seen_at": "2025-12-12",
+      "creatives": [
+        {
+          "id": "9bb7d710bd978f4d",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0cef2de4c640aa46/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0cef2de4c640aa46/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0cef2de4c640aa46/thumb",
+          "video_duration": 33,
+          "width": 1080,
+          "height": 1920,
+          "button_text": "Play Game",
+          "message": "🏰 ¡Construye y gestiona la taberna de tus sueños! 🍻"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "1d366e29ac59ffbb",
+      "app_id": "63dcc6e2b964155d936b84da",
+      "network": "Meta Audience Network",
+      "phashion_group": "1d366e29ac59ffbb",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-07",
+      "last_seen_at": "2025-12-12",
+      "creatives": [
+        {
+          "id": "1d366e29ac59ffbb",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0cef2de4c640aa46/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0cef2de4c640aa46/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0cef2de4c640aa46/thumb",
+          "video_duration": 33,
+          "width": 1080,
+          "height": 1920,
+          "button_text": "Play Game",
+          "message": "🏰 ¡Construye y gestiona la taberna de tus sueños! 🍻"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "33685f082d92fade",
+      "app_id": "63dcc6e2b964155d936b84da",
+      "network": "Facebook",
+      "phashion_group": "33685f082d92fade",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-03",
+      "last_seen_at": "2025-12-12",
+      "creatives": [
+        {
+          "id": "33685f082d92fade",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1033cfb14893be92/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1033cfb14893be92/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1033cfb14893be92/thumb",
+          "video_duration": 27,
+          "width": 1920,
+          "height": 1080,
+          "button_text": "Play Game",
+          "message": "🏰 ¡Construye y gestiona la taberna de tus sueños! 🍻"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1920x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "876b354533449b99",
+      "app_id": "63dcc6e2b964155d936b84da",
+      "network": "Instagram",
+      "phashion_group": "876b354533449b99",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-03",
+      "last_seen_at": "2025-12-12",
+      "creatives": [
+        {
+          "id": "876b354533449b99",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1033cfb14893be92/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1033cfb14893be92/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1033cfb14893be92/thumb",
+          "video_duration": 27,
+          "width": 1920,
+          "height": 1080,
+          "button_text": "Play Game",
+          "message": "🏰 ¡Construye y gestiona la taberna de tus sueños! 🍻"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1920x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "01ea8c7c228aeb6f",
+      "app_id": "63dcc6e2b964155d936b84da",
+      "network": "Meta Audience Network",
+      "phashion_group": "01ea8c7c228aeb6f",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-03",
+      "last_seen_at": "2025-12-12",
+      "creatives": [
+        {
+          "id": "01ea8c7c228aeb6f",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1033cfb14893be92/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1033cfb14893be92/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1033cfb14893be92/thumb",
+          "video_duration": 27,
+          "width": 1920,
+          "height": 1080,
+          "button_text": "Play Game",
+          "message": "🏰 ¡Construye y gestiona la taberna de tus sueños! 🍻"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1920x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "331a50f163ef4926",
+      "app_id": "63dcc6e2b964155d936b84da",
+      "network": "Facebook",
+      "phashion_group": "331a50f163ef4926",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-03",
+      "last_seen_at": "2025-12-12",
+      "creatives": [
+        {
+          "id": "331a50f163ef4926",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1041c04806ee0d6a/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1041c04806ee0d6a/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1041c04806ee0d6a/thumb",
+          "video_duration": 32,
+          "width": 1920,
+          "height": 1080,
+          "button_text": "Play Game",
+          "message": "🏰 ¡Construye y gestiona la taberna de tus sueños! 🍻"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1920x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "87193abc7d392861",
+      "app_id": "63dcc6e2b964155d936b84da",
+      "network": "Instagram",
+      "phashion_group": "87193abc7d392861",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-03",
+      "last_seen_at": "2025-12-12",
+      "creatives": [
+        {
+          "id": "87193abc7d392861",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1041c04806ee0d6a/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1041c04806ee0d6a/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1041c04806ee0d6a/thumb",
+          "video_duration": 32,
+          "width": 1920,
+          "height": 1080,
+          "button_text": "Play Game",
+          "message": "🏰 ¡Construye y gestiona la taberna de tus sueños! 🍻"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1920x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "019883856cf75897",
+      "app_id": "63dcc6e2b964155d936b84da",
+      "network": "Meta Audience Network",
+      "phashion_group": "019883856cf75897",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-03",
+      "last_seen_at": "2025-12-12",
+      "creatives": [
+        {
+          "id": "019883856cf75897",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1041c04806ee0d6a/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1041c04806ee0d6a/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1041c04806ee0d6a/thumb",
+          "video_duration": 32,
+          "width": 1920,
+          "height": 1080,
+          "button_text": "Play Game",
+          "message": "🏰 ¡Construye y gestiona la taberna de tus sueños! 🍻"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1920x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "2cf8115781762585",
+      "app_id": "63dcc6e2b964155d936b84da",
+      "network": "Facebook",
+      "phashion_group": "2cf8115781762585",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-03",
+      "last_seen_at": "2025-12-12",
+      "creatives": [
+        {
+          "id": "2cf8115781762585",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/118da4a8f302c7f6/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/118da4a8f302c7f6/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/118da4a8f302c7f6/thumb",
+          "video_duration": 86,
+          "width": 1080,
+          "height": 1920,
+          "button_text": "Play Game",
+          "message": "🏰 Construa e gerencie a taverna dos seus sonhos! 🍻"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "98fb7b1a9fa044c2",
+      "app_id": "63dcc6e2b964155d936b84da",
+      "network": "Instagram",
+      "phashion_group": "98fb7b1a9fa044c2",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-03",
+      "last_seen_at": "2025-12-12",
+      "creatives": [
+        {
+          "id": "98fb7b1a9fa044c2",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/118da4a8f302c7f6/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/118da4a8f302c7f6/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/118da4a8f302c7f6/thumb",
+          "video_duration": 86,
+          "width": 1080,
+          "height": 1920,
+          "button_text": "Play Game",
+          "message": "🏰 Construa e gerencie a taverna dos seus sonhos! 🍻"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "1e7ac2238e6e3434",
+      "app_id": "63dcc6e2b964155d936b84da",
+      "network": "Meta Audience Network",
+      "phashion_group": "1e7ac2238e6e3434",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-03",
+      "last_seen_at": "2025-12-12",
+      "creatives": [
+        {
+          "id": "1e7ac2238e6e3434",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/118da4a8f302c7f6/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/118da4a8f302c7f6/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/118da4a8f302c7f6/thumb",
+          "video_duration": 86,
+          "width": 1080,
+          "height": 1920,
+          "button_text": "Play Game",
+          "message": "🏰 Construa e gerencie a taverna dos seus sonhos! 🍻"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "2c860b541ca61760",
+      "app_id": "63dcc6e2b964155d936b84da",
+      "network": "Facebook",
+      "phashion_group": "2c860b541ca61760",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-07",
+      "last_seen_at": "2025-12-12",
+      "creatives": [
+        {
+          "id": "2c860b541ca61760",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/11f3beab6ed2f513/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/11f3beab6ed2f513/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/11f3beab6ed2f513/thumb",
+          "video_duration": 42,
+          "width": 1080,
+          "height": 1920,
+          "button_text": "Play Game",
+          "message": "🏰 Construa e gerencie a taverna dos seus sonhos! 🍻"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "9885611902707627",
+      "app_id": "63dcc6e2b964155d936b84da",
+      "network": "Instagram",
+      "phashion_group": "9885611902707627",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-07",
+      "last_seen_at": "2025-12-12",
+      "creatives": [
+        {
+          "id": "9885611902707627",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/11f3beab6ed2f513/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/11f3beab6ed2f513/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/11f3beab6ed2f513/thumb",
+          "video_duration": 42,
+          "width": 1080,
+          "height": 1920,
+          "button_text": "Play Game",
+          "message": "🏰 Construa e gerencie a taverna dos seus sonhos! 🍻"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "1e04d82013be06d1",
+      "app_id": "63dcc6e2b964155d936b84da",
+      "network": "Meta Audience Network",
+      "phashion_group": "1e04d82013be06d1",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-07",
+      "last_seen_at": "2025-12-12",
+      "creatives": [
+        {
+          "id": "1e04d82013be06d1",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/11f3beab6ed2f513/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/11f3beab6ed2f513/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/11f3beab6ed2f513/thumb",
+          "video_duration": 42,
+          "width": 1080,
+          "height": 1920,
+          "button_text": "Play Game",
+          "message": "🏰 Construa e gerencie a taverna dos seus sonhos! 🍻"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "2fb8ffb0cb1061ff",
+      "app_id": "63dcc6e2b964155d936b84da",
+      "network": "Facebook",
+      "phashion_group": "2fb8ffb0cb1061ff",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-07",
+      "last_seen_at": "2025-12-12",
+      "creatives": [
+        {
+          "id": "2fb8ffb0cb1061ff",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/12cd4a4fb964838c/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/12cd4a4fb964838c/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/12cd4a4fb964838c/thumb",
+          "video_duration": 17,
+          "width": 1080,
+          "height": 1350,
+          "button_text": "Play Game",
+          "message": "🏰 Construa e gerencie a taverna dos seus sonhos! 🍻"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1350",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "9bbb95fdd5c600b8",
+      "app_id": "63dcc6e2b964155d936b84da",
+      "network": "Instagram",
+      "phashion_group": "9bbb95fdd5c600b8",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-07",
+      "last_seen_at": "2025-12-12",
+      "creatives": [
+        {
+          "id": "9bbb95fdd5c600b8",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/12cd4a4fb964838c/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/12cd4a4fb964838c/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/12cd4a4fb964838c/thumb",
+          "video_duration": 17,
+          "width": 1080,
+          "height": 1350,
+          "button_text": "Play Game",
+          "message": "🏰 Construa e gerencie a taverna dos seus sonhos! 🍻"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1350",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "1d3a2cc4c408704e",
+      "app_id": "63dcc6e2b964155d936b84da",
+      "network": "Meta Audience Network",
+      "phashion_group": "1d3a2cc4c408704e",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-07",
+      "last_seen_at": "2025-12-12",
+      "creatives": [
+        {
+          "id": "1d3a2cc4c408704e",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/12cd4a4fb964838c/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/12cd4a4fb964838c/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/12cd4a4fb964838c/thumb",
+          "video_duration": 17,
+          "width": 1080,
+          "height": 1350,
+          "button_text": "Play Game",
+          "message": "🏰 Construa e gerencie a taverna dos seus sonhos! 🍻"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1350",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "3787e45f2a3e5aad",
+      "app_id": "63dcc6e2b964155d936b84da",
+      "network": "Facebook",
+      "phashion_group": "3787e45f2a3e5aad",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-04",
+      "last_seen_at": "2025-12-12",
+      "creatives": [
+        {
+          "id": "3787e45f2a3e5aad",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/14dc74e64f3f1ee1/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/14dc74e64f3f1ee1/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/14dc74e64f3f1ee1/thumb",
+          "video_duration": 19,
+          "width": 1920,
+          "height": 1080,
+          "button_text": "Play Game",
+          "message": "🏰 ¡Construye y gestiona la taberna de tus sueños! 🍻"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1920x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "83848e1234e83bea",
+      "app_id": "63dcc6e2b964155d936b84da",
+      "network": "Instagram",
+      "phashion_group": "83848e1234e83bea",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-04",
+      "last_seen_at": "2025-12-12",
+      "creatives": [
+        {
+          "id": "83848e1234e83bea",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/14dc74e64f3f1ee1/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/14dc74e64f3f1ee1/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/14dc74e64f3f1ee1/thumb",
+          "video_duration": 19,
+          "width": 1920,
+          "height": 1080,
+          "button_text": "Play Game",
+          "message": "🏰 ¡Construye y gestiona la taberna de tus sueños! 🍻"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1920x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "0505372b25264b1c",
+      "app_id": "63dcc6e2b964155d936b84da",
+      "network": "Meta Audience Network",
+      "phashion_group": "0505372b25264b1c",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-04",
+      "last_seen_at": "2025-12-12",
+      "creatives": [
+        {
+          "id": "0505372b25264b1c",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/14dc74e64f3f1ee1/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/14dc74e64f3f1ee1/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/14dc74e64f3f1ee1/thumb",
+          "video_duration": 19,
+          "width": 1920,
+          "height": 1080,
+          "button_text": "Play Game",
+          "message": "🏰 ¡Construye y gestiona la taberna de tus sueños! 🍻"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1920x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "368b8225b24b1bdb",
+      "app_id": "63dcc6e2b964155d936b84da",
+      "network": "Facebook",
+      "phashion_group": "368b8225b24b1bdb",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-03",
+      "last_seen_at": "2025-12-12",
+      "creatives": [
+        {
+          "id": "368b8225b24b1bdb",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/15d0129cd74a5f97/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/15d0129cd74a5f97/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/15d0129cd74a5f97/thumb",
+          "video_duration": 27,
+          "width": 1284,
+          "height": 1608,
+          "button_text": "Play Game",
+          "message": "🏰 ¡Construye y gestiona la taberna de tus sueños! 🍻"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1284x1608",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "8288e868ac9d7a9c",
+      "app_id": "63dcc6e2b964155d936b84da",
+      "network": "Instagram",
+      "phashion_group": "8288e868ac9d7a9c",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-03",
+      "last_seen_at": "2025-12-12",
+      "creatives": [
+        {
+          "id": "8288e868ac9d7a9c",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/15d0129cd74a5f97/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/15d0129cd74a5f97/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/15d0129cd74a5f97/thumb",
+          "video_duration": 27,
+          "width": 1284,
+          "height": 1608,
+          "button_text": "Play Game",
+          "message": "🏰 ¡Construye y gestiona la taberna de tus sueños! 🍻"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1284x1608",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "04095151bd530a6a",
+      "app_id": "63dcc6e2b964155d936b84da",
+      "network": "Meta Audience Network",
+      "phashion_group": "04095151bd530a6a",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-03",
+      "last_seen_at": "2025-12-12",
+      "creatives": [
+        {
+          "id": "04095151bd530a6a",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/15d0129cd74a5f97/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/15d0129cd74a5f97/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/15d0129cd74a5f97/thumb",
+          "video_duration": 27,
+          "width": 1284,
+          "height": 1608,
+          "button_text": "Play Game",
+          "message": "🏰 ¡Construye y gestiona la taberna de tus sueños! 🍻"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1284x1608",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "289c9024e519d50a",
+      "app_id": "63dcc6e2b964155d936b84da",
+      "network": "Facebook",
+      "phashion_group": "289c9024e519d50a",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-03",
+      "last_seen_at": "2025-12-12",
+      "creatives": [
+        {
+          "id": "289c9024e519d50a",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/15e925db976d3779/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/15e925db976d3779/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/15e925db976d3779/thumb",
+          "video_duration": 16,
+          "width": 1080,
+          "height": 1350,
+          "button_text": "Play Game",
+          "message": "🏰 Construa e gerencie a taverna dos seus sonhos! 🍻"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1350",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "9c9ffa69fbcfb44d",
+      "app_id": "63dcc6e2b964155d936b84da",
+      "network": "Instagram",
+      "phashion_group": "9c9ffa69fbcfb44d",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-03",
+      "last_seen_at": "2025-12-12",
+      "creatives": [
+        {
+          "id": "9c9ffa69fbcfb44d",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/15e925db976d3779/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/15e925db976d3779/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/15e925db976d3779/thumb",
+          "video_duration": 16,
+          "width": 1080,
+          "height": 1350,
+          "button_text": "Play Game",
+          "message": "🏰 Construa e gerencie a taverna dos seus sonhos! 🍻"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1350",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "1a1e4350ea01c4bb",
+      "app_id": "63dcc6e2b964155d936b84da",
+      "network": "Meta Audience Network",
+      "phashion_group": "1a1e4350ea01c4bb",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-03",
+      "last_seen_at": "2025-12-12",
+      "creatives": [
+        {
+          "id": "1a1e4350ea01c4bb",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/15e925db976d3779/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/15e925db976d3779/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/15e925db976d3779/thumb",
+          "video_duration": 16,
+          "width": 1080,
+          "height": 1350,
+          "button_text": "Play Game",
+          "message": "🏰 Construa e gerencie a taverna dos seus sonhos! 🍻"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1350",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "2b2e0564a32fb527",
+      "app_id": "63dcc6e2b964155d936b84da",
+      "network": "Facebook",
+      "phashion_group": "2b2e0564a32fb527",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-10",
+      "last_seen_at": "2025-12-12",
+      "creatives": [
+        {
+          "id": "2b2e0564a32fb527",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/165bb09bd15b5754/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/165bb09bd15b5754/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/165bb09bd15b5754/thumb",
+          "video_duration": 41,
+          "width": 1080,
+          "height": 1920,
+          "button_text": "Play Game",
+          "message": "🏰 Construa e gerencie a taverna dos seus sonhos! 🍻"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "9f2d6f29bdf9d460",
+      "app_id": "63dcc6e2b964155d936b84da",
+      "network": "Instagram",
+      "phashion_group": "9f2d6f29bdf9d460",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-10",
+      "last_seen_at": "2025-12-12",
+      "creatives": [
+        {
+          "id": "9f2d6f29bdf9d460",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/165bb09bd15b5754/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/165bb09bd15b5754/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/165bb09bd15b5754/thumb",
+          "video_duration": 41,
+          "width": 1080,
+          "height": 1920,
+          "button_text": "Play Game",
+          "message": "🏰 Construa e gerencie a taverna dos seus sonhos! 🍻"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "19acd610ac37a496",
+      "app_id": "63dcc6e2b964155d936b84da",
+      "network": "Meta Audience Network",
+      "phashion_group": "19acd610ac37a496",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-10",
+      "last_seen_at": "2025-12-12",
+      "creatives": [
+        {
+          "id": "19acd610ac37a496",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/165bb09bd15b5754/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/165bb09bd15b5754/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/165bb09bd15b5754/thumb",
+          "video_duration": 41,
+          "width": 1080,
+          "height": 1920,
+          "button_text": "Play Game",
+          "message": "🏰 Construa e gerencie a taverna dos seus sonhos! 🍻"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "25917729a2aca8d0",
+      "app_id": "63dcc6e2b964155d936b84da",
+      "network": "Facebook",
+      "phashion_group": "25917729a2aca8d0",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-03",
+      "last_seen_at": "2025-12-12",
+      "creatives": [
+        {
+          "id": "25917729a2aca8d0",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/18e4c2d6d0d84aa3/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/18e4c2d6d0d84aa3/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/18e4c2d6d0d84aa3/thumb",
+          "video_duration": 35,
+          "width": 1080,
+          "height": 1920,
+          "button_text": "Play Game",
+          "message": "🏰 Construa e gerencie a taverna dos seus sonhos! 🍻"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "91921d64bc7ac997",
+      "app_id": "63dcc6e2b964155d936b84da",
+      "network": "Instagram",
+      "phashion_group": "91921d64bc7ac997",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-03",
+      "last_seen_at": "2025-12-12",
+      "creatives": [
+        {
+          "id": "91921d64bc7ac997",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/18e4c2d6d0d84aa3/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/18e4c2d6d0d84aa3/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/18e4c2d6d0d84aa3/thumb",
+          "video_duration": 35,
+          "width": 1080,
+          "height": 1920,
+          "button_text": "Play Game",
+          "message": "🏰 Construa e gerencie a taverna dos seus sonhos! 🍻"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "1713a45dadb4b961",
+      "app_id": "63dcc6e2b964155d936b84da",
+      "network": "Meta Audience Network",
+      "phashion_group": "1713a45dadb4b961",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-03",
+      "last_seen_at": "2025-12-12",
+      "creatives": [
+        {
+          "id": "1713a45dadb4b961",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/18e4c2d6d0d84aa3/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/18e4c2d6d0d84aa3/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/18e4c2d6d0d84aa3/thumb",
+          "video_duration": 35,
+          "width": 1080,
+          "height": 1920,
+          "button_text": "Play Game",
+          "message": "🏰 Construa e gerencie a taverna dos seus sonhos! 🍻"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "26e809a963598941",
+      "app_id": "63dcc6e2b964155d936b84da",
+      "network": "Facebook",
+      "phashion_group": "26e809a963598941",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-10",
+      "last_seen_at": "2025-12-12",
+      "creatives": [
+        {
+          "id": "26e809a963598941",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1b9dbc56112d6b32/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1b9dbc56112d6b32/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1b9dbc56112d6b32/thumb",
+          "video_duration": 47,
+          "width": 1080,
+          "height": 1350,
+          "button_text": "Play Game",
+          "message": "🏰 Construa e gerencie a taverna dos seus sonhos! 🍻"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1350",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "92eb63e47d8fe806",
+      "app_id": "63dcc6e2b964155d936b84da",
+      "network": "Instagram",
+      "phashion_group": "92eb63e47d8fe806",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-10",
+      "last_seen_at": "2025-12-12",
+      "creatives": [
+        {
+          "id": "92eb63e47d8fe806",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1b9dbc56112d6b32/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1b9dbc56112d6b32/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1b9dbc56112d6b32/thumb",
+          "video_duration": 47,
+          "width": 1080,
+          "height": 1350,
+          "button_text": "Play Game",
+          "message": "🏰 Construa e gerencie a taverna dos seus sonhos! 🍻"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1350",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "146adadd6c4198f0",
+      "app_id": "63dcc6e2b964155d936b84da",
+      "network": "Meta Audience Network",
+      "phashion_group": "146adadd6c4198f0",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-10",
+      "last_seen_at": "2025-12-12",
+      "creatives": [
+        {
+          "id": "146adadd6c4198f0",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1b9dbc56112d6b32/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1b9dbc56112d6b32/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1b9dbc56112d6b32/thumb",
+          "video_duration": 47,
+          "width": 1080,
+          "height": 1350,
+          "button_text": "Play Game",
+          "message": "🏰 Construa e gerencie a taverna dos seus sonhos! 🍻"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1350",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "3ed6a4df1e41a4e0",
+      "app_id": "63dcc6e2b964155d936b84da",
+      "network": "Facebook",
+      "phashion_group": "3ed6a4df1e41a4e0",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-07",
+      "last_seen_at": "2025-12-12",
+      "creatives": [
+        {
+          "id": "3ed6a4df1e41a4e0",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1d8d34667b40e0ac/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1d8d34667b40e0ac/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1d8d34667b40e0ac/thumb",
+          "video_duration": 40,
+          "width": 1080,
+          "height": 1350,
+          "button_text": "Play Game",
+          "message": "🏰 ¡Construye y gestiona la taberna de tus sueños! 🍻"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1350",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "8ad5ce920097c5a7",
+      "app_id": "63dcc6e2b964155d936b84da",
+      "network": "Instagram",
+      "phashion_group": "8ad5ce920097c5a7",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-07",
+      "last_seen_at": "2025-12-12",
+      "creatives": [
+        {
+          "id": "8ad5ce920097c5a7",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1d8d34667b40e0ac/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1d8d34667b40e0ac/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1d8d34667b40e0ac/thumb",
+          "video_duration": 40,
+          "width": 1080,
+          "height": 1350,
+          "button_text": "Play Game",
+          "message": "🏰 ¡Construye y gestiona la taberna de tus sueños! 🍻"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1350",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "0c5477ab1159b551",
+      "app_id": "63dcc6e2b964155d936b84da",
+      "network": "Meta Audience Network",
+      "phashion_group": "0c5477ab1159b551",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-07",
+      "last_seen_at": "2025-12-12",
+      "creatives": [
+        {
+          "id": "0c5477ab1159b551",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1d8d34667b40e0ac/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1d8d34667b40e0ac/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1d8d34667b40e0ac/thumb",
+          "video_duration": 40,
+          "width": 1080,
+          "height": 1350,
+          "button_text": "Play Game",
+          "message": "🏰 ¡Construye y gestiona la taberna de tus sueños! 🍻"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1350",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "2373c3d060738a64",
+      "app_id": "63dcc6e2b964155d936b84da",
+      "network": "Facebook",
+      "phashion_group": "2373c3d060738a64",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-07",
+      "last_seen_at": "2025-12-12",
+      "creatives": [
+        {
+          "id": "2373c3d060738a64",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1e06762f12076817/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1e06762f12076817/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1e06762f12076817/thumb",
+          "video_duration": 40,
+          "width": 1080,
+          "height": 1350,
+          "button_text": "Play Game",
+          "message": "🏰 Construa e gerencie a taverna dos seus sonhos! 🍻"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1350",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "9770a99d7ea5eb23",
+      "app_id": "63dcc6e2b964155d936b84da",
+      "network": "Instagram",
+      "phashion_group": "9770a99d7ea5eb23",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-07",
+      "last_seen_at": "2025-12-12",
+      "creatives": [
+        {
+          "id": "9770a99d7ea5eb23",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1e06762f12076817/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1e06762f12076817/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1e06762f12076817/thumb",
+          "video_duration": 40,
+          "width": 1080,
+          "height": 1350,
+          "button_text": "Play Game",
+          "message": "🏰 Construa e gerencie a taverna dos seus sonhos! 🍻"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1350",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "11f110a46f6b9bd5",
+      "app_id": "63dcc6e2b964155d936b84da",
+      "network": "Meta Audience Network",
+      "phashion_group": "11f110a46f6b9bd5",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-07",
+      "last_seen_at": "2025-12-12",
+      "creatives": [
+        {
+          "id": "11f110a46f6b9bd5",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1e06762f12076817/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1e06762f12076817/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1e06762f12076817/thumb",
+          "video_duration": 40,
+          "width": 1080,
+          "height": 1350,
+          "button_text": "Play Game",
+          "message": "🏰 Construa e gerencie a taverna dos seus sonhos! 🍻"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1350",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "1d198a3b34091567",
+      "app_id": "63dcc6e2b964155d936b84da",
+      "network": "Facebook",
+      "phashion_group": "1d198a3b34091567",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-10",
+      "last_seen_at": "2025-12-12",
+      "creatives": [
+        {
+          "id": "1d198a3b34091567",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/206c3fc4467df714/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/206c3fc4467df714/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/206c3fc4467df714/thumb",
+          "video_duration": 48,
+          "width": 1080,
+          "height": 1920,
+          "button_text": "Play Game",
+          "message": "🏰 Construa e gerencie a taverna dos seus sonhos! 🍻"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "a91ae0762adf7420",
+      "app_id": "63dcc6e2b964155d936b84da",
+      "network": "Instagram",
+      "phashion_group": "a91ae0762adf7420",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-10",
+      "last_seen_at": "2025-12-12",
+      "creatives": [
+        {
+          "id": "a91ae0762adf7420",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/206c3fc4467df714/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/206c3fc4467df714/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/206c3fc4467df714/thumb",
+          "video_duration": 48,
+          "width": 1080,
+          "height": 1920,
+          "button_text": "Play Game",
+          "message": "🏰 Construa e gerencie a taverna dos seus sonhos! 🍻"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "2f9b594f3b1104d6",
+      "app_id": "63dcc6e2b964155d936b84da",
+      "network": "Meta Audience Network",
+      "phashion_group": "2f9b594f3b1104d6",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-10",
+      "last_seen_at": "2025-12-12",
+      "creatives": [
+        {
+          "id": "2f9b594f3b1104d6",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/206c3fc4467df714/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/206c3fc4467df714/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/206c3fc4467df714/thumb",
+          "video_duration": 48,
+          "width": 1080,
+          "height": 1920,
+          "button_text": "Play Game",
+          "message": "🏰 Construa e gerencie a taverna dos seus sonhos! 🍻"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "1f55417bfb352416",
+      "app_id": "63dcc6e2b964155d936b84da",
+      "network": "Facebook",
+      "phashion_group": "1f55417bfb352416",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-07",
+      "last_seen_at": "2025-12-12",
+      "creatives": [
+        {
+          "id": "1f55417bfb352416",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2220f4848941c665/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2220f4848941c665/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2220f4848941c665/thumb",
+          "video_duration": 17,
+          "width": 1080,
+          "height": 1920,
+          "button_text": "Play Game",
+          "message": "🏰 Construa e gerencie a taverna dos seus sonhos! 🍻"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "ab562b36e5e34551",
+      "app_id": "63dcc6e2b964155d936b84da",
+      "network": "Instagram",
+      "phashion_group": "ab562b36e5e34551",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-07",
+      "last_seen_at": "2025-12-12",
+      "creatives": [
+        {
+          "id": "ab562b36e5e34551",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2220f4848941c665/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2220f4848941c665/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2220f4848941c665/thumb",
+          "video_duration": 17,
+          "width": 1080,
+          "height": 1920,
+          "button_text": "Play Game",
+          "message": "🏰 Construa e gerencie a taverna dos seus sonhos! 🍻"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "2dd7920ff42d35a7",
+      "app_id": "63dcc6e2b964155d936b84da",
+      "network": "Meta Audience Network",
+      "phashion_group": "2dd7920ff42d35a7",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-07",
+      "last_seen_at": "2025-12-12",
+      "creatives": [
+        {
+          "id": "2dd7920ff42d35a7",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2220f4848941c665/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2220f4848941c665/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2220f4848941c665/thumb",
+          "video_duration": 17,
+          "width": 1080,
+          "height": 1920,
+          "button_text": "Play Game",
+          "message": "🏰 Construa e gerencie a taverna dos seus sonhos! 🍻"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "1f1f9b8c70b20446",
+      "app_id": "63dcc6e2b964155d936b84da",
+      "network": "Facebook",
+      "phashion_group": "1f1f9b8c70b20446",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-10",
+      "last_seen_at": "2025-12-12",
+      "creatives": [
+        {
+          "id": "1f1f9b8c70b20446",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/226a2e7302c6e635/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/226a2e7302c6e635/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/226a2e7302c6e635/thumb",
+          "video_duration": 48,
+          "width": 1080,
+          "height": 1350,
+          "button_text": "Play Game",
+          "message": "🏰 Construa e gerencie a taverna dos seus sonhos! 🍻"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1350",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "ab1cf1c16e646501",
+      "app_id": "63dcc6e2b964155d936b84da",
+      "network": "Instagram",
+      "phashion_group": "ab1cf1c16e646501",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-10",
+      "last_seen_at": "2025-12-12",
+      "creatives": [
+        {
+          "id": "ab1cf1c16e646501",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/226a2e7302c6e635/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/226a2e7302c6e635/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/226a2e7302c6e635/thumb",
+          "video_duration": 48,
+          "width": 1080,
+          "height": 1350,
+          "button_text": "Play Game",
+          "message": "🏰 Construa e gerencie a taverna dos seus sonhos! 🍻"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1350",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "2d9d48f87faa15f7",
+      "app_id": "63dcc6e2b964155d936b84da",
+      "network": "Meta Audience Network",
+      "phashion_group": "2d9d48f87faa15f7",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-10",
+      "last_seen_at": "2025-12-12",
+      "creatives": [
+        {
+          "id": "2d9d48f87faa15f7",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/226a2e7302c6e635/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/226a2e7302c6e635/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/226a2e7302c6e635/thumb",
+          "video_duration": 48,
+          "width": 1080,
+          "height": 1350,
+          "button_text": "Play Game",
+          "message": "🏰 Construa e gerencie a taverna dos seus sonhos! 🍻"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1350",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "0048f122b7dd218b",
+      "app_id": "63dcc6e2b964155d936b84da",
+      "network": "Facebook",
+      "phashion_group": "0048f122b7dd218b",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-03",
+      "last_seen_at": "2025-12-12",
+      "creatives": [
+        {
+          "id": "0048f122b7dd218b",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2313619bd2dc65c7/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2313619bd2dc65c7/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2313619bd2dc65c7/thumb",
+          "video_duration": 31,
+          "width": 1080,
+          "height": 1350,
+          "button_text": "Play Game",
+          "message": "🏰 ¡Construye y gestiona la taberna de tus sueños! 🍻"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1350",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "b44b9b6fa90b40cc",
+      "app_id": "63dcc6e2b964155d936b84da",
+      "network": "Instagram",
+      "phashion_group": "b44b9b6fa90b40cc",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-03",
+      "last_seen_at": "2025-12-12",
+      "creatives": [
+        {
+          "id": "b44b9b6fa90b40cc",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2313619bd2dc65c7/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2313619bd2dc65c7/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2313619bd2dc65c7/thumb",
+          "video_duration": 31,
+          "width": 1080,
+          "height": 1350,
+          "button_text": "Play Game",
+          "message": "🏰 ¡Construye y gestiona la taberna de tus sueños! 🍻"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1350",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "32ca2256b8c5303a",
+      "app_id": "63dcc6e2b964155d936b84da",
+      "network": "Meta Audience Network",
+      "phashion_group": "32ca2256b8c5303a",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-03",
+      "last_seen_at": "2025-12-12",
+      "creatives": [
+        {
+          "id": "32ca2256b8c5303a",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2313619bd2dc65c7/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2313619bd2dc65c7/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2313619bd2dc65c7/thumb",
+          "video_duration": 31,
+          "width": 1080,
+          "height": 1350,
+          "button_text": "Play Game",
+          "message": "🏰 ¡Construye y gestiona la taberna de tus sueños! 🍻"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1350",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "06b6405cd28c6eca",
+      "app_id": "63dcc6e2b964155d936b84da",
+      "network": "Facebook",
+      "phashion_group": "06b6405cd28c6eca",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-03",
+      "last_seen_at": "2025-12-12",
+      "creatives": [
+        {
+          "id": "06b6405cd28c6eca",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/25edd0e5b78d2a86/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/25edd0e5b78d2a86/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/25edd0e5b78d2a86/thumb",
+          "video_duration": 27,
+          "width": 1080,
+          "height": 1920,
+          "button_text": "Play Game",
+          "message": "🏰 ¡Construye y gestiona la taberna de tus sueños! 🍻"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "b2b52a11cc5a0f8d",
+      "app_id": "63dcc6e2b964155d936b84da",
+      "network": "Instagram",
+      "phashion_group": "b2b52a11cc5a0f8d",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-03",
+      "last_seen_at": "2025-12-12",
+      "creatives": [
+        {
+          "id": "b2b52a11cc5a0f8d",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/25edd0e5b78d2a86/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/25edd0e5b78d2a86/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/25edd0e5b78d2a86/thumb",
+          "video_duration": 27,
+          "width": 1080,
+          "height": 1920,
+          "button_text": "Play Game",
+          "message": "🏰 ¡Construye y gestiona la taberna de tus sueños! 🍻"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "34349328dd947f7b",
+      "app_id": "63dcc6e2b964155d936b84da",
+      "network": "Meta Audience Network",
+      "phashion_group": "34349328dd947f7b",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-03",
+      "last_seen_at": "2025-12-12",
+      "creatives": [
+        {
+          "id": "34349328dd947f7b",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/25edd0e5b78d2a86/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/25edd0e5b78d2a86/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/25edd0e5b78d2a86/thumb",
+          "video_duration": 27,
+          "width": 1080,
+          "height": 1920,
+          "button_text": "Play Game",
+          "message": "🏰 ¡Construye y gestiona la taberna de tus sueños! 🍻"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "1a6aa640a2230f99",
+      "app_id": "63dcc6e2b964155d936b84da",
+      "network": "Facebook",
+      "phashion_group": "1a6aa640a2230f99",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-07",
+      "last_seen_at": "2025-12-12",
+      "creatives": [
+        {
+          "id": "1a6aa640a2230f99",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/271f13bfd057edea/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/271f13bfd057edea/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/271f13bfd057edea/thumb",
+          "video_duration": 32,
+          "width": 1080,
+          "height": 1920,
+          "button_text": "Play Game",
+          "message": "🏰 Construa e gerencie a taverna dos seus sonhos! 🍻"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "ae69cc0dbcf56ede",
+      "app_id": "63dcc6e2b964155d936b84da",
+      "network": "Instagram",
+      "phashion_group": "ae69cc0dbcf56ede",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-07",
+      "last_seen_at": "2025-12-12",
+      "creatives": [
+        {
+          "id": "ae69cc0dbcf56ede",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/271f13bfd057edea/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/271f13bfd057edea/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/271f13bfd057edea/thumb",
+          "video_duration": 32,
+          "width": 1080,
+          "height": 1920,
+          "button_text": "Play Game",
+          "message": "🏰 Construa e gerencie a taverna dos seus sonhos! 🍻"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "28e87534ad3b1e28",
+      "app_id": "63dcc6e2b964155d936b84da",
+      "network": "Meta Audience Network",
+      "phashion_group": "28e87534ad3b1e28",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-07",
+      "last_seen_at": "2025-12-12",
+      "creatives": [
+        {
+          "id": "28e87534ad3b1e28",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/271f13bfd057edea/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/271f13bfd057edea/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/271f13bfd057edea/thumb",
+          "video_duration": 32,
+          "width": 1080,
+          "height": 1920,
+          "button_text": "Play Game",
+          "message": "🏰 Construa e gerencie a taverna dos seus sonhos! 🍻"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "1a41e9fdcc1c2e0d",
+      "app_id": "63dcc6e2b964155d936b84da",
+      "network": "Facebook",
+      "phashion_group": "1a41e9fdcc1c2e0d",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-07",
+      "last_seen_at": "2025-12-12",
+      "creatives": [
+        {
+          "id": "1a41e9fdcc1c2e0d",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/27345c02be68cc7e/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/27345c02be68cc7e/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/27345c02be68cc7e/thumb",
+          "video_duration": 51,
+          "width": 1080,
+          "height": 1920,
+          "button_text": "Play Game",
+          "message": "🏰 Construa e gerencie a taverna dos seus sonhos! 🍻"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "ae4283b0d2ca4f4a",
+      "app_id": "63dcc6e2b964155d936b84da",
+      "network": "Instagram",
+      "phashion_group": "ae4283b0d2ca4f4a",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-07",
+      "last_seen_at": "2025-12-12",
+      "creatives": [
+        {
+          "id": "ae4283b0d2ca4f4a",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/27345c02be68cc7e/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/27345c02be68cc7e/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/27345c02be68cc7e/thumb",
+          "video_duration": 51,
+          "width": 1080,
+          "height": 1920,
+          "button_text": "Play Game",
+          "message": "🏰 Construa e gerencie a taverna dos seus sonhos! 🍻"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "28c33a89c3043fbc",
+      "app_id": "63dcc6e2b964155d936b84da",
+      "network": "Meta Audience Network",
+      "phashion_group": "28c33a89c3043fbc",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-07",
+      "last_seen_at": "2025-12-12",
+      "creatives": [
+        {
+          "id": "28c33a89c3043fbc",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/27345c02be68cc7e/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/27345c02be68cc7e/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/27345c02be68cc7e/thumb",
+          "video_duration": 51,
+          "width": 1080,
+          "height": 1920,
+          "button_text": "Play Game",
+          "message": "🏰 Construa e gerencie a taverna dos seus sonhos! 🍻"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "1ad7c9d7c3cb667b",
+      "app_id": "63dcc6e2b964155d936b84da",
+      "network": "Facebook",
+      "phashion_group": "1ad7c9d7c3cb667b",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-07",
+      "last_seen_at": "2025-12-12",
+      "creatives": [
+        {
+          "id": "1ad7c9d7c3cb667b",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/27a27c28b1bf8408/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/27a27c28b1bf8408/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/27a27c28b1bf8408/thumb",
+          "video_duration": 26,
+          "width": 1920,
+          "height": 1080,
+          "button_text": "Play Game",
+          "message": "🏰 Construa e gerencie a taverna dos seus sonhos! 🍻"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1920x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "aed4a39add1d073c",
+      "app_id": "63dcc6e2b964155d936b84da",
+      "network": "Instagram",
+      "phashion_group": "aed4a39add1d073c",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-07",
+      "last_seen_at": "2025-12-12",
+      "creatives": [
+        {
+          "id": "aed4a39add1d073c",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/27a27c28b1bf8408/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/27a27c28b1bf8408/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/27a27c28b1bf8408/thumb",
+          "video_duration": 26,
+          "width": 1920,
+          "height": 1080,
+          "button_text": "Play Game",
+          "message": "🏰 Construa e gerencie a taverna dos seus sonhos! 🍻"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1920x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "28551aa3ccd377ca",
+      "app_id": "63dcc6e2b964155d936b84da",
+      "network": "Meta Audience Network",
+      "phashion_group": "28551aa3ccd377ca",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-07",
+      "last_seen_at": "2025-12-12",
+      "creatives": [
+        {
+          "id": "28551aa3ccd377ca",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/27a27c28b1bf8408/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/27a27c28b1bf8408/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/27a27c28b1bf8408/thumb",
+          "video_duration": 26,
+          "width": 1920,
+          "height": 1080,
+          "button_text": "Play Game",
+          "message": "🏰 Construa e gerencie a taverna dos seus sonhos! 🍻"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1920x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "16cf34bd1ba55898",
+      "app_id": "63dcc6e2b964155d936b84da",
+      "network": "Facebook",
+      "phashion_group": "16cf34bd1ba55898",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-07",
+      "last_seen_at": "2025-12-12",
+      "creatives": [
+        {
+          "id": "16cf34bd1ba55898",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2bba814269d1baeb/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2bba814269d1baeb/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2bba814269d1baeb/thumb",
+          "video_duration": 51,
+          "width": 1080,
+          "height": 1350,
+          "button_text": "Play Game",
+          "message": "🏰 Construa e gerencie a taverna dos seus sonhos! 🍻"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1350",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "a2cc5ef0057339df",
+      "app_id": "63dcc6e2b964155d936b84da",
+      "network": "Instagram",
+      "phashion_group": "a2cc5ef0057339df",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-07",
+      "last_seen_at": "2025-12-12",
+      "creatives": [
+        {
+          "id": "a2cc5ef0057339df",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2bba814269d1baeb/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2bba814269d1baeb/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2bba814269d1baeb/thumb",
+          "video_duration": 51,
+          "width": 1080,
+          "height": 1350,
+          "button_text": "Play Game",
+          "message": "🏰 Construa e gerencie a taverna dos seus sonhos! 🍻"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1350",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "244de7c914bd4929",
+      "app_id": "63dcc6e2b964155d936b84da",
+      "network": "Meta Audience Network",
+      "phashion_group": "244de7c914bd4929",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-07",
+      "last_seen_at": "2025-12-12",
+      "creatives": [
+        {
+          "id": "244de7c914bd4929",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2bba814269d1baeb/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2bba814269d1baeb/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2bba814269d1baeb/thumb",
+          "video_duration": 51,
+          "width": 1080,
+          "height": 1350,
+          "button_text": "Play Game",
+          "message": "🏰 Construa e gerencie a taverna dos seus sonhos! 🍻"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1350",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "1071fe0f5a343753",
+      "app_id": "63dcc6e2b964155d936b84da",
+      "network": "Facebook",
+      "phashion_group": "1071fe0f5a343753",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-03",
+      "last_seen_at": "2025-12-12",
+      "creatives": [
+        {
+          "id": "1071fe0f5a343753",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2d044bf02840d520/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2d044bf02840d520/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2d044bf02840d520/thumb",
+          "video_duration": 36,
+          "width": 1080,
+          "height": 1350,
+          "button_text": "Play Game",
+          "message": "🏰 Construa e gerencie a taverna dos seus sonhos! 🍻"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1350",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "a472944244e25614",
+      "app_id": "63dcc6e2b964155d936b84da",
+      "network": "Instagram",
+      "phashion_group": "a472944244e25614",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-03",
+      "last_seen_at": "2025-12-12",
+      "creatives": [
+        {
+          "id": "a472944244e25614",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2d044bf02840d520/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2d044bf02840d520/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2d044bf02840d520/thumb",
+          "video_duration": 36,
+          "width": 1080,
+          "height": 1350,
+          "button_text": "Play Game",
+          "message": "🏰 Construa e gerencie a taverna dos seus sonhos! 🍻"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1350",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "22f32d7b552c26e2",
+      "app_id": "63dcc6e2b964155d936b84da",
+      "network": "Meta Audience Network",
+      "phashion_group": "22f32d7b552c26e2",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-03",
+      "last_seen_at": "2025-12-12",
+      "creatives": [
+        {
+          "id": "22f32d7b552c26e2",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2d044bf02840d520/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2d044bf02840d520/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2d044bf02840d520/thumb",
+          "video_duration": 36,
+          "width": 1080,
+          "height": 1350,
+          "button_text": "Play Game",
+          "message": "🏰 Construa e gerencie a taverna dos seus sonhos! 🍻"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1350",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "10d3b939e3c26eaa",
+      "app_id": "63dcc6e2b964155d936b84da",
+      "network": "Facebook",
+      "phashion_group": "10d3b939e3c26eaa",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-07",
+      "last_seen_at": "2025-12-12",
+      "creatives": [
+        {
+          "id": "10d3b939e3c26eaa",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2da60cc691b68cd9/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2da60cc691b68cd9/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2da60cc691b68cd9/thumb",
+          "video_duration": 32,
+          "width": 1920,
+          "height": 1080,
+          "button_text": "Play Game",
+          "message": "🏰 Construa e gerencie a taverna dos seus sonhos! 🍻"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1920x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "a4d0d374fd140fed",
+      "app_id": "63dcc6e2b964155d936b84da",
+      "network": "Instagram",
+      "phashion_group": "a4d0d374fd140fed",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-07",
+      "last_seen_at": "2025-12-12",
+      "creatives": [
+        {
+          "id": "a4d0d374fd140fed",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2da60cc691b68cd9/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2da60cc691b68cd9/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2da60cc691b68cd9/thumb",
+          "video_duration": 32,
+          "width": 1920,
+          "height": 1080,
+          "button_text": "Play Game",
+          "message": "🏰 Construa e gerencie a taverna dos seus sonhos! 🍻"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1920x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "22516a4decda7f1b",
+      "app_id": "63dcc6e2b964155d936b84da",
+      "network": "Meta Audience Network",
+      "phashion_group": "22516a4decda7f1b",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-07",
+      "last_seen_at": "2025-12-12",
+      "creatives": [
+        {
+          "id": "22516a4decda7f1b",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2da60cc691b68cd9/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2da60cc691b68cd9/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2da60cc691b68cd9/thumb",
+          "video_duration": 32,
+          "width": 1920,
+          "height": 1080,
+          "button_text": "Play Game",
+          "message": "🏰 Construa e gerencie a taverna dos seus sonhos! 🍻"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1920x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "13b722f55bcb49d6",
+      "app_id": "63dcc6e2b964155d936b84da",
+      "network": "Facebook",
+      "phashion_group": "13b722f55bcb49d6",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-10",
+      "last_seen_at": "2025-12-12",
+      "creatives": [
+        {
+          "id": "13b722f55bcb49d6",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2ec2970a29bfaba5/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2ec2970a29bfaba5/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2ec2970a29bfaba5/thumb",
+          "video_duration": 40,
+          "width": 1080,
+          "height": 1920,
+          "button_text": "Play Game",
+          "message": "🏰 Construa e gerencie a taverna dos seus sonhos! 🍻"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "a7b448b8451d2891",
+      "app_id": "63dcc6e2b964155d936b84da",
+      "network": "Instagram",
+      "phashion_group": "a7b448b8451d2891",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-10",
+      "last_seen_at": "2025-12-12",
+      "creatives": [
+        {
+          "id": "a7b448b8451d2891",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2ec2970a29bfaba5/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2ec2970a29bfaba5/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2ec2970a29bfaba5/thumb",
+          "video_duration": 40,
+          "width": 1080,
+          "height": 1920,
+          "button_text": "Play Game",
+          "message": "🏰 Construa e gerencie a taverna dos seus sonhos! 🍻"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "2135f18154d35867",
+      "app_id": "63dcc6e2b964155d936b84da",
+      "network": "Meta Audience Network",
+      "phashion_group": "2135f18154d35867",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-10",
+      "last_seen_at": "2025-12-12",
+      "creatives": [
+        {
+          "id": "2135f18154d35867",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2ec2970a29bfaba5/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2ec2970a29bfaba5/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2ec2970a29bfaba5/thumb",
+          "video_duration": 40,
+          "width": 1080,
+          "height": 1920,
+          "button_text": "Play Game",
+          "message": "🏰 Construa e gerencie a taverna dos seus sonhos! 🍻"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "129e7e99ead506bb",
+      "app_id": "63dcc6e2b964155d936b84da",
+      "network": "Facebook",
+      "phashion_group": "129e7e99ead506bb",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-03",
+      "last_seen_at": "2025-12-08",
+      "creatives": [
+        {
+          "id": "129e7e99ead506bb",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/31c5ee208fd442f7/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/31c5ee208fd442f7/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/31c5ee208fd442f7/thumb",
+          "video_duration": 39,
+          "width": 1080,
+          "height": 1350,
+          "button_text": "Play Game",
+          "message": "🏰 ¡Construye y gestiona la taberna de tus sueños! 🍻"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1350",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    }
+  ]
+}

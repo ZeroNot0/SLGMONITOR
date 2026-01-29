@@ -1,0 +1,7736 @@
+{
+  "count": 1812,
+  "available_networks": [
+    "Admob",
+    "Applovin",
+    "Facebook",
+    "InMobi",
+    "Instagram",
+    "Meta Audience Network",
+    "TikTok",
+    "Unity",
+    "Youtube"
+  ],
+  "ad_units": [
+    {
+      "id": "838f89329ddccd01",
+      "app_id": "67d3aaff2c328ae8e547d0ef",
+      "network": "Youtube",
+      "phashion_group": "838f89329ddccd01",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-04",
+      "last_seen_at": "2026-01-27",
+      "creatives": [
+        {
+          "id": "838f89329ddccd01",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/a1ecb5cfaf96d446/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/a1ecb5cfaf96d446/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/a1ecb5cfaf96d446/thumb",
+          "video_duration": 18,
+          "width": 1280,
+          "height": 720,
+          "title": "Tiles Survive!",
+          "button_text": "Загрузить",
+          "message": "Can you survive in the wilderness?"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": 0.109217,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.71529
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.528574
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "1280x720",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "8e0ca03582bc6f66",
+      "app_id": "67d3aaff2c328ae8e547d0ef",
+      "network": "Applovin",
+      "phashion_group": "8e0ca03582bc6f66",
+      "ad_type": "video",
+      "first_seen_at": "2025-07-22",
+      "last_seen_at": "2025-12-29",
+      "creatives": [
+        {
+          "id": "8e0ca03582bc6f66",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/04659ebbc5ddd5e0/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/04659ebbc5ddd5e0/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/04659ebbc5ddd5e0/thumb",
+          "video_duration": 30,
+          "width": 720,
+          "height": 1280,
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "rewarded",
+        "interstitial",
+        "other"
+      ],
+      "share": 0.077841,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.364442
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.64393
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.223424
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.106427
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.003575
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 25,
+        "data": [
+          [
+            "626b39a6edca107aa283afcc",
+            0.731427
+          ],
+          [
+            "5ca7e581ead13f47d0dcad61",
+            0.063807
+          ],
+          [
+            "56f3579c3ca045a67c00326e",
+            0.033079
+          ],
+          [
+            "5f51e81875d77d4ff1760dc1",
+            0.028832
+          ],
+          [
+            "5c1c3dd9eba37917db5bf788",
+            0.022874
+          ],
+          [
+            "656ab40b40beda73acd1f0c4",
+            0.02022
+          ],
+          [
+            "55c500a002ac64f9c0001ee6",
+            0.016916
+          ],
+          [
+            "59262cb0eff03f3b8b00005c",
+            0.011165
+          ],
+          [
+            "5d02f9399dc2fc3a26c5bdce",
+            0.011024
+          ],
+          [
+            "5d2fbde03d3ea51dfcb37ca0",
+            0.00735
+          ],
+          [
+            "614d53b2db37fc24085e99b3",
+            0.006693
+          ],
+          [
+            "6598ae2e0e7ac8716dae3caf",
+            0.006656
+          ],
+          [
+            "64a8ed37fd0a6a586e1e87a8",
+            0.005402
+          ],
+          [
+            "55a0647ff2da0dd3d30027c6",
+            0.005003
+          ],
+          [
+            "55d95b0c02ac645ad2379e00",
+            0.00446
+          ],
+          [
+            "5dd73a86c6a7fa095d72f80f",
+            0.004279
+          ],
+          [
+            "5a7c6d8336ebd421014d8960",
+            0.00408
+          ],
+          [
+            "61de945506d20d28cf3fd030",
+            0.003693
+          ],
+          [
+            "6193bcf42cfa1f4f5f4dab7c",
+            0.003483
+          ],
+          [
+            "60aa9a8b1800975a0af8e40b",
+            0.002889
+          ],
+          [
+            "644b2214b1ed80649f967974",
+            0.002628
+          ],
+          [
+            "652e07247f32fb67ad33dbec",
+            0.002225
+          ],
+          [
+            "5a988a387eea0226947bdf8d",
+            0.001124
+          ],
+          [
+            "55d20e4602ac64ee7300028a",
+            0.000588
+          ],
+          [
+            "5a4c119c84a6dc0d7d5535df",
+            0.000103
+          ]
+        ]
+      }
+    },
+    {
+      "id": "01a59245f9af8d10",
+      "app_id": "67d3aaff2c328ae8e547d0ef",
+      "network": "Youtube",
+      "phashion_group": "01a59245f9af8d10",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-08",
+      "last_seen_at": "2025-12-29",
+      "creatives": [
+        {
+          "id": "01a59245f9af8d10",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/f2f2140932c6c7ee/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/f2f2140932c6c7ee/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/f2f2140932c6c7ee/thumb",
+          "video_duration": 6,
+          "width": 1280,
+          "height": 720,
+          "title": "Tiles Survive!",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": 0.054352,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.418606
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.583818
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            1.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "1280x720",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "367f4b11a0724e4d",
+      "app_id": "67d3aaff2c328ae8e547d0ef",
+      "network": "Youtube",
+      "phashion_group": "367f4b11a0724e4d",
+      "ad_type": "video",
+      "first_seen_at": "2025-08-25",
+      "last_seen_at": "2026-01-22",
+      "creatives": [
+        {
+          "id": "367f4b11a0724e4d",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/141c77ec9238570a/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/141c77ec9238570a/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/141c77ec9238570a/thumb",
+          "video_duration": 19,
+          "width": 1280,
+          "height": 720,
+          "title": "Tiles Survive!",
+          "button_text": "Pobierz",
+          "message": "Can you survive in the wilderness?"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": 0.054341,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.526876
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.82507
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.1228
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.126625
+          ]
+        ],
+        "dimensions": [
+          [
+            "1280x720",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "afec0433e95b0237",
+      "app_id": "67d3aaff2c328ae8e547d0ef",
+      "network": "Applovin",
+      "phashion_group": "afec0433e95b0237",
+      "ad_type": "video",
+      "first_seen_at": "2025-07-21",
+      "last_seen_at": "2026-01-28",
+      "creatives": [
+        {
+          "id": "afec0433e95b0237",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/25853abdae3ab8b1/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/25853abdae3ab8b1/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/25853abdae3ab8b1/thumb",
+          "video_duration": 59,
+          "width": 720,
+          "height": 1280,
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "rewarded",
+        "interstitial",
+        "other"
+      ],
+      "share": 0.051378,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.259239
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.319725
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.491059
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.473651
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.813511
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.919423
+          ]
+        ],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 41,
+        "data": [
+          [
+            "56f3579c3ca045a67c00326e",
+            0.225156
+          ],
+          [
+            "5ca7e581ead13f47d0dcad61",
+            0.112101
+          ],
+          [
+            "61de945506d20d28cf3fd030",
+            0.082141
+          ],
+          [
+            "68c18e3bb4c3274dda050583",
+            0.075358
+          ],
+          [
+            "678b9ea143283a043831294a",
+            0.06718
+          ],
+          [
+            "649172466cb0390387c043a3",
+            0.055305
+          ],
+          [
+            "626b39a6edca107aa283afcc",
+            0.039464
+          ],
+          [
+            "60c232455235d24bc85a30f9",
+            0.034042
+          ],
+          [
+            "58a768b50211a6552d000804",
+            0.02736
+          ],
+          [
+            "6193bcf42cfa1f4f5f4dab7c",
+            0.021654
+          ],
+          [
+            "61acbf7916310169aeba2a69",
+            0.020689
+          ],
+          [
+            "6845bcda27de6925fcea4385",
+            0.019379
+          ],
+          [
+            "60913111fdef5825277f7ba6",
+            0.017769
+          ],
+          [
+            "6526dfacad4adb61832d8e21",
+            0.016307
+          ],
+          [
+            "6763f61867adbafccb6eb1b1",
+            0.014874
+          ],
+          [
+            "6734392a644f25add9a41f11",
+            0.014289
+          ],
+          [
+            "664d81f21830ec1e7d00a151",
+            0.013736
+          ],
+          [
+            "613d89635f790b3e3a3081ec",
+            0.012863
+          ],
+          [
+            "58b0e358907ffc0af900032d",
+            0.012641
+          ],
+          [
+            "6789c1379c66974e4f390c7c",
+            0.011941
+          ],
+          [
+            "665fb0ec27246ed837307517",
+            0.011893
+          ],
+          [
+            "5f51e81875d77d4ff1760dc1",
+            0.009432
+          ],
+          [
+            "6724e78239406105ba2fb6e5",
+            0.009342
+          ],
+          [
+            "656ab40b40beda73acd1f0c4",
+            0.008699
+          ],
+          [
+            "64377cb19c96213426a43770",
+            0.008633
+          ],
+          [
+            "55d95b0c02ac645ad2379e00",
+            0.006765
+          ],
+          [
+            "64114e24b3ae272b5eae49a6",
+            0.005689
+          ],
+          [
+            "5d2fbde03d3ea51dfcb37ca0",
+            0.005283
+          ],
+          [
+            "61d12e78fa4913350e9ac28e",
+            0.005242
+          ],
+          [
+            "5e362bc9f25c220e540925e5",
+            0.005005
+          ]
+        ]
+      }
+    },
+    {
+      "id": "65abda928224e416",
+      "app_id": "67d3aaff2c328ae8e547d0ef",
+      "network": "Youtube",
+      "phashion_group": "65abda928224e416",
+      "ad_type": "video",
+      "first_seen_at": "2025-09-25",
+      "last_seen_at": "2026-01-28",
+      "creatives": [
+        {
+          "id": "65abda928224e416",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/47c8e66fb06efd51/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/47c8e66fb06efd51/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/47c8e66fb06efd51/thumb",
+          "video_duration": 38,
+          "width": 1280,
+          "height": 720,
+          "title": "Tiles Survive!",
+          "button_text": "Install",
+          "message": "Can you survive in the wilderness?"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": 0.050038,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.13555
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.364003
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.173259
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.626075
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.397998
+          ]
+        ],
+        "dimensions": [
+          [
+            "1280x720",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "2793d22509331742",
+      "app_id": "67d3aaff2c328ae8e547d0ef",
+      "network": "Youtube",
+      "phashion_group": "2793d22509331742",
+      "ad_type": "video",
+      "first_seen_at": "2025-10-29",
+      "last_seen_at": "2025-12-30",
+      "creatives": [
+        {
+          "id": "2793d22509331742",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/d4c45469c25a5dbc/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/d4c45469c25a5dbc/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/d4c45469c25a5dbc/thumb",
+          "video_duration": 6,
+          "width": 1280,
+          "height": 720,
+          "title": "Tiles Survive!",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": 0.048089,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.999355
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.405599
+          ]
+        ],
+        "dimensions": [
+          [
+            "1280x720",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "60611891fef74dfd",
+      "app_id": "67d3aaff2c328ae8e547d0ef",
+      "network": "Youtube",
+      "phashion_group": "60611891fef74dfd",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-02",
+      "last_seen_at": "2026-01-28",
+      "creatives": [
+        {
+          "id": "60611891fef74dfd",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/a9dcd69432246b66/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/a9dcd69432246b66/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/a9dcd69432246b66/thumb",
+          "video_duration": 59,
+          "width": 1280,
+          "height": 720,
+          "title": "Tiles Survive!",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": 0.046773,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.17754
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.068328
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "1280x720",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "ae718086cbdbb251",
+      "app_id": "67d3aaff2c328ae8e547d0ef",
+      "network": "Youtube",
+      "phashion_group": "ae718086cbdbb251",
+      "ad_type": "video",
+      "first_seen_at": "2025-08-23",
+      "last_seen_at": "2026-01-28",
+      "creatives": [
+        {
+          "id": "ae718086cbdbb251",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/5d2606ca00b2f8af/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/5d2606ca00b2f8af/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/5d2606ca00b2f8af/thumb",
+          "video_duration": 5,
+          "width": 1280,
+          "height": 720,
+          "title": "Tiles Survive!",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": 0.040853,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.225845
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "1280x720",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "c253ff4dcf9b1fab",
+      "app_id": "67d3aaff2c328ae8e547d0ef",
+      "network": "Youtube",
+      "phashion_group": "c253ff4dcf9b1fab",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-10",
+      "last_seen_at": "2026-01-11",
+      "creatives": [
+        {
+          "id": "c253ff4dcf9b1fab",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/e030c3b0fdd106ec/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/e030c3b0fdd106ec/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/e030c3b0fdd106ec/thumb",
+          "video_duration": 43,
+          "width": 1280,
+          "height": 720,
+          "title": "タイルズ・サバイバル",
+          "button_text": "ダウンロード",
+          "message": "Can you survive in the wilderness?"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": 0.040462,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.155818
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.476064
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.603377
+          ]
+        ],
+        "dimensions": [
+          [
+            "1280x720",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "3f2a7e616479aba2",
+      "app_id": "67d3aaff2c328ae8e547d0ef",
+      "network": "Youtube",
+      "phashion_group": "3f2a7e616479aba2",
+      "ad_type": "video",
+      "first_seen_at": "2025-09-06",
+      "last_seen_at": "2025-12-30",
+      "creatives": [
+        {
+          "id": "3f2a7e616479aba2",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/f697b064a8aa8d39/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/f697b064a8aa8d39/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/f697b064a8aa8d39/thumb",
+          "video_duration": 6,
+          "width": 1280,
+          "height": 720,
+          "title": "Tiles Survive!",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": 0.031087,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.377276
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.382324
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "1280x720",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "e2f118eeca79970c",
+      "app_id": "67d3aaff2c328ae8e547d0ef",
+      "network": "Youtube",
+      "phashion_group": "e2f118eeca79970c",
+      "ad_type": "video",
+      "first_seen_at": "2025-09-27",
+      "last_seen_at": "2025-12-30",
+      "creatives": [
+        {
+          "id": "e2f118eeca79970c",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/11a69ea20110ddf2/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/11a69ea20110ddf2/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/11a69ea20110ddf2/thumb",
+          "video_duration": 6,
+          "width": 1280,
+          "height": 720,
+          "title": "Tiles Survive!",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": 0.029833,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.376144
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "1280x720",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "44d740857d259c03",
+      "app_id": "67d3aaff2c328ae8e547d0ef",
+      "network": "Youtube",
+      "phashion_group": "44d740857d259c03",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-07",
+      "last_seen_at": "2025-12-27",
+      "creatives": [
+        {
+          "id": "44d740857d259c03",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/8d6a8e80b1f6ba98/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/8d6a8e80b1f6ba98/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/8d6a8e80b1f6ba98/thumb",
+          "video_duration": 6,
+          "width": 1280,
+          "height": 720,
+          "title": "Tiles Survive!",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": 0.023889,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.466099
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.18255
+          ]
+        ],
+        "dimensions": [
+          [
+            "1280x720",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "9e358039f1df8922",
+      "app_id": "67d3aaff2c328ae8e547d0ef",
+      "network": "Youtube",
+      "phashion_group": "9e358039f1df8922",
+      "ad_type": "video",
+      "first_seen_at": "2025-09-13",
+      "last_seen_at": "2026-01-28",
+      "creatives": [
+        {
+          "id": "9e358039f1df8922",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/bc56bcc4c3959065/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/bc56bcc4c3959065/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/bc56bcc4c3959065/thumb",
+          "video_duration": 22,
+          "width": 1280,
+          "height": 720,
+          "title": "Tiles Survive!",
+          "button_text": "Install",
+          "message": "Can you survive in the wilderness?"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": 0.02229,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.485479
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.437206
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.368401
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.910124
+          ]
+        ],
+        "dimensions": [
+          [
+            "1280x720",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "940543a0accc70e3",
+      "app_id": "67d3aaff2c328ae8e547d0ef",
+      "network": "Youtube",
+      "phashion_group": "940543a0accc70e3",
+      "ad_type": "video",
+      "first_seen_at": "2025-10-29",
+      "last_seen_at": "2025-12-29",
+      "creatives": [
+        {
+          "id": "940543a0accc70e3",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/6752c5ec67a53a1d/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/6752c5ec67a53a1d/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/6752c5ec67a53a1d/thumb",
+          "video_duration": 6,
+          "width": 1280,
+          "height": 720,
+          "title": "Tiles Survive!",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": 0.020946,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.885563
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.897301
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "1280x720",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "37d508ee8461ff6e",
+      "app_id": "67d3aaff2c328ae8e547d0ef",
+      "network": "Youtube",
+      "phashion_group": "37d508ee8461ff6e",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-10",
+      "last_seen_at": "2026-01-28",
+      "creatives": [
+        {
+          "id": "37d508ee8461ff6e",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/15b63413b62be629/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/15b63413b62be629/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/15b63413b62be629/thumb",
+          "video_duration": 37,
+          "width": 1280,
+          "height": 720,
+          "title": "Tiles Survive!",
+          "button_text": "Install",
+          "message": "Can you survive in the wilderness?"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": 0.017477,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.829307
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "1280x720",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "ce907d42f95fb0fb",
+      "app_id": "67d3aaff2c328ae8e547d0ef",
+      "network": "Youtube",
+      "phashion_group": "ce907d42f95fb0fb",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-07",
+      "last_seen_at": "2026-01-27",
+      "creatives": [
+        {
+          "id": "ce907d42f95fb0fb",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/072db347358c9660/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/072db347358c9660/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/072db347358c9660/thumb",
+          "video_duration": 6,
+          "width": 1280,
+          "height": 720,
+          "title": "Tiles Survive!",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": 0.016992,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.275507
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "1280x720",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "b977df8b7de6f6ad",
+      "app_id": "67d3aaff2c328ae8e547d0ef",
+      "network": "Youtube",
+      "phashion_group": "b977df8b7de6f6ad",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-07",
+      "last_seen_at": "2026-01-28",
+      "creatives": [
+        {
+          "id": "b977df8b7de6f6ad",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/70ca118eb135d036/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/70ca118eb135d036/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/70ca118eb135d036/thumb",
+          "video_duration": 6,
+          "width": 1280,
+          "height": 720,
+          "title": "Tiles Survive!",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": 0.016372,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.29326
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.211472
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.197489
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "1280x720",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "7b22f4a9a67a87bc",
+      "app_id": "67d3aaff2c328ae8e547d0ef",
+      "network": "Youtube",
+      "phashion_group": "7b22f4a9a67a87bc",
+      "ad_type": "video",
+      "first_seen_at": "2025-09-09",
+      "last_seen_at": "2026-01-26",
+      "creatives": [
+        {
+          "id": "7b22f4a9a67a87bc",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/5941c85494309efb/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/5941c85494309efb/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/5941c85494309efb/thumb",
+          "video_duration": 24,
+          "width": 1280,
+          "height": 720,
+          "title": "Tiles Survive!",
+          "button_text": "Scarica",
+          "message": "Can you survive in the wilderness?"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": 0.015425,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.822898
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "1280x720",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "bfd332a51150e51b",
+      "app_id": "67d3aaff2c328ae8e547d0ef",
+      "network": "Applovin",
+      "phashion_group": "bfd332a51150e51b",
+      "ad_type": "video",
+      "first_seen_at": "2025-05-31",
+      "last_seen_at": "2026-01-28",
+      "creatives": [
+        {
+          "id": "bfd332a51150e51b",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/35ba0c2b56315f9d/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/35ba0c2b56315f9d/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/35ba0c2b56315f9d/thumb",
+          "video_duration": 59,
+          "width": 720,
+          "height": 1280,
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "rewarded",
+        "interstitial",
+        "other"
+      ],
+      "share": 0.0154,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.883297
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.507363
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.140855
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.742826
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.781366
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.878933
+          ]
+        ],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 30,
+        "data": [
+          [
+            "5ca7e581ead13f47d0dcad61",
+            0.098032
+          ],
+          [
+            "613d89635f790b3e3a3081ec",
+            0.09607
+          ],
+          [
+            "68b8e1cd494b3e5884f1d9c8",
+            0.066427
+          ],
+          [
+            "6845bcda27de6925fcea4385",
+            0.06346
+          ],
+          [
+            "59507ace7fcbd303c2001a77",
+            0.055568
+          ],
+          [
+            "649172466cb0390387c043a3",
+            0.055433
+          ],
+          [
+            "61107f3e7a464f261568abe0",
+            0.054616
+          ],
+          [
+            "55a0647ff2da0dd3d30027c6",
+            0.040447
+          ],
+          [
+            "6763f61867adbafccb6eb1b1",
+            0.037904
+          ],
+          [
+            "67b9ac1d27e2c17eddb001d0",
+            0.037149
+          ],
+          [
+            "675f00d9398a85e0fd22712b",
+            0.03664
+          ],
+          [
+            "6734392a644f25add9a41f11",
+            0.036578
+          ],
+          [
+            "5dd54f395c6ace4531c71a91",
+            0.031367
+          ],
+          [
+            "675217f62839d91dc1316c59",
+            0.030673
+          ],
+          [
+            "56f3579c3ca045a67c00326e",
+            0.030231
+          ],
+          [
+            "55d95b0c02ac645ad2379e00",
+            0.027585
+          ],
+          [
+            "672e2ed5858d7df8b06638db",
+            0.027353
+          ],
+          [
+            "56cbb76cd2cb203e6b0005c5",
+            0.027308
+          ],
+          [
+            "668eb5b2b3ae27586ab1cecc",
+            0.021433
+          ],
+          [
+            "6789c1379c66974e4f390c7c",
+            0.019896
+          ],
+          [
+            "5f0f4879ec1eca73168de5d2",
+            0.018237
+          ],
+          [
+            "611c61083f2ca91dc8609431",
+            0.018191
+          ],
+          [
+            "68c18e3bb4c3274dda050583",
+            0.014761
+          ],
+          [
+            "55c5157502ac64f9c000263d",
+            0.010142
+          ],
+          [
+            "58a768b50211a6552d000804",
+            0.009118
+          ],
+          [
+            "68fb8ddd27e2c171a81e3b6a",
+            0.009118
+          ],
+          [
+            "55c5098702ac64f9c000223a",
+            0.00742
+          ],
+          [
+            "664d81f21830ec1e7d00a151",
+            0.006859
+          ],
+          [
+            "665fb0ec27246ed837307517",
+            0.005999
+          ],
+          [
+            "5f7996fb5fa4965cee299763",
+            0.005985
+          ]
+        ]
+      }
+    },
+    {
+      "id": "ec204b8f5b505148",
+      "app_id": "67d3aaff2c328ae8e547d0ef",
+      "network": "Youtube",
+      "phashion_group": "ec204b8f5b505148",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-07",
+      "last_seen_at": "2026-01-27",
+      "creatives": [
+        {
+          "id": "ec204b8f5b505148",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/259d858a978377d3/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/259d858a978377d3/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/259d858a978377d3/thumb",
+          "video_duration": 6,
+          "width": 1280,
+          "height": 720,
+          "title": "Tiles Survive!",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": 0.01341,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "1280x720",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "bd8526324e4f9b4b",
+      "app_id": "67d3aaff2c328ae8e547d0ef",
+      "network": "Youtube",
+      "phashion_group": "bd8526324e4f9b4b",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-07",
+      "last_seen_at": "2026-01-28",
+      "creatives": [
+        {
+          "id": "bd8526324e4f9b4b",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/7438e837829cbdd0/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/7438e837829cbdd0/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/7438e837829cbdd0/thumb",
+          "video_duration": 6,
+          "width": 1280,
+          "height": 720,
+          "title": "Tiles Survive!",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": 0.013125,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.516824
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.251718
+          ]
+        ],
+        "dimensions": [
+          [
+            "1280x720",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "05939e09c9a3d4de",
+      "app_id": "67d3aaff2c328ae8e547d0ef",
+      "network": "Applovin",
+      "phashion_group": "05939e09c9a3d4de",
+      "ad_type": "video",
+      "first_seen_at": "2025-10-21",
+      "last_seen_at": "2026-01-28",
+      "creatives": [
+        {
+          "id": "05939e09c9a3d4de",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/8ffaa0878ec26e58/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/8ffaa0878ec26e58/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/8ffaa0878ec26e58/thumb",
+          "video_duration": 57,
+          "width": 720,
+          "height": 1280,
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "rewarded",
+        "interstitial",
+        "other"
+      ],
+      "share": 0.011131,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.779313
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.680708
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.949786
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.219502
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.411964
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.043195
+          ]
+        ],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 12,
+        "data": [
+          [
+            "6845bcda27de6925fcea4385",
+            0.260863
+          ],
+          [
+            "61de945506d20d28cf3fd030",
+            0.186735
+          ],
+          [
+            "68b8e1cd494b3e5884f1d9c8",
+            0.128663
+          ],
+          [
+            "665fb0ec27246ed837307517",
+            0.100861
+          ],
+          [
+            "59507ace7fcbd303c2001a77",
+            0.076877
+          ],
+          [
+            "66b18aba455a6b038239a1f3",
+            0.055134
+          ],
+          [
+            "683e4122a6c1da4a248f3f60",
+            0.053741
+          ],
+          [
+            "590ce9580211a6ffc900001b",
+            0.045801
+          ],
+          [
+            "68c18e3bb4c3274dda050583",
+            0.037994
+          ],
+          [
+            "56f3579c3ca045a67c00326e",
+            0.033266
+          ],
+          [
+            "6734392a644f25add9a41f11",
+            0.010575
+          ],
+          [
+            "664d81f21830ec1e7d00a151",
+            0.00949
+          ]
+        ]
+      }
+    },
+    {
+      "id": "81a5d708ae02d3b9",
+      "app_id": "67d3aaff2c328ae8e547d0ef",
+      "network": "Youtube",
+      "phashion_group": "81a5d708ae02d3b9",
+      "ad_type": "video",
+      "first_seen_at": "2025-08-22",
+      "last_seen_at": "2026-01-26",
+      "creatives": [
+        {
+          "id": "81a5d708ae02d3b9",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4818190d62d1f522/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4818190d62d1f522/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4818190d62d1f522/thumb",
+          "video_duration": 6,
+          "width": 1280,
+          "height": 720,
+          "title": "Tiles Survive!",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": 0.010922,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            1.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "1280x720",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "bbb920ce3a6e67a4",
+      "app_id": "67d3aaff2c328ae8e547d0ef",
+      "network": "Youtube",
+      "phashion_group": "bbb920ce3a6e67a4",
+      "ad_type": "video",
+      "first_seen_at": "2025-09-15",
+      "last_seen_at": "2026-01-07",
+      "creatives": [
+        {
+          "id": "bbb920ce3a6e67a4",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/99da1c3308247ee3/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/99da1c3308247ee3/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/99da1c3308247ee3/thumb",
+          "video_duration": 32,
+          "width": 1280,
+          "height": 720,
+          "title": "Tiles Survive!",
+          "button_text": "Tải xuống",
+          "message": "Can you survive in the wilderness?"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": 0.01082,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.593383
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.515571
+          ]
+        ],
+        "dimensions": [
+          [
+            "1280x720",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "8c6a3bb97444504f",
+      "app_id": "67d3aaff2c328ae8e547d0ef",
+      "network": "Youtube",
+      "phashion_group": "8c6a3bb97444504f",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-10",
+      "last_seen_at": "2026-01-27",
+      "creatives": [
+        {
+          "id": "8c6a3bb97444504f",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/45d7f5bcb89776d4/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/45d7f5bcb89776d4/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/45d7f5bcb89776d4/thumb",
+          "video_duration": 58,
+          "width": 1280,
+          "height": 720,
+          "title": "Tiles Survive!",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": 0.010347,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.374745
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "1280x720",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "25bbc5d149ab985b",
+      "app_id": "67d3aaff2c328ae8e547d0ef",
+      "network": "Admob",
+      "phashion_group": "25bbc5d149ab985b",
+      "ad_type": "video",
+      "first_seen_at": "2025-08-15",
+      "last_seen_at": "2026-01-28",
+      "creatives": [
+        {
+          "id": "25bbc5d149ab985b",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/d78d91b373f60a87/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/d78d91b373f60a87/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/d78d91b373f60a87/thumb",
+          "video_duration": 15,
+          "width": 1280,
+          "height": 720,
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": 0.010055,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "1280x720",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 1,
+        "data": [
+          [
+            "6465c73f5a454d6b8f91403e",
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "id": "1f6def35ff599826",
+      "app_id": "67d3aaff2c328ae8e547d0ef",
+      "network": "Youtube",
+      "phashion_group": "1f6def35ff599826",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-11",
+      "last_seen_at": "2026-01-28",
+      "creatives": [
+        {
+          "id": "1f6def35ff599826",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/ec3a69793430d2d8/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/ec3a69793430d2d8/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/ec3a69793430d2d8/thumb",
+          "video_duration": 6,
+          "width": 1280,
+          "height": 720,
+          "title": "Tiles Survive!",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": 0.009217,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.93865
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            1.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "1280x720",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "63825e0ffe6876e2",
+      "app_id": "67d3aaff2c328ae8e547d0ef",
+      "network": "Youtube",
+      "phashion_group": "63825e0ffe6876e2",
+      "ad_type": "video",
+      "first_seen_at": "2025-10-24",
+      "last_seen_at": "2026-01-19",
+      "creatives": [
+        {
+          "id": "63825e0ffe6876e2",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/41e162f2cc226fa5/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/41e162f2cc226fa5/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/41e162f2cc226fa5/thumb",
+          "video_duration": 45,
+          "width": 1280,
+          "height": 720,
+          "title": "タイルズ・サバイバル",
+          "button_text": "ダウンロード",
+          "message": "Can you survive in the wilderness?"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": 0.008618,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "1280x720",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "b90238bb7fcf3e4b",
+      "app_id": "67d3aaff2c328ae8e547d0ef",
+      "network": "Youtube",
+      "phashion_group": "b90238bb7fcf3e4b",
+      "ad_type": "video",
+      "first_seen_at": "2025-09-05",
+      "last_seen_at": "2026-01-27",
+      "creatives": [
+        {
+          "id": "b90238bb7fcf3e4b",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/9b6104464d85270c/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/9b6104464d85270c/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/9b6104464d85270c/thumb",
+          "video_duration": 45,
+          "width": 1280,
+          "height": 720,
+          "title": "Tiles Survive!",
+          "button_text": "Transferir",
+          "message": "Can you survive in the wilderness?"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": 0.008618,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "1280x720",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "b9f3d3c84ac814cd",
+      "app_id": "67d3aaff2c328ae8e547d0ef",
+      "network": "Youtube",
+      "phashion_group": "b9f3d3c84ac814cd",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-21",
+      "last_seen_at": "2026-01-27",
+      "creatives": [
+        {
+          "id": "b9f3d3c84ac814cd",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/9b90ef3578820d8a/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/9b90ef3578820d8a/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/9b90ef3578820d8a/thumb",
+          "video_duration": 32,
+          "width": 1280,
+          "height": 720,
+          "title": "Tiles Survive!",
+          "button_text": "Atsisiųsti",
+          "message": "Can you survive in the wilderness?"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": 0.008618,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "1280x720",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "4dd31a626daa6bb7",
+      "app_id": "67d3aaff2c328ae8e547d0ef",
+      "network": "Youtube",
+      "phashion_group": "4dd31a626daa6bb7",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-07",
+      "last_seen_at": "2025-12-25",
+      "creatives": [
+        {
+          "id": "4dd31a626daa6bb7",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/846ed467a1794d2c/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/846ed467a1794d2c/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/846ed467a1794d2c/thumb",
+          "video_duration": 6,
+          "width": 1280,
+          "height": 720,
+          "title": "Tiles Survive!",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": 0.007527,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "1280x720",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "134c2b3b941873a0",
+      "app_id": "67d3aaff2c328ae8e547d0ef",
+      "network": "Youtube",
+      "phashion_group": "134c2b3b941873a0",
+      "ad_type": "video",
+      "first_seen_at": "2025-10-25",
+      "last_seen_at": "2026-01-10",
+      "creatives": [
+        {
+          "id": "134c2b3b941873a0",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/312f17c6a6526ae7/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/312f17c6a6526ae7/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/312f17c6a6526ae7/thumb",
+          "video_duration": 27,
+          "width": 1280,
+          "height": 720,
+          "title": "Tiles Survive!",
+          "button_text": "Download",
+          "message": "Can you survive in the wilderness?"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": 0.006963,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "1280x720",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "57084a6ce881d4af",
+      "app_id": "67d3aaff2c328ae8e547d0ef",
+      "network": "Youtube",
+      "phashion_group": "57084a6ce881d4af",
+      "ad_type": "video",
+      "first_seen_at": "2025-10-27",
+      "last_seen_at": "2025-12-08",
+      "creatives": [
+        {
+          "id": "57084a6ce881d4af",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/756b7691dacbcde8/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/756b7691dacbcde8/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/756b7691dacbcde8/thumb",
+          "video_duration": 18,
+          "width": 1280,
+          "height": 720,
+          "title": "Tiles Survive!",
+          "button_text": "Baixa",
+          "message": "Can you survive in the wilderness?"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": 0.006963,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "1280x720",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "034ae1812e9ccf2a",
+      "app_id": "67d3aaff2c328ae8e547d0ef",
+      "network": "Youtube",
+      "phashion_group": "034ae1812e9ccf2a",
+      "ad_type": "video",
+      "first_seen_at": "2025-10-28",
+      "last_seen_at": "2026-01-27",
+      "creatives": [
+        {
+          "id": "034ae1812e9ccf2a",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/caf72f84e24fe9b1/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/caf72f84e24fe9b1/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/caf72f84e24fe9b1/thumb",
+          "video_duration": 5,
+          "width": 1280,
+          "height": 720,
+          "title": "Tiles Survive!",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": 0.006963,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "1280x720",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "8b73bf8ed4d5aae7",
+      "app_id": "67d3aaff2c328ae8e547d0ef",
+      "network": "Youtube",
+      "phashion_group": "8b73bf8ed4d5aae7",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-07",
+      "last_seen_at": "2026-01-27",
+      "creatives": [
+        {
+          "id": "8b73bf8ed4d5aae7",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/42ce718b18068c7c/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/42ce718b18068c7c/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/42ce718b18068c7c/thumb",
+          "video_duration": 6,
+          "width": 1280,
+          "height": 720,
+          "title": "Tiles Survive!",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": 0.00558,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "1280x720",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "c493267ca636ca06",
+      "app_id": "67d3aaff2c328ae8e547d0ef",
+      "network": "Applovin",
+      "phashion_group": "c493267ca636ca06",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-03",
+      "last_seen_at": "2026-01-13",
+      "creatives": [
+        {
+          "id": "c493267ca636ca06",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4efa18f2e1577080/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4efa18f2e1577080/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4efa18f2e1577080/thumb",
+          "video_duration": 59,
+          "width": 720,
+          "height": 1280,
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "rewarded",
+        "interstitial",
+        "other"
+      ],
+      "share": 0.004993,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.183015
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.13116
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.134333
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.833372
+          ]
+        ],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 12,
+        "data": [
+          [
+            "665fb0ec27246ed837307517",
+            0.285826
+          ],
+          [
+            "5f0f4879ec1eca73168de5d2",
+            0.168719
+          ],
+          [
+            "615d3137d047bc60694388e2",
+            0.1448
+          ],
+          [
+            "68c18e3bb4c3274dda050583",
+            0.091049
+          ],
+          [
+            "675217f62839d91dc1316c59",
+            0.06136
+          ],
+          [
+            "55d20e4602ac64ee7300028a",
+            0.058775
+          ],
+          [
+            "61de945506d20d28cf3fd030",
+            0.057573
+          ],
+          [
+            "6793b4701e743fdc2a698991",
+            0.035173
+          ],
+          [
+            "58a768b50211a6552d000804",
+            0.028119
+          ],
+          [
+            "6734392a644f25add9a41f11",
+            0.023575
+          ],
+          [
+            "6845bcda27de6925fcea4385",
+            0.022515
+          ],
+          [
+            "687f300cf35ed1e66775d836",
+            0.022515
+          ]
+        ]
+      }
+    },
+    {
+      "id": "18c351ab008ae850",
+      "app_id": "67d3aaff2c328ae8e547d0ef",
+      "network": "Youtube",
+      "phashion_group": "18c351ab008ae850",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-07",
+      "last_seen_at": "2025-12-14",
+      "creatives": [
+        {
+          "id": "18c351ab008ae850",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/d17e9faecc59cecb/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/d17e9faecc59cecb/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/d17e9faecc59cecb/thumb",
+          "video_duration": 6,
+          "width": 1280,
+          "height": 720,
+          "title": "Tiles Survive!",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": 0.004754,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            1.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "1280x720",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "8aaf2705e8385f8f",
+      "app_id": "67d3aaff2c328ae8e547d0ef",
+      "network": "Applovin",
+      "phashion_group": "8aaf2705e8385f8f",
+      "ad_type": "video",
+      "first_seen_at": "2025-08-08",
+      "last_seen_at": "2026-01-28",
+      "creatives": [
+        {
+          "id": "8aaf2705e8385f8f",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/00c6198baf59e509/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/00c6198baf59e509/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/00c6198baf59e509/thumb",
+          "video_duration": 57,
+          "width": 716,
+          "height": 1280,
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "rewarded",
+        "interstitial",
+        "other"
+      ],
+      "share": 0.004547,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.619097
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.699854
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.149912
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.676863
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.428322
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.503728
+          ]
+        ],
+        "dimensions": [
+          [
+            "716x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 7,
+        "data": [
+          [
+            "5f51e81875d77d4ff1760dc1",
+            0.455638
+          ],
+          [
+            "665fb0ec27246ed837307517",
+            0.245232
+          ],
+          [
+            "68b8e1cd494b3e5884f1d9c8",
+            0.134998
+          ],
+          [
+            "61de945506d20d28cf3fd030",
+            0.077639
+          ],
+          [
+            "5f0f4879ec1eca73168de5d2",
+            0.030883
+          ],
+          [
+            "60f0889d49a1a911049a7be3",
+            0.030883
+          ],
+          [
+            "6845bcda27de6925fcea4385",
+            0.024728
+          ]
+        ]
+      }
+    },
+    {
+      "id": "1f09f008235a19f6",
+      "app_id": "67d3aaff2c328ae8e547d0ef",
+      "network": "Youtube",
+      "phashion_group": "1f09f008235a19f6",
+      "ad_type": "video",
+      "first_seen_at": "2025-09-21",
+      "last_seen_at": "2026-01-24",
+      "creatives": [
+        {
+          "id": "1f09f008235a19f6",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3d6accf5111000b1/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3d6accf5111000b1/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3d6accf5111000b1/thumb",
+          "video_duration": 37,
+          "width": 1280,
+          "height": 720,
+          "title": "Tiles Survive!",
+          "button_text": "Install",
+          "message": "Can you survive in the wilderness?"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": 0.004463,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "1280x720",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "93de54efb9809c16",
+      "app_id": "67d3aaff2c328ae8e547d0ef",
+      "network": "Youtube",
+      "phashion_group": "93de54efb9809c16",
+      "ad_type": "video",
+      "first_seen_at": "2025-09-06",
+      "last_seen_at": "2026-01-24",
+      "creatives": [
+        {
+          "id": "93de54efb9809c16",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/b1bd68128bca8551/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/b1bd68128bca8551/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/b1bd68128bca8551/thumb",
+          "video_duration": 39,
+          "width": 1280,
+          "height": 720,
+          "title": "Tiles Survive!",
+          "button_text": "Pobierz",
+          "message": "Can you survive in the wilderness?"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": 0.004463,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "1280x720",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "52bba69cc3352022",
+      "app_id": "67d3aaff2c328ae8e547d0ef",
+      "network": "Youtube",
+      "phashion_group": "52bba69cc3352022",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-04",
+      "last_seen_at": "2026-01-28",
+      "creatives": [
+        {
+          "id": "52bba69cc3352022",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/70d89a61f17f3965/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/70d89a61f17f3965/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/70d89a61f17f3965/thumb",
+          "video_duration": 22,
+          "width": 1280,
+          "height": 720,
+          "title": "Tiles Survive!",
+          "button_text": "Install",
+          "message": "Can you survive in the wilderness?"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": 0.004158,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "1280x720",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "bdb74c495b8c8817",
+      "app_id": "67d3aaff2c328ae8e547d0ef",
+      "network": "Admob",
+      "phashion_group": "bdb74c495b8c8817",
+      "ad_type": "video",
+      "first_seen_at": "2025-08-26",
+      "last_seen_at": "2026-01-27",
+      "creatives": [
+        {
+          "id": "bdb74c495b8c8817",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4f81182b61d11acb/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4f81182b61d11acb/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4f81182b61d11acb/thumb",
+          "video_duration": 6,
+          "width": 1280,
+          "height": 720,
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "rewarded"
+      ],
+      "share": 0.004107,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "1280x720",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 1,
+        "data": [
+          [
+            "55c5369902ac64f9c0002fca",
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "id": "4a3b6eff689d31ab",
+      "app_id": "67d3aaff2c328ae8e547d0ef",
+      "network": "Applovin",
+      "phashion_group": "4a3b6eff689d31ab",
+      "ad_type": "video",
+      "first_seen_at": "2025-10-08",
+      "last_seen_at": "2026-01-13",
+      "creatives": [
+        {
+          "id": "4a3b6eff689d31ab",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/c05250712ffc8b2d/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/c05250712ffc8b2d/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/c05250712ffc8b2d/thumb",
+          "video_duration": 49,
+          "width": 720,
+          "height": 1280,
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "rewarded",
+        "other"
+      ],
+      "share": 0.003999,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.939841
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.088788
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.103295
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            1.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 8,
+        "data": [
+          [
+            "6845bcda27de6925fcea4385",
+            0.290669
+          ],
+          [
+            "6873ea9a527b8512ffcd200d",
+            0.22439
+          ],
+          [
+            "6734392a644f25add9a41f11",
+            0.209555
+          ],
+          [
+            "6526dfacad4adb61832d8e21",
+            0.087686
+          ],
+          [
+            "60913111fdef5825277f7ba6",
+            0.076017
+          ],
+          [
+            "61d12e78fa4913350e9ac28e",
+            0.048452
+          ],
+          [
+            "5f0f4879ec1eca73168de5d2",
+            0.035114
+          ],
+          [
+            "60aa9a8b1800975a0af8e40b",
+            0.028116
+          ]
+        ]
+      }
+    },
+    {
+      "id": "863cd62ead023c50",
+      "app_id": "67d3aaff2c328ae8e547d0ef",
+      "network": "Youtube",
+      "phashion_group": "863cd62ead023c50",
+      "ad_type": "video",
+      "first_seen_at": "2025-08-23",
+      "last_seen_at": "2026-01-27",
+      "creatives": [
+        {
+          "id": "863cd62ead023c50",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4f81182b61d11acb/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4f81182b61d11acb/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4f81182b61d11acb/thumb",
+          "video_duration": 6,
+          "width": 1280,
+          "height": 720,
+          "title": "Tiles Survive!",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": 0.003997,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.354311
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "1280x720",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "c51b56c4bcffb367",
+      "app_id": "67d3aaff2c328ae8e547d0ef",
+      "network": "Youtube",
+      "phashion_group": "c51b56c4bcffb367",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-19",
+      "last_seen_at": "2026-01-28",
+      "creatives": [
+        {
+          "id": "c51b56c4bcffb367",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/e7786a398eb5aa20/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/e7786a398eb5aa20/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/e7786a398eb5aa20/thumb",
+          "video_duration": 40,
+          "width": 1280,
+          "height": 720,
+          "title": "Tiles Survive!",
+          "button_text": "Install",
+          "message": "Can you survive in the wilderness?"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": 0.00367,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "1280x720",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "74811d987cbbd304",
+      "app_id": "67d3aaff2c328ae8e547d0ef",
+      "network": "Applovin",
+      "phashion_group": "74811d987cbbd304",
+      "ad_type": "video",
+      "first_seen_at": "2025-08-26",
+      "last_seen_at": "2026-01-28",
+      "creatives": [
+        {
+          "id": "74811d987cbbd304",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/fee823163bda6982/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/fee823163bda6982/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/fee823163bda6982/thumb",
+          "video_duration": 55,
+          "width": 720,
+          "height": 1280,
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "rewarded",
+        "interstitial"
+      ],
+      "share": 0.003029,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.180807
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.278803
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.16425
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 5,
+        "data": [
+          [
+            "61de945506d20d28cf3fd030",
+            0.424775
+          ],
+          [
+            "665fb0ec27246ed837307517",
+            0.272839
+          ],
+          [
+            "6845bcda27de6925fcea4385",
+            0.111344
+          ],
+          [
+            "664d81f21830ec1e7d00a151",
+            0.104615
+          ],
+          [
+            "6526dfacad4adb61832d8e21",
+            0.086426
+          ]
+        ]
+      }
+    },
+    {
+      "id": "3822aa34be365fc7",
+      "app_id": "67d3aaff2c328ae8e547d0ef",
+      "network": "Youtube",
+      "phashion_group": "3822aa34be365fc7",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-09",
+      "last_seen_at": "2026-01-28",
+      "creatives": [
+        {
+          "id": "3822aa34be365fc7",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/f19f643172e5795c/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/f19f643172e5795c/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/f19f643172e5795c/thumb",
+          "video_duration": 6,
+          "width": 1280,
+          "height": 720,
+          "title": "Tiles Survive!",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": 0.002951,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "1280x720",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "c1bfc6fd37f0be7a",
+      "app_id": "67d3aaff2c328ae8e547d0ef",
+      "network": "Youtube",
+      "phashion_group": "c1bfc6fd37f0be7a",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-07",
+      "last_seen_at": "2025-12-29",
+      "creatives": [
+        {
+          "id": "c1bfc6fd37f0be7a",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/080208f8fb2398e1/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/080208f8fb2398e1/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/080208f8fb2398e1/thumb",
+          "video_duration": 6,
+          "width": 1280,
+          "height": 720,
+          "title": "Tiles Survive!",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": 0.002821,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "1280x720",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "fbe8321e6b80e957",
+      "app_id": "67d3aaff2c328ae8e547d0ef",
+      "network": "Youtube",
+      "phashion_group": "fbe8321e6b80e957",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-07",
+      "last_seen_at": "2025-12-08",
+      "creatives": [
+        {
+          "id": "fbe8321e6b80e957",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/de4eb81f2ef00919/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/de4eb81f2ef00919/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/de4eb81f2ef00919/thumb",
+          "video_duration": 13,
+          "width": 1280,
+          "height": 720,
+          "title": "Tiles Survive!",
+          "button_text": "Download",
+          "message": "Can you survive in the wilderness?"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": 0.00279,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "1280x720",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "3653c0b4e447253d",
+      "app_id": "67d3aaff2c328ae8e547d0ef",
+      "network": "Youtube",
+      "phashion_group": "3653c0b4e447253d",
+      "ad_type": "video",
+      "first_seen_at": "2025-10-28",
+      "last_seen_at": "2025-12-29",
+      "creatives": [
+        {
+          "id": "3653c0b4e447253d",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/ffee0eb1289403a6/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/ffee0eb1289403a6/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/ffee0eb1289403a6/thumb",
+          "video_duration": 6,
+          "width": 1280,
+          "height": 720,
+          "title": "Tiles Survive!",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": 0.002515,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "1280x720",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "3bfd89fa010ae7aa",
+      "app_id": "67d3aaff2c328ae8e547d0ef",
+      "network": "Youtube",
+      "phashion_group": "3bfd89fa010ae7aa",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-13",
+      "last_seen_at": "2026-01-28",
+      "creatives": [
+        {
+          "id": "3bfd89fa010ae7aa",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/c8aa0fb6ca63ad54/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/c8aa0fb6ca63ad54/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/c8aa0fb6ca63ad54/thumb",
+          "video_duration": 6,
+          "width": 1280,
+          "height": 720,
+          "title": "Tiles Survive!",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": 0.001787,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "1280x720",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "828d33f73eb5694b",
+      "app_id": "67d3aaff2c328ae8e547d0ef",
+      "network": "Applovin",
+      "phashion_group": "828d33f73eb5694b",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-16",
+      "last_seen_at": "2025-12-29",
+      "creatives": [
+        {
+          "id": "828d33f73eb5694b",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/08e40d7979d4d3cd/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/08e40d7979d4d3cd/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/08e40d7979d4d3cd/thumb",
+          "video_duration": 56,
+          "width": 720,
+          "height": 1280,
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "rewarded",
+        "interstitial"
+      ],
+      "share": 0.001316,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.39906
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 1,
+        "data": [
+          [
+            "55c5233d02ac64f9c00029f3",
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "id": "ee9ccfd1ac8d20e6",
+      "app_id": "67d3aaff2c328ae8e547d0ef",
+      "network": "Admob",
+      "phashion_group": "ee9ccfd1ac8d20e6",
+      "ad_type": "video",
+      "first_seen_at": "2025-09-18",
+      "last_seen_at": "2026-01-28",
+      "creatives": [
+        {
+          "id": "ee9ccfd1ac8d20e6",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1caa9bb396d0b23a/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1caa9bb396d0b23a/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1caa9bb396d0b23a/thumb",
+          "video_duration": 31,
+          "width": 1280,
+          "height": 720,
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "rewarded"
+      ],
+      "share": 0.001316,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.130347
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "1280x720",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 1,
+        "data": [
+          [
+            "679b93d85882c3cbdf0530e6",
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "id": "4a20f7f25972ea0b",
+      "app_id": "67d3aaff2c328ae8e547d0ef",
+      "network": "Youtube",
+      "phashion_group": "4a20f7f25972ea0b",
+      "ad_type": "video",
+      "first_seen_at": "2025-10-30",
+      "last_seen_at": "2026-01-19",
+      "creatives": [
+        {
+          "id": "4a20f7f25972ea0b",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/6843cb0f6b38f34c/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/6843cb0f6b38f34c/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/6843cb0f6b38f34c/thumb",
+          "video_duration": 59,
+          "width": 1280,
+          "height": 720,
+          "title": "タイルズ・サバイバル",
+          "button_text": "ダウンロード",
+          "message": "Can you survive in the wilderness?"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": 0.001258,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "1280x720",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "5de1d6cb4af5c248",
+      "app_id": "67d3aaff2c328ae8e547d0ef",
+      "network": "Applovin",
+      "phashion_group": "5de1d6cb4af5c248",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-06",
+      "last_seen_at": "2026-01-28",
+      "creatives": [
+        {
+          "id": "5de1d6cb4af5c248",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/d788e8450d9478ce/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/d788e8450d9478ce/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/d788e8450d9478ce/thumb",
+          "video_duration": 45,
+          "width": 692,
+          "height": 1280,
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "rewarded",
+        "interstitial"
+      ],
+      "share": 0.001109,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.781845
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "692x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 1,
+        "data": [
+          [
+            "55c5233d02ac64f9c00029f3",
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "id": "5e88fc38a939b5e3",
+      "app_id": "67d3aaff2c328ae8e547d0ef",
+      "network": "Admob",
+      "phashion_group": "5e88fc38a939b5e3",
+      "ad_type": "video",
+      "first_seen_at": "2025-09-12",
+      "last_seen_at": "2026-01-11",
+      "creatives": [
+        {
+          "id": "5e88fc38a939b5e3",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/acbea85a9364273f/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/acbea85a9364273f/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/acbea85a9364273f/thumb",
+          "video_duration": 23,
+          "width": 1280,
+          "height": 720,
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "rewarded"
+      ],
+      "share": 0.001077,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "1280x720",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 1,
+        "data": [
+          [
+            "5a695569a3f5793ecc279a5f",
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "id": "a8bc4762e467b1d1",
+      "app_id": "67d3aaff2c328ae8e547d0ef",
+      "network": "Youtube",
+      "phashion_group": "a8bc4762e467b1d1",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-06",
+      "last_seen_at": "2026-01-27",
+      "creatives": [
+        {
+          "id": "a8bc4762e467b1d1",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/5bebc12e2f0efb2f/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/5bebc12e2f0efb2f/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/5bebc12e2f0efb2f/thumb",
+          "video_duration": 6,
+          "width": 1280,
+          "height": 720,
+          "title": "タイルズ・サバイバル",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": 0.001046,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "1280x720",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "a903876ad13fb930",
+      "app_id": "67d3aaff2c328ae8e547d0ef",
+      "network": "Applovin",
+      "phashion_group": "a903876ad13fb930",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-19",
+      "last_seen_at": "2026-01-18",
+      "creatives": [
+        {
+          "id": "a903876ad13fb930",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/236ab9e4965e03b6/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/236ab9e4965e03b6/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/236ab9e4965e03b6/thumb",
+          "video_duration": 52,
+          "width": 720,
+          "height": 1280,
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "rewarded"
+      ],
+      "share": 0.000758,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.174117
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 1,
+        "data": [
+          [
+            "6845bcda27de6925fcea4385",
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "id": "1afa749a9a389d7f",
+      "app_id": "67d3aaff2c328ae8e547d0ef",
+      "network": "Applovin",
+      "phashion_group": "1afa749a9a389d7f",
+      "ad_type": "video",
+      "first_seen_at": "2025-10-05",
+      "last_seen_at": "2025-12-25",
+      "creatives": [
+        {
+          "id": "1afa749a9a389d7f",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/90934a14dd5927f9/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/90934a14dd5927f9/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/90934a14dd5927f9/thumb",
+          "video_duration": 40,
+          "width": 720,
+          "height": 1280,
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "rewarded"
+      ],
+      "share": 0.000562,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 1,
+        "data": [
+          [
+            "6845bcda27de6925fcea4385",
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "id": "8c3c891dc90079de",
+      "app_id": "67d3aaff2c328ae8e547d0ef",
+      "network": "Applovin",
+      "phashion_group": "8c3c891dc90079de",
+      "ad_type": "video",
+      "first_seen_at": "2025-10-21",
+      "last_seen_at": "2026-01-13",
+      "creatives": [
+        {
+          "id": "8c3c891dc90079de",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0655b7938e61c358/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0655b7938e61c358/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0655b7938e61c358/thumb",
+          "video_duration": 58,
+          "width": 720,
+          "height": 1280,
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "rewarded"
+      ],
+      "share": 0.000225,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 1,
+        "data": [
+          [
+            "6845bcda27de6925fcea4385",
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "id": "c8222f707a9a7c47",
+      "app_id": "67d3aaff2c328ae8e547d0ef",
+      "network": "Applovin",
+      "phashion_group": "c8222f707a9a7c47",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-14",
+      "last_seen_at": "2025-12-14",
+      "creatives": [
+        {
+          "id": "c8222f707a9a7c47",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/424b11fe3dfbc6c1/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/424b11fe3dfbc6c1/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/424b11fe3dfbc6c1/thumb",
+          "video_duration": 59,
+          "width": 720,
+          "height": 1280,
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "interstitial"
+      ],
+      "share": 0.00014,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            1.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 1,
+        "data": [
+          [
+            "60f0889d49a1a911049a7be3",
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "id": "114350935d862d61",
+      "app_id": "67d3aaff2c328ae8e547d0ef",
+      "network": "Applovin",
+      "phashion_group": "114350935d862d61",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-05",
+      "last_seen_at": "2025-12-08",
+      "creatives": [
+        {
+          "id": "114350935d862d61",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/9b2a6e1d1ae797e7/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/9b2a6e1d1ae797e7/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/9b2a6e1d1ae797e7/thumb",
+          "video_duration": 59,
+          "width": 720,
+          "height": 1280,
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "rewarded"
+      ],
+      "share": 0.000112,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 1,
+        "data": [
+          [
+            "6845bcda27de6925fcea4385",
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "id": "54823db2e3b737a1",
+      "app_id": "67d3aaff2c328ae8e547d0ef",
+      "network": "Applovin",
+      "phashion_group": "54823db2e3b737a1",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-05",
+      "last_seen_at": "2026-01-02",
+      "creatives": [
+        {
+          "id": "54823db2e3b737a1",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/deeb033ca4d68d27/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/deeb033ca4d68d27/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/deeb033ca4d68d27/thumb",
+          "video_duration": 47,
+          "width": 720,
+          "height": 1280,
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "interstitial"
+      ],
+      "share": 0.000106,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 1,
+        "data": [
+          [
+            "664d81f21830ec1e7d00a151",
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "id": "f8436c4f9e35edcf",
+      "app_id": "67d3aaff2c328ae8e547d0ef",
+      "network": "TikTok",
+      "phashion_group": "f8436c4f9e35edcf",
+      "ad_type": "video",
+      "first_seen_at": "2025-09-28",
+      "last_seen_at": "2025-12-28",
+      "creatives": [
+        {
+          "id": "f8436c4f9e35edcf",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0015218cb90c9408/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0015218cb90c9408/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0015218cb90c9408/thumb",
+          "video_duration": 22,
+          "width": 1080,
+          "height": 1920,
+          "message": "This game is so interesting! Play now for free"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "d7804678e665365d",
+      "app_id": "67d3aaff2c328ae8e547d0ef",
+      "network": "TikTok",
+      "phashion_group": "d7804678e665365d",
+      "ad_type": "video",
+      "first_seen_at": "2025-10-21",
+      "last_seen_at": "2026-01-22",
+      "creatives": [
+        {
+          "id": "d7804678e665365d",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0034c28237b3b90a/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0034c28237b3b90a/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0034c28237b3b90a/thumb",
+          "video_duration": 26,
+          "width": 720,
+          "height": 1280,
+          "message": "Try your best here. Winner takes all."
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "3e301b8f00d2ca19",
+      "app_id": "67d3aaff2c328ae8e547d0ef",
+      "network": "TikTok",
+      "phashion_group": "3e301b8f00d2ca19",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-13",
+      "last_seen_at": "2026-01-28",
+      "creatives": [
+        {
+          "id": "3e301b8f00d2ca19",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0049b3004ea98d11/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0049b3004ea98d11/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0049b3004ea98d11/thumb",
+          "video_duration": 53,
+          "width": 720,
+          "height": 1280,
+          "message": "おめでとうございます！引換ギフトコード「TS777」を獲得しました！"
+        },
+        {
+          "id": "8cc3551489ba3e72",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0049b3004ea98d11/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0049b3004ea98d11/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0049b3004ea98d11/thumb",
+          "video_duration": 53,
+          "width": 720,
+          "height": 1280,
+          "message": "人気の新しいサバイバルゲームがが絶賛配信中！"
+        },
+        {
+          "id": "d6024a04fa383265",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0049b3004ea98d11/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0049b3004ea98d11/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0049b3004ea98d11/thumb",
+          "video_duration": 53,
+          "width": 720,
+          "height": 1280,
+          "message": "このゲームが気に入ったなら、今すぐダウンロードしよう！"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "56ccdbd0b60f868f",
+      "app_id": "67d3aaff2c328ae8e547d0ef",
+      "network": "TikTok",
+      "phashion_group": "56ccdbd0b60f868f",
+      "ad_type": "video",
+      "first_seen_at": "2025-08-04",
+      "last_seen_at": "2026-01-28",
+      "creatives": [
+        {
+          "id": "56ccdbd0b60f868f",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/004a056e6c9dc059/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/004a056e6c9dc059/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/004a056e6c9dc059/thumb",
+          "video_duration": 34,
+          "width": 720,
+          "height": 1280,
+          "message": "Can you survive in this world?"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "16e1a807e6c0ed80",
+      "app_id": "67d3aaff2c328ae8e547d0ef",
+      "network": "Facebook",
+      "phashion_group": "16e1a807e6c0ed80",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-11",
+      "last_seen_at": "2025-12-17",
+      "creatives": [
+        {
+          "id": "16e1a807e6c0ed80",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/006905869e1c9c8e/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/006905869e1c9c8e/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/006905869e1c9c8e/thumb",
+          "video_duration": 57,
+          "width": 1080,
+          "height": 1920,
+          "button_text": "Play Game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "73af84808d2afb23",
+      "app_id": "67d3aaff2c328ae8e547d0ef",
+      "network": "Instagram",
+      "phashion_group": "73af84808d2afb23",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-11",
+      "last_seen_at": "2025-12-17",
+      "creatives": [
+        {
+          "id": "73af84808d2afb23",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/006905869e1c9c8e/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/006905869e1c9c8e/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/006905869e1c9c8e/thumb",
+          "video_duration": 57,
+          "width": 1080,
+          "height": 1920,
+          "button_text": "Play Game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "24637b73e9d8fc31",
+      "app_id": "67d3aaff2c328ae8e547d0ef",
+      "network": "Meta Audience Network",
+      "phashion_group": "24637b73e9d8fc31",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-11",
+      "last_seen_at": "2025-12-17",
+      "creatives": [
+        {
+          "id": "24637b73e9d8fc31",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/006905869e1c9c8e/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/006905869e1c9c8e/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/006905869e1c9c8e/thumb",
+          "video_duration": 57,
+          "width": 1080,
+          "height": 1920,
+          "button_text": "Play Game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "ae1294335afecc62",
+      "app_id": "67d3aaff2c328ae8e547d0ef",
+      "network": "Facebook",
+      "phashion_group": "ae1294335afecc62",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-11",
+      "last_seen_at": "2025-12-18",
+      "creatives": [
+        {
+          "id": "ae1294335afecc62",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/00698910e188270d/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/00698910e188270d/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/00698910e188270d/thumb",
+          "video_duration": 41,
+          "width": 1080,
+          "height": 1920,
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "723072c3ca49d491",
+      "app_id": "67d3aaff2c328ae8e547d0ef",
+      "network": "Instagram",
+      "phashion_group": "723072c3ca49d491",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-11",
+      "last_seen_at": "2025-12-18",
+      "creatives": [
+        {
+          "id": "723072c3ca49d491",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/00698910e188270d/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/00698910e188270d/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/00698910e188270d/thumb",
+          "video_duration": 41,
+          "width": 1080,
+          "height": 1920,
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "9c90474755e6ddd3",
+      "app_id": "67d3aaff2c328ae8e547d0ef",
+      "network": "Meta Audience Network",
+      "phashion_group": "9c90474755e6ddd3",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-11",
+      "last_seen_at": "2025-12-18",
+      "creatives": [
+        {
+          "id": "9c90474755e6ddd3",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/00698910e188270d/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/00698910e188270d/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/00698910e188270d/thumb",
+          "video_duration": 41,
+          "width": 1080,
+          "height": 1920,
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "1629480dea4f3a0a",
+      "app_id": "67d3aaff2c328ae8e547d0ef",
+      "network": "Facebook",
+      "phashion_group": "1629480dea4f3a0a",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-10",
+      "last_seen_at": "2026-01-21",
+      "creatives": [
+        {
+          "id": "1629480dea4f3a0a",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/00a1e58c92934b04/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/00a1e58c92934b04/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/00a1e58c92934b04/thumb",
+          "video_duration": 21,
+          "width": 1080,
+          "height": 1920,
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "7367648a81a52ca9",
+      "app_id": "67d3aaff2c328ae8e547d0ef",
+      "network": "Instagram",
+      "phashion_group": "7367648a81a52ca9",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-10",
+      "last_seen_at": "2026-01-21",
+      "creatives": [
+        {
+          "id": "7367648a81a52ca9",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/00a1e58c92934b04/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/00a1e58c92934b04/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/00a1e58c92934b04/thumb",
+          "video_duration": 21,
+          "width": 1080,
+          "height": 1920,
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "24ab9b79e5572bbb",
+      "app_id": "67d3aaff2c328ae8e547d0ef",
+      "network": "Meta Audience Network",
+      "phashion_group": "24ab9b79e5572bbb",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-10",
+      "last_seen_at": "2026-01-21",
+      "creatives": [
+        {
+          "id": "24ab9b79e5572bbb",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/00a1e58c92934b04/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/00a1e58c92934b04/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/00a1e58c92934b04/thumb",
+          "video_duration": 21,
+          "width": 1080,
+          "height": 1920,
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "16261085d64dc865",
+      "app_id": "67d3aaff2c328ae8e547d0ef",
+      "network": "Facebook",
+      "phashion_group": "16261085d64dc865",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-04",
+      "last_seen_at": "2026-01-04",
+      "creatives": [
+        {
+          "id": "16261085d64dc865",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/00aebd04ae91b96b/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/00aebd04ae91b96b/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/00aebd04ae91b96b/thumb",
+          "video_duration": 51,
+          "width": 1080,
+          "height": 1920,
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "73683c02bda7dec6",
+      "app_id": "67d3aaff2c328ae8e547d0ef",
+      "network": "Instagram",
+      "phashion_group": "73683c02bda7dec6",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-04",
+      "last_seen_at": "2026-01-04",
+      "creatives": [
+        {
+          "id": "73683c02bda7dec6",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/00aebd04ae91b96b/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/00aebd04ae91b96b/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/00aebd04ae91b96b/thumb",
+          "video_duration": 51,
+          "width": 1080,
+          "height": 1920,
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "24a4c3f1d955d9d4",
+      "app_id": "67d3aaff2c328ae8e547d0ef",
+      "network": "Meta Audience Network",
+      "phashion_group": "24a4c3f1d955d9d4",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-04",
+      "last_seen_at": "2026-01-04",
+      "creatives": [
+        {
+          "id": "24a4c3f1d955d9d4",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/00aebd04ae91b96b/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/00aebd04ae91b96b/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/00aebd04ae91b96b/thumb",
+          "video_duration": 51,
+          "width": 1080,
+          "height": 1920,
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "bfb9768600c5c63b",
+      "app_id": "67d3aaff2c328ae8e547d0ef",
+      "network": "TikTok",
+      "phashion_group": "bfb9768600c5c63b",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-27",
+      "last_seen_at": "2025-12-19",
+      "creatives": [
+        {
+          "id": "bfb9768600c5c63b",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/00eaafc8a59e2309/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/00eaafc8a59e2309/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/00eaafc8a59e2309/thumb",
+          "video_duration": 39,
+          "width": 1080,
+          "height": 1920,
+          "message": "Try your best here. Winner takes all."
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "179b76e679d1f671",
+      "app_id": "67d3aaff2c328ae8e547d0ef",
+      "network": "Facebook",
+      "phashion_group": "179b76e679d1f671",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-05",
+      "last_seen_at": "2025-12-19",
+      "creatives": [
+        {
+          "id": "179b76e679d1f671",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0113db67010d877f/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0113db67010d877f/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0113db67010d877f/thumb",
+          "video_duration": 33,
+          "width": 1080,
+          "height": 1350,
+          "button_text": "Play Game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1350",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "72d55a61123be0d2",
+      "app_id": "67d3aaff2c328ae8e547d0ef",
+      "network": "Instagram",
+      "phashion_group": "72d55a61123be0d2",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-05",
+      "last_seen_at": "2025-12-19",
+      "creatives": [
+        {
+          "id": "72d55a61123be0d2",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0113db67010d877f/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0113db67010d877f/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0113db67010d877f/thumb",
+          "video_duration": 33,
+          "width": 1080,
+          "height": 1350,
+          "button_text": "Play Game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1350",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "2519a59276c9e7c0",
+      "app_id": "67d3aaff2c328ae8e547d0ef",
+      "network": "Meta Audience Network",
+      "phashion_group": "2519a59276c9e7c0",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-05",
+      "last_seen_at": "2025-12-19",
+      "creatives": [
+        {
+          "id": "2519a59276c9e7c0",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0113db67010d877f/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0113db67010d877f/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0113db67010d877f/thumb",
+          "video_duration": 33,
+          "width": 1080,
+          "height": 1350,
+          "button_text": "Play Game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1350",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "57ac3dc5f904f741",
+      "app_id": "67d3aaff2c328ae8e547d0ef",
+      "network": "TikTok",
+      "phashion_group": "57ac3dc5f904f741",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-21",
+      "last_seen_at": "2025-12-09",
+      "creatives": [
+        {
+          "id": "57ac3dc5f904f741",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/012ae37b2396b197/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/012ae37b2396b197/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/012ae37b2396b197/thumb",
+          "video_duration": 30,
+          "width": 720,
+          "height": 1280,
+          "message": "Can you survive in this world?"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "17375d78cd0d4d28",
+      "app_id": "67d3aaff2c328ae8e547d0ef",
+      "network": "Facebook",
+      "phashion_group": "17375d78cd0d4d28",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-11",
+      "last_seen_at": "2025-12-13",
+      "creatives": [
+        {
+          "id": "17375d78cd0d4d28",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/01bff0f9b5d13c26/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/01bff0f9b5d13c26/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/01bff0f9b5d13c26/thumb",
+          "video_duration": 30,
+          "width": 720,
+          "height": 1280,
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "727971ffa6e75b8b",
+      "app_id": "67d3aaff2c328ae8e547d0ef",
+      "network": "Instagram",
+      "phashion_group": "727971ffa6e75b8b",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-11",
+      "last_seen_at": "2025-12-13",
+      "creatives": [
+        {
+          "id": "727971ffa6e75b8b",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/01bff0f9b5d13c26/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/01bff0f9b5d13c26/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/01bff0f9b5d13c26/thumb",
+          "video_duration": 30,
+          "width": 720,
+          "height": 1280,
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "25b58e0cc2155c99",
+      "app_id": "67d3aaff2c328ae8e547d0ef",
+      "network": "Meta Audience Network",
+      "phashion_group": "25b58e0cc2155c99",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-11",
+      "last_seen_at": "2025-12-13",
+      "creatives": [
+        {
+          "id": "25b58e0cc2155c99",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/01bff0f9b5d13c26/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/01bff0f9b5d13c26/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/01bff0f9b5d13c26/thumb",
+          "video_duration": 30,
+          "width": 720,
+          "height": 1280,
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "175887d54cb82437",
+      "app_id": "67d3aaff2c328ae8e547d0ef",
+      "network": "Facebook",
+      "phashion_group": "175887d54cb82437",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-11",
+      "last_seen_at": "2025-12-13",
+      "creatives": [
+        {
+          "id": "175887d54cb82437",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/01d02a5434645539/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/01d02a5434645539/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/01d02a5434645539/thumb",
+          "video_duration": 37,
+          "width": 1080,
+          "height": 1912,
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1912",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "7216ab5227523294",
+      "app_id": "67d3aaff2c328ae8e547d0ef",
+      "network": "Instagram",
+      "phashion_group": "7216ab5227523294",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-11",
+      "last_seen_at": "2025-12-13",
+      "creatives": [
+        {
+          "id": "7216ab5227523294",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/01d02a5434645539/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/01d02a5434645539/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/01d02a5434645539/thumb",
+          "video_duration": 37,
+          "width": 1080,
+          "height": 1912,
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1912",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "25da54a143a03586",
+      "app_id": "67d3aaff2c328ae8e547d0ef",
+      "network": "Meta Audience Network",
+      "phashion_group": "25da54a143a03586",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-11",
+      "last_seen_at": "2025-12-13",
+      "creatives": [
+        {
+          "id": "25da54a143a03586",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/01d02a5434645539/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/01d02a5434645539/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/01d02a5434645539/thumb",
+          "video_duration": 37,
+          "width": 1080,
+          "height": 1912,
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1912",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "1496309d776dc4cb",
+      "app_id": "67d3aaff2c328ae8e547d0ef",
+      "network": "Facebook",
+      "phashion_group": "1496309d776dc4cb",
+      "ad_type": "video",
+      "first_seen_at": "2025-04-25",
+      "last_seen_at": "2026-01-21",
+      "creatives": [
+        {
+          "id": "1496309d776dc4cb",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/021e9d1c0fb1b5c5/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/021e9d1c0fb1b5c5/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/021e9d1c0fb1b5c5/thumb",
+          "video_duration": 12,
+          "width": 1080,
+          "height": 1920,
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "71d81c1a1c87d268",
+      "app_id": "67d3aaff2c328ae8e547d0ef",
+      "network": "Instagram",
+      "phashion_group": "71d81c1a1c87d268",
+      "ad_type": "video",
+      "first_seen_at": "2025-10-24",
+      "last_seen_at": "2026-01-21",
+      "creatives": [
+        {
+          "id": "71d81c1a1c87d268",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/021e9d1c0fb1b5c5/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/021e9d1c0fb1b5c5/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/021e9d1c0fb1b5c5/thumb",
+          "video_duration": 12,
+          "width": 1080,
+          "height": 1920,
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "2614e3e97875d57a",
+      "app_id": "67d3aaff2c328ae8e547d0ef",
+      "network": "Meta Audience Network",
+      "phashion_group": "2614e3e97875d57a",
+      "ad_type": "video",
+      "first_seen_at": "2025-04-25",
+      "last_seen_at": "2026-01-21",
+      "creatives": [
+        {
+          "id": "2614e3e97875d57a",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/021e9d1c0fb1b5c5/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/021e9d1c0fb1b5c5/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/021e9d1c0fb1b5c5/thumb",
+          "video_duration": 12,
+          "width": 1080,
+          "height": 1920,
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "2c442ae977ae1cae",
+      "app_id": "67d3aaff2c328ae8e547d0ef",
+      "network": "TikTok",
+      "phashion_group": "2c442ae977ae1cae",
+      "ad_type": "video",
+      "first_seen_at": "2025-06-03",
+      "last_seen_at": "2026-01-27",
+      "creatives": [
+        {
+          "id": "2c442ae977ae1cae",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0278fbdd5af27e0d/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0278fbdd5af27e0d/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0278fbdd5af27e0d/thumb",
+          "video_duration": 34,
+          "width": 720,
+          "height": 1280,
+          "message": "Join the team now."
+        },
+        {
+          "id": "87cf1d893161572a",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0278fbdd5af27e0d/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0278fbdd5af27e0d/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0278fbdd5af27e0d/thumb",
+          "video_duration": 34,
+          "width": 720,
+          "height": 1280,
+          "message": "New game 2025"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "d536affdf60febea",
+      "app_id": "67d3aaff2c328ae8e547d0ef",
+      "network": "TikTok",
+      "phashion_group": "d536affdf60febea",
+      "ad_type": "video",
+      "first_seen_at": "2025-08-07",
+      "last_seen_at": "2026-01-16",
+      "creatives": [
+        {
+          "id": "d536affdf60febea",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/02822b0727d964bd/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/02822b0727d964bd/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/02822b0727d964bd/thumb",
+          "video_duration": 25,
+          "width": 720,
+          "height": 1280,
+          "message": "Try your best here. Winner takes all."
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "1413df6cefb5e223",
+      "app_id": "67d3aaff2c328ae8e547d0ef",
+      "network": "Facebook",
+      "phashion_group": "1413df6cefb5e223",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-05",
+      "last_seen_at": "2025-12-11",
+      "creatives": [
+        {
+          "id": "1413df6cefb5e223",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/029b72ed9769932d/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/029b72ed9769932d/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/029b72ed9769932d/thumb",
+          "video_duration": 34,
+          "width": 1080,
+          "height": 1920,
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "715df3eb845ff480",
+      "app_id": "67d3aaff2c328ae8e547d0ef",
+      "network": "Instagram",
+      "phashion_group": "715df3eb845ff480",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-05",
+      "last_seen_at": "2025-12-11",
+      "creatives": [
+        {
+          "id": "715df3eb845ff480",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/029b72ed9769932d/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/029b72ed9769932d/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/029b72ed9769932d/thumb",
+          "video_duration": 34,
+          "width": 1080,
+          "height": 1920,
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "26910c18e0adf392",
+      "app_id": "67d3aaff2c328ae8e547d0ef",
+      "network": "Meta Audience Network",
+      "phashion_group": "26910c18e0adf392",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-05",
+      "last_seen_at": "2025-12-11",
+      "creatives": [
+        {
+          "id": "26910c18e0adf392",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/029b72ed9769932d/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/029b72ed9769932d/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/029b72ed9769932d/thumb",
+          "video_duration": 34,
+          "width": 1080,
+          "height": 1920,
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "d4b2bdaf98e1f470",
+      "app_id": "67d3aaff2c328ae8e547d0ef",
+      "network": "TikTok",
+      "phashion_group": "d4b2bdaf98e1f470",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-01",
+      "last_seen_at": "2026-01-26",
+      "creatives": [
+        {
+          "id": "d4b2bdaf98e1f470",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0306395549377b27/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0306395549377b27/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0306395549377b27/thumb",
+          "video_duration": 45,
+          "width": 1080,
+          "height": 1920,
+          "message": "Try your best here. Winner takes all."
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,5644 @@
+{
+  "count": 144,
+  "available_networks": [
+    "Admob",
+    "Applovin",
+    "BidMachine",
+    "Digital Turbine",
+    "Facebook",
+    "InMobi",
+    "Instagram",
+    "Meta Audience Network",
+    "Moloco",
+    "Supersonic",
+    "Unity",
+    "Vungle"
+  ],
+  "ad_units": [
+    {
+      "id": "ae85d6b445d4fcbd",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Facebook",
+      "phashion_group": "ae85d6b445d4fcbd",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-14",
+      "last_seen_at": "2026-01-23",
+      "creatives": [
+        {
+          "id": "ae85d6b445d4fcbd",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/cd47aa8ef2161c75/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/cd47aa8ef2161c75/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/cd47aa8ef2161c75/thumb",
+          "video_duration": 30,
+          "width": 1440,
+          "height": 1440,
+          "title": "No 4X - No Ads - No Bullshit!",
+          "button_text": "Play Game",
+          "message": "Build an epic city, fight strategic battles & explore the world of Heroes of History."
+        },
+        {
+          "id": "e6991be117e4b78b",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/cd47aa8ef2161c75/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/cd47aa8ef2161c75/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/cd47aa8ef2161c75/thumb",
+          "video_duration": 30,
+          "width": 1440,
+          "height": 1440,
+          "title": "Build & Collect at your own pace.",
+          "button_text": "Play Game",
+          "message": "Collect the Heroes of History and engage in Epic Battles to save the world from Tesla's wrath!"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": 0.220417,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "1440x1440",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "2e90e2207ed99e22",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Applovin",
+      "phashion_group": "2e90e2207ed99e22",
+      "ad_type": "video",
+      "first_seen_at": "2025-09-22",
+      "last_seen_at": "2026-01-28",
+      "creatives": [
+        {
+          "id": "2e90e2207ed99e22",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/5e01ae24abe84eec/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/5e01ae24abe84eec/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/5e01ae24abe84eec/thumb",
+          "video_duration": 51,
+          "width": 720,
+          "height": 1280,
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "rewarded",
+        "interstitial",
+        "other"
+      ],
+      "share": 0.138306,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.313016
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.713964
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.387551
+          ]
+        ],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 6,
+        "data": [
+          [
+            "672c3bc09ef0005f3a116f61",
+            0.526572
+          ],
+          [
+            "61de945506d20d28cf3fd030",
+            0.165207
+          ],
+          [
+            "6873ea9a527b8512ffcd200d",
+            0.14901
+          ],
+          [
+            "675217f62839d91dc1316c59",
+            0.072163
+          ],
+          [
+            "6845bcda27de6925fcea4385",
+            0.060928
+          ],
+          [
+            "56cca85702ac649f4d000001",
+            0.026121
+          ]
+        ]
+      }
+    },
+    {
+      "id": "102268dae84a7781",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Vungle",
+      "phashion_group": "102268dae84a7781",
+      "ad_type": "video",
+      "first_seen_at": "2025-08-07",
+      "last_seen_at": "2026-01-21",
+      "creatives": [
+        {
+          "id": "102268dae84a7781",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/243ffddba1f2744d/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/243ffddba1f2744d/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/243ffddba1f2744d/thumb",
+          "video_duration": 38,
+          "width": 720,
+          "height": 1280,
+          "button_text": "Get",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "rewarded",
+        "interstitial"
+      ],
+      "share": 0.124939,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.088605
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 2,
+        "data": [
+          [
+            "6842363f7732439e0e870486",
+            0.918607
+          ],
+          [
+            "68b1f61343283a6b07a1d9a4",
+            0.081393
+          ]
+        ]
+      }
+    },
+    {
+      "id": "10415c726ed71099",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Vungle",
+      "phashion_group": "10415c726ed71099",
+      "ad_type": "video",
+      "first_seen_at": "2025-08-13",
+      "last_seen_at": "2026-01-21",
+      "creatives": [
+        {
+          "id": "10415c726ed71099",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/245cc973276f1355/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/245cc973276f1355/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/245cc973276f1355/thumb",
+          "video_duration": 35,
+          "width": 720,
+          "height": 1280,
+          "button_text": "Get",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "rewarded",
+        "interstitial"
+      ],
+      "share": 0.075912,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 1,
+        "data": [
+          [
+            "6842363f7732439e0e870486",
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "id": "fd32a3a0ff3d4767",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Instagram",
+      "phashion_group": "fd32a3a0ff3d4767",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-11",
+      "last_seen_at": "2026-01-08",
+      "creatives": [
+        {
+          "id": "fd32a3a0ff3d4767",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/92c7cdf8113ab81b/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/92c7cdf8113ab81b/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/92c7cdf8113ab81b/thumb",
+          "video_duration": 46,
+          "width": 1920,
+          "height": 1080,
+          "title": "Build & Collect at your own pace.",
+          "button_text": "Play Game",
+          "message": "Collect the Heroes of History and engage in Epic Battles to save the world from Tesla's wrath!"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": 0.061038,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "1920x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "9f97e607f9389fb8",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Unity",
+      "phashion_group": "9f97e607f9389fb8",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-11",
+      "last_seen_at": "2026-01-21",
+      "creatives": [
+        {
+          "id": "9f97e607f9389fb8",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/081150fbc36d9e00/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/081150fbc36d9e00/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/081150fbc36d9e00/thumb",
+          "video_duration": 27,
+          "width": 720,
+          "height": 1280,
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "rewarded"
+      ],
+      "share": 0.049279,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 1,
+        "data": [
+          [
+            "5e9a40923ea9830ccb2d2ee4",
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "id": "f54e153a5f8dc2cc",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Unity",
+      "phashion_group": "f54e153a5f8dc2cc",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-11",
+      "last_seen_at": "2026-01-28",
+      "creatives": [
+        {
+          "id": "f54e153a5f8dc2cc",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/62c8a3c665d8c374/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/62c8a3c665d8c374/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/62c8a3c665d8c374/thumb",
+          "video_duration": 51,
+          "width": 720,
+          "height": 1280,
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "rewarded"
+      ],
+      "share": 0.049279,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 1,
+        "data": [
+          [
+            "5e9a40923ea9830ccb2d2ee4",
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "id": "1fac26f549dbb058",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Unity",
+      "phashion_group": "1fac26f549dbb058",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-11",
+      "last_seen_at": "2026-01-12",
+      "creatives": [
+        {
+          "id": "1fac26f549dbb058",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/882a9009738eb1e0/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/882a9009738eb1e0/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/882a9009738eb1e0/thumb",
+          "video_duration": 28,
+          "width": 720,
+          "height": 1280,
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "rewarded"
+      ],
+      "share": 0.049279,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 1,
+        "data": [
+          [
+            "5e9a40923ea9830ccb2d2ee4",
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "id": "23130a2fb8ab5aa6",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Vungle",
+      "phashion_group": "23130a2fb8ab5aa6",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-03",
+      "last_seen_at": "2026-01-24",
+      "creatives": [
+        {
+          "id": "23130a2fb8ab5aa6",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/170e9f2ef113596a/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/170e9f2ef113596a/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/170e9f2ef113596a/thumb",
+          "video_duration": 28,
+          "width": 720,
+          "height": 1280,
+          "button_text": "Get",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "rewarded",
+        "interstitial"
+      ],
+      "share": 0.047695,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.271106
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 2,
+        "data": [
+          [
+            "6842363f7732439e0e870486",
+            0.786717
+          ],
+          [
+            "68b1f61343283a6b07a1d9a4",
+            0.213283
+          ]
+        ]
+      }
+    },
+    {
+      "id": "c0e97335118a58bc",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Unity",
+      "phashion_group": "c0e97335118a58bc",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-13",
+      "last_seen_at": "2025-12-13",
+      "creatives": [
+        {
+          "id": "c0e97335118a58bc",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/576fc5c92bdf5904/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/576fc5c92bdf5904/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/576fc5c92bdf5904/thumb",
+          "video_duration": 30,
+          "width": 640,
+          "height": 360,
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "rewarded"
+      ],
+      "share": 0.03789,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "640x360",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 1,
+        "data": [
+          [
+            "6672cd3038e36bfeb3a9e65b",
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "id": "3a34c8887434f83c",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Vungle",
+      "phashion_group": "3a34c8887434f83c",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-02",
+      "last_seen_at": "2026-01-22",
+      "creatives": [
+        {
+          "id": "3a34c8887434f83c",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0e295d893d8cfbf0/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0e295d893d8cfbf0/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0e295d893d8cfbf0/thumb",
+          "video_duration": 31,
+          "width": 720,
+          "height": 1280,
+          "button_text": "Get",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "rewarded",
+        "interstitial"
+      ],
+      "share": 0.034178,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 1,
+        "data": [
+          [
+            "6842363f7732439e0e870486",
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "id": "16066de8416af10e",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Vungle",
+      "phashion_group": "16066de8416af10e",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-12",
+      "last_seen_at": "2026-01-21",
+      "creatives": [
+        {
+          "id": "16066de8416af10e",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/221bf8e908d2f2c2/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/221bf8e908d2f2c2/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/221bf8e908d2f2c2/thumb",
+          "video_duration": 29,
+          "width": 1080,
+          "height": 1920,
+          "button_text": "Get",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "rewarded",
+        "interstitial"
+      ],
+      "share": 0.015325,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 1,
+        "data": [
+          [
+            "59b0a1109a114c0cf3547cd6",
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "id": "56d536c72c60c0b8",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Vungle",
+      "phashion_group": "56d536c72c60c0b8",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-19",
+      "last_seen_at": "2026-01-28",
+      "creatives": [
+        {
+          "id": "56d536c72c60c0b8",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/62c8a3c665d8c374/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/62c8a3c665d8c374/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/62c8a3c665d8c374/thumb",
+          "video_duration": 51,
+          "width": 720,
+          "height": 1280,
+          "button_text": "Get",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "rewarded",
+        "interstitial"
+      ],
+      "share": 0.014649,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 1,
+        "data": [
+          [
+            "68b1f61343283a6b07a1d9a4",
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "id": "317b6688d5480357",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Vungle",
+      "phashion_group": "317b6688d5480357",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-13",
+      "last_seen_at": "2026-01-28",
+      "creatives": [
+        {
+          "id": "317b6688d5480357",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0566f3899cf0009b/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0566f3899cf0009b/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0566f3899cf0009b/thumb",
+          "video_duration": 40,
+          "width": 720,
+          "height": 1280,
+          "button_text": "Get",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "rewarded",
+        "interstitial"
+      ],
+      "share": 0.01237,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 1,
+        "data": [
+          [
+            "68b1f61343283a6b07a1d9a4",
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "id": "8fc9dae71873b0b1",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Unity",
+      "phashion_group": "8fc9dae71873b0b1",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-13",
+      "last_seen_at": "2025-12-13",
+      "creatives": [
+        {
+          "id": "8fc9dae71873b0b1",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/184f6c1b2226b109/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/184f6c1b2226b109/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/184f6c1b2226b109/thumb",
+          "video_duration": 51,
+          "width": 640,
+          "height": 360,
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "rewarded"
+      ],
+      "share": 0.010831,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "640x360",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 1,
+        "data": [
+          [
+            "6672cd3038e36bfeb3a9e65b",
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "id": "d3f2a3d9f6582336",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Applovin",
+      "phashion_group": "d3f2a3d9f6582336",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-13",
+      "last_seen_at": "2025-12-15",
+      "creatives": [
+        {
+          "id": "d3f2a3d9f6582336",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/a363efdd2369f3f8/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/a363efdd2369f3f8/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/a363efdd2369f3f8/thumb",
+          "video_duration": 30,
+          "width": 720,
+          "height": 1280,
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "rewarded"
+      ],
+      "share": 0.010175,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.642345
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            1.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 1,
+        "data": [
+          [
+            "672c3bc09ef0005f3a116f61",
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "id": "311f199258f87dd2",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Vungle",
+      "phashion_group": "311f199258f87dd2",
+      "ad_type": "video",
+      "first_seen_at": "2025-04-28",
+      "last_seen_at": "2025-12-10",
+      "creatives": [
+        {
+          "id": "311f199258f87dd2",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/05028c9311407e1e/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/05028c9311407e1e/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/05028c9311407e1e/thumb",
+          "video_duration": 30,
+          "width": 720,
+          "height": 1280,
+          "button_text": "Holen",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "rewarded",
+        "interstitial"
+      ],
+      "share": 0.010171,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 1,
+        "data": [
+          [
+            "68b1f61343283a6b07a1d9a4",
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "id": "b7186af77b3ac032",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Vungle",
+      "phashion_group": "b7186af77b3ac032",
+      "ad_type": "video",
+      "first_seen_at": "2025-10-06",
+      "last_seen_at": "2026-01-21",
+      "creatives": [
+        {
+          "id": "b7186af77b3ac032",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/8305fff63282c3fe/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/8305fff63282c3fe/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/8305fff63282c3fe/thumb",
+          "video_duration": 57,
+          "width": 720,
+          "height": 1280,
+          "button_text": "Get",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "rewarded",
+        "interstitial"
+      ],
+      "share": 0.009687,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 1,
+        "data": [
+          [
+            "68b1f61343283a6b07a1d9a4",
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "id": "3fc775cd4454eabf",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Vungle",
+      "phashion_group": "3fc775cd4454eabf",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-10",
+      "last_seen_at": "2025-12-10",
+      "creatives": [
+        {
+          "id": "3fc775cd4454eabf",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0bdae0cc0dece973/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0bdae0cc0dece973/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0bdae0cc0dece973/thumb",
+          "video_duration": 30,
+          "width": 720,
+          "height": 1280,
+          "button_text": "Holen",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "rewarded",
+        "interstitial"
+      ],
+      "share": 0.007066,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 1,
+        "data": [
+          [
+            "68b1f61343283a6b07a1d9a4",
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "id": "f9317672806d6420",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Vungle",
+      "phashion_group": "f9317672806d6420",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-30",
+      "last_seen_at": "2025-12-23",
+      "creatives": [
+        {
+          "id": "f9317672806d6420",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/cd2ce373c9d567ec/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/cd2ce373c9d567ec/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/cd2ce373c9d567ec/thumb",
+          "video_duration": 49,
+          "width": 720,
+          "height": 1280,
+          "button_text": "Get",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "rewarded",
+        "interstitial"
+      ],
+      "share": 0.005087,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 1,
+        "data": [
+          [
+            "68b1f61343283a6b07a1d9a4",
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "id": "1ea4b2f59cbd434e",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Vungle",
+      "phashion_group": "1ea4b2f59cbd434e",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-10",
+      "last_seen_at": "2025-12-10",
+      "creatives": [
+        {
+          "id": "1ea4b2f59cbd434e",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2ab927f4d5054082/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2ab927f4d5054082/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2ab927f4d5054082/thumb",
+          "video_duration": 35,
+          "width": 720,
+          "height": 1280,
+          "button_text": "Holen",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "rewarded",
+        "interstitial"
+      ],
+      "share": 0.005086,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 1,
+        "data": [
+          [
+            "68b1f61343283a6b07a1d9a4",
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "id": "04e169291ab6132d",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Vungle",
+      "phashion_group": "04e169291ab6132d",
+      "ad_type": "video",
+      "first_seen_at": "2025-08-06",
+      "last_seen_at": "2025-12-20",
+      "creatives": [
+        {
+          "id": "04e169291ab6132d",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/30fcfc28530e10e1/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/30fcfc28530e10e1/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/30fcfc28530e10e1/thumb",
+          "video_duration": 29,
+          "width": 720,
+          "height": 1280,
+          "button_text": "Get",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "rewarded",
+        "interstitial"
+      ],
+      "share": 0.005085,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 1,
+        "data": [
+          [
+            "68b1f61343283a6b07a1d9a4",
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "id": "a3422bc91e22a21a",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Vungle",
+      "phashion_group": "a3422bc91e22a21a",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-10",
+      "last_seen_at": "2025-12-10",
+      "creatives": [
+        {
+          "id": "a3422bc91e22a21a",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/975fbec8579aa1d6/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/975fbec8579aa1d6/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/975fbec8579aa1d6/thumb",
+          "video_duration": 30,
+          "width": 720,
+          "height": 1280,
+          "button_text": "Holen",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "rewarded",
+        "interstitial"
+      ],
+      "share": 0.005084,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 1,
+        "data": [
+          [
+            "68b1f61343283a6b07a1d9a4",
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "id": "a4223107a9dbc935",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Supersonic",
+      "phashion_group": "a4223107a9dbc935",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-04",
+      "last_seen_at": "2025-12-22",
+      "creatives": [
+        {
+          "id": "a4223107a9dbc935",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/576fc5c92bdf5904/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/576fc5c92bdf5904/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/576fc5c92bdf5904/thumb",
+          "video_duration": 30,
+          "width": 640,
+          "height": 360,
+          "title": "Heroes of History: Epic Empire",
+          "message": "The Heroes of History are ready for your command!"
+        }
+      ],
+      "ad_formats": [
+        "rewarded"
+      ],
+      "share": 0.000754,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "640x360",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 1,
+        "data": [
+          [
+            "675217f62839d91dc1316c59",
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "id": "eb0298d5a0222138",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Supersonic",
+      "phashion_group": "eb0298d5a0222138",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-12",
+      "last_seen_at": "2026-01-27",
+      "creatives": [
+        {
+          "id": "eb0298d5a0222138",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/184f6c1b2226b109/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/184f6c1b2226b109/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/184f6c1b2226b109/thumb",
+          "video_duration": 51,
+          "width": 640,
+          "height": 360,
+          "title": "Heroes of History: Epic Empire",
+          "message": "The Heroes of History are ready for your command!"
+        }
+      ],
+      "ad_formats": [
+        "rewarded"
+      ],
+      "share": 0.000305,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "640x360",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 1,
+        "data": [
+          [
+            "675217f62839d91dc1316c59",
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "id": "883fe545455627c3",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Supersonic",
+      "phashion_group": "883fe545455627c3",
+      "ad_type": "video",
+      "first_seen_at": "2025-09-08",
+      "last_seen_at": "2026-01-28",
+      "creatives": [
+        {
+          "id": "883fe545455627c3",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/7b72118bc752b7f2/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/7b72118bc752b7f2/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/7b72118bc752b7f2/thumb",
+          "video_duration": 30,
+          "width": 360,
+          "height": 640,
+          "title": "Heroes of History: Epic Empire",
+          "message": "The Heroes of History are ready for your command!"
+        }
+      ],
+      "ad_formats": [
+        "rewarded"
+      ],
+      "share": 0.000104,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            1.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "360x640",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 1,
+        "data": [
+          [
+            "5c1cb8a690cf0f278f3aea38",
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "id": "440d546c47c220a2",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Supersonic",
+      "phashion_group": "440d546c47c220a2",
+      "ad_type": "video",
+      "first_seen_at": "2025-09-08",
+      "last_seen_at": "2026-01-27",
+      "creatives": [
+        {
+          "id": "440d546c47c220a2",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/b740a0a2c5c6b093/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/b740a0a2c5c6b093/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/b740a0a2c5c6b093/thumb",
+          "video_duration": 52,
+          "width": 360,
+          "height": 640,
+          "title": "Heroes of History: Epic Empire",
+          "message": "The Heroes of History are ready for your command!"
+        }
+      ],
+      "ad_formats": [
+        "rewarded"
+      ],
+      "share": 8e-06,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            1.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "360x640",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 1,
+        "data": [
+          [
+            "5c1cb8a690cf0f278f3aea38",
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "id": "210119edb63abebc",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Supersonic",
+      "phashion_group": "210119edb63abebc",
+      "ad_type": "video",
+      "first_seen_at": "2025-09-04",
+      "last_seen_at": "2026-01-17",
+      "creatives": [
+        {
+          "id": "210119edb63abebc",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/d24ced23343e2e8d/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/d24ced23343e2e8d/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/d24ced23343e2e8d/thumb",
+          "video_duration": 30,
+          "width": 640,
+          "height": 360,
+          "title": "Heroes of History: Epic Empire",
+          "message": "The Heroes of History are ready for your command!"
+        }
+      ],
+      "ad_formats": [
+        "rewarded"
+      ],
+      "share": 3e-06,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            1.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "640x360",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 1,
+        "data": [
+          [
+            "5c1cb8a690cf0f278f3aea38",
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "id": "6a86cbee81d9eaf5",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Facebook",
+      "phashion_group": "6a86cbee81d9eaf5",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-06",
+      "last_seen_at": "2025-12-11",
+      "creatives": [
+        {
+          "id": "6a86cbee81d9eaf5",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0944b7d4361b0a3d/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0944b7d4361b0a3d/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0944b7d4361b0a3d/thumb",
+          "video_duration": 48,
+          "width": 1920,
+          "height": 1080,
+          "title": "No 4X - No Ads - No Bullshit!",
+          "button_text": "Play Game",
+          "message": "Build an epic city, fight strategic battles & explore the world of Heroes of History."
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1920x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "2ead14d98a2cbe77",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Instagram",
+      "phashion_group": "2ead14d98a2cbe77",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-06",
+      "last_seen_at": "2025-12-11",
+      "creatives": [
+        {
+          "id": "2ead14d98a2cbe77",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0944b7d4361b0a3d/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0944b7d4361b0a3d/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0944b7d4361b0a3d/thumb",
+          "video_duration": 48,
+          "width": 1920,
+          "height": 1080,
+          "title": "No 4X - No Ads - No Bullshit!",
+          "button_text": "Play Game",
+          "message": "Build an epic city, fight strategic battles & explore the world of Heroes of History."
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1920x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "5804189a8ec1fb44",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Meta Audience Network",
+      "phashion_group": "5804189a8ec1fb44",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-06",
+      "last_seen_at": "2025-12-11",
+      "creatives": [
+        {
+          "id": "5804189a8ec1fb44",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0944b7d4361b0a3d/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0944b7d4361b0a3d/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0944b7d4361b0a3d/thumb",
+          "video_duration": 48,
+          "width": 1920,
+          "height": 1080,
+          "title": "No 4X - No Ads - No Bullshit!",
+          "button_text": "Play Game",
+          "message": "Build an epic city, fight strategic battles & explore the world of Heroes of History."
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1920x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "3de664e65f423689",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Facebook",
+      "phashion_group": "3de664e65f423689",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-21",
+      "last_seen_at": "2025-12-15",
+      "creatives": [
+        {
+          "id": "3de664e65f423689",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1638d589bab09d77/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1638d589bab09d77/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1638d589bab09d77/thumb",
+          "video_duration": 45,
+          "width": 1440,
+          "height": 1440,
+          "title": "Build & Collect at your own pace.",
+          "button_text": "Play Game",
+          "message": "Collect the Heroes of History and engage in Epic Battles to save the world from Tesla's wrath!"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1440x1440",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "79cdbbd154b7620b",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Instagram",
+      "phashion_group": "79cdbbd154b7620b",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-21",
+      "last_seen_at": "2025-12-15",
+      "creatives": [
+        {
+          "id": "79cdbbd154b7620b",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1638d589bab09d77/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1638d589bab09d77/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1638d589bab09d77/thumb",
+          "video_duration": 45,
+          "width": 1440,
+          "height": 1440,
+          "title": "Build & Collect at your own pace.",
+          "button_text": "Play Game",
+          "message": "Collect the Heroes of History and engage in Epic Battles to save the world from Tesla's wrath!"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1440x1440",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "0f64b792505a2738",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Meta Audience Network",
+      "phashion_group": "0f64b792505a2738",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-21",
+      "last_seen_at": "2025-12-15",
+      "creatives": [
+        {
+          "id": "0f64b792505a2738",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1638d589bab09d77/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1638d589bab09d77/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1638d589bab09d77/thumb",
+          "video_duration": 45,
+          "width": 1440,
+          "height": 1440,
+          "title": "Build & Collect at your own pace.",
+          "button_text": "Play Game",
+          "message": "Collect the Heroes of History and engage in Epic Battles to save the world from Tesla's wrath!"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1440x1440",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "444a1faf4d9d76ff",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Facebook",
+      "phashion_group": "444a1faf4d9d76ff",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-06",
+      "last_seen_at": "2025-12-11",
+      "creatives": [
+        {
+          "id": "444a1faf4d9d76ff",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/27886395fa5f9637/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/27886395fa5f9637/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/27886395fa5f9637/thumb",
+          "video_duration": 48,
+          "width": 1440,
+          "height": 1440,
+          "title": "No 4X - No Ads - No Bullshit!",
+          "button_text": "Play Game",
+          "message": "Build an epic city, fight strategic battles & explore the world of Heroes of History."
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1440x1440",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "0061c0984668227d",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Instagram",
+      "phashion_group": "0061c0984668227d",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-06",
+      "last_seen_at": "2025-12-11",
+      "creatives": [
+        {
+          "id": "0061c0984668227d",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/27886395fa5f9637/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/27886395fa5f9637/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/27886395fa5f9637/thumb",
+          "video_duration": 48,
+          "width": 1440,
+          "height": 1440,
+          "title": "No 4X - No Ads - No Bullshit!",
+          "button_text": "Play Game",
+          "message": "Build an epic city, fight strategic battles & explore the world of Heroes of History."
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1440x1440",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "76c8ccdb4285674e",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Meta Audience Network",
+      "phashion_group": "76c8ccdb4285674e",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-06",
+      "last_seen_at": "2025-12-11",
+      "creatives": [
+        {
+          "id": "76c8ccdb4285674e",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/27886395fa5f9637/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/27886395fa5f9637/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/27886395fa5f9637/thumb",
+          "video_duration": 48,
+          "width": 1440,
+          "height": 1440,
+          "title": "No 4X - No Ads - No Bullshit!",
+          "button_text": "Play Game",
+          "message": "Build an epic city, fight strategic battles & explore the world of Heroes of History."
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1440x1440",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "070dbe97f1f59390",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Facebook",
+      "phashion_group": "070dbe97f1f59390",
+      "ad_type": "video",
+      "first_seen_at": "2025-08-27",
+      "last_seen_at": "2026-01-27",
+      "creatives": [
+        {
+          "id": "070dbe97f1f59390",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2cd30ff81407386e/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2cd30ff81407386e/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2cd30ff81407386e/thumb",
+          "video_duration": 52,
+          "width": 1920,
+          "height": 1080,
+          "title": "The Heroes of History are waiting!",
+          "button_text": "Play Game",
+          "message": "Collect the Heroes of History and engage in Epic Battles to save the world from Tesla's wrath!"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1920x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "432661a0fa00c712",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Instagram",
+      "phashion_group": "432661a0fa00c712",
+      "ad_type": "video",
+      "first_seen_at": "2025-08-27",
+      "last_seen_at": "2026-01-27",
+      "creatives": [
+        {
+          "id": "432661a0fa00c712",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2cd30ff81407386e/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2cd30ff81407386e/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2cd30ff81407386e/thumb",
+          "video_duration": 52,
+          "width": 1920,
+          "height": 1080,
+          "title": "The Heroes of History are waiting!",
+          "button_text": "Play Game",
+          "message": "Collect the Heroes of History and engage in Epic Battles to save the world from Tesla's wrath!"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1920x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "358f6de3feed8221",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Meta Audience Network",
+      "phashion_group": "358f6de3feed8221",
+      "ad_type": "video",
+      "first_seen_at": "2025-08-27",
+      "last_seen_at": "2026-01-27",
+      "creatives": [
+        {
+          "id": "358f6de3feed8221",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2cd30ff81407386e/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2cd30ff81407386e/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2cd30ff81407386e/thumb",
+          "video_duration": 52,
+          "width": 1920,
+          "height": 1080,
+          "title": "The Heroes of History are waiting!",
+          "button_text": "Play Game",
+          "message": "Collect the Heroes of History and engage in Epic Battles to save the world from Tesla's wrath!"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1920x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "053ca66a204ca50f",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Facebook",
+      "phashion_group": "053ca66a204ca50f",
+      "ad_type": "video",
+      "first_seen_at": "2025-10-29",
+      "last_seen_at": "2025-12-15",
+      "creatives": [
+        {
+          "id": "053ca66a204ca50f",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2ee21705c5be0ef1/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2ee21705c5be0ef1/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2ee21705c5be0ef1/thumb",
+          "video_duration": 49,
+          "width": 1080,
+          "height": 1920,
+          "title": "Build & Collect at your own pace.",
+          "button_text": "Play Game",
+          "message": "Collect the Heroes of History and engage in Epic Battles to save the world from Tesla's wrath!"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "4117795d2bb9f18d",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Instagram",
+      "phashion_group": "4117795d2bb9f18d",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-06",
+      "last_seen_at": "2025-12-15",
+      "creatives": [
+        {
+          "id": "4117795d2bb9f18d",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2ee21705c5be0ef1/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2ee21705c5be0ef1/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2ee21705c5be0ef1/thumb",
+          "video_duration": 49,
+          "width": 1080,
+          "height": 1920,
+          "title": "Build & Collect at your own pace.",
+          "button_text": "Play Game",
+          "message": "Collect the Heroes of History and engage in Epic Battles to save the world from Tesla's wrath!"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "37be751e2f54b4be",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Meta Audience Network",
+      "phashion_group": "37be751e2f54b4be",
+      "ad_type": "video",
+      "first_seen_at": "2025-10-29",
+      "last_seen_at": "2025-12-15",
+      "creatives": [
+        {
+          "id": "37be751e2f54b4be",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2ee21705c5be0ef1/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2ee21705c5be0ef1/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2ee21705c5be0ef1/thumb",
+          "video_duration": 49,
+          "width": 1080,
+          "height": 1920,
+          "title": "Build & Collect at your own pace.",
+          "button_text": "Play Game",
+          "message": "Collect the Heroes of History and engage in Epic Battles to save the world from Tesla's wrath!"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "1b0037cc0c73b87a",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Facebook",
+      "phashion_group": "1b0037cc0c73b87a",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-21",
+      "last_seen_at": "2025-12-15",
+      "creatives": [
+        {
+          "id": "1b0037cc0c73b87a",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/30de86a3e9811384/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/30de86a3e9811384/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/30de86a3e9811384/thumb",
+          "video_duration": 45,
+          "width": 1920,
+          "height": 1080,
+          "title": "Build & Collect at your own pace.",
+          "button_text": "Play Game",
+          "message": "Collect the Heroes of History and engage in Epic Battles to save the world from Tesla's wrath!"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1920x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "5f2be8fb0786ecf8",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Instagram",
+      "phashion_group": "5f2be8fb0786ecf8",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-21",
+      "last_seen_at": "2025-12-15",
+      "creatives": [
+        {
+          "id": "5f2be8fb0786ecf8",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/30de86a3e9811384/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/30de86a3e9811384/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/30de86a3e9811384/thumb",
+          "video_duration": 45,
+          "width": 1920,
+          "height": 1080,
+          "title": "Build & Collect at your own pace.",
+          "button_text": "Play Game",
+          "message": "Collect the Heroes of History and engage in Epic Battles to save the world from Tesla's wrath!"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1920x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "2982e4b8036ba9cb",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Meta Audience Network",
+      "phashion_group": "2982e4b8036ba9cb",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-21",
+      "last_seen_at": "2025-12-15",
+      "creatives": [
+        {
+          "id": "2982e4b8036ba9cb",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/30de86a3e9811384/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/30de86a3e9811384/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/30de86a3e9811384/thumb",
+          "video_duration": 45,
+          "width": 1920,
+          "height": 1080,
+          "title": "Build & Collect at your own pace.",
+          "button_text": "Play Game",
+          "message": "Collect the Heroes of History and engage in Epic Battles to save the world from Tesla's wrath!"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1920x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "af745c162f5c02fd",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Facebook",
+      "phashion_group": "af745c162f5c02fd",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-05",
+      "last_seen_at": "2026-01-09",
+      "creatives": [
+        {
+          "id": "af745c162f5c02fd",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/31a1c87b5ec2967b/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/31a1c87b5ec2967b/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/31a1c87b5ec2967b/thumb",
+          "video_duration": 45,
+          "width": 608,
+          "height": 1080,
+          "title": "Construisez à votre rythme.",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "608x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "aace12df8d9951ec",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Facebook",
+      "phashion_group": "aace12df8d9951ec",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-05",
+      "last_seen_at": "2026-01-09",
+      "creatives": [
+        {
+          "id": "aace12df8d9951ec",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/341b86b2fc07c56a/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/341b86b2fc07c56a/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/341b86b2fc07c56a/thumb",
+          "video_duration": 51,
+          "width": 1440,
+          "height": 1440,
+          "title": "Construisez à votre rythme.",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1440x1440",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "57802dcdee1bda16",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Facebook",
+      "phashion_group": "57802dcdee1bda16",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-06",
+      "last_seen_at": "2025-12-11",
+      "creatives": [
+        {
+          "id": "57802dcdee1bda16",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/344251f759d93ade/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/344251f759d93ade/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/344251f759d93ade/thumb",
+          "video_duration": 48,
+          "width": 1080,
+          "height": 1920,
+          "title": "No 4X - No Ads - No Bullshit!",
+          "button_text": "Play Game",
+          "message": "Build an epic city, fight strategic battles & explore the world of Heroes of History."
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "13abf2fae5ee8e94",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Instagram",
+      "phashion_group": "13abf2fae5ee8e94",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-06",
+      "last_seen_at": "2025-12-11",
+      "creatives": [
+        {
+          "id": "13abf2fae5ee8e94",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/344251f759d93ade/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/344251f759d93ade/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/344251f759d93ade/thumb",
+          "video_duration": 48,
+          "width": 1080,
+          "height": 1920,
+          "title": "No 4X - No Ads - No Bullshit!",
+          "button_text": "Play Game",
+          "message": "Build an epic city, fight strategic battles & explore the world of Heroes of History."
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "6502feb9e103cba7",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Meta Audience Network",
+      "phashion_group": "6502feb9e103cba7",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-06",
+      "last_seen_at": "2025-12-11",
+      "creatives": [
+        {
+          "id": "6502feb9e103cba7",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/344251f759d93ade/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/344251f759d93ade/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/344251f759d93ade/thumb",
+          "video_duration": 48,
+          "width": 1080,
+          "height": 1920,
+          "title": "No 4X - No Ads - No Bullshit!",
+          "button_text": "Play Game",
+          "message": "Build an epic city, fight strategic battles & explore the world of Heroes of History."
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "12d3bf1ceea42f27",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Facebook",
+      "phashion_group": "12d3bf1ceea42f27",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-21",
+      "last_seen_at": "2025-12-15",
+      "creatives": [
+        {
+          "id": "12d3bf1ceea42f27",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/390d0e730b5684d9/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/390d0e730b5684d9/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/390d0e730b5684d9/thumb",
+          "video_duration": 45,
+          "width": 1920,
+          "height": 1080,
+          "title": "Build & Collect at your own pace.",
+          "button_text": "Play Game",
+          "message": "Collect the Heroes of History and engage in Epic Battles to save the world from Tesla's wrath!"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1920x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "56f8602be5517ba5",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Instagram",
+      "phashion_group": "56f8602be5517ba5",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-21",
+      "last_seen_at": "2025-12-15",
+      "creatives": [
+        {
+          "id": "56f8602be5517ba5",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/390d0e730b5684d9/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/390d0e730b5684d9/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/390d0e730b5684d9/thumb",
+          "video_duration": 45,
+          "width": 1920,
+          "height": 1080,
+          "title": "Build & Collect at your own pace.",
+          "button_text": "Play Game",
+          "message": "Collect the Heroes of History and engage in Epic Battles to save the world from Tesla's wrath!"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1920x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "20516c68e1bc3e96",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Meta Audience Network",
+      "phashion_group": "20516c68e1bc3e96",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-21",
+      "last_seen_at": "2025-12-15",
+      "creatives": [
+        {
+          "id": "20516c68e1bc3e96",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/390d0e730b5684d9/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/390d0e730b5684d9/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/390d0e730b5684d9/thumb",
+          "video_duration": 45,
+          "width": 1920,
+          "height": 1080,
+          "title": "Build & Collect at your own pace.",
+          "button_text": "Play Game",
+          "message": "Collect the Heroes of History and engage in Epic Battles to save the world from Tesla's wrath!"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1920x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "dec0dc6b28b0d71f",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Facebook",
+      "phashion_group": "dec0dc6b28b0d71f",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-05",
+      "last_seen_at": "2026-01-09",
+      "creatives": [
+        {
+          "id": "dec0dc6b28b0d71f",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/40154806592e4399/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/40154806592e4399/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/40154806592e4399/thumb",
+          "video_duration": 45,
+          "width": 1440,
+          "height": 1440,
+          "title": "Construisez à votre rythme.",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1440x1440",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "dc4dc2034fc72420",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Facebook",
+      "phashion_group": "dc4dc2034fc72420",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-05",
+      "last_seen_at": "2026-01-09",
+      "creatives": [
+        {
+          "id": "dc4dc2034fc72420",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4298566e3e59b0a6/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4298566e3e59b0a6/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4298566e3e59b0a6/thumb",
+          "video_duration": 52,
+          "width": 608,
+          "height": 1080,
+          "title": "Kein 4X - Keine Werbung - Kein Quatsch!",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "608x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "268d9b95fa514305",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Facebook",
+      "phashion_group": "268d9b95fa514305",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-05",
+      "last_seen_at": "2026-01-23",
+      "creatives": [
+        {
+          "id": "268d9b95fa514305",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/454fe7af4d93a3cd/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/454fe7af4d93a3cd/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/454fe7af4d93a3cd/thumb",
+          "video_duration": 51,
+          "width": 1920,
+          "height": 1920,
+          "title": "No 4X - No Ads - No Bullshit!",
+          "button_text": "Play Game",
+          "message": "Build an epic city, fight strategic battles & explore the world of Heroes of History."
+        },
+        {
+          "id": "db9a73c23c0d374b",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/454fe7af4d93a3cd/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/454fe7af4d93a3cd/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/454fe7af4d93a3cd/thumb",
+          "video_duration": 51,
+          "width": 1920,
+          "height": 1920,
+          "title": "Rule History. Get Rich!",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1920x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "62a644a2f1a41787",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Instagram",
+      "phashion_group": "62a644a2f1a41787",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-05",
+      "last_seen_at": "2026-01-23",
+      "creatives": [
+        {
+          "id": "62a644a2f1a41787",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/454fe7af4d93a3cd/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/454fe7af4d93a3cd/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/454fe7af4d93a3cd/thumb",
+          "video_duration": 51,
+          "width": 1920,
+          "height": 1920,
+          "title": "No 4X - No Ads - No Bullshit!",
+          "button_text": "Play Game",
+          "message": "Build an epic city, fight strategic battles & explore the world of Heroes of History."
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1920x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "140f48e1f54952b4",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Meta Audience Network",
+      "phashion_group": "140f48e1f54952b4",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-05",
+      "last_seen_at": "2026-01-23",
+      "creatives": [
+        {
+          "id": "140f48e1f54952b4",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/454fe7af4d93a3cd/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/454fe7af4d93a3cd/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/454fe7af4d93a3cd/thumb",
+          "video_duration": 51,
+          "width": 1920,
+          "height": 1920,
+          "title": "No 4X - No Ads - No Bullshit!",
+          "button_text": "Play Game",
+          "message": "Build an epic city, fight strategic battles & explore the world of Heroes of History."
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1920x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "d576b010f1f1a528",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Facebook",
+      "phashion_group": "d576b010f1f1a528",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-05",
+      "last_seen_at": "2026-01-09",
+      "creatives": [
+        {
+          "id": "d576b010f1f1a528",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4ba3247d806f31ae/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4ba3247d806f31ae/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4ba3247d806f31ae/thumb",
+          "video_duration": 45,
+          "width": 1920,
+          "height": 1080,
+          "title": "Kein 4X - Keine Werbung - Kein Quatsch!",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1920x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "33e403796c5615ac",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Facebook",
+      "phashion_group": "33e403796c5615ac",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-05",
+      "last_seen_at": "2025-12-19",
+      "creatives": [
+        {
+          "id": "33e403796c5615ac",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/50267f43db94f564/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/50267f43db94f564/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/50267f43db94f564/thumb",
+          "video_duration": 45,
+          "width": 1080,
+          "height": 1920,
+          "title": "No 4X - No Ads - No Bullshit!",
+          "button_text": "Play Game",
+          "message": "Build an epic city, fight strategic battles & explore the world of Heroes of History."
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "77cfdc4e67a3412e",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Instagram",
+      "phashion_group": "77cfdc4e67a3412e",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-05",
+      "last_seen_at": "2025-12-19",
+      "creatives": [
+        {
+          "id": "77cfdc4e67a3412e",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/50267f43db94f564/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/50267f43db94f564/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/50267f43db94f564/thumb",
+          "video_duration": 45,
+          "width": 1080,
+          "height": 1920,
+          "title": "No 4X - No Ads - No Bullshit!",
+          "button_text": "Play Game",
+          "message": "Build an epic city, fight strategic battles & explore the world of Heroes of History."
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "0166d00d634e041d",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Meta Audience Network",
+      "phashion_group": "0166d00d634e041d",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-05",
+      "last_seen_at": "2025-12-19",
+      "creatives": [
+        {
+          "id": "0166d00d634e041d",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/50267f43db94f564/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/50267f43db94f564/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/50267f43db94f564/thumb",
+          "video_duration": 45,
+          "width": 1080,
+          "height": 1920,
+          "title": "No 4X - No Ads - No Bullshit!",
+          "button_text": "Play Game",
+          "message": "Build an epic city, fight strategic battles & explore the world of Heroes of History."
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "73e4b83b27d62351",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Facebook",
+      "phashion_group": "73e4b83b27d62351",
+      "ad_type": "video",
+      "first_seen_at": "2025-08-27",
+      "last_seen_at": "2026-01-27",
+      "creatives": [
+        {
+          "id": "73e4b83b27d62351",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/583a0954c22488af/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/583a0954c22488af/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/583a0954c22488af/thumb",
+          "video_duration": 51,
+          "width": 1080,
+          "height": 1920,
+          "title": "The Heroes of History are waiting!",
+          "button_text": "Play Game",
+          "message": "Collect the Heroes of History and engage in Epic Battles to save the world from Tesla's wrath!"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "37cf670c2c2377d3",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Instagram",
+      "phashion_group": "37cf670c2c2377d3",
+      "ad_type": "video",
+      "first_seen_at": "2025-08-27",
+      "last_seen_at": "2026-01-27",
+      "creatives": [
+        {
+          "id": "37cf670c2c2377d3",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/583a0954c22488af/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/583a0954c22488af/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/583a0954c22488af/thumb",
+          "video_duration": 51,
+          "width": 1080,
+          "height": 1920,
+          "title": "The Heroes of History are waiting!",
+          "button_text": "Play Game",
+          "message": "Collect the Heroes of History and engage in Epic Battles to save the world from Tesla's wrath!"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "41666b4f28ce32e0",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Meta Audience Network",
+      "phashion_group": "41666b4f28ce32e0",
+      "ad_type": "video",
+      "first_seen_at": "2025-08-27",
+      "last_seen_at": "2026-01-27",
+      "creatives": [
+        {
+          "id": "41666b4f28ce32e0",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/583a0954c22488af/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/583a0954c22488af/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/583a0954c22488af/thumb",
+          "video_duration": 51,
+          "width": 1080,
+          "height": 1920,
+          "title": "The Heroes of History are waiting!",
+          "button_text": "Play Game",
+          "message": "Collect the Heroes of History and engage in Epic Battles to save the world from Tesla's wrath!"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "71a886f1e71a00b6",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Facebook",
+      "phashion_group": "71a886f1e71a00b6",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-21",
+      "last_seen_at": "2025-12-15",
+      "creatives": [
+        {
+          "id": "71a886f1e71a00b6",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/5a76379e02e8ab48/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/5a76379e02e8ab48/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/5a76379e02e8ab48/thumb",
+          "video_duration": 45,
+          "width": 1440,
+          "height": 1440,
+          "title": "Build & Collect at your own pace.",
+          "button_text": "Play Game",
+          "message": "Collect the Heroes of History and engage in Epic Battles to save the world from Tesla's wrath!"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1440x1440",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "358359c6ecef5434",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Instagram",
+      "phashion_group": "358359c6ecef5434",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-21",
+      "last_seen_at": "2025-12-15",
+      "creatives": [
+        {
+          "id": "358359c6ecef5434",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/5a76379e02e8ab48/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/5a76379e02e8ab48/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/5a76379e02e8ab48/thumb",
+          "video_duration": 45,
+          "width": 1440,
+          "height": 1440,
+          "title": "Build & Collect at your own pace.",
+          "button_text": "Play Game",
+          "message": "Collect the Heroes of History and engage in Epic Battles to save the world from Tesla's wrath!"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1440x1440",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "432a5585e8021107",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Meta Audience Network",
+      "phashion_group": "432a5585e8021107",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-21",
+      "last_seen_at": "2025-12-15",
+      "creatives": [
+        {
+          "id": "432a5585e8021107",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/5a76379e02e8ab48/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/5a76379e02e8ab48/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/5a76379e02e8ab48/thumb",
+          "video_duration": 45,
+          "width": 1440,
+          "height": 1440,
+          "title": "Build & Collect at your own pace.",
+          "button_text": "Play Game",
+          "message": "Collect the Heroes of History and engage in Epic Battles to save the world from Tesla's wrath!"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1440x1440",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "7077efa04b9d70d7",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Facebook",
+      "phashion_group": "7077efa04b9d70d7",
+      "ad_type": "video",
+      "first_seen_at": "2025-10-29",
+      "last_seen_at": "2025-12-15",
+      "creatives": [
+        {
+          "id": "7077efa04b9d70d7",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/5ba95ecfae6fdb29/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/5ba95ecfae6fdb29/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/5ba95ecfae6fdb29/thumb",
+          "video_duration": 50,
+          "width": 1440,
+          "height": 1440,
+          "title": "Build & Collect at your own pace.",
+          "button_text": "Play Game",
+          "message": "Collect the Heroes of History and engage in Epic Battles to save the world from Tesla's wrath!"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1440x1440",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "345c309740682455",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Instagram",
+      "phashion_group": "345c309740682455",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-06",
+      "last_seen_at": "2025-12-15",
+      "creatives": [
+        {
+          "id": "345c309740682455",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/5ba95ecfae6fdb29/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/5ba95ecfae6fdb29/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/5ba95ecfae6fdb29/thumb",
+          "video_duration": 50,
+          "width": 1440,
+          "height": 1440,
+          "title": "Build & Collect at your own pace.",
+          "button_text": "Play Game",
+          "message": "Collect the Heroes of History and engage in Epic Battles to save the world from Tesla's wrath!"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1440x1440",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "42f53cd444856166",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Meta Audience Network",
+      "phashion_group": "42f53cd444856166",
+      "ad_type": "video",
+      "first_seen_at": "2025-10-29",
+      "last_seen_at": "2025-12-15",
+      "creatives": [
+        {
+          "id": "42f53cd444856166",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/5ba95ecfae6fdb29/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/5ba95ecfae6fdb29/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/5ba95ecfae6fdb29/thumb",
+          "video_duration": 50,
+          "width": 1440,
+          "height": 1440,
+          "title": "Build & Collect at your own pace.",
+          "button_text": "Play Game",
+          "message": "Collect the Heroes of History and engage in Epic Battles to save the world from Tesla's wrath!"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1440x1440",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "3cf473778117aedb",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Facebook",
+      "phashion_group": "3cf473778117aedb",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-05",
+      "last_seen_at": "2026-01-27",
+      "creatives": [
+        {
+          "id": "3cf473778117aedb",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/5f360f4d36d54e13/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/5f360f4d36d54e13/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/5f360f4d36d54e13/thumb",
+          "video_duration": 45,
+          "width": 1440,
+          "height": 1440,
+          "title": "No 4X - No Ads - No Bullshit!",
+          "button_text": "Play Game",
+          "message": "Build an epic city, fight strategic battles & explore the world of Heroes of History."
+        },
+        {
+          "id": "c1e39b20474bda95",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/5f360f4d36d54e13/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/5f360f4d36d54e13/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/5f360f4d36d54e13/thumb",
+          "video_duration": 45,
+          "width": 1440,
+          "height": 1440,
+          "title": "Rule History. Get Rich!",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1440x1440",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "78dfac408ae2fa59",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Instagram",
+      "phashion_group": "78dfac408ae2fa59",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-05",
+      "last_seen_at": "2025-12-19",
+      "creatives": [
+        {
+          "id": "78dfac408ae2fa59",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/5f360f4d36d54e13/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/5f360f4d36d54e13/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/5f360f4d36d54e13/thumb",
+          "video_duration": 45,
+          "width": 1440,
+          "height": 1440,
+          "title": "No 4X - No Ads - No Bullshit!",
+          "button_text": "Play Game",
+          "message": "Build an epic city, fight strategic battles & explore the world of Heroes of History."
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1440x1440",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "0e76a0038e0fbf6a",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Meta Audience Network",
+      "phashion_group": "0e76a0038e0fbf6a",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-05",
+      "last_seen_at": "2025-12-19",
+      "creatives": [
+        {
+          "id": "0e76a0038e0fbf6a",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/5f360f4d36d54e13/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/5f360f4d36d54e13/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/5f360f4d36d54e13/thumb",
+          "video_duration": 45,
+          "width": 1440,
+          "height": 1440,
+          "title": "No 4X - No Ads - No Bullshit!",
+          "button_text": "Play Game",
+          "message": "Build an epic city, fight strategic battles & explore the world of Heroes of History."
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1440x1440",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "069e964395147aa1",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Facebook",
+      "phashion_group": "069e964395147aa1",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-05",
+      "last_seen_at": "2026-01-23",
+      "creatives": [
+        {
+          "id": "069e964395147aa1",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/655cea7922d69a69/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/655cea7922d69a69/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/655cea7922d69a69/thumb",
+          "video_duration": 52,
+          "width": 1920,
+          "height": 1080,
+          "title": "No 4X - No Ads - No Bullshit!",
+          "button_text": "Play Game",
+          "message": "Build an epic city, fight strategic battles & explore the world of Heroes of History."
+        },
+        {
+          "id": "fb897e1453480eef",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/655cea7922d69a69/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/655cea7922d69a69/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/655cea7922d69a69/thumb",
+          "video_duration": 52,
+          "width": 1920,
+          "height": 1080,
+          "title": "Rule History. Get Rich!",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1920x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "4338eab244f6f75c",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Facebook",
+      "phashion_group": "4338eab244f6f75c",
+      "ad_type": "video",
+      "first_seen_at": "2025-10-29",
+      "last_seen_at": "2025-12-08",
+      "creatives": [
+        {
+          "id": "4338eab244f6f75c",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/68e65bdda1045ca2/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/68e65bdda1045ca2/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/68e65bdda1045ca2/thumb",
+          "video_duration": 32,
+          "width": 1080,
+          "height": 1920,
+          "title": "Build & Collect at your own pace.",
+          "button_text": "Play Game",
+          "message": "Collect the Heroes of History and engage in Epic Battles to save the world from Tesla's wrath!"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "071335854f03a3de",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Instagram",
+      "phashion_group": "071335854f03a3de",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-06",
+      "last_seen_at": "2025-12-08",
+      "creatives": [
+        {
+          "id": "071335854f03a3de",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/68e65bdda1045ca2/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/68e65bdda1045ca2/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/68e65bdda1045ca2/thumb",
+          "video_duration": 32,
+          "width": 1080,
+          "height": 1920,
+          "title": "Build & Collect at your own pace.",
+          "button_text": "Play Game",
+          "message": "Collect the Heroes of History and engage in Epic Battles to save the world from Tesla's wrath!"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "71ba39c64beee6ed",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Meta Audience Network",
+      "phashion_group": "71ba39c64beee6ed",
+      "ad_type": "video",
+      "first_seen_at": "2025-10-29",
+      "last_seen_at": "2025-12-08",
+      "creatives": [
+        {
+          "id": "71ba39c64beee6ed",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/68e65bdda1045ca2/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/68e65bdda1045ca2/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/68e65bdda1045ca2/thumb",
+          "video_duration": 32,
+          "width": 1080,
+          "height": 1920,
+          "title": "Build & Collect at your own pace.",
+          "button_text": "Play Game",
+          "message": "Collect the Heroes of History and engage in Epic Battles to save the world from Tesla's wrath!"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "46069550f20cd69e",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Facebook",
+      "phashion_group": "46069550f20cd69e",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-21",
+      "last_seen_at": "2025-12-15",
+      "creatives": [
+        {
+          "id": "46069550f20cd69e",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/6dd8243f17fe7d60/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/6dd8243f17fe7d60/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/6dd8243f17fe7d60/thumb",
+          "video_duration": 45,
+          "width": 1080,
+          "height": 1920,
+          "title": "Build & Collect at your own pace.",
+          "button_text": "Play Game",
+          "message": "Collect the Heroes of History and engage in Epic Battles to save the world from Tesla's wrath!"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "022d4a67f9f9821c",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Instagram",
+      "phashion_group": "022d4a67f9f9821c",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-21",
+      "last_seen_at": "2025-12-15",
+      "creatives": [
+        {
+          "id": "022d4a67f9f9821c",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/6dd8243f17fe7d60/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/6dd8243f17fe7d60/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/6dd8243f17fe7d60/thumb",
+          "video_duration": 45,
+          "width": 1080,
+          "height": 1920,
+          "title": "Build & Collect at your own pace.",
+          "button_text": "Play Game",
+          "message": "Collect the Heroes of History and engage in Epic Battles to save the world from Tesla's wrath!"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "74844624fd14c72f",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Meta Audience Network",
+      "phashion_group": "74844624fd14c72f",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-21",
+      "last_seen_at": "2025-12-15",
+      "creatives": [
+        {
+          "id": "74844624fd14c72f",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/6dd8243f17fe7d60/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/6dd8243f17fe7d60/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/6dd8243f17fe7d60/thumb",
+          "video_duration": 45,
+          "width": 1080,
+          "height": 1920,
+          "title": "Build & Collect at your own pace.",
+          "button_text": "Play Game",
+          "message": "Collect the Heroes of History and engage in Epic Battles to save the world from Tesla's wrath!"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "134a58464485a756",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Facebook",
+      "phashion_group": "134a58464485a756",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-14",
+      "last_seen_at": "2026-01-23",
+      "creatives": [
+        {
+          "id": "134a58464485a756",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/7088247cf347479e/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/7088247cf347479e/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/7088247cf347479e/thumb",
+          "video_duration": 30,
+          "width": 1080,
+          "height": 1920,
+          "title": "No 4X - No Ads - No Bullshit!",
+          "button_text": "Play Game",
+          "message": "Build an epic city, fight strategic battles & explore the world of Heroes of History."
+        },
+        {
+          "id": "5b56951316b5ec60",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/7088247cf347479e/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/7088247cf347479e/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/7088247cf347479e/thumb",
+          "video_duration": 30,
+          "width": 1080,
+          "height": 1920,
+          "title": "Build & Collect at your own pace.",
+          "button_text": "Play Game",
+          "message": "Collect the Heroes of History and engage in Epic Battles to save the world from Tesla's wrath!"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "1f7d4a241d40b8e2",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Instagram",
+      "phashion_group": "1f7d4a241d40b8e2",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-14",
+      "last_seen_at": "2026-01-23",
+      "creatives": [
+        {
+          "id": "1f7d4a241d40b8e2",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/7088247cf347479e/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/7088247cf347479e/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/7088247cf347479e/thumb",
+          "video_duration": 30,
+          "width": 1080,
+          "height": 1920,
+          "title": "Build & Collect at your own pace.",
+          "button_text": "Play Game",
+          "message": "Collect the Heroes of History and engage in Epic Battles to save the world from Tesla's wrath!"
+        },
+        {
+          "id": "576187714f70f3d4",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/7088247cf347479e/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/7088247cf347479e/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/7088247cf347479e/thumb",
+          "video_duration": 30,
+          "width": 1080,
+          "height": 1920,
+          "title": "No 4X - No Ads - No Bullshit!",
+          "button_text": "Play Game",
+          "message": "Build an epic city, fight strategic battles & explore the world of Heroes of History."
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "21c88b324b9db6e7",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Meta Audience Network",
+      "phashion_group": "21c88b324b9db6e7",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-14",
+      "last_seen_at": "2026-01-23",
+      "creatives": [
+        {
+          "id": "21c88b324b9db6e7",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/7088247cf347479e/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/7088247cf347479e/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/7088247cf347479e/thumb",
+          "video_duration": 30,
+          "width": 1080,
+          "height": 1920,
+          "title": "No 4X - No Ads - No Bullshit!",
+          "button_text": "Play Game",
+          "message": "Build an epic city, fight strategic battles & explore the world of Heroes of History."
+        },
+        {
+          "id": "69d4466719adfdd1",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/7088247cf347479e/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/7088247cf347479e/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/7088247cf347479e/thumb",
+          "video_duration": 30,
+          "width": 1080,
+          "height": 1920,
+          "title": "Build & Collect at your own pace.",
+          "button_text": "Play Game",
+          "message": "Collect the Heroes of History and engage in Epic Battles to save the world from Tesla's wrath!"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "5d3c0e054bc65728",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Facebook",
+      "phashion_group": "5d3c0e054bc65728",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-14",
+      "last_seen_at": "2025-12-15",
+      "creatives": [
+        {
+          "id": "5d3c0e054bc65728",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/76e2bf6aae34fcd6/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/76e2bf6aae34fcd6/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/76e2bf6aae34fcd6/thumb",
+          "video_duration": 30,
+          "width": 1440,
+          "height": 1440,
+          "title": "Build & Collect at your own pace.",
+          "button_text": "Play Game",
+          "message": "Collect the Heroes of History and engage in Epic Battles to save the world from Tesla's wrath!"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1440x1440",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "1917d132403303aa",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Instagram",
+      "phashion_group": "1917d132403303aa",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-14",
+      "last_seen_at": "2025-12-15",
+      "creatives": [
+        {
+          "id": "1917d132403303aa",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/76e2bf6aae34fcd6/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/76e2bf6aae34fcd6/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/76e2bf6aae34fcd6/thumb",
+          "video_duration": 30,
+          "width": 1440,
+          "height": 1440,
+          "title": "Build & Collect at your own pace.",
+          "button_text": "Play Game",
+          "message": "Collect the Heroes of History and engage in Epic Battles to save the world from Tesla's wrath!"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1440x1440",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "6fbedd7144de4699",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Meta Audience Network",
+      "phashion_group": "6fbedd7144de4699",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-14",
+      "last_seen_at": "2025-12-15",
+      "creatives": [
+        {
+          "id": "6fbedd7144de4699",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/76e2bf6aae34fcd6/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/76e2bf6aae34fcd6/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/76e2bf6aae34fcd6/thumb",
+          "video_duration": 30,
+          "width": 1440,
+          "height": 1440,
+          "title": "Build & Collect at your own pace.",
+          "button_text": "Play Game",
+          "message": "Collect the Heroes of History and engage in Epic Battles to save the world from Tesla's wrath!"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1440x1440",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "54808dc0c154ef96",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Facebook",
+      "phashion_group": "54808dc0c154ef96",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-21",
+      "last_seen_at": "2025-12-19",
+      "creatives": [
+        {
+          "id": "54808dc0c154ef96",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/7f5e3caf24a64468/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/7f5e3caf24a64468/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/7f5e3caf24a64468/thumb",
+          "video_duration": 30,
+          "width": 1080,
+          "height": 1920,
+          "title": "Build & Collect at your own pace.",
+          "button_text": "Play Game",
+          "message": "Collect the Heroes of History and engage in Epic Battles to save the world from Tesla's wrath!"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "10ab52f7caa1bb14",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Instagram",
+      "phashion_group": "10ab52f7caa1bb14",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-21",
+      "last_seen_at": "2025-12-19",
+      "creatives": [
+        {
+          "id": "10ab52f7caa1bb14",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/7f5e3caf24a64468/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/7f5e3caf24a64468/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/7f5e3caf24a64468/thumb",
+          "video_duration": 30,
+          "width": 1080,
+          "height": 1920,
+          "title": "Build & Collect at your own pace.",
+          "button_text": "Play Game",
+          "message": "Collect the Heroes of History and engage in Epic Battles to save the world from Tesla's wrath!"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "66025eb4ce4cfe27",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Meta Audience Network",
+      "phashion_group": "66025eb4ce4cfe27",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-21",
+      "last_seen_at": "2025-12-19",
+      "creatives": [
+        {
+          "id": "66025eb4ce4cfe27",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/7f5e3caf24a64468/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/7f5e3caf24a64468/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/7f5e3caf24a64468/thumb",
+          "video_duration": 30,
+          "width": 1080,
+          "height": 1920,
+          "title": "Build & Collect at your own pace.",
+          "button_text": "Play Game",
+          "message": "Collect the Heroes of History and engage in Epic Battles to save the world from Tesla's wrath!"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "b8671be37ee4c003",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Facebook",
+      "phashion_group": "b8671be37ee4c003",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-14",
+      "last_seen_at": "2025-12-15",
+      "creatives": [
+        {
+          "id": "b8671be37ee4c003",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/93b9aa8c9b166bfd/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/93b9aa8c9b166bfd/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/93b9aa8c9b166bfd/thumb",
+          "video_duration": 30,
+          "width": 1920,
+          "height": 1080,
+          "title": "Build & Collect at your own pace.",
+          "button_text": "Play Game",
+          "message": "Collect the Heroes of History and engage in Epic Battles to save the world from Tesla's wrath!"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1920x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "fc4cc4d475119481",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Instagram",
+      "phashion_group": "fc4cc4d475119481",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-14",
+      "last_seen_at": "2025-12-15",
+      "creatives": [
+        {
+          "id": "fc4cc4d475119481",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/93b9aa8c9b166bfd/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/93b9aa8c9b166bfd/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/93b9aa8c9b166bfd/thumb",
+          "video_duration": 30,
+          "width": 1920,
+          "height": 1080,
+          "title": "Build & Collect at your own pace.",
+          "button_text": "Play Game",
+          "message": "Collect the Heroes of History and engage in Epic Battles to save the world from Tesla's wrath!"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1920x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "8ae5c89771fcd1b2",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Meta Audience Network",
+      "phashion_group": "8ae5c89771fcd1b2",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-14",
+      "last_seen_at": "2025-12-15",
+      "creatives": [
+        {
+          "id": "8ae5c89771fcd1b2",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/93b9aa8c9b166bfd/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/93b9aa8c9b166bfd/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/93b9aa8c9b166bfd/thumb",
+          "video_duration": 30,
+          "width": 1920,
+          "height": 1080,
+          "title": "Build & Collect at your own pace.",
+          "button_text": "Play Game",
+          "message": "Collect the Heroes of History and engage in Epic Battles to save the world from Tesla's wrath!"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1920x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "b3293bd7a9fa645a",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Facebook",
+      "phashion_group": "b3293bd7a9fa645a",
+      "ad_type": "video",
+      "first_seen_at": "2025-08-27",
+      "last_seen_at": "2026-01-27",
+      "creatives": [
+        {
+          "id": "b3293bd7a9fa645a",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/98f78ab84c08cfa4/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/98f78ab84c08cfa4/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/98f78ab84c08cfa4/thumb",
+          "video_duration": 51,
+          "width": 1920,
+          "height": 1920,
+          "title": "The Heroes of History are waiting!",
+          "button_text": "Play Game",
+          "message": "Collect the Heroes of History and engage in Epic Battles to save the world from Tesla's wrath!"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1920x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "f702e4e0a20f30d8",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Instagram",
+      "phashion_group": "f702e4e0a20f30d8",
+      "ad_type": "video",
+      "first_seen_at": "2025-08-27",
+      "last_seen_at": "2026-01-27",
+      "creatives": [
+        {
+          "id": "f702e4e0a20f30d8",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/98f78ab84c08cfa4/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/98f78ab84c08cfa4/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/98f78ab84c08cfa4/thumb",
+          "video_duration": 51,
+          "width": 1920,
+          "height": 1920,
+          "title": "The Heroes of History are waiting!",
+          "button_text": "Play Game",
+          "message": "Collect the Heroes of History and engage in Epic Battles to save the world from Tesla's wrath!"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1920x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "81abe8a3a6e275eb",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Meta Audience Network",
+      "phashion_group": "81abe8a3a6e275eb",
+      "ad_type": "video",
+      "first_seen_at": "2025-08-27",
+      "last_seen_at": "2026-01-27",
+      "creatives": [
+        {
+          "id": "81abe8a3a6e275eb",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/98f78ab84c08cfa4/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/98f78ab84c08cfa4/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/98f78ab84c08cfa4/thumb",
+          "video_duration": 51,
+          "width": 1920,
+          "height": 1920,
+          "title": "The Heroes of History are waiting!",
+          "button_text": "Play Game",
+          "message": "Collect the Heroes of History and engage in Epic Battles to save the world from Tesla's wrath!"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1920x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "0750e397d00509f2",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Facebook",
+      "phashion_group": "0750e397d00509f2",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-05",
+      "last_seen_at": "2026-01-09",
+      "creatives": [
+        {
+          "id": "0750e397d00509f2",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/998577faa19b9d74/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/998577faa19b9d74/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/998577faa19b9d74/thumb",
+          "video_duration": 51,
+          "width": 1440,
+          "height": 1440,
+          "title": "Kein 4X - Keine Werbung - Kein Quatsch!",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1440x1440",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "01ce5522d09b8b83",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Facebook",
+      "phashion_group": "01ce5522d09b8b83",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-05",
+      "last_seen_at": "2026-01-09",
+      "creatives": [
+        {
+          "id": "01ce5522d09b8b83",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/9f1bc14fa1051f05/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/9f1bc14fa1051f05/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/9f1bc14fa1051f05/thumb",
+          "video_duration": 52,
+          "width": 1920,
+          "height": 1080,
+          "title": "Construisez à votre rythme.",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1920x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "8783c7b97757a9ea",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Facebook",
+      "phashion_group": "8783c7b97757a9ea",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-21",
+      "last_seen_at": "2025-12-15",
+      "creatives": [
+        {
+          "id": "8783c7b97757a9ea",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/ac5d76d692a50214/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/ac5d76d692a50214/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/ac5d76d692a50214/thumb",
+          "video_duration": 45,
+          "width": 1440,
+          "height": 1440,
+          "title": "Build & Collect at your own pace.",
+          "button_text": "Play Game",
+          "message": "Collect the Heroes of History and engage in Epic Battles to save the world from Tesla's wrath!"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1440x1440",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    }
+  ]
+}

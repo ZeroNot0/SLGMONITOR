@@ -1,0 +1,4825 @@
+{
+  "count": 312,
+  "available_networks": [
+    "Applovin",
+    "Facebook",
+    "Instagram",
+    "Meta Audience Network",
+    "Unity"
+  ],
+  "ad_units": [
+    {
+      "id": "fdb530af06fd4165",
+      "app_id": "674eaf16a01b70bb13621c38",
+      "network": "Applovin",
+      "phashion_group": "fdb530af06fd4165",
+      "ad_type": "video",
+      "first_seen_at": "2025-08-13",
+      "last_seen_at": "2026-01-12",
+      "creatives": [
+        {
+          "id": "fdb530af06fd4165",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/d5f6d916c3425ce7/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/d5f6d916c3425ce7/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/d5f6d916c3425ce7/thumb",
+          "video_duration": 40,
+          "width": 720,
+          "height": 1280,
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "rewarded",
+        "interstitial",
+        "other"
+      ],
+      "share": 0.487692,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.611508
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.625617
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.209058
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.272964
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.303868
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.925543
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            1.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 29,
+        "data": [
+          [
+            "68aa95cdc989904eb530c913",
+            0.331122
+          ],
+          [
+            "616ffef2f982b906cb28d410",
+            0.142905
+          ],
+          [
+            "58bcf0520211a6f648000d65",
+            0.119005
+          ],
+          [
+            "68edb98a759282cab934f53e",
+            0.084298
+          ],
+          [
+            "5a39e9681454d22f5a5e75ca",
+            0.067009
+          ],
+          [
+            "605ecdc538ca534cd04e0270",
+            0.051834
+          ],
+          [
+            "632e6c3fb03a9e6950b40fa4",
+            0.04402
+          ],
+          [
+            "6845bcda27de6925fcea4385",
+            0.025055
+          ],
+          [
+            "6734392a644f25add9a41f11",
+            0.024856
+          ],
+          [
+            "62ad2a2538ca53700083675f",
+            0.014673
+          ],
+          [
+            "6561c6ebad4adb718b73c3d3",
+            0.010111
+          ],
+          [
+            "5877db4c0211a6c5b8001264",
+            0.009782
+          ],
+          [
+            "68f32c0227e2c1cde8a86e6a",
+            0.008284
+          ],
+          [
+            "676501381c5ca19189154dde",
+            0.007696
+          ],
+          [
+            "55c5270002ac64f9c0002ae5",
+            0.006815
+          ],
+          [
+            "5def03eb609cd57094dc083c",
+            0.005665
+          ],
+          [
+            "6842363f7732439e0e870486",
+            0.005665
+          ],
+          [
+            "617a6244379b665aeee7f31c",
+            0.005134
+          ],
+          [
+            "678320e41c5ca15010ec3400",
+            0.004948
+          ],
+          [
+            "57ec0bd20211a695a9001415",
+            0.004891
+          ],
+          [
+            "55c5157502ac64f9c000263d",
+            0.004082
+          ],
+          [
+            "60d53af5c1238e1ac89812f6",
+            0.004012
+          ],
+          [
+            "5a981ce9ffc83d29193b8b2e",
+            0.003977
+          ],
+          [
+            "63842eadf31d4c1633de8b28",
+            0.003977
+          ],
+          [
+            "5919fd19ee05f407440011a7",
+            0.003408
+          ],
+          [
+            "66d27b94782b200e42488550",
+            0.003354
+          ],
+          [
+            "654db115ad4adb736e33a50e",
+            0.001533
+          ],
+          [
+            "6332fb6863d67c0dfad85001",
+            0.001144
+          ],
+          [
+            "5efd80ad955ce07dd9ac3e0f",
+            0.000743
+          ]
+        ]
+      }
+    },
+    {
+      "id": "e0fbf146da24c5f9",
+      "app_id": "674eaf16a01b70bb13621c38",
+      "network": "Facebook",
+      "phashion_group": "e0fbf146da24c5f9",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-12",
+      "last_seen_at": "2026-01-24",
+      "creatives": [
+        {
+          "id": "e0fbf146da24c5f9",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/c53c80fb721cca64/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/c53c80fb721cca64/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/c53c80fb721cca64/thumb",
+          "video_duration": 36,
+          "width": 1920,
+          "height": 1080,
+          "title": "CatDog World: After Humans",
+          "button_text": "Install Now",
+          "message": "Pursue the path of legends, seek out hidden treasures, and become the dominator!"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": 0.390281,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "1920x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "821bde7ba796e2ab",
+      "app_id": "674eaf16a01b70bb13621c38",
+      "network": "Applovin",
+      "phashion_group": "821bde7ba796e2ab",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-01",
+      "last_seen_at": "2026-01-28",
+      "creatives": [
+        {
+          "id": "821bde7ba796e2ab",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/aa5837c26229ff29/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/aa5837c26229ff29/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/aa5837c26229ff29/thumb",
+          "video_duration": 30,
+          "width": 720,
+          "height": 1280,
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "rewarded",
+        "interstitial",
+        "other"
+      ],
+      "share": 0.048094,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.127599
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.148627
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.051801
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.28627
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.724705
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.152474
+          ]
+        ],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 5,
+        "data": [
+          [
+            "68aa95cdc989904eb530c913",
+            0.779271
+          ],
+          [
+            "6845bcda27de6925fcea4385",
+            0.100342
+          ],
+          [
+            "58bcf0520211a6f648000d65",
+            0.05745
+          ],
+          [
+            "68edb98a759282cab934f53e",
+            0.051337
+          ],
+          [
+            "6332fb6863d67c0dfad85001",
+            0.0116
+          ]
+        ]
+      }
+    },
+    {
+      "id": "2cde4e6df36f6500",
+      "app_id": "674eaf16a01b70bb13621c38",
+      "network": "Applovin",
+      "phashion_group": "2cde4e6df36f6500",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-12",
+      "last_seen_at": "2026-01-12",
+      "creatives": [
+        {
+          "id": "2cde4e6df36f6500",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/049da7d436d07882/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/049da7d436d07882/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/049da7d436d07882/thumb",
+          "video_duration": 31,
+          "width": 720,
+          "height": 1280,
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "rewarded",
+        "interstitial"
+      ],
+      "share": 0.025202,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.441365
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.571561
+          ]
+        ],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 4,
+        "data": [
+          [
+            "68aa95cdc989904eb530c913",
+            0.601713
+          ],
+          [
+            "605ecdc538ca534cd04e0270",
+            0.189297
+          ],
+          [
+            "5cc98b703ea98357b8ed3ce0",
+            0.109633
+          ],
+          [
+            "6845bcda27de6925fcea4385",
+            0.099358
+          ]
+        ]
+      }
+    },
+    {
+      "id": "ab00d5d9106d053e",
+      "app_id": "674eaf16a01b70bb13621c38",
+      "network": "Applovin",
+      "phashion_group": "ab00d5d9106d053e",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-11",
+      "last_seen_at": "2026-01-28",
+      "creatives": [
+        {
+          "id": "ab00d5d9106d053e",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/83433c60d5d218bc/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/83433c60d5d218bc/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/83433c60d5d218bc/thumb",
+          "video_duration": 43,
+          "width": 720,
+          "height": 1280,
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "rewarded",
+        "interstitial"
+      ],
+      "share": 0.016549,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.10358
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.221178
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            1.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 4,
+        "data": [
+          [
+            "649172466cb0390387c043a3",
+            0.466579
+          ],
+          [
+            "605ecdc538ca534cd04e0270",
+            0.288276
+          ],
+          [
+            "68aa95cdc989904eb530c913",
+            0.166957
+          ],
+          [
+            "68edb98a759282cab934f53e",
+            0.078188
+          ]
+        ]
+      }
+    },
+    {
+      "id": "e654217478ed1cf4",
+      "app_id": "674eaf16a01b70bb13621c38",
+      "network": "Applovin",
+      "phashion_group": "e654217478ed1cf4",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-11",
+      "last_seen_at": "2026-01-26",
+      "creatives": [
+        {
+          "id": "e654217478ed1cf4",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/ce17c8cdbd520176/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/ce17c8cdbd520176/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/ce17c8cdbd520176/thumb",
+          "video_duration": 36,
+          "width": 720,
+          "height": 1280,
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "rewarded",
+        "interstitial",
+        "other"
+      ],
+      "share": 0.01507,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.638142
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            1.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 5,
+        "data": [
+          [
+            "60d53af5c1238e1ac89812f6",
+            0.389552
+          ],
+          [
+            "632e6c3fb03a9e6950b40fa4",
+            0.316578
+          ],
+          [
+            "6813c2d743283a3950be9115",
+            0.158289
+          ],
+          [
+            "605ecdc538ca534cd04e0270",
+            0.098559
+          ],
+          [
+            "6332fb6863d67c0dfad85001",
+            0.037022
+          ]
+        ]
+      }
+    },
+    {
+      "id": "a0118647b7e7f225",
+      "app_id": "674eaf16a01b70bb13621c38",
+      "network": "Applovin",
+      "phashion_group": "a0118647b7e7f225",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-09",
+      "last_seen_at": "2025-12-12",
+      "creatives": [
+        {
+          "id": "a0118647b7e7f225",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/88526ffe7258efa7/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/88526ffe7258efa7/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/88526ffe7258efa7/thumb",
+          "video_duration": 29,
+          "width": 720,
+          "height": 1280,
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "interstitial"
+      ],
+      "share": 0.005526,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 1,
+        "data": [
+          [
+            "58bcf0520211a6f648000d65",
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "id": "1297389dad78eb51",
+      "app_id": "674eaf16a01b70bb13621c38",
+      "network": "Applovin",
+      "phashion_group": "1297389dad78eb51",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-30",
+      "last_seen_at": "2026-01-28",
+      "creatives": [
+        {
+          "id": "1297389dad78eb51",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3ad4d12468c7f6d3/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3ad4d12468c7f6d3/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3ad4d12468c7f6d3/thumb",
+          "video_duration": 19,
+          "width": 720,
+          "height": 1280,
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "interstitial"
+      ],
+      "share": 0.003824,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.603199
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            1.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 2,
+        "data": [
+          [
+            "5fa777d3b6c7507209733e89",
+            0.623753
+          ],
+          [
+            "6561c6ebad4adb718b73c3d3",
+            0.376247
+          ]
+        ]
+      }
+    },
+    {
+      "id": "fc33040a83cb7cc2",
+      "app_id": "674eaf16a01b70bb13621c38",
+      "network": "Applovin",
+      "phashion_group": "fc33040a83cb7cc2",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-28",
+      "last_seen_at": "2026-01-03",
+      "creatives": [
+        {
+          "id": "fc33040a83cb7cc2",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/d470edb346746140/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/d470edb346746140/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/d470edb346746140/thumb",
+          "video_duration": 28,
+          "width": 720,
+          "height": 1280,
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "rewarded"
+      ],
+      "share": 0.003014,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 1,
+        "data": [
+          [
+            "68edb98a759282cab934f53e",
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "id": "ec52210039db5464",
+      "app_id": "674eaf16a01b70bb13621c38",
+      "network": "Applovin",
+      "phashion_group": "ec52210039db5464",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-13",
+      "last_seen_at": "2026-01-08",
+      "creatives": [
+        {
+          "id": "ec52210039db5464",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/c411c8b9fc6449e6/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/c411c8b9fc6449e6/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/c411c8b9fc6449e6/thumb",
+          "video_duration": 40,
+          "width": 720,
+          "height": 1280,
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "rewarded"
+      ],
+      "share": 0.002504,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 1,
+        "data": [
+          [
+            "6845bcda27de6925fcea4385",
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "id": "fa18b415be468d10",
+      "app_id": "674eaf16a01b70bb13621c38",
+      "network": "Applovin",
+      "phashion_group": "fa18b415be468d10",
+      "ad_type": "video",
+      "first_seen_at": "2025-08-20",
+      "last_seen_at": "2026-01-12",
+      "creatives": [
+        {
+          "id": "fa18b415be468d10",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/d25b5dac7bf99092/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/d25b5dac7bf99092/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/d25b5dac7bf99092/thumb",
+          "video_duration": 35,
+          "width": 720,
+          "height": 1280,
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "interstitial"
+      ],
+      "share": 0.001616,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 1,
+        "data": [
+          [
+            "68edb98a759282cab934f53e",
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "id": "bfffa81843cecd34",
+      "app_id": "674eaf16a01b70bb13621c38",
+      "network": "Applovin",
+      "phashion_group": "bfffa81843cecd34",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-28",
+      "last_seen_at": "2025-12-21",
+      "creatives": [
+        {
+          "id": "bfffa81843cecd34",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/97bc41a18671d0b6/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/97bc41a18671d0b6/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/97bc41a18671d0b6/thumb",
+          "video_duration": 27,
+          "width": 720,
+          "height": 1280,
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "rewarded"
+      ],
+      "share": 0.000628,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 1,
+        "data": [
+          [
+            "68edb98a759282cab934f53e",
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "id": "a5cc1eaaf8c8f464",
+      "app_id": "674eaf16a01b70bb13621c38",
+      "network": "Facebook",
+      "phashion_group": "a5cc1eaaf8c8f464",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-04",
+      "last_seen_at": "2026-01-21",
+      "creatives": [
+        {
+          "id": "a5cc1eaaf8c8f464",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/01c3199df64a0819/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/01c3199df64a0819/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/01c3199df64a0819/thumb",
+          "video_duration": 34,
+          "width": 1080,
+          "height": 1080,
+          "title": "CatDog World: After Humans",
+          "button_text": "Install Now",
+          "message": "Rise as a dominator and lead your partner to revive the glory of legends!"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "c972c695283d6511",
+      "app_id": "674eaf16a01b70bb13621c38",
+      "network": "Instagram",
+      "phashion_group": "c972c695283d6511",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-04",
+      "last_seen_at": "2026-01-21",
+      "creatives": [
+        {
+          "id": "c972c695283d6511",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/01c3199df64a0819/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/01c3199df64a0819/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/01c3199df64a0819/thumb",
+          "video_duration": 34,
+          "width": 1080,
+          "height": 1080,
+          "title": "CatDog World: After Humans",
+          "button_text": "Install Now",
+          "message": "Rise as a dominator and lead your partner to revive the glory of legends!"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "974ecddef7d0e5d5",
+      "app_id": "674eaf16a01b70bb13621c38",
+      "network": "Meta Audience Network",
+      "phashion_group": "974ecddef7d0e5d5",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-04",
+      "last_seen_at": "2026-01-21",
+      "creatives": [
+        {
+          "id": "974ecddef7d0e5d5",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/01c3199df64a0819/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/01c3199df64a0819/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/01c3199df64a0819/thumb",
+          "video_duration": 34,
+          "width": 1080,
+          "height": 1080,
+          "title": "CatDog World: After Humans",
+          "button_text": "Install Now",
+          "message": "Rise as a dominator and lead your partner to revive the glory of legends!"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "27534707b5ca4dc5",
+      "app_id": "674eaf16a01b70bb13621c38",
+      "network": "Facebook",
+      "phashion_group": "27534707b5ca4dc5",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-19",
+      "last_seen_at": "2025-12-08",
+      "creatives": [
+        {
+          "id": "27534707b5ca4dc5",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/029436ba1df24258/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/029436ba1df24258/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/029436ba1df24258/thumb",
+          "video_duration": 53,
+          "width": 1080,
+          "height": 1920,
+          "title": "CatDog World: After Humans",
+          "button_text": "Install Now",
+          "message": "Pursue the path of legends, seek out hidden treasures, and become the dominator!"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "4bed9f38653fdcb0",
+      "app_id": "674eaf16a01b70bb13621c38",
+      "network": "Instagram",
+      "phashion_group": "4bed9f38653fdcb0",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-19",
+      "last_seen_at": "2025-12-08",
+      "creatives": [
+        {
+          "id": "4bed9f38653fdcb0",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/029436ba1df24258/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/029436ba1df24258/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/029436ba1df24258/thumb",
+          "video_duration": 53,
+          "width": 1080,
+          "height": 1920,
+          "title": "CatDog World: After Humans",
+          "button_text": "Install Now",
+          "message": "Pursue the path of legends, seek out hidden treasures, and become the dominator!"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "15d19473bad25c74",
+      "app_id": "674eaf16a01b70bb13621c38",
+      "network": "Meta Audience Network",
+      "phashion_group": "15d19473bad25c74",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-19",
+      "last_seen_at": "2025-12-08",
+      "creatives": [
+        {
+          "id": "15d19473bad25c74",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/029436ba1df24258/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/029436ba1df24258/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/029436ba1df24258/thumb",
+          "video_duration": 53,
+          "width": 1080,
+          "height": 1920,
+          "title": "CatDog World: After Humans",
+          "button_text": "Install Now",
+          "message": "Pursue the path of legends, seek out hidden treasures, and become the dominator!"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "9197ba0eaea0de90",
+      "app_id": "674eaf16a01b70bb13621c38",
+      "network": "Facebook",
+      "phashion_group": "9197ba0eaea0de90",
+      "ad_type": "video",
+      "first_seen_at": "2025-10-17",
+      "last_seen_at": "2025-12-16",
+      "creatives": [
+        {
+          "id": "9197ba0eaea0de90",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/047173671cc57862/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/047173671cc57862/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/047173671cc57862/thumb",
+          "video_duration": 40,
+          "width": 1920,
+          "height": 1080,
+          "title": "CatDog World: After Humans",
+          "button_text": "Play Game",
+          "message": "⭐⭐⭐⭐⭐📱🎮📱"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1920x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "fd2962317e554fe5",
+      "app_id": "674eaf16a01b70bb13621c38",
+      "network": "Instagram",
+      "phashion_group": "fd2962317e554fe5",
+      "ad_type": "video",
+      "first_seen_at": "2025-10-17",
+      "last_seen_at": "2025-12-16",
+      "creatives": [
+        {
+          "id": "fd2962317e554fe5",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/047173671cc57862/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/047173671cc57862/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/047173671cc57862/thumb",
+          "video_duration": 40,
+          "width": 1920,
+          "height": 1080,
+          "title": "CatDog World: After Humans",
+          "button_text": "Play Game",
+          "message": "⭐⭐⭐⭐⭐📱🎮📱"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1920x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "a315697aa1b8cf21",
+      "app_id": "674eaf16a01b70bb13621c38",
+      "network": "Meta Audience Network",
+      "phashion_group": "a315697aa1b8cf21",
+      "ad_type": "video",
+      "first_seen_at": "2025-10-17",
+      "last_seen_at": "2025-12-16",
+      "creatives": [
+        {
+          "id": "a315697aa1b8cf21",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/047173671cc57862/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/047173671cc57862/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/047173671cc57862/thumb",
+          "video_duration": 40,
+          "width": 1920,
+          "height": 1080,
+          "title": "CatDog World: After Humans",
+          "button_text": "Play Game",
+          "message": "⭐⭐⭐⭐⭐📱🎮📱"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1920x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "a38dd699bbda9904",
+      "app_id": "674eaf16a01b70bb13621c38",
+      "network": "Facebook",
+      "phashion_group": "a38dd699bbda9904",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-04",
+      "last_seen_at": "2026-01-21",
+      "creatives": [
+        {
+          "id": "a38dd699bbda9904",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0782d1aeb5586579/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0782d1aeb5586579/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0782d1aeb5586579/thumb",
+          "video_duration": 34,
+          "width": 1080,
+          "height": 1920,
+          "title": "CatDog World: After Humans",
+          "button_text": "Install Now",
+          "message": "Rise as a dominator and lead your partner to revive the glory of legends!"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "cf330ea66b2f0871",
+      "app_id": "674eaf16a01b70bb13621c38",
+      "network": "Instagram",
+      "phashion_group": "cf330ea66b2f0871",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-04",
+      "last_seen_at": "2026-01-21",
+      "creatives": [
+        {
+          "id": "cf330ea66b2f0871",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0782d1aeb5586579/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0782d1aeb5586579/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0782d1aeb5586579/thumb",
+          "video_duration": 34,
+          "width": 1080,
+          "height": 1920,
+          "title": "CatDog World: After Humans",
+          "button_text": "Install Now",
+          "message": "Rise as a dominator and lead your partner to revive the glory of legends!"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "910f05edb4c288b5",
+      "app_id": "674eaf16a01b70bb13621c38",
+      "network": "Meta Audience Network",
+      "phashion_group": "910f05edb4c288b5",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-04",
+      "last_seen_at": "2026-01-21",
+      "creatives": [
+        {
+          "id": "910f05edb4c288b5",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0782d1aeb5586579/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0782d1aeb5586579/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0782d1aeb5586579/thumb",
+          "video_duration": 34,
+          "width": 1080,
+          "height": 1920,
+          "title": "CatDog World: After Humans",
+          "button_text": "Install Now",
+          "message": "Rise as a dominator and lead your partner to revive the glory of legends!"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "2e9a3f0df73a4a2a",
+      "app_id": "674eaf16a01b70bb13621c38",
+      "network": "Facebook",
+      "phashion_group": "2e9a3f0df73a4a2a",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-12",
+      "last_seen_at": "2026-01-24",
+      "creatives": [
+        {
+          "id": "2e9a3f0df73a4a2a",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0b5d4eb05f0245b7/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0b5d4eb05f0245b7/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0b5d4eb05f0245b7/thumb",
+          "video_duration": 36,
+          "width": 1080,
+          "height": 1080,
+          "title": "CatDog World: After Humans",
+          "button_text": "Install Now",
+          "message": "Pursue the path of legends, seek out hidden treasures, and become the dominator!"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "4224e73227cfdb5f",
+      "app_id": "674eaf16a01b70bb13621c38",
+      "network": "Instagram",
+      "phashion_group": "4224e73227cfdb5f",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-12",
+      "last_seen_at": "2026-01-24",
+      "creatives": [
+        {
+          "id": "4224e73227cfdb5f",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0b5d4eb05f0245b7/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0b5d4eb05f0245b7/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0b5d4eb05f0245b7/thumb",
+          "video_duration": 36,
+          "width": 1080,
+          "height": 1080,
+          "title": "CatDog World: After Humans",
+          "button_text": "Install Now",
+          "message": "Pursue the path of legends, seek out hidden treasures, and become the dominator!"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "1c18ec79f8225b9b",
+      "app_id": "674eaf16a01b70bb13621c38",
+      "network": "Meta Audience Network",
+      "phashion_group": "1c18ec79f8225b9b",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-12",
+      "last_seen_at": "2026-01-24",
+      "creatives": [
+        {
+          "id": "1c18ec79f8225b9b",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0b5d4eb05f0245b7/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0b5d4eb05f0245b7/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0b5d4eb05f0245b7/thumb",
+          "video_duration": 36,
+          "width": 1080,
+          "height": 1080,
+          "title": "CatDog World: After Humans",
+          "button_text": "Install Now",
+          "message": "Pursue the path of legends, seek out hidden treasures, and become the dominator!"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "999a65a89ca3cdf2",
+      "app_id": "674eaf16a01b70bb13621c38",
+      "network": "Facebook",
+      "phashion_group": "999a65a89ca3cdf2",
+      "ad_type": "video",
+      "first_seen_at": "2025-10-28",
+      "last_seen_at": "2025-12-08",
+      "creatives": [
+        {
+          "id": "999a65a89ca3cdf2",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0c7cacc12ec66b00/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0c7cacc12ec66b00/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0c7cacc12ec66b00/thumb",
+          "video_duration": 53,
+          "width": 1080,
+          "height": 1920,
+          "title": "CatDog World: After Humans",
+          "button_text": "Play Game",
+          "message": "⭐⭐⭐⭐⭐📱🎮📱"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "f524bd974c565c87",
+      "app_id": "674eaf16a01b70bb13621c38",
+      "network": "Instagram",
+      "phashion_group": "f524bd974c565c87",
+      "ad_type": "video",
+      "first_seen_at": "2025-10-28",
+      "last_seen_at": "2025-12-08",
+      "creatives": [
+        {
+          "id": "f524bd974c565c87",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0c7cacc12ec66b00/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0c7cacc12ec66b00/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0c7cacc12ec66b00/thumb",
+          "video_duration": 53,
+          "width": 1080,
+          "height": 1920,
+          "title": "CatDog World: After Humans",
+          "button_text": "Play Game",
+          "message": "⭐⭐⭐⭐⭐📱🎮📱"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "ab18b6dc93bbdc43",
+      "app_id": "674eaf16a01b70bb13621c38",
+      "network": "Meta Audience Network",
+      "phashion_group": "ab18b6dc93bbdc43",
+      "ad_type": "video",
+      "first_seen_at": "2025-10-28",
+      "last_seen_at": "2025-12-08",
+      "creatives": [
+        {
+          "id": "ab18b6dc93bbdc43",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0c7cacc12ec66b00/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0c7cacc12ec66b00/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0c7cacc12ec66b00/thumb",
+          "video_duration": 53,
+          "width": 1080,
+          "height": 1920,
+          "title": "CatDog World: After Humans",
+          "button_text": "Play Game",
+          "message": "⭐⭐⭐⭐⭐📱🎮📱"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "ee4115fc322ecb99",
+      "app_id": "674eaf16a01b70bb13621c38",
+      "network": "Facebook",
+      "phashion_group": "ee4115fc322ecb99",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-11",
+      "last_seen_at": "2025-12-24",
+      "creatives": [
+        {
+          "id": "ee4115fc322ecb99",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0deec32cfb572f0e/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0deec32cfb572f0e/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0deec32cfb572f0e/thumb",
+          "video_duration": 40,
+          "width": 1440,
+          "height": 1440,
+          "title": "CatDog World: After Humans",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1440x1440",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "82ffcdc3e2db5aec",
+      "app_id": "674eaf16a01b70bb13621c38",
+      "network": "Instagram",
+      "phashion_group": "82ffcdc3e2db5aec",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-11",
+      "last_seen_at": "2025-12-24",
+      "creatives": [
+        {
+          "id": "82ffcdc3e2db5aec",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0deec32cfb572f0e/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0deec32cfb572f0e/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0deec32cfb572f0e/thumb",
+          "video_duration": 40,
+          "width": 1440,
+          "height": 1440,
+          "title": "CatDog World: After Humans",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1440x1440",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "dcc3c6883d36da28",
+      "app_id": "674eaf16a01b70bb13621c38",
+      "network": "Meta Audience Network",
+      "phashion_group": "dcc3c6883d36da28",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-11",
+      "last_seen_at": "2025-12-24",
+      "creatives": [
+        {
+          "id": "dcc3c6883d36da28",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0deec32cfb572f0e/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0deec32cfb572f0e/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0deec32cfb572f0e/thumb",
+          "video_duration": 40,
+          "width": 1440,
+          "height": 1440,
+          "title": "CatDog World: After Humans",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1440x1440",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "9b4727541bbb5da7",
+      "app_id": "674eaf16a01b70bb13621c38",
+      "network": "Facebook",
+      "phashion_group": "9b4727541bbb5da7",
+      "ad_type": "video",
+      "first_seen_at": "2025-10-17",
+      "last_seen_at": "2025-12-08",
+      "creatives": [
+        {
+          "id": "9b4727541bbb5da7",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0ea1ee3da9defb55/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0ea1ee3da9defb55/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0ea1ee3da9defb55/thumb",
+          "video_duration": 62,
+          "width": 1080,
+          "height": 1920,
+          "title": "CatDog World: After Humans",
+          "button_text": "Play Game",
+          "message": "⭐⭐⭐⭐⭐📱🎮📱"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "f7f9ff6bcb4eccd2",
+      "app_id": "674eaf16a01b70bb13621c38",
+      "network": "Instagram",
+      "phashion_group": "f7f9ff6bcb4eccd2",
+      "ad_type": "video",
+      "first_seen_at": "2025-10-17",
+      "last_seen_at": "2025-12-08",
+      "creatives": [
+        {
+          "id": "f7f9ff6bcb4eccd2",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0ea1ee3da9defb55/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0ea1ee3da9defb55/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0ea1ee3da9defb55/thumb",
+          "video_duration": 62,
+          "width": 1080,
+          "height": 1920,
+          "title": "CatDog World: After Humans",
+          "button_text": "Play Game",
+          "message": "⭐⭐⭐⭐⭐📱🎮📱"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "a9c5f42014a34c16",
+      "app_id": "674eaf16a01b70bb13621c38",
+      "network": "Meta Audience Network",
+      "phashion_group": "a9c5f42014a34c16",
+      "ad_type": "video",
+      "first_seen_at": "2025-10-17",
+      "last_seen_at": "2025-12-08",
+      "creatives": [
+        {
+          "id": "a9c5f42014a34c16",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0ea1ee3da9defb55/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0ea1ee3da9defb55/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0ea1ee3da9defb55/thumb",
+          "video_duration": 62,
+          "width": 1080,
+          "height": 1920,
+          "title": "CatDog World: After Humans",
+          "button_text": "Play Game",
+          "message": "⭐⭐⭐⭐⭐📱🎮📱"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "2a1053c32bd36a0c",
+      "app_id": "674eaf16a01b70bb13621c38",
+      "network": "Facebook",
+      "phashion_group": "2a1053c32bd36a0c",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-05",
+      "last_seen_at": "2025-12-08",
+      "creatives": [
+        {
+          "id": "2a1053c32bd36a0c",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0fd7227e83eb6591/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0fd7227e83eb6591/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0fd7227e83eb6591/thumb",
+          "video_duration": 34,
+          "width": 1080,
+          "height": 1920,
+          "title": "CatDog World: After Humans",
+          "button_text": "Install Now",
+          "message": "Pursue the path of legends, seek out hidden treasures, and become the dominator!"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "46ae8bfcfb26fb79",
+      "app_id": "674eaf16a01b70bb13621c38",
+      "network": "Instagram",
+      "phashion_group": "46ae8bfcfb26fb79",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-05",
+      "last_seen_at": "2025-12-08",
+      "creatives": [
+        {
+          "id": "46ae8bfcfb26fb79",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0fd7227e83eb6591/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0fd7227e83eb6591/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0fd7227e83eb6591/thumb",
+          "video_duration": 34,
+          "width": 1080,
+          "height": 1920,
+          "title": "CatDog World: After Humans",
+          "button_text": "Install Now",
+          "message": "Pursue the path of legends, seek out hidden treasures, and become the dominator!"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "189280b724cb7bbd",
+      "app_id": "674eaf16a01b70bb13621c38",
+      "network": "Meta Audience Network",
+      "phashion_group": "189280b724cb7bbd",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-05",
+      "last_seen_at": "2025-12-08",
+      "creatives": [
+        {
+          "id": "189280b724cb7bbd",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0fd7227e83eb6591/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0fd7227e83eb6591/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0fd7227e83eb6591/thumb",
+          "video_duration": 34,
+          "width": 1080,
+          "height": 1920,
+          "title": "CatDog World: After Humans",
+          "button_text": "Install Now",
+          "message": "Pursue the path of legends, seek out hidden treasures, and become the dominator!"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "f2714ac7b7e9a5ef",
+      "app_id": "674eaf16a01b70bb13621c38",
+      "network": "Facebook",
+      "phashion_group": "f2714ac7b7e9a5ef",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-09",
+      "last_seen_at": "2026-01-27",
+      "creatives": [
+        {
+          "id": "f2714ac7b7e9a5ef",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/11de9c177e904178/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/11de9c177e904178/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/11de9c177e904178/thumb",
+          "video_duration": 31,
+          "width": 1080,
+          "height": 1080,
+          "title": "CatDog World: After Humans",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "9ecf92f8671c349a",
+      "app_id": "674eaf16a01b70bb13621c38",
+      "network": "Instagram",
+      "phashion_group": "9ecf92f8671c349a",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-09",
+      "last_seen_at": "2026-01-27",
+      "creatives": [
+        {
+          "id": "9ecf92f8671c349a",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/11de9c177e904178/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/11de9c177e904178/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/11de9c177e904178/thumb",
+          "video_duration": 31,
+          "width": 1080,
+          "height": 1080,
+          "title": "CatDog World: After Humans",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "c0f399b3b8f1b45e",
+      "app_id": "674eaf16a01b70bb13621c38",
+      "network": "Meta Audience Network",
+      "phashion_group": "c0f399b3b8f1b45e",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-09",
+      "last_seen_at": "2026-01-27",
+      "creatives": [
+        {
+          "id": "c0f399b3b8f1b45e",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/11de9c177e904178/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/11de9c177e904178/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/11de9c177e904178/thumb",
+          "video_duration": 31,
+          "width": 1080,
+          "height": 1080,
+          "title": "CatDog World: After Humans",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "36346bd543d6fc11",
+      "app_id": "674eaf16a01b70bb13621c38",
+      "network": "Facebook",
+      "phashion_group": "36346bd543d6fc11",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-05",
+      "last_seen_at": "2025-12-08",
+      "creatives": [
+        {
+          "id": "36346bd543d6fc11",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/13f31a68ebeef38c/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/13f31a68ebeef38c/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/13f31a68ebeef38c/thumb",
+          "video_duration": 32,
+          "width": 1080,
+          "height": 1920,
+          "title": "CatDog World: After Humans",
+          "button_text": "Install Now",
+          "message": "Pursue the path of legends, seek out hidden treasures, and become the dominator!"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "5a8ab3ea93236d64",
+      "app_id": "674eaf16a01b70bb13621c38",
+      "network": "Instagram",
+      "phashion_group": "5a8ab3ea93236d64",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-05",
+      "last_seen_at": "2025-12-08",
+      "creatives": [
+        {
+          "id": "5a8ab3ea93236d64",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/13f31a68ebeef38c/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/13f31a68ebeef38c/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/13f31a68ebeef38c/thumb",
+          "video_duration": 32,
+          "width": 1080,
+          "height": 1920,
+          "title": "CatDog World: After Humans",
+          "button_text": "Install Now",
+          "message": "Pursue the path of legends, seek out hidden treasures, and become the dominator!"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "04b6b8a14cceeda0",
+      "app_id": "674eaf16a01b70bb13621c38",
+      "network": "Meta Audience Network",
+      "phashion_group": "04b6b8a14cceeda0",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-05",
+      "last_seen_at": "2025-12-08",
+      "creatives": [
+        {
+          "id": "04b6b8a14cceeda0",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/13f31a68ebeef38c/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/13f31a68ebeef38c/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/13f31a68ebeef38c/thumb",
+          "video_duration": 32,
+          "width": 1080,
+          "height": 1920,
+          "title": "CatDog World: After Humans",
+          "button_text": "Install Now",
+          "message": "Pursue the path of legends, seek out hidden treasures, and become the dominator!"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "f56c8952512e950c",
+      "app_id": "674eaf16a01b70bb13621c38",
+      "network": "Facebook",
+      "phashion_group": "f56c8952512e950c",
+      "ad_type": "video",
+      "first_seen_at": "2025-07-21",
+      "last_seen_at": "2026-01-27",
+      "creatives": [
+        {
+          "id": "f56c8952512e950c",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/16c35f829857719b/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/16c35f829857719b/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/16c35f829857719b/thumb",
+          "video_duration": 38,
+          "width": 1280,
+          "height": 720,
+          "title": "CatDog World: After Humans",
+          "button_text": "Install now",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1280x720",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "99d2516d81db0479",
+      "app_id": "674eaf16a01b70bb13621c38",
+      "network": "Instagram",
+      "phashion_group": "99d2516d81db0479",
+      "ad_type": "video",
+      "first_seen_at": "2025-07-21",
+      "last_seen_at": "2026-01-27",
+      "creatives": [
+        {
+          "id": "99d2516d81db0479",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/16c35f829857719b/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/16c35f829857719b/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/16c35f829857719b/thumb",
+          "video_duration": 38,
+          "width": 1280,
+          "height": 720,
+          "title": "CatDog World: After Humans",
+          "button_text": "Install now",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1280x720",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "c7ee5a265e3684bd",
+      "app_id": "674eaf16a01b70bb13621c38",
+      "network": "Meta Audience Network",
+      "phashion_group": "c7ee5a265e3684bd",
+      "ad_type": "video",
+      "first_seen_at": "2025-07-21",
+      "last_seen_at": "2026-01-27",
+      "creatives": [
+        {
+          "id": "c7ee5a265e3684bd",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/16c35f829857719b/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/16c35f829857719b/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/16c35f829857719b/thumb",
+          "video_duration": 38,
+          "width": 1280,
+          "height": 720,
+          "title": "CatDog World: After Humans",
+          "button_text": "Install now",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1280x720",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "8d137a7fa077a381",
+      "app_id": "674eaf16a01b70bb13621c38",
+      "network": "Facebook",
+      "phashion_group": "8d137a7fa077a381",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-09",
+      "last_seen_at": "2025-12-16",
+      "creatives": [
+        {
+          "id": "8d137a7fa077a381",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/18f5b31612120573/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/18f5b31612120573/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/18f5b31612120573/thumb",
+          "video_duration": 40,
+          "width": 1080,
+          "height": 1920,
+          "title": "CatDog World: After Humans",
+          "button_text": "Play Game",
+          "message": "⭐⭐⭐⭐⭐📱🎮📱"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "e1ada240708232f4",
+      "app_id": "674eaf16a01b70bb13621c38",
+      "network": "Instagram",
+      "phashion_group": "e1ada240708232f4",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-09",
+      "last_seen_at": "2025-12-16",
+      "creatives": [
+        {
+          "id": "e1ada240708232f4",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/18f5b31612120573/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/18f5b31612120573/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/18f5b31612120573/thumb",
+          "video_duration": 40,
+          "width": 1080,
+          "height": 1920,
+          "title": "CatDog World: After Humans",
+          "button_text": "Play Game",
+          "message": "⭐⭐⭐⭐⭐📱🎮📱"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "bf91a90baf6fb230",
+      "app_id": "674eaf16a01b70bb13621c38",
+      "network": "Meta Audience Network",
+      "phashion_group": "bf91a90baf6fb230",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-09",
+      "last_seen_at": "2025-12-16",
+      "creatives": [
+        {
+          "id": "bf91a90baf6fb230",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/18f5b31612120573/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/18f5b31612120573/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/18f5b31612120573/thumb",
+          "video_duration": 40,
+          "width": 1080,
+          "height": 1920,
+          "title": "CatDog World: After Humans",
+          "button_text": "Play Game",
+          "message": "⭐⭐⭐⭐⭐📱🎮📱"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "b8b03360fdffefe3",
+      "app_id": "674eaf16a01b70bb13621c38",
+      "network": "Facebook",
+      "phashion_group": "b8b03360fdffefe3",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-05",
+      "last_seen_at": "2025-12-10",
+      "creatives": [
+        {
+          "id": "b8b03360fdffefe3",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1cbf3457f37d139e/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1cbf3457f37d139e/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1cbf3457f37d139e/thumb",
+          "video_duration": 36,
+          "width": 1080,
+          "height": 1920,
+          "title": "CatDog World: After Humans",
+          "button_text": "Install Now",
+          "message": "Rise as a dominator and lead your partner to revive the glory of legends!"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "d40eeb5f2d0a7e96",
+      "app_id": "674eaf16a01b70bb13621c38",
+      "network": "Instagram",
+      "phashion_group": "d40eeb5f2d0a7e96",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-05",
+      "last_seen_at": "2025-12-10",
+      "creatives": [
+        {
+          "id": "d40eeb5f2d0a7e96",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1cbf3457f37d139e/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1cbf3457f37d139e/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1cbf3457f37d139e/thumb",
+          "video_duration": 36,
+          "width": 1080,
+          "height": 1920,
+          "title": "CatDog World: After Humans",
+          "button_text": "Install Now",
+          "message": "Rise as a dominator and lead your partner to revive the glory of legends!"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "8a32e014f2e7fe52",
+      "app_id": "674eaf16a01b70bb13621c38",
+      "network": "Meta Audience Network",
+      "phashion_group": "8a32e014f2e7fe52",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-05",
+      "last_seen_at": "2025-12-10",
+      "creatives": [
+        {
+          "id": "8a32e014f2e7fe52",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1cbf3457f37d139e/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1cbf3457f37d139e/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1cbf3457f37d139e/thumb",
+          "video_duration": 36,
+          "width": 1080,
+          "height": 1920,
+          "title": "CatDog World: After Humans",
+          "button_text": "Install Now",
+          "message": "Rise as a dominator and lead your partner to revive the glory of legends!"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "88c8c648b83b6bcd",
+      "app_id": "674eaf16a01b70bb13621c38",
+      "network": "Facebook",
+      "phashion_group": "88c8c648b83b6bcd",
+      "ad_type": "video",
+      "first_seen_at": "2025-10-17",
+      "last_seen_at": "2025-12-08",
+      "creatives": [
+        {
+          "id": "88c8c648b83b6bcd",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1d2e0f210a5ecd3f/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1d2e0f210a5ecd3f/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1d2e0f210a5ecd3f/thumb",
+          "video_duration": 76,
+          "width": 1080,
+          "height": 1920,
+          "title": "CatDog World: After Humans",
+          "button_text": "Play Game",
+          "message": "⭐⭐⭐⭐⭐📱🎮📱"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "e4761e7768cefab8",
+      "app_id": "674eaf16a01b70bb13621c38",
+      "network": "Instagram",
+      "phashion_group": "e4761e7768cefab8",
+      "ad_type": "video",
+      "first_seen_at": "2025-10-17",
+      "last_seen_at": "2025-12-08",
+      "creatives": [
+        {
+          "id": "e4761e7768cefab8",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1d2e0f210a5ecd3f/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1d2e0f210a5ecd3f/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1d2e0f210a5ecd3f/thumb",
+          "video_duration": 76,
+          "width": 1080,
+          "height": 1920,
+          "title": "CatDog World: After Humans",
+          "button_text": "Play Game",
+          "message": "⭐⭐⭐⭐⭐📱🎮📱"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "ba4a153cb7237a7c",
+      "app_id": "674eaf16a01b70bb13621c38",
+      "network": "Meta Audience Network",
+      "phashion_group": "ba4a153cb7237a7c",
+      "ad_type": "video",
+      "first_seen_at": "2025-10-17",
+      "last_seen_at": "2025-12-08",
+      "creatives": [
+        {
+          "id": "ba4a153cb7237a7c",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1d2e0f210a5ecd3f/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1d2e0f210a5ecd3f/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1d2e0f210a5ecd3f/thumb",
+          "video_duration": 76,
+          "width": 1080,
+          "height": 1920,
+          "title": "CatDog World: After Humans",
+          "button_text": "Play Game",
+          "message": "⭐⭐⭐⭐⭐📱🎮📱"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "3a986f1c66417596",
+      "app_id": "674eaf16a01b70bb13621c38",
+      "network": "Facebook",
+      "phashion_group": "3a986f1c66417596",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-19",
+      "last_seen_at": "2025-12-08",
+      "creatives": [
+        {
+          "id": "3a986f1c66417596",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1f5f1ea1ce797a0b/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1f5f1ea1ce797a0b/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1f5f1ea1ce797a0b/thumb",
+          "video_duration": 31,
+          "width": 1432,
+          "height": 1444,
+          "title": "CatDog World: After Humans",
+          "button_text": "Install Now",
+          "message": "Pursue the path of legends, seek out hidden treasures, and become the dominator!"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1432x1444",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "5626b723b6b4e4e3",
+      "app_id": "674eaf16a01b70bb13621c38",
+      "network": "Instagram",
+      "phashion_group": "5626b723b6b4e4e3",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-19",
+      "last_seen_at": "2025-12-08",
+      "creatives": [
+        {
+          "id": "5626b723b6b4e4e3",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1f5f1ea1ce797a0b/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1f5f1ea1ce797a0b/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1f5f1ea1ce797a0b/thumb",
+          "video_duration": 31,
+          "width": 1432,
+          "height": 1444,
+          "title": "CatDog World: After Humans",
+          "button_text": "Install Now",
+          "message": "Pursue the path of legends, seek out hidden treasures, and become the dominator!"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1432x1444",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "081abc6869596427",
+      "app_id": "674eaf16a01b70bb13621c38",
+      "network": "Meta Audience Network",
+      "phashion_group": "081abc6869596427",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-19",
+      "last_seen_at": "2025-12-08",
+      "creatives": [
+        {
+          "id": "081abc6869596427",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1f5f1ea1ce797a0b/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1f5f1ea1ce797a0b/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1f5f1ea1ce797a0b/thumb",
+          "video_duration": 31,
+          "width": 1432,
+          "height": 1444,
+          "title": "CatDog World: After Humans",
+          "button_text": "Install Now",
+          "message": "Pursue the path of legends, seek out hidden treasures, and become the dominator!"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1432x1444",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "86471fc361fbe4c1",
+      "app_id": "674eaf16a01b70bb13621c38",
+      "network": "Facebook",
+      "phashion_group": "86471fc361fbe4c1",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-05",
+      "last_seen_at": "2025-12-10",
+      "creatives": [
+        {
+          "id": "86471fc361fbe4c1",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/224818f46f7918bc/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/224818f46f7918bc/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/224818f46f7918bc/thumb",
+          "video_duration": 36,
+          "width": 1080,
+          "height": 1080,
+          "title": "CatDog World: After Humans",
+          "button_text": "Install Now",
+          "message": "Rise as a dominator and lead your partner to revive the glory of legends!"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "eaf9c7fcb10e75b4",
+      "app_id": "674eaf16a01b70bb13621c38",
+      "network": "Instagram",
+      "phashion_group": "eaf9c7fcb10e75b4",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-05",
+      "last_seen_at": "2025-12-10",
+      "creatives": [
+        {
+          "id": "eaf9c7fcb10e75b4",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/224818f46f7918bc/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/224818f46f7918bc/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/224818f46f7918bc/thumb",
+          "video_duration": 36,
+          "width": 1080,
+          "height": 1080,
+          "title": "CatDog World: After Humans",
+          "button_text": "Install Now",
+          "message": "Rise as a dominator and lead your partner to revive the glory of legends!"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "b4c5ccb76ee3f570",
+      "app_id": "674eaf16a01b70bb13621c38",
+      "network": "Meta Audience Network",
+      "phashion_group": "b4c5ccb76ee3f570",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-05",
+      "last_seen_at": "2025-12-10",
+      "creatives": [
+        {
+          "id": "b4c5ccb76ee3f570",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/224818f46f7918bc/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/224818f46f7918bc/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/224818f46f7918bc/thumb",
+          "video_duration": 36,
+          "width": 1080,
+          "height": 1080,
+          "title": "CatDog World: After Humans",
+          "button_text": "Install Now",
+          "message": "Rise as a dominator and lead your partner to revive the glory of legends!"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "868a89ec113ad7bb",
+      "app_id": "674eaf16a01b70bb13621c38",
+      "network": "Facebook",
+      "phashion_group": "868a89ec113ad7bb",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-05",
+      "last_seen_at": "2026-01-28",
+      "creatives": [
+        {
+          "id": "868a89ec113ad7bb",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/22858edb1fb82bc6/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/22858edb1fb82bc6/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/22858edb1fb82bc6/thumb",
+          "video_duration": 36,
+          "width": 1080,
+          "height": 1920,
+          "title": "CatDog World: After Humans",
+          "button_text": "Install Now",
+          "message": "Rise as a dominator and lead your partner to revive the glory of legends!"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "ea3451d3c1cf46ce",
+      "app_id": "674eaf16a01b70bb13621c38",
+      "network": "Instagram",
+      "phashion_group": "ea3451d3c1cf46ce",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-05",
+      "last_seen_at": "2026-01-28",
+      "creatives": [
+        {
+          "id": "ea3451d3c1cf46ce",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/22858edb1fb82bc6/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/22858edb1fb82bc6/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/22858edb1fb82bc6/thumb",
+          "video_duration": 36,
+          "width": 1080,
+          "height": 1920,
+          "title": "CatDog World: After Humans",
+          "button_text": "Install Now",
+          "message": "Rise as a dominator and lead your partner to revive the glory of legends!"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "b4085a981e22c60a",
+      "app_id": "674eaf16a01b70bb13621c38",
+      "network": "Meta Audience Network",
+      "phashion_group": "b4085a981e22c60a",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-05",
+      "last_seen_at": "2026-01-28",
+      "creatives": [
+        {
+          "id": "b4085a981e22c60a",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/22858edb1fb82bc6/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/22858edb1fb82bc6/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/22858edb1fb82bc6/thumb",
+          "video_duration": 36,
+          "width": 1080,
+          "height": 1920,
+          "title": "CatDog World: After Humans",
+          "button_text": "Install Now",
+          "message": "Rise as a dominator and lead your partner to revive the glory of legends!"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "01a53e7a75882a30",
+      "app_id": "674eaf16a01b70bb13621c38",
+      "network": "Facebook",
+      "phashion_group": "01a53e7a75882a30",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-05",
+      "last_seen_at": "2025-12-08",
+      "creatives": [
+        {
+          "id": "01a53e7a75882a30",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/24624fc7ddb025ad/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/24624fc7ddb025ad/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/24624fc7ddb025ad/thumb",
+          "video_duration": 30,
+          "width": 1920,
+          "height": 1080,
+          "title": "CatDog World: After Humans",
+          "button_text": "Install Now",
+          "message": "Pursue the path of legends, seek out hidden treasures, and become the dominator!"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1920x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "6d1be645a57dbb45",
+      "app_id": "674eaf16a01b70bb13621c38",
+      "network": "Instagram",
+      "phashion_group": "6d1be645a57dbb45",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-05",
+      "last_seen_at": "2025-12-08",
+      "creatives": [
+        {
+          "id": "6d1be645a57dbb45",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/24624fc7ddb025ad/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/24624fc7ddb025ad/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/24624fc7ddb025ad/thumb",
+          "video_duration": 30,
+          "width": 1920,
+          "height": 1080,
+          "title": "CatDog World: After Humans",
+          "button_text": "Install Now",
+          "message": "Pursue the path of legends, seek out hidden treasures, and become the dominator!"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1920x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "3327ed0e7a903b81",
+      "app_id": "674eaf16a01b70bb13621c38",
+      "network": "Meta Audience Network",
+      "phashion_group": "3327ed0e7a903b81",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-05",
+      "last_seen_at": "2025-12-08",
+      "creatives": [
+        {
+          "id": "3327ed0e7a903b81",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/24624fc7ddb025ad/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/24624fc7ddb025ad/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/24624fc7ddb025ad/thumb",
+          "video_duration": 30,
+          "width": 1920,
+          "height": 1080,
+          "title": "CatDog World: After Humans",
+          "button_text": "Install Now",
+          "message": "Pursue the path of legends, seek out hidden treasures, and become the dominator!"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1920x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "0cf4b4eeb16e4d36",
+      "app_id": "674eaf16a01b70bb13621c38",
+      "network": "Facebook",
+      "phashion_group": "0cf4b4eeb16e4d36",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-12",
+      "last_seen_at": "2025-12-08",
+      "creatives": [
+        {
+          "id": "0cf4b4eeb16e4d36",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2933c553195642ab/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2933c553195642ab/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2933c553195642ab/thumb",
+          "video_duration": 42,
+          "width": 1080,
+          "height": 1080,
+          "title": "CatDog World: After Humans",
+          "button_text": "Install Now",
+          "message": "Pursue the path of legends, seek out hidden treasures, and become the dominator!"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "604a6cd1619bdc43",
+      "app_id": "674eaf16a01b70bb13621c38",
+      "network": "Instagram",
+      "phashion_group": "604a6cd1619bdc43",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-12",
+      "last_seen_at": "2025-12-08",
+      "creatives": [
+        {
+          "id": "604a6cd1619bdc43",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2933c553195642ab/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2933c553195642ab/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2933c553195642ab/thumb",
+          "video_duration": 42,
+          "width": 1080,
+          "height": 1080,
+          "title": "CatDog World: After Humans",
+          "button_text": "Install Now",
+          "message": "Pursue the path of legends, seek out hidden treasures, and become the dominator!"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "3e76679abe765c87",
+      "app_id": "674eaf16a01b70bb13621c38",
+      "network": "Meta Audience Network",
+      "phashion_group": "3e76679abe765c87",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-12",
+      "last_seen_at": "2025-12-08",
+      "creatives": [
+        {
+          "id": "3e76679abe765c87",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2933c553195642ab/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2933c553195642ab/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2933c553195642ab/thumb",
+          "video_duration": 42,
+          "width": 1080,
+          "height": 1080,
+          "title": "CatDog World: After Humans",
+          "button_text": "Install Now",
+          "message": "Pursue the path of legends, seek out hidden treasures, and become the dominator!"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "f36a423ff1b31935",
+      "app_id": "674eaf16a01b70bb13621c38",
+      "network": "Facebook",
+      "phashion_group": "f36a423ff1b31935",
+      "ad_type": "video",
+      "first_seen_at": "2025-10-31",
+      "last_seen_at": "2026-01-21",
+      "creatives": [
+        {
+          "id": "f36a423ff1b31935",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2aafa279b79c70fc/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2aafa279b79c70fc/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2aafa279b79c70fc/thumb",
+          "video_duration": 35,
+          "width": 1280,
+          "height": 720,
+          "title": "CatDog World: After Humans",
+          "button_text": "Install Now",
+          "message": "Save Fresh Water, Save Our Land"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1280x720",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "9fd49a0021468840",
+      "app_id": "674eaf16a01b70bb13621c38",
+      "network": "Instagram",
+      "phashion_group": "9fd49a0021468840",
+      "ad_type": "video",
+      "first_seen_at": "2025-10-31",
+      "last_seen_at": "2026-01-21",
+      "creatives": [
+        {
+          "id": "9fd49a0021468840",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2aafa279b79c70fc/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2aafa279b79c70fc/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2aafa279b79c70fc/thumb",
+          "video_duration": 35,
+          "width": 1280,
+          "height": 720,
+          "title": "CatDog World: After Humans",
+          "button_text": "Install Now",
+          "message": "Save Fresh Water, Save Our Land"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1280x720",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "c1e8914bfeab0884",
+      "app_id": "674eaf16a01b70bb13621c38",
+      "network": "Meta Audience Network",
+      "phashion_group": "c1e8914bfeab0884",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-06",
+      "last_seen_at": "2026-01-21",
+      "creatives": [
+        {
+          "id": "c1e8914bfeab0884",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2aafa279b79c70fc/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2aafa279b79c70fc/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2aafa279b79c70fc/thumb",
+          "video_duration": 35,
+          "width": 1280,
+          "height": 720,
+          "title": "CatDog World: After Humans",
+          "button_text": "Install Now",
+          "message": "Save Fresh Water, Save Our Land"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1280x720",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "8944c308e3d82479",
+      "app_id": "674eaf16a01b70bb13621c38",
+      "network": "Facebook",
+      "phashion_group": "8944c308e3d82479",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-05",
+      "last_seen_at": "2025-12-21",
+      "creatives": [
+        {
+          "id": "8944c308e3d82479",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2d4bc43fed5ad804/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2d4bc43fed5ad804/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2d4bc43fed5ad804/thumb",
+          "video_duration": 63,
+          "width": 1080,
+          "height": 1920,
+          "title": "CatDog World: After Humans",
+          "button_text": "Install Now",
+          "message": "Rise as a dominator and lead your partner to revive the glory of legends!"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "e5fa1b37332db50c",
+      "app_id": "674eaf16a01b70bb13621c38",
+      "network": "Instagram",
+      "phashion_group": "e5fa1b37332db50c",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-05",
+      "last_seen_at": "2025-12-21",
+      "creatives": [
+        {
+          "id": "e5fa1b37332db50c",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2d4bc43fed5ad804/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2d4bc43fed5ad804/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2d4bc43fed5ad804/thumb",
+          "video_duration": 63,
+          "width": 1080,
+          "height": 1920,
+          "title": "CatDog World: After Humans",
+          "button_text": "Install Now",
+          "message": "Rise as a dominator and lead your partner to revive the glory of legends!"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "bbc6107cecc035c8",
+      "app_id": "674eaf16a01b70bb13621c38",
+      "network": "Meta Audience Network",
+      "phashion_group": "bbc6107cecc035c8",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-05",
+      "last_seen_at": "2025-12-21",
+      "creatives": [
+        {
+          "id": "bbc6107cecc035c8",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2d4bc43fed5ad804/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2d4bc43fed5ad804/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2d4bc43fed5ad804/thumb",
+          "video_duration": 63,
+          "width": 1080,
+          "height": 1920,
+          "title": "CatDog World: After Humans",
+          "button_text": "Install Now",
+          "message": "Rise as a dominator and lead your partner to revive the glory of legends!"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "8a92de1d405ed03f",
+      "app_id": "674eaf16a01b70bb13621c38",
+      "network": "Facebook",
+      "phashion_group": "8a92de1d405ed03f",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-04",
+      "last_seen_at": "2026-01-21",
+      "creatives": [
+        {
+          "id": "8a92de1d405ed03f",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2e9dd92a4edc2c42/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2e9dd92a4edc2c42/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2e9dd92a4edc2c42/thumb",
+          "video_duration": 34,
+          "width": 1920,
+          "height": 1080,
+          "title": "CatDog World: After Humans",
+          "button_text": "Install Now",
+          "message": "Rise as a dominator and lead your partner to revive the glory of legends!"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1920x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "e62c062290ab414a",
+      "app_id": "674eaf16a01b70bb13621c38",
+      "network": "Instagram",
+      "phashion_group": "e62c062290ab414a",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-04",
+      "last_seen_at": "2026-01-21",
+      "creatives": [
+        {
+          "id": "e62c062290ab414a",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2e9dd92a4edc2c42/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2e9dd92a4edc2c42/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2e9dd92a4edc2c42/thumb",
+          "video_duration": 34,
+          "width": 1920,
+          "height": 1080,
+          "title": "CatDog World: After Humans",
+          "button_text": "Install Now",
+          "message": "Rise as a dominator and lead your partner to revive the glory of legends!"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1920x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "b8100d694f46c18e",
+      "app_id": "674eaf16a01b70bb13621c38",
+      "network": "Meta Audience Network",
+      "phashion_group": "b8100d694f46c18e",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-04",
+      "last_seen_at": "2026-01-21",
+      "creatives": [
+        {
+          "id": "b8100d694f46c18e",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2e9dd92a4edc2c42/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2e9dd92a4edc2c42/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2e9dd92a4edc2c42/thumb",
+          "video_duration": 34,
+          "width": 1920,
+          "height": 1080,
+          "title": "CatDog World: After Humans",
+          "button_text": "Install Now",
+          "message": "Rise as a dominator and lead your partner to revive the glory of legends!"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1920x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "d71a9251d820ba6c",
+      "app_id": "674eaf16a01b70bb13621c38",
+      "network": "Facebook",
+      "phashion_group": "d71a9251d820ba6c",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-11",
+      "last_seen_at": "2025-12-23",
+      "creatives": [
+        {
+          "id": "d71a9251d820ba6c",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/34b5448111595efb/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/34b5448111595efb/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/34b5448111595efb/thumb",
+          "video_duration": 26,
+          "width": 1080,
+          "height": 1080,
+          "title": "CatDog World: After Humans",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "bba44a6e08d52b19",
+      "app_id": "674eaf16a01b70bb13621c38",
+      "network": "Instagram",
+      "phashion_group": "bba44a6e08d52b19",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-11",
+      "last_seen_at": "2025-12-23",
+      "creatives": [
+        {
+          "id": "bba44a6e08d52b19",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/34b5448111595efb/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/34b5448111595efb/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/34b5448111595efb/thumb",
+          "video_duration": 26,
+          "width": 1080,
+          "height": 1080,
+          "title": "CatDog World: After Humans",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "e5984125d738abdd",
+      "app_id": "674eaf16a01b70bb13621c38",
+      "network": "Meta Audience Network",
+      "phashion_group": "e5984125d738abdd",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-11",
+      "last_seen_at": "2025-12-23",
+      "creatives": [
+        {
+          "id": "e5984125d738abdd",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/34b5448111595efb/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/34b5448111595efb/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/34b5448111595efb/thumb",
+          "video_duration": 26,
+          "width": 1080,
+          "height": 1080,
+          "title": "CatDog World: After Humans",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "ad828348102dbc9a",
+      "app_id": "674eaf16a01b70bb13621c38",
+      "network": "Facebook",
+      "phashion_group": "ad828348102dbc9a",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-09",
+      "last_seen_at": "2025-12-16",
+      "creatives": [
+        {
+          "id": "ad828348102dbc9a",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/38644a21a2481a68/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/38644a21a2481a68/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/38644a21a2481a68/thumb",
+          "video_duration": 40,
+          "width": 1920,
+          "height": 1080,
+          "title": "CatDog World: After Humans",
+          "button_text": "Play Game",
+          "message": "⭐⭐⭐⭐⭐📱🎮📱"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1920x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "c13c5b77c0d82def",
+      "app_id": "674eaf16a01b70bb13621c38",
+      "network": "Instagram",
+      "phashion_group": "c13c5b77c0d82def",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-09",
+      "last_seen_at": "2025-12-16",
+      "creatives": [
+        {
+          "id": "c13c5b77c0d82def",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/38644a21a2481a68/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/38644a21a2481a68/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/38644a21a2481a68/thumb",
+          "video_duration": 40,
+          "width": 1920,
+          "height": 1080,
+          "title": "CatDog World: After Humans",
+          "button_text": "Play Game",
+          "message": "⭐⭐⭐⭐⭐📱🎮📱"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1920x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "9f00503c1f35ad2b",
+      "app_id": "674eaf16a01b70bb13621c38",
+      "network": "Meta Audience Network",
+      "phashion_group": "9f00503c1f35ad2b",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-09",
+      "last_seen_at": "2025-12-16",
+      "creatives": [
+        {
+          "id": "9f00503c1f35ad2b",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/38644a21a2481a68/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/38644a21a2481a68/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/38644a21a2481a68/thumb",
+          "video_duration": 40,
+          "width": 1920,
+          "height": 1080,
+          "title": "CatDog World: After Humans",
+          "button_text": "Play Game",
+          "message": "⭐⭐⭐⭐⭐📱🎮📱"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1920x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "ad39544c0cd2bf96",
+      "app_id": "674eaf16a01b70bb13621c38",
+      "network": "Facebook",
+      "phashion_group": "ad39544c0cd2bf96",
+      "ad_type": "video",
+      "first_seen_at": "2025-10-17",
+      "last_seen_at": "2025-12-08",
+      "creatives": [
+        {
+          "id": "ad39544c0cd2bf96",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/38df9d25beb71964/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/38df9d25beb71964/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/38df9d25beb71964/thumb",
+          "video_duration": 28,
+          "width": 1920,
+          "height": 1920,
+          "title": "CatDog World: After Humans",
+          "button_text": "Play Game",
+          "message": "⭐⭐⭐⭐⭐📱🎮📱"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1920x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "c1878c73dc272ee3",
+      "app_id": "674eaf16a01b70bb13621c38",
+      "network": "Instagram",
+      "phashion_group": "c1878c73dc272ee3",
+      "ad_type": "video",
+      "first_seen_at": "2025-10-17",
+      "last_seen_at": "2025-12-08",
+      "creatives": [
+        {
+          "id": "c1878c73dc272ee3",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/38df9d25beb71964/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/38df9d25beb71964/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/38df9d25beb71964/thumb",
+          "video_duration": 28,
+          "width": 1920,
+          "height": 1920,
+          "title": "CatDog World: After Humans",
+          "button_text": "Play Game",
+          "message": "⭐⭐⭐⭐⭐📱🎮📱"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1920x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "9fbb873803caae27",
+      "app_id": "674eaf16a01b70bb13621c38",
+      "network": "Meta Audience Network",
+      "phashion_group": "9fbb873803caae27",
+      "ad_type": "video",
+      "first_seen_at": "2025-10-17",
+      "last_seen_at": "2025-12-08",
+      "creatives": [
+        {
+          "id": "9fbb873803caae27",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/38df9d25beb71964/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/38df9d25beb71964/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/38df9d25beb71964/thumb",
+          "video_duration": 28,
+          "width": 1920,
+          "height": 1920,
+          "title": "CatDog World: After Humans",
+          "button_text": "Play Game",
+          "message": "⭐⭐⭐⭐⭐📱🎮📱"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1920x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "d38f3eb04c0b4846",
+      "app_id": "674eaf16a01b70bb13621c38",
+      "network": "Facebook",
+      "phashion_group": "d38f3eb04c0b4846",
+      "ad_type": "video",
+      "first_seen_at": "2025-10-17",
+      "last_seen_at": "2025-12-08",
+      "creatives": [
+        {
+          "id": "d38f3eb04c0b4846",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4669f7d9fe6eeeb4/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4669f7d9fe6eeeb4/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4669f7d9fe6eeeb4/thumb",
+          "video_duration": 36,
+          "width": 1080,
+          "height": 1920,
+          "title": "CatDog World: After Humans",
+          "button_text": "Play Game",
+          "message": "⭐⭐⭐⭐⭐📱🎮📱"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "bf31e68f9cfed933",
+      "app_id": "674eaf16a01b70bb13621c38",
+      "network": "Instagram",
+      "phashion_group": "bf31e68f9cfed933",
+      "ad_type": "video",
+      "first_seen_at": "2025-10-17",
+      "last_seen_at": "2025-12-08",
+      "creatives": [
+        {
+          "id": "bf31e68f9cfed933",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4669f7d9fe6eeeb4/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4669f7d9fe6eeeb4/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4669f7d9fe6eeeb4/thumb",
+          "video_duration": 36,
+          "width": 1080,
+          "height": 1920,
+          "title": "CatDog World: After Humans",
+          "button_text": "Play Game",
+          "message": "⭐⭐⭐⭐⭐📱🎮📱"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "e10dedc4431359f7",
+      "app_id": "674eaf16a01b70bb13621c38",
+      "network": "Meta Audience Network",
+      "phashion_group": "e10dedc4431359f7",
+      "ad_type": "video",
+      "first_seen_at": "2025-10-17",
+      "last_seen_at": "2025-12-08",
+      "creatives": [
+        {
+          "id": "e10dedc4431359f7",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4669f7d9fe6eeeb4/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4669f7d9fe6eeeb4/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4669f7d9fe6eeeb4/thumb",
+          "video_duration": 36,
+          "width": 1080,
+          "height": 1920,
+          "title": "CatDog World: After Humans",
+          "button_text": "Play Game",
+          "message": "⭐⭐⭐⭐⭐📱🎮📱"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "ec95326dbb527a7f",
+      "app_id": "674eaf16a01b70bb13621c38",
+      "network": "Facebook",
+      "phashion_group": "ec95326dbb527a7f",
+      "ad_type": "video",
+      "first_seen_at": "2025-10-29",
+      "last_seen_at": "2025-12-08",
+      "creatives": [
+        {
+          "id": "ec95326dbb527a7f",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/489a355ab5d08602/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/489a355ab5d08602/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/489a355ab5d08602/thumb",
+          "video_duration": 38,
+          "width": 1920,
+          "height": 1080,
+          "title": "CatDog World: After Humans",
+          "button_text": "Play Game",
+          "message": "Rise as a dominator and lead your partner to revive the glory of legends!"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1920x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "802bea526ba7eb0a",
+      "app_id": "674eaf16a01b70bb13621c38",
+      "network": "Instagram",
+      "phashion_group": "802bea526ba7eb0a",
+      "ad_type": "video",
+      "first_seen_at": "2025-10-29",
+      "last_seen_at": "2025-12-08",
+      "creatives": [
+        {
+          "id": "802bea526ba7eb0a",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/489a355ab5d08602/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/489a355ab5d08602/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/489a355ab5d08602/thumb",
+          "video_duration": 38,
+          "width": 1920,
+          "height": 1080,
+          "title": "CatDog World: After Humans",
+          "button_text": "Play Game",
+          "message": "Rise as a dominator and lead your partner to revive the glory of legends!"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1920x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "de17e119b44a6bce",
+      "app_id": "674eaf16a01b70bb13621c38",
+      "network": "Meta Audience Network",
+      "phashion_group": "de17e119b44a6bce",
+      "ad_type": "video",
+      "first_seen_at": "2025-10-29",
+      "last_seen_at": "2025-12-08",
+      "creatives": [
+        {
+          "id": "de17e119b44a6bce",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/489a355ab5d08602/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/489a355ab5d08602/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/489a355ab5d08602/thumb",
+          "video_duration": 38,
+          "width": 1920,
+          "height": 1080,
+          "title": "CatDog World: After Humans",
+          "button_text": "Play Game",
+          "message": "Rise as a dominator and lead your partner to revive the glory of legends!"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1920x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "d905f156f4e62252",
+      "app_id": "674eaf16a01b70bb13621c38",
+      "network": "Facebook",
+      "phashion_group": "d905f156f4e62252",
+      "ad_type": "video",
+      "first_seen_at": "2025-10-17",
+      "last_seen_at": "2025-12-15",
+      "creatives": [
+        {
+          "id": "d905f156f4e62252",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4ce3383f468384a0/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4ce3383f468384a0/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4ce3383f468384a0/thumb",
+          "video_duration": 51,
+          "width": 1080,
+          "height": 1080,
+          "title": "CatDog World: After Humans",
+          "button_text": "Play Game",
+          "message": "⭐⭐⭐⭐⭐📱🎮📱"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "b5bb29692413b327",
+      "app_id": "674eaf16a01b70bb13621c38",
+      "network": "Instagram",
+      "phashion_group": "b5bb29692413b327",
+      "ad_type": "video",
+      "first_seen_at": "2025-10-17",
+      "last_seen_at": "2025-12-15",
+      "creatives": [
+        {
+          "id": "b5bb29692413b327",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4ce3383f468384a0/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4ce3383f468384a0/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4ce3383f468384a0/thumb",
+          "video_duration": 51,
+          "width": 1080,
+          "height": 1080,
+          "title": "CatDog World: After Humans",
+          "button_text": "Play Game",
+          "message": "⭐⭐⭐⭐⭐📱🎮📱"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "eb872222fbfe33e3",
+      "app_id": "674eaf16a01b70bb13621c38",
+      "network": "Meta Audience Network",
+      "phashion_group": "eb872222fbfe33e3",
+      "ad_type": "video",
+      "first_seen_at": "2025-10-17",
+      "last_seen_at": "2025-12-15",
+      "creatives": [
+        {
+          "id": "eb872222fbfe33e3",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4ce3383f468384a0/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4ce3383f468384a0/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4ce3383f468384a0/thumb",
+          "video_duration": 51,
+          "width": 1080,
+          "height": 1080,
+          "title": "CatDog World: After Humans",
+          "button_text": "Play Game",
+          "message": "⭐⭐⭐⭐⭐📱🎮📱"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "c6f1f6c772731265",
+      "app_id": "674eaf16a01b70bb13621c38",
+      "network": "Facebook",
+      "phashion_group": "c6f1f6c772731265",
+      "ad_type": "video",
+      "first_seen_at": "2025-10-17",
+      "last_seen_at": "2025-12-08",
+      "creatives": [
+        {
+          "id": "c6f1f6c772731265",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/53173faec016b497/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/53173faec016b497/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/53173faec016b497/thumb",
+          "video_duration": 55,
+          "width": 1432,
+          "height": 1444,
+          "title": "CatDog World: After Humans",
+          "button_text": "Play Game",
+          "message": "⭐⭐⭐⭐⭐📱🎮📱"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1432x1444",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    }
+  ]
+}

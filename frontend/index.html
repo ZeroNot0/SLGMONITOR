@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SLG竞对数据监测演示DEMO</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="header">
+    <span class="logo">SLG竞对数据监测演示DEMO</span>
+    <span class="local-time" id="localTime">本机时间: --</span>
+  </header>
+
+  <nav class="top-nav">
+    <a href="#" class="top-nav-link active" data-dim="company">公司维度</a>
+    <a href="#" class="top-nav-link" data-dim="product">产品维度</a>
+    <a href="#" class="top-nav-link" data-dim="creative">素材维度</a>
+    <a href="#" class="top-nav-link" data-dim="combo">组合分析</a>
+  </nav>
+
+  <div class="layout">
+    <aside class="sidebar">
+      <div id="sidebarYears"></div>
+    </aside>
+
+    <main class="main">
+      <!-- 公司维度：大盘数据 -->
+      <div id="panelCompany" class="main-panel">
+        <h1 class="main-title" id="mainTitle">请从左侧选择周期</h1>
+        <nav class="sub-nav">
+          <a href="#" class="sub-nav-link active" data-tab="overall">大盘数据</a>
+          <a href="#" class="sub-nav-link" data-tab="region">公司分地区获量</a>
+          <a href="#" class="sub-nav-link" data-tab="creative">公司素材投放情况</a>
+          <a href="#" class="sub-nav-link" data-tab="trend">公司数据趋势</a>
+        </nav>
+        <div class="toolbar">
+          <label class="search-label">搜索:</label>
+          <input type="text" id="searchInput" class="search-input" placeholder="搜索表格内容...">
+          <button type="button" class="btn-download" id="btnDownload">下载表格</button>
+        </div>
+      </div>
+
+      <!-- 产品维度：爆量产品地区数据 -->
+      <div id="panelProduct" class="main-panel" style="display:none;">
+        <h1 class="main-title" id="productTitle">请从左侧选择周期</h1>
+        <div class="product-toolbar">
+          <label class="product-label">产品选择:</label>
+          <select id="productSelect" class="product-select">
+            <option value="old">SLG爆量旧产品</option>
+            <option value="new">SLG爆量新产品</option>
+          </select>
+          <label class="product-label">时间段:</label>
+          <span id="productPeriod" class="product-period">--</span>
+          <label class="search-label">搜索:</label>
+          <input type="text" id="productSearchInput" class="search-input" placeholder="搜索表格内容...">
+          <button type="button" class="btn-download" id="btnProductDownload">下载表格</button>
+        </div>
+      </div>
+
+      <!-- 素材维度：广告创意与视频 -->
+      <div id="panelCreative" class="main-panel" style="display:none;">
+        <h1 class="main-title" id="creativeTitle">请从左侧选择周期</h1>
+        <p id="creativePeriodHint" class="creative-period-hint" style="display:none;"></p>
+        <div class="creative-toolbar">
+          <label class="product-label">产品表:</label>
+          <select id="creativeProductTable" class="product-select">
+            <option value="strategy_old">SLG爆量旧产品</option>
+            <option value="strategy_new">SLG爆量新产品</option>
+          </select>
+          <label class="product-label">产品选择:</label>
+          <select id="creativeProductSelect" class="product-select">
+            <option value="">-- 请先选择周期与产品表 --</option>
+          </select>
+          <label class="product-label">地区筛选:</label>
+          <select id="creativeRegionFilter" class="product-select">
+            <option value="">全部地区</option>
+            <option value="亚洲T1">亚洲 T1 市场</option>
+            <option value="欧美T1">欧美 T1 市场</option>
+            <option value="T2">T2 市场</option>
+            <option value="T3">T3 市场</option>
+          </select>
+          <label class="product-label">持续时间:</label>
+          <select id="creativeDurationFilter" class="product-select">
+            <option value="">全部</option>
+            <option value="under15">15 天以下</option>
+            <option value="15-30">15～30 天</option>
+            <option value="over30">30 天以上</option>
+          </select>
+          <label class="product-label">视频比例:</label>
+          <select id="creativeRatioFilter" class="product-select">
+            <option value="">全部</option>
+            <option value="横屏">横屏</option>
+            <option value="竖屏">竖屏</option>
+          </select>
+        </div>
+        <div id="creativeProductDataRow" class="creative-product-data-wrap" style="display:none;">
+          <table class="creative-product-data-table">
+            <thead><tr id="creativeProductDataHead"></tr></thead>
+            <tbody><tr id="creativeProductDataBody"></tr></tbody>
+          </table>
+        </div>
+        <div class="toolbar">
+          <label class="search-label">搜索:</label>
+          <input type="text" id="creativeSearchInput" class="search-input" placeholder="搜索素材...">
+          <button type="button" class="btn-download" id="btnCreativeDownload">下载表格</button>
+        </div>
+      </div>
+
+      <!-- 组合分析：每周趋势（静态展示） -->
+      <div id="panelCombo" class="main-panel" style="display:none;">
+        <h1 class="main-title" id="comboTitle">请从左侧选择周期</h1>
+        <div id="comboDeveloping" class="combo-developing" style="display:none;">功能开发中</div>
+        <div class="combo-toolbar">
+          <label class="product-label">素材关键词占比/获量:</label>
+          <select id="comboMetricSelect" class="product-select">
+            <option value="share">占比</option>
+            <option value="acquisition">获量</option>
+          </select>
+          <label class="product-label">时间段:</label>
+          <span id="comboPeriod" class="product-period">--</span>
+        </div>
+        <div class="combo-charts">
+          <div class="combo-card">
+            <h2 class="combo-card-title">素材关键词占比</h2>
+            <div class="combo-pie-wrap">
+              <div class="combo-pie" title="数字门跑酷 36% / 塔防 28% / 肉鸽/幸存者/割草 22% / 其他 14%"></div>
+            </div>
+            <div class="combo-legend">
+              <span class="combo-legend-item"><i class="combo-legend-dot" style="background:#e67e22"></i>数字门跑酷</span>
+              <span class="combo-legend-item"><i class="combo-legend-dot" style="background:#1abc9c"></i>塔防</span>
+              <span class="combo-legend-item"><i class="combo-legend-dot" style="background:#2980b9"></i>肉鸽/幸存者/割草</span>
+              <span class="combo-legend-item"><i class="combo-legend-dot" style="background:#7fd857"></i>其他</span>
+            </div>
+          </div>
+          <div class="combo-card">
+            <h2 class="combo-card-title">素材关键词获量情况</h2>
+            <div class="combo-bar-wrap">
+              <div class="combo-bar-yaxis">
+                <span>14.0万</span><span>12万</span><span>10万</span><span>8万</span><span>6万</span><span>4万</span><span>2万</span><span>0</span>
+              </div>
+              <div class="combo-bar-chart">
+                <div class="combo-bar-col">
+                  <div class="combo-bar-item-wrap">
+                    <div class="combo-bar-item" style="height:89.3%;background:#e67e22" title="12.5万"></div>
+                  </div>
+                  <span class="combo-bar-label">数字门跑酷</span>
+                </div>
+                <div class="combo-bar-col">
+                  <div class="combo-bar-item-wrap">
+                    <div class="combo-bar-item" style="height:69.3%;background:#1abc9c" title="9.7万"></div>
+                  </div>
+                  <span class="combo-bar-label">塔防</span>
+                </div>
+                <div class="combo-bar-col">
+                  <div class="combo-bar-item-wrap">
+                    <div class="combo-bar-item" style="height:53.6%;background:#2980b9" title="7.5万"></div>
+                  </div>
+                  <span class="combo-bar-label">肉鸽/幸存者/割草</span>
+                </div>
+                <div class="combo-bar-col">
+                  <div class="combo-bar-item-wrap">
+                    <div class="combo-bar-item" style="height:35.7%;background:#7fd857" title="5.0万"></div>
+                  </div>
+                  <span class="combo-bar-label">其他</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="table-wrap" id="tableWrap">
+        <table class="data-table" id="dataTable">
+          <thead id="tableHead"></thead>
+          <tbody id="tableBody"></tbody>
+        </table>
+      </div>
+      <div id="loading" class="loading">加载中…</div>
+      <div id="empty" class="empty">请从左侧选择年份与周</div>
+      <div id="error" class="error" style="display:none;"></div>
+    </main>
+  </div>
+
+  <script src="js/app.js"></script>
+</body>
+</html>

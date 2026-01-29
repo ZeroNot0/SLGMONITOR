@@ -1,0 +1,507 @@
+/* SLG竞对数据监测演示 - 样式 */
+:root {
+  --header-bg: #2c3e50;
+  --header-text: #ecf0f1;
+  --top-nav-bg: #34495e;
+  --top-nav-active: #e67e22;
+  --top-nav-text: #ecf0f1;
+  --sidebar-bg: #ecf0f1;
+  --sidebar-border: #bdc3c7;
+  --main-bg: #fff;
+  --table-header-bg: #4F81BD;
+  --table-header-text: #fff;
+  --table-border: #bdc3c7;
+  --table-row-alt: #f8f9fa;
+  --change-up: #00B050;
+  --change-down: #c0392b;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Microsoft YaHei", sans-serif;
+  font-size: 14px;
+  color: #2c3e50;
+  background: var(--main-bg);
+}
+
+/* 顶部：标题 + 本机时间 */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1.5rem;
+  background: var(--header-bg);
+  color: var(--header-text);
+  height: 48px;
+}
+
+.logo { font-size: 1.1rem; font-weight: 600; }
+
+.local-time {
+  font-size: 0.9rem;
+  color: #bdc3c7;
+}
+
+/* 主导航：公司维度 / 产品维度 / 素材维度 / 组合分析 */
+.top-nav {
+  display: flex;
+  gap: 0;
+  padding: 0 1rem;
+  background: var(--top-nav-bg);
+  color: var(--top-nav-text);
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+
+.top-nav-link {
+  padding: 0.75rem 1.25rem;
+  color: var(--top-nav-text);
+  text-decoration: none;
+}
+
+.top-nav-link:hover { background: rgba(255,255,255,0.08); }
+
+.top-nav-link.active {
+  background: var(--top-nav-active);
+  color: #fff;
+}
+
+/* 主体布局 */
+.layout {
+  display: flex;
+  min-height: calc(100vh - 48px - 44px);
+}
+
+/* 左侧边栏：按年 / 月 / 周 */
+.sidebar {
+  width: 240px;
+  padding: 1rem;
+  background: var(--sidebar-bg);
+  border-right: 1px solid var(--sidebar-border);
+  overflow-y: auto;
+}
+
+.sidebar-year {
+  margin-bottom: 1rem;
+}
+
+.sidebar-year-title {
+  font-weight: 700;
+  font-size: 0.95rem;
+  margin: 0 0 0.35rem;
+  color: #2c3e50;
+}
+
+.sidebar-month-title {
+  font-size: 0.85rem;
+  color: #7f8c8d;
+  margin: 0.5rem 0 0.25rem;
+}
+
+.sidebar-week-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar-week-list li { margin: 0; }
+
+.sidebar-week-link {
+  display: block;
+  padding: 0.35rem 0.5rem;
+  color: #2c3e50;
+  text-decoration: none;
+  border-radius: 4px;
+  font-size: 0.9rem;
+}
+
+.sidebar-week-link:hover { background: #e8f4fc; }
+
+.sidebar-week-link.active {
+  background: var(--top-nav-active);
+  color: #fff;
+}
+
+/* 主内容区 */
+.main {
+  flex: 1;
+  padding: 1rem 1.5rem;
+  overflow: auto;
+  background: var(--main-bg);
+}
+
+.main-title {
+  font-size: 1.1rem;
+  margin: 0 0 0.75rem;
+  font-weight: 600;
+}
+
+.sub-nav {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.sub-nav-link {
+  padding: 0.4rem 0.75rem;
+  color: #2c3e50;
+  text-decoration: none;
+  border: 1px solid var(--table-border);
+  border-radius: 4px;
+  font-size: 0.9rem;
+}
+
+.sub-nav-link:hover { background: #f8f9fa; }
+
+.sub-nav-link.active {
+  background: var(--table-header-bg);
+  color: #fff;
+  border-color: var(--table-header-bg);
+}
+
+.toolbar {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.search-label { font-size: 0.9rem; color: #7f8c8d; }
+
+.search-input {
+  width: 220px;
+  padding: 0.4rem 0.6rem;
+  border: 1px solid var(--table-border);
+  border-radius: 4px;
+  font-size: 13px;
+}
+
+.search-input:focus {
+  outline: none;
+  border-color: var(--table-header-bg);
+}
+
+.btn-download {
+  padding: 0.4rem 0.75rem;
+  background: var(--table-header-bg);
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.btn-download:hover { opacity: 0.9; }
+
+/* 产品维度：产品选择 + 时间段 + 搜索 + 下载 */
+.product-toolbar {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.5rem 1rem;
+  margin-bottom: 0.75rem;
+}
+
+.product-label { font-size: 0.9rem; color: #2c3e50; }
+
+.product-select {
+  padding: 0.4rem 0.6rem;
+  border: 1px solid var(--table-border);
+  border-radius: 4px;
+  font-size: 13px;
+}
+
+.product-period {
+  font-size: 0.9rem;
+  color: #7f8c8d;
+  min-width: 80px;
+}
+
+/* 素材维度：当前周期与公司/产品维度一致提示 */
+.creative-period-hint {
+  font-size: 0.85rem;
+  color: #7f8c8d;
+  margin: 0 0 0.5rem;
+}
+
+/* 素材维度：产品数据条（一行表格式） */
+.creative-toolbar {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.5rem 1rem;
+  margin-bottom: 0.75rem;
+}
+
+.creative-product-data-wrap {
+  margin-bottom: 0.75rem;
+  overflow-x: auto;
+  border: 1px solid var(--table-border);
+  border-radius: 4px;
+}
+
+.creative-product-data-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13px;
+}
+
+.creative-product-data-table th,
+.creative-product-data-table td {
+  padding: 0.4rem 0.6rem;
+  border: 1px solid var(--table-border);
+  text-align: center;
+  white-space: nowrap;
+}
+
+.creative-product-data-table thead th {
+  background: var(--table-header-bg);
+  color: var(--table-header-text);
+  font-weight: 600;
+}
+
+.creative-product-data-table tbody td {
+  background: #fff;
+  color: #2c3e50;
+}
+
+.creative-product-data-table .creative-product-name-cell {
+  color: #3498db;
+  font-weight: 500;
+}
+
+/* 素材表格：视频列内嵌播放器 */
+.data-table .creative-video-cell {
+  padding: 0.25rem;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.data-table .creative-video-cell video {
+  max-width: 200px;
+  max-height: 160px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 4px;
+  background: #000;
+}
+
+.data-table .product-link {
+  color: #3498db;
+  text-decoration: none;
+}
+
+.data-table .product-link:hover { text-decoration: underline; }
+
+/* 组合分析：功能开发中占位 */
+.combo-developing {
+  padding: 3rem 2rem;
+  text-align: center;
+  font-size: 1.1rem;
+  color: #7f8c8d;
+}
+
+/* 组合分析：每周趋势（静态展示） */
+.combo-toolbar {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.5rem 1rem;
+  margin-bottom: 1rem;
+}
+
+.combo-charts {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+  max-width: 100%;
+}
+
+@media (max-width: 900px) {
+  .combo-charts { grid-template-columns: 1fr; }
+}
+
+.combo-card {
+  background: #fff;
+  border: 1px solid var(--table-border);
+  border-radius: 8px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+  padding: 1rem 1.25rem;
+}
+
+.combo-card-title {
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 0 0 1rem;
+  color: #2c3e50;
+}
+
+.combo-pie-wrap {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0.75rem;
+}
+
+.combo-pie {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background: conic-gradient(
+    #e67e22 0deg 129.6deg,
+    #1abc9c 129.6deg 230.4deg,
+    #2980b9 230.4deg 309.6deg,
+    #7fd857 309.6deg 360deg
+  );
+}
+
+.combo-legend {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.75rem 1.25rem;
+  font-size: 13px;
+  color: #2c3e50;
+}
+
+.combo-legend-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+
+.combo-legend-dot {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+.combo-bar-wrap {
+  display: flex;
+  align-items: stretch;
+  gap: 0.5rem;
+  min-height: 240px;
+}
+
+.combo-bar-yaxis {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-between;
+  font-size: 11px;
+  color: #7f8c8d;
+  padding-bottom: 1.75rem;
+  min-width: 2.5rem;
+}
+
+.combo-bar-chart {
+  flex: 1;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+  gap: 0.5rem;
+}
+
+.combo-bar-col {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 0;
+  max-width: 100px;
+}
+
+.combo-bar-item-wrap {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.combo-bar-col .combo-bar-item {
+  width: 100%;
+  min-height: 4px;
+  border-radius: 4px 4px 0 0;
+  transition: opacity 0.2s;
+  box-sizing: border-box;
+}
+
+.combo-bar-col .combo-bar-item:hover { opacity: 0.85; }
+
+.combo-bar-label {
+  font-size: 11px;
+  color: #2c3e50;
+  margin-top: 0.35rem;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 100%;
+}
+
+/* 表格 */
+.table-wrap {
+  overflow: auto;
+  max-height: calc(100vh - 48px - 44px - 8rem);
+  border: 1px solid var(--table-border);
+  border-radius: 4px;
+  background: #fff;
+}
+
+.data-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13px;
+}
+
+.data-table th,
+.data-table td {
+  padding: 0.4rem 0.6rem;
+  border: 1px solid var(--table-border);
+  text-align: center;
+  white-space: nowrap;
+}
+
+.data-table th {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background: var(--table-header-bg);
+  color: var(--table-header-text);
+  font-weight: 600;
+  cursor: pointer;
+  user-select: none;
+}
+
+.data-table th:hover { background: #5a8fd4; }
+
+.data-table tbody tr:nth-child(even) { background: var(--table-row-alt); }
+
+.data-table tbody tr:hover { background: #e8f4fc; }
+
+.data-table .num { text-align: center; }
+
+/* 周安装/流水变动：▲ 绿色 ▼ 红色 */
+.data-table .cell-up { color: var(--change-up); }
+
+.data-table .cell-down { color: var(--change-down); }
+
+/* 汇总行加粗 */
+.data-table tr.row-summary td { font-weight: 700; }
+
+/* 目标产品行：黄底 + 蓝字，可点击跳转素材维度 */
+.data-table tr.target-product-row { cursor: pointer; }
+.data-table tr.target-product-row td { background: #FFF2CC !important; color: #0066cc !important; }
+.data-table tr.target-product-row:hover td { background: #FFE699 !important; color: #0044aa !important; }
+
+.data-table th[data-sort="asc"]::after { content: " ↑"; opacity: 0.8; }
+
+.data-table th[data-sort="desc"]::after { content: " ↓"; opacity: 0.8; }
+
+.loading, .empty, .error {
+  padding: 1rem;
+  color: #7f8c8d;
+}
+
+.error { color: var(--change-down); }

@@ -1,0 +1,7144 @@
+{
+  "count": 633,
+  "available_networks": [
+    "Admob",
+    "Applovin",
+    "Facebook",
+    "Instagram",
+    "Meta Audience Network",
+    "TikTok",
+    "Youtube"
+  ],
+  "ad_units": [
+    {
+      "id": "6390d635263eccf3",
+      "app_id": "672de7ae9f58310807db1d1a",
+      "network": "Applovin",
+      "phashion_group": "6390d635263eccf3",
+      "ad_type": "video",
+      "first_seen_at": "2025-06-09",
+      "last_seen_at": "2026-01-24",
+      "creatives": [
+        {
+          "id": "6390d635263eccf3",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/60655d95999500c4/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/60655d95999500c4/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/60655d95999500c4/thumb",
+          "video_duration": 51,
+          "width": 720,
+          "height": 1280,
+          "message": ""
+        },
+        {
+          "id": "8753c598a3727ad0",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/60655d95999500c4/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/60655d95999500c4/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/60655d95999500c4/thumb",
+          "video_duration": 51,
+          "width": 720,
+          "height": 1280,
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "rewarded",
+        "interstitial",
+        "other"
+      ],
+      "share": 0.231917,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.268827
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.292916
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.185685
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.096187
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.669002
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.205889
+          ]
+        ],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 33,
+        "data": [
+          [
+            "6018e252a20eb478caded72b",
+            0.533107
+          ],
+          [
+            "67f51ab51f5e4931de15ff38",
+            0.092724
+          ],
+          [
+            "5dcc004fb9ab9453c93761c3",
+            0.043767
+          ],
+          [
+            "60d53af5c1238e1ac89812f6",
+            0.03962
+          ],
+          [
+            "6222be605993e70eaa99337d",
+            0.035849
+          ],
+          [
+            "65b0b087479fc730d9643f8e",
+            0.030902
+          ],
+          [
+            "593f5ee95b004b0acd0011ba",
+            0.025936
+          ],
+          [
+            "65b97176b3ae2736e757036b",
+            0.025313
+          ],
+          [
+            "642fbf424e974f554b64228a",
+            0.019977
+          ],
+          [
+            "55d93d7e02ac645ad20d8a4f",
+            0.016598
+          ],
+          [
+            "6928b536ddeb648518b46abb",
+            0.012677
+          ],
+          [
+            "55d93ffe02ac645ad214f18c",
+            0.012238
+          ],
+          [
+            "660dff47d4e03e76a49f832f",
+            0.011647
+          ],
+          [
+            "61bdf33d180097079e58cc1e",
+            0.011495
+          ],
+          [
+            "675d093981a439f19b4f805b",
+            0.010372
+          ],
+          [
+            "55c500a002ac64f9c0001ee6",
+            0.010267
+          ],
+          [
+            "64a79ec03b29874eab9f152f",
+            0.010233
+          ],
+          [
+            "557108c7e5ebfb9740000387",
+            0.009666
+          ],
+          [
+            "682f0bcb51107371333c9157",
+            0.009437
+          ],
+          [
+            "5a95182c827cea6aca0884f9",
+            0.00701
+          ],
+          [
+            "66088dd59982613c90e848c6",
+            0.004187
+          ],
+          [
+            "63bd1e79e36abf4ca724dad2",
+            0.003777
+          ],
+          [
+            "685cc42382f7e9467051476b",
+            0.002873
+          ],
+          [
+            "67179fd2f399eda2d5e53cdd",
+            0.002821
+          ],
+          [
+            "622390aa2e0fa027dbdc26b8",
+            0.002769
+          ],
+          [
+            "65ddc9910ace6958c5e13d23",
+            0.002673
+          ],
+          [
+            "645bbb744bb60871832c3e9c",
+            0.002222
+          ],
+          [
+            "5c1462f1a856951230a64b48",
+            0.002211
+          ],
+          [
+            "5b9cc3548407f9102bc5ce7e",
+            0.002061
+          ],
+          [
+            "6515950e4b00ee1241179ca0",
+            0.001763
+          ]
+        ]
+      }
+    },
+    {
+      "id": "0858318367089d99",
+      "app_id": "672de7ae9f58310807db1d1a",
+      "network": "Youtube",
+      "phashion_group": "0858318367089d99",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-05",
+      "last_seen_at": "2026-01-24",
+      "creatives": [
+        {
+          "id": "0858318367089d99",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/428a812317fdb596/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/428a812317fdb596/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/428a812317fdb596/thumb",
+          "video_duration": 42,
+          "width": 1280,
+          "height": 720,
+          "title": "Palmon: Survival",
+          "message": ""
+        },
+        {
+          "id": "3b83878208367983",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/428a812317fdb596/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/428a812317fdb596/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/428a812317fdb596/thumb",
+          "video_duration": 42,
+          "width": 1280,
+          "height": 720,
+          "title": "Palmon: Survival",
+          "button_text": "Install",
+          "message": "Palmon World Mobile Is Available Now"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": 0.169572,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.024066
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.059748
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.040222
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.345166
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.027807
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.029786
+          ]
+        ],
+        "dimensions": [
+          [
+            "1280x720",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "0737468af83d88e8",
+      "app_id": "672de7ae9f58310807db1d1a",
+      "network": "Youtube",
+      "phashion_group": "0737468af83d88e8",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-05",
+      "last_seen_at": "2025-12-12",
+      "creatives": [
+        {
+          "id": "0737468af83d88e8",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/5f1c4e96370d5878/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/5f1c4e96370d5878/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/5f1c4e96370d5878/thumb",
+          "video_duration": 34,
+          "width": 1280,
+          "height": 720,
+          "title": "Palmon: Survival",
+          "button_text": "Install",
+          "message": "Start your adventure in a mysterious and desolate world full of Palmon!"
+        },
+        {
+          "id": "15cefe3647f87077",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/5f1c4e96370d5878/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/5f1c4e96370d5878/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/5f1c4e96370d5878/thumb",
+          "video_duration": 34,
+          "width": 1280,
+          "height": 720,
+          "title": "Palmon: Survival",
+          "message": ""
+        },
+        {
+          "id": "3141acc398d9dc3e",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/5f1c4e96370d5878/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/5f1c4e96370d5878/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/5f1c4e96370d5878/thumb",
+          "video_duration": 34,
+          "width": 1280,
+          "height": 720,
+          "title": "Palmon: Survival",
+          "button_text": "Install",
+          "message": "My wife doesn't sleep only to play this game"
+        },
+        {
+          "id": "f5eac56decbffe55",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/5f1c4e96370d5878/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/5f1c4e96370d5878/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/5f1c4e96370d5878/thumb",
+          "video_duration": 34,
+          "width": 1280,
+          "height": 720,
+          "title": "Palmon: Survival",
+          "button_text": "Hämta",
+          "message": "Train Palmon with Your Strategy"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": 0.092815,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.096077
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.301012
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.134153
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "1280x720",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "c77b79372abd4993",
+      "app_id": "672de7ae9f58310807db1d1a",
+      "network": "Youtube",
+      "phashion_group": "c77b79372abd4993",
+      "ad_type": "video",
+      "first_seen_at": "2025-04-27",
+      "last_seen_at": "2026-01-28",
+      "creatives": [
+        {
+          "id": "c77b79372abd4993",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/8da9c9975a48619c/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/8da9c9975a48619c/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/8da9c9975a48619c/thumb",
+          "video_duration": 37,
+          "width": 1920,
+          "height": 1080,
+          "title": "Palmon: Survival",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": 0.052201,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.577406
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.028414
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.380501
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.092741
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.581266
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.021273
+          ]
+        ],
+        "dimensions": [
+          [
+            "1920x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "f8627d8b2afb7378",
+      "app_id": "672de7ae9f58310807db1d1a",
+      "network": "Youtube",
+      "phashion_group": "f8627d8b2afb7378",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-21",
+      "last_seen_at": "2026-01-14",
+      "creatives": [
+        {
+          "id": "f8627d8b2afb7378",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/b2b0cd2b5a0e5b77/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/b2b0cd2b5a0e5b77/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/b2b0cd2b5a0e5b77/thumb",
+          "video_duration": 43,
+          "width": 1280,
+          "height": 720,
+          "title": "Palmon: Survival",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": 0.043276,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.998512
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.213831
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.348966
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.996487
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.584785
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.040024
+          ]
+        ],
+        "dimensions": [
+          [
+            "1280x720",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "33d3abe4918629de",
+      "app_id": "672de7ae9f58310807db1d1a",
+      "network": "Admob",
+      "phashion_group": "33d3abe4918629de",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-07",
+      "last_seen_at": "2026-01-24",
+      "creatives": [
+        {
+          "id": "33d3abe4918629de",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/428a812317fdb596/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/428a812317fdb596/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/428a812317fdb596/thumb",
+          "video_duration": 42,
+          "width": 1280,
+          "height": 720,
+          "title": "Palmon: Survival",
+          "button_text": "Install",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "rewarded",
+        "interstitial"
+      ],
+      "share": 0.040361,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.065904
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.050264
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "1280x720",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 3,
+        "data": [
+          [
+            "5feeaf19116d1128a8aaed79",
+            0.895922
+          ],
+          [
+            "660dff47d4e03e76a49f832f",
+            0.059045
+          ],
+          [
+            "59dc104b328df00a8e6235c6",
+            0.045033
+          ]
+        ]
+      }
+    },
+    {
+      "id": "46586e0cf7bb2c3b",
+      "app_id": "672de7ae9f58310807db1d1a",
+      "network": "Youtube",
+      "phashion_group": "46586e0cf7bb2c3b",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-28",
+      "last_seen_at": "2025-12-13",
+      "creatives": [
+        {
+          "id": "46586e0cf7bb2c3b",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/d58f6792edf4a67a/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/d58f6792edf4a67a/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/d58f6792edf4a67a/thumb",
+          "video_duration": 14,
+          "width": 1280,
+          "height": 720,
+          "title": "Palmon: Survival",
+          "button_text": "Hämta",
+          "message": "Enjoy the fun of this Palmon game!"
+        },
+        {
+          "id": "9f5dd7329d018e75",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/d58f6792edf4a67a/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/d58f6792edf4a67a/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/d58f6792edf4a67a/thumb",
+          "video_duration": 14,
+          "width": 1280,
+          "height": 720,
+          "title": "Palmon: Survival",
+          "message": ""
+        },
+        {
+          "id": "ac866133f23f6a6f",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/d58f6792edf4a67a/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/d58f6792edf4a67a/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/d58f6792edf4a67a/thumb",
+          "video_duration": 14,
+          "width": 1280,
+          "height": 720,
+          "title": "Palmon: Survival",
+          "button_text": "Transferir",
+          "message": "Palmon World Mobile Is Available Now"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": 0.039301,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.172886
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.445554
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0199
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "1280x720",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "c3aa1cd4799cab7e",
+      "app_id": "672de7ae9f58310807db1d1a",
+      "network": "Youtube",
+      "phashion_group": "c3aa1cd4799cab7e",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-29",
+      "last_seen_at": "2025-12-13",
+      "creatives": [
+        {
+          "id": "c3aa1cd4799cab7e",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/baa31a756657676b/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/baa31a756657676b/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/baa31a756657676b/thumb",
+          "video_duration": 25,
+          "width": 1280,
+          "height": 720,
+          "title": "Palmon: Survival",
+          "button_text": "Install",
+          "message": "Palmon World Mobile Is Available Now"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": 0.033981,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.719136
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.098644
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.47815
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.128822
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "1280x720",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "5d964db07c3f20a3",
+      "app_id": "672de7ae9f58310807db1d1a",
+      "network": "Applovin",
+      "phashion_group": "5d964db07c3f20a3",
+      "ad_type": "video",
+      "first_seen_at": "2025-09-17",
+      "last_seen_at": "2026-01-03",
+      "creatives": [
+        {
+          "id": "5d964db07c3f20a3",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/5e63c610c394ec94/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/5e63c610c394ec94/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/5e63c610c394ec94/thumb",
+          "video_duration": 53,
+          "width": 720,
+          "height": 1280,
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "rewarded",
+        "interstitial"
+      ],
+      "share": 0.03263,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.550123
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.022161
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 5,
+        "data": [
+          [
+            "606593eabcfaad041a7a129e",
+            0.508299
+          ],
+          [
+            "660dff47d4e03e76a49f832f",
+            0.442968
+          ],
+          [
+            "675d093981a439f19b4f805b",
+            0.020168
+          ],
+          [
+            "66088dd59982613c90e848c6",
+            0.014471
+          ],
+          [
+            "642fbf424e974f554b64228a",
+            0.014095
+          ]
+        ]
+      }
+    },
+    {
+      "id": "5a8667c5ad18dfb9",
+      "app_id": "672de7ae9f58310807db1d1a",
+      "network": "Youtube",
+      "phashion_group": "5a8667c5ad18dfb9",
+      "ad_type": "video",
+      "first_seen_at": "2025-10-30",
+      "last_seen_at": "2025-12-22",
+      "creatives": [
+        {
+          "id": "5a8667c5ad18dfb9",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1054d765ddedf7b6/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1054d765ddedf7b6/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1054d765ddedf7b6/thumb",
+          "video_duration": 38,
+          "width": 1280,
+          "height": 720,
+          "title": "Palmon: Survival",
+          "message": ""
+        },
+        {
+          "id": "7e093530723973f0",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1054d765ddedf7b6/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1054d765ddedf7b6/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1054d765ddedf7b6/thumb",
+          "video_duration": 38,
+          "width": 1280,
+          "height": 720,
+          "title": "Palmon: Survival",
+          "button_text": "Install",
+          "message": "My wife doesn't sleep only to play this game"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": 0.029889,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.413587
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.283659
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.22916
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.199753
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.363569
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.57674
+          ]
+        ],
+        "dimensions": [
+          [
+            "1280x720",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "4b18c0e44a934c24",
+      "app_id": "672de7ae9f58310807db1d1a",
+      "network": "Youtube",
+      "phashion_group": "4b18c0e44a934c24",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-28",
+      "last_seen_at": "2026-01-28",
+      "creatives": [
+        {
+          "id": "4b18c0e44a934c24",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/01ca70443a66642b/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/01ca70443a66642b/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/01ca70443a66642b/thumb",
+          "video_duration": 59,
+          "width": 1280,
+          "height": 720,
+          "title": "Palmon: Survival",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": 0.027528,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "1280x720",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "2ba290312d73dde6",
+      "app_id": "672de7ae9f58310807db1d1a",
+      "network": "Applovin",
+      "phashion_group": "2ba290312d73dde6",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-28",
+      "last_seen_at": "2025-12-11",
+      "creatives": [
+        {
+          "id": "2ba290312d73dde6",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/28571b9192d811d1/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/28571b9192d811d1/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/28571b9192d811d1/thumb",
+          "video_duration": 53,
+          "width": 720,
+          "height": 1280,
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "rewarded",
+        "interstitial",
+        "other"
+      ],
+      "share": 0.018961,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.17495
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.095889
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 6,
+        "data": [
+          [
+            "66088dd59982613c90e848c6",
+            0.665218
+          ],
+          [
+            "5dcc004fb9ab9453c93761c3",
+            0.188527
+          ],
+          [
+            "64a79ec03b29874eab9f152f",
+            0.070752
+          ],
+          [
+            "675d093981a439f19b4f805b",
+            0.042997
+          ],
+          [
+            "670f2583b22d4a600a3378c1",
+            0.024364
+          ],
+          [
+            "660dff47d4e03e76a49f832f",
+            0.008142
+          ]
+        ]
+      }
+    },
+    {
+      "id": "78b1c6afed295e1d",
+      "app_id": "672de7ae9f58310807db1d1a",
+      "network": "Youtube",
+      "phashion_group": "78b1c6afed295e1d",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-14",
+      "last_seen_at": "2026-01-28",
+      "creatives": [
+        {
+          "id": "78b1c6afed295e1d",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/01b8c00ef2e29208/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/01b8c00ef2e29208/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/01b8c00ef2e29208/thumb",
+          "video_duration": 58,
+          "width": 1280,
+          "height": 720,
+          "title": "Palmon: Survival",
+          "button_text": "Transferir",
+          "message": "Palmon World Mobile Is Available Now"
+        },
+        {
+          "id": "926fc990e8ad1849",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/01b8c00ef2e29208/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/01b8c00ef2e29208/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/01b8c00ef2e29208/thumb",
+          "video_duration": 58,
+          "width": 1280,
+          "height": 720,
+          "title": "Palmon: Survival",
+          "button_text": "Install",
+          "message": "Enjoy the fun of this Palmon game!"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": 0.016662,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            1.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "1280x720",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "e0470a4e60d62ff1",
+      "app_id": "672de7ae9f58310807db1d1a",
+      "network": "Youtube",
+      "phashion_group": "e0470a4e60d62ff1",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-06",
+      "last_seen_at": "2026-01-14",
+      "creatives": [
+        {
+          "id": "e0470a4e60d62ff1",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/aa95baee102307fe/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/aa95baee102307fe/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/aa95baee102307fe/thumb",
+          "video_duration": 59,
+          "width": 1280,
+          "height": 720,
+          "title": "Palmon: Survival",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": 0.016114,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.362495
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.155402
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "1280x720",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "0c440131d0033b82",
+      "app_id": "672de7ae9f58310807db1d1a",
+      "network": "Youtube",
+      "phashion_group": "0c440131d0033b82",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-14",
+      "last_seen_at": "2025-12-23",
+      "creatives": [
+        {
+          "id": "0c440131d0033b82",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4696b191a0f6138d/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4696b191a0f6138d/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4696b191a0f6138d/thumb",
+          "video_duration": 54,
+          "width": 1280,
+          "height": 720,
+          "title": "Palmon: Survival",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": 0.0134,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            1.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "1280x720",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "1fd06fd824d7b719",
+      "app_id": "672de7ae9f58310807db1d1a",
+      "network": "Youtube",
+      "phashion_group": "1fd06fd824d7b719",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-28",
+      "last_seen_at": "2026-01-06",
+      "creatives": [
+        {
+          "id": "1fd06fd824d7b719",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/66d969793b1c7b0c/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/66d969793b1c7b0c/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/66d969793b1c7b0c/thumb",
+          "video_duration": 59,
+          "width": 1280,
+          "height": 720,
+          "title": "Palmon: Survival",
+          "button_text": "Hämta",
+          "message": "Palmon World Mobile Is Available Now"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": 0.013309,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.365486
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.393889
+          ]
+        ],
+        "dimensions": [
+          [
+            "1280x720",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "11156db2e84749ea",
+      "app_id": "672de7ae9f58310807db1d1a",
+      "network": "Youtube",
+      "phashion_group": "11156db2e84749ea",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-06",
+      "last_seen_at": "2026-01-07",
+      "creatives": [
+        {
+          "id": "11156db2e84749ea",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/5bc7dd1298b261e5/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/5bc7dd1298b261e5/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/5bc7dd1298b261e5/thumb",
+          "video_duration": 39,
+          "width": 1280,
+          "height": 720,
+          "title": "Palmon: Survival",
+          "message": ""
+        },
+        {
+          "id": "22cedbb38779adf0",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/5bc7dd1298b261e5/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/5bc7dd1298b261e5/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/5bc7dd1298b261e5/thumb",
+          "video_duration": 39,
+          "width": 1280,
+          "height": 720,
+          "title": "Palmon: Survival",
+          "button_text": "Install",
+          "message": "Palmon World Mobile Is Available Now"
+        },
+        {
+          "id": "c810d48c82fdeba4",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/5bc7dd1298b261e5/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/5bc7dd1298b261e5/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/5bc7dd1298b261e5/thumb",
+          "video_duration": 39,
+          "width": 1280,
+          "height": 720,
+          "title": "Palmon: Survival",
+          "button_text": "Install",
+          "message": "Enjoy the fun of this Palmon game!"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": 0.012333,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            1.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "1280x720",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "7b1fa0152ed16bcf",
+      "app_id": "672de7ae9f58310807db1d1a",
+      "network": "Applovin",
+      "phashion_group": "7b1fa0152ed16bcf",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-30",
+      "last_seen_at": "2025-12-20",
+      "creatives": [
+        {
+          "id": "7b1fa0152ed16bcf",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/78ea2bb5917aa7f8/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/78ea2bb5917aa7f8/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/78ea2bb5917aa7f8/thumb",
+          "video_duration": 41,
+          "width": 720,
+          "height": 1280,
+          "message": ""
+        },
+        {
+          "id": "9fdcb3b8ab9dddec",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/78ea2bb5917aa7f8/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/78ea2bb5917aa7f8/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/78ea2bb5917aa7f8/thumb",
+          "video_duration": 41,
+          "width": 720,
+          "height": 1280,
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "rewarded",
+        "interstitial"
+      ],
+      "share": 0.010178,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.018663
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.033805
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 3,
+        "data": [
+          [
+            "606593eabcfaad041a7a129e",
+            0.950148
+          ],
+          [
+            "6515950e4b00ee1241179ca0",
+            0.03212
+          ],
+          [
+            "675d093981a439f19b4f805b",
+            0.017732
+          ]
+        ]
+      }
+    },
+    {
+      "id": "1090b1747f82293a",
+      "app_id": "672de7ae9f58310807db1d1a",
+      "network": "Applovin",
+      "phashion_group": "1090b1747f82293a",
+      "ad_type": "video",
+      "first_seen_at": "2025-10-31",
+      "last_seen_at": "2026-01-17",
+      "creatives": [
+        {
+          "id": "1090b1747f82293a",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/13653ad4c029e50d/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/13653ad4c029e50d/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/13653ad4c029e50d/thumb",
+          "video_duration": 38,
+          "width": 720,
+          "height": 1280,
+          "message": ""
+        },
+        {
+          "id": "f453a2d9face9f19",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/13653ad4c029e50d/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/13653ad4c029e50d/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/13653ad4c029e50d/thumb",
+          "video_duration": 38,
+          "width": 720,
+          "height": 1280,
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "rewarded",
+        "interstitial"
+      ],
+      "share": 0.009572,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.015888
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.460642
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.53877
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.41793
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.017952
+          ]
+        ],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 8,
+        "data": [
+          [
+            "65b0b087479fc730d9643f8e",
+            0.363499
+          ],
+          [
+            "67f51ab51f5e4931de15ff38",
+            0.220448
+          ],
+          [
+            "557108c7e5ebfb9740000387",
+            0.182211
+          ],
+          [
+            "6222be605993e70eaa99337d",
+            0.113983
+          ],
+          [
+            "5dcc004fb9ab9453c93761c3",
+            0.048262
+          ],
+          [
+            "685cc42382f7e9467051476b",
+            0.045418
+          ],
+          [
+            "675d093981a439f19b4f805b",
+            0.018855
+          ],
+          [
+            "606593eabcfaad041a7a129e",
+            0.007324
+          ]
+        ]
+      }
+    },
+    {
+      "id": "d9d907feccd1a83a",
+      "app_id": "672de7ae9f58310807db1d1a",
+      "network": "Youtube",
+      "phashion_group": "d9d907feccd1a83a",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-05",
+      "last_seen_at": "2025-12-12",
+      "creatives": [
+        {
+          "id": "d9d907feccd1a83a",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/a0d0015fd31a642f/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/a0d0015fd31a642f/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/a0d0015fd31a642f/thumb",
+          "video_duration": 31,
+          "width": 1280,
+          "height": 720,
+          "title": "Palmon: Survival",
+          "button_text": "Install",
+          "message": "Palmon World Mobile Is Available Now"
+        },
+        {
+          "id": "ea02b1ffa3ef4c20",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/a0d0015fd31a642f/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/a0d0015fd31a642f/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/a0d0015fd31a642f/thumb",
+          "video_duration": 31,
+          "width": 1280,
+          "height": 720,
+          "title": "Palmon: Survival",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": 0.007976,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "1280x720",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "0519cec96291bd7b",
+      "app_id": "672de7ae9f58310807db1d1a",
+      "network": "Applovin",
+      "phashion_group": "0519cec96291bd7b",
+      "ad_type": "video",
+      "first_seen_at": "2025-05-10",
+      "last_seen_at": "2026-01-17",
+      "creatives": [
+        {
+          "id": "0519cec96291bd7b",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/06ec4569dd3a714c/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/06ec4569dd3a714c/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/06ec4569dd3a714c/thumb",
+          "video_duration": 42,
+          "width": 720,
+          "height": 1280,
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "rewarded",
+        "interstitial"
+      ],
+      "share": 0.00784,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.035992
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.240248
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.39127
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 6,
+        "data": [
+          [
+            "681eb48a7a54db51c803a365",
+            0.391243
+          ],
+          [
+            "675d093981a439f19b4f805b",
+            0.234688
+          ],
+          [
+            "642fbf424e974f554b64228a",
+            0.175982
+          ],
+          [
+            "66088dd59982613c90e848c6",
+            0.117842
+          ],
+          [
+            "660a32d9df9185225f9c638a",
+            0.058661
+          ],
+          [
+            "64a79ec03b29874eab9f152f",
+            0.021584
+          ]
+        ]
+      }
+    },
+    {
+      "id": "50f54323612012db",
+      "app_id": "672de7ae9f58310807db1d1a",
+      "network": "Applovin",
+      "phashion_group": "50f54323612012db",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-11",
+      "last_seen_at": "2025-12-09",
+      "creatives": [
+        {
+          "id": "50f54323612012db",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/5300c883de8bdeec/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/5300c883de8bdeec/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/5300c883de8bdeec/thumb",
+          "video_duration": 59,
+          "width": 720,
+          "height": 1280,
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "interstitial"
+      ],
+      "share": 0.00749,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 1,
+        "data": [
+          [
+            "606593eabcfaad041a7a129e",
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "id": "9b969dca534588f5",
+      "app_id": "672de7ae9f58310807db1d1a",
+      "network": "Youtube",
+      "phashion_group": "9b969dca534588f5",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-09",
+      "last_seen_at": "2025-12-12",
+      "creatives": [
+        {
+          "id": "9b969dca534588f5",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/6f522640cf6730e2/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/6f522640cf6730e2/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/6f522640cf6730e2/thumb",
+          "video_duration": 10,
+          "width": 1280,
+          "height": 720,
+          "title": "Palmon: Survival",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": 0.007476,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.352153
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "1280x720",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "305ec2d70eabbae5",
+      "app_id": "672de7ae9f58310807db1d1a",
+      "network": "Applovin",
+      "phashion_group": "305ec2d70eabbae5",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-09",
+      "last_seen_at": "2026-01-27",
+      "creatives": [
+        {
+          "id": "305ec2d70eabbae5",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/33ab4977b10076d2/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/33ab4977b10076d2/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/33ab4977b10076d2/thumb",
+          "video_duration": 59,
+          "width": 720,
+          "height": 1280,
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "rewarded",
+        "interstitial"
+      ],
+      "share": 0.006154,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            1.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 3,
+        "data": [
+          [
+            "6056a931d47d3b0fffff7ba6",
+            0.436944
+          ],
+          [
+            "645bbb744bb60871832c3e9c",
+            0.299899
+          ],
+          [
+            "675d093981a439f19b4f805b",
+            0.263157
+          ]
+        ]
+      }
+    },
+    {
+      "id": "4489c09f46b816ce",
+      "app_id": "672de7ae9f58310807db1d1a",
+      "network": "Youtube",
+      "phashion_group": "4489c09f46b816ce",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-26",
+      "last_seen_at": "2025-12-12",
+      "creatives": [
+        {
+          "id": "4489c09f46b816ce",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3d80c63e5973dadb/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3d80c63e5973dadb/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3d80c63e5973dadb/thumb",
+          "video_duration": 55,
+          "width": 1280,
+          "height": 720,
+          "title": "Palmon: Survival",
+          "button_text": "Last ned",
+          "message": "Palmon World Mobile Is Available Now"
+        },
+        {
+          "id": "7752769e2986f2d4",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3d80c63e5973dadb/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3d80c63e5973dadb/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3d80c63e5973dadb/thumb",
+          "video_duration": 55,
+          "width": 1280,
+          "height": 720,
+          "title": "Palmon: Survival",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": 0.006055,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.902397
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.808251
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "1280x720",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "abae5ebb2a2031c2",
+      "app_id": "672de7ae9f58310807db1d1a",
+      "network": "Youtube",
+      "phashion_group": "abae5ebb2a2031c2",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-05",
+      "last_seen_at": "2025-12-13",
+      "creatives": [
+        {
+          "id": "abae5ebb2a2031c2",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/e17cee1b5ad519cd/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/e17cee1b5ad519cd/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/e17cee1b5ad519cd/thumb",
+          "video_duration": 59,
+          "width": 1280,
+          "height": 720,
+          "title": "Palmon: Survival",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": 0.005118,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.131144
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.082394
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "1280x720",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "34218686fef8de81",
+      "app_id": "672de7ae9f58310807db1d1a",
+      "network": "Youtube",
+      "phashion_group": "34218686fef8de81",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-14",
+      "last_seen_at": "2026-01-26",
+      "creatives": [
+        {
+          "id": "34218686fef8de81",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/9ed70d7d254a78ac/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/9ed70d7d254a78ac/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/9ed70d7d254a78ac/thumb",
+          "video_duration": 55,
+          "width": 1280,
+          "height": 720,
+          "title": "Palmon: Survival",
+          "button_text": "Install",
+          "message": "Train Palmon with Your Strategy"
+        },
+        {
+          "id": "c6fc0561ea7aa83c",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/9ed70d7d254a78ac/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/9ed70d7d254a78ac/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/9ed70d7d254a78ac/thumb",
+          "video_duration": 55,
+          "width": 1280,
+          "height": 720,
+          "title": "Palmon: Survival",
+          "button_text": "Install",
+          "message": "Start your adventure in a mysterious and desolate world full of Palmon!"
+        },
+        {
+          "id": "f08aef288a9efcea",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/9ed70d7d254a78ac/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/9ed70d7d254a78ac/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/9ed70d7d254a78ac/thumb",
+          "video_duration": 55,
+          "width": 1280,
+          "height": 720,
+          "title": "Palmon: Survival",
+          "button_text": "Install",
+          "message": "My wife doesn't sleep only to play this game"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": 0.005045,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            1.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "1280x720",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "05806bf22078fba7",
+      "app_id": "672de7ae9f58310807db1d1a",
+      "network": "Youtube",
+      "phashion_group": "05806bf22078fba7",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-14",
+      "last_seen_at": "2025-12-20",
+      "creatives": [
+        {
+          "id": "05806bf22078fba7",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/5dab63eeef482b37/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/5dab63eeef482b37/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/5dab63eeef482b37/thumb",
+          "video_duration": 35,
+          "width": 1280,
+          "height": 720,
+          "title": "Palmon: Survival",
+          "button_text": "Install",
+          "message": "Start your adventure in a mysterious and desolate world full of Palmon!"
+        },
+        {
+          "id": "1779d34e9fbd0338",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/5dab63eeef482b37/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/5dab63eeef482b37/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/5dab63eeef482b37/thumb",
+          "video_duration": 35,
+          "width": 1280,
+          "height": 720,
+          "title": "Palmon: Survival",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": 0.00447,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            1.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "1280x720",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "61df919b3a811763",
+      "app_id": "672de7ae9f58310807db1d1a",
+      "network": "Applovin",
+      "phashion_group": "61df919b3a811763",
+      "ad_type": "video",
+      "first_seen_at": "2025-10-31",
+      "last_seen_at": "2026-01-12",
+      "creatives": [
+        {
+          "id": "61df919b3a811763",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/622a1a3b852adb54/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/622a1a3b852adb54/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/622a1a3b852adb54/thumb",
+          "video_duration": 59,
+          "width": 720,
+          "height": 1280,
+          "message": ""
+        },
+        {
+          "id": "851c8236bfcda140",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/622a1a3b852adb54/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/622a1a3b852adb54/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/622a1a3b852adb54/thumb",
+          "video_duration": 59,
+          "width": 720,
+          "height": 1280,
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "rewarded",
+        "interstitial"
+      ],
+      "share": 0.003972,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.056659
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.413732
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.145058
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.163071
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            1.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 6,
+        "data": [
+          [
+            "675d093981a439f19b4f805b",
+            0.526356
+          ],
+          [
+            "66088dd59982613c90e848c6",
+            0.232627
+          ],
+          [
+            "6222be605993e70eaa99337d",
+            0.091689
+          ],
+          [
+            "64a79ec03b29874eab9f152f",
+            0.069233
+          ],
+          [
+            "685cc42382f7e9467051476b",
+            0.048238
+          ],
+          [
+            "5eacdeb662573f5bd86c03df",
+            0.031857
+          ]
+        ]
+      }
+    },
+    {
+      "id": "15701ceb6388ba73",
+      "app_id": "672de7ae9f58310807db1d1a",
+      "network": "Youtube",
+      "phashion_group": "15701ceb6388ba73",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-05",
+      "last_seen_at": "2025-12-15",
+      "creatives": [
+        {
+          "id": "15701ceb6388ba73",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/86a7157579c73032/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/86a7157579c73032/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/86a7157579c73032/thumb",
+          "video_duration": 47,
+          "width": 1280,
+          "height": 720,
+          "title": "Palmon: Survival",
+          "button_text": "Download",
+          "message": "Enjoy the fun of this Palmon game!"
+        },
+        {
+          "id": "cc75a5d50932183d",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/86a7157579c73032/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/86a7157579c73032/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/86a7157579c73032/thumb",
+          "video_duration": 47,
+          "width": 1280,
+          "height": 720,
+          "title": "Palmon: Survival",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": 0.00395,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.583023
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.185401
+          ]
+        ],
+        "dimensions": [
+          [
+            "1280x720",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "5a87c79519797942",
+      "app_id": "672de7ae9f58310807db1d1a",
+      "network": "Applovin",
+      "phashion_group": "5a87c79519797942",
+      "ad_type": "video",
+      "first_seen_at": "2025-09-09",
+      "last_seen_at": "2026-01-28",
+      "creatives": [
+        {
+          "id": "5a87c79519797942",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/bdb15f98239e0356/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/bdb15f98239e0356/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/bdb15f98239e0356/thumb",
+          "video_duration": 39,
+          "width": 720,
+          "height": 1280,
+          "message": ""
+        },
+        {
+          "id": "be44d4389c35cf61",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/bdb15f98239e0356/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/bdb15f98239e0356/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/bdb15f98239e0356/thumb",
+          "video_duration": 39,
+          "width": 720,
+          "height": 1280,
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "rewarded",
+        "interstitial",
+        "other"
+      ],
+      "share": 0.003785,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.255446
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.230629
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.152519
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 8,
+        "data": [
+          [
+            "670f2583b22d4a600a3378c1",
+            0.366173
+          ],
+          [
+            "6222be605993e70eaa99337d",
+            0.151485
+          ],
+          [
+            "5dcc004fb9ab9453c93761c3",
+            0.122053
+          ],
+          [
+            "66088dd59982613c90e848c6",
+            0.122053
+          ],
+          [
+            "6928b536ddeb648518b46abb",
+            0.114862
+          ],
+          [
+            "662faa269b0dfc1769b5f042",
+            0.093079
+          ],
+          [
+            "606593eabcfaad041a7a129e",
+            0.025886
+          ],
+          [
+            "582485f69486cc1b3b0010c8",
+            0.004409
+          ]
+        ]
+      }
+    },
+    {
+      "id": "856c573fa653547a",
+      "app_id": "672de7ae9f58310807db1d1a",
+      "network": "Youtube",
+      "phashion_group": "856c573fa653547a",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-12",
+      "last_seen_at": "2025-12-12",
+      "creatives": [
+        {
+          "id": "856c573fa653547a",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/384795f42102db84/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/384795f42102db84/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/384795f42102db84/thumb",
+          "video_duration": 14,
+          "width": 1280,
+          "height": 720,
+          "title": "Palmon: Survival",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": 0.003727,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "1280x720",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "c4723d687c043064",
+      "app_id": "672de7ae9f58310807db1d1a",
+      "network": "Youtube",
+      "phashion_group": "c4723d687c043064",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-10",
+      "last_seen_at": "2025-12-11",
+      "creatives": [
+        {
+          "id": "c4723d687c043064",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/ab39278319480d41/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/ab39278319480d41/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/ab39278319480d41/thumb",
+          "video_duration": 12,
+          "width": 640,
+          "height": 480,
+          "title": "Palmon: Survival",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": 0.003334,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.734968
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "640x480",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "95ede22df5474c20",
+      "app_id": "672de7ae9f58310807db1d1a",
+      "network": "Youtube",
+      "phashion_group": "95ede22df5474c20",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-14",
+      "last_seen_at": "2025-12-16",
+      "creatives": [
+        {
+          "id": "95ede22df5474c20",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/df3f528d85b2642f/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/df3f528d85b2642f/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/df3f528d85b2642f/thumb",
+          "video_duration": 59,
+          "width": 1280,
+          "height": 720,
+          "title": "Palmon: Survival",
+          "message": ""
+        },
+        {
+          "id": "a636542c9a79a83a",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/df3f528d85b2642f/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/df3f528d85b2642f/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/df3f528d85b2642f/thumb",
+          "video_duration": 59,
+          "width": 1280,
+          "height": 720,
+          "title": "Palmon: Survival",
+          "button_text": "Scarica",
+          "message": "Palmon World Mobile Is Available Now"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": 0.00298,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            1.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "1280x720",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "b9833cc8d8f44378",
+      "app_id": "672de7ae9f58310807db1d1a",
+      "network": "Youtube",
+      "phashion_group": "b9833cc8d8f44378",
+      "ad_type": "video",
+      "first_seen_at": "2025-10-30",
+      "last_seen_at": "2025-12-12",
+      "creatives": [
+        {
+          "id": "b9833cc8d8f44378",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/d7dede9d7720c73e/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/d7dede9d7720c73e/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/d7dede9d7720c73e/thumb",
+          "video_duration": 58,
+          "width": 1280,
+          "height": 720,
+          "title": "Palmon: Survival",
+          "button_text": "Descărc.",
+          "message": "My wife doesn't sleep only to play this game"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": 0.001968,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.090316
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "1280x720",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "7b26625481409730",
+      "app_id": "672de7ae9f58310807db1d1a",
+      "network": "Youtube",
+      "phashion_group": "7b26625481409730",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-12",
+      "last_seen_at": "2025-12-12",
+      "creatives": [
+        {
+          "id": "7b26625481409730",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/c60da09f061118ce/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/c60da09f061118ce/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/c60da09f061118ce/thumb",
+          "video_duration": 12,
+          "width": 1280,
+          "height": 720,
+          "title": "Palmon: Survival",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": 0.001947,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "1280x720",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "5d3c4354012a02eb",
+      "app_id": "672de7ae9f58310807db1d1a",
+      "network": "Applovin",
+      "phashion_group": "5d3c4354012a02eb",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-09",
+      "last_seen_at": "2026-01-17",
+      "creatives": [
+        {
+          "id": "5d3c4354012a02eb",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/5ec9c8f4be81cedc/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/5ec9c8f4be81cedc/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/5ec9c8f4be81cedc/thumb",
+          "video_duration": 35,
+          "width": 720,
+          "height": 1280,
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "rewarded"
+      ],
+      "share": 0.001878,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.758991
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            1.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 3,
+        "data": [
+          [
+            "5d68b6870ab88346dcdb7c5a",
+            0.568508
+          ],
+          [
+            "65b0b087479fc730d9643f8e",
+            0.327715
+          ],
+          [
+            "630b0c64682b7c64ad654691",
+            0.103777
+          ]
+        ]
+      }
+    },
+    {
+      "id": "ba6867ad063acf04",
+      "app_id": "672de7ae9f58310807db1d1a",
+      "network": "Youtube",
+      "phashion_group": "ba6867ad063acf04",
+      "ad_type": "video",
+      "first_seen_at": "2025-09-16",
+      "last_seen_at": "2026-01-28",
+      "creatives": [
+        {
+          "id": "ba6867ad063acf04",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/5c23399e8f26f3de/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/5c23399e8f26f3de/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/5c23399e8f26f3de/thumb",
+          "video_duration": 37,
+          "width": 1080,
+          "height": 1920,
+          "title": "Palmon: Survival",
+          "button_text": "Transferir",
+          "message": "Palmon World Mobile Is Available Now"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": 0.001772,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "ff4e6eca630a4c7e",
+      "app_id": "672de7ae9f58310807db1d1a",
+      "network": "Youtube",
+      "phashion_group": "ff4e6eca630a4c7e",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-14",
+      "last_seen_at": "2026-01-28",
+      "creatives": [
+        {
+          "id": "ff4e6eca630a4c7e",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/b59cde6a13ff6471/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/b59cde6a13ff6471/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/b59cde6a13ff6471/thumb",
+          "video_duration": 42,
+          "width": 1280,
+          "height": 720,
+          "title": "Palmon: Survival",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": 0.001566,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            1.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "1280x720",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "f2d89d0b2b43ca4a",
+      "app_id": "672de7ae9f58310807db1d1a",
+      "network": "Youtube",
+      "phashion_group": "f2d89d0b2b43ca4a",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-29",
+      "last_seen_at": "2025-12-14",
+      "creatives": [
+        {
+          "id": "f2d89d0b2b43ca4a",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/9c857f5e84974e0c/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/9c857f5e84974e0c/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/9c857f5e84974e0c/thumb",
+          "video_duration": 51,
+          "width": 1280,
+          "height": 720,
+          "title": "Palmon: Survival",
+          "button_text": "Install",
+          "message": "My wife doesn't sleep only to play this game"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": 0.00149,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            1.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "1280x720",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "b818fa0840660398",
+      "app_id": "672de7ae9f58310807db1d1a",
+      "network": "Youtube",
+      "phashion_group": "b818fa0840660398",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-09",
+      "last_seen_at": "2025-12-09",
+      "creatives": [
+        {
+          "id": "b818fa0840660398",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/95d9f8bcb6fe19c1/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/95d9f8bcb6fe19c1/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/95d9f8bcb6fe19c1/thumb",
+          "video_duration": 18,
+          "width": 1280,
+          "height": 720,
+          "title": "Palmon: Survival",
+          "button_text": "Install",
+          "message": "Enjoy the fun of this Palmon game!"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": 0.001382,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "1280x720",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "fcf0e350dc33fdd4",
+      "app_id": "672de7ae9f58310807db1d1a",
+      "network": "Admob",
+      "phashion_group": "fcf0e350dc33fdd4",
+      "ad_type": "video",
+      "first_seen_at": "2025-06-04",
+      "last_seen_at": "2026-01-28",
+      "creatives": [
+        {
+          "id": "fcf0e350dc33fdd4",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/8da9c9975a48619c/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/8da9c9975a48619c/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/8da9c9975a48619c/thumb",
+          "video_duration": 37,
+          "width": 1920,
+          "height": 1080,
+          "title": "Palmon: Survival",
+          "button_text": "Install",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "rewarded"
+      ],
+      "share": 0.000782,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "1920x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 1,
+        "data": [
+          [
+            "55d20e4602ac64ee7300028a",
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "id": "e251628ac15cb848",
+      "app_id": "672de7ae9f58310807db1d1a",
+      "network": "Applovin",
+      "phashion_group": "e251628ac15cb848",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-01",
+      "last_seen_at": "2025-12-13",
+      "creatives": [
+        {
+          "id": "e251628ac15cb848",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0567fa87fbbbc25c/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0567fa87fbbbc25c/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0567fa87fbbbc25c/thumb",
+          "video_duration": 56,
+          "width": 720,
+          "height": 1280,
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "interstitial"
+      ],
+      "share": 0.000641,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 1,
+        "data": [
+          [
+            "662faa269b0dfc1769b5f042",
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "id": "bcd850f8c0936330",
+      "app_id": "672de7ae9f58310807db1d1a",
+      "network": "Applovin",
+      "phashion_group": "bcd850f8c0936330",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-10",
+      "last_seen_at": "2025-12-13",
+      "creatives": [
+        {
+          "id": "bcd850f8c0936330",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/5beec8f5fa741924/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/5beec8f5fa741924/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/5beec8f5fa741924/thumb",
+          "video_duration": 34,
+          "width": 720,
+          "height": 1280,
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "rewarded"
+      ],
+      "share": 0.000641,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 1,
+        "data": [
+          [
+            "662faa269b0dfc1769b5f042",
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "id": "e7f15059f47b3470",
+      "app_id": "672de7ae9f58310807db1d1a",
+      "network": "Applovin",
+      "phashion_group": "e7f15059f47b3470",
+      "ad_type": "video",
+      "first_seen_at": "2025-05-11",
+      "last_seen_at": "2025-12-14",
+      "creatives": [
+        {
+          "id": "e7f15059f47b3470",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/e404dbf94bd0f847/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/e404dbf94bd0f847/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/e404dbf94bd0f847/thumb",
+          "video_duration": 59,
+          "width": 720,
+          "height": 1280,
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "interstitial"
+      ],
+      "share": 0.000468,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            1.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 1,
+        "data": [
+          [
+            "622390aa2e0fa027dbdc26b8",
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "id": "3ae234972b707dca",
+      "app_id": "672de7ae9f58310807db1d1a",
+      "network": "Applovin",
+      "phashion_group": "3ae234972b707dca",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-12",
+      "last_seen_at": "2025-12-29",
+      "creatives": [
+        {
+          "id": "3ae234972b707dca",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3917bf3794dbb1fd/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3917bf3794dbb1fd/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3917bf3794dbb1fd/thumb",
+          "video_duration": 59,
+          "width": 720,
+          "height": 1280,
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "rewarded"
+      ],
+      "share": 0.000462,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 1,
+        "data": [
+          [
+            "66088dd59982613c90e848c6",
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "id": "4af9f84522b4e050",
+      "app_id": "672de7ae9f58310807db1d1a",
+      "network": "Applovin",
+      "phashion_group": "4af9f84522b4e050",
+      "ad_type": "video",
+      "first_seen_at": "2025-10-22",
+      "last_seen_at": "2025-12-09",
+      "creatives": [
+        {
+          "id": "4af9f84522b4e050",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/490c73e59d1f2c67/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/490c73e59d1f2c67/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/490c73e59d1f2c67/thumb",
+          "video_duration": 42,
+          "width": 720,
+          "height": 1280,
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "interstitial"
+      ],
+      "share": 0.000462,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 1,
+        "data": [
+          [
+            "66088dd59982613c90e848c6",
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "id": "b4c11f4182060d4e",
+      "app_id": "672de7ae9f58310807db1d1a",
+      "network": "Youtube",
+      "phashion_group": "b4c11f4182060d4e",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-14",
+      "last_seen_at": "2026-01-07",
+      "creatives": [
+        {
+          "id": "b4c11f4182060d4e",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/fe13afe1f2f32541/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/fe13afe1f2f32541/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/fe13afe1f2f32541/thumb",
+          "video_duration": 50,
+          "width": 1280,
+          "height": 720,
+          "title": "Palmon: Survival",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": 0.000414,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            1.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "1280x720",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "5faca0001c92672f",
+      "app_id": "672de7ae9f58310807db1d1a",
+      "network": "Youtube",
+      "phashion_group": "5faca0001c92672f",
+      "ad_type": "video",
+      "first_seen_at": "2025-10-30",
+      "last_seen_at": "2025-12-16",
+      "creatives": [
+        {
+          "id": "5faca0001c92672f",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/157e10a06c674f20/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/157e10a06c674f20/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/157e10a06c674f20/thumb",
+          "video_duration": 35,
+          "width": 1280,
+          "height": 720,
+          "title": "Palmon: Survival",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": 0.000348,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "1280x720",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "957ebf9bb379c31d",
+      "app_id": "672de7ae9f58310807db1d1a",
+      "network": "Applovin",
+      "phashion_group": "957ebf9bb379c31d",
+      "ad_type": "video",
+      "first_seen_at": "2025-10-31",
+      "last_seen_at": "2025-12-11",
+      "creatives": [
+        {
+          "id": "957ebf9bb379c31d",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/72482796899eb909/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/72482796899eb909/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/72482796899eb909/thumb",
+          "video_duration": 50,
+          "width": 720,
+          "height": 1280,
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "rewarded"
+      ],
+      "share": 0.000245,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.109902
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 2,
+        "data": [
+          [
+            "6222be605993e70eaa99337d",
+            0.90098
+          ],
+          [
+            "55c500a002ac64f9c0001ee6",
+            0.09902
+          ]
+        ]
+      }
+    },
+    {
+      "id": "aa34928cb276e475",
+      "app_id": "672de7ae9f58310807db1d1a",
+      "network": "Youtube",
+      "phashion_group": "aa34928cb276e475",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-12",
+      "last_seen_at": "2025-12-12",
+      "creatives": [
+        {
+          "id": "aa34928cb276e475",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/c57f8867d73ad950/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/c57f8867d73ad950/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/c57f8867d73ad950/thumb",
+          "video_duration": 13,
+          "width": 1280,
+          "height": 720,
+          "title": "Palmon: Survival",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": 0.000163,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "1280x720",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "2250305541eceb1d",
+      "app_id": "672de7ae9f58310807db1d1a",
+      "network": "Facebook",
+      "phashion_group": "2250305541eceb1d",
+      "ad_type": "video",
+      "first_seen_at": "2025-09-28",
+      "last_seen_at": "2026-01-27",
+      "creatives": [
+        {
+          "id": "2250305541eceb1d",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/033ac977d95ec432/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/033ac977d95ec432/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/033ac977d95ec432/thumb",
+          "video_duration": 34,
+          "width": 1080,
+          "height": 1920,
+          "title": "Download for free",
+          "button_text": "Install now",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "04028a774407b5b5",
+      "app_id": "672de7ae9f58310807db1d1a",
+      "network": "Instagram",
+      "phashion_group": "04028a774407b5b5",
+      "ad_type": "video",
+      "first_seen_at": "2025-09-28",
+      "last_seen_at": "2026-01-27",
+      "creatives": [
+        {
+          "id": "04028a774407b5b5",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/033ac977d95ec432/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/033ac977d95ec432/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/033ac977d95ec432/thumb",
+          "video_duration": 34,
+          "width": 1080,
+          "height": 1920,
+          "title": "Download for free",
+          "button_text": "Install now",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "10d2e3214ef4faac",
+      "app_id": "672de7ae9f58310807db1d1a",
+      "network": "Meta Audience Network",
+      "phashion_group": "10d2e3214ef4faac",
+      "ad_type": "video",
+      "first_seen_at": "2025-09-28",
+      "last_seen_at": "2026-01-27",
+      "creatives": [
+        {
+          "id": "10d2e3214ef4faac",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/033ac977d95ec432/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/033ac977d95ec432/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/033ac977d95ec432/thumb",
+          "video_duration": 34,
+          "width": 1080,
+          "height": 1920,
+          "title": "Download for free",
+          "button_text": "Install now",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "1c583bdc95385549",
+      "app_id": "672de7ae9f58310807db1d1a",
+      "network": "Facebook",
+      "phashion_group": "1c583bdc95385549",
+      "ad_type": "video",
+      "first_seen_at": "2025-10-24",
+      "last_seen_at": "2026-01-20",
+      "creatives": [
+        {
+          "id": "1c583bdc95385549",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/043185276f79b0c1/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/043185276f79b0c1/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/043185276f79b0c1/thumb",
+          "video_duration": 38,
+          "width": 1080,
+          "height": 1920,
+          "title": "To Be a Palmon Master!",
+          "button_text": "Install now",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "2a528984a19d1611",
+      "app_id": "672de7ae9f58310807db1d1a",
+      "network": "Instagram",
+      "phashion_group": "2a528984a19d1611",
+      "ad_type": "video",
+      "first_seen_at": "2025-10-24",
+      "last_seen_at": "2026-01-20",
+      "creatives": [
+        {
+          "id": "2a528984a19d1611",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/043185276f79b0c1/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/043185276f79b0c1/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/043185276f79b0c1/thumb",
+          "video_duration": 38,
+          "width": 1080,
+          "height": 1920,
+          "title": "To Be a Palmon Master!",
+          "button_text": "Install now",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "2edae8a89a2044f8",
+      "app_id": "672de7ae9f58310807db1d1a",
+      "network": "Meta Audience Network",
+      "phashion_group": "2edae8a89a2044f8",
+      "ad_type": "video",
+      "first_seen_at": "2025-10-24",
+      "last_seen_at": "2026-01-20",
+      "creatives": [
+        {
+          "id": "2edae8a89a2044f8",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/043185276f79b0c1/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/043185276f79b0c1/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/043185276f79b0c1/thumb",
+          "video_duration": 38,
+          "width": 1080,
+          "height": 1920,
+          "title": "To Be a Palmon Master!",
+          "button_text": "Install now",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "1aa53735b8fee0f7",
+      "app_id": "672de7ae9f58310807db1d1a",
+      "network": "TikTok",
+      "phashion_group": "1aa53735b8fee0f7",
+      "ad_type": "video",
+      "first_seen_at": "2025-01-09",
+      "last_seen_at": "2025-12-25",
+      "creatives": [
+        {
+          "id": "1aa53735b8fee0f7",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/04877883fd58127b/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/04877883fd58127b/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/04877883fd58127b/thumb",
+          "video_duration": 40,
+          "width": 720,
+          "height": 1280,
+          "message": "Relaxing and Fun-Packed RPG"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "27f1e847ac0184d0",
+      "app_id": "672de7ae9f58310807db1d1a",
+      "network": "Facebook",
+      "phashion_group": "27f1e847ac0184d0",
+      "ad_type": "video",
+      "first_seen_at": "2025-06-14",
+      "last_seen_at": "2025-12-12",
+      "creatives": [
+        {
+          "id": "27f1e847ac0184d0",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/069b116534b3abff/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/069b116534b3abff/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/069b116534b3abff/thumb",
+          "video_duration": 47,
+          "width": 1080,
+          "height": 1920,
+          "title": "To Be a Palmon Master!",
+          "button_text": "Install now",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "01a35265a9eada78",
+      "app_id": "672de7ae9f58310807db1d1a",
+      "network": "Instagram",
+      "phashion_group": "01a35265a9eada78",
+      "ad_type": "video",
+      "first_seen_at": "2025-06-14",
+      "last_seen_at": "2025-12-12",
+      "creatives": [
+        {
+          "id": "01a35265a9eada78",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/069b116534b3abff/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/069b116534b3abff/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/069b116534b3abff/thumb",
+          "video_duration": 47,
+          "width": 1080,
+          "height": 1920,
+          "title": "To Be a Palmon Master!",
+          "button_text": "Install now",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "15733b33a3199561",
+      "app_id": "672de7ae9f58310807db1d1a",
+      "network": "Meta Audience Network",
+      "phashion_group": "15733b33a3199561",
+      "ad_type": "video",
+      "first_seen_at": "2025-06-14",
+      "last_seen_at": "2025-12-12",
+      "creatives": [
+        {
+          "id": "15733b33a3199561",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/069b116534b3abff/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/069b116534b3abff/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/069b116534b3abff/thumb",
+          "video_duration": 47,
+          "width": 1080,
+          "height": 1920,
+          "title": "To Be a Palmon Master!",
+          "button_text": "Install now",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "2788201a6edfcb63",
+      "app_id": "672de7ae9f58310807db1d1a",
+      "network": "Facebook",
+      "phashion_group": "2788201a6edfcb63",
+      "ad_type": "video",
+      "first_seen_at": "2025-10-29",
+      "last_seen_at": "2026-01-27",
+      "creatives": [
+        {
+          "id": "2788201a6edfcb63",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/06e2d938f66de44c/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/06e2d938f66de44c/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/06e2d938f66de44c/thumb",
+          "video_duration": 41,
+          "width": 1080,
+          "height": 1920,
+          "title": "Download for free",
+          "button_text": "Install now",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "01da9a386b3495cb",
+      "app_id": "672de7ae9f58310807db1d1a",
+      "network": "Instagram",
+      "phashion_group": "01da9a386b3495cb",
+      "ad_type": "video",
+      "first_seen_at": "2025-10-29",
+      "last_seen_at": "2026-01-27",
+      "creatives": [
+        {
+          "id": "01da9a386b3495cb",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/06e2d938f66de44c/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/06e2d938f66de44c/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/06e2d938f66de44c/thumb",
+          "video_duration": 41,
+          "width": 1080,
+          "height": 1920,
+          "title": "Download for free",
+          "button_text": "Install now",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "150af36e61c7dad2",
+      "app_id": "672de7ae9f58310807db1d1a",
+      "network": "Meta Audience Network",
+      "phashion_group": "150af36e61c7dad2",
+      "ad_type": "video",
+      "first_seen_at": "2025-10-29",
+      "last_seen_at": "2026-01-27",
+      "creatives": [
+        {
+          "id": "150af36e61c7dad2",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/06e2d938f66de44c/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/06e2d938f66de44c/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/06e2d938f66de44c/thumb",
+          "video_duration": 41,
+          "width": 1080,
+          "height": 1920,
+          "title": "Download for free",
+          "button_text": "Install now",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "1ff1f7d7bf5a16cd",
+      "app_id": "672de7ae9f58310807db1d1a",
+      "network": "Facebook",
+      "phashion_group": "1ff1f7d7bf5a16cd",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-20",
+      "last_seen_at": "2025-12-08",
+      "creatives": [
+        {
+          "id": "1ff1f7d7bf5a16cd",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0798492c451bf345/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0798492c451bf345/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0798492c451bf345/thumb",
+          "video_duration": 59,
+          "width": 1080,
+          "height": 1920,
+          "title": "Guard the Palmon World!",
+          "button_text": "Install now",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "29fb458f8bff5595",
+      "app_id": "672de7ae9f58310807db1d1a",
+      "network": "Instagram",
+      "phashion_group": "29fb458f8bff5595",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-20",
+      "last_seen_at": "2025-12-08",
+      "creatives": [
+        {
+          "id": "29fb458f8bff5595",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0798492c451bf345/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0798492c451bf345/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0798492c451bf345/thumb",
+          "video_duration": 59,
+          "width": 1080,
+          "height": 1920,
+          "title": "Guard the Palmon World!",
+          "button_text": "Install now",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "2d7324a3b042077c",
+      "app_id": "672de7ae9f58310807db1d1a",
+      "network": "Meta Audience Network",
+      "phashion_group": "2d7324a3b042077c",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-20",
+      "last_seen_at": "2025-12-08",
+      "creatives": [
+        {
+          "id": "2d7324a3b042077c",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0798492c451bf345/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0798492c451bf345/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0798492c451bf345/thumb",
+          "video_duration": 59,
+          "width": 1080,
+          "height": 1920,
+          "title": "Guard the Palmon World!",
+          "button_text": "Install now",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "115f7d45a9173080",
+      "app_id": "672de7ae9f58310807db1d1a",
+      "network": "Facebook",
+      "phashion_group": "115f7d45a9173080",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-21",
+      "last_seen_at": "2026-01-14",
+      "creatives": [
+        {
+          "id": "115f7d45a9173080",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0936c3be5356d508/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0936c3be5356d508/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0936c3be5356d508/thumb",
+          "video_duration": 27,
+          "width": 1080,
+          "height": 1920,
+          "title": "Guard the Palmon World!",
+          "button_text": "Install now",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "2755cf1d9db273d8",
+      "app_id": "672de7ae9f58310807db1d1a",
+      "network": "Instagram",
+      "phashion_group": "2755cf1d9db273d8",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-21",
+      "last_seen_at": "2026-01-14",
+      "creatives": [
+        {
+          "id": "2755cf1d9db273d8",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0936c3be5356d508/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0936c3be5356d508/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0936c3be5356d508/thumb",
+          "video_duration": 27,
+          "width": 1080,
+          "height": 1920,
+          "title": "Guard the Palmon World!",
+          "button_text": "Install now",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "23ddae31a60f2131",
+      "app_id": "672de7ae9f58310807db1d1a",
+      "network": "Meta Audience Network",
+      "phashion_group": "23ddae31a60f2131",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-21",
+      "last_seen_at": "2026-01-14",
+      "creatives": [
+        {
+          "id": "23ddae31a60f2131",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0936c3be5356d508/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0936c3be5356d508/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0936c3be5356d508/thumb",
+          "video_duration": 27,
+          "width": 1080,
+          "height": 1920,
+          "title": "Guard the Palmon World!",
+          "button_text": "Install now",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "110129d3bb0cc931",
+      "app_id": "672de7ae9f58310807db1d1a",
+      "network": "Facebook",
+      "phashion_group": "110129d3bb0cc931",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-20",
+      "last_seen_at": "2026-01-28",
+      "creatives": [
+        {
+          "id": "110129d3bb0cc931",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/09689728414d2cb9/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/09689728414d2cb9/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/09689728414d2cb9/thumb",
+          "video_duration": 44,
+          "width": 1080,
+          "height": 1920,
+          "title": "Become a Palmon Master!",
+          "button_text": "Install now",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "270b9b8b8fa98a69",
+      "app_id": "672de7ae9f58310807db1d1a",
+      "network": "Instagram",
+      "phashion_group": "270b9b8b8fa98a69",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-20",
+      "last_seen_at": "2026-01-28",
+      "creatives": [
+        {
+          "id": "270b9b8b8fa98a69",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/09689728414d2cb9/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/09689728414d2cb9/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/09689728414d2cb9/thumb",
+          "video_duration": 44,
+          "width": 1080,
+          "height": 1920,
+          "title": "Become a Palmon Master!",
+          "button_text": "Install now",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "2383faa7b414d880",
+      "app_id": "672de7ae9f58310807db1d1a",
+      "network": "Meta Audience Network",
+      "phashion_group": "2383faa7b414d880",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-20",
+      "last_seen_at": "2026-01-28",
+      "creatives": [
+        {
+          "id": "2383faa7b414d880",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/09689728414d2cb9/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/09689728414d2cb9/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/09689728414d2cb9/thumb",
+          "video_duration": 44,
+          "width": 1080,
+          "height": 1920,
+          "title": "Become a Palmon Master!",
+          "button_text": "Install now",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "2be80f6bb19cdbf5",
+      "app_id": "672de7ae9f58310807db1d1a",
+      "network": "Facebook",
+      "phashion_group": "2be80f6bb19cdbf5",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-28",
+      "last_seen_at": "2026-01-27",
+      "creatives": [
+        {
+          "id": "2be80f6bb19cdbf5",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0a82f649292ef4da/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0a82f649292ef4da/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0a82f649292ef4da/thumb",
+          "video_duration": 45,
+          "width": 1080,
+          "height": 1920,
+          "title": "The Wargame of Palmon",
+          "button_text": "Install now",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "0dbab549b477855d",
+      "app_id": "672de7ae9f58310807db1d1a",
+      "network": "Instagram",
+      "phashion_group": "0dbab549b477855d",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-21",
+      "last_seen_at": "2026-01-27",
+      "creatives": [
+        {
+          "id": "0dbab549b477855d",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0a82f649292ef4da/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0a82f649292ef4da/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0a82f649292ef4da/thumb",
+          "video_duration": 45,
+          "width": 1080,
+          "height": 1920,
+          "title": "The Wargame of Palmon",
+          "button_text": "Install now",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "196adc1fbe84ca44",
+      "app_id": "672de7ae9f58310807db1d1a",
+      "network": "Meta Audience Network",
+      "phashion_group": "196adc1fbe84ca44",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-28",
+      "last_seen_at": "2026-01-27",
+      "creatives": [
+        {
+          "id": "196adc1fbe84ca44",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0a82f649292ef4da/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0a82f649292ef4da/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0a82f649292ef4da/thumb",
+          "video_duration": 45,
+          "width": 1080,
+          "height": 1920,
+          "title": "The Wargame of Palmon",
+          "button_text": "Install now",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "2a80c0e6c9a8046a",
+      "app_id": "672de7ae9f58310807db1d1a",
+      "network": "Facebook",
+      "phashion_group": "2a80c0e6c9a8046a",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-05",
+      "last_seen_at": "2025-12-12",
+      "creatives": [
+        {
+          "id": "2a80c0e6c9a8046a",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0bea39c4511a2b45/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0bea39c4511a2b45/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0bea39c4511a2b45/thumb",
+          "video_duration": 59,
+          "width": 1080,
+          "height": 1920,
+          "title": "Become a Palmon Master!",
+          "button_text": "Install now",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "0cd27ac4cc435ac2",
+      "app_id": "672de7ae9f58310807db1d1a",
+      "network": "Instagram",
+      "phashion_group": "0cd27ac4cc435ac2",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-05",
+      "last_seen_at": "2025-12-12",
+      "creatives": [
+        {
+          "id": "0cd27ac4cc435ac2",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0bea39c4511a2b45/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0bea39c4511a2b45/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0bea39c4511a2b45/thumb",
+          "video_duration": 59,
+          "width": 1080,
+          "height": 1920,
+          "title": "Become a Palmon Master!",
+          "button_text": "Install now",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "18021392c6b015db",
+      "app_id": "672de7ae9f58310807db1d1a",
+      "network": "Meta Audience Network",
+      "phashion_group": "18021392c6b015db",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-05",
+      "last_seen_at": "2025-12-12",
+      "creatives": [
+        {
+          "id": "18021392c6b015db",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0bea39c4511a2b45/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0bea39c4511a2b45/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0bea39c4511a2b45/thumb",
+          "video_duration": 59,
+          "width": 1080,
+          "height": 1920,
+          "title": "Become a Palmon Master!",
+          "button_text": "Install now",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "2cad99d6577a0e48",
+      "app_id": "672de7ae9f58310807db1d1a",
+      "network": "Facebook",
+      "phashion_group": "2cad99d6577a0e48",
+      "ad_type": "video",
+      "first_seen_at": "2025-06-14",
+      "last_seen_at": "2025-12-15",
+      "creatives": [
+        {
+          "id": "2cad99d6577a0e48",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0dc760f4cfc82167/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0dc760f4cfc82167/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0dc760f4cfc82167/thumb",
+          "video_duration": 29,
+          "width": 1080,
+          "height": 1920,
+          "title": "To Be a Palmon Master!",
+          "button_text": "Install now",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "0aff23f4529150e0",
+      "app_id": "672de7ae9f58310807db1d1a",
+      "network": "Instagram",
+      "phashion_group": "0aff23f4529150e0",
+      "ad_type": "video",
+      "first_seen_at": "2025-06-14",
+      "last_seen_at": "2025-12-15",
+      "creatives": [
+        {
+          "id": "0aff23f4529150e0",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0dc760f4cfc82167/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0dc760f4cfc82167/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0dc760f4cfc82167/thumb",
+          "video_duration": 29,
+          "width": 1080,
+          "height": 1920,
+          "title": "To Be a Palmon Master!",
+          "button_text": "Install now",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "1e2f4aa258621ff9",
+      "app_id": "672de7ae9f58310807db1d1a",
+      "network": "Meta Audience Network",
+      "phashion_group": "1e2f4aa258621ff9",
+      "ad_type": "video",
+      "first_seen_at": "2025-06-14",
+      "last_seen_at": "2025-12-15",
+      "creatives": [
+        {
+          "id": "1e2f4aa258621ff9",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0dc760f4cfc82167/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0dc760f4cfc82167/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0dc760f4cfc82167/thumb",
+          "video_duration": 29,
+          "width": 1080,
+          "height": 1920,
+          "title": "To Be a Palmon Master!",
+          "button_text": "Install now",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "e60eac9830ac3201",
+      "app_id": "672de7ae9f58310807db1d1a",
+      "network": "TikTok",
+      "phashion_group": "e60eac9830ac3201",
+      "ad_type": "video",
+      "first_seen_at": "2025-04-14",
+      "last_seen_at": "2026-01-09",
+      "creatives": [
+        {
+          "id": "e60eac9830ac3201",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0de079935901023b/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0de079935901023b/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0de079935901023b/thumb",
+          "video_duration": 42,
+          "width": 720,
+          "height": 1280,
+          "message": "Hurry! Boost Production Efficiency."
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "16f1d52d1d3ac5db",
+      "app_id": "672de7ae9f58310807db1d1a",
+      "network": "Facebook",
+      "phashion_group": "16f1d52d1d3ac5db",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-12",
+      "last_seen_at": "2025-12-17",
+      "creatives": [
+        {
+          "id": "16f1d52d1d3ac5db",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0e986bd6e77b2053/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0e986bd6e77b2053/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0e986bd6e77b2053/thumb",
+          "video_duration": 143,
+          "width": 1080,
+          "height": 1920,
+          "title": "รับสุ่มฟรี 100 ครั้งจำกัดเวลาของคุณ!😍🔥",
+          "button_text": "Install now",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "20fb6775299f8683",
+      "app_id": "672de7ae9f58310807db1d1a",
+      "network": "Instagram",
+      "phashion_group": "20fb6775299f8683",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-12",
+      "last_seen_at": "2025-12-17",
+      "creatives": [
+        {
+          "id": "20fb6775299f8683",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0e986bd6e77b2053/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0e986bd6e77b2053/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0e986bd6e77b2053/thumb",
+          "video_duration": 143,
+          "width": 1080,
+          "height": 1920,
+          "title": "รับสุ่มฟรี 100 ครั้งจำกัดเวลาของคุณ!😍🔥",
+          "button_text": "Install now",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "247306591222d46a",
+      "app_id": "672de7ae9f58310807db1d1a",
+      "network": "Meta Audience Network",
+      "phashion_group": "247306591222d46a",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-12",
+      "last_seen_at": "2025-12-17",
+      "creatives": [
+        {
+          "id": "247306591222d46a",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0e986bd6e77b2053/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0e986bd6e77b2053/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0e986bd6e77b2053/thumb",
+          "video_duration": 143,
+          "width": 1080,
+          "height": 1920,
+          "title": "รับสุ่มฟรี 100 ครั้งจำกัดเวลาของคุณ!😍🔥",
+          "button_text": "Install now",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "2f8794ff8d69a4a2",
+      "app_id": "672de7ae9f58310807db1d1a",
+      "network": "Facebook",
+      "phashion_group": "2f8794ff8d69a4a2",
+      "ad_type": "video",
+      "first_seen_at": "2025-06-14",
+      "last_seen_at": "2025-12-13",
+      "creatives": [
+        {
+          "id": "2f8794ff8d69a4a2",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0eed6ddd15db8b8d/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0eed6ddd15db8b8d/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0eed6ddd15db8b8d/thumb",
+          "video_duration": 42,
+          "width": 1080,
+          "height": 1920,
+          "title": "To Be a Palmon Master!",
+          "button_text": "Install now",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "09d52edd8882fa0a",
+      "app_id": "672de7ae9f58310807db1d1a",
+      "network": "Instagram",
+      "phashion_group": "09d52edd8882fa0a",
+      "ad_type": "video",
+      "first_seen_at": "2025-06-14",
+      "last_seen_at": "2025-12-13",
+      "creatives": [
+        {
+          "id": "09d52edd8882fa0a",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0eed6ddd15db8b8d/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0eed6ddd15db8b8d/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0eed6ddd15db8b8d/thumb",
+          "video_duration": 42,
+          "width": 1080,
+          "height": 1920,
+          "title": "To Be a Palmon Master!",
+          "button_text": "Install now",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "1d05478b8271b513",
+      "app_id": "672de7ae9f58310807db1d1a",
+      "network": "Meta Audience Network",
+      "phashion_group": "1d05478b8271b513",
+      "ad_type": "video",
+      "first_seen_at": "2025-06-14",
+      "last_seen_at": "2025-12-13",
+      "creatives": [
+        {
+          "id": "1d05478b8271b513",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0eed6ddd15db8b8d/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0eed6ddd15db8b8d/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0eed6ddd15db8b8d/thumb",
+          "video_duration": 42,
+          "width": 1080,
+          "height": 1920,
+          "title": "To Be a Palmon Master!",
+          "button_text": "Install now",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "2ea19cc84b9f94a5",
+      "app_id": "672de7ae9f58310807db1d1a",
+      "network": "Facebook",
+      "phashion_group": "2ea19cc84b9f94a5",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-05",
+      "last_seen_at": "2025-12-11",
+      "creatives": [
+        {
+          "id": "2ea19cc84b9f94a5",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0fcb65ead32dbb8a/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0fcb65ead32dbb8a/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0fcb65ead32dbb8a/thumb",
+          "video_duration": 31,
+          "width": 1080,
+          "height": 1920,
+          "title": "Become a Palmon Master!",
+          "button_text": "Install now",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "08f326ea4e74ca0d",
+      "app_id": "672de7ae9f58310807db1d1a",
+      "network": "Instagram",
+      "phashion_group": "08f326ea4e74ca0d",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-05",
+      "last_seen_at": "2025-12-11",
+      "creatives": [
+        {
+          "id": "08f326ea4e74ca0d",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0fcb65ead32dbb8a/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0fcb65ead32dbb8a/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0fcb65ead32dbb8a/thumb",
+          "video_duration": 31,
+          "width": 1080,
+          "height": 1920,
+          "title": "Become a Palmon Master!",
+          "button_text": "Install now",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "1c234fbc44878514",
+      "app_id": "672de7ae9f58310807db1d1a",
+      "network": "Meta Audience Network",
+      "phashion_group": "1c234fbc44878514",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-05",
+      "last_seen_at": "2025-12-11",
+      "creatives": [
+        {
+          "id": "1c234fbc44878514",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0fcb65ead32dbb8a/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0fcb65ead32dbb8a/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0fcb65ead32dbb8a/thumb",
+          "video_duration": 31,
+          "width": 1080,
+          "height": 1920,
+          "title": "Become a Palmon Master!",
+          "button_text": "Install now",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "0ef3deb00962e289",
+      "app_id": "672de7ae9f58310807db1d1a",
+      "network": "TikTok",
+      "phashion_group": "0ef3deb00962e289",
+      "ad_type": "video",
+      "first_seen_at": "2025-01-13",
+      "last_seen_at": "2026-01-10",
+      "creatives": [
+        {
+          "id": "0ef3deb00962e289",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/10d191064cc41005/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/10d191064cc41005/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/10d191064cc41005/thumb",
+          "video_duration": 33,
+          "width": 720,
+          "height": 1280,
+          "message": "Relaxing and Fun-Packed RPG"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "0aebf04e941aac8d",
+      "app_id": "672de7ae9f58310807db1d1a",
+      "network": "Facebook",
+      "phashion_group": "0aebf04e941aac8d",
+      "ad_type": "video",
+      "first_seen_at": "2025-10-24",
+      "last_seen_at": "2025-12-17",
+      "creatives": [
+        {
+          "id": "0aebf04e941aac8d",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/12824eb56e5b4905/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/12824eb56e5b4905/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/12824eb56e5b4905/thumb",
+          "video_duration": 39,
+          "width": 1080,
+          "height": 1920,
+          "title": "Palmon: Survival เปิดแล้ว!",
+          "button_text": "Install now",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "3ce14216a0bfefd5",
+      "app_id": "672de7ae9f58310807db1d1a",
+      "network": "Instagram",
+      "phashion_group": "3ce14216a0bfefd5",
+      "ad_type": "video",
+      "first_seen_at": "2025-10-24",
+      "last_seen_at": "2025-12-17",
+      "creatives": [
+        {
+          "id": "3ce14216a0bfefd5",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/12824eb56e5b4905/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/12824eb56e5b4905/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/12824eb56e5b4905/thumb",
+          "video_duration": 39,
+          "width": 1080,
+          "height": 1920,
+          "title": "Palmon: Survival เปิดแล้ว!",
+          "button_text": "Install now",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "3869233a9b02bd3c",
+      "app_id": "672de7ae9f58310807db1d1a",
+      "network": "Meta Audience Network",
+      "phashion_group": "3869233a9b02bd3c",
+      "ad_type": "video",
+      "first_seen_at": "2025-10-24",
+      "last_seen_at": "2025-12-17",
+      "creatives": [
+        {
+          "id": "3869233a9b02bd3c",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/12824eb56e5b4905/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/12824eb56e5b4905/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/12824eb56e5b4905/thumb",
+          "video_duration": 39,
+          "width": 1080,
+          "height": 1920,
+          "title": "Palmon: Survival เปิดแล้ว!",
+          "button_text": "Install now",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "7d1df0fe0fdfd738",
+      "app_id": "672de7ae9f58310807db1d1a",
+      "network": "TikTok",
+      "phashion_group": "7d1df0fe0fdfd738",
+      "ad_type": "video",
+      "first_seen_at": "2025-01-19",
+      "last_seen_at": "2026-01-01",
+      "creatives": [
+        {
+          "id": "7d1df0fe0fdfd738",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1365728d7394f95f/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1365728d7394f95f/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1365728d7394f95f/thumb",
+          "video_duration": 30,
+          "width": 720,
+          "height": 1280,
+          "message": "Log In to Get 100 Free Draws!"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "32f5a671af978ae8",
+      "app_id": "672de7ae9f58310807db1d1a",
+      "network": "Facebook",
+      "phashion_group": "32f5a671af978ae8",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-12",
+      "last_seen_at": "2026-01-27",
+      "creatives": [
+        {
+          "id": "32f5a671af978ae8",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/139f5f533725a5c7/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/139f5f533725a5c7/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/139f5f533725a5c7/thumb",
+          "video_duration": 44,
+          "width": 1080,
+          "height": 1920,
+          "title": "To Be a Palmon Master!",
+          "button_text": "Install now",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "14a71c53aa7cd440",
+      "app_id": "672de7ae9f58310807db1d1a",
+      "network": "Instagram",
+      "phashion_group": "14a71c53aa7cd440",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-12",
+      "last_seen_at": "2026-01-27",
+      "creatives": [
+        {
+          "id": "14a71c53aa7cd440",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/139f5f533725a5c7/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/139f5f533725a5c7/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/139f5f533725a5c7/thumb",
+          "video_duration": 44,
+          "width": 1080,
+          "height": 1920,
+          "title": "To Be a Palmon Master!",
+          "button_text": "Install now",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "00777505a08f9b59",
+      "app_id": "672de7ae9f58310807db1d1a",
+      "network": "Meta Audience Network",
+      "phashion_group": "00777505a08f9b59",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-20",
+      "last_seen_at": "2026-01-27",
+      "creatives": [
+        {
+          "id": "00777505a08f9b59",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/139f5f533725a5c7/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/139f5f533725a5c7/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/139f5f533725a5c7/thumb",
+          "video_duration": 44,
+          "width": 1080,
+          "height": 1920,
+          "title": "To Be a Palmon Master!",
+          "button_text": "Install now",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    }
+  ]
+}

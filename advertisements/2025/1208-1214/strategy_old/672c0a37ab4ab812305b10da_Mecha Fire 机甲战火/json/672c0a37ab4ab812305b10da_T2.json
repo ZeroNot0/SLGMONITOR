@@ -1,0 +1,4290 @@
+{
+  "count": 311,
+  "available_networks": [
+    "Applovin",
+    "Facebook",
+    "Instagram",
+    "Meta Audience Network",
+    "TikTok"
+  ],
+  "ad_units": [
+    {
+      "id": "d4e16bc4163d06b7",
+      "app_id": "672c0a37ab4ab812305b10da",
+      "network": "Applovin",
+      "phashion_group": "d4e16bc4163d06b7",
+      "ad_type": "video",
+      "first_seen_at": "2025-10-11",
+      "last_seen_at": "2026-01-26",
+      "creatives": [
+        {
+          "id": "d4e16bc4163d06b7",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1fec8d867341192a/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1fec8d867341192a/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1fec8d867341192a/thumb",
+          "video_duration": 53,
+          "width": 720,
+          "height": 1280,
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "rewarded"
+      ],
+      "share": 0.345704,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.907446
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            1.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 3,
+        "data": [
+          [
+            "6845bcda27de6925fcea4385",
+            0.475739
+          ],
+          [
+            "626b39a6edca107aa283afcc",
+            0.342987
+          ],
+          [
+            "672c3bc09ef0005f3a116f61",
+            0.181274
+          ]
+        ]
+      }
+    },
+    {
+      "id": "d4e0c6ac82c606fb",
+      "app_id": "672c0a37ab4ab812305b10da",
+      "network": "Applovin",
+      "phashion_group": "d4e0c6ac82c606fb",
+      "ad_type": "video",
+      "first_seen_at": "2025-09-10",
+      "last_seen_at": "2026-01-04",
+      "creatives": [
+        {
+          "id": "d4e0c6ac82c606fb",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1fed20eee7ba1966/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1fed20eee7ba1966/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1fed20eee7ba1966/thumb",
+          "video_duration": 42,
+          "width": 720,
+          "height": 1280,
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "rewarded",
+        "interstitial"
+      ],
+      "share": 0.268923,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            1.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 2,
+        "data": [
+          [
+            "672e2ed5858d7df8b06638db",
+            0.533939
+          ],
+          [
+            "672c3bc09ef0005f3a116f61",
+            0.466061
+          ]
+        ]
+      }
+    },
+    {
+      "id": "5ce6ad849d5d810f",
+      "app_id": "672c0a37ab4ab812305b10da",
+      "network": "Applovin",
+      "phashion_group": "5ce6ad849d5d810f",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-13",
+      "last_seen_at": "2026-01-28",
+      "creatives": [
+        {
+          "id": "5ce6ad849d5d810f",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/97eb4bc6f8219e92/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/97eb4bc6f8219e92/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/97eb4bc6f8219e92/thumb",
+          "video_duration": 50,
+          "width": 720,
+          "height": 1280,
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "rewarded"
+      ],
+      "share": 0.258262,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 1,
+        "data": [
+          [
+            "6845bcda27de6925fcea4385",
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "id": "61b0732d226598fc",
+      "app_id": "672c0a37ab4ab812305b10da",
+      "network": "Applovin",
+      "phashion_group": "61b0732d226598fc",
+      "ad_type": "video",
+      "first_seen_at": "2025-06-23",
+      "last_seen_at": "2026-01-04",
+      "creatives": [
+        {
+          "id": "61b0732d226598fc",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/aabd956f47198761/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/aabd956f47198761/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/aabd956f47198761/thumb",
+          "video_duration": 26,
+          "width": 720,
+          "height": 1280,
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "interstitial"
+      ],
+      "share": 0.071794,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            1.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 1,
+        "data": [
+          [
+            "672e2ed5858d7df8b06638db",
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "id": "3c34523ccd9780fd",
+      "app_id": "672c0a37ab4ab812305b10da",
+      "network": "Applovin",
+      "phashion_group": "3c34523ccd9780fd",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-13",
+      "last_seen_at": "2026-01-28",
+      "creatives": [
+        {
+          "id": "3c34523ccd9780fd",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/f739b47ea8eb9f60/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/f739b47ea8eb9f60/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/f739b47ea8eb9f60/thumb",
+          "video_duration": 47,
+          "width": 720,
+          "height": 1280,
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "rewarded"
+      ],
+      "share": 0.055317,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 1,
+        "data": [
+          [
+            "672c3bc09ef0005f3a116f61",
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "id": "baf5206358f86ae2",
+      "app_id": "672c0a37ab4ab812305b10da",
+      "network": "Facebook",
+      "phashion_group": "baf5206358f86ae2",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-10",
+      "last_seen_at": "2026-01-06",
+      "creatives": [
+        {
+          "id": "baf5206358f86ae2",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/00a0efe884d31185/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/00a0efe884d31185/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/00a0efe884d31185/thumb",
+          "video_duration": 18,
+          "width": 1080,
+          "height": 1920,
+          "title": "Mecha Commanders Unite",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "e297cb5c6c078412",
+      "app_id": "672c0a37ab4ab812305b10da",
+      "network": "Instagram",
+      "phashion_group": "e297cb5c6c078412",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-10",
+      "last_seen_at": "2026-01-06",
+      "creatives": [
+        {
+          "id": "e297cb5c6c078412",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/00a0efe884d31185/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/00a0efe884d31185/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/00a0efe884d31185/thumb",
+          "video_duration": 18,
+          "width": 1080,
+          "height": 1920,
+          "title": "Mecha Commanders Unite",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "8877f31757e07b53",
+      "app_id": "672c0a37ab4ab812305b10da",
+      "network": "Meta Audience Network",
+      "phashion_group": "8877f31757e07b53",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-10",
+      "last_seen_at": "2026-01-06",
+      "creatives": [
+        {
+          "id": "8877f31757e07b53",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/00a0efe884d31185/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/00a0efe884d31185/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/00a0efe884d31185/thumb",
+          "video_duration": 18,
+          "width": 1080,
+          "height": 1920,
+          "title": "Mecha Commanders Unite",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "bb2a3b11611e7cc5",
+      "app_id": "672c0a37ab4ab812305b10da",
+      "network": "Facebook",
+      "phashion_group": "bb2a3b11611e7cc5",
+      "ad_type": "video",
+      "first_seen_at": "2025-06-20",
+      "last_seen_at": "2026-01-14",
+      "creatives": [
+        {
+          "id": "bb2a3b11611e7cc5",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/017ff49abd3507a2/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/017ff49abd3507a2/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/017ff49abd3507a2/thumb",
+          "video_duration": 32,
+          "width": 1080,
+          "height": 1920,
+          "title": "Mecha Commanders Unite",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "e348d02e55e19235",
+      "app_id": "672c0a37ab4ab812305b10da",
+      "network": "Instagram",
+      "phashion_group": "e348d02e55e19235",
+      "ad_type": "video",
+      "first_seen_at": "2025-06-20",
+      "last_seen_at": "2026-01-14",
+      "creatives": [
+        {
+          "id": "e348d02e55e19235",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/017ff49abd3507a2/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/017ff49abd3507a2/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/017ff49abd3507a2/thumb",
+          "video_duration": 32,
+          "width": 1080,
+          "height": 1920,
+          "title": "Mecha Commanders Unite",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "89a8e8656e066d74",
+      "app_id": "672c0a37ab4ab812305b10da",
+      "network": "Meta Audience Network",
+      "phashion_group": "89a8e8656e066d74",
+      "ad_type": "video",
+      "first_seen_at": "2025-06-20",
+      "last_seen_at": "2026-01-14",
+      "creatives": [
+        {
+          "id": "89a8e8656e066d74",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/017ff49abd3507a2/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/017ff49abd3507a2/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/017ff49abd3507a2/thumb",
+          "video_duration": 32,
+          "width": 1080,
+          "height": 1920,
+          "title": "Mecha Commanders Unite",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "bc6c162a7c81c614",
+      "app_id": "672c0a37ab4ab812305b10da",
+      "network": "Facebook",
+      "phashion_group": "bc6c162a7c81c614",
+      "ad_type": "video",
+      "first_seen_at": "2025-09-11",
+      "last_seen_at": "2025-12-10",
+      "creatives": [
+        {
+          "id": "bc6c162a7c81c614",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0639d9a1a0aabd73/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0639d9a1a0aabd73/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0639d9a1a0aabd73/thumb",
+          "video_duration": 20,
+          "width": 1080,
+          "height": 1920,
+          "title": "Mecha Commanders Unite",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "e40efd15487e28e4",
+      "app_id": "672c0a37ab4ab812305b10da",
+      "network": "Instagram",
+      "phashion_group": "e40efd15487e28e4",
+      "ad_type": "video",
+      "first_seen_at": "2025-09-11",
+      "last_seen_at": "2025-12-10",
+      "creatives": [
+        {
+          "id": "e40efd15487e28e4",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0639d9a1a0aabd73/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0639d9a1a0aabd73/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0639d9a1a0aabd73/thumb",
+          "video_duration": 20,
+          "width": 1080,
+          "height": 1920,
+          "title": "Mecha Commanders Unite",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "8eeec55e7399d7a5",
+      "app_id": "672c0a37ab4ab812305b10da",
+      "network": "Meta Audience Network",
+      "phashion_group": "8eeec55e7399d7a5",
+      "ad_type": "video",
+      "first_seen_at": "2025-09-11",
+      "last_seen_at": "2025-12-10",
+      "creatives": [
+        {
+          "id": "8eeec55e7399d7a5",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0639d9a1a0aabd73/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0639d9a1a0aabd73/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0639d9a1a0aabd73/thumb",
+          "video_duration": 20,
+          "width": 1080,
+          "height": 1920,
+          "title": "Mecha Commanders Unite",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "b6ce02cb8978b5b3",
+      "app_id": "672c0a37ab4ab812305b10da",
+      "network": "Facebook",
+      "phashion_group": "b6ce02cb8978b5b3",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-11",
+      "last_seen_at": "2026-01-06",
+      "creatives": [
+        {
+          "id": "b6ce02cb8978b5b3",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0c9bcd405553ced4/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0c9bcd405553ced4/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0c9bcd405553ced4/thumb",
+          "video_duration": 35,
+          "width": 1080,
+          "height": 1920,
+          "title": "Mecha Commanders Unite",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "eeace9f4bd875b43",
+      "app_id": "672c0a37ab4ab812305b10da",
+      "network": "Instagram",
+      "phashion_group": "eeace9f4bd875b43",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-11",
+      "last_seen_at": "2026-01-06",
+      "creatives": [
+        {
+          "id": "eeace9f4bd875b43",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0c9bcd405553ced4/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0c9bcd405553ced4/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0c9bcd405553ced4/thumb",
+          "video_duration": 35,
+          "width": 1080,
+          "height": 1920,
+          "title": "Mecha Commanders Unite",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "844cd1bf8660a402",
+      "app_id": "672c0a37ab4ab812305b10da",
+      "network": "Meta Audience Network",
+      "phashion_group": "844cd1bf8660a402",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-11",
+      "last_seen_at": "2026-01-06",
+      "creatives": [
+        {
+          "id": "844cd1bf8660a402",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0c9bcd405553ced4/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0c9bcd405553ced4/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0c9bcd405553ced4/thumb",
+          "video_duration": 35,
+          "width": 1080,
+          "height": 1920,
+          "title": "Mecha Commanders Unite",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "b6b40bd7b04788b8",
+      "app_id": "672c0a37ab4ab812305b10da",
+      "network": "Facebook",
+      "phashion_group": "b6b40bd7b04788b8",
+      "ad_type": "video",
+      "first_seen_at": "2025-09-11",
+      "last_seen_at": "2026-01-28",
+      "creatives": [
+        {
+          "id": "b6b40bd7b04788b8",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0ce1c45c6c6cf3df/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0ce1c45c6c6cf3df/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0ce1c45c6c6cf3df/thumb",
+          "video_duration": 24,
+          "width": 1080,
+          "height": 1920,
+          "title": "화성: 붉은 출정",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "eed6e0e884b86648",
+      "app_id": "672c0a37ab4ab812305b10da",
+      "network": "Instagram",
+      "phashion_group": "eed6e0e884b86648",
+      "ad_type": "video",
+      "first_seen_at": "2025-10-02",
+      "last_seen_at": "2026-01-28",
+      "creatives": [
+        {
+          "id": "eed6e0e884b86648",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0ce1c45c6c6cf3df/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0ce1c45c6c6cf3df/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0ce1c45c6c6cf3df/thumb",
+          "video_duration": 24,
+          "width": 1080,
+          "height": 1920,
+          "title": "화성: 붉은 출정",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "8436d8a3bf5f9909",
+      "app_id": "672c0a37ab4ab812305b10da",
+      "network": "Meta Audience Network",
+      "phashion_group": "8436d8a3bf5f9909",
+      "ad_type": "video",
+      "first_seen_at": "2025-09-11",
+      "last_seen_at": "2026-01-28",
+      "creatives": [
+        {
+          "id": "8436d8a3bf5f9909",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0ce1c45c6c6cf3df/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0ce1c45c6c6cf3df/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0ce1c45c6c6cf3df/thumb",
+          "video_duration": 24,
+          "width": 1080,
+          "height": 1920,
+          "title": "화성: 붉은 출정",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "b570d8acb04e049e",
+      "app_id": "672c0a37ab4ab812305b10da",
+      "network": "Facebook",
+      "phashion_group": "b570d8acb04e049e",
+      "ad_type": "video",
+      "first_seen_at": "2025-09-25",
+      "last_seen_at": "2026-01-28",
+      "creatives": [
+        {
+          "id": "b570d8acb04e049e",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0f2517276c657ff9/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0f2517276c657ff9/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0f2517276c657ff9/thumb",
+          "video_duration": 36,
+          "width": 1080,
+          "height": 1920,
+          "title": "화성: 붉은 출정",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "ed12339384b1ea6e",
+      "app_id": "672c0a37ab4ab812305b10da",
+      "network": "Instagram",
+      "phashion_group": "ed12339384b1ea6e",
+      "ad_type": "video",
+      "first_seen_at": "2025-09-25",
+      "last_seen_at": "2026-01-28",
+      "creatives": [
+        {
+          "id": "ed12339384b1ea6e",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0f2517276c657ff9/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0f2517276c657ff9/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0f2517276c657ff9/thumb",
+          "video_duration": 36,
+          "width": 1080,
+          "height": 1920,
+          "title": "화성: 붉은 출정",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "87f20bd8bf56152f",
+      "app_id": "672c0a37ab4ab812305b10da",
+      "network": "Meta Audience Network",
+      "phashion_group": "87f20bd8bf56152f",
+      "ad_type": "video",
+      "first_seen_at": "2025-09-11",
+      "last_seen_at": "2026-01-28",
+      "creatives": [
+        {
+          "id": "87f20bd8bf56152f",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0f2517276c657ff9/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0f2517276c657ff9/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0f2517276c657ff9/thumb",
+          "video_duration": 36,
+          "width": 1080,
+          "height": 1920,
+          "title": "화성: 붉은 출정",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "a9350900c21e584e",
+      "app_id": "672c0a37ab4ab812305b10da",
+      "network": "Facebook",
+      "phashion_group": "a9350900c21e584e",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-27",
+      "last_seen_at": "2025-12-10",
+      "creatives": [
+        {
+          "id": "a9350900c21e584e",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1360c68b1e352329/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1360c68b1e352329/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1360c68b1e352329/thumb",
+          "video_duration": 48,
+          "width": 1080,
+          "height": 1920,
+          "title": "Mecha Commanders Unite",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "f157e23ff6e1b6be",
+      "app_id": "672c0a37ab4ab812305b10da",
+      "network": "Instagram",
+      "phashion_group": "f157e23ff6e1b6be",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-27",
+      "last_seen_at": "2025-12-10",
+      "creatives": [
+        {
+          "id": "f157e23ff6e1b6be",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1360c68b1e352329/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1360c68b1e352329/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1360c68b1e352329/thumb",
+          "video_duration": 48,
+          "width": 1080,
+          "height": 1920,
+          "title": "Mecha Commanders Unite",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "9bb7da74cd0649ff",
+      "app_id": "672c0a37ab4ab812305b10da",
+      "network": "Meta Audience Network",
+      "phashion_group": "9bb7da74cd0649ff",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-27",
+      "last_seen_at": "2025-12-10",
+      "creatives": [
+        {
+          "id": "9bb7da74cd0649ff",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1360c68b1e352329/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1360c68b1e352329/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1360c68b1e352329/thumb",
+          "video_duration": 48,
+          "width": 1080,
+          "height": 1920,
+          "title": "Mecha Commanders Unite",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "afcdbad0764b2543",
+      "app_id": "672c0a37ab4ab812305b10da",
+      "network": "Facebook",
+      "phashion_group": "afcdbad0764b2543",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-27",
+      "last_seen_at": "2025-12-10",
+      "creatives": [
+        {
+          "id": "afcdbad0764b2543",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1598755baa605e24/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1598755baa605e24/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1598755baa605e24/thumb",
+          "video_duration": 39,
+          "width": 1080,
+          "height": 1920,
+          "title": "Mecha Commanders Unite",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "f7af51ef42b4cbb3",
+      "app_id": "672c0a37ab4ab812305b10da",
+      "network": "Instagram",
+      "phashion_group": "f7af51ef42b4cbb3",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-27",
+      "last_seen_at": "2025-12-10",
+      "creatives": [
+        {
+          "id": "f7af51ef42b4cbb3",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1598755baa605e24/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1598755baa605e24/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1598755baa605e24/thumb",
+          "video_duration": 39,
+          "width": 1080,
+          "height": 1920,
+          "title": "Mecha Commanders Unite",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "9d4f69a4795334f2",
+      "app_id": "672c0a37ab4ab812305b10da",
+      "network": "Meta Audience Network",
+      "phashion_group": "9d4f69a4795334f2",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-27",
+      "last_seen_at": "2025-12-10",
+      "creatives": [
+        {
+          "id": "9d4f69a4795334f2",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1598755baa605e24/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1598755baa605e24/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1598755baa605e24/thumb",
+          "video_duration": 39,
+          "width": 1080,
+          "height": 1920,
+          "title": "Mecha Commanders Unite",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "ac500f6fb6c42934",
+      "app_id": "672c0a37ab4ab812305b10da",
+      "network": "Facebook",
+      "phashion_group": "ac500f6fb6c42934",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-10",
+      "last_seen_at": "2026-01-06",
+      "creatives": [
+        {
+          "id": "ac500f6fb6c42934",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1605c0e46aef5253/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1605c0e46aef5253/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1605c0e46aef5253/thumb",
+          "video_duration": 15,
+          "width": 1080,
+          "height": 1920,
+          "title": "Mecha Commanders Unite",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "f432e450823bc7c4",
+      "app_id": "672c0a37ab4ab812305b10da",
+      "network": "Instagram",
+      "phashion_group": "f432e450823bc7c4",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-10",
+      "last_seen_at": "2026-01-06",
+      "creatives": [
+        {
+          "id": "f432e450823bc7c4",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1605c0e46aef5253/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1605c0e46aef5253/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1605c0e46aef5253/thumb",
+          "video_duration": 15,
+          "width": 1080,
+          "height": 1920,
+          "title": "Mecha Commanders Unite",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "9ed2dc1bb9dc3885",
+      "app_id": "672c0a37ab4ab812305b10da",
+      "network": "Meta Audience Network",
+      "phashion_group": "9ed2dc1bb9dc3885",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-10",
+      "last_seen_at": "2026-01-06",
+      "creatives": [
+        {
+          "id": "9ed2dc1bb9dc3885",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1605c0e46aef5253/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1605c0e46aef5253/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1605c0e46aef5253/thumb",
+          "video_duration": 15,
+          "width": 1080,
+          "height": 1920,
+          "title": "Mecha Commanders Unite",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "ac44770247291d55",
+      "app_id": "672c0a37ab4ab812305b10da",
+      "network": "Facebook",
+      "phashion_group": "ac44770247291d55",
+      "ad_type": "video",
+      "first_seen_at": "2025-07-03",
+      "last_seen_at": "2026-01-14",
+      "creatives": [
+        {
+          "id": "ac44770247291d55",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1611b8899b026632/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1611b8899b026632/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1611b8899b026632/thumb",
+          "video_duration": 46,
+          "width": 1080,
+          "height": 1920,
+          "title": "Mecha Commanders Unite",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "f4269c3d73d6f3a5",
+      "app_id": "672c0a37ab4ab812305b10da",
+      "network": "Instagram",
+      "phashion_group": "f4269c3d73d6f3a5",
+      "ad_type": "video",
+      "first_seen_at": "2025-07-03",
+      "last_seen_at": "2026-01-14",
+      "creatives": [
+        {
+          "id": "f4269c3d73d6f3a5",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1611b8899b026632/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1611b8899b026632/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1611b8899b026632/thumb",
+          "video_duration": 46,
+          "width": 1080,
+          "height": 1920,
+          "title": "Mecha Commanders Unite",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "9ec6a47648310ce4",
+      "app_id": "672c0a37ab4ab812305b10da",
+      "network": "Meta Audience Network",
+      "phashion_group": "9ec6a47648310ce4",
+      "ad_type": "video",
+      "first_seen_at": "2025-07-03",
+      "last_seen_at": "2026-01-14",
+      "creatives": [
+        {
+          "id": "9ec6a47648310ce4",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1611b8899b026632/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1611b8899b026632/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1611b8899b026632/thumb",
+          "video_duration": 46,
+          "width": 1080,
+          "height": 1920,
+          "title": "Mecha Commanders Unite",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "a2d691aa5176ddeb",
+      "app_id": "672c0a37ab4ab812305b10da",
+      "network": "Facebook",
+      "phashion_group": "a2d691aa5176ddeb",
+      "ad_type": "video",
+      "first_seen_at": "2025-09-08",
+      "last_seen_at": "2026-01-28",
+      "creatives": [
+        {
+          "id": "a2d691aa5176ddeb",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/18835e218d5da68c/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/18835e218d5da68c/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/18835e218d5da68c/thumb",
+          "video_duration": 38,
+          "width": 1080,
+          "height": 1920,
+          "title": "Mecha Commanders Unite",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "fab47a956589331b",
+      "app_id": "672c0a37ab4ab812305b10da",
+      "network": "Instagram",
+      "phashion_group": "fab47a956589331b",
+      "ad_type": "video",
+      "first_seen_at": "2025-09-08",
+      "last_seen_at": "2026-01-28",
+      "creatives": [
+        {
+          "id": "fab47a956589331b",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/18835e218d5da68c/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/18835e218d5da68c/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/18835e218d5da68c/thumb",
+          "video_duration": 38,
+          "width": 1080,
+          "height": 1920,
+          "title": "Mecha Commanders Unite",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "905442de5e6ecc5a",
+      "app_id": "672c0a37ab4ab812305b10da",
+      "network": "Meta Audience Network",
+      "phashion_group": "905442de5e6ecc5a",
+      "ad_type": "video",
+      "first_seen_at": "2025-09-08",
+      "last_seen_at": "2026-01-28",
+      "creatives": [
+        {
+          "id": "905442de5e6ecc5a",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/18835e218d5da68c/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/18835e218d5da68c/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/18835e218d5da68c/thumb",
+          "video_duration": 38,
+          "width": 1080,
+          "height": 1920,
+          "title": "Mecha Commanders Unite",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "a34b82a4c908d862",
+      "app_id": "672c0a37ab4ab812305b10da",
+      "network": "Facebook",
+      "phashion_group": "a34b82a4c908d862",
+      "ad_type": "video",
+      "first_seen_at": "2025-09-11",
+      "last_seen_at": "2026-01-29",
+      "creatives": [
+        {
+          "id": "a34b82a4c908d862",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/191e4d2f1523a305/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/191e4d2f1523a305/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/191e4d2f1523a305/thumb",
+          "video_duration": 46,
+          "width": 1080,
+          "height": 1920,
+          "title": "Mecha Commanders Unite",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "fb29699bfdf73692",
+      "app_id": "672c0a37ab4ab812305b10da",
+      "network": "Instagram",
+      "phashion_group": "fb29699bfdf73692",
+      "ad_type": "video",
+      "first_seen_at": "2025-09-11",
+      "last_seen_at": "2026-01-29",
+      "creatives": [
+        {
+          "id": "fb29699bfdf73692",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/191e4d2f1523a305/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/191e4d2f1523a305/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/191e4d2f1523a305/thumb",
+          "video_duration": 46,
+          "width": 1080,
+          "height": 1920,
+          "title": "Mecha Commanders Unite",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "91c951d0c610c9d3",
+      "app_id": "672c0a37ab4ab812305b10da",
+      "network": "Meta Audience Network",
+      "phashion_group": "91c951d0c610c9d3",
+      "ad_type": "video",
+      "first_seen_at": "2025-09-11",
+      "last_seen_at": "2026-01-29",
+      "creatives": [
+        {
+          "id": "91c951d0c610c9d3",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/191e4d2f1523a305/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/191e4d2f1523a305/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/191e4d2f1523a305/thumb",
+          "video_duration": 46,
+          "width": 1080,
+          "height": 1920,
+          "title": "Mecha Commanders Unite",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "a7a8cba811be904e",
+      "app_id": "672c0a37ab4ab812305b10da",
+      "network": "Facebook",
+      "phashion_group": "a7a8cba811be904e",
+      "ad_type": "video",
+      "first_seen_at": "2025-07-17",
+      "last_seen_at": "2026-01-28",
+      "creatives": [
+        {
+          "id": "a7a8cba811be904e",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1dfd0423cd95eb29/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1dfd0423cd95eb29/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1dfd0423cd95eb29/thumb",
+          "video_duration": 28,
+          "width": 1080,
+          "height": 1920,
+          "title": "Mecha Commanders Unite",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "ffca209725417ebe",
+      "app_id": "672c0a37ab4ab812305b10da",
+      "network": "Instagram",
+      "phashion_group": "ffca209725417ebe",
+      "ad_type": "video",
+      "first_seen_at": "2025-07-17",
+      "last_seen_at": "2026-01-28",
+      "creatives": [
+        {
+          "id": "ffca209725417ebe",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1dfd0423cd95eb29/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1dfd0423cd95eb29/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1dfd0423cd95eb29/thumb",
+          "video_duration": 28,
+          "width": 1080,
+          "height": 1920,
+          "title": "Mecha Commanders Unite",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "952a18dc1ea681ff",
+      "app_id": "672c0a37ab4ab812305b10da",
+      "network": "Meta Audience Network",
+      "phashion_group": "952a18dc1ea681ff",
+      "ad_type": "video",
+      "first_seen_at": "2025-07-17",
+      "last_seen_at": "2026-01-28",
+      "creatives": [
+        {
+          "id": "952a18dc1ea681ff",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1dfd0423cd95eb29/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1dfd0423cd95eb29/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1dfd0423cd95eb29/thumb",
+          "video_duration": 28,
+          "width": 1080,
+          "height": 1920,
+          "title": "Mecha Commanders Unite",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "a42b5f22f0c2e34e",
+      "app_id": "672c0a37ab4ab812305b10da",
+      "network": "Facebook",
+      "phashion_group": "a42b5f22f0c2e34e",
+      "ad_type": "video",
+      "first_seen_at": "2025-07-28",
+      "last_seen_at": "2026-01-28",
+      "creatives": [
+        {
+          "id": "a42b5f22f0c2e34e",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1e7e90a92ce99829/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1e7e90a92ce99829/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1e7e90a92ce99829/thumb",
+          "video_duration": 41,
+          "width": 1080,
+          "height": 1920,
+          "title": "Mecha Commanders Unite",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "fc49b41dc43d0dbe",
+      "app_id": "672c0a37ab4ab812305b10da",
+      "network": "Instagram",
+      "phashion_group": "fc49b41dc43d0dbe",
+      "ad_type": "video",
+      "first_seen_at": "2025-07-28",
+      "last_seen_at": "2026-01-28",
+      "creatives": [
+        {
+          "id": "fc49b41dc43d0dbe",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1e7e90a92ce99829/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1e7e90a92ce99829/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1e7e90a92ce99829/thumb",
+          "video_duration": 41,
+          "width": 1080,
+          "height": 1920,
+          "title": "Mecha Commanders Unite",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "96a98c56ffdaf2ff",
+      "app_id": "672c0a37ab4ab812305b10da",
+      "network": "Meta Audience Network",
+      "phashion_group": "96a98c56ffdaf2ff",
+      "ad_type": "video",
+      "first_seen_at": "2025-07-29",
+      "last_seen_at": "2026-01-28",
+      "creatives": [
+        {
+          "id": "96a98c56ffdaf2ff",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1e7e90a92ce99829/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1e7e90a92ce99829/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1e7e90a92ce99829/thumb",
+          "video_duration": 41,
+          "width": 1080,
+          "height": 1920,
+          "title": "Mecha Commanders Unite",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "9be4fb55ff700704",
+      "app_id": "672c0a37ab4ab812305b10da",
+      "network": "Facebook",
+      "phashion_group": "9be4fb55ff700704",
+      "ad_type": "video",
+      "first_seen_at": "2025-06-20",
+      "last_seen_at": "2025-12-10",
+      "creatives": [
+        {
+          "id": "9be4fb55ff700704",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/21b134de235b7c63/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/21b134de235b7c63/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/21b134de235b7c63/thumb",
+          "video_duration": 26,
+          "width": 1080,
+          "height": 1080,
+          "title": "Mecha Commanders Unite",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "c386106acb8fe9f4",
+      "app_id": "672c0a37ab4ab812305b10da",
+      "network": "Instagram",
+      "phashion_group": "c386106acb8fe9f4",
+      "ad_type": "video",
+      "first_seen_at": "2025-06-20",
+      "last_seen_at": "2025-12-10",
+      "creatives": [
+        {
+          "id": "c386106acb8fe9f4",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/21b134de235b7c63/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/21b134de235b7c63/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/21b134de235b7c63/thumb",
+          "video_duration": 26,
+          "width": 1080,
+          "height": 1080,
+          "title": "Mecha Commanders Unite",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "a9662821f06816b5",
+      "app_id": "672c0a37ab4ab812305b10da",
+      "network": "Meta Audience Network",
+      "phashion_group": "a9662821f06816b5",
+      "ad_type": "video",
+      "first_seen_at": "2025-06-20",
+      "last_seen_at": "2025-12-10",
+      "creatives": [
+        {
+          "id": "a9662821f06816b5",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/21b134de235b7c63/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/21b134de235b7c63/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/21b134de235b7c63/thumb",
+          "video_duration": 26,
+          "width": 1080,
+          "height": 1080,
+          "title": "Mecha Commanders Unite",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "9094654305360a94",
+      "app_id": "672c0a37ab4ab812305b10da",
+      "network": "Facebook",
+      "phashion_group": "9094654305360a94",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-10",
+      "last_seen_at": "2026-01-12",
+      "creatives": [
+        {
+          "id": "9094654305360a94",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2ac1aac8d91d71f3/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2ac1aac8d91d71f3/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2ac1aac8d91d71f3/thumb",
+          "video_duration": 38,
+          "width": 1080,
+          "height": 1920,
+          "title": "Mecha Commanders Unite",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "c8f68e7c31c9e464",
+      "app_id": "672c0a37ab4ab812305b10da",
+      "network": "Instagram",
+      "phashion_group": "c8f68e7c31c9e464",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-10",
+      "last_seen_at": "2026-01-12",
+      "creatives": [
+        {
+          "id": "c8f68e7c31c9e464",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2ac1aac8d91d71f3/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2ac1aac8d91d71f3/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2ac1aac8d91d71f3/thumb",
+          "video_duration": 38,
+          "width": 1080,
+          "height": 1920,
+          "title": "Mecha Commanders Unite",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "a216b6370a2e1b25",
+      "app_id": "672c0a37ab4ab812305b10da",
+      "network": "Meta Audience Network",
+      "phashion_group": "a216b6370a2e1b25",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-10",
+      "last_seen_at": "2026-01-12",
+      "creatives": [
+        {
+          "id": "a216b6370a2e1b25",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2ac1aac8d91d71f3/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2ac1aac8d91d71f3/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2ac1aac8d91d71f3/thumb",
+          "video_duration": 38,
+          "width": 1080,
+          "height": 1920,
+          "title": "Mecha Commanders Unite",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "9783873cc80d676a",
+      "app_id": "672c0a37ab4ab812305b10da",
+      "network": "Facebook",
+      "phashion_group": "9783873cc80d676a",
+      "ad_type": "video",
+      "first_seen_at": "2025-09-25",
+      "last_seen_at": "2026-01-28",
+      "creatives": [
+        {
+          "id": "9783873cc80d676a",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2dd648b714261c0d/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2dd648b714261c0d/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2dd648b714261c0d/thumb",
+          "video_duration": 34,
+          "width": 1080,
+          "height": 1920,
+          "title": "Mecha Commanders Unite",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "cfe16c03fcf2899a",
+      "app_id": "672c0a37ab4ab812305b10da",
+      "network": "Instagram",
+      "phashion_group": "cfe16c03fcf2899a",
+      "ad_type": "video",
+      "first_seen_at": "2025-09-11",
+      "last_seen_at": "2026-01-28",
+      "creatives": [
+        {
+          "id": "cfe16c03fcf2899a",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2dd648b714261c0d/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2dd648b714261c0d/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2dd648b714261c0d/thumb",
+          "video_duration": 34,
+          "width": 1080,
+          "height": 1920,
+          "title": "Mecha Commanders Unite",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "a5015448c71576db",
+      "app_id": "672c0a37ab4ab812305b10da",
+      "network": "Meta Audience Network",
+      "phashion_group": "a5015448c71576db",
+      "ad_type": "video",
+      "first_seen_at": "2025-09-25",
+      "last_seen_at": "2026-01-28",
+      "creatives": [
+        {
+          "id": "a5015448c71576db",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2dd648b714261c0d/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2dd648b714261c0d/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2dd648b714261c0d/thumb",
+          "video_duration": 34,
+          "width": 1080,
+          "height": 1920,
+          "title": "Mecha Commanders Unite",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "8fbf0c75363717dd",
+      "app_id": "672c0a37ab4ab812305b10da",
+      "network": "Facebook",
+      "phashion_group": "8fbf0c75363717dd",
+      "ad_type": "video",
+      "first_seen_at": "2025-09-12",
+      "last_seen_at": "2026-01-27",
+      "creatives": [
+        {
+          "id": "8fbf0c75363717dd",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/35eac3feea1c6cba/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/35eac3feea1c6cba/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/35eac3feea1c6cba/thumb",
+          "video_duration": 37,
+          "width": 1080,
+          "height": 1920,
+          "title": "Mecha Commanders Unite",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "d7dde74a02c8f92d",
+      "app_id": "672c0a37ab4ab812305b10da",
+      "network": "Instagram",
+      "phashion_group": "d7dde74a02c8f92d",
+      "ad_type": "video",
+      "first_seen_at": "2025-09-12",
+      "last_seen_at": "2026-01-27",
+      "creatives": [
+        {
+          "id": "d7dde74a02c8f92d",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/35eac3feea1c6cba/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/35eac3feea1c6cba/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/35eac3feea1c6cba/thumb",
+          "video_duration": 37,
+          "width": 1080,
+          "height": 1920,
+          "title": "Mecha Commanders Unite",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "bd3ddf01392f066c",
+      "app_id": "672c0a37ab4ab812305b10da",
+      "network": "Meta Audience Network",
+      "phashion_group": "bd3ddf01392f066c",
+      "ad_type": "video",
+      "first_seen_at": "2025-09-12",
+      "last_seen_at": "2026-01-27",
+      "creatives": [
+        {
+          "id": "bd3ddf01392f066c",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/35eac3feea1c6cba/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/35eac3feea1c6cba/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/35eac3feea1c6cba/thumb",
+          "video_duration": 37,
+          "width": 1080,
+          "height": 1920,
+          "title": "Mecha Commanders Unite",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "8c89ade679fb4750",
+      "app_id": "672c0a37ab4ab812305b10da",
+      "network": "Facebook",
+      "phashion_group": "8c89ade679fb4750",
+      "ad_type": "video",
+      "first_seen_at": "2025-08-29",
+      "last_seen_at": "2026-01-28",
+      "creatives": [
+        {
+          "id": "8c89ade679fb4750",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/36dc626da5d03c37/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/36dc626da5d03c37/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/36dc626da5d03c37/thumb",
+          "video_duration": 47,
+          "width": 1080,
+          "height": 1920,
+          "title": "Mecha Commanders Unite",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "d4eb46d94d04a9a0",
+      "app_id": "672c0a37ab4ab812305b10da",
+      "network": "Instagram",
+      "phashion_group": "d4eb46d94d04a9a0",
+      "ad_type": "video",
+      "first_seen_at": "2025-09-11",
+      "last_seen_at": "2026-01-28",
+      "creatives": [
+        {
+          "id": "d4eb46d94d04a9a0",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/36dc626da5d03c37/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/36dc626da5d03c37/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/36dc626da5d03c37/thumb",
+          "video_duration": 47,
+          "width": 1080,
+          "height": 1920,
+          "title": "Mecha Commanders Unite",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "be0b7e9276e356e1",
+      "app_id": "672c0a37ab4ab812305b10da",
+      "network": "Meta Audience Network",
+      "phashion_group": "be0b7e9276e356e1",
+      "ad_type": "video",
+      "first_seen_at": "2025-08-29",
+      "last_seen_at": "2026-01-28",
+      "creatives": [
+        {
+          "id": "be0b7e9276e356e1",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/36dc626da5d03c37/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/36dc626da5d03c37/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/36dc626da5d03c37/thumb",
+          "video_duration": 47,
+          "width": 1080,
+          "height": 1920,
+          "title": "Mecha Commanders Unite",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "828b7270f6637169",
+      "app_id": "672c0a37ab4ab812305b10da",
+      "network": "Facebook",
+      "phashion_group": "828b7270f6637169",
+      "ad_type": "video",
+      "first_seen_at": "2025-08-25",
+      "last_seen_at": "2025-12-19",
+      "creatives": [
+        {
+          "id": "828b7270f6637169",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/38debdfb2a480a0e/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/38debdfb2a480a0e/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/38debdfb2a480a0e/thumb",
+          "video_duration": 44,
+          "width": 1080,
+          "height": 1920,
+          "title": "Mecha Commanders Unite",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "dae9994fc29c9f99",
+      "app_id": "672c0a37ab4ab812305b10da",
+      "network": "Instagram",
+      "phashion_group": "dae9994fc29c9f99",
+      "ad_type": "video",
+      "first_seen_at": "2025-08-25",
+      "last_seen_at": "2025-12-19",
+      "creatives": [
+        {
+          "id": "dae9994fc29c9f99",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/38debdfb2a480a0e/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/38debdfb2a480a0e/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/38debdfb2a480a0e/thumb",
+          "video_duration": 44,
+          "width": 1080,
+          "height": 1920,
+          "title": "Mecha Commanders Unite",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "b009a104f97b60d8",
+      "app_id": "672c0a37ab4ab812305b10da",
+      "network": "Meta Audience Network",
+      "phashion_group": "b009a104f97b60d8",
+      "ad_type": "video",
+      "first_seen_at": "2025-08-25",
+      "last_seen_at": "2025-12-19",
+      "creatives": [
+        {
+          "id": "b009a104f97b60d8",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/38debdfb2a480a0e/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/38debdfb2a480a0e/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/38debdfb2a480a0e/thumb",
+          "video_duration": 44,
+          "width": 1080,
+          "height": 1920,
+          "title": "Mecha Commanders Unite",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "87e746173d823150",
+      "app_id": "672c0a37ab4ab812305b10da",
+      "network": "Facebook",
+      "phashion_group": "87e746173d823150",
+      "ad_type": "video",
+      "first_seen_at": "2025-09-08",
+      "last_seen_at": "2025-12-17",
+      "creatives": [
+        {
+          "id": "87e746173d823150",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3db2899ce1a94a37/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3db2899ce1a94a37/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3db2899ce1a94a37/thumb",
+          "video_duration": 26,
+          "width": 1080,
+          "height": 1080,
+          "title": "Mecha Commanders Unite",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "df85ad28097ddfa0",
+      "app_id": "672c0a37ab4ab812305b10da",
+      "network": "Instagram",
+      "phashion_group": "df85ad28097ddfa0",
+      "ad_type": "video",
+      "first_seen_at": "2025-09-08",
+      "last_seen_at": "2025-12-17",
+      "creatives": [
+        {
+          "id": "df85ad28097ddfa0",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3db2899ce1a94a37/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3db2899ce1a94a37/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3db2899ce1a94a37/thumb",
+          "video_duration": 26,
+          "width": 1080,
+          "height": 1080,
+          "title": "Mecha Commanders Unite",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "b5659563329a20e1",
+      "app_id": "672c0a37ab4ab812305b10da",
+      "network": "Meta Audience Network",
+      "phashion_group": "b5659563329a20e1",
+      "ad_type": "video",
+      "first_seen_at": "2025-09-08",
+      "last_seen_at": "2025-12-17",
+      "creatives": [
+        {
+          "id": "b5659563329a20e1",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3db2899ce1a94a37/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3db2899ce1a94a37/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3db2899ce1a94a37/thumb",
+          "video_duration": 26,
+          "width": 1080,
+          "height": 1080,
+          "title": "Mecha Commanders Unite",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "87af28d1b15b32e3",
+      "app_id": "672c0a37ab4ab812305b10da",
+      "network": "Facebook",
+      "phashion_group": "87af28d1b15b32e3",
+      "ad_type": "video",
+      "first_seen_at": "2025-10-04",
+      "last_seen_at": "2026-01-28",
+      "creatives": [
+        {
+          "id": "87af28d1b15b32e3",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3dfae75a6d704984/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3dfae75a6d704984/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3dfae75a6d704984/thumb",
+          "video_duration": 58,
+          "width": 1080,
+          "height": 1920,
+          "title": "Mecha Commanders Unite",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "dfcdc3ee85a4dc13",
+      "app_id": "672c0a37ab4ab812305b10da",
+      "network": "Instagram",
+      "phashion_group": "dfcdc3ee85a4dc13",
+      "ad_type": "video",
+      "first_seen_at": "2025-10-10",
+      "last_seen_at": "2026-01-28",
+      "creatives": [
+        {
+          "id": "dfcdc3ee85a4dc13",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3dfae75a6d704984/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3dfae75a6d704984/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3dfae75a6d704984/thumb",
+          "video_duration": 58,
+          "width": 1080,
+          "height": 1920,
+          "title": "Mecha Commanders Unite",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "b52dfba5be432352",
+      "app_id": "672c0a37ab4ab812305b10da",
+      "network": "Meta Audience Network",
+      "phashion_group": "b52dfba5be432352",
+      "ad_type": "video",
+      "first_seen_at": "2025-10-10",
+      "last_seen_at": "2026-01-28",
+      "creatives": [
+        {
+          "id": "b52dfba5be432352",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3dfae75a6d704984/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3dfae75a6d704984/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3dfae75a6d704984/thumb",
+          "video_duration": 58,
+          "width": 1080,
+          "height": 1920,
+          "title": "Mecha Commanders Unite",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "84d84526f938189e",
+      "app_id": "672c0a37ab4ab812305b10da",
+      "network": "Facebook",
+      "phashion_group": "84d84526f938189e",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-27",
+      "last_seen_at": "2026-01-12",
+      "creatives": [
+        {
+          "id": "84d84526f938189e",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3e8d8aad251363f9/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3e8d8aad251363f9/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3e8d8aad251363f9/thumb",
+          "video_duration": 30,
+          "width": 1080,
+          "height": 1914,
+          "title": "Mecha Commanders Unite",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1914",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "dcbaae19cdc7f66e",
+      "app_id": "672c0a37ab4ab812305b10da",
+      "network": "Instagram",
+      "phashion_group": "dcbaae19cdc7f66e",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-27",
+      "last_seen_at": "2026-01-12",
+      "creatives": [
+        {
+          "id": "dcbaae19cdc7f66e",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3e8d8aad251363f9/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3e8d8aad251363f9/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3e8d8aad251363f9/thumb",
+          "video_duration": 30,
+          "width": 1080,
+          "height": 1914,
+          "title": "Mecha Commanders Unite",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1914",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "b65a9652f620092f",
+      "app_id": "672c0a37ab4ab812305b10da",
+      "network": "Meta Audience Network",
+      "phashion_group": "b65a9652f620092f",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-27",
+      "last_seen_at": "2026-01-12",
+      "creatives": [
+        {
+          "id": "b65a9652f620092f",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3e8d8aad251363f9/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3e8d8aad251363f9/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3e8d8aad251363f9/thumb",
+          "video_duration": 30,
+          "width": 1080,
+          "height": 1914,
+          "title": "Mecha Commanders Unite",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1914",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "f84dc62508892f91",
+      "app_id": "672c0a37ab4ab812305b10da",
+      "network": "Facebook",
+      "phashion_group": "f84dc62508892f91",
+      "ad_type": "video",
+      "first_seen_at": "2025-10-21",
+      "last_seen_at": "2025-12-09",
+      "creatives": [
+        {
+          "id": "f84dc62508892f91",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/421809aed4a254f6/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/421809aed4a254f6/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/421809aed4a254f6/thumb",
+          "video_duration": 48,
+          "width": 1080,
+          "height": 1920,
+          "title": "Mecha Commanders Unite",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "a02f2d1a3c76c161",
+      "app_id": "672c0a37ab4ab812305b10da",
+      "network": "Instagram",
+      "phashion_group": "a02f2d1a3c76c161",
+      "ad_type": "video",
+      "first_seen_at": "2025-10-21",
+      "last_seen_at": "2025-12-09",
+      "creatives": [
+        {
+          "id": "a02f2d1a3c76c161",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/421809aed4a254f6/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/421809aed4a254f6/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/421809aed4a254f6/thumb",
+          "video_duration": 48,
+          "width": 1080,
+          "height": 1920,
+          "title": "Mecha Commanders Unite",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "cacf155107913e20",
+      "app_id": "672c0a37ab4ab812305b10da",
+      "network": "Meta Audience Network",
+      "phashion_group": "cacf155107913e20",
+      "ad_type": "video",
+      "first_seen_at": "2025-10-21",
+      "last_seen_at": "2025-12-09",
+      "creatives": [
+        {
+          "id": "cacf155107913e20",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/421809aed4a254f6/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/421809aed4a254f6/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/421809aed4a254f6/thumb",
+          "video_duration": 48,
+          "width": 1080,
+          "height": 1920,
+          "title": "Mecha Commanders Unite",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "f8d6ad94b0b76f22",
+      "app_id": "672c0a37ab4ab812305b10da",
+      "network": "Facebook",
+      "phashion_group": "f8d6ad94b0b76f22",
+      "ad_type": "video",
+      "first_seen_at": "2025-08-08",
+      "last_seen_at": "2026-01-28",
+      "creatives": [
+        {
+          "id": "f8d6ad94b0b76f22",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4283621f6c9c1445/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4283621f6c9c1445/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4283621f6c9c1445/thumb",
+          "video_duration": 50,
+          "width": 1080,
+          "height": 1920,
+          "title": "Mecha Commanders Unite",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "a0b446ab844881d2",
+      "app_id": "672c0a37ab4ab812305b10da",
+      "network": "Instagram",
+      "phashion_group": "a0b446ab844881d2",
+      "ad_type": "video",
+      "first_seen_at": "2025-08-08",
+      "last_seen_at": "2026-01-28",
+      "creatives": [
+        {
+          "id": "a0b446ab844881d2",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4283621f6c9c1445/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4283621f6c9c1445/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4283621f6c9c1445/thumb",
+          "video_duration": 50,
+          "width": 1080,
+          "height": 1920,
+          "title": "Mecha Commanders Unite",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "ca547ee0bfaf7e93",
+      "app_id": "672c0a37ab4ab812305b10da",
+      "network": "Meta Audience Network",
+      "phashion_group": "ca547ee0bfaf7e93",
+      "ad_type": "video",
+      "first_seen_at": "2025-08-08",
+      "last_seen_at": "2026-01-28",
+      "creatives": [
+        {
+          "id": "ca547ee0bfaf7e93",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4283621f6c9c1445/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4283621f6c9c1445/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4283621f6c9c1445/thumb",
+          "video_duration": 50,
+          "width": 1080,
+          "height": 1920,
+          "title": "Mecha Commanders Unite",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "fc17b0f3eb2a596e",
+      "app_id": "672c0a37ab4ab812305b10da",
+      "network": "Facebook",
+      "phashion_group": "fc17b0f3eb2a596e",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-27",
+      "last_seen_at": "2026-01-12",
+      "creatives": [
+        {
+          "id": "fc17b0f3eb2a596e",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/46427f7837012209/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/46427f7837012209/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/46427f7837012209/thumb",
+          "video_duration": 44,
+          "width": 1080,
+          "height": 1920,
+          "title": "Mecha Commanders Unite",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "a4755bccdfd5b79e",
+      "app_id": "672c0a37ab4ab812305b10da",
+      "network": "Instagram",
+      "phashion_group": "a4755bccdfd5b79e",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-27",
+      "last_seen_at": "2026-01-12",
+      "creatives": [
+        {
+          "id": "a4755bccdfd5b79e",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/46427f7837012209/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/46427f7837012209/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/46427f7837012209/thumb",
+          "video_duration": 44,
+          "width": 1080,
+          "height": 1920,
+          "title": "Mecha Commanders Unite",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "ce956387e43248df",
+      "app_id": "672c0a37ab4ab812305b10da",
+      "network": "Meta Audience Network",
+      "phashion_group": "ce956387e43248df",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-27",
+      "last_seen_at": "2026-01-12",
+      "creatives": [
+        {
+          "id": "ce956387e43248df",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/46427f7837012209/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/46427f7837012209/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/46427f7837012209/thumb",
+          "video_duration": 44,
+          "width": 1080,
+          "height": 1920,
+          "title": "Mecha Commanders Unite",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "fdb7cffafa7c2223",
+      "app_id": "672c0a37ab4ab812305b10da",
+      "network": "Facebook",
+      "phashion_group": "fdb7cffafa7c2223",
+      "ad_type": "video",
+      "first_seen_at": "2025-10-02",
+      "last_seen_at": "2026-01-28",
+      "creatives": [
+        {
+          "id": "fdb7cffafa7c2223",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/47e2007126575944/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/47e2007126575944/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/47e2007126575944/thumb",
+          "video_duration": 34,
+          "width": 1080,
+          "height": 1920,
+          "title": "화성: 붉은 출정",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "a5d524c5ce83ccd3",
+      "app_id": "672c0a37ab4ab812305b10da",
+      "network": "Instagram",
+      "phashion_group": "a5d524c5ce83ccd3",
+      "ad_type": "video",
+      "first_seen_at": "2025-09-11",
+      "last_seen_at": "2026-01-28",
+      "creatives": [
+        {
+          "id": "a5d524c5ce83ccd3",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/47e2007126575944/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/47e2007126575944/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/47e2007126575944/thumb",
+          "video_duration": 34,
+          "width": 1080,
+          "height": 1920,
+          "title": "화성: 붉은 출정",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "cf351c8ef5643392",
+      "app_id": "672c0a37ab4ab812305b10da",
+      "network": "Meta Audience Network",
+      "phashion_group": "cf351c8ef5643392",
+      "ad_type": "video",
+      "first_seen_at": "2025-09-11",
+      "last_seen_at": "2026-01-28",
+      "creatives": [
+        {
+          "id": "cf351c8ef5643392",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/47e2007126575944/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/47e2007126575944/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/47e2007126575944/thumb",
+          "video_duration": 34,
+          "width": 1080,
+          "height": 1920,
+          "title": "화성: 붉은 출정",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "f2b3596c465f1993",
+      "app_id": "672c0a37ab4ab812305b10da",
+      "network": "Facebook",
+      "phashion_group": "f2b3596c465f1993",
+      "ad_type": "video",
+      "first_seen_at": "2025-07-08",
+      "last_seen_at": "2025-12-16",
+      "creatives": [
+        {
+          "id": "f2b3596c465f1993",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/48e696e79a7462f4/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/48e696e79a7462f4/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/48e696e79a7462f4/thumb",
+          "video_duration": 32,
+          "width": 1080,
+          "height": 1920,
+          "title": "Mecha Commanders Unite",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "aad1b25372a0f763",
+      "app_id": "672c0a37ab4ab812305b10da",
+      "network": "Instagram",
+      "phashion_group": "aad1b25372a0f763",
+      "ad_type": "video",
+      "first_seen_at": "2025-07-08",
+      "last_seen_at": "2025-12-16",
+      "creatives": [
+        {
+          "id": "aad1b25372a0f763",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/48e696e79a7462f4/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/48e696e79a7462f4/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/48e696e79a7462f4/thumb",
+          "video_duration": 32,
+          "width": 1080,
+          "height": 1920,
+          "title": "Mecha Commanders Unite",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "c0318a1849470822",
+      "app_id": "672c0a37ab4ab812305b10da",
+      "network": "Meta Audience Network",
+      "phashion_group": "c0318a1849470822",
+      "ad_type": "video",
+      "first_seen_at": "2025-07-08",
+      "last_seen_at": "2025-12-16",
+      "creatives": [
+        {
+          "id": "c0318a1849470822",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/48e696e79a7462f4/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/48e696e79a7462f4/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/48e696e79a7462f4/thumb",
+          "video_duration": 32,
+          "width": 1080,
+          "height": 1920,
+          "title": "Mecha Commanders Unite",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "e8d42b0c456d5283",
+      "app_id": "672c0a37ab4ab812305b10da",
+      "network": "Facebook",
+      "phashion_group": "e8d42b0c456d5283",
+      "ad_type": "video",
+      "first_seen_at": "2025-07-03",
+      "last_seen_at": "2025-12-10",
+      "creatives": [
+        {
+          "id": "e8d42b0c456d5283",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/5281e487994629e4/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/5281e487994629e4/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/5281e487994629e4/thumb",
+          "video_duration": 30,
+          "width": 1080,
+          "height": 1920,
+          "title": "Mecha Commanders Unite",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "b0b6c0337192bc73",
+      "app_id": "672c0a37ab4ab812305b10da",
+      "network": "Instagram",
+      "phashion_group": "b0b6c0337192bc73",
+      "ad_type": "video",
+      "first_seen_at": "2025-07-03",
+      "last_seen_at": "2025-12-10",
+      "creatives": [
+        {
+          "id": "b0b6c0337192bc73",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/5281e487994629e4/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/5281e487994629e4/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/5281e487994629e4/thumb",
+          "video_duration": 30,
+          "width": 1080,
+          "height": 1920,
+          "title": "Mecha Commanders Unite",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "da56f8784a754332",
+      "app_id": "672c0a37ab4ab812305b10da",
+      "network": "Meta Audience Network",
+      "phashion_group": "da56f8784a754332",
+      "ad_type": "video",
+      "first_seen_at": "2025-07-03",
+      "last_seen_at": "2025-12-10",
+      "creatives": [
+        {
+          "id": "da56f8784a754332",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/5281e487994629e4/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/5281e487994629e4/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/5281e487994629e4/thumb",
+          "video_duration": 30,
+          "width": 1080,
+          "height": 1920,
+          "title": "Mecha Commanders Unite",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "e8b04c18075105f1",
+      "app_id": "672c0a37ab4ab812305b10da",
+      "network": "Facebook",
+      "phashion_group": "e8b04c18075105f1",
+      "ad_type": "video",
+      "first_seen_at": "2025-07-03",
+      "last_seen_at": "2026-01-14",
+      "creatives": [
+        {
+          "id": "e8b04c18075105f1",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/52e58393db7a7e96/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/52e58393db7a7e96/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/52e58393db7a7e96/thumb",
+          "video_duration": 34,
+          "width": 1080,
+          "height": 1920,
+          "title": "Mecha Commanders Unite",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "b0d2a72733aeeb01",
+      "app_id": "672c0a37ab4ab812305b10da",
+      "network": "Instagram",
+      "phashion_group": "b0d2a72733aeeb01",
+      "ad_type": "video",
+      "first_seen_at": "2025-07-03",
+      "last_seen_at": "2026-01-14",
+      "creatives": [
+        {
+          "id": "b0d2a72733aeeb01",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/52e58393db7a7e96/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/52e58393db7a7e96/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/52e58393db7a7e96/thumb",
+          "video_duration": 34,
+          "width": 1080,
+          "height": 1920,
+          "title": "Mecha Commanders Unite",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "da329f6c08491440",
+      "app_id": "672c0a37ab4ab812305b10da",
+      "network": "Meta Audience Network",
+      "phashion_group": "da329f6c08491440",
+      "ad_type": "video",
+      "first_seen_at": "2025-07-03",
+      "last_seen_at": "2026-01-14",
+      "creatives": [
+        {
+          "id": "da329f6c08491440",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/52e58393db7a7e96/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/52e58393db7a7e96/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/52e58393db7a7e96/thumb",
+          "video_duration": 34,
+          "width": 1080,
+          "height": 1920,
+          "title": "Mecha Commanders Unite",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "eef21268b4a0fb7a",
+      "app_id": "672c0a37ab4ab812305b10da",
+      "network": "Facebook",
+      "phashion_group": "eef21268b4a0fb7a",
+      "ad_type": "video",
+      "first_seen_at": "2025-09-23",
+      "last_seen_at": "2026-01-28",
+      "creatives": [
+        {
+          "id": "eef21268b4a0fb7a",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/54a7dde3688b801d/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/54a7dde3688b801d/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/54a7dde3688b801d/thumb",
+          "video_duration": 40,
+          "width": 1080,
+          "height": 1920,
+          "title": "Mecha Commanders Unite",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "b690f957805f158a",
+      "app_id": "672c0a37ab4ab812305b10da",
+      "network": "Instagram",
+      "phashion_group": "b690f957805f158a",
+      "ad_type": "video",
+      "first_seen_at": "2025-09-23",
+      "last_seen_at": "2026-01-28",
+      "creatives": [
+        {
+          "id": "b690f957805f158a",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/54a7dde3688b801d/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/54a7dde3688b801d/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/54a7dde3688b801d/thumb",
+          "video_duration": 40,
+          "width": 1080,
+          "height": 1920,
+          "title": "Mecha Commanders Unite",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "dc70c11cbbb8eacb",
+      "app_id": "672c0a37ab4ab812305b10da",
+      "network": "Meta Audience Network",
+      "phashion_group": "dc70c11cbbb8eacb",
+      "ad_type": "video",
+      "first_seen_at": "2025-09-23",
+      "last_seen_at": "2026-01-28",
+      "creatives": [
+        {
+          "id": "dc70c11cbbb8eacb",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/54a7dde3688b801d/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/54a7dde3688b801d/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/54a7dde3688b801d/thumb",
+          "video_duration": 40,
+          "width": 1080,
+          "height": 1920,
+          "title": "Mecha Commanders Unite",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "e23b42ae01eee14f",
+      "app_id": "672c0a37ab4ab812305b10da",
+      "network": "Facebook",
+      "phashion_group": "e23b42ae01eee14f",
+      "ad_type": "video",
+      "first_seen_at": "2025-10-21",
+      "last_seen_at": "2026-01-17",
+      "creatives": [
+        {
+          "id": "e23b42ae01eee14f",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/586e8d25ddc59a28/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/586e8d25ddc59a28/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/586e8d25ddc59a28/thumb",
+          "video_duration": 48,
+          "width": 1080,
+          "height": 1920,
+          "title": "Mecha Commanders Unite",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "ba59a99135110fbf",
+      "app_id": "672c0a37ab4ab812305b10da",
+      "network": "Instagram",
+      "phashion_group": "ba59a99135110fbf",
+      "ad_type": "video",
+      "first_seen_at": "2025-10-21",
+      "last_seen_at": "2026-01-17",
+      "creatives": [
+        {
+          "id": "ba59a99135110fbf",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/586e8d25ddc59a28/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/586e8d25ddc59a28/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/586e8d25ddc59a28/thumb",
+          "video_duration": 48,
+          "width": 1080,
+          "height": 1920,
+          "title": "Mecha Commanders Unite",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    }
+  ]
+}

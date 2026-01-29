@@ -1,0 +1,838 @@
+{
+  "count": 18,
+  "available_networks": [
+    "Facebook",
+    "Instagram",
+    "Meta Audience Network"
+  ],
+  "ad_units": [
+    {
+      "id": "4a4fc77c34895468",
+      "app_id": "5626a06702ac6437f1000047",
+      "network": "Facebook",
+      "phashion_group": "4a4fc77c34895468",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-04",
+      "last_seen_at": "2026-01-27",
+      "creatives": [
+        {
+          "id": "4a4fc77c34895468",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/22cd611256489216/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/22cd611256489216/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/22cd611256489216/thumb",
+          "video_duration": 17,
+          "width": 1080,
+          "height": 1920,
+          "title": "《率土之濱》全球國戰第一品牌🔥",
+          "button_text": "Install Now",
+          "message": "❤️國色天香，女武將【貂蟬】新造型❤️\n🔥頂尖團隊打造，玩法最多變🔥"
+        },
+        {
+          "id": "680537e9d1b0511c",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/22cd611256489216/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/22cd611256489216/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/22cd611256489216/thumb",
+          "video_duration": 17,
+          "width": 1080,
+          "height": 1920,
+          "title": "🎉劇本最多最豐富，讓你拚天下！",
+          "button_text": "Install Now",
+          "message": "🔥全球最大，三國策略遊戲"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "1351e3d8e2d4d488",
+      "app_id": "5626a06702ac6437f1000047",
+      "network": "Instagram",
+      "phashion_group": "1351e3d8e2d4d488",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-04",
+      "last_seen_at": "2026-01-27",
+      "creatives": [
+        {
+          "id": "1351e3d8e2d4d488",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/22cd611256489216/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/22cd611256489216/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/22cd611256489216/thumb",
+          "video_duration": 17,
+          "width": 1080,
+          "height": 1920,
+          "title": "🎉劇本最多最豐富，讓你拚天下！",
+          "button_text": "Install Now",
+          "message": "🔥全球最大，三國策略遊戲"
+        },
+        {
+          "id": "311b134d07edd1fc",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/22cd611256489216/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/22cd611256489216/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/22cd611256489216/thumb",
+          "video_duration": 17,
+          "width": 1080,
+          "height": 1920,
+          "title": "《率土之濱》全球國戰第一品牌🔥",
+          "button_text": "Install Now",
+          "message": "❤️國色天香，女武將【貂蟬】新造型❤️\n🔥頂尖團隊打造，玩法最多變🔥"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "5a87e49ddea840ad",
+      "app_id": "5626a06702ac6437f1000047",
+      "network": "Meta Audience Network",
+      "phashion_group": "5a87e49ddea840ad",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-04",
+      "last_seen_at": "2026-01-27",
+      "creatives": [
+        {
+          "id": "5a87e49ddea840ad",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/22cd611256489216/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/22cd611256489216/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/22cd611256489216/thumb",
+          "video_duration": 17,
+          "width": 1080,
+          "height": 1920,
+          "title": "🎉劇本最多最豐富，讓你拚天下！",
+          "button_text": "Install Now",
+          "message": "🔥全球最大，三國策略遊戲"
+        },
+        {
+          "id": "78cd14083b9145d9",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/22cd611256489216/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/22cd611256489216/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/22cd611256489216/thumb",
+          "video_duration": 17,
+          "width": 1080,
+          "height": 1920,
+          "title": "《率土之濱》全球國戰第一品牌🔥",
+          "button_text": "Install Now",
+          "message": "❤️國色天香，女武將【貂蟬】新造型❤️\n🔥頂尖團隊打造，玩法最多變🔥"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "4c8246b6d01656ae",
+      "app_id": "5626a06702ac6437f1000047",
+      "network": "Facebook",
+      "phashion_group": "4c8246b6d01656ae",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-04",
+      "last_seen_at": "2025-12-14",
+      "creatives": [
+        {
+          "id": "4c8246b6d01656ae",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/64ef9416d9f5d67b/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/64ef9416d9f5d67b/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/64ef9416d9f5d67b/thumb",
+          "video_duration": 22,
+          "width": 1080,
+          "height": 1080,
+          "title": "⚔️立即加入，拚天下拿大獎",
+          "button_text": "Install Now",
+          "message": "🔥獎金挑戰賽火熱開打\n🔥一起來攻佔領地拿大獎"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "37d69287e372d33a",
+      "app_id": "5626a06702ac6437f1000047",
+      "network": "Instagram",
+      "phashion_group": "37d69287e372d33a",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-04",
+      "last_seen_at": "2025-12-14",
+      "creatives": [
+        {
+          "id": "37d69287e372d33a",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/64ef9416d9f5d67b/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/64ef9416d9f5d67b/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/64ef9416d9f5d67b/thumb",
+          "video_duration": 22,
+          "width": 1080,
+          "height": 1080,
+          "title": "⚔️立即加入，拚天下拿大獎",
+          "button_text": "Install Now",
+          "message": "🔥獎金挑戰賽火熱開打\n🔥一起來攻佔領地拿大獎"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "7e0095c2df0e471f",
+      "app_id": "5626a06702ac6437f1000047",
+      "network": "Meta Audience Network",
+      "phashion_group": "7e0095c2df0e471f",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-04",
+      "last_seen_at": "2025-12-14",
+      "creatives": [
+        {
+          "id": "7e0095c2df0e471f",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/64ef9416d9f5d67b/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/64ef9416d9f5d67b/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/64ef9416d9f5d67b/thumb",
+          "video_duration": 22,
+          "width": 1080,
+          "height": 1080,
+          "title": "⚔️立即加入，拚天下拿大獎",
+          "button_text": "Install Now",
+          "message": "🔥獎金挑戰賽火熱開打\n🔥一起來攻佔領地拿大獎"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "033d98ad12963a6c",
+      "app_id": "5626a06702ac6437f1000047",
+      "network": "Facebook",
+      "phashion_group": "033d98ad12963a6c",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-04",
+      "last_seen_at": "2026-01-27",
+      "creatives": [
+        {
+          "id": "033d98ad12963a6c",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/6bbf3ec37057fc12/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/6bbf3ec37057fc12/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/6bbf3ec37057fc12/thumb",
+          "video_duration": 17,
+          "width": 1080,
+          "height": 1080,
+          "title": "《率土之濱》全球國戰第一品牌🔥",
+          "button_text": "Install Now",
+          "message": "❤️國色天香，女武將【貂蟬】新造型❤️\n🔥頂尖團隊打造，玩法最多變🔥"
+        },
+        {
+          "id": "21776838f7af3f18",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/6bbf3ec37057fc12/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/6bbf3ec37057fc12/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/6bbf3ec37057fc12/thumb",
+          "video_duration": 17,
+          "width": 1080,
+          "height": 1080,
+          "title": "🎉劇本最多最豐富，讓你拚天下！",
+          "button_text": "Install Now",
+          "message": "🔥全球最大，三國策略遊戲"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "5a23bc09c4cbba8c",
+      "app_id": "5626a06702ac6437f1000047",
+      "network": "Instagram",
+      "phashion_group": "5a23bc09c4cbba8c",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-04",
+      "last_seen_at": "2026-01-27",
+      "creatives": [
+        {
+          "id": "5a23bc09c4cbba8c",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/6bbf3ec37057fc12/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/6bbf3ec37057fc12/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/6bbf3ec37057fc12/thumb",
+          "video_duration": 17,
+          "width": 1080,
+          "height": 1080,
+          "title": "🎉劇本最多最豐富，讓你拚天下！",
+          "button_text": "Install Now",
+          "message": "🔥全球最大，三國策略遊戲"
+        },
+        {
+          "id": "78694c9c21f2bff8",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/6bbf3ec37057fc12/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/6bbf3ec37057fc12/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/6bbf3ec37057fc12/thumb",
+          "video_duration": 17,
+          "width": 1080,
+          "height": 1080,
+          "title": "《率土之濱》全球國戰第一品牌🔥",
+          "button_text": "Install Now",
+          "message": "❤️國色天香，女武將【貂蟬】新造型❤️\n🔥頂尖團隊打造，玩法最多變🔥"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "13f5bb4cf8b72ea9",
+      "app_id": "5626a06702ac6437f1000047",
+      "network": "Meta Audience Network",
+      "phashion_group": "13f5bb4cf8b72ea9",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-04",
+      "last_seen_at": "2026-01-27",
+      "creatives": [
+        {
+          "id": "13f5bb4cf8b72ea9",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/6bbf3ec37057fc12/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/6bbf3ec37057fc12/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/6bbf3ec37057fc12/thumb",
+          "video_duration": 17,
+          "width": 1080,
+          "height": 1080,
+          "title": "🎉劇本最多最豐富，讓你拚天下！",
+          "button_text": "Install Now",
+          "message": "🔥全球最大，三國策略遊戲"
+        },
+        {
+          "id": "31bf4bd91d8e2bdd",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/6bbf3ec37057fc12/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/6bbf3ec37057fc12/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/6bbf3ec37057fc12/thumb",
+          "video_duration": 17,
+          "width": 1080,
+          "height": 1080,
+          "title": "《率土之濱》全球國戰第一品牌🔥",
+          "button_text": "Install Now",
+          "message": "❤️國色天香，女武將【貂蟬】新造型❤️\n🔥頂尖團隊打造，玩法最多變🔥"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "a9c37f9fb5f93613",
+      "app_id": "5626a06702ac6437f1000047",
+      "network": "Facebook",
+      "phashion_group": "a9c37f9fb5f93613",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-04",
+      "last_seen_at": "2025-12-14",
+      "creatives": [
+        {
+          "id": "a9c37f9fb5f93613",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/81aead3fbc1ab6c6/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/81aead3fbc1ab6c6/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/81aead3fbc1ab6c6/thumb",
+          "video_duration": 22,
+          "width": 1080,
+          "height": 1350,
+          "title": "⚔️立即加入，拚天下拿大獎",
+          "button_text": "Install Now",
+          "message": "🔥獎金挑戰賽火熱開打\n🔥一起來攻佔領地拿大獎"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1350",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "d297abae869db387",
+      "app_id": "5626a06702ac6437f1000047",
+      "network": "Instagram",
+      "phashion_group": "d297abae869db387",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-04",
+      "last_seen_at": "2025-12-14",
+      "creatives": [
+        {
+          "id": "d297abae869db387",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/81aead3fbc1ab6c6/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/81aead3fbc1ab6c6/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/81aead3fbc1ab6c6/thumb",
+          "video_duration": 22,
+          "width": 1080,
+          "height": 1350,
+          "title": "⚔️立即加入，拚天下拿大獎",
+          "button_text": "Install Now",
+          "message": "🔥獎金挑戰賽火熱開打\n🔥一起來攻佔領地拿大獎"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1350",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "9b41acebbae127a2",
+      "app_id": "5626a06702ac6437f1000047",
+      "network": "Meta Audience Network",
+      "phashion_group": "9b41acebbae127a2",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-04",
+      "last_seen_at": "2025-12-14",
+      "creatives": [
+        {
+          "id": "9b41acebbae127a2",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/81aead3fbc1ab6c6/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/81aead3fbc1ab6c6/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/81aead3fbc1ab6c6/thumb",
+          "video_duration": 22,
+          "width": 1080,
+          "height": 1350,
+          "title": "⚔️立即加入，拚天下拿大獎",
+          "button_text": "Install Now",
+          "message": "🔥獎金挑戰賽火熱開打\n🔥一起來攻佔領地拿大獎"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1350",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "ca5ed952a43de3e4",
+      "app_id": "5626a06702ac6437f1000047",
+      "network": "Facebook",
+      "phashion_group": "ca5ed952a43de3e4",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-04",
+      "last_seen_at": "2026-01-27",
+      "creatives": [
+        {
+          "id": "ca5ed952a43de3e4",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/a2dc7f3cc6fc259a/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/a2dc7f3cc6fc259a/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/a2dc7f3cc6fc259a/thumb",
+          "video_duration": 17,
+          "width": 1920,
+          "height": 1080,
+          "title": "《率土之濱》全球國戰第一品牌🔥",
+          "button_text": "Install Now",
+          "message": "❤️國色天香，女武將【貂蟬】新造型❤️\n🔥頂尖團隊打造，玩法最多變🔥"
+        },
+        {
+          "id": "e81429c74104e690",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/a2dc7f3cc6fc259a/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/a2dc7f3cc6fc259a/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/a2dc7f3cc6fc259a/thumb",
+          "video_duration": 17,
+          "width": 1920,
+          "height": 1080,
+          "title": "🎉劇本最多最豐富，讓你拚天下！",
+          "button_text": "Install Now",
+          "message": "🔥全球最大，三國策略遊戲"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1920x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "9340fdf672606304",
+      "app_id": "5626a06702ac6437f1000047",
+      "network": "Instagram",
+      "phashion_group": "9340fdf672606304",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-04",
+      "last_seen_at": "2026-01-27",
+      "creatives": [
+        {
+          "id": "9340fdf672606304",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/a2dc7f3cc6fc259a/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/a2dc7f3cc6fc259a/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/a2dc7f3cc6fc259a/thumb",
+          "video_duration": 17,
+          "width": 1920,
+          "height": 1080,
+          "title": "🎉劇本最多最豐富，讓你拚天下！",
+          "button_text": "Install Now",
+          "message": "🔥全球最大，三國策略遊戲"
+        },
+        {
+          "id": "b10a0d6397596670",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/a2dc7f3cc6fc259a/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/a2dc7f3cc6fc259a/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/a2dc7f3cc6fc259a/thumb",
+          "video_duration": 17,
+          "width": 1920,
+          "height": 1080,
+          "title": "《率土之濱》全球國戰第一品牌🔥",
+          "button_text": "Install Now",
+          "message": "❤️國色天香，女武將【貂蟬】新造型❤️\n🔥頂尖團隊打造，玩法最多變🔥"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1920x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "da96fab34e1cf721",
+      "app_id": "5626a06702ac6437f1000047",
+      "network": "Meta Audience Network",
+      "phashion_group": "da96fab34e1cf721",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-04",
+      "last_seen_at": "2026-01-27",
+      "creatives": [
+        {
+          "id": "da96fab34e1cf721",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/a2dc7f3cc6fc259a/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/a2dc7f3cc6fc259a/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/a2dc7f3cc6fc259a/thumb",
+          "video_duration": 17,
+          "width": 1920,
+          "height": 1080,
+          "title": "🎉劇本最多最豐富，讓你拚天下！",
+          "button_text": "Install Now",
+          "message": "🔥全球最大，三國策略遊戲"
+        },
+        {
+          "id": "f8dc0a26ab25f255",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/a2dc7f3cc6fc259a/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/a2dc7f3cc6fc259a/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/a2dc7f3cc6fc259a/thumb",
+          "video_duration": 17,
+          "width": 1920,
+          "height": 1080,
+          "title": "《率土之濱》全球國戰第一品牌🔥",
+          "button_text": "Install Now",
+          "message": "❤️國色天香，女武將【貂蟬】新造型❤️\n🔥頂尖團隊打造，玩法最多變🔥"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1920x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "f9a8d54b356e83b4",
+      "app_id": "5626a06702ac6437f1000047",
+      "network": "Facebook",
+      "phashion_group": "f9a8d54b356e83b4",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-04",
+      "last_seen_at": "2025-12-14",
+      "creatives": [
+        {
+          "id": "f9a8d54b356e83b4",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/d1c507eb3c8d0361/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/d1c507eb3c8d0361/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/d1c507eb3c8d0361/thumb",
+          "video_duration": 22,
+          "width": 1920,
+          "height": 1080,
+          "title": "⚔️立即加入，拚天下拿大獎",
+          "button_text": "Install Now",
+          "message": "🔥獎金挑戰賽火熱開打\n🔥一起來攻佔領地拿大獎"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1920x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "82fc017a060a0620",
+      "app_id": "5626a06702ac6437f1000047",
+      "network": "Instagram",
+      "phashion_group": "82fc017a060a0620",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-04",
+      "last_seen_at": "2025-12-14",
+      "creatives": [
+        {
+          "id": "82fc017a060a0620",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/d1c507eb3c8d0361/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/d1c507eb3c8d0361/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/d1c507eb3c8d0361/thumb",
+          "video_duration": 22,
+          "width": 1920,
+          "height": 1080,
+          "title": "⚔️立即加入，拚天下拿大獎",
+          "button_text": "Install Now",
+          "message": "🔥獎金挑戰賽火熱開打\n🔥一起來攻佔領地拿大獎"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1920x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "cb2a063f3a769205",
+      "app_id": "5626a06702ac6437f1000047",
+      "network": "Meta Audience Network",
+      "phashion_group": "cb2a063f3a769205",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-04",
+      "last_seen_at": "2025-12-14",
+      "creatives": [
+        {
+          "id": "cb2a063f3a769205",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/d1c507eb3c8d0361/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/d1c507eb3c8d0361/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/d1c507eb3c8d0361/thumb",
+          "video_duration": 22,
+          "width": 1920,
+          "height": 1080,
+          "title": "⚔️立即加入，拚天下拿大獎",
+          "button_text": "Install Now",
+          "message": "🔥獎金挑戰賽火熱開打\n🔥一起來攻佔領地拿大獎"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1920x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,640 @@
+[
+  {
+    "app_id": "6903ea1543283a7583be73ce",
+    "country": "AE",
+    "date": "2025-12-08T00:00:00Z",
+    "android_units": 12,
+    "unified_units": 12,
+    "unified_revenue": 0
+  },
+  {
+    "app_id": "6903ea1543283a7583be73ce",
+    "country": "AO",
+    "date": "2025-12-08T00:00:00Z",
+    "android_units": 3,
+    "unified_units": 3,
+    "unified_revenue": 0
+  },
+  {
+    "app_id": "6903ea1543283a7583be73ce",
+    "country": "AU",
+    "date": "2025-12-08T00:00:00Z",
+    "unified_units": 0,
+    "unified_revenue": 0
+  },
+  {
+    "app_id": "6903ea1543283a7583be73ce",
+    "country": "AZ",
+    "date": "2025-12-08T00:00:00Z",
+    "unified_units": 0,
+    "unified_revenue": 0
+  },
+  {
+    "app_id": "6903ea1543283a7583be73ce",
+    "country": "BD",
+    "date": "2025-12-08T00:00:00Z",
+    "android_units": 73,
+    "unified_units": 73,
+    "unified_revenue": 0
+  },
+  {
+    "app_id": "6903ea1543283a7583be73ce",
+    "country": "BF",
+    "date": "2025-12-08T00:00:00Z",
+    "android_units": 21,
+    "unified_units": 21,
+    "unified_revenue": 0
+  },
+  {
+    "app_id": "6903ea1543283a7583be73ce",
+    "country": "BG",
+    "date": "2025-12-08T00:00:00Z",
+    "android_units": 1,
+    "unified_units": 1,
+    "unified_revenue": 0
+  },
+  {
+    "app_id": "6903ea1543283a7583be73ce",
+    "country": "BJ",
+    "date": "2025-12-08T00:00:00Z",
+    "android_units": 27,
+    "unified_units": 27,
+    "unified_revenue": 0
+  },
+  {
+    "app_id": "6903ea1543283a7583be73ce",
+    "country": "BO",
+    "date": "2025-12-08T00:00:00Z",
+    "android_units": 23,
+    "unified_units": 23,
+    "unified_revenue": 0
+  },
+  {
+    "app_id": "6903ea1543283a7583be73ce",
+    "country": "BY",
+    "date": "2025-12-08T00:00:00Z",
+    "android_units": 6,
+    "unified_units": 6,
+    "unified_revenue": 0
+  },
+  {
+    "app_id": "6903ea1543283a7583be73ce",
+    "country": "CA",
+    "date": "2025-12-08T00:00:00Z",
+    "android_units": 35,
+    "unified_units": 35,
+    "unified_revenue": 0
+  },
+  {
+    "app_id": "6903ea1543283a7583be73ce",
+    "country": "CG",
+    "date": "2025-12-08T00:00:00Z",
+    "android_units": 19,
+    "unified_units": 19,
+    "unified_revenue": 0
+  },
+  {
+    "app_id": "6903ea1543283a7583be73ce",
+    "country": "CH",
+    "date": "2025-12-08T00:00:00Z",
+    "android_units": 3,
+    "unified_units": 3,
+    "unified_revenue": 0
+  },
+  {
+    "app_id": "6903ea1543283a7583be73ce",
+    "country": "CI",
+    "date": "2025-12-08T00:00:00Z",
+    "android_units": 75,
+    "unified_units": 75,
+    "unified_revenue": 0
+  },
+  {
+    "app_id": "6903ea1543283a7583be73ce",
+    "country": "CL",
+    "date": "2025-12-08T00:00:00Z",
+    "android_units": 5,
+    "unified_units": 5,
+    "unified_revenue": 0
+  },
+  {
+    "app_id": "6903ea1543283a7583be73ce",
+    "country": "CM",
+    "date": "2025-12-08T00:00:00Z",
+    "android_units": 54,
+    "unified_units": 54,
+    "unified_revenue": 0
+  },
+  {
+    "app_id": "6903ea1543283a7583be73ce",
+    "country": "CR",
+    "date": "2025-12-08T00:00:00Z",
+    "android_units": 7,
+    "unified_units": 7,
+    "unified_revenue": 0
+  },
+  {
+    "app_id": "6903ea1543283a7583be73ce",
+    "country": "CZ",
+    "date": "2025-12-08T00:00:00Z",
+    "unified_units": 0,
+    "unified_revenue": 0
+  },
+  {
+    "app_id": "6903ea1543283a7583be73ce",
+    "country": "DE",
+    "date": "2025-12-08T00:00:00Z",
+    "unified_units": 0,
+    "unified_revenue": 0
+  },
+  {
+    "app_id": "6903ea1543283a7583be73ce",
+    "country": "DO",
+    "date": "2025-12-08T00:00:00Z",
+    "android_units": 27,
+    "unified_units": 27,
+    "unified_revenue": 0
+  },
+  {
+    "app_id": "6903ea1543283a7583be73ce",
+    "country": "DZ",
+    "date": "2025-12-08T00:00:00Z",
+    "android_units": 50,
+    "unified_units": 50,
+    "unified_revenue": 0
+  },
+  {
+    "app_id": "6903ea1543283a7583be73ce",
+    "country": "EC",
+    "date": "2025-12-08T00:00:00Z",
+    "android_units": 9,
+    "unified_units": 9,
+    "unified_revenue": 0
+  },
+  {
+    "app_id": "6903ea1543283a7583be73ce",
+    "country": "FI",
+    "date": "2025-12-08T00:00:00Z",
+    "android_units": 2,
+    "unified_units": 2,
+    "unified_revenue": 0
+  },
+  {
+    "app_id": "6903ea1543283a7583be73ce",
+    "country": "FR",
+    "date": "2025-12-08T00:00:00Z",
+    "android_units": 19,
+    "unified_units": 19,
+    "unified_revenue": 0
+  },
+  {
+    "app_id": "6903ea1543283a7583be73ce",
+    "country": "GB",
+    "date": "2025-12-08T00:00:00Z",
+    "unified_units": 0,
+    "unified_revenue": 0
+  },
+  {
+    "app_id": "6903ea1543283a7583be73ce",
+    "country": "GE",
+    "date": "2025-12-08T00:00:00Z",
+    "android_units": 5,
+    "unified_units": 5,
+    "unified_revenue": 0
+  },
+  {
+    "app_id": "6903ea1543283a7583be73ce",
+    "country": "GH",
+    "date": "2025-12-08T00:00:00Z",
+    "android_units": 123,
+    "unified_units": 123,
+    "unified_revenue": 0
+  },
+  {
+    "app_id": "6903ea1543283a7583be73ce",
+    "country": "HK",
+    "date": "2025-12-08T00:00:00Z",
+    "android_units": 333,
+    "android_revenue": 23,
+    "unified_units": 333,
+    "unified_revenue": 23
+  },
+  {
+    "app_id": "6903ea1543283a7583be73ce",
+    "country": "ID",
+    "date": "2025-12-08T00:00:00Z",
+    "android_units": 3015,
+    "android_revenue": 1930,
+    "unified_units": 3015,
+    "unified_revenue": 1930
+  },
+  {
+    "app_id": "6903ea1543283a7583be73ce",
+    "country": "IN",
+    "date": "2025-12-08T00:00:00Z",
+    "android_units": 293,
+    "unified_units": 293,
+    "unified_revenue": 0
+  },
+  {
+    "app_id": "6903ea1543283a7583be73ce",
+    "country": "IQ",
+    "date": "2025-12-08T00:00:00Z",
+    "android_units": 13,
+    "unified_units": 13,
+    "unified_revenue": 0
+  },
+  {
+    "app_id": "6903ea1543283a7583be73ce",
+    "country": "JO",
+    "date": "2025-12-08T00:00:00Z",
+    "unified_units": 0,
+    "unified_revenue": 0
+  },
+  {
+    "app_id": "6903ea1543283a7583be73ce",
+    "country": "JP",
+    "date": "2025-12-08T00:00:00Z",
+    "android_units": 452,
+    "unified_units": 452,
+    "unified_revenue": 0
+  },
+  {
+    "app_id": "6903ea1543283a7583be73ce",
+    "country": "KE",
+    "date": "2025-12-08T00:00:00Z",
+    "android_units": 2,
+    "unified_units": 2,
+    "unified_revenue": 0
+  },
+  {
+    "app_id": "6903ea1543283a7583be73ce",
+    "country": "KH",
+    "date": "2025-12-08T00:00:00Z",
+    "android_units": 820,
+    "android_revenue": 479,
+    "unified_units": 820,
+    "unified_revenue": 479
+  },
+  {
+    "app_id": "6903ea1543283a7583be73ce",
+    "country": "KR",
+    "date": "2025-12-08T00:00:00Z",
+    "android_units": 327,
+    "unified_units": 327,
+    "unified_revenue": 0
+  },
+  {
+    "app_id": "6903ea1543283a7583be73ce",
+    "country": "KZ",
+    "date": "2025-12-08T00:00:00Z",
+    "android_units": 21,
+    "unified_units": 21,
+    "unified_revenue": 0
+  },
+  {
+    "app_id": "6903ea1543283a7583be73ce",
+    "country": "LA",
+    "date": "2025-12-08T00:00:00Z",
+    "android_units": 165,
+    "unified_units": 165,
+    "unified_revenue": 0
+  },
+  {
+    "app_id": "6903ea1543283a7583be73ce",
+    "country": "LB",
+    "date": "2025-12-08T00:00:00Z",
+    "android_units": 6,
+    "unified_units": 6,
+    "unified_revenue": 0
+  },
+  {
+    "app_id": "6903ea1543283a7583be73ce",
+    "country": "LK",
+    "date": "2025-12-08T00:00:00Z",
+    "android_units": 14,
+    "unified_units": 14,
+    "unified_revenue": 0
+  },
+  {
+    "app_id": "6903ea1543283a7583be73ce",
+    "country": "LT",
+    "date": "2025-12-08T00:00:00Z",
+    "unified_units": 0,
+    "unified_revenue": 0
+  },
+  {
+    "app_id": "6903ea1543283a7583be73ce",
+    "country": "LU",
+    "date": "2025-12-08T00:00:00Z",
+    "android_units": 2,
+    "unified_units": 2,
+    "unified_revenue": 0
+  },
+  {
+    "app_id": "6903ea1543283a7583be73ce",
+    "country": "LY",
+    "date": "2025-12-08T00:00:00Z",
+    "android_units": 13,
+    "unified_units": 13,
+    "unified_revenue": 0
+  },
+  {
+    "app_id": "6903ea1543283a7583be73ce",
+    "country": "MA",
+    "date": "2025-12-08T00:00:00Z",
+    "unified_units": 0,
+    "unified_revenue": 0
+  },
+  {
+    "app_id": "6903ea1543283a7583be73ce",
+    "country": "ML",
+    "date": "2025-12-08T00:00:00Z",
+    "android_units": 29,
+    "unified_units": 29,
+    "unified_revenue": 0
+  },
+  {
+    "app_id": "6903ea1543283a7583be73ce",
+    "country": "MM",
+    "date": "2025-12-08T00:00:00Z",
+    "android_units": 2646,
+    "unified_units": 2646,
+    "unified_revenue": 0
+  },
+  {
+    "app_id": "6903ea1543283a7583be73ce",
+    "country": "MO",
+    "date": "2025-12-08T00:00:00Z",
+    "android_units": 18,
+    "unified_units": 18,
+    "unified_revenue": 0
+  },
+  {
+    "app_id": "6903ea1543283a7583be73ce",
+    "country": "MT",
+    "date": "2025-12-08T00:00:00Z",
+    "android_units": 1,
+    "unified_units": 1,
+    "unified_revenue": 0
+  },
+  {
+    "app_id": "6903ea1543283a7583be73ce",
+    "country": "MY",
+    "date": "2025-12-08T00:00:00Z",
+    "android_units": 2025,
+    "android_revenue": 67070,
+    "unified_units": 2025,
+    "unified_revenue": 67070
+  },
+  {
+    "app_id": "6903ea1543283a7583be73ce",
+    "country": "MZ",
+    "date": "2025-12-08T00:00:00Z",
+    "android_units": 11,
+    "unified_units": 11,
+    "unified_revenue": 0
+  },
+  {
+    "app_id": "6903ea1543283a7583be73ce",
+    "country": "NG",
+    "date": "2025-12-08T00:00:00Z",
+    "android_units": 530,
+    "unified_units": 530,
+    "unified_revenue": 0
+  },
+  {
+    "app_id": "6903ea1543283a7583be73ce",
+    "country": "NI",
+    "date": "2025-12-08T00:00:00Z",
+    "android_units": 15,
+    "unified_units": 15,
+    "unified_revenue": 0
+  },
+  {
+    "app_id": "6903ea1543283a7583be73ce",
+    "country": "NL",
+    "date": "2025-12-08T00:00:00Z",
+    "android_units": 14,
+    "unified_units": 14,
+    "unified_revenue": 0
+  },
+  {
+    "app_id": "6903ea1543283a7583be73ce",
+    "country": "NO",
+    "date": "2025-12-08T00:00:00Z",
+    "unified_units": 0,
+    "unified_revenue": 0
+  },
+  {
+    "app_id": "6903ea1543283a7583be73ce",
+    "country": "NZ",
+    "date": "2025-12-08T00:00:00Z",
+    "android_units": 16,
+    "unified_units": 16,
+    "unified_revenue": 0
+  },
+  {
+    "app_id": "6903ea1543283a7583be73ce",
+    "country": "OM",
+    "date": "2025-12-08T00:00:00Z",
+    "android_units": 6,
+    "unified_units": 6,
+    "unified_revenue": 0
+  },
+  {
+    "app_id": "6903ea1543283a7583be73ce",
+    "country": "PA",
+    "date": "2025-12-08T00:00:00Z",
+    "android_units": 13,
+    "unified_units": 13,
+    "unified_revenue": 0
+  },
+  {
+    "app_id": "6903ea1543283a7583be73ce",
+    "country": "PH",
+    "date": "2025-12-08T00:00:00Z",
+    "android_units": 270,
+    "android_revenue": 9676,
+    "unified_units": 270,
+    "unified_revenue": 9676
+  },
+  {
+    "app_id": "6903ea1543283a7583be73ce",
+    "country": "PL",
+    "date": "2025-12-08T00:00:00Z",
+    "android_units": 7,
+    "unified_units": 7,
+    "unified_revenue": 0
+  },
+  {
+    "app_id": "6903ea1543283a7583be73ce",
+    "country": "PT",
+    "date": "2025-12-08T00:00:00Z",
+    "android_units": 4,
+    "unified_units": 4,
+    "unified_revenue": 0
+  },
+  {
+    "app_id": "6903ea1543283a7583be73ce",
+    "country": "PY",
+    "date": "2025-12-08T00:00:00Z",
+    "android_units": 2,
+    "unified_units": 2,
+    "unified_revenue": 0
+  },
+  {
+    "app_id": "6903ea1543283a7583be73ce",
+    "country": "QA",
+    "date": "2025-12-08T00:00:00Z",
+    "android_units": 6,
+    "unified_units": 6,
+    "unified_revenue": 0
+  },
+  {
+    "app_id": "6903ea1543283a7583be73ce",
+    "country": "RS",
+    "date": "2025-12-08T00:00:00Z",
+    "android_units": 3,
+    "unified_units": 3,
+    "unified_revenue": 0
+  },
+  {
+    "app_id": "6903ea1543283a7583be73ce",
+    "country": "SA",
+    "date": "2025-12-08T00:00:00Z",
+    "unified_units": 0,
+    "unified_revenue": 0
+  },
+  {
+    "app_id": "6903ea1543283a7583be73ce",
+    "country": "SG",
+    "date": "2025-12-08T00:00:00Z",
+    "android_units": 240,
+    "android_revenue": 6480,
+    "unified_units": 240,
+    "unified_revenue": 6480
+  },
+  {
+    "app_id": "6903ea1543283a7583be73ce",
+    "country": "SN",
+    "date": "2025-12-08T00:00:00Z",
+    "android_units": 33,
+    "unified_units": 33,
+    "unified_revenue": 0
+  },
+  {
+    "app_id": "6903ea1543283a7583be73ce",
+    "country": "SV",
+    "date": "2025-12-08T00:00:00Z",
+    "android_units": 2,
+    "unified_units": 2,
+    "unified_revenue": 0
+  },
+  {
+    "app_id": "6903ea1543283a7583be73ce",
+    "country": "TH",
+    "date": "2025-12-08T00:00:00Z",
+    "android_units": 408,
+    "unified_units": 408,
+    "unified_revenue": 0
+  },
+  {
+    "app_id": "6903ea1543283a7583be73ce",
+    "country": "TN",
+    "date": "2025-12-08T00:00:00Z",
+    "android_units": 11,
+    "unified_units": 11,
+    "unified_revenue": 0
+  },
+  {
+    "app_id": "6903ea1543283a7583be73ce",
+    "country": "TW",
+    "date": "2025-12-08T00:00:00Z",
+    "android_units": 1610,
+    "android_revenue": 31925,
+    "unified_units": 1610,
+    "unified_revenue": 31925
+  },
+  {
+    "app_id": "6903ea1543283a7583be73ce",
+    "country": "TZ",
+    "date": "2025-12-08T00:00:00Z",
+    "android_units": 99,
+    "unified_units": 99,
+    "unified_revenue": 0
+  },
+  {
+    "app_id": "6903ea1543283a7583be73ce",
+    "country": "UG",
+    "date": "2025-12-08T00:00:00Z",
+    "android_units": 35,
+    "unified_units": 35,
+    "unified_revenue": 0
+  },
+  {
+    "app_id": "6903ea1543283a7583be73ce",
+    "country": "US",
+    "date": "2025-12-08T00:00:00Z",
+    "unified_units": 0,
+    "unified_revenue": 0
+  },
+  {
+    "app_id": "6903ea1543283a7583be73ce",
+    "country": "UY",
+    "date": "2025-12-08T00:00:00Z",
+    "android_units": 1,
+    "unified_units": 1,
+    "unified_revenue": 0
+  },
+  {
+    "app_id": "6903ea1543283a7583be73ce",
+    "country": "UZ",
+    "date": "2025-12-08T00:00:00Z",
+    "android_units": 9,
+    "unified_units": 9,
+    "unified_revenue": 0
+  },
+  {
+    "app_id": "6903ea1543283a7583be73ce",
+    "country": "VE",
+    "date": "2025-12-08T00:00:00Z",
+    "android_units": 56,
+    "unified_units": 56,
+    "unified_revenue": 0
+  },
+  {
+    "app_id": "6903ea1543283a7583be73ce",
+    "country": "VN",
+    "date": "2025-12-08T00:00:00Z",
+    "android_units": 618,
+    "android_revenue": 495,
+    "unified_units": 618,
+    "unified_revenue": 495
+  },
+  {
+    "app_id": "6903ea1543283a7583be73ce",
+    "country": "YE",
+    "date": "2025-12-08T00:00:00Z",
+    "android_units": 7,
+    "unified_units": 7,
+    "unified_revenue": 0
+  },
+  {
+    "app_id": "6903ea1543283a7583be73ce",
+    "country": "ZM",
+    "date": "2025-12-08T00:00:00Z",
+    "android_units": 29,
+    "android_revenue": 1,
+    "unified_units": 29,
+    "unified_revenue": 1
+  },
+  {
+    "app_id": "6903ea1543283a7583be73ce",
+    "country": "ZW",
+    "date": "2025-12-08T00:00:00Z",
+    "android_units": 34,
+    "unified_units": 34,
+    "unified_revenue": 0
+  }
+]

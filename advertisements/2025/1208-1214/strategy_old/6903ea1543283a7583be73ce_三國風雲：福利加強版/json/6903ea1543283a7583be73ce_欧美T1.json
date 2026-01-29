@@ -1,0 +1,1062 @@
+{
+  "count": 24,
+  "available_networks": [
+    "Admob",
+    "Facebook",
+    "Instagram",
+    "Meta Audience Network"
+  ],
+  "ad_units": [
+    {
+      "id": "1f8f4a37209ea9d6",
+      "app_id": "6903ea1543283a7583be73ce",
+      "network": "Admob",
+      "phashion_group": "1f8f4a37209ea9d6",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-10",
+      "last_seen_at": "2025-12-11",
+      "creatives": [
+        {
+          "id": "1f8f4a37209ea9d6",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1c419eac4434c9c9/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1c419eac4434c9c9/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1c419eac4434c9c9/thumb",
+          "video_duration": 37,
+          "width": 1280,
+          "height": 720,
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "rewarded"
+      ],
+      "share": 0.676257,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.278921
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "1280x720",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 1,
+        "data": [
+          [
+            "58ed8ac4973ad77ef70001a2",
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "id": "200fbac12ead62a5",
+      "app_id": "6903ea1543283a7583be73ce",
+      "network": "Admob",
+      "phashion_group": "200fbac12ead62a5",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-10",
+      "last_seen_at": "2025-12-11",
+      "creatives": [
+        {
+          "id": "200fbac12ead62a5",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/23c16e5a4a0702ba/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/23c16e5a4a0702ba/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/23c16e5a4a0702ba/thumb",
+          "video_duration": 29,
+          "width": 1280,
+          "height": 720,
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "rewarded"
+      ],
+      "share": 0.323743,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.836764
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "1280x720",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 1,
+        "data": [
+          [
+            "58ed8ac4973ad77ef70001a2",
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "id": "61291b388d4e0503",
+      "app_id": "6903ea1543283a7583be73ce",
+      "network": "Facebook",
+      "phashion_group": "61291b388d4e0503",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-12",
+      "last_seen_at": "2026-01-05",
+      "creatives": [
+        {
+          "id": "61291b388d4e0503",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/07a07d4fd1b2b775/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/07a07d4fd1b2b775/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/07a07d4fd1b2b775/thumb",
+          "video_duration": 40,
+          "width": 720,
+          "height": 1280,
+          "button_text": "Install now",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "8747ae5c81f09602",
+      "app_id": "6903ea1543283a7583be73ce",
+      "network": "Instagram",
+      "phashion_group": "8747ae5c81f09602",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-12",
+      "last_seen_at": "2026-01-05",
+      "creatives": [
+        {
+          "id": "8747ae5c81f09602",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/07a07d4fd1b2b775/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/07a07d4fd1b2b775/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/07a07d4fd1b2b775/thumb",
+          "video_duration": 40,
+          "width": 720,
+          "height": 1280,
+          "button_text": "Install now",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "53abc84c825614b2",
+      "app_id": "6903ea1543283a7583be73ce",
+      "network": "Meta Audience Network",
+      "phashion_group": "53abc84c825614b2",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-12",
+      "last_seen_at": "2026-01-05",
+      "creatives": [
+        {
+          "id": "53abc84c825614b2",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/07a07d4fd1b2b775/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/07a07d4fd1b2b775/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/07a07d4fd1b2b775/thumb",
+          "video_duration": 40,
+          "width": 720,
+          "height": 1280,
+          "button_text": "Install now",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "6bd5b60191bd10eb",
+      "app_id": "6903ea1543283a7583be73ce",
+      "network": "Facebook",
+      "phashion_group": "6bd5b60191bd10eb",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-06",
+      "last_seen_at": "2026-01-05",
+      "creatives": [
+        {
+          "id": "6bd5b60191bd10eb",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0d5cd076cd41a29d/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0d5cd076cd41a29d/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0d5cd076cd41a29d/thumb",
+          "video_duration": 48,
+          "width": 720,
+          "height": 1280,
+          "button_text": "Install now",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "8dbb03659d0383ea",
+      "app_id": "6903ea1543283a7583be73ce",
+      "network": "Instagram",
+      "phashion_group": "8dbb03659d0383ea",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-06",
+      "last_seen_at": "2026-01-05",
+      "creatives": [
+        {
+          "id": "8dbb03659d0383ea",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0d5cd076cd41a29d/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0d5cd076cd41a29d/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0d5cd076cd41a29d/thumb",
+          "video_duration": 48,
+          "width": 720,
+          "height": 1280,
+          "button_text": "Install now",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "595765759ea5015a",
+      "app_id": "6903ea1543283a7583be73ce",
+      "network": "Meta Audience Network",
+      "phashion_group": "595765759ea5015a",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-06",
+      "last_seen_at": "2026-01-01",
+      "creatives": [
+        {
+          "id": "595765759ea5015a",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0d5cd076cd41a29d/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0d5cd076cd41a29d/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0d5cd076cd41a29d/thumb",
+          "video_duration": 48,
+          "width": 720,
+          "height": 1280,
+          "button_text": "Install now",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "460f9be1715e6957",
+      "app_id": "6903ea1543283a7583be73ce",
+      "network": "Facebook",
+      "phashion_group": "460f9be1715e6957",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-12",
+      "last_seen_at": "2025-12-18",
+      "creatives": [
+        {
+          "id": "460f9be1715e6957",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2086fd962da2db21/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2086fd962da2db21/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2086fd962da2db21/thumb",
+          "video_duration": 21,
+          "width": 720,
+          "height": 1280,
+          "button_text": "Install now",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "a0612e857de0fa56",
+      "app_id": "6903ea1543283a7583be73ce",
+      "network": "Instagram",
+      "phashion_group": "a0612e857de0fa56",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-12",
+      "last_seen_at": "2025-12-18",
+      "creatives": [
+        {
+          "id": "a0612e857de0fa56",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2086fd962da2db21/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2086fd962da2db21/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2086fd962da2db21/thumb",
+          "video_duration": 21,
+          "width": 720,
+          "height": 1280,
+          "button_text": "Install now",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "748d48957e4678e6",
+      "app_id": "6903ea1543283a7583be73ce",
+      "network": "Meta Audience Network",
+      "phashion_group": "748d48957e4678e6",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-12",
+      "last_seen_at": "2025-12-18",
+      "creatives": [
+        {
+          "id": "748d48957e4678e6",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2086fd962da2db21/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2086fd962da2db21/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2086fd962da2db21/thumb",
+          "video_duration": 21,
+          "width": 720,
+          "height": 1280,
+          "button_text": "Install now",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "54912ff4fd48d2df",
+      "app_id": "6903ea1543283a7583be73ce",
+      "network": "Facebook",
+      "phashion_group": "54912ff4fd48d2df",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-12",
+      "last_seen_at": "2025-12-18",
+      "creatives": [
+        {
+          "id": "54912ff4fd48d2df",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/32184983a1b460a9/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/32184983a1b460a9/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/32184983a1b460a9/thumb",
+          "video_duration": 34,
+          "width": 720,
+          "height": 1280,
+          "button_text": "Install now",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "b2ff9a90f1f641de",
+      "app_id": "6903ea1543283a7583be73ce",
+      "network": "Instagram",
+      "phashion_group": "b2ff9a90f1f641de",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-12",
+      "last_seen_at": "2025-12-18",
+      "creatives": [
+        {
+          "id": "b2ff9a90f1f641de",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/32184983a1b460a9/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/32184983a1b460a9/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/32184983a1b460a9/thumb",
+          "video_duration": 34,
+          "width": 720,
+          "height": 1280,
+          "button_text": "Install now",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "6613fc80f250c36e",
+      "app_id": "6903ea1543283a7583be73ce",
+      "network": "Meta Audience Network",
+      "phashion_group": "6613fc80f250c36e",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-12",
+      "last_seen_at": "2025-12-18",
+      "creatives": [
+        {
+          "id": "6613fc80f250c36e",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/32184983a1b460a9/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/32184983a1b460a9/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/32184983a1b460a9/thumb",
+          "video_duration": 34,
+          "width": 720,
+          "height": 1280,
+          "button_text": "Install now",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "28a9f4f8d36cb028",
+      "app_id": "6903ea1543283a7583be73ce",
+      "network": "Facebook",
+      "phashion_group": "28a9f4f8d36cb028",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-12",
+      "last_seen_at": "2025-12-14",
+      "creatives": [
+        {
+          "id": "28a9f4f8d36cb028",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4e20928f8f90025e/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4e20928f8f90025e/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4e20928f8f90025e/thumb",
+          "video_duration": 43,
+          "width": 720,
+          "height": 720,
+          "title": "馬上下載，領取傳說武將⭐️⭐️⭐️⭐️⭐️",
+          "button_text": "Install now",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x720",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "1a2b278cdc74a199",
+      "app_id": "6903ea1543283a7583be73ce",
+      "network": "Meta Audience Network",
+      "phashion_group": "1a2b278cdc74a199",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-12",
+      "last_seen_at": "2025-12-14",
+      "creatives": [
+        {
+          "id": "1a2b278cdc74a199",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4e20928f8f90025e/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4e20928f8f90025e/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4e20928f8f90025e/thumb",
+          "video_duration": 43,
+          "width": 720,
+          "height": 720,
+          "title": "馬上下載，領取傳說武將⭐️⭐️⭐️⭐️⭐️",
+          "button_text": "Install now",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x720",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "021931b5f57de587",
+      "app_id": "6903ea1543283a7583be73ce",
+      "network": "Facebook",
+      "phashion_group": "021931b5f57de587",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-06",
+      "last_seen_at": "2025-12-13",
+      "creatives": [
+        {
+          "id": "021931b5f57de587",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/649057c2a98157f1/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/649057c2a98157f1/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/649057c2a98157f1/thumb",
+          "video_duration": 31,
+          "width": 720,
+          "height": 1280,
+          "title": "下載領取傳說武將⭐️⭐️⭐️⭐️⭐️",
+          "button_text": "Install now",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "e47784d1f9c37686",
+      "app_id": "6903ea1543283a7583be73ce",
+      "network": "Instagram",
+      "phashion_group": "e47784d1f9c37686",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-06",
+      "last_seen_at": "2025-12-13",
+      "creatives": [
+        {
+          "id": "e47784d1f9c37686",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/649057c2a98157f1/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/649057c2a98157f1/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/649057c2a98157f1/thumb",
+          "video_duration": 31,
+          "width": 720,
+          "height": 1280,
+          "title": "下載領取傳說武將⭐️⭐️⭐️⭐️⭐️",
+          "button_text": "Install now",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "309be2c1fa65f436",
+      "app_id": "6903ea1543283a7583be73ce",
+      "network": "Meta Audience Network",
+      "phashion_group": "309be2c1fa65f436",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-06",
+      "last_seen_at": "2025-12-13",
+      "creatives": [
+        {
+          "id": "309be2c1fa65f436",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/649057c2a98157f1/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/649057c2a98157f1/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/649057c2a98157f1/thumb",
+          "video_duration": 31,
+          "width": 720,
+          "height": 1280,
+          "title": "下載領取傳說武將⭐️⭐️⭐️⭐️⭐️",
+          "button_text": "Install now",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "121f39b233b5c097",
+      "app_id": "6903ea1543283a7583be73ce",
+      "network": "Facebook",
+      "phashion_group": "121f39b233b5c097",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-12",
+      "last_seen_at": "2025-12-18",
+      "creatives": [
+        {
+          "id": "121f39b233b5c097",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/74965fc56f4972e1/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/74965fc56f4972e1/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/74965fc56f4972e1/thumb",
+          "video_duration": 29,
+          "width": 720,
+          "height": 1280,
+          "button_text": "Install now",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "f4718cd63f0b5396",
+      "app_id": "6903ea1543283a7583be73ce",
+      "network": "Instagram",
+      "phashion_group": "f4718cd63f0b5396",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-12",
+      "last_seen_at": "2025-12-18",
+      "creatives": [
+        {
+          "id": "f4718cd63f0b5396",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/74965fc56f4972e1/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/74965fc56f4972e1/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/74965fc56f4972e1/thumb",
+          "video_duration": 29,
+          "width": 720,
+          "height": 1280,
+          "button_text": "Install now",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "209deac63cadd126",
+      "app_id": "6903ea1543283a7583be73ce",
+      "network": "Meta Audience Network",
+      "phashion_group": "209deac63cadd126",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-12",
+      "last_seen_at": "2025-12-18",
+      "creatives": [
+        {
+          "id": "209deac63cadd126",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/74965fc56f4972e1/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/74965fc56f4972e1/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/74965fc56f4972e1/thumb",
+          "video_duration": 29,
+          "width": 720,
+          "height": 1280,
+          "button_text": "Install now",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "ec762d2fe0ac1a87",
+      "app_id": "6903ea1543283a7583be73ce",
+      "network": "Facebook",
+      "phashion_group": "ec762d2fe0ac1a87",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-12",
+      "last_seen_at": "2025-12-12",
+      "creatives": [
+        {
+          "id": "ec762d2fe0ac1a87",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/8aff4b58bc50a8f1/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/8aff4b58bc50a8f1/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/8aff4b58bc50a8f1/thumb",
+          "video_duration": 40,
+          "width": 720,
+          "height": 1280,
+          "title": "馬上下載，領取傳說武將⭐️⭐️⭐️⭐️⭐️",
+          "button_text": "Install now",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "def4fe5befb40b36",
+      "app_id": "6903ea1543283a7583be73ce",
+      "network": "Meta Audience Network",
+      "phashion_group": "def4fe5befb40b36",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-12",
+      "last_seen_at": "2025-12-12",
+      "creatives": [
+        {
+          "id": "def4fe5befb40b36",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/8aff4b58bc50a8f1/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/8aff4b58bc50a8f1/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/8aff4b58bc50a8f1/thumb",
+          "video_duration": 40,
+          "width": 720,
+          "height": 1280,
+          "title": "馬上下載，領取傳說武將⭐️⭐️⭐️⭐️⭐️",
+          "button_text": "Install now",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    }
+  ]
+}

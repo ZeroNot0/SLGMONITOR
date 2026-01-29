@@ -1,0 +1,67 @@
+{
+  "week_tag": "1201-1207",
+  "strategy_old": [
+    {
+      "folder": "63bd1e79e36abf4ca724dad2_TopHeroes",
+      "app_id": "63bd1e79e36abf4ca724dad2",
+      "product_name": "TopHeroes",
+      "display": "TopHeroes"
+    },
+    {
+      "folder": "5f2a0de487a5ad124411beb1_Rush Royale: Tower Defense RPG",
+      "app_id": "5f2a0de487a5ad124411beb1",
+      "product_name": "Rush Royale: Tower Defense RPG",
+      "display": "Rush Royale: Tower Defense RPG"
+    },
+    {
+      "folder": "6723f294023af58a63f3ff06_High Seas Hero",
+      "app_id": "6723f294023af58a63f3ff06",
+      "product_name": "High Seas Hero",
+      "display": "High Seas Hero"
+    },
+    {
+      "folder": "5efe3412eafbc65b0e81e08a_Supremacy: World War 3",
+      "app_id": "5efe3412eafbc65b0e81e08a",
+      "product_name": "Supremacy: World War 3",
+      "display": "Supremacy: World War 3"
+    },
+    {
+      "folder": "5869720d0211a6180f000ebc_Evony",
+      "app_id": "5869720d0211a6180f000ebc",
+      "product_name": "Evony",
+      "display": "Evony"
+    }
+  ],
+  "strategy_new": [
+    {
+      "folder": "63dcc6e2b964155d936b84da_Tavern Master",
+      "app_id": "63dcc6e2b964155d936b84da",
+      "product_name": "Tavern Master",
+      "display": "Tavern Master"
+    },
+    {
+      "folder": "68411dcfc0b33b442b5f2320_Fate War",
+      "app_id": "68411dcfc0b33b442b5f2320",
+      "product_name": "Fate War",
+      "display": "Fate War"
+    },
+    {
+      "folder": "68702aaeb9de50fc5fc2b7da_Foundation: Galactic Frontier",
+      "app_id": "68702aaeb9de50fc5fc2b7da",
+      "product_name": "Foundation: Galactic Frontier",
+      "display": "Foundation: Galactic Frontier"
+    },
+    {
+      "folder": "690e03ef9f8e3a39cfd8fecb_March of Nations 2",
+      "app_id": "690e03ef9f8e3a39cfd8fecb",
+      "product_name": "March of Nations 2",
+      "display": "March of Nations 2"
+    },
+    {
+      "folder": "68b790d97804e2faa545b1a2_Ape Warforts",
+      "app_id": "68b790d97804e2faa545b1a2",
+      "product_name": "Ape Warforts",
+      "display": "Ape Warforts"
+    }
+  ]
+}

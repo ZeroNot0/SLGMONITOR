@@ -1,0 +1,7090 @@
+{
+  "count": 196,
+  "available_networks": [
+    "Admob",
+    "Applovin",
+    "BidMachine",
+    "Digital Turbine",
+    "Facebook",
+    "InMobi",
+    "Instagram",
+    "Meta Audience Network",
+    "Moloco",
+    "Supersonic",
+    "Unity",
+    "Vungle"
+  ],
+  "ad_units": [
+    {
+      "id": "2e90e2207ed99e22",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Applovin",
+      "phashion_group": "2e90e2207ed99e22",
+      "ad_type": "video",
+      "first_seen_at": "2025-09-22",
+      "last_seen_at": "2026-01-28",
+      "creatives": [
+        {
+          "id": "2e90e2207ed99e22",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/5e01ae24abe84eec/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/5e01ae24abe84eec/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/5e01ae24abe84eec/thumb",
+          "video_duration": 51,
+          "width": 720,
+          "height": 1280,
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "rewarded",
+        "interstitial",
+        "other"
+      ],
+      "share": 0.306067,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.003784
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.82255
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.711313
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.821901
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.514209
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.726979
+          ]
+        ],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 48,
+        "data": [
+          [
+            "6769352643283aae0e405142",
+            0.159113
+          ],
+          [
+            "58bcf0520211a6f648000d65",
+            0.121547
+          ],
+          [
+            "57772d430211a65e2300000a",
+            0.108906
+          ],
+          [
+            "616ffef2f982b906cb28d410",
+            0.078686
+          ],
+          [
+            "55c5233d02ac64f9c00029f3",
+            0.045658
+          ],
+          [
+            "678320e41c5ca15010ec3400",
+            0.039317
+          ],
+          [
+            "5919fd19ee05f407440011a7",
+            0.037888
+          ],
+          [
+            "5818fc520211a620cc0009cb",
+            0.037677
+          ],
+          [
+            "647349df37938646851bad00",
+            0.030909
+          ],
+          [
+            "61b177e87a8e43536bc6736b",
+            0.030628
+          ],
+          [
+            "666c314e108dacfa113ea464",
+            0.030197
+          ],
+          [
+            "5e8933652f26485a253787bc",
+            0.026636
+          ],
+          [
+            "5c72726923cfc647dc3b1749",
+            0.025213
+          ],
+          [
+            "55c5270002ac64f9c0002ae5",
+            0.021881
+          ],
+          [
+            "64267180af8f2f221d2ac3bd",
+            0.019333
+          ],
+          [
+            "5719761c02ac645af8000004",
+            0.014527
+          ],
+          [
+            "5cc98b703ea98357b8ed3ce0",
+            0.014389
+          ],
+          [
+            "5c6629930cac9b1a9cf33162",
+            0.012069
+          ],
+          [
+            "5c9957bc3ea9835895e21c3d",
+            0.011488
+          ],
+          [
+            "632e6c3fb03a9e6950b40fa4",
+            0.011226
+          ],
+          [
+            "63a153348066e10644ae2342",
+            0.009799
+          ],
+          [
+            "5e250588d72dfc1988b411bf",
+            0.009622
+          ],
+          [
+            "6763f61867adbafccb6eb1b1",
+            0.006515
+          ],
+          [
+            "6042dbd99ac3eb43079df9d2",
+            0.006199
+          ],
+          [
+            "644f6724aa5632568e2c653a",
+            0.006002
+          ],
+          [
+            "6478d3edb3ae272847ad30f8",
+            0.005906
+          ],
+          [
+            "57ff2b150211a623700000b4",
+            0.005894
+          ],
+          [
+            "55c50f2602ac64f9c0002439",
+            0.005663
+          ],
+          [
+            "55d93af502ac645ad20619c8",
+            0.005663
+          ],
+          [
+            "58ddbbaef479660387000613",
+            0.005663
+          ]
+        ]
+      }
+    },
+    {
+      "id": "f625cb9fcf7eb02d",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Facebook",
+      "phashion_group": "f625cb9fcf7eb02d",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-11",
+      "last_seen_at": "2025-12-23",
+      "creatives": [
+        {
+          "id": "f625cb9fcf7eb02d",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/ddfb7af02a8c1bd3/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/ddfb7af02a8c1bd3/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/ddfb7af02a8c1bd3/thumb",
+          "video_duration": 45,
+          "width": 1920,
+          "height": 1080,
+          "title": "Be A Legend! Start Now!",
+          "button_text": "Play Game",
+          "message": "Collect the Heroes of History and engage in Epic Battles to save the world from Tesla's wrath!"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": 0.304607,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.881305
+          ]
+        ],
+        "dimensions": [
+          [
+            "1920x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "a04ddbc94344ec8b",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Admob",
+      "phashion_group": "a04ddbc94344ec8b",
+      "ad_type": "video",
+      "first_seen_at": "2025-05-05",
+      "last_seen_at": "2026-01-10",
+      "creatives": [
+        {
+          "id": "a04ddbc94344ec8b",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/f5403d21a97310e8/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/f5403d21a97310e8/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/f5403d21a97310e8/thumb",
+          "video_duration": 27,
+          "width": 1280,
+          "height": 720,
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": 0.035586,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.393132
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.496512
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "1280x720",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 2,
+        "data": [
+          [
+            "55d9510502ac645ad21b59ef",
+            0.5292
+          ],
+          [
+            "5ca80722341484780c112be0",
+            0.4708
+          ]
+        ]
+      }
+    },
+    {
+      "id": "bef593b004edff10",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Admob",
+      "phashion_group": "bef593b004edff10",
+      "ad_type": "video",
+      "first_seen_at": "2025-05-08",
+      "last_seen_at": "2025-12-26",
+      "creatives": [
+        {
+          "id": "bef593b004edff10",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/ebf87558eeda0373/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/ebf87558eeda0373/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/ebf87558eeda0373/thumb",
+          "video_duration": 30,
+          "width": 1280,
+          "height": 720,
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": 0.029882,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.392337
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.194417
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "1280x720",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 3,
+        "data": [
+          [
+            "55d9510502ac645ad21b59ef",
+            0.630217
+          ],
+          [
+            "608bf85eeafbc61e42769302",
+            0.247258
+          ],
+          [
+            "5ca80722341484780c112be0",
+            0.122525
+          ]
+        ]
+      }
+    },
+    {
+      "id": "e94acd7830c52928",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Applovin",
+      "phashion_group": "e94acd7830c52928",
+      "ad_type": "video",
+      "first_seen_at": "2025-09-22",
+      "last_seen_at": "2026-01-27",
+      "creatives": [
+        {
+          "id": "e94acd7830c52928",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/99db817ce5f4f9e6/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/99db817ce5f4f9e6/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/99db817ce5f4f9e6/thumb",
+          "video_duration": 49,
+          "width": 720,
+          "height": 1280,
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "rewarded",
+        "interstitial"
+      ],
+      "share": 0.028205,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.143964
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.893987
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.516991
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.590312
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.543279
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.166588
+          ]
+        ],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 6,
+        "data": [
+          [
+            "616ffef2f982b906cb28d410",
+            0.690573
+          ],
+          [
+            "6763f61867adbafccb6eb1b1",
+            0.165184
+          ],
+          [
+            "57772d430211a65e2300000a",
+            0.068142
+          ],
+          [
+            "67affe1027e2c13be7128016",
+            0.03196
+          ],
+          [
+            "58bcf0520211a6f648000d65",
+            0.030625
+          ],
+          [
+            "55d93f9602ac645ad213b6fa",
+            0.013517
+          ]
+        ]
+      }
+    },
+    {
+      "id": "48e5d34efe1b54b3",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "BidMachine",
+      "phashion_group": "48e5d34efe1b54b3",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-10",
+      "last_seen_at": "2025-12-22",
+      "creatives": [
+        {
+          "id": "48e5d34efe1b54b3",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0566f3899cf0009b/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0566f3899cf0009b/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0566f3899cf0009b/thumb",
+          "video_duration": 40,
+          "width": 720,
+          "height": 1280,
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": 0.019989,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 1,
+        "data": [
+          [
+            "65a74c0797cd670cb69d7e66",
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "id": "43aa7d4e5f67afd8",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "BidMachine",
+      "phashion_group": "43aa7d4e5f67afd8",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-10",
+      "last_seen_at": "2025-12-10",
+      "creatives": [
+        {
+          "id": "43aa7d4e5f67afd8",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0e295d893d8cfbf0/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0e295d893d8cfbf0/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0e295d893d8cfbf0/thumb",
+          "video_duration": 31,
+          "width": 720,
+          "height": 1280,
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": 0.019989,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 1,
+        "data": [
+          [
+            "65a74c0797cd670cb69d7e66",
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "id": "545da1383dc39510",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "BidMachine",
+      "phashion_group": "545da1383dc39510",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-10",
+      "last_seen_at": "2025-12-10",
+      "creatives": [
+        {
+          "id": "545da1383dc39510",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/19de81ff5f28c138/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/19de81ff5f28c138/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/19de81ff5f28c138/thumb",
+          "video_duration": 30,
+          "width": 720,
+          "height": 1280,
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": 0.019989,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 1,
+        "data": [
+          [
+            "65a74c0797cd670cb69d7e66",
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "id": "3a4f20b6fd7b7c85",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "BidMachine",
+      "phashion_group": "3a4f20b6fd7b7c85",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-10",
+      "last_seen_at": "2025-12-10",
+      "creatives": [
+        {
+          "id": "3a4f20b6fd7b7c85",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/77cc00719f9028ad/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/77cc00719f9028ad/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/77cc00719f9028ad/thumb",
+          "video_duration": 30,
+          "width": 720,
+          "height": 1280,
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": 0.019989,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 1,
+        "data": [
+          [
+            "65a74c0797cd670cb69d7e66",
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "id": "ce86df31506997d6",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "BidMachine",
+      "phashion_group": "ce86df31506997d6",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-10",
+      "last_seen_at": "2025-12-10",
+      "creatives": [
+        {
+          "id": "ce86df31506997d6",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/8305fff63282c3fe/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/8305fff63282c3fe/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/8305fff63282c3fe/thumb",
+          "video_duration": 57,
+          "width": 720,
+          "height": 1280,
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": 0.019989,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 1,
+        "data": [
+          [
+            "65a74c0797cd670cb69d7e66",
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "id": "a70e3267aa644dd3",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Admob",
+      "phashion_group": "a70e3267aa644dd3",
+      "ad_type": "video",
+      "first_seen_at": "2025-02-05",
+      "last_seen_at": "2025-12-10",
+      "creatives": [
+        {
+          "id": "a70e3267aa644dd3",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/f203d48f4053b1b0/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/f203d48f4053b1b0/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/f203d48f4053b1b0/thumb",
+          "video_duration": 28,
+          "width": 1280,
+          "height": 720,
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": 0.019529,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.555519
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "1280x720",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 2,
+        "data": [
+          [
+            "55d9510502ac645ad21b59ef",
+            0.642872
+          ],
+          [
+            "608bf85eeafbc61e42769302",
+            0.357128
+          ]
+        ]
+      }
+    },
+    {
+      "id": "7f61425098504e53",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Unity",
+      "phashion_group": "7f61425098504e53",
+      "ad_type": "video",
+      "first_seen_at": "2025-10-10",
+      "last_seen_at": "2025-12-12",
+      "creatives": [
+        {
+          "id": "7f61425098504e53",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/e8e7f4aca2054feb/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/e8e7f4aca2054feb/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/e8e7f4aca2054feb/thumb",
+          "video_duration": 28,
+          "width": 640,
+          "height": 360,
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "rewarded"
+      ],
+      "share": 0.014588,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "640x360",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 1,
+        "data": [
+          [
+            "5c6629930cac9b1a9cf33162",
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "id": "b086a5f62579d888",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Admob",
+      "phashion_group": "b086a5f62579d888",
+      "ad_type": "video",
+      "first_seen_at": "2025-10-14",
+      "last_seen_at": "2025-12-26",
+      "creatives": [
+        {
+          "id": "b086a5f62579d888",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/e58b431ecf4e24eb/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/e58b431ecf4e24eb/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/e58b431ecf4e24eb/thumb",
+          "video_duration": 30,
+          "width": 1280,
+          "height": 720,
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": 0.0136,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.857265
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "1280x720",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 2,
+        "data": [
+          [
+            "5ca80722341484780c112be0",
+            0.538426
+          ],
+          [
+            "55d9510502ac645ad21b59ef",
+            0.461574
+          ]
+        ]
+      }
+    },
+    {
+      "id": "07f1952f8adbbda0",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Admob",
+      "phashion_group": "07f1952f8adbbda0",
+      "ad_type": "video",
+      "first_seen_at": "2025-02-08",
+      "last_seen_at": "2025-12-08",
+      "creatives": [
+        {
+          "id": "07f1952f8adbbda0",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/52fc73c760ec41c3/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/52fc73c760ec41c3/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/52fc73c760ec41c3/thumb",
+          "video_duration": 30,
+          "width": 1280,
+          "height": 720,
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": 0.012555,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "1280x720",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 1,
+        "data": [
+          [
+            "55d9510502ac645ad21b59ef",
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "id": "c8363b56287a5a24",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Admob",
+      "phashion_group": "c8363b56287a5a24",
+      "ad_type": "video",
+      "first_seen_at": "2025-07-23",
+      "last_seen_at": "2026-01-12",
+      "creatives": [
+        {
+          "id": "c8363b56287a5a24",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/9d3bddbec24da647/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/9d3bddbec24da647/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/9d3bddbec24da647/thumb",
+          "video_duration": 29,
+          "width": 1280,
+          "height": 720,
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": 0.01186,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "1280x720",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 1,
+        "data": [
+          [
+            "5ca80722341484780c112be0",
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "id": "a2b2c4d61c11e309",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Instagram",
+      "phashion_group": "a2b2c4d61c11e309",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-14",
+      "last_seen_at": "2026-01-23",
+      "creatives": [
+        {
+          "id": "a2b2c4d61c11e309",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/cd47aa8ef2161c75/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/cd47aa8ef2161c75/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/cd47aa8ef2161c75/thumb",
+          "video_duration": 30,
+          "width": 1440,
+          "height": 1440,
+          "title": "Build & Collect at your own pace.",
+          "button_text": "Play Game",
+          "message": "Collect the Heroes of History and engage in Epic Battles to save the world from Tesla's wrath!"
+        },
+        {
+          "id": "eaae09834e21a83f",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/cd47aa8ef2161c75/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/cd47aa8ef2161c75/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/cd47aa8ef2161c75/thumb",
+          "video_duration": 30,
+          "width": 1440,
+          "height": 1440,
+          "title": "No 4X - No Ads - No Bullshit!",
+          "button_text": "Play Game",
+          "message": "Build an epic city, fight strategic battles & explore the world of Heroes of History."
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": 0.011497,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "1440x1440",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "aef5a6cfb0700256",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Admob",
+      "phashion_group": "aef5a6cfb0700256",
+      "ad_type": "video",
+      "first_seen_at": "2025-05-06",
+      "last_seen_at": "2025-12-23",
+      "creatives": [
+        {
+          "id": "aef5a6cfb0700256",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/fbf840275a47fe35/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/fbf840275a47fe35/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/fbf840275a47fe35/thumb",
+          "video_duration": 30,
+          "width": 1280,
+          "height": 720,
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": 0.010984,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "1280x720",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 1,
+        "data": [
+          [
+            "5ca80722341484780c112be0",
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "id": "f0d58dcbd111794f",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Unity",
+      "phashion_group": "f0d58dcbd111794f",
+      "ad_type": "video",
+      "first_seen_at": "2025-09-05",
+      "last_seen_at": "2025-12-31",
+      "creatives": [
+        {
+          "id": "f0d58dcbd111794f",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/67533b37eb4478f7/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/67533b37eb4478f7/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/67533b37eb4478f7/thumb",
+          "video_duration": 60,
+          "width": 1280,
+          "height": 720,
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "rewarded"
+      ],
+      "share": 0.008721,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "1280x720",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 1,
+        "data": [
+          [
+            "67affe1027e2c13be7128016",
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "id": "b9a277bfc28add4e",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Unity",
+      "phashion_group": "b9a277bfc28add4e",
+      "ad_type": "video",
+      "first_seen_at": "2025-09-05",
+      "last_seen_at": "2025-12-31",
+      "creatives": [
+        {
+          "id": "b9a277bfc28add4e",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2e24c143f8dfdcf6/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2e24c143f8dfdcf6/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2e24c143f8dfdcf6/thumb",
+          "video_duration": 60,
+          "width": 720,
+          "height": 1280,
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "rewarded"
+      ],
+      "share": 0.008164,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 1,
+        "data": [
+          [
+            "67affe1027e2c13be7128016",
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "id": "6f816a1b4fda8819",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Applovin",
+      "phashion_group": "6f816a1b4fda8819",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-12",
+      "last_seen_at": "2026-01-28",
+      "creatives": [
+        {
+          "id": "6f816a1b4fda8819",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1f10261f9aeb58d7/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1f10261f9aeb58d7/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1f10261f9aeb58d7/thumb",
+          "video_duration": 44,
+          "width": 720,
+          "height": 1280,
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "rewarded",
+        "interstitial"
+      ],
+      "share": 0.007377,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.496037
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.260172
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.273401
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 4,
+        "data": [
+          [
+            "57772d430211a65e2300000a",
+            0.614906
+          ],
+          [
+            "622390aa2e0fa027dbdc26b8",
+            0.134706
+          ],
+          [
+            "616ffef2f982b906cb28d410",
+            0.128188
+          ],
+          [
+            "5818fc520211a620cc0009cb",
+            0.1222
+          ]
+        ]
+      }
+    },
+    {
+      "id": "ecf4a777fd07b64a",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Unity",
+      "phashion_group": "ecf4a777fd07b64a",
+      "ad_type": "video",
+      "first_seen_at": "2025-10-10",
+      "last_seen_at": "2025-12-19",
+      "creatives": [
+        {
+          "id": "ecf4a777fd07b64a",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/7b72118bc752b7f2/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/7b72118bc752b7f2/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/7b72118bc752b7f2/thumb",
+          "video_duration": 30,
+          "width": 360,
+          "height": 640,
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "rewarded"
+      ],
+      "share": 0.007294,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "360x640",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 1,
+        "data": [
+          [
+            "5c6629930cac9b1a9cf33162",
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "id": "2ead14d98a2cbe77",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Instagram",
+      "phashion_group": "2ead14d98a2cbe77",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-06",
+      "last_seen_at": "2025-12-11",
+      "creatives": [
+        {
+          "id": "2ead14d98a2cbe77",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0944b7d4361b0a3d/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0944b7d4361b0a3d/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0944b7d4361b0a3d/thumb",
+          "video_duration": 48,
+          "width": 1920,
+          "height": 1080,
+          "title": "No 4X - No Ads - No Bullshit!",
+          "button_text": "Play Game",
+          "message": "Build an epic city, fight strategic battles & explore the world of Heroes of History."
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": 0.007038,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "1920x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "0a5ff0585ade8140",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Admob",
+      "phashion_group": "0a5ff0585ade8140",
+      "ad_type": "video",
+      "first_seen_at": "2025-06-25",
+      "last_seen_at": "2025-12-25",
+      "creatives": [
+        {
+          "id": "0a5ff0585ade8140",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/5f5216b0b0e97d23/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/5f5216b0b0e97d23/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/5f5216b0b0e97d23/thumb",
+          "video_duration": 30,
+          "width": 1280,
+          "height": 720,
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": 0.006974,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "1280x720",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 1,
+        "data": [
+          [
+            "608bf85eeafbc61e42769302",
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "id": "a231f222d5bc80d9",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Applovin",
+      "phashion_group": "a231f222d5bc80d9",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-09",
+      "last_seen_at": "2026-01-28",
+      "creatives": [
+        {
+          "id": "a231f222d5bc80d9",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/d2a0be26008d5017/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/d2a0be26008d5017/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/d2a0be26008d5017/thumb",
+          "video_duration": 49,
+          "width": 720,
+          "height": 1280,
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "rewarded",
+        "interstitial"
+      ],
+      "share": 0.006716,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.258898
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.145598
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.248081
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.276321
+          ]
+        ],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 7,
+        "data": [
+          [
+            "58bcf0520211a6f648000d65",
+            0.295915
+          ],
+          [
+            "647349df37938646851bad00",
+            0.147957
+          ],
+          [
+            "68edb98a759282cab934f53e",
+            0.144166
+          ],
+          [
+            "5818fc520211a620cc0009cb",
+            0.134221
+          ],
+          [
+            "5e8933652f26485a253787bc",
+            0.128613
+          ],
+          [
+            "609a32e0e70a2019461588f6",
+            0.075482
+          ],
+          [
+            "6602e5b4339f4c0e2f0c61a4",
+            0.073646
+          ]
+        ]
+      }
+    },
+    {
+      "id": "2fefa3eca2faa559",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Admob",
+      "phashion_group": "2fefa3eca2faa559",
+      "ad_type": "video",
+      "first_seen_at": "2025-10-30",
+      "last_seen_at": "2025-12-08",
+      "creatives": [
+        {
+          "id": "2fefa3eca2faa559",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/7ae2450448cd593a/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/7ae2450448cd593a/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/7ae2450448cd593a/thumb",
+          "video_duration": 40,
+          "width": 1280,
+          "height": 720,
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": 0.006277,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "1280x720",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 1,
+        "data": [
+          [
+            "55d9510502ac645ad21b59ef",
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "id": "8f93ea688a7cf140",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Admob",
+      "phashion_group": "8f93ea688a7cf140",
+      "ad_type": "video",
+      "first_seen_at": "2025-06-25",
+      "last_seen_at": "2025-12-08",
+      "creatives": [
+        {
+          "id": "8f93ea688a7cf140",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/da9e0c80604b0d23/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/da9e0c80604b0d23/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/da9e0c80604b0d23/thumb",
+          "video_duration": 28,
+          "width": 1280,
+          "height": 720,
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": 0.006277,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "1280x720",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 1,
+        "data": [
+          [
+            "55d9510502ac645ad21b59ef",
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "id": "b03e7600e8e36d91",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Applovin",
+      "phashion_group": "b03e7600e8e36d91",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-12",
+      "last_seen_at": "2026-01-10",
+      "creatives": [
+        {
+          "id": "b03e7600e8e36d91",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/c0af3a043dd2bd5f/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/c0af3a043dd2bd5f/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/c0af3a043dd2bd5f/thumb",
+          "video_duration": 40,
+          "width": 720,
+          "height": 1280,
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "rewarded",
+        "interstitial",
+        "other"
+      ],
+      "share": 0.005661,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.501735
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            1.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 3,
+        "data": [
+          [
+            "58bcf0520211a6f648000d65",
+            0.453767
+          ],
+          [
+            "616ffef2f982b906cb28d410",
+            0.334103
+          ],
+          [
+            "6332fb6863d67c0dfad85001",
+            0.212129
+          ]
+        ]
+      }
+    },
+    {
+      "id": "304aa9556010ea13",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Digital Turbine",
+      "phashion_group": "304aa9556010ea13",
+      "ad_type": "video",
+      "first_seen_at": "2025-10-10",
+      "last_seen_at": "2026-01-24",
+      "creatives": [
+        {
+          "id": "304aa9556010ea13",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/6c980f09d97068b9/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/6c980f09d97068b9/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/6c980f09d97068b9/thumb",
+          "video_duration": 30,
+          "width": 720,
+          "height": 1280,
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "rewarded"
+      ],
+      "share": 0.004333,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.358415
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 1,
+        "data": [
+          [
+            "5def03eb609cd57094dc083c",
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "id": "56d536c72c60c0b8",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Vungle",
+      "phashion_group": "56d536c72c60c0b8",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-19",
+      "last_seen_at": "2026-01-28",
+      "creatives": [
+        {
+          "id": "56d536c72c60c0b8",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/62c8a3c665d8c374/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/62c8a3c665d8c374/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/62c8a3c665d8c374/thumb",
+          "video_duration": 51,
+          "width": 720,
+          "height": 1280,
+          "button_text": "Get",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "rewarded",
+        "interstitial"
+      ],
+      "share": 0.003695,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.811331
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 1,
+        "data": [
+          [
+            "5acde41ef20fdb663164691c",
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "id": "4e1f79651d82942c",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Admob",
+      "phashion_group": "4e1f79651d82942c",
+      "ad_type": "video",
+      "first_seen_at": "2025-10-07",
+      "last_seen_at": "2025-12-21",
+      "creatives": [
+        {
+          "id": "4e1f79651d82942c",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1b129f8df7b5684f/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1b129f8df7b5684f/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1b129f8df7b5684f/thumb",
+          "video_duration": 31,
+          "width": 1280,
+          "height": 720,
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": 0.003661,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "1280x720",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 1,
+        "data": [
+          [
+            "5ca80722341484780c112be0",
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "id": "f1eda7d6bcaac4b8",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Digital Turbine",
+      "phashion_group": "f1eda7d6bcaac4b8",
+      "ad_type": "video",
+      "first_seen_at": "2025-07-29",
+      "last_seen_at": "2026-01-24",
+      "creatives": [
+        {
+          "id": "f1eda7d6bcaac4b8",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/ad3f018a05ca4612/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/ad3f018a05ca4612/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/ad3f018a05ca4612/thumb",
+          "video_duration": 29,
+          "width": 720,
+          "height": 1280,
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "rewarded"
+      ],
+      "share": 0.00319,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 1,
+        "data": [
+          [
+            "5def03eb609cd57094dc083c",
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "id": "548f5d7fe5686092",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Digital Turbine",
+      "phashion_group": "548f5d7fe5686092",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-09",
+      "last_seen_at": "2026-01-21",
+      "creatives": [
+        {
+          "id": "548f5d7fe5686092",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/085dfb235c08e238/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/085dfb235c08e238/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/085dfb235c08e238/thumb",
+          "video_duration": 27,
+          "width": 1080,
+          "height": 1920,
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "rewarded"
+      ],
+      "share": 0.003001,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.607166
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 1,
+        "data": [
+          [
+            "5def03eb609cd57094dc083c",
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "id": "7d2ee35760504fab",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Applovin",
+      "phashion_group": "7d2ee35760504fab",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-09",
+      "last_seen_at": "2026-01-26",
+      "creatives": [
+        {
+          "id": "7d2ee35760504fab",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0dbfaf53b5619f65/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0dbfaf53b5619f65/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0dbfaf53b5619f65/thumb",
+          "video_duration": 41,
+          "width": 720,
+          "height": 1280,
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "rewarded"
+      ],
+      "share": 0.002629,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.607479
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 3,
+        "data": [
+          [
+            "6763f61867adbafccb6eb1b1",
+            0.377908
+          ],
+          [
+            "57ff2b150211a623700000b4",
+            0.342823
+          ],
+          [
+            "57772d430211a65e2300000a",
+            0.27927
+          ]
+        ]
+      }
+    },
+    {
+      "id": "0725ecc478c1c70e",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Digital Turbine",
+      "phashion_group": "0725ecc478c1c70e",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-12",
+      "last_seen_at": "2026-01-21",
+      "creatives": [
+        {
+          "id": "0725ecc478c1c70e",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/5bf74a98c1a145a4/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/5bf74a98c1a145a4/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/5bf74a98c1a145a4/thumb",
+          "video_duration": 28,
+          "width": 1080,
+          "height": 1920,
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "rewarded"
+      ],
+      "share": 0.002321,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.483081
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 1,
+        "data": [
+          [
+            "5def03eb609cd57094dc083c",
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "id": "8f20cb8549de3fe8",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Applovin",
+      "phashion_group": "8f20cb8549de3fe8",
+      "ad_type": "video",
+      "first_seen_at": "2025-09-22",
+      "last_seen_at": "2026-01-24",
+      "creatives": [
+        {
+          "id": "8f20cb8549de3fe8",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/ffb187819cefef26/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/ffb187819cefef26/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/ffb187819cefef26/thumb",
+          "video_duration": 38,
+          "width": 720,
+          "height": 1280,
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "rewarded",
+        "interstitial"
+      ],
+      "share": 0.000988,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.567095
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            1.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 2,
+        "data": [
+          [
+            "55d3a1a002ac64350a000549",
+            0.638123
+          ],
+          [
+            "590796d10211a6bf28000b45",
+            0.361877
+          ]
+        ]
+      }
+    },
+    {
+      "id": "317b6688d5480357",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Vungle",
+      "phashion_group": "317b6688d5480357",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-13",
+      "last_seen_at": "2026-01-28",
+      "creatives": [
+        {
+          "id": "317b6688d5480357",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0566f3899cf0009b/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0566f3899cf0009b/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0566f3899cf0009b/thumb",
+          "video_duration": 40,
+          "width": 720,
+          "height": 1280,
+          "button_text": "Get",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "rewarded",
+        "interstitial"
+      ],
+      "share": 0.000842,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.319434
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 1,
+        "data": [
+          [
+            "5acde41ef20fdb663164691c",
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "id": "34878128fb817e4c",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Vungle",
+      "phashion_group": "34878128fb817e4c",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-10",
+      "last_seen_at": "2026-01-21",
+      "creatives": [
+        {
+          "id": "34878128fb817e4c",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/009a1429b2397d80/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/009a1429b2397d80/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/009a1429b2397d80/thumb",
+          "video_duration": 40,
+          "width": 1080,
+          "height": 1920,
+          "button_text": "Get",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "rewarded",
+        "interstitial"
+      ],
+      "share": 0.000705,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.555824
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 1,
+        "data": [
+          [
+            "5acde41ef20fdb663164691c",
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "id": "3b5bd6569c786386",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Supersonic",
+      "phashion_group": "3b5bd6569c786386",
+      "ad_type": "video",
+      "first_seen_at": "2025-09-03",
+      "last_seen_at": "2026-01-26",
+      "creatives": [
+        {
+          "id": "3b5bd6569c786386",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/c81622981e7cf3b7/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/c81622981e7cf3b7/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/c81622981e7cf3b7/thumb",
+          "video_duration": 52,
+          "width": 640,
+          "height": 360,
+          "title": "Heroes of History: Epic Empire",
+          "message": "The Heroes of History are ready for your command!"
+        }
+      ],
+      "ad_formats": [
+        "rewarded"
+      ],
+      "share": 0.000692,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.089485
+          ]
+        ],
+        "dimensions": [
+          [
+            "640x360",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 1,
+        "data": [
+          [
+            "68a57459b905dc2de0fecd36",
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "id": "b2951242ee128b00",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Digital Turbine",
+      "phashion_group": "b2951242ee128b00",
+      "ad_type": "video",
+      "first_seen_at": "2025-08-11",
+      "last_seen_at": "2026-01-23",
+      "creatives": [
+        {
+          "id": "b2951242ee128b00",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/ee47b41e577209aa/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/ee47b41e577209aa/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/ee47b41e577209aa/thumb",
+          "video_duration": 30,
+          "width": 720,
+          "height": 1280,
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "rewarded"
+      ],
+      "share": 0.000667,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 1,
+        "data": [
+          [
+            "5def03eb609cd57094dc083c",
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "id": "72a6a10b0ada33da",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Vungle",
+      "phashion_group": "72a6a10b0ada33da",
+      "ad_type": "video",
+      "first_seen_at": "2025-09-09",
+      "last_seen_at": "2026-01-21",
+      "creatives": [
+        {
+          "id": "72a6a10b0ada33da",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/46bb340a43623016/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/46bb340a43623016/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/46bb340a43623016/thumb",
+          "video_duration": 60,
+          "width": 720,
+          "height": 1280,
+          "button_text": "Get",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "rewarded",
+        "interstitial"
+      ],
+      "share": 0.000599,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.113765
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 1,
+        "data": [
+          [
+            "5acde41ef20fdb663164691c",
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "id": "6147681b35cc92c5",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Applovin",
+      "phashion_group": "6147681b35cc92c5",
+      "ad_type": "video",
+      "first_seen_at": "2025-05-26",
+      "last_seen_at": "2025-12-12",
+      "creatives": [
+        {
+          "id": "6147681b35cc92c5",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/11d6241fe0fd420b/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/11d6241fe0fd420b/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/11d6241fe0fd420b/thumb",
+          "video_duration": 45,
+          "width": 720,
+          "height": 1280,
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "interstitial"
+      ],
+      "share": 0.000509,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 1,
+        "data": [
+          [
+            "590796d10211a6bf28000b45",
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "id": "3c0cc5fa8ad59dcc",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Vungle",
+      "phashion_group": "3c0cc5fa8ad59dcc",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-13",
+      "last_seen_at": "2026-01-21",
+      "creatives": [
+        {
+          "id": "3c0cc5fa8ad59dcc",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/081150fbc36d9e00/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/081150fbc36d9e00/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/081150fbc36d9e00/thumb",
+          "video_duration": 27,
+          "width": 720,
+          "height": 1280,
+          "button_text": "Get",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "rewarded",
+        "interstitial"
+      ],
+      "share": 0.000486,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.30107
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 1,
+        "data": [
+          [
+            "5acde41ef20fdb663164691c",
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "id": "10415c726ed71099",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Vungle",
+      "phashion_group": "10415c726ed71099",
+      "ad_type": "video",
+      "first_seen_at": "2025-08-13",
+      "last_seen_at": "2026-01-21",
+      "creatives": [
+        {
+          "id": "10415c726ed71099",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/245cc973276f1355/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/245cc973276f1355/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/245cc973276f1355/thumb",
+          "video_duration": 35,
+          "width": 720,
+          "height": 1280,
+          "button_text": "Get",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "rewarded",
+        "interstitial"
+      ],
+      "share": 0.000465,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.932817
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 1,
+        "data": [
+          [
+            "5acde41ef20fdb663164691c",
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "id": "f9317672806d6420",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Vungle",
+      "phashion_group": "f9317672806d6420",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-30",
+      "last_seen_at": "2025-12-23",
+      "creatives": [
+        {
+          "id": "f9317672806d6420",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/cd2ce373c9d567ec/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/cd2ce373c9d567ec/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/cd2ce373c9d567ec/thumb",
+          "video_duration": 49,
+          "width": 720,
+          "height": 1280,
+          "button_text": "Get",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "rewarded",
+        "interstitial"
+      ],
+      "share": 0.000431,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 1,
+        "data": [
+          [
+            "5acde41ef20fdb663164691c",
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "id": "86fcb2607e91d148",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Supersonic",
+      "phashion_group": "86fcb2607e91d148",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-11",
+      "last_seen_at": "2026-01-27",
+      "creatives": [
+        {
+          "id": "86fcb2607e91d148",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/a2986890fa9cf11e/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/a2986890fa9cf11e/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/a2986890fa9cf11e/thumb",
+          "video_duration": 35,
+          "width": 1080,
+          "height": 1920,
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "rewarded"
+      ],
+      "share": 0.000234,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 1,
+        "data": [
+          [
+            "67623418febe658a680641d2",
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "id": "2dc314fe1690c2f4",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Vungle",
+      "phashion_group": "2dc314fe1690c2f4",
+      "ad_type": "video",
+      "first_seen_at": "2025-07-25",
+      "last_seen_at": "2026-01-21",
+      "creatives": [
+        {
+          "id": "2dc314fe1690c2f4",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/19de81ff5f28c138/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/19de81ff5f28c138/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/19de81ff5f28c138/thumb",
+          "video_duration": 30,
+          "width": 720,
+          "height": 1280,
+          "button_text": "Get",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "rewarded",
+        "interstitial"
+      ],
+      "share": 0.000233,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.718684
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 1,
+        "data": [
+          [
+            "5acde41ef20fdb663164691c",
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "id": "74c6cf03a43a8dda",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Vungle",
+      "phashion_group": "74c6cf03a43a8dda",
+      "ad_type": "video",
+      "first_seen_at": "2025-07-20",
+      "last_seen_at": "2025-12-21",
+      "creatives": [
+        {
+          "id": "74c6cf03a43a8dda",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/40db5a02ed828e16/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/40db5a02ed828e16/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/40db5a02ed828e16/thumb",
+          "video_duration": 45,
+          "width": 720,
+          "height": 1280,
+          "button_text": "Get",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "rewarded",
+        "interstitial"
+      ],
+      "share": 0.00023,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 1,
+        "data": [
+          [
+            "5acde41ef20fdb663164691c",
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "id": "440d546c47c220a2",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Supersonic",
+      "phashion_group": "440d546c47c220a2",
+      "ad_type": "video",
+      "first_seen_at": "2025-09-08",
+      "last_seen_at": "2026-01-27",
+      "creatives": [
+        {
+          "id": "440d546c47c220a2",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/b740a0a2c5c6b093/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/b740a0a2c5c6b093/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/b740a0a2c5c6b093/thumb",
+          "video_duration": 52,
+          "width": 360,
+          "height": 640,
+          "title": "Heroes of History: Epic Empire",
+          "message": "The Heroes of History are ready for your command!"
+        }
+      ],
+      "ad_formats": [
+        "rewarded"
+      ],
+      "share": 0.000214,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "360x640",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 1,
+        "data": [
+          [
+            "68a57459b905dc2de0fecd36",
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "id": "0650ad28a43ca630",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Applovin",
+      "phashion_group": "0650ad28a43ca630",
+      "ad_type": "video",
+      "first_seen_at": "2025-05-17",
+      "last_seen_at": "2025-12-09",
+      "creatives": [
+        {
+          "id": "0650ad28a43ca630",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/76c1e12c710d76fe/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/76c1e12c710d76fe/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/76c1e12c710d76fe/thumb",
+          "video_duration": 45,
+          "width": 720,
+          "height": 1280,
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "interstitial"
+      ],
+      "share": 0.000135,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 1,
+        "data": [
+          [
+            "590796d10211a6bf28000b45",
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "id": "102268dae84a7781",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Vungle",
+      "phashion_group": "102268dae84a7781",
+      "ad_type": "video",
+      "first_seen_at": "2025-08-07",
+      "last_seen_at": "2026-01-21",
+      "creatives": [
+        {
+          "id": "102268dae84a7781",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/243ffddba1f2744d/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/243ffddba1f2744d/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/243ffddba1f2744d/thumb",
+          "video_duration": 38,
+          "width": 720,
+          "height": 1280,
+          "button_text": "Get",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "rewarded",
+        "interstitial"
+      ],
+      "share": 0.000132,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 1,
+        "data": [
+          [
+            "5acde41ef20fdb663164691c",
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "id": "2a0bdb0f862a27d8",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Vungle",
+      "phashion_group": "2a0bdb0f862a27d8",
+      "ad_type": "video",
+      "first_seen_at": "2025-10-09",
+      "last_seen_at": "2026-01-11",
+      "creatives": [
+        {
+          "id": "2a0bdb0f862a27d8",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1e164e0ecf922414/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1e164e0ecf922414/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1e164e0ecf922414/thumb",
+          "video_duration": 30,
+          "width": 720,
+          "height": 1280,
+          "button_text": "Get",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "rewarded",
+        "interstitial"
+      ],
+      "share": 8.1e-05,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 1,
+        "data": [
+          [
+            "5acde41ef20fdb663164691c",
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "id": "3a34c8887434f83c",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Vungle",
+      "phashion_group": "3a34c8887434f83c",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-02",
+      "last_seen_at": "2026-01-22",
+      "creatives": [
+        {
+          "id": "3a34c8887434f83c",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0e295d893d8cfbf0/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0e295d893d8cfbf0/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0e295d893d8cfbf0/thumb",
+          "video_duration": 31,
+          "width": 720,
+          "height": 1280,
+          "button_text": "Get",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "rewarded",
+        "interstitial"
+      ],
+      "share": 6.1e-05,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 1,
+        "data": [
+          [
+            "5acde41ef20fdb663164691c",
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "id": "883fe545455627c3",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Supersonic",
+      "phashion_group": "883fe545455627c3",
+      "ad_type": "video",
+      "first_seen_at": "2025-09-08",
+      "last_seen_at": "2026-01-28",
+      "creatives": [
+        {
+          "id": "883fe545455627c3",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/7b72118bc752b7f2/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/7b72118bc752b7f2/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/7b72118bc752b7f2/thumb",
+          "video_duration": 30,
+          "width": 360,
+          "height": 640,
+          "title": "Heroes of History: Epic Empire",
+          "message": "The Heroes of History are ready for your command!"
+        }
+      ],
+      "ad_formats": [
+        "rewarded"
+      ],
+      "share": 6e-05,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2025-12-08T00:00:00Z",
+              "2025-12-08T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2025-12-09T00:00:00Z",
+              "2025-12-09T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-10T00:00:00Z",
+              "2025-12-10T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-11T00:00:00Z",
+              "2025-12-11T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-12T00:00:00Z",
+              "2025-12-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-13T00:00:00Z",
+              "2025-12-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2025-12-14T00:00:00Z",
+              "2025-12-14T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "360x640",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 1,
+        "data": [
+          [
+            "5bc18229394db5666be9e767",
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "id": "3de664e65f423689",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Facebook",
+      "phashion_group": "3de664e65f423689",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-21",
+      "last_seen_at": "2025-12-15",
+      "creatives": [
+        {
+          "id": "3de664e65f423689",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1638d589bab09d77/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1638d589bab09d77/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1638d589bab09d77/thumb",
+          "video_duration": 45,
+          "width": 1440,
+          "height": 1440,
+          "title": "Build & Collect at your own pace.",
+          "button_text": "Play Game",
+          "message": "Collect the Heroes of History and engage in Epic Battles to save the world from Tesla's wrath!"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1440x1440",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "79cdbbd154b7620b",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Instagram",
+      "phashion_group": "79cdbbd154b7620b",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-21",
+      "last_seen_at": "2025-12-15",
+      "creatives": [
+        {
+          "id": "79cdbbd154b7620b",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1638d589bab09d77/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1638d589bab09d77/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1638d589bab09d77/thumb",
+          "video_duration": 45,
+          "width": 1440,
+          "height": 1440,
+          "title": "Build & Collect at your own pace.",
+          "button_text": "Play Game",
+          "message": "Collect the Heroes of History and engage in Epic Battles to save the world from Tesla's wrath!"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1440x1440",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "0f64b792505a2738",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Meta Audience Network",
+      "phashion_group": "0f64b792505a2738",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-21",
+      "last_seen_at": "2025-12-15",
+      "creatives": [
+        {
+          "id": "0f64b792505a2738",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1638d589bab09d77/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1638d589bab09d77/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1638d589bab09d77/thumb",
+          "video_duration": 45,
+          "width": 1440,
+          "height": 1440,
+          "title": "Build & Collect at your own pace.",
+          "button_text": "Play Game",
+          "message": "Collect the Heroes of History and engage in Epic Battles to save the world from Tesla's wrath!"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1440x1440",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "36118ab9480612c9",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Facebook",
+      "phashion_group": "36118ab9480612c9",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-14",
+      "last_seen_at": "2025-12-15",
+      "creatives": [
+        {
+          "id": "36118ab9480612c9",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1dcf3bd6adf4b937/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1dcf3bd6adf4b937/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1dcf3bd6adf4b937/thumb",
+          "video_duration": 45,
+          "width": 1440,
+          "height": 1440,
+          "title": "Build & Collect at your own pace.",
+          "button_text": "Play Game",
+          "message": "Collect the Heroes of History and engage in Epic Battles to save the world from Tesla's wrath!"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1440x1440",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "723a558e43f3464b",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Instagram",
+      "phashion_group": "723a558e43f3464b",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-14",
+      "last_seen_at": "2025-12-15",
+      "creatives": [
+        {
+          "id": "723a558e43f3464b",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1dcf3bd6adf4b937/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1dcf3bd6adf4b937/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1dcf3bd6adf4b937/thumb",
+          "video_duration": 45,
+          "width": 1440,
+          "height": 1440,
+          "title": "Build & Collect at your own pace.",
+          "button_text": "Play Game",
+          "message": "Collect the Heroes of History and engage in Epic Battles to save the world from Tesla's wrath!"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1440x1440",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "049359cd471e0378",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Meta Audience Network",
+      "phashion_group": "049359cd471e0378",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-14",
+      "last_seen_at": "2025-12-15",
+      "creatives": [
+        {
+          "id": "049359cd471e0378",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1dcf3bd6adf4b937/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1dcf3bd6adf4b937/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1dcf3bd6adf4b937/thumb",
+          "video_duration": 45,
+          "width": 1440,
+          "height": 1440,
+          "title": "Build & Collect at your own pace.",
+          "button_text": "Play Game",
+          "message": "Collect the Heroes of History and engage in Epic Battles to save the world from Tesla's wrath!"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1440x1440",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "0b434ab7eede2aba",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Facebook",
+      "phashion_group": "0b434ab7eede2aba",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-11",
+      "last_seen_at": "2026-01-27",
+      "creatives": [
+        {
+          "id": "0b434ab7eede2aba",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/209dfbd80b2c8144/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/209dfbd80b2c8144/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/209dfbd80b2c8144/thumb",
+          "video_duration": 47,
+          "width": 1920,
+          "height": 1080,
+          "title": "The Heroes of History are waiting!",
+          "button_text": "Play Game",
+          "message": "Collect the Heroes of History and engage in Epic Battles to save the world from Tesla's wrath!"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1920x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "4f689580e52b7e38",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Instagram",
+      "phashion_group": "4f689580e52b7e38",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-11",
+      "last_seen_at": "2026-01-27",
+      "creatives": [
+        {
+          "id": "4f689580e52b7e38",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/209dfbd80b2c8144/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/209dfbd80b2c8144/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/209dfbd80b2c8144/thumb",
+          "video_duration": 47,
+          "width": 1920,
+          "height": 1080,
+          "title": "The Heroes of History are waiting!",
+          "button_text": "Play Game",
+          "message": "Collect the Heroes of History and engage in Epic Battles to save the world from Tesla's wrath!"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1920x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "0f352dd6bb1d4cc5",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Facebook",
+      "phashion_group": "0f352dd6bb1d4cc5",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-11",
+      "last_seen_at": "2026-01-27",
+      "creatives": [
+        {
+          "id": "0f352dd6bb1d4cc5",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/24eb9cb95eefe73b/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/24eb9cb95eefe73b/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/24eb9cb95eefe73b/thumb",
+          "video_duration": 47,
+          "width": 1440,
+          "height": 1440,
+          "title": "The Heroes of History are waiting!",
+          "button_text": "Play Game",
+          "message": "Collect the Heroes of History and engage in Epic Battles to save the world from Tesla's wrath!"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1440x1440",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "4b1ef2e1b0e81847",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Instagram",
+      "phashion_group": "4b1ef2e1b0e81847",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-11",
+      "last_seen_at": "2026-01-27",
+      "creatives": [
+        {
+          "id": "4b1ef2e1b0e81847",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/24eb9cb95eefe73b/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/24eb9cb95eefe73b/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/24eb9cb95eefe73b/thumb",
+          "video_duration": 47,
+          "width": 1440,
+          "height": 1440,
+          "title": "The Heroes of History are waiting!",
+          "button_text": "Play Game",
+          "message": "Collect the Heroes of History and engage in Epic Battles to save the world from Tesla's wrath!"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1440x1440",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "07d66528d38b3393",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Facebook",
+      "phashion_group": "07d66528d38b3393",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-06",
+      "last_seen_at": "2025-12-15",
+      "creatives": [
+        {
+          "id": "07d66528d38b3393",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2c08d4473679986d/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2c08d4473679986d/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2c08d4473679986d/thumb",
+          "video_duration": 44,
+          "width": 1440,
+          "height": 1440,
+          "title": "Build & Collect at your own pace.",
+          "button_text": "Play Game",
+          "message": "Collect the Heroes of History and engage in Epic Battles to save the world from Tesla's wrath!"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1440x1440",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "43fdba1fd87e6711",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Instagram",
+      "phashion_group": "43fdba1fd87e6711",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-06",
+      "last_seen_at": "2025-12-15",
+      "creatives": [
+        {
+          "id": "43fdba1fd87e6711",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2c08d4473679986d/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2c08d4473679986d/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2c08d4473679986d/thumb",
+          "video_duration": 44,
+          "width": 1440,
+          "height": 1440,
+          "title": "Build & Collect at your own pace.",
+          "button_text": "Play Game",
+          "message": "Collect the Heroes of History and engage in Epic Battles to save the world from Tesla's wrath!"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1440x1440",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "3554b65cdc932222",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Meta Audience Network",
+      "phashion_group": "3554b65cdc932222",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-06",
+      "last_seen_at": "2025-12-15",
+      "creatives": [
+        {
+          "id": "3554b65cdc932222",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2c08d4473679986d/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2c08d4473679986d/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2c08d4473679986d/thumb",
+          "video_duration": 44,
+          "width": 1440,
+          "height": 1440,
+          "title": "Build & Collect at your own pace.",
+          "button_text": "Play Game",
+          "message": "Collect the Heroes of History and engage in Epic Battles to save the world from Tesla's wrath!"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1440x1440",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "070dbe97f1f59390",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Facebook",
+      "phashion_group": "070dbe97f1f59390",
+      "ad_type": "video",
+      "first_seen_at": "2025-08-27",
+      "last_seen_at": "2026-01-27",
+      "creatives": [
+        {
+          "id": "070dbe97f1f59390",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2cd30ff81407386e/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2cd30ff81407386e/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2cd30ff81407386e/thumb",
+          "video_duration": 52,
+          "width": 1920,
+          "height": 1080,
+          "title": "The Heroes of History are waiting!",
+          "button_text": "Play Game",
+          "message": "Collect the Heroes of History and engage in Epic Battles to save the world from Tesla's wrath!"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1920x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "432661a0fa00c712",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Instagram",
+      "phashion_group": "432661a0fa00c712",
+      "ad_type": "video",
+      "first_seen_at": "2025-08-27",
+      "last_seen_at": "2026-01-27",
+      "creatives": [
+        {
+          "id": "432661a0fa00c712",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2cd30ff81407386e/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2cd30ff81407386e/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2cd30ff81407386e/thumb",
+          "video_duration": 52,
+          "width": 1920,
+          "height": 1080,
+          "title": "The Heroes of History are waiting!",
+          "button_text": "Play Game",
+          "message": "Collect the Heroes of History and engage in Epic Battles to save the world from Tesla's wrath!"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1920x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "358f6de3feed8221",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Meta Audience Network",
+      "phashion_group": "358f6de3feed8221",
+      "ad_type": "video",
+      "first_seen_at": "2025-08-27",
+      "last_seen_at": "2026-01-27",
+      "creatives": [
+        {
+          "id": "358f6de3feed8221",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2cd30ff81407386e/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2cd30ff81407386e/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2cd30ff81407386e/thumb",
+          "video_duration": 52,
+          "width": 1920,
+          "height": 1080,
+          "title": "The Heroes of History are waiting!",
+          "button_text": "Play Game",
+          "message": "Collect the Heroes of History and engage in Epic Battles to save the world from Tesla's wrath!"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1920x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "053ca66a204ca50f",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Facebook",
+      "phashion_group": "053ca66a204ca50f",
+      "ad_type": "video",
+      "first_seen_at": "2025-10-29",
+      "last_seen_at": "2025-12-15",
+      "creatives": [
+        {
+          "id": "053ca66a204ca50f",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2ee21705c5be0ef1/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2ee21705c5be0ef1/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2ee21705c5be0ef1/thumb",
+          "video_duration": 49,
+          "width": 1080,
+          "height": 1920,
+          "title": "Build & Collect at your own pace.",
+          "button_text": "Play Game",
+          "message": "Collect the Heroes of History and engage in Epic Battles to save the world from Tesla's wrath!"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "4117795d2bb9f18d",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Instagram",
+      "phashion_group": "4117795d2bb9f18d",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-06",
+      "last_seen_at": "2025-12-15",
+      "creatives": [
+        {
+          "id": "4117795d2bb9f18d",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2ee21705c5be0ef1/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2ee21705c5be0ef1/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2ee21705c5be0ef1/thumb",
+          "video_duration": 49,
+          "width": 1080,
+          "height": 1920,
+          "title": "Build & Collect at your own pace.",
+          "button_text": "Play Game",
+          "message": "Collect the Heroes of History and engage in Epic Battles to save the world from Tesla's wrath!"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "37be751e2f54b4be",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Meta Audience Network",
+      "phashion_group": "37be751e2f54b4be",
+      "ad_type": "video",
+      "first_seen_at": "2025-10-29",
+      "last_seen_at": "2025-12-15",
+      "creatives": [
+        {
+          "id": "37be751e2f54b4be",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2ee21705c5be0ef1/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2ee21705c5be0ef1/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2ee21705c5be0ef1/thumb",
+          "video_duration": 49,
+          "width": 1080,
+          "height": 1920,
+          "title": "Build & Collect at your own pace.",
+          "button_text": "Play Game",
+          "message": "Collect the Heroes of History and engage in Epic Battles to save the world from Tesla's wrath!"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "1b0037cc0c73b87a",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Facebook",
+      "phashion_group": "1b0037cc0c73b87a",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-21",
+      "last_seen_at": "2025-12-15",
+      "creatives": [
+        {
+          "id": "1b0037cc0c73b87a",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/30de86a3e9811384/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/30de86a3e9811384/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/30de86a3e9811384/thumb",
+          "video_duration": 45,
+          "width": 1920,
+          "height": 1080,
+          "title": "Build & Collect at your own pace.",
+          "button_text": "Play Game",
+          "message": "Collect the Heroes of History and engage in Epic Battles to save the world from Tesla's wrath!"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1920x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "5f2be8fb0786ecf8",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Instagram",
+      "phashion_group": "5f2be8fb0786ecf8",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-21",
+      "last_seen_at": "2025-12-15",
+      "creatives": [
+        {
+          "id": "5f2be8fb0786ecf8",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/30de86a3e9811384/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/30de86a3e9811384/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/30de86a3e9811384/thumb",
+          "video_duration": 45,
+          "width": 1920,
+          "height": 1080,
+          "title": "Build & Collect at your own pace.",
+          "button_text": "Play Game",
+          "message": "Collect the Heroes of History and engage in Epic Battles to save the world from Tesla's wrath!"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1920x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "2982e4b8036ba9cb",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Meta Audience Network",
+      "phashion_group": "2982e4b8036ba9cb",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-21",
+      "last_seen_at": "2025-12-15",
+      "creatives": [
+        {
+          "id": "2982e4b8036ba9cb",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/30de86a3e9811384/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/30de86a3e9811384/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/30de86a3e9811384/thumb",
+          "video_duration": 45,
+          "width": 1920,
+          "height": 1080,
+          "title": "Build & Collect at your own pace.",
+          "button_text": "Play Game",
+          "message": "Collect the Heroes of History and engage in Epic Battles to save the world from Tesla's wrath!"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1920x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "af745c162f5c02fd",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Facebook",
+      "phashion_group": "af745c162f5c02fd",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-05",
+      "last_seen_at": "2026-01-09",
+      "creatives": [
+        {
+          "id": "af745c162f5c02fd",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/31a1c87b5ec2967b/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/31a1c87b5ec2967b/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/31a1c87b5ec2967b/thumb",
+          "video_duration": 45,
+          "width": 608,
+          "height": 1080,
+          "title": "Construisez à votre rythme.",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "608x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "aace12df8d9951ec",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Facebook",
+      "phashion_group": "aace12df8d9951ec",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-05",
+      "last_seen_at": "2026-01-09",
+      "creatives": [
+        {
+          "id": "aace12df8d9951ec",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/341b86b2fc07c56a/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/341b86b2fc07c56a/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/341b86b2fc07c56a/thumb",
+          "video_duration": 51,
+          "width": 1440,
+          "height": 1440,
+          "title": "Construisez à votre rythme.",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1440x1440",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "12d3bf1ceea42f27",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Facebook",
+      "phashion_group": "12d3bf1ceea42f27",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-21",
+      "last_seen_at": "2025-12-15",
+      "creatives": [
+        {
+          "id": "12d3bf1ceea42f27",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/390d0e730b5684d9/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/390d0e730b5684d9/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/390d0e730b5684d9/thumb",
+          "video_duration": 45,
+          "width": 1920,
+          "height": 1080,
+          "title": "Build & Collect at your own pace.",
+          "button_text": "Play Game",
+          "message": "Collect the Heroes of History and engage in Epic Battles to save the world from Tesla's wrath!"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1920x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "56f8602be5517ba5",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Instagram",
+      "phashion_group": "56f8602be5517ba5",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-21",
+      "last_seen_at": "2025-12-15",
+      "creatives": [
+        {
+          "id": "56f8602be5517ba5",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/390d0e730b5684d9/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/390d0e730b5684d9/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/390d0e730b5684d9/thumb",
+          "video_duration": 45,
+          "width": 1920,
+          "height": 1080,
+          "title": "Build & Collect at your own pace.",
+          "button_text": "Play Game",
+          "message": "Collect the Heroes of History and engage in Epic Battles to save the world from Tesla's wrath!"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1920x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "20516c68e1bc3e96",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Meta Audience Network",
+      "phashion_group": "20516c68e1bc3e96",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-21",
+      "last_seen_at": "2025-12-15",
+      "creatives": [
+        {
+          "id": "20516c68e1bc3e96",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/390d0e730b5684d9/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/390d0e730b5684d9/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/390d0e730b5684d9/thumb",
+          "video_duration": 45,
+          "width": 1920,
+          "height": 1080,
+          "title": "Build & Collect at your own pace.",
+          "button_text": "Play Game",
+          "message": "Collect the Heroes of History and engage in Epic Battles to save the world from Tesla's wrath!"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1920x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "dec0dc6b28b0d71f",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Facebook",
+      "phashion_group": "dec0dc6b28b0d71f",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-05",
+      "last_seen_at": "2026-01-09",
+      "creatives": [
+        {
+          "id": "dec0dc6b28b0d71f",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/40154806592e4399/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/40154806592e4399/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/40154806592e4399/thumb",
+          "video_duration": 45,
+          "width": 1440,
+          "height": 1440,
+          "title": "Construisez à votre rythme.",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1440x1440",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "6a8038560faf5af5",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Facebook",
+      "phashion_group": "6a8038560faf5af5",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-11",
+      "last_seen_at": "2026-01-08",
+      "creatives": [
+        {
+          "id": "6a8038560faf5af5",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/415e8939ea5df10b/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/415e8939ea5df10b/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/415e8939ea5df10b/thumb",
+          "video_duration": 46,
+          "width": 1080,
+          "height": 1920,
+          "title": "Build & Collect at your own pace.",
+          "button_text": "Play Game",
+          "message": "Collect the Heroes of History and engage in Epic Battles to save the world from Tesla's wrath!"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "2eabe761045a0e77",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Instagram",
+      "phashion_group": "2eabe761045a0e77",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-11",
+      "last_seen_at": "2026-01-08",
+      "creatives": [
+        {
+          "id": "2eabe761045a0e77",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/415e8939ea5df10b/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/415e8939ea5df10b/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/415e8939ea5df10b/thumb",
+          "video_duration": 46,
+          "width": 1080,
+          "height": 1920,
+          "title": "Build & Collect at your own pace.",
+          "button_text": "Play Game",
+          "message": "Collect the Heroes of History and engage in Epic Battles to save the world from Tesla's wrath!"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "5802eb2200b74b44",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Meta Audience Network",
+      "phashion_group": "5802eb2200b74b44",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-11",
+      "last_seen_at": "2026-01-08",
+      "creatives": [
+        {
+          "id": "5802eb2200b74b44",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/415e8939ea5df10b/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/415e8939ea5df10b/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/415e8939ea5df10b/thumb",
+          "video_duration": 46,
+          "width": 1080,
+          "height": 1920,
+          "title": "Build & Collect at your own pace.",
+          "button_text": "Play Game",
+          "message": "Collect the Heroes of History and engage in Epic Battles to save the world from Tesla's wrath!"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "dc4dc2034fc72420",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Facebook",
+      "phashion_group": "dc4dc2034fc72420",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-05",
+      "last_seen_at": "2026-01-09",
+      "creatives": [
+        {
+          "id": "dc4dc2034fc72420",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4298566e3e59b0a6/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4298566e3e59b0a6/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4298566e3e59b0a6/thumb",
+          "video_duration": 52,
+          "width": 608,
+          "height": 1080,
+          "title": "Kein 4X - Keine Werbung - Kein Quatsch!",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "608x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "268d9b95fa514305",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Facebook",
+      "phashion_group": "268d9b95fa514305",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-05",
+      "last_seen_at": "2026-01-23",
+      "creatives": [
+        {
+          "id": "268d9b95fa514305",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/454fe7af4d93a3cd/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/454fe7af4d93a3cd/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/454fe7af4d93a3cd/thumb",
+          "video_duration": 51,
+          "width": 1920,
+          "height": 1920,
+          "title": "No 4X - No Ads - No Bullshit!",
+          "button_text": "Play Game",
+          "message": "Build an epic city, fight strategic battles & explore the world of Heroes of History."
+        },
+        {
+          "id": "db9a73c23c0d374b",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/454fe7af4d93a3cd/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/454fe7af4d93a3cd/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/454fe7af4d93a3cd/thumb",
+          "video_duration": 51,
+          "width": 1920,
+          "height": 1920,
+          "title": "Rule History. Get Rich!",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1920x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "62a644a2f1a41787",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Instagram",
+      "phashion_group": "62a644a2f1a41787",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-05",
+      "last_seen_at": "2026-01-23",
+      "creatives": [
+        {
+          "id": "62a644a2f1a41787",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/454fe7af4d93a3cd/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/454fe7af4d93a3cd/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/454fe7af4d93a3cd/thumb",
+          "video_duration": 51,
+          "width": 1920,
+          "height": 1920,
+          "title": "No 4X - No Ads - No Bullshit!",
+          "button_text": "Play Game",
+          "message": "Build an epic city, fight strategic battles & explore the world of Heroes of History."
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1920x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "140f48e1f54952b4",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Meta Audience Network",
+      "phashion_group": "140f48e1f54952b4",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-05",
+      "last_seen_at": "2026-01-23",
+      "creatives": [
+        {
+          "id": "140f48e1f54952b4",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/454fe7af4d93a3cd/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/454fe7af4d93a3cd/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/454fe7af4d93a3cd/thumb",
+          "video_duration": 51,
+          "width": 1920,
+          "height": 1920,
+          "title": "No 4X - No Ads - No Bullshit!",
+          "button_text": "Play Game",
+          "message": "Build an epic city, fight strategic battles & explore the world of Heroes of History."
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1920x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "d576b010f1f1a528",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Facebook",
+      "phashion_group": "d576b010f1f1a528",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-05",
+      "last_seen_at": "2026-01-09",
+      "creatives": [
+        {
+          "id": "d576b010f1f1a528",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4ba3247d806f31ae/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4ba3247d806f31ae/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4ba3247d806f31ae/thumb",
+          "video_duration": 45,
+          "width": 1920,
+          "height": 1080,
+          "title": "Kein 4X - Keine Werbung - Kein Quatsch!",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1920x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "33e403796c5615ac",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Facebook",
+      "phashion_group": "33e403796c5615ac",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-05",
+      "last_seen_at": "2025-12-19",
+      "creatives": [
+        {
+          "id": "33e403796c5615ac",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/50267f43db94f564/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/50267f43db94f564/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/50267f43db94f564/thumb",
+          "video_duration": 45,
+          "width": 1080,
+          "height": 1920,
+          "title": "No 4X - No Ads - No Bullshit!",
+          "button_text": "Play Game",
+          "message": "Build an epic city, fight strategic battles & explore the world of Heroes of History."
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "77cfdc4e67a3412e",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Instagram",
+      "phashion_group": "77cfdc4e67a3412e",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-05",
+      "last_seen_at": "2025-12-19",
+      "creatives": [
+        {
+          "id": "77cfdc4e67a3412e",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/50267f43db94f564/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/50267f43db94f564/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/50267f43db94f564/thumb",
+          "video_duration": 45,
+          "width": 1080,
+          "height": 1920,
+          "title": "No 4X - No Ads - No Bullshit!",
+          "button_text": "Play Game",
+          "message": "Build an epic city, fight strategic battles & explore the world of Heroes of History."
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "0166d00d634e041d",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Meta Audience Network",
+      "phashion_group": "0166d00d634e041d",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-05",
+      "last_seen_at": "2025-12-19",
+      "creatives": [
+        {
+          "id": "0166d00d634e041d",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/50267f43db94f564/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/50267f43db94f564/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/50267f43db94f564/thumb",
+          "video_duration": 45,
+          "width": 1080,
+          "height": 1920,
+          "title": "No 4X - No Ads - No Bullshit!",
+          "button_text": "Play Game",
+          "message": "Build an epic city, fight strategic battles & explore the world of Heroes of History."
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "73e4b83b27d62351",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Facebook",
+      "phashion_group": "73e4b83b27d62351",
+      "ad_type": "video",
+      "first_seen_at": "2025-08-27",
+      "last_seen_at": "2026-01-27",
+      "creatives": [
+        {
+          "id": "73e4b83b27d62351",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/583a0954c22488af/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/583a0954c22488af/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/583a0954c22488af/thumb",
+          "video_duration": 51,
+          "width": 1080,
+          "height": 1920,
+          "title": "The Heroes of History are waiting!",
+          "button_text": "Play Game",
+          "message": "Collect the Heroes of History and engage in Epic Battles to save the world from Tesla's wrath!"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "37cf670c2c2377d3",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Instagram",
+      "phashion_group": "37cf670c2c2377d3",
+      "ad_type": "video",
+      "first_seen_at": "2025-08-27",
+      "last_seen_at": "2026-01-27",
+      "creatives": [
+        {
+          "id": "37cf670c2c2377d3",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/583a0954c22488af/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/583a0954c22488af/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/583a0954c22488af/thumb",
+          "video_duration": 51,
+          "width": 1080,
+          "height": 1920,
+          "title": "The Heroes of History are waiting!",
+          "button_text": "Play Game",
+          "message": "Collect the Heroes of History and engage in Epic Battles to save the world from Tesla's wrath!"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "41666b4f28ce32e0",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Meta Audience Network",
+      "phashion_group": "41666b4f28ce32e0",
+      "ad_type": "video",
+      "first_seen_at": "2025-08-27",
+      "last_seen_at": "2026-01-27",
+      "creatives": [
+        {
+          "id": "41666b4f28ce32e0",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/583a0954c22488af/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/583a0954c22488af/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/583a0954c22488af/thumb",
+          "video_duration": 51,
+          "width": 1080,
+          "height": 1920,
+          "title": "The Heroes of History are waiting!",
+          "button_text": "Play Game",
+          "message": "Collect the Heroes of History and engage in Epic Battles to save the world from Tesla's wrath!"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "71a886f1e71a00b6",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Facebook",
+      "phashion_group": "71a886f1e71a00b6",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-21",
+      "last_seen_at": "2025-12-15",
+      "creatives": [
+        {
+          "id": "71a886f1e71a00b6",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/5a76379e02e8ab48/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/5a76379e02e8ab48/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/5a76379e02e8ab48/thumb",
+          "video_duration": 45,
+          "width": 1440,
+          "height": 1440,
+          "title": "Build & Collect at your own pace.",
+          "button_text": "Play Game",
+          "message": "Collect the Heroes of History and engage in Epic Battles to save the world from Tesla's wrath!"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1440x1440",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "358359c6ecef5434",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Instagram",
+      "phashion_group": "358359c6ecef5434",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-21",
+      "last_seen_at": "2025-12-15",
+      "creatives": [
+        {
+          "id": "358359c6ecef5434",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/5a76379e02e8ab48/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/5a76379e02e8ab48/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/5a76379e02e8ab48/thumb",
+          "video_duration": 45,
+          "width": 1440,
+          "height": 1440,
+          "title": "Build & Collect at your own pace.",
+          "button_text": "Play Game",
+          "message": "Collect the Heroes of History and engage in Epic Battles to save the world from Tesla's wrath!"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1440x1440",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "432a5585e8021107",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Meta Audience Network",
+      "phashion_group": "432a5585e8021107",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-21",
+      "last_seen_at": "2025-12-15",
+      "creatives": [
+        {
+          "id": "432a5585e8021107",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/5a76379e02e8ab48/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/5a76379e02e8ab48/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/5a76379e02e8ab48/thumb",
+          "video_duration": 45,
+          "width": 1440,
+          "height": 1440,
+          "title": "Build & Collect at your own pace.",
+          "button_text": "Play Game",
+          "message": "Collect the Heroes of History and engage in Epic Battles to save the world from Tesla's wrath!"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1440x1440",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "7077efa04b9d70d7",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Facebook",
+      "phashion_group": "7077efa04b9d70d7",
+      "ad_type": "video",
+      "first_seen_at": "2025-10-29",
+      "last_seen_at": "2025-12-15",
+      "creatives": [
+        {
+          "id": "7077efa04b9d70d7",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/5ba95ecfae6fdb29/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/5ba95ecfae6fdb29/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/5ba95ecfae6fdb29/thumb",
+          "video_duration": 50,
+          "width": 1440,
+          "height": 1440,
+          "title": "Build & Collect at your own pace.",
+          "button_text": "Play Game",
+          "message": "Collect the Heroes of History and engage in Epic Battles to save the world from Tesla's wrath!"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1440x1440",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "345c309740682455",
+      "app_id": "66a772b627e2c1d911e43bc4",
+      "network": "Instagram",
+      "phashion_group": "345c309740682455",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-06",
+      "last_seen_at": "2025-12-15",
+      "creatives": [
+        {
+          "id": "345c309740682455",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/5ba95ecfae6fdb29/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/5ba95ecfae6fdb29/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/5ba95ecfae6fdb29/thumb",
+          "video_duration": 50,
+          "width": 1440,
+          "height": 1440,
+          "title": "Build & Collect at your own pace.",
+          "button_text": "Play Game",
+          "message": "Collect the Heroes of History and engage in Epic Battles to save the world from Tesla's wrath!"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1440x1440",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    }
+  ]
+}

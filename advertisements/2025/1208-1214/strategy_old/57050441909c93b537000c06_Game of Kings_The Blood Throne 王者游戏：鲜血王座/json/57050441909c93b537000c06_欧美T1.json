@@ -1,0 +1,4286 @@
+{
+  "count": 335,
+  "available_networks": [
+    "Facebook",
+    "Instagram",
+    "Meta Audience Network"
+  ],
+  "ad_units": [
+    {
+      "id": "89bb8919a6754130",
+      "app_id": "57050441909c93b537000c06",
+      "network": "Facebook",
+      "phashion_group": "89bb8919a6754130",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-10",
+      "last_seen_at": "2025-12-20",
+      "creatives": [
+        {
+          "id": "89bb8919a6754130",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/00a899c4614f74b0/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/00a899c4614f74b0/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/00a899c4614f74b0/thumb",
+          "video_duration": 19,
+          "width": 1080,
+          "height": 1920,
+          "title": "🎁Gift Code: Lucky777",
+          "button_text": "Install now",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "f7b8adf6bba2fe01",
+      "app_id": "57050441909c93b537000c06",
+      "network": "Instagram",
+      "phashion_group": "f7b8adf6bba2fe01",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-10",
+      "last_seen_at": "2025-12-20",
+      "creatives": [
+        {
+          "id": "f7b8adf6bba2fe01",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/00a899c4614f74b0/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/00a899c4614f74b0/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/00a899c4614f74b0/thumb",
+          "video_duration": 19,
+          "width": 1080,
+          "height": 1920,
+          "title": "🎁Gift Code: Lucky777",
+          "button_text": "Install now",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "45f950028e7f397f",
+      "app_id": "57050441909c93b537000c06",
+      "network": "Facebook",
+      "phashion_group": "45f950028e7f397f",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-09",
+      "last_seen_at": "2026-01-26",
+      "creatives": [
+        {
+          "id": "45f950028e7f397f",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/01aa08bd4e82a7f0/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/01aa08bd4e82a7f0/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/01aa08bd4e82a7f0/thumb",
+          "video_duration": 18,
+          "width": 1080,
+          "height": 1080,
+          "title": "I run an alliance in Kingdom 205\nPlease join if you are interested🙏🙏🙏",
+          "button_text": "Play Game",
+          "message": "I played this fun game a few years ago where you compete against players from around the world.⚔️🏆"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "3bfa74ed93a8864e",
+      "app_id": "57050441909c93b537000c06",
+      "network": "Instagram",
+      "phashion_group": "3bfa74ed93a8864e",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-09",
+      "last_seen_at": "2026-01-26",
+      "creatives": [
+        {
+          "id": "3bfa74ed93a8864e",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/01aa08bd4e82a7f0/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/01aa08bd4e82a7f0/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/01aa08bd4e82a7f0/thumb",
+          "video_duration": 18,
+          "width": 1080,
+          "height": 1080,
+          "title": "I run an alliance in Kingdom 205\nPlease join if you are interested🙏🙏🙏",
+          "button_text": "Play Game",
+          "message": "I played this fun game a few years ago where you compete against players from around the world.⚔️🏆"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "9aa893892ee459c1",
+      "app_id": "57050441909c93b537000c06",
+      "network": "Facebook",
+      "phashion_group": "9aa893892ee459c1",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-23",
+      "last_seen_at": "2025-12-29",
+      "creatives": [
+        {
+          "id": "9aa893892ee459c1",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/01aecac67736dfe7/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/01aecac67736dfe7/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/01aecac67736dfe7/thumb",
+          "video_duration": 18,
+          "width": 1080,
+          "height": 606,
+          "title": "Does anyone know stayalive777?🤔❓",
+          "button_text": "Play Game",
+          "message": "Man I miss this game😭"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x606",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "e4abb7663333e6f0",
+      "app_id": "57050441909c93b537000c06",
+      "network": "Instagram",
+      "phashion_group": "e4abb7663333e6f0",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-23",
+      "last_seen_at": "2025-12-29",
+      "creatives": [
+        {
+          "id": "e4abb7663333e6f0",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/01aecac67736dfe7/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/01aecac67736dfe7/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/01aecac67736dfe7/thumb",
+          "video_duration": 18,
+          "width": 1080,
+          "height": 606,
+          "title": "Does anyone know stayalive777?🤔❓",
+          "button_text": "Play Game",
+          "message": "Man I miss this game😭"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x606",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "8a582840e98179f1",
+      "app_id": "57050441909c93b537000c06",
+      "network": "Facebook",
+      "phashion_group": "8a582840e98179f1",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-10",
+      "last_seen_at": "2025-12-22",
+      "creatives": [
+        {
+          "id": "8a582840e98179f1",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/034b389d2ebb4c71/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/034b389d2ebb4c71/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/034b389d2ebb4c71/thumb",
+          "video_duration": 19,
+          "width": 1080,
+          "height": 1920,
+          "title": "🎁Gift Code: Lucky777",
+          "button_text": "Install now",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "f45b0caff456c6c0",
+      "app_id": "57050441909c93b537000c06",
+      "network": "Instagram",
+      "phashion_group": "f45b0caff456c6c0",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-10",
+      "last_seen_at": "2025-12-22",
+      "creatives": [
+        {
+          "id": "f45b0caff456c6c0",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/034b389d2ebb4c71/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/034b389d2ebb4c71/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/034b389d2ebb4c71/thumb",
+          "video_duration": 19,
+          "width": 1080,
+          "height": 1920,
+          "title": "🎁Gift Code: Lucky777",
+          "button_text": "Install now",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "7fc330509ed32178",
+      "app_id": "57050441909c93b537000c06",
+      "network": "Facebook",
+      "phashion_group": "7fc330509ed32178",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-05",
+      "last_seen_at": "2025-12-14",
+      "creatives": [
+        {
+          "id": "7fc330509ed32178",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/03fba9dfc45b2189/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/03fba9dfc45b2189/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/03fba9dfc45b2189/thumb",
+          "video_duration": 29,
+          "width": 1080,
+          "height": 1080,
+          "title": "Does anyone know stayalive777?🤔❓",
+          "button_text": "Play Game",
+          "message": "Is this the real gameplay？"
+        },
+        {
+          "id": "98fdf0909d89a7af",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/03fba9dfc45b2189/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/03fba9dfc45b2189/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/03fba9dfc45b2189/thumb",
+          "video_duration": 29,
+          "width": 1080,
+          "height": 1080,
+          "title": "Does anyone know stayalive777?🤔❓",
+          "button_text": "Play Game",
+          "message": "Man I miss this game😭"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "01c014bf83049e49",
+      "app_id": "57050441909c93b537000c06",
+      "network": "Instagram",
+      "phashion_group": "01c014bf83049e49",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-05",
+      "last_seen_at": "2025-12-14",
+      "creatives": [
+        {
+          "id": "01c014bf83049e49",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/03fba9dfc45b2189/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/03fba9dfc45b2189/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/03fba9dfc45b2189/thumb",
+          "video_duration": 29,
+          "width": 1080,
+          "height": 1080,
+          "title": "Does anyone know stayalive777?🤔❓",
+          "button_text": "Play Game",
+          "message": "Is this the real gameplay？"
+        },
+        {
+          "id": "e6fed47f805e189e",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/03fba9dfc45b2189/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/03fba9dfc45b2189/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/03fba9dfc45b2189/thumb",
+          "video_duration": 29,
+          "width": 1080,
+          "height": 1080,
+          "title": "Does anyone know stayalive777?🤔❓",
+          "button_text": "Play Game",
+          "message": "Man I miss this game😭"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "8215f9de56c0a76b",
+      "app_id": "57050441909c93b537000c06",
+      "network": "Facebook",
+      "phashion_group": "8215f9de56c0a76b",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-08",
+      "last_seen_at": "2025-12-09",
+      "creatives": [
+        {
+          "id": "8215f9de56c0a76b",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/087555bb934b22f2/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/087555bb934b22f2/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/087555bb934b22f2/thumb",
+          "video_duration": 23,
+          "width": 1080,
+          "height": 606,
+          "title": "Is this game free-to-win?",
+          "button_text": "Play Game",
+          "message": "More than 500 players and 10 alliances are fighting for a sacred site called the “Brave Statue.” Capturing this monument grants special rewards and attack bonuses to the alliance that holds it."
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x606",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "fc16dd314b17185a",
+      "app_id": "57050441909c93b537000c06",
+      "network": "Instagram",
+      "phashion_group": "fc16dd314b17185a",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-08",
+      "last_seen_at": "2025-12-09",
+      "creatives": [
+        {
+          "id": "fc16dd314b17185a",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/087555bb934b22f2/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/087555bb934b22f2/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/087555bb934b22f2/thumb",
+          "video_duration": 23,
+          "width": 1080,
+          "height": 606,
+          "title": "Is this game free-to-win?",
+          "button_text": "Play Game",
+          "message": "More than 500 players and 10 alliances are fighting for a sacred site called the “Brave Statue.” Capturing this monument grants special rewards and attack bonuses to the alliance that holds it."
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x606",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "831fa78f9b2a0513",
+      "app_id": "57050441909c93b537000c06",
+      "network": "Facebook",
+      "phashion_group": "831fa78f9b2a0513",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-10",
+      "last_seen_at": "2025-12-12",
+      "creatives": [
+        {
+          "id": "831fa78f9b2a0513",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0a0cb7525c103093/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0a0cb7525c103093/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0a0cb7525c103093/thumb",
+          "video_duration": 21,
+          "width": 1080,
+          "height": 1920,
+          "title": "🎁Gift Code: Lucky777",
+          "button_text": "Install now",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "fd1c836086fdba22",
+      "app_id": "57050441909c93b537000c06",
+      "network": "Instagram",
+      "phashion_group": "fd1c836086fdba22",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-10",
+      "last_seen_at": "2025-12-12",
+      "creatives": [
+        {
+          "id": "fd1c836086fdba22",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0a0cb7525c103093/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0a0cb7525c103093/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0a0cb7525c103093/thumb",
+          "video_duration": 21,
+          "width": 1080,
+          "height": 1920,
+          "title": "🎁Gift Code: Lucky777",
+          "button_text": "Install now",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "822c32547373cc29",
+      "app_id": "57050441909c93b537000c06",
+      "network": "Facebook",
+      "phashion_group": "822c32547373cc29",
+      "ad_type": "video",
+      "first_seen_at": "2025-10-11",
+      "last_seen_at": "2026-01-17",
+      "creatives": [
+        {
+          "id": "822c32547373cc29",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0b3f2289b449f9a9/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0b3f2289b449f9a9/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0b3f2289b449f9a9/thumb",
+          "video_duration": 13,
+          "width": 1080,
+          "height": 1920,
+          "title": "🎁Gift Code: Lucky777",
+          "button_text": "Install now",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "fc2f16bb6ea47318",
+      "app_id": "57050441909c93b537000c06",
+      "network": "Instagram",
+      "phashion_group": "fc2f16bb6ea47318",
+      "ad_type": "video",
+      "first_seen_at": "2025-10-11",
+      "last_seen_at": "2026-01-17",
+      "creatives": [
+        {
+          "id": "fc2f16bb6ea47318",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0b3f2289b449f9a9/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0b3f2289b449f9a9/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0b3f2289b449f9a9/thumb",
+          "video_duration": 13,
+          "width": 1080,
+          "height": 1920,
+          "title": "🎁Gift Code: Lucky777",
+          "button_text": "Install now",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "b0aee1207c6bdd98",
+      "app_id": "57050441909c93b537000c06",
+      "network": "Meta Audience Network",
+      "phashion_group": "b0aee1207c6bdd98",
+      "ad_type": "video",
+      "first_seen_at": "2025-10-20",
+      "last_seen_at": "2026-01-17",
+      "creatives": [
+        {
+          "id": "b0aee1207c6bdd98",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0b3f2289b449f9a9/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0b3f2289b449f9a9/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0b3f2289b449f9a9/thumb",
+          "video_duration": 13,
+          "width": 1080,
+          "height": 1920,
+          "title": "🎁Gift Code: Lucky777",
+          "button_text": "Install now",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "82bcdb7e3e92fd25",
+      "app_id": "57050441909c93b537000c06",
+      "network": "Facebook",
+      "phashion_group": "82bcdb7e3e92fd25",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-10",
+      "last_seen_at": "2025-12-12",
+      "creatives": [
+        {
+          "id": "82bcdb7e3e92fd25",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0bafcba3f9a8c8a5/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0bafcba3f9a8c8a5/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0bafcba3f9a8c8a5/thumb",
+          "video_duration": 21,
+          "width": 1080,
+          "height": 1920,
+          "title": "🎁Gift Code: Lucky777",
+          "button_text": "Install now",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "fcbfff9123454214",
+      "app_id": "57050441909c93b537000c06",
+      "network": "Instagram",
+      "phashion_group": "fcbfff9123454214",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-10",
+      "last_seen_at": "2025-12-12",
+      "creatives": [
+        {
+          "id": "fcbfff9123454214",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0bafcba3f9a8c8a5/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0bafcba3f9a8c8a5/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0bafcba3f9a8c8a5/thumb",
+          "video_duration": 21,
+          "width": 1080,
+          "height": 1920,
+          "title": "🎁Gift Code: Lucky777",
+          "button_text": "Install now",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "841b1cebea6a934e",
+      "app_id": "57050441909c93b537000c06",
+      "network": "Facebook",
+      "phashion_group": "841b1cebea6a934e",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-01",
+      "last_seen_at": "2025-12-16",
+      "creatives": [
+        {
+          "id": "841b1cebea6a934e",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0d080c362d50a6ce/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0d080c362d50a6ce/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0d080c362d50a6ce/thumb",
+          "video_duration": 26,
+          "width": 1080,
+          "height": 1080,
+          "title": "🎁Gift Code: Lucky777",
+          "button_text": "Install now",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "fa183804f7bd2c7f",
+      "app_id": "57050441909c93b537000c06",
+      "network": "Instagram",
+      "phashion_group": "fa183804f7bd2c7f",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-01",
+      "last_seen_at": "2025-12-16",
+      "creatives": [
+        {
+          "id": "fa183804f7bd2c7f",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0d080c362d50a6ce/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0d080c362d50a6ce/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0d080c362d50a6ce/thumb",
+          "video_duration": 26,
+          "width": 1080,
+          "height": 1080,
+          "title": "🎁Gift Code: Lucky777",
+          "button_text": "Install now",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "840182d8a2b296a0",
+      "app_id": "57050441909c93b537000c06",
+      "network": "Facebook",
+      "phashion_group": "840182d8a2b296a0",
+      "ad_type": "video",
+      "first_seen_at": "2025-10-10",
+      "last_seen_at": "2025-12-27",
+      "creatives": [
+        {
+          "id": "840182d8a2b296a0",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0d1292056588a320/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0d1292056588a320/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0d1292056588a320/thumb",
+          "video_duration": 21,
+          "width": 1080,
+          "height": 1920,
+          "title": "🎁Gift Code: Lucky777",
+          "button_text": "Install now",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "fa02a637bf652991",
+      "app_id": "57050441909c93b537000c06",
+      "network": "Instagram",
+      "phashion_group": "fa02a637bf652991",
+      "ad_type": "video",
+      "first_seen_at": "2025-10-10",
+      "last_seen_at": "2025-12-27",
+      "creatives": [
+        {
+          "id": "fa02a637bf652991",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0d1292056588a320/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0d1292056588a320/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0d1292056588a320/thumb",
+          "video_duration": 21,
+          "width": 1080,
+          "height": 1920,
+          "title": "🎁Gift Code: Lucky777",
+          "button_text": "Install now",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "96a51d3a1f89bc76",
+      "app_id": "57050441909c93b537000c06",
+      "network": "Facebook",
+      "phashion_group": "96a51d3a1f89bc76",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-30",
+      "last_seen_at": "2025-12-14",
+      "creatives": [
+        {
+          "id": "96a51d3a1f89bc76",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0da34475465b3a50/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0da34475465b3a50/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0da34475465b3a50/thumb",
+          "video_duration": 18,
+          "width": 1080,
+          "height": 1080,
+          "title": "Does anyone know stayalive777?🤔❓",
+          "button_text": "Play Game",
+          "message": "Man I miss this game😭"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "e8a639d5025e0347",
+      "app_id": "57050441909c93b537000c06",
+      "network": "Instagram",
+      "phashion_group": "e8a639d5025e0347",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-30",
+      "last_seen_at": "2025-12-14",
+      "creatives": [
+        {
+          "id": "e8a639d5025e0347",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0da34475465b3a50/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0da34475465b3a50/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0da34475465b3a50/thumb",
+          "video_duration": 18,
+          "width": 1080,
+          "height": 1080,
+          "title": "Does anyone know stayalive777?🤔❓",
+          "button_text": "Play Game",
+          "message": "Man I miss this game😭"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "99941ac6477cd904",
+      "app_id": "57050441909c93b537000c06",
+      "network": "Facebook",
+      "phashion_group": "99941ac6477cd904",
+      "ad_type": "video",
+      "first_seen_at": "2025-10-19",
+      "last_seen_at": "2026-01-10",
+      "creatives": [
+        {
+          "id": "99941ac6477cd904",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/10870a1b8046ec84/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/10870a1b8046ec84/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/10870a1b8046ec84/thumb",
+          "video_duration": 23,
+          "width": 1080,
+          "height": 1920,
+          "title": "🎁Exclusive Limited Time Event 🎁",
+          "button_text": "Install now",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "e7973e295aab6635",
+      "app_id": "57050441909c93b537000c06",
+      "network": "Instagram",
+      "phashion_group": "e7973e295aab6635",
+      "ad_type": "video",
+      "first_seen_at": "2025-10-19",
+      "last_seen_at": "2026-01-10",
+      "creatives": [
+        {
+          "id": "e7973e295aab6635",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/10870a1b8046ec84/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/10870a1b8046ec84/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/10870a1b8046ec84/thumb",
+          "video_duration": 23,
+          "width": 1080,
+          "height": 1920,
+          "title": "🎁Exclusive Limited Time Event 🎁",
+          "button_text": "Install now",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "57defc19b06d912c",
+      "app_id": "57050441909c93b537000c06",
+      "network": "Facebook",
+      "phashion_group": "57defc19b06d912c",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-11",
+      "last_seen_at": "2025-12-17",
+      "creatives": [
+        {
+          "id": "57defc19b06d912c",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/138da4a670900fa3/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/138da4a670900fa3/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/138da4a670900fa3/thumb",
+          "video_duration": 18,
+          "width": 1080,
+          "height": 606,
+          "title": "I run an alliance in Kingdom 205\nPlease join if you are interested🙏🙏🙏",
+          "button_text": "Play Game",
+          "message": "I played this fun game a few years ago where you compete against players from around the world.⚔️🏆"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x606",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "29ddd8f6adba2e1d",
+      "app_id": "57050441909c93b537000c06",
+      "network": "Instagram",
+      "phashion_group": "29ddd8f6adba2e1d",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-11",
+      "last_seen_at": "2025-12-17",
+      "creatives": [
+        {
+          "id": "29ddd8f6adba2e1d",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/138da4a670900fa3/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/138da4a670900fa3/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/138da4a670900fa3/thumb",
+          "video_duration": 18,
+          "width": 1080,
+          "height": 606,
+          "title": "I run an alliance in Kingdom 205\nPlease join if you are interested🙏🙏🙏",
+          "button_text": "Play Game",
+          "message": "I played this fun game a few years ago where you compete against players from around the world.⚔️🏆"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x606",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "c17cb3b21ad400aa",
+      "app_id": "57050441909c93b537000c06",
+      "network": "Facebook",
+      "phashion_group": "c17cb3b21ad400aa",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-22",
+      "last_seen_at": "2026-01-08",
+      "creatives": [
+        {
+          "id": "c17cb3b21ad400aa",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/13c9c50cac65f0ff/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/13c9c50cac65f0ff/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/13c9c50cac65f0ff/thumb",
+          "video_duration": 14,
+          "width": 1080,
+          "height": 1080,
+          "title": "I guess you've played this kind of game, right?👑",
+          "button_text": "Play Game",
+          "message": "Truly free to play ✅⚔️🏆"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "bf7f975d0703bf9b",
+      "app_id": "57050441909c93b537000c06",
+      "network": "Instagram",
+      "phashion_group": "bf7f975d0703bf9b",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-22",
+      "last_seen_at": "2026-01-08",
+      "creatives": [
+        {
+          "id": "bf7f975d0703bf9b",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/13c9c50cac65f0ff/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/13c9c50cac65f0ff/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/13c9c50cac65f0ff/thumb",
+          "video_duration": 14,
+          "width": 1080,
+          "height": 1080,
+          "title": "I guess you've played this kind of game, right?👑",
+          "button_text": "Play Game",
+          "message": "Truly free to play ✅⚔️🏆"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "f3fe60c615cc111b",
+      "app_id": "57050441909c93b537000c06",
+      "network": "Meta Audience Network",
+      "phashion_group": "f3fe60c615cc111b",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-22",
+      "last_seen_at": "2026-01-08",
+      "creatives": [
+        {
+          "id": "f3fe60c615cc111b",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/13c9c50cac65f0ff/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/13c9c50cac65f0ff/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/13c9c50cac65f0ff/thumb",
+          "video_duration": 14,
+          "width": 1080,
+          "height": 1080,
+          "title": "I guess you've played this kind of game, right?👑",
+          "button_text": "Play Game",
+          "message": "Truly free to play ✅⚔️🏆"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "69cef6dc434d37a2",
+      "app_id": "57050441909c93b537000c06",
+      "network": "Facebook",
+      "phashion_group": "69cef6dc434d37a2",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-05",
+      "last_seen_at": "2025-12-08",
+      "creatives": [
+        {
+          "id": "69cef6dc434d37a2",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/15f66f5319c53753/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/15f66f5319c53753/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/15f66f5319c53753/thumb",
+          "video_duration": 19,
+          "width": 1080,
+          "height": 1920,
+          "title": "Does anyone know stayalive777?🤔❓",
+          "button_text": "Play Game",
+          "message": "Is this the real gameplay？"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "17cdd2335e9a8893",
+      "app_id": "57050441909c93b537000c06",
+      "network": "Instagram",
+      "phashion_group": "17cdd2335e9a8893",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-05",
+      "last_seen_at": "2025-12-08",
+      "creatives": [
+        {
+          "id": "17cdd2335e9a8893",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/15f66f5319c53753/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/15f66f5319c53753/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/15f66f5319c53753/thumb",
+          "video_duration": 19,
+          "width": 1080,
+          "height": 1920,
+          "title": "Does anyone know stayalive777?🤔❓",
+          "button_text": "Play Game",
+          "message": "Is this the real gameplay？"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "6bc1fed4731d6ec0",
+      "app_id": "57050441909c93b537000c06",
+      "network": "Facebook",
+      "phashion_group": "6bc1fed4731d6ec0",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-05",
+      "last_seen_at": "2026-01-15",
+      "creatives": [
+        {
+          "id": "6bc1fed4731d6ec0",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/17f9675b29956e31/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/17f9675b29956e31/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/17f9675b29956e31/thumb",
+          "video_duration": 29,
+          "width": 1080,
+          "height": 1920,
+          "title": "Does anyone know stayalive777?🤔❓",
+          "button_text": "Play Game",
+          "message": "Is this the real gameplay？"
+        },
+        {
+          "id": "8cff3e147047e817",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/17f9675b29956e31/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/17f9675b29956e31/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/17f9675b29956e31/thumb",
+          "video_duration": 29,
+          "width": 1080,
+          "height": 1920,
+          "title": "Does anyone know stayalive777?🤔❓",
+          "button_text": "Play Game",
+          "message": "Man I miss this game😭"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "15c2da3b6ecad1f1",
+      "app_id": "57050441909c93b537000c06",
+      "network": "Instagram",
+      "phashion_group": "15c2da3b6ecad1f1",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-05",
+      "last_seen_at": "2026-01-15",
+      "creatives": [
+        {
+          "id": "15c2da3b6ecad1f1",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/17f9675b29956e31/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/17f9675b29956e31/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/17f9675b29956e31/thumb",
+          "video_duration": 29,
+          "width": 1080,
+          "height": 1920,
+          "title": "Does anyone know stayalive777?🤔❓",
+          "button_text": "Play Game",
+          "message": "Is this the real gameplay？"
+        },
+        {
+          "id": "f2fc1afb6d905726",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/17f9675b29956e31/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/17f9675b29956e31/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/17f9675b29956e31/thumb",
+          "video_duration": 29,
+          "width": 1080,
+          "height": 1920,
+          "title": "Does anyone know stayalive777?🤔❓",
+          "button_text": "Play Game",
+          "message": "Man I miss this game😭"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "f590b0e20087491e",
+      "app_id": "57050441909c93b537000c06",
+      "network": "Facebook",
+      "phashion_group": "f590b0e20087491e",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-03",
+      "last_seen_at": "2025-12-09",
+      "creatives": [
+        {
+          "id": "f590b0e20087491e",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1ae4181ef4a1cb80/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1ae4181ef4a1cb80/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1ae4181ef4a1cb80/thumb",
+          "video_duration": 19,
+          "width": 1080,
+          "height": 1920,
+          "title": "Does anyone know stayalive77?🤔❓",
+          "button_text": "Play Game",
+          "message": "I wiped out an alliance together with Stayalive77! 😎😎"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "8b93940d1d50f62f",
+      "app_id": "57050441909c93b537000c06",
+      "network": "Instagram",
+      "phashion_group": "8b93940d1d50f62f",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-03",
+      "last_seen_at": "2025-12-09",
+      "creatives": [
+        {
+          "id": "8b93940d1d50f62f",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1ae4181ef4a1cb80/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1ae4181ef4a1cb80/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1ae4181ef4a1cb80/thumb",
+          "video_duration": 19,
+          "width": 1080,
+          "height": 1920,
+          "title": "Does anyone know stayalive77?🤔❓",
+          "button_text": "Play Game",
+          "message": "I wiped out an alliance together with Stayalive77! 😎😎"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "85387968baa45114",
+      "app_id": "57050441909c93b537000c06",
+      "network": "Facebook",
+      "phashion_group": "85387968baa45114",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-02",
+      "last_seen_at": "2025-12-08",
+      "creatives": [
+        {
+          "id": "85387968baa45114",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1e3e2027e376d732/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1e3e2027e376d732/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1e3e2027e376d732/thumb",
+          "video_duration": 29,
+          "width": 1080,
+          "height": 1080,
+          "title": "Does anyone know stayalive777?🤔❓",
+          "button_text": "Play Game",
+          "message": "Man I miss this game😭"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "fb3b5d87a773ee25",
+      "app_id": "57050441909c93b537000c06",
+      "network": "Instagram",
+      "phashion_group": "fb3b5d87a773ee25",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-02",
+      "last_seen_at": "2025-12-08",
+      "creatives": [
+        {
+          "id": "fb3b5d87a773ee25",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1e3e2027e376d732/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1e3e2027e376d732/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1e3e2027e376d732/thumb",
+          "video_duration": 29,
+          "width": 1080,
+          "height": 1080,
+          "title": "Does anyone know stayalive777?🤔❓",
+          "button_text": "Play Game",
+          "message": "Man I miss this game😭"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "f1fe20befee1c3fe",
+      "app_id": "57050441909c93b537000c06",
+      "network": "Facebook",
+      "phashion_group": "f1fe20befee1c3fe",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-10",
+      "last_seen_at": "2026-01-11",
+      "creatives": [
+        {
+          "id": "f1fe20befee1c3fe",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1e8a88420ac74160/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1e8a88420ac74160/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1e8a88420ac74160/thumb",
+          "video_duration": 14,
+          "width": 1080,
+          "height": 606,
+          "title": "Does anyone know stayalive77?🤔❓",
+          "button_text": "Play Game",
+          "message": "I wiped out an alliance together with Stayalive77! 😎😎"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x606",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "8ffd0451e3367ccf",
+      "app_id": "57050441909c93b537000c06",
+      "network": "Instagram",
+      "phashion_group": "8ffd0451e3367ccf",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-10",
+      "last_seen_at": "2026-01-11",
+      "creatives": [
+        {
+          "id": "8ffd0451e3367ccf",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1e8a88420ac74160/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1e8a88420ac74160/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1e8a88420ac74160/thumb",
+          "video_duration": 14,
+          "width": 1080,
+          "height": 606,
+          "title": "Does anyone know stayalive77?🤔❓",
+          "button_text": "Play Game",
+          "message": "I wiped out an alliance together with Stayalive77! 😎😎"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x606",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "5bd5055f1a2e17a6",
+      "app_id": "57050441909c93b537000c06",
+      "network": "Facebook",
+      "phashion_group": "5bd5055f1a2e17a6",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-25",
+      "last_seen_at": "2025-12-31",
+      "creatives": [
+        {
+          "id": "5bd5055f1a2e17a6",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1f865de0dad38929/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1f865de0dad38929/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1f865de0dad38929/thumb",
+          "video_duration": 18,
+          "width": 1080,
+          "height": 1920,
+          "title": "I run an alliance in Kingdom 205\nPlease join if you are interested🙏🙏🙏",
+          "button_text": "Play Game",
+          "message": "I played this fun game a few years ago where you compete against players from around the world.⚔️🏆"
+        },
+        {
+          "id": "63bec46f805b89d8",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1f865de0dad38929/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1f865de0dad38929/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1f865de0dad38929/thumb",
+          "video_duration": 18,
+          "width": 1080,
+          "height": 1920,
+          "title": "Does anyone know stayalive777?🤔❓",
+          "button_text": "Play Game",
+          "message": "Is this the real gameplay？"
+        },
+        {
+          "id": "848004af83010f0f",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1f865de0dad38929/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1f865de0dad38929/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1f865de0dad38929/thumb",
+          "video_duration": 18,
+          "width": 1080,
+          "height": 1920,
+          "title": "Does anyone know stayalive777?🤔❓",
+          "button_text": "Play Game",
+          "message": "Man I miss this game😭"
+        },
+        {
+          "id": "b1477e0513a58e68",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1f865de0dad38929/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1f865de0dad38929/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1f865de0dad38929/thumb",
+          "video_duration": 18,
+          "width": 1080,
+          "height": 1920,
+          "title": "Does anyone know stayalive77?🤔❓",
+          "button_text": "Play Game",
+          "message": "Tired of losing? Rule the battlefield here👑👑👑"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "1dbde0809d8c36e9",
+      "app_id": "57050441909c93b537000c06",
+      "network": "Instagram",
+      "phashion_group": "1dbde0809d8c36e9",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-25",
+      "last_seen_at": "2025-12-31",
+      "creatives": [
+        {
+          "id": "1dbde0809d8c36e9",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1f865de0dad38929/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1f865de0dad38929/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1f865de0dad38929/thumb",
+          "video_duration": 18,
+          "width": 1080,
+          "height": 1920,
+          "title": "Does anyone know stayalive777?🤔❓",
+          "button_text": "Play Game",
+          "message": "Is this the real gameplay？"
+        },
+        {
+          "id": "25d621b007f9a897",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1f865de0dad38929/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1f865de0dad38929/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1f865de0dad38929/thumb",
+          "video_duration": 18,
+          "width": 1080,
+          "height": 1920,
+          "title": "I run an alliance in Kingdom 205\nPlease join if you are interested🙏🙏🙏",
+          "button_text": "Play Game",
+          "message": "I played this fun game a few years ago where you compete against players from around the world.⚔️🏆"
+        },
+        {
+          "id": "cf445aea0e723159",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1f865de0dad38929/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1f865de0dad38929/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1f865de0dad38929/thumb",
+          "video_duration": 18,
+          "width": 1080,
+          "height": 1920,
+          "title": "Does anyone know stayalive77?🤔❓",
+          "button_text": "Play Game",
+          "message": "Tired of losing? Rule the battlefield here👑👑👑"
+        },
+        {
+          "id": "fa8320409ed6b03e",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1f865de0dad38929/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1f865de0dad38929/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1f865de0dad38929/thumb",
+          "video_duration": 18,
+          "width": 1080,
+          "height": 1920,
+          "title": "Does anyone know stayalive777?🤔❓",
+          "button_text": "Play Game",
+          "message": "Man I miss this game😭"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "39d7db3f8c398a11",
+      "app_id": "57050441909c93b537000c06",
+      "network": "Facebook",
+      "phashion_group": "39d7db3f8c398a11",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-14",
+      "last_seen_at": "2025-12-17",
+      "creatives": [
+        {
+          "id": "39d7db3f8c398a11",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/207f0fc4b9cf6540/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/207f0fc4b9cf6540/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/207f0fc4b9cf6540/thumb",
+          "video_duration": 28,
+          "width": 1080,
+          "height": 1080,
+          "title": "🎁Free Gift Code: Lucky777",
+          "button_text": "Install Now",
+          "message": "𝙲𝚕𝚊𝚜𝚑? 𝙺𝚒𝚗𝚐? 𝙰𝚟𝚊𝚕𝚘𝚗? 𝚁𝚒𝚜𝚎? 𝙻𝚘𝚛𝚍𝚜?🔥🔥🔥🔥🔥"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "5f888629b84282ad",
+      "app_id": "57050441909c93b537000c06",
+      "network": "Facebook",
+      "phashion_group": "5f888629b84282ad",
+      "ad_type": "video",
+      "first_seen_at": "2025-10-29",
+      "last_seen_at": "2026-01-03",
+      "creatives": [
+        {
+          "id": "5f888629b84282ad",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/23b01fa6e2ca825c/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/23b01fa6e2ca825c/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/23b01fa6e2ca825c/thumb",
+          "video_duration": 19,
+          "width": 1080,
+          "height": 1080,
+          "title": "¿Se puede jugar bien sin gastar dinero?🤔❓",
+          "button_text": "Play Game",
+          "message": "Is this the real gameplay？"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "218ba2c6a5953d9c",
+      "app_id": "57050441909c93b537000c06",
+      "network": "Instagram",
+      "phashion_group": "218ba2c6a5953d9c",
+      "ad_type": "video",
+      "first_seen_at": "2025-10-29",
+      "last_seen_at": "2026-01-03",
+      "creatives": [
+        {
+          "id": "218ba2c6a5953d9c",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/23b01fa6e2ca825c/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/23b01fa6e2ca825c/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/23b01fa6e2ca825c/thumb",
+          "video_duration": 19,
+          "width": 1080,
+          "height": 1080,
+          "title": "¿Se puede jugar bien sin gastar dinero?🤔❓",
+          "button_text": "Play Game",
+          "message": "Is this the real gameplay？"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "ad3efea995f61989",
+      "app_id": "57050441909c93b537000c06",
+      "network": "Facebook",
+      "phashion_group": "ad3efea995f61989",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-08",
+      "last_seen_at": "2025-12-13",
+      "creatives": [
+        {
+          "id": "ad3efea995f61989",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/242dee7452cc2c09/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/242dee7452cc2c09/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/242dee7452cc2c09/thumb",
+          "video_duration": 18,
+          "width": 1080,
+          "height": 1920,
+          "title": "🎁Gift Code: Lucky777",
+          "button_text": "Install now",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "d33dda468821a6b8",
+      "app_id": "57050441909c93b537000c06",
+      "network": "Instagram",
+      "phashion_group": "d33dda468821a6b8",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-08",
+      "last_seen_at": "2025-12-13",
+      "creatives": [
+        {
+          "id": "d33dda468821a6b8",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/242dee7452cc2c09/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/242dee7452cc2c09/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/242dee7452cc2c09/thumb",
+          "video_duration": 18,
+          "width": 1080,
+          "height": 1920,
+          "title": "🎁Gift Code: Lucky777",
+          "button_text": "Install now",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "c7bd7a062b622cfa",
+      "app_id": "57050441909c93b537000c06",
+      "network": "Facebook",
+      "phashion_group": "c7bd7a062b622cfa",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-10",
+      "last_seen_at": "2025-12-17",
+      "creatives": [
+        {
+          "id": "c7bd7a062b622cfa",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/28c9d2fadf44ae64/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/28c9d2fadf44ae64/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/28c9d2fadf44ae64/thumb",
+          "video_duration": 20,
+          "width": 1080,
+          "height": 1920,
+          "title": "Does anyone know stayalive77?🤔❓",
+          "button_text": "Play Game",
+          "message": "I wiped out an alliance together with Stayalive77! 😎😎"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "b9be5ee936b593cb",
+      "app_id": "57050441909c93b537000c06",
+      "network": "Instagram",
+      "phashion_group": "b9be5ee936b593cb",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-10",
+      "last_seen_at": "2025-12-17",
+      "creatives": [
+        {
+          "id": "b9be5ee936b593cb",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/28c9d2fadf44ae64/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/28c9d2fadf44ae64/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/28c9d2fadf44ae64/thumb",
+          "video_duration": 20,
+          "width": 1080,
+          "height": 1920,
+          "title": "Does anyone know stayalive77?🤔❓",
+          "button_text": "Play Game",
+          "message": "I wiped out an alliance together with Stayalive77! 😎😎"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "579696e4e2d82e32",
+      "app_id": "57050441909c93b537000c06",
+      "network": "Facebook",
+      "phashion_group": "579696e4e2d82e32",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-05",
+      "last_seen_at": "2025-12-08",
+      "creatives": [
+        {
+          "id": "579696e4e2d82e32",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2bae0f6bb8502ec3/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2bae0f6bb8502ec3/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2bae0f6bb8502ec3/thumb",
+          "video_duration": 29,
+          "width": 1080,
+          "height": 606,
+          "title": "Does anyone know stayalive777?🤔❓",
+          "button_text": "Play Game",
+          "message": "Is this the real gameplay？"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x606",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "2995b20bff0f9103",
+      "app_id": "57050441909c93b537000c06",
+      "network": "Instagram",
+      "phashion_group": "2995b20bff0f9103",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-05",
+      "last_seen_at": "2025-12-08",
+      "creatives": [
+        {
+          "id": "2995b20bff0f9103",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2bae0f6bb8502ec3/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2bae0f6bb8502ec3/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2bae0f6bb8502ec3/thumb",
+          "video_duration": 29,
+          "width": 1080,
+          "height": 606,
+          "title": "Does anyone know stayalive777?🤔❓",
+          "button_text": "Play Game",
+          "message": "Is this the real gameplay？"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x606",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "a71e77a393a6166d",
+      "app_id": "57050441909c93b537000c06",
+      "network": "Facebook",
+      "phashion_group": "a71e77a393a6166d",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-10",
+      "last_seen_at": "2025-12-11",
+      "creatives": [
+        {
+          "id": "a71e77a393a6166d",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2e0d677e549c23ed/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2e0d677e549c23ed/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2e0d677e549c23ed/thumb",
+          "video_duration": 29,
+          "width": 1080,
+          "height": 1080,
+          "title": "🎁Free Gift Code: Lucky777",
+          "button_text": "Install now",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "d91d534c8e71a95c",
+      "app_id": "57050441909c93b537000c06",
+      "network": "Instagram",
+      "phashion_group": "d91d534c8e71a95c",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-10",
+      "last_seen_at": "2025-12-11",
+      "creatives": [
+        {
+          "id": "d91d534c8e71a95c",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2e0d677e549c23ed/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2e0d677e549c23ed/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2e0d677e549c23ed/thumb",
+          "video_duration": 29,
+          "width": 1080,
+          "height": 1080,
+          "title": "🎁Free Gift Code: Lucky777",
+          "button_text": "Install now",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "6b0b234f8f84932e",
+      "app_id": "57050441909c93b537000c06",
+      "network": "Facebook",
+      "phashion_group": "6b0b234f8f84932e",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-09",
+      "last_seen_at": "2026-01-26",
+      "creatives": [
+        {
+          "id": "6b0b234f8f84932e",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2f587bf04f790da1/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2f587bf04f790da1/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2f587bf04f790da1/thumb",
+          "video_duration": 18,
+          "width": 1080,
+          "height": 606,
+          "title": "I run an alliance in Kingdom 205\nPlease join if you are interested🙏🙏🙏",
+          "button_text": "Play Game",
+          "message": "I played this fun game a few years ago where you compete against players from around the world.⚔️🏆"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x606",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "150807a092532c1f",
+      "app_id": "57050441909c93b537000c06",
+      "network": "Instagram",
+      "phashion_group": "150807a092532c1f",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-09",
+      "last_seen_at": "2026-01-26",
+      "creatives": [
+        {
+          "id": "150807a092532c1f",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2f587bf04f790da1/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2f587bf04f790da1/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2f587bf04f790da1/thumb",
+          "video_duration": 18,
+          "width": 1080,
+          "height": 606,
+          "title": "I run an alliance in Kingdom 205\nPlease join if you are interested🙏🙏🙏",
+          "button_text": "Play Game",
+          "message": "I played this fun game a few years ago where you compete against players from around the world.⚔️🏆"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x606",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "6bd5c9628447481f",
+      "app_id": "57050441909c93b537000c06",
+      "network": "Facebook",
+      "phashion_group": "6bd5c9628447481f",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-21",
+      "last_seen_at": "2026-01-19",
+      "creatives": [
+        {
+          "id": "6bd5c9628447481f",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2f8691dd44bad690/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2f8691dd44bad690/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2f8691dd44bad690/thumb",
+          "video_duration": 15,
+          "width": 1080,
+          "height": 1920,
+          "title": "I run an alliance in Kingdom 205\nPlease join if you are interested🙏🙏🙏",
+          "button_text": "Play Game",
+          "message": "I played this fun game a few years ago where you compete against players from around the world.⚔️🏆"
+        },
+        {
+          "id": "c0f23921b09c540e",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2f8691dd44bad690/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2f8691dd44bad690/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2f8691dd44bad690/thumb",
+          "video_duration": 15,
+          "width": 1080,
+          "height": 1920,
+          "title": "Does anyone know stayalive77?🤔❓",
+          "button_text": "Play Game",
+          "message": "I wiped out an alliance together with Stayalive77! 😎😎"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "15d6ed8d9990f72e",
+      "app_id": "57050441909c93b537000c06",
+      "network": "Instagram",
+      "phashion_group": "15d6ed8d9990f72e",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-21",
+      "last_seen_at": "2026-01-19",
+      "creatives": [
+        {
+          "id": "15d6ed8d9990f72e",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2f8691dd44bad690/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2f8691dd44bad690/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2f8691dd44bad690/thumb",
+          "video_duration": 15,
+          "width": 1080,
+          "height": 1920,
+          "title": "I run an alliance in Kingdom 205\nPlease join if you are interested🙏🙏🙏",
+          "button_text": "Play Game",
+          "message": "I played this fun game a few years ago where you compete against players from around the world.⚔️🏆"
+        },
+        {
+          "id": "bef11dcead4beb3f",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2f8691dd44bad690/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2f8691dd44bad690/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2f8691dd44bad690/thumb",
+          "video_duration": 15,
+          "width": 1080,
+          "height": 1920,
+          "title": "Does anyone know stayalive77?🤔❓",
+          "button_text": "Play Game",
+          "message": "I wiped out an alliance together with Stayalive77! 😎😎"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "b91c34f9b3e83019",
+      "app_id": "57050441909c93b537000c06",
+      "network": "Facebook",
+      "phashion_group": "b91c34f9b3e83019",
+      "ad_type": "video",
+      "first_seen_at": "2025-10-17",
+      "last_seen_at": "2026-01-03",
+      "creatives": [
+        {
+          "id": "b91c34f9b3e83019",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/300f242474d20599/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/300f242474d20599/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/300f242474d20599/thumb",
+          "video_duration": 18,
+          "width": 1080,
+          "height": 1920,
+          "title": "🎁Free Gift Code: Lucky777",
+          "button_text": "Install now",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "75a50713bf9f0f86",
+      "app_id": "57050441909c93b537000c06",
+      "network": "Facebook",
+      "phashion_group": "75a50713bf9f0f86",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-25",
+      "last_seen_at": "2025-12-10",
+      "creatives": [
+        {
+          "id": "75a50713bf9f0f86",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/31f65fac7f629109/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/31f65fac7f629109/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/31f65fac7f629109/thumb",
+          "video_duration": 19,
+          "width": 1080,
+          "height": 606,
+          "title": "I run an alliance in Kingdom 205\nPlease join if you are interested🙏🙏🙏",
+          "button_text": "Play Game",
+          "message": "I played this fun game a few years ago where you compete against players from around the world.⚔️🏆"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x606",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "0ba623fca248b0b7",
+      "app_id": "57050441909c93b537000c06",
+      "network": "Instagram",
+      "phashion_group": "0ba623fca248b0b7",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-25",
+      "last_seen_at": "2025-12-10",
+      "creatives": [
+        {
+          "id": "0ba623fca248b0b7",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/31f65fac7f629109/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/31f65fac7f629109/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/31f65fac7f629109/thumb",
+          "video_duration": 19,
+          "width": 1080,
+          "height": 606,
+          "title": "I run an alliance in Kingdom 205\nPlease join if you are interested🙏🙏🙏",
+          "button_text": "Play Game",
+          "message": "I played this fun game a few years ago where you compete against players from around the world.⚔️🏆"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x606",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "a924829cae4b12e3",
+      "app_id": "57050441909c93b537000c06",
+      "network": "Facebook",
+      "phashion_group": "a924829cae4b12e3",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-02",
+      "last_seen_at": "2025-12-08",
+      "creatives": [
+        {
+          "id": "a924829cae4b12e3",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3222dbd3f79994c5/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3222dbd3f79994c5/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3222dbd3f79994c5/thumb",
+          "video_duration": 23,
+          "width": 800,
+          "height": 800,
+          "title": "Does anyone know stayalive777?🤔❓",
+          "button_text": "Play Game",
+          "message": "Man I miss this game😭"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "800x800",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "d727a673b39cadd2",
+      "app_id": "57050441909c93b537000c06",
+      "network": "Instagram",
+      "phashion_group": "d727a673b39cadd2",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-02",
+      "last_seen_at": "2025-12-08",
+      "creatives": [
+        {
+          "id": "d727a673b39cadd2",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3222dbd3f79994c5/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3222dbd3f79994c5/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3222dbd3f79994c5/thumb",
+          "video_duration": 23,
+          "width": 800,
+          "height": 800,
+          "title": "Does anyone know stayalive777?🤔❓",
+          "button_text": "Play Game",
+          "message": "Man I miss this game😭"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "800x800",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "9cfa7e09f0b46040",
+      "app_id": "57050441909c93b537000c06",
+      "network": "Facebook",
+      "phashion_group": "9cfa7e09f0b46040",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-04",
+      "last_seen_at": "2025-12-12",
+      "creatives": [
+        {
+          "id": "9cfa7e09f0b46040",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/323b5dec39c26701/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/323b5dec39c26701/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/323b5dec39c26701/thumb",
+          "video_duration": 26,
+          "width": 1080,
+          "height": 1080,
+          "title": "Does anyone know stayalive777?🤔❓",
+          "button_text": "Play Game",
+          "message": "Tired of losing? Rule the battlefield here👑👑👑"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "e2f95ae6ed63df71",
+      "app_id": "57050441909c93b537000c06",
+      "network": "Instagram",
+      "phashion_group": "e2f95ae6ed63df71",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-04",
+      "last_seen_at": "2025-12-12",
+      "creatives": [
+        {
+          "id": "e2f95ae6ed63df71",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/323b5dec39c26701/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/323b5dec39c26701/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/323b5dec39c26701/thumb",
+          "video_duration": 26,
+          "width": 1080,
+          "height": 1080,
+          "title": "Does anyone know stayalive777?🤔❓",
+          "button_text": "Play Game",
+          "message": "Tired of losing? Rule the battlefield here👑👑👑"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "4ba4683b76739c9d",
+      "app_id": "57050441909c93b537000c06",
+      "network": "Facebook",
+      "phashion_group": "4ba4683b76739c9d",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-28",
+      "last_seen_at": "2025-12-08",
+      "creatives": [
+        {
+          "id": "4ba4683b76739c9d",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/379cf1b42cfb9c6c/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/379cf1b42cfb9c6c/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/379cf1b42cfb9c6c/thumb",
+          "video_duration": 15,
+          "width": 1080,
+          "height": 1916,
+          "title": "Does anyone know stayalive777?🤔❓",
+          "button_text": "Play Game",
+          "message": "Is this the real gameplay？"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1916",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "35a74cd46ba423ac",
+      "app_id": "57050441909c93b537000c06",
+      "network": "Instagram",
+      "phashion_group": "35a74cd46ba423ac",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-28",
+      "last_seen_at": "2025-12-08",
+      "creatives": [
+        {
+          "id": "35a74cd46ba423ac",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/379cf1b42cfb9c6c/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/379cf1b42cfb9c6c/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/379cf1b42cfb9c6c/thumb",
+          "video_duration": 15,
+          "width": 1080,
+          "height": 1916,
+          "title": "Does anyone know stayalive777?🤔❓",
+          "button_text": "Play Game",
+          "message": "Is this the real gameplay？"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1916",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "7e114892bf203431",
+      "app_id": "57050441909c93b537000c06",
+      "network": "Facebook",
+      "phashion_group": "7e114892bf203431",
+      "ad_type": "video",
+      "first_seen_at": "2025-10-29",
+      "last_seen_at": "2026-01-27",
+      "creatives": [
+        {
+          "id": "7e114892bf203431",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3a42102d7fddaabe/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3a42102d7fddaabe/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3a42102d7fddaabe/thumb",
+          "video_duration": 19,
+          "width": 1080,
+          "height": 1920,
+          "title": "I run an alliance in Kingdom 205\nPlease join if you are interested🙏🙏🙏",
+          "button_text": "Play Game",
+          "message": "I played this fun game a few years ago where you compete against players from around the world.⚔️🏆"
+        },
+        {
+          "id": "b35100f0b8e79f3e",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3a42102d7fddaabe/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3a42102d7fddaabe/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3a42102d7fddaabe/thumb",
+          "video_duration": 19,
+          "width": 1080,
+          "height": 1920,
+          "title": "🎁Gift Code: Lucky777",
+          "button_text": "Install now",
+          "message": ""
+        },
+        {
+          "id": "cdf2bc2ea556eef7",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3a42102d7fddaabe/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3a42102d7fddaabe/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3a42102d7fddaabe/thumb",
+          "video_duration": 19,
+          "width": 1080,
+          "height": 1920,
+          "title": "I guess you've played this kind of game, right?👑",
+          "button_text": "Play Game",
+          "message": "New Server#launched today👑⚔️👑"
+        },
+        {
+          "id": "d536b8d18bfb2820",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3a42102d7fddaabe/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3a42102d7fddaabe/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3a42102d7fddaabe/thumb",
+          "video_duration": 19,
+          "width": 1080,
+          "height": 1920,
+          "title": "Does anyone know stayalive77?🤔❓",
+          "button_text": "Play Game",
+          "message": "I wiped out an alliance together with Stayalive77! 😎😎"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "00126c7da2f78b00",
+      "app_id": "57050441909c93b537000c06",
+      "network": "Instagram",
+      "phashion_group": "00126c7da2f78b00",
+      "ad_type": "video",
+      "first_seen_at": "2025-10-29",
+      "last_seen_at": "2026-01-27",
+      "creatives": [
+        {
+          "id": "00126c7da2f78b00",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3a42102d7fddaabe/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3a42102d7fddaabe/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3a42102d7fddaabe/thumb",
+          "video_duration": 19,
+          "width": 1080,
+          "height": 1920,
+          "title": "I run an alliance in Kingdom 205\nPlease join if you are interested🙏🙏🙏",
+          "button_text": "Play Game",
+          "message": "I played this fun game a few years ago where you compete against players from around the world.⚔️🏆"
+        },
+        {
+          "id": "ab359c3e962c9711",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3a42102d7fddaabe/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3a42102d7fddaabe/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3a42102d7fddaabe/thumb",
+          "video_duration": 19,
+          "width": 1080,
+          "height": 1920,
+          "title": "Does anyone know stayalive77?🤔❓",
+          "button_text": "Play Game",
+          "message": "I wiped out an alliance together with Stayalive77! 😎😎"
+        },
+        {
+          "id": "b3f198c1b88151c6",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3a42102d7fddaabe/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3a42102d7fddaabe/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3a42102d7fddaabe/thumb",
+          "video_duration": 19,
+          "width": 1080,
+          "height": 1920,
+          "title": "I guess you've played this kind of game, right?👑",
+          "button_text": "Play Game",
+          "message": "New Server#launched today👑⚔️👑"
+        },
+        {
+          "id": "cd52241fa530200f",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3a42102d7fddaabe/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3a42102d7fddaabe/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3a42102d7fddaabe/thumb",
+          "video_duration": 19,
+          "width": 1080,
+          "height": 1920,
+          "title": "🎁Gift Code: Lucky777",
+          "button_text": "Install now",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "81d3d384b7ff8e8f",
+      "app_id": "57050441909c93b537000c06",
+      "network": "Meta Audience Network",
+      "phashion_group": "81d3d384b7ff8e8f",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-07",
+      "last_seen_at": "2026-01-21",
+      "creatives": [
+        {
+          "id": "81d3d384b7ff8e8f",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3a42102d7fddaabe/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3a42102d7fddaabe/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3a42102d7fddaabe/thumb",
+          "video_duration": 19,
+          "width": 1080,
+          "height": 1920,
+          "title": "🎁Free Gift Code: Lucky777",
+          "button_text": "Install now",
+          "message": ""
+        },
+        {
+          "id": "ff706f5aaa4eff46",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3a42102d7fddaabe/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3a42102d7fddaabe/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3a42102d7fddaabe/thumb",
+          "video_duration": 19,
+          "width": 1080,
+          "height": 1920,
+          "title": "I guess you've played this kind of game, right?👑",
+          "button_text": "Play Game",
+          "message": "New Server#launched today👑⚔️👑"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "d080e92a1b47a8cd",
+      "app_id": "57050441909c93b537000c06",
+      "network": "Facebook",
+      "phashion_group": "d080e92a1b47a8cd",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-10",
+      "last_seen_at": "2025-12-14",
+      "creatives": [
+        {
+          "id": "d080e92a1b47a8cd",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3ff441d6ef612a53/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3ff441d6ef612a53/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3ff441d6ef612a53/thumb",
+          "video_duration": 14,
+          "width": 1080,
+          "height": 1920,
+          "title": "Does anyone know stayalive77?🤔❓",
+          "button_text": "Play Game",
+          "message": "I wiped out an alliance together with Stayalive77! 😎😎"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "ae83cdc5069017fc",
+      "app_id": "57050441909c93b537000c06",
+      "network": "Instagram",
+      "phashion_group": "ae83cdc5069017fc",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-10",
+      "last_seen_at": "2025-12-14",
+      "creatives": [
+        {
+          "id": "ae83cdc5069017fc",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3ff441d6ef612a53/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3ff441d6ef612a53/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3ff441d6ef612a53/thumb",
+          "video_duration": 14,
+          "width": 1080,
+          "height": 1920,
+          "title": "Does anyone know stayalive77?🤔❓",
+          "button_text": "Play Game",
+          "message": "I wiped out an alliance together with Stayalive77! 😎😎"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "078be9a2f9af1529",
+      "app_id": "57050441909c93b537000c06",
+      "network": "Facebook",
+      "phashion_group": "078be9a2f9af1529",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-10",
+      "last_seen_at": "2025-12-17",
+      "creatives": [
+        {
+          "id": "078be9a2f9af1529",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/43d8b11d39528ba6/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/43d8b11d39528ba6/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/43d8b11d39528ba6/thumb",
+          "video_duration": 18,
+          "width": 1080,
+          "height": 1080,
+          "title": "I run an alliance in Kingdom 205\nPlease join if you are interested🙏🙏🙏",
+          "button_text": "Play Game",
+          "message": "I played this fun game a few years ago where you compete against players from around the world.⚔️🏆"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "7988cd4de478aa18",
+      "app_id": "57050441909c93b537000c06",
+      "network": "Instagram",
+      "phashion_group": "7988cd4de478aa18",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-10",
+      "last_seen_at": "2025-12-17",
+      "creatives": [
+        {
+          "id": "7988cd4de478aa18",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/43d8b11d39528ba6/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/43d8b11d39528ba6/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/43d8b11d39528ba6/thumb",
+          "video_duration": 18,
+          "width": 1080,
+          "height": 1080,
+          "title": "I run an alliance in Kingdom 205\nPlease join if you are interested🙏🙏🙏",
+          "button_text": "Play Game",
+          "message": "I played this fun game a few years ago where you compete against players from around the world.⚔️🏆"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "cdec97e666ce4714",
+      "app_id": "57050441909c93b537000c06",
+      "network": "Facebook",
+      "phashion_group": "cdec97e666ce4714",
+      "ad_type": "video",
+      "first_seen_at": "2025-10-11",
+      "last_seen_at": "2026-01-19",
+      "creatives": [
+        {
+          "id": "cdec97e666ce4714",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/44ff873ba1f47294/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/44ff873ba1f47294/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/44ff873ba1f47294/thumb",
+          "video_duration": 24,
+          "width": 960,
+          "height": 1200,
+          "title": "🎁Free Gift Code: Lucky777",
+          "button_text": "Install now",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "960x1200",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "b3efb3097b19f825",
+      "app_id": "57050441909c93b537000c06",
+      "network": "Instagram",
+      "phashion_group": "b3efb3097b19f825",
+      "ad_type": "video",
+      "first_seen_at": "2025-10-11",
+      "last_seen_at": "2026-01-19",
+      "creatives": [
+        {
+          "id": "b3efb3097b19f825",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/44ff873ba1f47294/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/44ff873ba1f47294/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/44ff873ba1f47294/thumb",
+          "video_duration": 24,
+          "width": 960,
+          "height": 1200,
+          "title": "🎁Free Gift Code: Lucky777",
+          "button_text": "Install now",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "960x1200",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "9a6bb60b6d9e45f6",
+      "app_id": "57050441909c93b537000c06",
+      "network": "Facebook",
+      "phashion_group": "9a6bb60b6d9e45f6",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-16",
+      "last_seen_at": "2026-01-27",
+      "creatives": [
+        {
+          "id": "9a6bb60b6d9e45f6",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/48dec0b5db2fb5a3/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/48dec0b5db2fb5a3/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/48dec0b5db2fb5a3/thumb",
+          "video_duration": 14,
+          "width": 1080,
+          "height": 1920,
+          "title": "New Server#K203 launched today👑⚔️👑",
+          "button_text": "Play Game",
+          "message": "Truly free to play ✅⚔️🏆"
+        },
+        {
+          "id": "a7aa68492f09373d",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/48dec0b5db2fb5a3/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/48dec0b5db2fb5a3/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/48dec0b5db2fb5a3/thumb",
+          "video_duration": 14,
+          "width": 1080,
+          "height": 1920,
+          "title": "Does anyone know stayalive77?🤔❓",
+          "button_text": "Play Game",
+          "message": "I wiped out an alliance together with Stayalive77! 😎😎"
+        },
+        {
+          "id": "c1cdd0681c158023",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/48dec0b5db2fb5a3/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/48dec0b5db2fb5a3/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/48dec0b5db2fb5a3/thumb",
+          "video_duration": 14,
+          "width": 1080,
+          "height": 1920,
+          "title": "Does anyone know stayalive77?🤔❓",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "bfcef48701c23f12",
+      "app_id": "57050441909c93b537000c06",
+      "network": "Instagram",
+      "phashion_group": "bfcef48701c23f12",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-16",
+      "last_seen_at": "2026-01-27",
+      "creatives": [
+        {
+          "id": "bfcef48701c23f12",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/48dec0b5db2fb5a3/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/48dec0b5db2fb5a3/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/48dec0b5db2fb5a3/thumb",
+          "video_duration": 14,
+          "width": 1080,
+          "height": 1920,
+          "title": "Does anyone know stayalive77?🤔❓",
+          "button_text": "Play game",
+          "message": ""
+        },
+        {
+          "id": "d9a94ca632de880c",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/48dec0b5db2fb5a3/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/48dec0b5db2fb5a3/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/48dec0b5db2fb5a3/thumb",
+          "video_duration": 14,
+          "width": 1080,
+          "height": 1920,
+          "title": "Does anyone know stayalive77?🤔❓",
+          "button_text": "Play Game",
+          "message": "I wiped out an alliance together with Stayalive77! 😎😎"
+        },
+        {
+          "id": "e46892e47049fac7",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/48dec0b5db2fb5a3/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/48dec0b5db2fb5a3/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/48dec0b5db2fb5a3/thumb",
+          "video_duration": 14,
+          "width": 1080,
+          "height": 1920,
+          "title": "New Server#K203 launched today👑⚔️👑",
+          "button_text": "Play Game",
+          "message": "Truly free to play ✅⚔️🏆"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "a8e9657f62865447",
+      "app_id": "57050441909c93b537000c06",
+      "network": "Meta Audience Network",
+      "phashion_group": "a8e9657f62865447",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-22",
+      "last_seen_at": "2026-01-21",
+      "creatives": [
+        {
+          "id": "a8e9657f62865447",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/48dec0b5db2fb5a3/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/48dec0b5db2fb5a3/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/48dec0b5db2fb5a3/thumb",
+          "video_duration": 14,
+          "width": 1080,
+          "height": 1920,
+          "title": "New Server#K203 launched today👑⚔️👑",
+          "button_text": "Play Game",
+          "message": "Truly free to play ✅⚔️🏆"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "c307978574d392b2",
+      "app_id": "57050441909c93b537000c06",
+      "network": "Facebook",
+      "phashion_group": "c307978574d392b2",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-10",
+      "last_seen_at": "2025-12-12",
+      "creatives": [
+        {
+          "id": "c307978574d392b2",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4a148758b3e9a732/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4a148758b3e9a732/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4a148758b3e9a732/thumb",
+          "video_duration": 21,
+          "width": 1080,
+          "height": 1920,
+          "title": "🎁Gift Code: Lucky777",
+          "button_text": "Install now",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "bd04b36a69042d83",
+      "app_id": "57050441909c93b537000c06",
+      "network": "Instagram",
+      "phashion_group": "bd04b36a69042d83",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-10",
+      "last_seen_at": "2025-12-12",
+      "creatives": [
+        {
+          "id": "bd04b36a69042d83",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4a148758b3e9a732/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4a148758b3e9a732/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4a148758b3e9a732/thumb",
+          "video_duration": 21,
+          "width": 1080,
+          "height": 1920,
+          "title": "🎁Gift Code: Lucky777",
+          "button_text": "Install now",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "0f77d7a7ca9aec0f",
+      "app_id": "57050441909c93b537000c06",
+      "network": "Facebook",
+      "phashion_group": "0f77d7a7ca9aec0f",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-28",
+      "last_seen_at": "2025-12-17",
+      "creatives": [
+        {
+          "id": "0f77d7a7ca9aec0f",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4b248f180a677280/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4b248f180a677280/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4b248f180a677280/thumb",
+          "video_duration": 15,
+          "width": 1080,
+          "height": 1080,
+          "title": "I run an alliance in Kingdom 205\nPlease join if you are interested🙏🙏🙏",
+          "button_text": "Play Game",
+          "message": "I played this fun game a few years ago where you compete against players from around the world.⚔️🏆"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "7174f348d74d533e",
+      "app_id": "57050441909c93b537000c06",
+      "network": "Instagram",
+      "phashion_group": "7174f348d74d533e",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-28",
+      "last_seen_at": "2025-12-17",
+      "creatives": [
+        {
+          "id": "7174f348d74d533e",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4b248f180a677280/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4b248f180a677280/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4b248f180a677280/thumb",
+          "video_duration": 15,
+          "width": 1080,
+          "height": 1080,
+          "title": "I run an alliance in Kingdom 205\nPlease join if you are interested🙏🙏🙏",
+          "button_text": "Play Game",
+          "message": "I played this fun game a few years ago where you compete against players from around the world.⚔️🏆"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "c419db27073fca63",
+      "app_id": "57050441909c93b537000c06",
+      "network": "Facebook",
+      "phashion_group": "c419db27073fca63",
+      "ad_type": "video",
+      "first_seen_at": "2025-10-15",
+      "last_seen_at": "2026-01-11",
+      "creatives": [
+        {
+          "id": "c419db27073fca63",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4d0acbfac005ffe3/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4d0acbfac005ffe3/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4d0acbfac005ffe3/thumb",
+          "video_duration": 24,
+          "width": 960,
+          "height": 1200,
+          "title": "🎁Exclusive Limited Time Event 🎁",
+          "button_text": "Install now",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "960x1200",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "ba1affc81ae87552",
+      "app_id": "57050441909c93b537000c06",
+      "network": "Instagram",
+      "phashion_group": "ba1affc81ae87552",
+      "ad_type": "video",
+      "first_seen_at": "2025-10-17",
+      "last_seen_at": "2026-01-11",
+      "creatives": [
+        {
+          "id": "ba1affc81ae87552",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4d0acbfac005ffe3/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4d0acbfac005ffe3/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4d0acbfac005ffe3/thumb",
+          "video_duration": 24,
+          "width": 960,
+          "height": 1200,
+          "title": "🎁Exclusive Limited Time Event 🎁",
+          "button_text": "Install now",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "960x1200",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "c4a6ac30cb987b40",
+      "app_id": "57050441909c93b537000c06",
+      "network": "Facebook",
+      "phashion_group": "c4a6ac30cb987b40",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-10",
+      "last_seen_at": "2025-12-12",
+      "creatives": [
+        {
+          "id": "c4a6ac30cb987b40",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4db5bced0ca24ec0/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4db5bced0ca24ec0/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4db5bced0ca24ec0/thumb",
+          "video_duration": 21,
+          "width": 1080,
+          "height": 1920,
+          "title": "🎁Gift Code: Lucky777",
+          "button_text": "Install now",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "baa588dfd64fc471",
+      "app_id": "57050441909c93b537000c06",
+      "network": "Instagram",
+      "phashion_group": "baa588dfd64fc471",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-10",
+      "last_seen_at": "2025-12-12",
+      "creatives": [
+        {
+          "id": "baa588dfd64fc471",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4db5bced0ca24ec0/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4db5bced0ca24ec0/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4db5bced0ca24ec0/thumb",
+          "video_duration": 21,
+          "width": 1080,
+          "height": 1920,
+          "title": "🎁Gift Code: Lucky777",
+          "button_text": "Install now",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "1472743050bc8f32",
+      "app_id": "57050441909c93b537000c06",
+      "network": "Facebook",
+      "phashion_group": "1472743050bc8f32",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-28",
+      "last_seen_at": "2026-01-26",
+      "creatives": [
+        {
+          "id": "1472743050bc8f32",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/50212c8f904111bd/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/50212c8f904111bd/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/50212c8f904111bd/thumb",
+          "video_duration": 18,
+          "width": 1080,
+          "height": 1920,
+          "title": "I run an alliance in Kingdom 205\nPlease join if you are interested🙏🙏🙏",
+          "button_text": "Play Game",
+          "message": "I played this fun game a few years ago where you compete against players from around the world.⚔️🏆"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "6a7150df4d6b3003",
+      "app_id": "57050441909c93b537000c06",
+      "network": "Instagram",
+      "phashion_group": "6a7150df4d6b3003",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-28",
+      "last_seen_at": "2026-01-26",
+      "creatives": [
+        {
+          "id": "6a7150df4d6b3003",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/50212c8f904111bd/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/50212c8f904111bd/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/50212c8f904111bd/thumb",
+          "video_duration": 18,
+          "width": 1080,
+          "height": 1920,
+          "title": "I run an alliance in Kingdom 205\nPlease join if you are interested🙏🙏🙏",
+          "button_text": "Play Game",
+          "message": "I played this fun game a few years ago where you compete against players from around the world.⚔️🏆"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "ca1690df9803a321",
+      "app_id": "57050441909c93b537000c06",
+      "network": "Facebook",
+      "phashion_group": "ca1690df9803a321",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-03",
+      "last_seen_at": "2025-12-14",
+      "creatives": [
+        {
+          "id": "ca1690df9803a321",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/5110c990c1d12507/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/5110c990c1d12507/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/5110c990c1d12507/thumb",
+          "video_duration": 26,
+          "width": 1080,
+          "height": 1080,
+          "title": "Does anyone know stayalive777?🤔❓",
+          "button_text": "Play Game",
+          "message": "Man I miss this game😭"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "b415b43085d41c10",
+      "app_id": "57050441909c93b537000c06",
+      "network": "Instagram",
+      "phashion_group": "b415b43085d41c10",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-03",
+      "last_seen_at": "2025-12-14",
+      "creatives": [
+        {
+          "id": "b415b43085d41c10",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/5110c990c1d12507/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/5110c990c1d12507/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/5110c990c1d12507/thumb",
+          "video_duration": 26,
+          "width": 1080,
+          "height": 1080,
+          "title": "Does anyone know stayalive777?🤔❓",
+          "button_text": "Play Game",
+          "message": "Man I miss this game😭"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "d8a4af4426429662",
+      "app_id": "57050441909c93b537000c06",
+      "network": "Facebook",
+      "phashion_group": "d8a4af4426429662",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-09",
+      "last_seen_at": "2025-12-11",
+      "creatives": [
+        {
+          "id": "d8a4af4426429662",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/51b7bf99e178a3e2/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/51b7bf99e178a3e2/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/51b7bf99e178a3e2/thumb",
+          "video_duration": 19,
+          "width": 1080,
+          "height": 1920,
+          "title": "🎁Gift Code: Lucky777",
+          "button_text": "Install now",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "a6a78bab3b952953",
+      "app_id": "57050441909c93b537000c06",
+      "network": "Instagram",
+      "phashion_group": "a6a78bab3b952953",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-09",
+      "last_seen_at": "2025-12-11",
+      "creatives": [
+        {
+          "id": "a6a78bab3b952953",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/51b7bf99e178a3e2/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/51b7bf99e178a3e2/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/51b7bf99e178a3e2/thumb",
+          "video_duration": 19,
+          "width": 1080,
+          "height": 1920,
+          "title": "🎁Gift Code: Lucky777",
+          "button_text": "Install now",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "2f127e83631aa568",
+      "app_id": "57050441909c93b537000c06",
+      "network": "Facebook",
+      "phashion_group": "2f127e83631aa568",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-05",
+      "last_seen_at": "2025-12-08",
+      "creatives": [
+        {
+          "id": "2f127e83631aa568",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/532ae70c3992a599/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/532ae70c3992a599/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/532ae70c3992a599/thumb",
+          "video_duration": 19,
+          "width": 1080,
+          "height": 1080,
+          "title": "Does anyone know stayalive777?🤔❓",
+          "button_text": "Play Game",
+          "message": "Is this the real gameplay？"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "51115a6c7ecd1a59",
+      "app_id": "57050441909c93b537000c06",
+      "network": "Instagram",
+      "phashion_group": "51115a6c7ecd1a59",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-05",
+      "last_seen_at": "2025-12-08",
+      "creatives": [
+        {
+          "id": "51115a6c7ecd1a59",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/532ae70c3992a599/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/532ae70c3992a599/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/532ae70c3992a599/thumb",
+          "video_duration": 19,
+          "width": 1080,
+          "height": 1080,
+          "title": "Does anyone know stayalive777?🤔❓",
+          "button_text": "Play Game",
+          "message": "Is this the real gameplay？"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "c88c7b294353ceed",
+      "app_id": "57050441909c93b537000c06",
+      "network": "Facebook",
+      "phashion_group": "c88c7b294353ceed",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-11",
+      "last_seen_at": "2025-12-14",
+      "creatives": [
+        {
+          "id": "c88c7b294353ceed",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/538a22661a8148cb/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/538a22661a8148cb/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/538a22661a8148cb/thumb",
+          "video_duration": 18,
+          "width": 1080,
+          "height": 1080,
+          "title": "Does anyone know stayalive777?🤔❓",
+          "button_text": "Play Game",
+          "message": "Man I miss this game😭"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "b68f5fc65e8471dc",
+      "app_id": "57050441909c93b537000c06",
+      "network": "Instagram",
+      "phashion_group": "b68f5fc65e8471dc",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-11",
+      "last_seen_at": "2025-12-14",
+      "creatives": [
+        {
+          "id": "b68f5fc65e8471dc",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/538a22661a8148cb/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/538a22661a8148cb/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/538a22661a8148cb/thumb",
+          "video_duration": 18,
+          "width": 1080,
+          "height": 1080,
+          "title": "Does anyone know stayalive777?🤔❓",
+          "button_text": "Play Game",
+          "message": "Man I miss this game😭"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "11ecefd97ff46c84",
+      "app_id": "57050441909c93b537000c06",
+      "network": "Facebook",
+      "phashion_group": "11ecefd97ff46c84",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-25",
+      "last_seen_at": "2025-12-10",
+      "creatives": [
+        {
+          "id": "11ecefd97ff46c84",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/55bfb766bf09f20b/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/55bfb766bf09f20b/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/55bfb766bf09f20b/thumb",
+          "video_duration": 19,
+          "width": 1080,
+          "height": 1080,
+          "title": "I run an alliance in Kingdom 205\nPlease join if you are interested🙏🙏🙏",
+          "button_text": "Play Game",
+          "message": "I played this fun game a few years ago where you compete against players from around the world.⚔️🏆"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "6fefcb366223d3b5",
+      "app_id": "57050441909c93b537000c06",
+      "network": "Instagram",
+      "phashion_group": "6fefcb366223d3b5",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-25",
+      "last_seen_at": "2025-12-10",
+      "creatives": [
+        {
+          "id": "6fefcb366223d3b5",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/55bfb766bf09f20b/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/55bfb766bf09f20b/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/55bfb766bf09f20b/thumb",
+          "video_duration": 19,
+          "width": 1080,
+          "height": 1080,
+          "title": "I run an alliance in Kingdom 205\nPlease join if you are interested🙏🙏🙏",
+          "button_text": "Play Game",
+          "message": "I played this fun game a few years ago where you compete against players from around the world.⚔️🏆"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    }
+  ]
+}

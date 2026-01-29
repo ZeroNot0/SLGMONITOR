@@ -1,0 +1,4033 @@
+{
+  "count": 262,
+  "available_networks": [
+    "Facebook",
+    "Instagram",
+    "Meta Audience Network",
+    "TikTok"
+  ],
+  "ad_units": [
+    {
+      "id": "13f58dd6fb8975ed",
+      "app_id": "65b9a5ceb3ae2704dac855ea",
+      "network": "TikTok",
+      "phashion_group": "13f58dd6fb8975ed",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-09",
+      "last_seen_at": "2025-12-20",
+      "creatives": [
+        {
+          "id": "13f58dd6fb8975ed",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/004ad6c331e959b4/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/004ad6c331e959b4/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/004ad6c331e959b4/thumb",
+          "video_duration": 75,
+          "width": 720,
+          "height": 1280,
+          "message": "Just flick and kill the enemy!"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "807832bacb734f2e",
+      "app_id": "65b9a5ceb3ae2704dac855ea",
+      "network": "TikTok",
+      "phashion_group": "807832bacb734f2e",
+      "ad_type": "video",
+      "first_seen_at": "2024-02-02",
+      "last_seen_at": "2026-01-21",
+      "creatives": [
+        {
+          "id": "807832bacb734f2e",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/00a63f4898f2cfbf/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/00a63f4898f2cfbf/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/00a63f4898f2cfbf/thumb",
+          "video_duration": 28,
+          "width": 720,
+          "height": 1280,
+          "message": "How many levels can you pass?"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "a7bc18c6fcbccd29",
+      "app_id": "65b9a5ceb3ae2704dac855ea",
+      "network": "TikTok",
+      "phashion_group": "a7bc18c6fcbccd29",
+      "ad_type": "video",
+      "first_seen_at": "2024-02-22",
+      "last_seen_at": "2026-01-12",
+      "creatives": [
+        {
+          "id": "a7bc18c6fcbccd29",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/014b99cf0323e5a1/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/014b99cf0323e5a1/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/014b99cf0323e5a1/thumb",
+          "video_duration": 29,
+          "width": 720,
+          "height": 1280,
+          "message": "How many levels can you pass?"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "5e1af81d43324a54",
+      "app_id": "65b9a5ceb3ae2704dac855ea",
+      "network": "TikTok",
+      "phashion_group": "5e1af81d43324a54",
+      "ad_type": "video",
+      "first_seen_at": "2024-03-04",
+      "last_seen_at": "2026-01-27",
+      "creatives": [
+        {
+          "id": "5e1af81d43324a54",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/01da13f5386cadc3/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/01da13f5386cadc3/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/01da13f5386cadc3/thumb",
+          "video_duration": 34,
+          "width": 720,
+          "height": 1280,
+          "message": "How many levels can you pass?"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "9f0b21f0cacb6a00",
+      "app_id": "65b9a5ceb3ae2704dac855ea",
+      "network": "TikTok",
+      "phashion_group": "9f0b21f0cacb6a00",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-03",
+      "last_seen_at": "2025-12-10",
+      "creatives": [
+        {
+          "id": "9f0b21f0cacb6a00",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/02ec60f49acd802e/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/02ec60f49acd802e/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/02ec60f49acd802e/thumb",
+          "video_duration": 23,
+          "width": 720,
+          "height": 1280,
+          "message": "คุณสามารถผ่านได้กี่ระดับ?"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "9cb81ee58106213b",
+      "app_id": "65b9a5ceb3ae2704dac855ea",
+      "network": "TikTok",
+      "phashion_group": "9cb81ee58106213b",
+      "ad_type": "video",
+      "first_seen_at": "2025-04-03",
+      "last_seen_at": "2026-01-06",
+      "creatives": [
+        {
+          "id": "9cb81ee58106213b",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/045e21b4804e0cf3/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/045e21b4804e0cf3/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/045e21b4804e0cf3/thumb",
+          "video_duration": 20,
+          "width": 720,
+          "height": 1280,
+          "message": "How many levels can you pass?"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "747846465e4d7adb",
+      "app_id": "65b9a5ceb3ae2704dac855ea",
+      "network": "TikTok",
+      "phashion_group": "747846465e4d7adb",
+      "ad_type": "video",
+      "first_seen_at": "2025-09-01",
+      "last_seen_at": "2026-01-14",
+      "creatives": [
+        {
+          "id": "747846465e4d7adb",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/05a0b20de85aaac4/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/05a0b20de85aaac4/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/05a0b20de85aaac4/thumb",
+          "video_duration": 42,
+          "width": 720,
+          "height": 1280,
+          "message": "How many levels can you pass?"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "e94cc8c703051275",
+      "app_id": "65b9a5ceb3ae2704dac855ea",
+      "network": "TikTok",
+      "phashion_group": "e94cc8c703051275",
+      "ad_type": "video",
+      "first_seen_at": "2025-02-11",
+      "last_seen_at": "2026-01-15",
+      "creatives": [
+        {
+          "id": "e94cc8c703051275",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0975b597aa0b2dd3/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0975b597aa0b2dd3/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0975b597aa0b2dd3/thumb",
+          "video_duration": 35,
+          "width": 720,
+          "height": 1280,
+          "message": "How many levels can you pass?"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "8fd36e07b08114cb",
+      "app_id": "65b9a5ceb3ae2704dac855ea",
+      "network": "TikTok",
+      "phashion_group": "8fd36e07b08114cb",
+      "ad_type": "video",
+      "first_seen_at": "2024-03-01",
+      "last_seen_at": "2026-01-14",
+      "creatives": [
+        {
+          "id": "8fd36e07b08114cb",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0a0a4f4dd4028973/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0a0a4f4dd4028973/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0a0a4f4dd4028973/thumb",
+          "video_duration": 17,
+          "width": 720,
+          "height": 1280,
+          "message": "How many levels can you pass?"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "978fdfd682e0cd47",
+      "app_id": "65b9a5ceb3ae2704dac855ea",
+      "network": "TikTok",
+      "phashion_group": "978fdfd682e0cd47",
+      "ad_type": "video",
+      "first_seen_at": "2024-02-19",
+      "last_seen_at": "2026-01-12",
+      "creatives": [
+        {
+          "id": "978fdfd682e0cd47",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0a689ed2d2e62769/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0a689ed2d2e62769/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0a689ed2d2e62769/thumb",
+          "video_duration": 26,
+          "width": 720,
+          "height": 1280,
+          "message": "คุณสามารถผ่านได้กี่ระดับ?"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "ba5c75060644c635",
+      "app_id": "65b9a5ceb3ae2704dac855ea",
+      "network": "TikTok",
+      "phashion_group": "ba5c75060644c635",
+      "ad_type": "video",
+      "first_seen_at": "2025-10-06",
+      "last_seen_at": "2026-01-10",
+      "creatives": [
+        {
+          "id": "ba5c75060644c635",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0aaa193701912af6/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0aaa193701912af6/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0aaa193701912af6/thumb",
+          "video_duration": 55,
+          "width": 720,
+          "height": 1280,
+          "message": "Draw a line to save the dog!"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "867f2ef90fe78174",
+      "app_id": "65b9a5ceb3ae2704dac855ea",
+      "network": "TikTok",
+      "phashion_group": "867f2ef90fe78174",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-08",
+      "last_seen_at": "2025-12-27",
+      "creatives": [
+        {
+          "id": "867f2ef90fe78174",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0ac1f8da9288f931/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0ac1f8da9288f931/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0ac1f8da9288f931/thumb",
+          "video_duration": 57,
+          "width": 720,
+          "height": 1280,
+          "message": "The Attacks are Insane!Can you Survive 10 Levels?"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "6fc6f526a7ea02ea",
+      "app_id": "65b9a5ceb3ae2704dac855ea",
+      "network": "TikTok",
+      "phashion_group": "6fc6f526a7ea02ea",
+      "ad_type": "video",
+      "first_seen_at": "2025-02-08",
+      "last_seen_at": "2026-01-28",
+      "creatives": [
+        {
+          "id": "6fc6f526a7ea02ea",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0b36b2739ba14a2b/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0b36b2739ba14a2b/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0b36b2739ba14a2b/thumb",
+          "video_duration": 24,
+          "width": 720,
+          "height": 1280,
+          "message": "How many levels can you pass?"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "7ada4cf1b0bdd490",
+      "app_id": "65b9a5ceb3ae2704dac855ea",
+      "network": "TikTok",
+      "phashion_group": "7ada4cf1b0bdd490",
+      "ad_type": "video",
+      "first_seen_at": "2025-06-10",
+      "last_seen_at": "2026-01-08",
+      "creatives": [
+        {
+          "id": "7ada4cf1b0bdd490",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0c1bde85449dc347/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0c1bde85449dc347/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0c1bde85449dc347/thumb",
+          "video_duration": 22,
+          "width": 720,
+          "height": 1280,
+          "message": "How many levels can you pass?"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "da1dcc37fc8da8af",
+      "app_id": "65b9a5ceb3ae2704dac855ea",
+      "network": "TikTok",
+      "phashion_group": "da1dcc37fc8da8af",
+      "ad_type": "video",
+      "first_seen_at": "2025-02-13",
+      "last_seen_at": "2025-12-27",
+      "creatives": [
+        {
+          "id": "da1dcc37fc8da8af",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0c33287c32065b0c/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0c33287c32065b0c/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0c33287c32065b0c/thumb",
+          "video_duration": 35,
+          "width": 720,
+          "height": 1280,
+          "message": "Berapa banyak level yang bisa Anda lewati?"
+        },
+        {
+          "id": "ec0a552c9b0864aa",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0c33287c32065b0c/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0c33287c32065b0c/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0c33287c32065b0c/thumb",
+          "video_duration": 35,
+          "width": 720,
+          "height": 1280,
+          "message": "How many levels can you pass?"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "48e7f96e9a73ccc5",
+      "app_id": "65b9a5ceb3ae2704dac855ea",
+      "network": "TikTok",
+      "phashion_group": "48e7f96e9a73ccc5",
+      "ad_type": "video",
+      "first_seen_at": "2024-02-04",
+      "last_seen_at": "2026-01-10",
+      "creatives": [
+        {
+          "id": "48e7f96e9a73ccc5",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0eed168caa11dc23/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0eed168caa11dc23/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0eed168caa11dc23/thumb",
+          "video_duration": 30,
+          "width": 1080,
+          "height": 1920,
+          "message": "Bored? Come and join it!!"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "7916ea6aa1142178",
+      "app_id": "65b9a5ceb3ae2704dac855ea",
+      "network": "TikTok",
+      "phashion_group": "7916ea6aa1142178",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-29",
+      "last_seen_at": "2026-01-17",
+      "creatives": [
+        {
+          "id": "7916ea6aa1142178",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0f20fe1dcc9be8d1/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0f20fe1dcc9be8d1/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0f20fe1dcc9be8d1/thumb",
+          "video_duration": 59,
+          "width": 720,
+          "height": 1280,
+          "message": "Ready for the challenge? Survive ten levels!"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "ef000df04ff662be",
+      "app_id": "65b9a5ceb3ae2704dac855ea",
+      "network": "TikTok",
+      "phashion_group": "ef000df04ff662be",
+      "ad_type": "video",
+      "first_seen_at": "2025-07-05",
+      "last_seen_at": "2026-01-24",
+      "creatives": [
+        {
+          "id": "ef000df04ff662be",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0f3970a0e6f85d18/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0f3970a0e6f85d18/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0f3970a0e6f85d18/thumb",
+          "video_duration": 59,
+          "width": 720,
+          "height": 1280,
+          "message": "How many levels can you pass?"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "661673f9e9dd2d26",
+      "app_id": "65b9a5ceb3ae2704dac855ea",
+      "network": "TikTok",
+      "phashion_group": "661673f9e9dd2d26",
+      "ad_type": "video",
+      "first_seen_at": "2024-01-23",
+      "last_seen_at": "2025-12-20",
+      "creatives": [
+        {
+          "id": "661673f9e9dd2d26",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/12326f38f83089d8/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/12326f38f83089d8/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/12326f38f83089d8/thumb",
+          "video_duration": 24,
+          "width": 720,
+          "height": 1280,
+          "message": "Wie viele Level braucht man, um zu bestehen?"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "77b36ce79758f644",
+      "app_id": "65b9a5ceb3ae2704dac855ea",
+      "network": "TikTok",
+      "phashion_group": "77b36ce79758f644",
+      "ad_type": "video",
+      "first_seen_at": "2025-01-09",
+      "last_seen_at": "2026-01-17",
+      "creatives": [
+        {
+          "id": "77b36ce79758f644",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/13432bb2ab13be85/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/13432bb2ab13be85/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/13432bb2ab13be85/thumb",
+          "video_duration": 15,
+          "width": 576,
+          "height": 1024,
+          "message": "How many levels can you pass?"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "576x1024",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "f38fb0619e3f4f66",
+      "app_id": "65b9a5ceb3ae2704dac855ea",
+      "network": "TikTok",
+      "phashion_group": "f38fb0619e3f4f66",
+      "ad_type": "video",
+      "first_seen_at": "2025-02-11",
+      "last_seen_at": "2025-12-19",
+      "creatives": [
+        {
+          "id": "f38fb0619e3f4f66",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/13b6cd31373170c0/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/13b6cd31373170c0/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/13b6cd31373170c0/thumb",
+          "video_duration": 42,
+          "width": 720,
+          "height": 1280,
+          "message": "How many levels can you pass?"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "a47401a14300eba6",
+      "app_id": "65b9a5ceb3ae2704dac855ea",
+      "network": "TikTok",
+      "phashion_group": "a47401a14300eba6",
+      "ad_type": "video",
+      "first_seen_at": "2025-10-15",
+      "last_seen_at": "2026-01-16",
+      "creatives": [
+        {
+          "id": "a47401a14300eba6",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/14826d9044d50765/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/14826d9044d50765/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/14826d9044d50765/thumb",
+          "video_duration": 28,
+          "width": 720,
+          "height": 1280,
+          "message": "Draw a line to save the dog!"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "d635cdc7afcb1766",
+      "app_id": "65b9a5ceb3ae2704dac855ea",
+      "network": "TikTok",
+      "phashion_group": "d635cdc7afcb1766",
+      "ad_type": "video",
+      "first_seen_at": "2024-01-09",
+      "last_seen_at": "2026-01-15",
+      "creatives": [
+        {
+          "id": "d635cdc7afcb1766",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/14ce9633b542b1cb/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/14ce9633b542b1cb/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/14ce9633b542b1cb/thumb",
+          "video_duration": 18,
+          "width": 720,
+          "height": 1280,
+          "message": "How many levels can you pass?"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "f81ef6673910f7c3",
+      "app_id": "65b9a5ceb3ae2704dac855ea",
+      "network": "TikTok",
+      "phashion_group": "f81ef6673910f7c3",
+      "ad_type": "video",
+      "first_seen_at": "2025-05-15",
+      "last_seen_at": "2026-01-14",
+      "creatives": [
+        {
+          "id": "f81ef6673910f7c3",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/16cc67da4cd5546c/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/16cc67da4cd5546c/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/16cc67da4cd5546c/thumb",
+          "video_duration": 29,
+          "width": 720,
+          "height": 1280,
+          "message": "Can you find the hidden one?"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "701be544ef859e2f",
+      "app_id": "65b9a5ceb3ae2704dac855ea",
+      "network": "TikTok",
+      "phashion_group": "701be544ef859e2f",
+      "ad_type": "video",
+      "first_seen_at": "2024-11-18",
+      "last_seen_at": "2026-01-19",
+      "creatives": [
+        {
+          "id": "701be544ef859e2f",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/198c96a5eca57912/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/198c96a5eca57912/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/198c96a5eca57912/thumb",
+          "video_duration": 29,
+          "width": 720,
+          "height": 1280,
+          "message": "How many levels can you pass?"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "f9f5439d500dac79",
+      "app_id": "65b9a5ceb3ae2704dac855ea",
+      "network": "TikTok",
+      "phashion_group": "f9f5439d500dac79",
+      "ad_type": "video",
+      "first_seen_at": "2025-02-14",
+      "last_seen_at": "2026-01-21",
+      "creatives": [
+        {
+          "id": "f9f5439d500dac79",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/19cc3ecdf90393df/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/19cc3ecdf90393df/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/19cc3ecdf90393df/thumb",
+          "video_duration": 37,
+          "width": 720,
+          "height": 1280,
+          "message": "How many levels can you pass?"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "f29044fc95135d31",
+      "app_id": "65b9a5ceb3ae2704dac855ea",
+      "network": "TikTok",
+      "phashion_group": "f29044fc95135d31",
+      "ad_type": "video",
+      "first_seen_at": "2025-04-22",
+      "last_seen_at": "2026-01-26",
+      "creatives": [
+        {
+          "id": "f29044fc95135d31",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1a2481e73c7f3572/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1a2481e73c7f3572/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1a2481e73c7f3572/thumb",
+          "video_duration": 35,
+          "width": 720,
+          "height": 1280,
+          "message": "Berapa level yang bisa Anda lewati?"
+        },
+        {
+          "id": "fa1dfcb795710ad4",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1a2481e73c7f3572/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1a2481e73c7f3572/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1a2481e73c7f3572/thumb",
+          "video_duration": 35,
+          "width": 720,
+          "height": 1280,
+          "message": "How many levels can you pass?"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "9df3ad266a21447a",
+      "app_id": "65b9a5ceb3ae2704dac855ea",
+      "network": "TikTok",
+      "phashion_group": "9df3ad266a21447a",
+      "ad_type": "video",
+      "first_seen_at": "2024-03-30",
+      "last_seen_at": "2025-12-20",
+      "creatives": [
+        {
+          "id": "9df3ad266a21447a",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1b1a384724e81b70/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1b1a384724e81b70/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1b1a384724e81b70/thumb",
+          "video_duration": 59,
+          "width": 720,
+          "height": 1280,
+          "message": "How many levels can you pass?"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "abb249525e7a5b63",
+      "app_id": "65b9a5ceb3ae2704dac855ea",
+      "network": "TikTok",
+      "phashion_group": "abb249525e7a5b63",
+      "ad_type": "video",
+      "first_seen_at": "2025-09-24",
+      "last_seen_at": "2026-01-24",
+      "creatives": [
+        {
+          "id": "abb249525e7a5b63",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1b44256359afb7a0/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1b44256359afb7a0/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1b44256359afb7a0/thumb",
+          "video_duration": 28,
+          "width": 720,
+          "height": 1280,
+          "message": "Draw a line to save the dog!"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "fbea41ff48129617",
+      "app_id": "65b9a5ceb3ae2704dac855ea",
+      "network": "TikTok",
+      "phashion_group": "fbea41ff48129617",
+      "ad_type": "video",
+      "first_seen_at": "2025-06-20",
+      "last_seen_at": "2026-01-23",
+      "creatives": [
+        {
+          "id": "fbea41ff48129617",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1bd33cafe11ca9b1/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1bd33cafe11ca9b1/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1bd33cafe11ca9b1/thumb",
+          "video_duration": 40,
+          "width": 720,
+          "height": 1280,
+          "message": "How many levels can you pass?"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "6342efbf66aee25c",
+      "app_id": "65b9a5ceb3ae2704dac855ea",
+      "network": "TikTok",
+      "phashion_group": "6342efbf66aee25c",
+      "ad_type": "video",
+      "first_seen_at": "2025-02-01",
+      "last_seen_at": "2025-12-24",
+      "creatives": [
+        {
+          "id": "6342efbf66aee25c",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1e0a12aaef424fc5/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1e0a12aaef424fc5/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1e0a12aaef424fc5/thumb",
+          "video_duration": 39,
+          "width": 720,
+          "height": 1280,
+          "message": "How many levels can you pass?"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "983a71837861dfab",
+      "app_id": "65b9a5ceb3ae2704dac855ea",
+      "network": "TikTok",
+      "phashion_group": "983a71837861dfab",
+      "ad_type": "video",
+      "first_seen_at": "2025-02-05",
+      "last_seen_at": "2026-01-25",
+      "creatives": [
+        {
+          "id": "983a71837861dfab",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1ed3e4e236a880a1/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1ed3e4e236a880a1/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1ed3e4e236a880a1/thumb",
+          "video_duration": 22,
+          "width": 720,
+          "height": 1280,
+          "message": "How many levels can you pass?"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "ff925fc151e269f5",
+      "app_id": "65b9a5ceb3ae2704dac855ea",
+      "network": "TikTok",
+      "phashion_group": "ff925fc151e269f5",
+      "ad_type": "video",
+      "first_seen_at": "2025-02-12",
+      "last_seen_at": "2025-12-27",
+      "creatives": [
+        {
+          "id": "ff925fc151e269f5",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1fab2291f8ec5653/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1fab2291f8ec5653/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1fab2291f8ec5653/thumb",
+          "video_duration": 39,
+          "width": 720,
+          "height": 1280,
+          "message": "How many levels can you pass?"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "006931693a0f902c",
+      "app_id": "65b9a5ceb3ae2704dac855ea",
+      "network": "TikTok",
+      "phashion_group": "006931693a0f902c",
+      "ad_type": "video",
+      "first_seen_at": "2024-03-01",
+      "last_seen_at": "2026-01-24",
+      "creatives": [
+        {
+          "id": "006931693a0f902c",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/208bb8a95204214a/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/208bb8a95204214a/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/208bb8a95204214a/thumb",
+          "video_duration": 24,
+          "width": 720,
+          "height": 1280,
+          "message": "How many levels can you pass?"
+        },
+        {
+          "id": "4b28d3bf68b08f28",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/208bb8a95204214a/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/208bb8a95204214a/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/208bb8a95204214a/thumb",
+          "video_duration": 24,
+          "width": 720,
+          "height": 1280,
+          "message": "¿Cuántos niveles puedes superar?"
+        },
+        {
+          "id": "c7b0d59b204f0403",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/208bb8a95204214a/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/208bb8a95204214a/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/208bb8a95204214a/thumb",
+          "video_duration": 24,
+          "width": 720,
+          "height": 1280,
+          "message": "Promise me, don't play this game during your work time."
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "45079b963c497a2d",
+      "app_id": "65b9a5ceb3ae2704dac855ea",
+      "network": "TikTok",
+      "phashion_group": "45079b963c497a2d",
+      "ad_type": "video",
+      "first_seen_at": "2025-01-09",
+      "last_seen_at": "2026-01-22",
+      "creatives": [
+        {
+          "id": "45079b963c497a2d",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/21f7dcc3000232ec/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/21f7dcc3000232ec/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/21f7dcc3000232ec/thumb",
+          "video_duration": 31,
+          "width": 720,
+          "height": 1280,
+          "message": "How many levels can you pass?"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "c7de46809d330273",
+      "app_id": "65b9a5ceb3ae2704dac855ea",
+      "network": "TikTok",
+      "phashion_group": "c7de46809d330273",
+      "ad_type": "video",
+      "first_seen_at": "2025-06-09",
+      "last_seen_at": "2026-01-22",
+      "creatives": [
+        {
+          "id": "c7de46809d330273",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/222e77917db25c2c/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/222e77917db25c2c/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/222e77917db25c2c/thumb",
+          "video_duration": 22,
+          "width": 720,
+          "height": 1280,
+          "message": "How many levels can you pass?"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "c726573e6d5f6fb0",
+      "app_id": "65b9a5ceb3ae2704dac855ea",
+      "network": "TikTok",
+      "phashion_group": "c726573e6d5f6fb0",
+      "ad_type": "video",
+      "first_seen_at": "2025-06-09",
+      "last_seen_at": "2026-01-20",
+      "creatives": [
+        {
+          "id": "c726573e6d5f6fb0",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/22d6662f8dde31ef/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/22d6662f8dde31ef/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/22d6662f8dde31ef/thumb",
+          "video_duration": 26,
+          "width": 720,
+          "height": 1280,
+          "message": "How many levels can you pass?"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "85e56a3ac55b9418",
+      "app_id": "65b9a5ceb3ae2704dac855ea",
+      "network": "TikTok",
+      "phashion_group": "85e56a3ac55b9418",
+      "ad_type": "video",
+      "first_seen_at": "2025-01-09",
+      "last_seen_at": "2026-01-27",
+      "creatives": [
+        {
+          "id": "85e56a3ac55b9418",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2312eb333ac4bc90/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2312eb333ac4bc90/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2312eb333ac4bc90/thumb",
+          "video_duration": 27,
+          "width": 720,
+          "height": 1280,
+          "message": "How many levels can you pass?"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "c43cfac3b043b57b",
+      "app_id": "65b9a5ceb3ae2704dac855ea",
+      "network": "TikTok",
+      "phashion_group": "c43cfac3b043b57b",
+      "ad_type": "video",
+      "first_seen_at": "2025-05-22",
+      "last_seen_at": "2026-01-09",
+      "creatives": [
+        {
+          "id": "c43cfac3b043b57b",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/24058793194d8add/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/24058793194d8add/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/24058793194d8add/thumb",
+          "video_duration": 26,
+          "width": 720,
+          "height": 1280,
+          "message": "How many levels can you pass?"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "a616c8c4ad1fb667",
+      "app_id": "65b9a5ceb3ae2704dac855ea",
+      "network": "TikTok",
+      "phashion_group": "a616c8c4ad1fb667",
+      "ad_type": "video",
+      "first_seen_at": "2024-11-09",
+      "last_seen_at": "2026-01-13",
+      "creatives": [
+        {
+          "id": "a616c8c4ad1fb667",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/24ac965ac70bd1d7/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/24ac965ac70bd1d7/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/24ac965ac70bd1d7/thumb",
+          "video_duration": 39,
+          "width": 720,
+          "height": 1280,
+          "message": "How many levels can you pass?"
+        },
+        {
+          "id": "c25965c3b698dc96",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/24ac965ac70bd1d7/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/24ac965ac70bd1d7/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/24ac965ac70bd1d7/thumb",
+          "video_duration": 39,
+          "width": 720,
+          "height": 1280,
+          "message": "Harder than you think!"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "5520b2292d63a576",
+      "app_id": "65b9a5ceb3ae2704dac855ea",
+      "network": "TikTok",
+      "phashion_group": "5520b2292d63a576",
+      "ad_type": "video",
+      "first_seen_at": "2025-08-30",
+      "last_seen_at": "2025-12-10",
+      "creatives": [
+        {
+          "id": "5520b2292d63a576",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/24f846629b747569/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/24f846629b747569/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/24f846629b747569/thumb",
+          "video_duration": 57,
+          "width": 720,
+          "height": 1280,
+          "message": "How many levels can you pass?"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "c530f8b60e71aaf0",
+      "app_id": "65b9a5ceb3ae2704dac855ea",
+      "network": "TikTok",
+      "phashion_group": "c530f8b60e71aaf0",
+      "ad_type": "video",
+      "first_seen_at": "2025-04-28",
+      "last_seen_at": "2026-01-28",
+      "creatives": [
+        {
+          "id": "c530f8b60e71aaf0",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/250985e6a77f9556/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/250985e6a77f9556/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/250985e6a77f9556/thumb",
+          "video_duration": 47,
+          "width": 720,
+          "height": 1280,
+          "message": "How many levels can you pass?"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "965d257e9a326343",
+      "app_id": "65b9a5ceb3ae2704dac855ea",
+      "network": "TikTok",
+      "phashion_group": "965d257e9a326343",
+      "ad_type": "video",
+      "first_seen_at": "2025-10-14",
+      "last_seen_at": "2026-01-23",
+      "creatives": [
+        {
+          "id": "965d257e9a326343",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/26ab494f9de78f80/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/26ab494f9de78f80/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/26ab494f9de78f80/thumb",
+          "video_duration": 53,
+          "width": 720,
+          "height": 1280,
+          "message": "Draw a line to save the dog!"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "599be036c2b4779e",
+      "app_id": "65b9a5ceb3ae2704dac855ea",
+      "network": "TikTok",
+      "phashion_group": "599be036c2b4779e",
+      "ad_type": "video",
+      "first_seen_at": "2025-09-11",
+      "last_seen_at": "2026-01-28",
+      "creatives": [
+        {
+          "id": "599be036c2b4779e",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2843147d74a3a781/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2843147d74a3a781/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2843147d74a3a781/thumb",
+          "video_duration": 59,
+          "width": 720,
+          "height": 1280,
+          "message": "How many levels can you pass?"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "eba41d751f8cd395",
+      "app_id": "65b9a5ceb3ae2704dac855ea",
+      "network": "TikTok",
+      "phashion_group": "eba41d751f8cd395",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-08",
+      "last_seen_at": "2025-12-11",
+      "creatives": [
+        {
+          "id": "eba41d751f8cd395",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/29af4d83e0917130/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/29af4d83e0917130/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/29af4d83e0917130/thumb",
+          "video_duration": 70,
+          "width": 1080,
+          "height": 1920,
+          "message": "The Attacks are Insane!Can you Survive 10 levels?"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "8753678f2685d936",
+      "app_id": "65b9a5ceb3ae2704dac855ea",
+      "network": "Facebook",
+      "phashion_group": "8753678f2685d936",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-13",
+      "last_seen_at": "2025-12-16",
+      "creatives": [
+        {
+          "id": "8753678f2685d936",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2c3a26f60cb543d6/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2c3a26f60cb543d6/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2c3a26f60cb543d6/thumb",
+          "video_duration": 72,
+          "width": 720,
+          "height": 1280,
+          "button_text": "Install now",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "941a430dd6599025",
+      "app_id": "65b9a5ceb3ae2704dac855ea",
+      "network": "Instagram",
+      "phashion_group": "941a430dd6599025",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-13",
+      "last_seen_at": "2025-12-16",
+      "creatives": [
+        {
+          "id": "941a430dd6599025",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2c3a26f60cb543d6/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2c3a26f60cb543d6/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2c3a26f60cb543d6/thumb",
+          "video_duration": 72,
+          "width": 720,
+          "height": 1280,
+          "button_text": "Install now",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "b5d1b4fb299dc887",
+      "app_id": "65b9a5ceb3ae2704dac855ea",
+      "network": "Meta Audience Network",
+      "phashion_group": "b5d1b4fb299dc887",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-13",
+      "last_seen_at": "2025-12-16",
+      "creatives": [
+        {
+          "id": "b5d1b4fb299dc887",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2c3a26f60cb543d6/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2c3a26f60cb543d6/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2c3a26f60cb543d6/thumb",
+          "video_duration": 72,
+          "width": 720,
+          "height": 1280,
+          "button_text": "Install now",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "5d074d4fb4b3e608",
+      "app_id": "65b9a5ceb3ae2704dac855ea",
+      "network": "TikTok",
+      "phashion_group": "5d074d4fb4b3e608",
+      "ad_type": "video",
+      "first_seen_at": "2025-02-12",
+      "last_seen_at": "2025-12-12",
+      "creatives": [
+        {
+          "id": "5d074d4fb4b3e608",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2cdfb90402a43617/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2cdfb90402a43617/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2cdfb90402a43617/thumb",
+          "video_duration": 40,
+          "width": 720,
+          "height": 1280,
+          "message": "How many levels can you pass?"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "f8237fb68987c9e9",
+      "app_id": "65b9a5ceb3ae2704dac855ea",
+      "network": "TikTok",
+      "phashion_group": "f8237fb68987c9e9",
+      "ad_type": "video",
+      "first_seen_at": "2025-03-02",
+      "last_seen_at": "2025-12-19",
+      "creatives": [
+        {
+          "id": "f8237fb68987c9e9",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2e0d9bfd470c3a4a/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2e0d9bfd470c3a4a/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2e0d9bfd470c3a4a/thumb",
+          "video_duration": 48,
+          "width": 720,
+          "height": 1280,
+          "message": "Berapa banyak level yang bisa Anda lewati?"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "d0baf51434e1dd9c",
+      "app_id": "65b9a5ceb3ae2704dac855ea",
+      "network": "TikTok",
+      "phashion_group": "d0baf51434e1dd9c",
+      "ad_type": "video",
+      "first_seen_at": "2025-05-18",
+      "last_seen_at": "2026-01-28",
+      "creatives": [
+        {
+          "id": "d0baf51434e1dd9c",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/308388449defe23a/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/308388449defe23a/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/308388449defe23a/thumb",
+          "video_duration": 43,
+          "width": 720,
+          "height": 1280,
+          "message": "How many levels can you pass?"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "39ad09327481a3aa",
+      "app_id": "65b9a5ceb3ae2704dac855ea",
+      "network": "TikTok",
+      "phashion_group": "39ad09327481a3aa",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-13",
+      "last_seen_at": "2026-01-07",
+      "creatives": [
+        {
+          "id": "39ad09327481a3aa",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/30d9c1653c30c473/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/30d9c1653c30c473/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/30d9c1653c30c473/thumb",
+          "video_duration": 25,
+          "width": 720,
+          "height": 1280,
+          "message": "Pense com calma para dominar o tabuleiro!"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "d1a841efa0d58dce",
+      "app_id": "65b9a5ceb3ae2704dac855ea",
+      "network": "TikTok",
+      "phashion_group": "d1a841efa0d58dce",
+      "ad_type": "video",
+      "first_seen_at": "2025-04-13",
+      "last_seen_at": "2026-01-23",
+      "creatives": [
+        {
+          "id": "d1a841efa0d58dce",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/31913cbf09dbb268/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/31913cbf09dbb268/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/31913cbf09dbb268/thumb",
+          "video_duration": 36,
+          "width": 720,
+          "height": 1280,
+          "message": "How many levels can you pass?"
+        },
+        {
+          "id": "e7bfd8f4c75041cb",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/31913cbf09dbb268/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/31913cbf09dbb268/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/31913cbf09dbb268/thumb",
+          "video_duration": 36,
+          "width": 720,
+          "height": 1280,
+          "message": "Berapa banyak level yang bisa Anda lewati?"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "ebd1cf42abb30330",
+      "app_id": "65b9a5ceb3ae2704dac855ea",
+      "network": "TikTok",
+      "phashion_group": "ebd1cf42abb30330",
+      "ad_type": "video",
+      "first_seen_at": "2025-07-27",
+      "last_seen_at": "2026-01-15",
+      "creatives": [
+        {
+          "id": "ebd1cf42abb30330",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3297af4dcb98b1be/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3297af4dcb98b1be/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3297af4dcb98b1be/thumb",
+          "video_duration": 32,
+          "width": 720,
+          "height": 1280,
+          "message": "How many levels can you pass?"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "8428705c1570bfb9",
+      "app_id": "65b9a5ceb3ae2704dac855ea",
+      "network": "TikTok",
+      "phashion_group": "8428705c1570bfb9",
+      "ad_type": "video",
+      "first_seen_at": "2024-02-28",
+      "last_seen_at": "2026-01-28",
+      "creatives": [
+        {
+          "id": "8428705c1570bfb9",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3354184014338c1f/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3354184014338c1f/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3354184014338c1f/thumb",
+          "video_duration": 24,
+          "width": 1080,
+          "height": 1920,
+          "message": "¿Cuántos niveles puedes pasar?"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "d35ec59ba6c6b2e1",
+      "app_id": "65b9a5ceb3ae2704dac855ea",
+      "network": "TikTok",
+      "phashion_group": "d35ec59ba6c6b2e1",
+      "ad_type": "video",
+      "first_seen_at": "2025-02-11",
+      "last_seen_at": "2025-12-20",
+      "creatives": [
+        {
+          "id": "d35ec59ba6c6b2e1",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3367b8cb0fc88d47/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3367b8cb0fc88d47/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3367b8cb0fc88d47/thumb",
+          "video_duration": 42,
+          "width": 720,
+          "height": 1280,
+          "message": "How many levels can you pass?"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "85e1d6d872acc69b",
+      "app_id": "65b9a5ceb3ae2704dac855ea",
+      "network": "TikTok",
+      "phashion_group": "85e1d6d872acc69b",
+      "ad_type": "video",
+      "first_seen_at": "2025-09-25",
+      "last_seen_at": "2026-01-28",
+      "creatives": [
+        {
+          "id": "85e1d6d872acc69b",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3517bae975792a58/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3517bae975792a58/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3517bae975792a58/thumb",
+          "video_duration": 34,
+          "width": 720,
+          "height": 1280,
+          "message": "Draw a line to save the dog!"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "ddc4f3b9513150bd",
+      "app_id": "65b9a5ceb3ae2704dac855ea",
+      "network": "TikTok",
+      "phashion_group": "ddc4f3b9513150bd",
+      "ad_type": "video",
+      "first_seen_at": "2025-03-05",
+      "last_seen_at": "2025-12-25",
+      "creatives": [
+        {
+          "id": "ddc4f3b9513150bd",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/357036a2f85d38fe/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/357036a2f85d38fe/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/357036a2f85d38fe/thumb",
+          "video_duration": 23,
+          "width": 720,
+          "height": 1280,
+          "message": "Berapa level yang bisa Anda lewati?"
+        },
+        {
+          "id": "e35ed2e936d6cb5d",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/357036a2f85d38fe/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/357036a2f85d38fe/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/357036a2f85d38fe/thumb",
+          "video_duration": 23,
+          "width": 720,
+          "height": 1280,
+          "message": "Berapa banyak level yang bisa Anda lewati?"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "178a6258dd162dbd",
+      "app_id": "65b9a5ceb3ae2704dac855ea",
+      "network": "TikTok",
+      "phashion_group": "178a6258dd162dbd",
+      "ad_type": "video",
+      "first_seen_at": "2025-02-12",
+      "last_seen_at": "2026-01-21",
+      "creatives": [
+        {
+          "id": "178a6258dd162dbd",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3b18556f39c42524/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3b18556f39c42524/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3b18556f39c42524/thumb",
+          "video_duration": 45,
+          "width": 720,
+          "height": 1280,
+          "message": "How many levels can you pass?"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "bd2666bdb7e5e157",
+      "app_id": "65b9a5ceb3ae2704dac855ea",
+      "network": "TikTok",
+      "phashion_group": "bd2666bdb7e5e157",
+      "ad_type": "video",
+      "first_seen_at": "2025-01-08",
+      "last_seen_at": "2026-01-28",
+      "creatives": [
+        {
+          "id": "bd2666bdb7e5e157",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3bcff3dcf92cbe5d/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3bcff3dcf92cbe5d/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3bcff3dcf92cbe5d/thumb",
+          "video_duration": 59,
+          "width": 720,
+          "height": 1280,
+          "message": "How many levels can you pass?"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "dcff530aec0223c0",
+      "app_id": "65b9a5ceb3ae2704dac855ea",
+      "network": "TikTok",
+      "phashion_group": "dcff530aec0223c0",
+      "ad_type": "video",
+      "first_seen_at": "2025-05-18",
+      "last_seen_at": "2026-01-09",
+      "creatives": [
+        {
+          "id": "dcff530aec0223c0",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3cc62e5a450c1c66/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3cc62e5a450c1c66/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3cc62e5a450c1c66/thumb",
+          "video_duration": 45,
+          "width": 720,
+          "height": 1280,
+          "message": "How many levels can you pass?"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "1d9d109020ca6bd2",
+      "app_id": "65b9a5ceb3ae2704dac855ea",
+      "network": "TikTok",
+      "phashion_group": "1d9d109020ca6bd2",
+      "ad_type": "video",
+      "first_seen_at": "2024-03-01",
+      "last_seen_at": "2026-01-22",
+      "creatives": [
+        {
+          "id": "1d9d109020ca6bd2",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3d7f995048c1dab4/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3d7f995048c1dab4/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3d7f995048c1dab4/thumb",
+          "video_duration": 15,
+          "width": 576,
+          "height": 1024,
+          "message": "How many levels can you pass?"
+        },
+        {
+          "id": "56dcf246727574d6",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3d7f995048c1dab4/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3d7f995048c1dab4/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3d7f995048c1dab4/thumb",
+          "video_duration": 15,
+          "width": 576,
+          "height": 1024,
+          "message": "¿Cuántos niveles puedes superar?"
+        },
+        {
+          "id": "da44f4623a8afffd",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3d7f995048c1dab4/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3d7f995048c1dab4/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3d7f995048c1dab4/thumb",
+          "video_duration": 15,
+          "width": 576,
+          "height": 1024,
+          "message": "Promise me, don't play this game during your work time."
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "576x1024",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "9542b7a109258637",
+      "app_id": "65b9a5ceb3ae2704dac855ea",
+      "network": "Facebook",
+      "phashion_group": "9542b7a109258637",
+      "ad_type": "video",
+      "first_seen_at": "2025-10-23",
+      "last_seen_at": "2025-12-18",
+      "creatives": [
+        {
+          "id": "9542b7a109258637",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3e2bf6d823151cd7/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3e2bf6d823151cd7/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3e2bf6d823151cd7/thumb",
+          "video_duration": 57,
+          "width": 720,
+          "height": 1280,
+          "button_text": "Install now",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "860b9323f9f9cf24",
+      "app_id": "65b9a5ceb3ae2704dac855ea",
+      "network": "Instagram",
+      "phashion_group": "860b9323f9f9cf24",
+      "ad_type": "video",
+      "first_seen_at": "2025-10-23",
+      "last_seen_at": "2025-12-18",
+      "creatives": [
+        {
+          "id": "860b9323f9f9cf24",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3e2bf6d823151cd7/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3e2bf6d823151cd7/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3e2bf6d823151cd7/thumb",
+          "video_duration": 57,
+          "width": 720,
+          "height": 1280,
+          "button_text": "Install now",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "a7c064d5063d9786",
+      "app_id": "65b9a5ceb3ae2704dac855ea",
+      "network": "Meta Audience Network",
+      "phashion_group": "a7c064d5063d9786",
+      "ad_type": "video",
+      "first_seen_at": "2025-10-23",
+      "last_seen_at": "2025-12-18",
+      "creatives": [
+        {
+          "id": "a7c064d5063d9786",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3e2bf6d823151cd7/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3e2bf6d823151cd7/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3e2bf6d823151cd7/thumb",
+          "video_duration": 57,
+          "width": 720,
+          "height": 1280,
+          "button_text": "Install now",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "b86c4dbfa144044f",
+      "app_id": "65b9a5ceb3ae2704dac855ea",
+      "network": "TikTok",
+      "phashion_group": "b86c4dbfa144044f",
+      "ad_type": "video",
+      "first_seen_at": "2025-01-09",
+      "last_seen_at": "2025-12-27",
+      "creatives": [
+        {
+          "id": "b86c4dbfa144044f",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3e85d8deef8d5b45/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3e85d8deef8d5b45/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3e85d8deef8d5b45/thumb",
+          "video_duration": 27,
+          "width": 720,
+          "height": 1280,
+          "message": "How many levels can you pass?"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "debe6d2589363da3",
+      "app_id": "65b9a5ceb3ae2704dac855ea",
+      "network": "TikTok",
+      "phashion_group": "debe6d2589363da3",
+      "ad_type": "video",
+      "first_seen_at": "2025-04-10",
+      "last_seen_at": "2026-01-28",
+      "creatives": [
+        {
+          "id": "debe6d2589363da3",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3e87107520380205/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3e87107520380205/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3e87107520380205/thumb",
+          "video_duration": 35,
+          "width": 720,
+          "height": 1280,
+          "message": "How many levels can you pass?"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "34377f3807528b19",
+      "app_id": "65b9a5ceb3ae2704dac855ea",
+      "network": "TikTok",
+      "phashion_group": "34377f3807528b19",
+      "ad_type": "video",
+      "first_seen_at": "2024-02-26",
+      "last_seen_at": "2026-01-24",
+      "creatives": [
+        {
+          "id": "34377f3807528b19",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3f2124a318d4acbb/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3f2124a318d4acbb/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3f2124a318d4acbb/thumb",
+          "video_duration": 18,
+          "width": 720,
+          "height": 1280,
+          "message": "Combien de niveaux pouvez-vous passer ?"
+        },
+        {
+          "id": "60e1cf4b638a4b2c",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3f2124a318d4acbb/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3f2124a318d4acbb/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3f2124a318d4acbb/thumb",
+          "video_duration": 18,
+          "width": 720,
+          "height": 1280,
+          "message": "How many levels can you pass?"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "aa476be62f95e45a",
+      "app_id": "65b9a5ceb3ae2704dac855ea",
+      "network": "TikTok",
+      "phashion_group": "aa476be62f95e45a",
+      "ad_type": "video",
+      "first_seen_at": "2024-03-24",
+      "last_seen_at": "2026-01-26",
+      "creatives": [
+        {
+          "id": "aa476be62f95e45a",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3f643357560ffad3/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3f643357560ffad3/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3f643357560ffad3/thumb",
+          "video_duration": 18,
+          "width": 720,
+          "height": 1280,
+          "message": "Wie viele Level kannst du bestehen?"
+        },
+        {
+          "id": "b98da63618c6a5d9",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3f643357560ffad3/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3f643357560ffad3/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3f643357560ffad3/thumb",
+          "video_duration": 18,
+          "width": 720,
+          "height": 1280,
+          "message": "How many levels can you pass?"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "f22a9a961296a819",
+      "app_id": "65b9a5ceb3ae2704dac855ea",
+      "network": "TikTok",
+      "phashion_group": "f22a9a961296a819",
+      "ad_type": "video",
+      "first_seen_at": "2025-09-22",
+      "last_seen_at": "2026-01-21",
+      "creatives": [
+        {
+          "id": "f22a9a961296a819",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/42dcf6a7154344da/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/42dcf6a7154344da/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/42dcf6a7154344da/thumb",
+          "video_duration": 48,
+          "width": 720,
+          "height": 1280,
+          "message": "Draw a line to save the dog!"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "28870bc4104c1a5e",
+      "app_id": "65b9a5ceb3ae2704dac855ea",
+      "network": "TikTok",
+      "phashion_group": "28870bc4104c1a5e",
+      "ad_type": "video",
+      "first_seen_at": "2024-02-28",
+      "last_seen_at": "2026-01-24",
+      "creatives": [
+        {
+          "id": "28870bc4104c1a5e",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/432460d22af8b43c/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/432460d22af8b43c/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/432460d22af8b43c/thumb",
+          "video_duration": 17,
+          "width": 720,
+          "height": 1280,
+          "message": "¿Cuántos niveles puedes superar?"
+        },
+        {
+          "id": "63c6e91242f3055a",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/432460d22af8b43c/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/432460d22af8b43c/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/432460d22af8b43c/thumb",
+          "video_duration": 17,
+          "width": 720,
+          "height": 1280,
+          "message": "How many levels can you pass?"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "208874601c8cc25e",
+      "app_id": "65b9a5ceb3ae2704dac855ea",
+      "network": "TikTok",
+      "phashion_group": "208874601c8cc25e",
+      "ad_type": "video",
+      "first_seen_at": "2024-03-22",
+      "last_seen_at": "2026-01-28",
+      "creatives": [
+        {
+          "id": "208874601c8cc25e",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/469c8fea9db8a53a/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/469c8fea9db8a53a/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/469c8fea9db8a53a/thumb",
+          "video_duration": 32,
+          "width": 720,
+          "height": 1280,
+          "message": "Bored? Come and join it!!"
+        },
+        {
+          "id": "c0751a8bd371fa30",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/469c8fea9db8a53a/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/469c8fea9db8a53a/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/469c8fea9db8a53a/thumb",
+          "video_duration": 32,
+          "width": 720,
+          "height": 1280,
+          "message": "How many levels can you pass?"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "ecce08765410abf4",
+      "app_id": "65b9a5ceb3ae2704dac855ea",
+      "network": "Facebook",
+      "phashion_group": "ecce08765410abf4",
+      "ad_type": "video",
+      "first_seen_at": "2025-10-21",
+      "last_seen_at": "2025-12-18",
+      "creatives": [
+        {
+          "id": "ecce08765410abf4",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/47a7490f7e203114/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/47a7490f7e203114/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/47a7490f7e203114/thumb",
+          "video_duration": 45,
+          "width": 720,
+          "height": 1280,
+          "button_text": "Install now",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "ff872cf4a4cce2e7",
+      "app_id": "65b9a5ceb3ae2704dac855ea",
+      "network": "Instagram",
+      "phashion_group": "ff872cf4a4cce2e7",
+      "ad_type": "video",
+      "first_seen_at": "2025-10-21",
+      "last_seen_at": "2025-12-18",
+      "creatives": [
+        {
+          "id": "ff872cf4a4cce2e7",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/47a7490f7e203114/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/47a7490f7e203114/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/47a7490f7e203114/thumb",
+          "video_duration": 45,
+          "width": 720,
+          "height": 1280,
+          "button_text": "Install now",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "de4cdb025b08ba45",
+      "app_id": "65b9a5ceb3ae2704dac855ea",
+      "network": "Meta Audience Network",
+      "phashion_group": "de4cdb025b08ba45",
+      "ad_type": "video",
+      "first_seen_at": "2025-10-21",
+      "last_seen_at": "2025-12-18",
+      "creatives": [
+        {
+          "id": "de4cdb025b08ba45",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/47a7490f7e203114/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/47a7490f7e203114/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/47a7490f7e203114/thumb",
+          "video_duration": 45,
+          "width": 720,
+          "height": 1280,
+          "button_text": "Install now",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "a9394e62aedff8e0",
+      "app_id": "65b9a5ceb3ae2704dac855ea",
+      "network": "TikTok",
+      "phashion_group": "a9394e62aedff8e0",
+      "ad_type": "video",
+      "first_seen_at": "2025-05-21",
+      "last_seen_at": "2026-01-14",
+      "creatives": [
+        {
+          "id": "a9394e62aedff8e0",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/47ebdfdfdb1a5b4f/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/47ebdfdfdb1a5b4f/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/47ebdfdfdb1a5b4f/thumb",
+          "video_duration": 27,
+          "width": 720,
+          "height": 1280,
+          "message": "Can you find the hidden one?"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "a8a40147453ba7ff",
+      "app_id": "65b9a5ceb3ae2704dac855ea",
+      "network": "TikTok",
+      "phashion_group": "a8a40147453ba7ff",
+      "ad_type": "video",
+      "first_seen_at": "2025-04-24",
+      "last_seen_at": "2026-01-08",
+      "creatives": [
+        {
+          "id": "a8a40147453ba7ff",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/489d7c17ec359859/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/489d7c17ec359859/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/489d7c17ec359859/thumb",
+          "video_duration": 34,
+          "width": 720,
+          "height": 1280,
+          "message": "How many levels can you pass?"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "a9e24f600f75d35c",
+      "app_id": "65b9a5ceb3ae2704dac855ea",
+      "network": "TikTok",
+      "phashion_group": "a9e24f600f75d35c",
+      "ad_type": "video",
+      "first_seen_at": "2025-04-11",
+      "last_seen_at": "2025-12-09",
+      "creatives": [
+        {
+          "id": "a9e24f600f75d35c",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/49db3230a67becfa/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/49db3230a67becfa/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/49db3230a67becfa/thumb",
+          "video_duration": 41,
+          "width": 720,
+          "height": 1280,
+          "message": "How many levels can you pass?"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "aa9e55d2e17c618d",
+      "app_id": "65b9a5ceb3ae2704dac855ea",
+      "network": "TikTok",
+      "phashion_group": "aa9e55d2e17c618d",
+      "ad_type": "video",
+      "first_seen_at": "2025-01-10",
+      "last_seen_at": "2026-01-16",
+      "creatives": [
+        {
+          "id": "aa9e55d2e17c618d",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4aa7288248725e2b/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4aa7288248725e2b/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4aa7288248725e2b/thumb",
+          "video_duration": 30,
+          "width": 720,
+          "height": 1280,
+          "message": "How many levels can you pass?"
+        },
+        {
+          "id": "ced1f8d5fafb0b7c",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4aa7288248725e2b/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4aa7288248725e2b/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4aa7288248725e2b/thumb",
+          "video_duration": 30,
+          "width": 720,
+          "height": 1280,
+          "message": "Harder than you think!"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "a4038b9cbb72ef5e",
+      "app_id": "65b9a5ceb3ae2704dac855ea",
+      "network": "TikTok",
+      "phashion_group": "a4038b9cbb72ef5e",
+      "ad_type": "video",
+      "first_seen_at": "2025-04-23",
+      "last_seen_at": "2026-01-15",
+      "creatives": [
+        {
+          "id": "a4038b9cbb72ef5e",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4ad11a21ceb74cf1/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4ad11a21ceb74cf1/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4ad11a21ceb74cf1/thumb",
+          "video_duration": 30,
+          "width": 720,
+          "height": 1280,
+          "message": "Can you find the hidden one?"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "3d7c9f077829b2d5",
+      "app_id": "65b9a5ceb3ae2704dac855ea",
+      "network": "TikTok",
+      "phashion_group": "3d7c9f077829b2d5",
+      "ad_type": "video",
+      "first_seen_at": "2025-01-18",
+      "last_seen_at": "2025-12-27",
+      "creatives": [
+        {
+          "id": "3d7c9f077829b2d5",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4bbd0d738c09a502/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4bbd0d738c09a502/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4bbd0d738c09a502/thumb",
+          "video_duration": 45,
+          "width": 720,
+          "height": 1280,
+          "message": "How many levels can you pass?"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "abcea243e3a4044a",
+      "app_id": "65b9a5ceb3ae2704dac855ea",
+      "network": "TikTok",
+      "phashion_group": "abcea243e3a4044a",
+      "ad_type": "video",
+      "first_seen_at": "2025-06-04",
+      "last_seen_at": "2025-12-20",
+      "creatives": [
+        {
+          "id": "abcea243e3a4044a",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4bf7df134aaa3bec/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4bf7df134aaa3bec/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4bf7df134aaa3bec/thumb",
+          "video_duration": 54,
+          "width": 720,
+          "height": 1280,
+          "message": "How many levels can you pass?"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "c16c2803bcbda9cc",
+      "app_id": "65b9a5ceb3ae2704dac855ea",
+      "network": "TikTok",
+      "phashion_group": "c16c2803bcbda9cc",
+      "ad_type": "video",
+      "first_seen_at": "2025-01-16",
+      "last_seen_at": "2026-01-09",
+      "creatives": [
+        {
+          "id": "c16c2803bcbda9cc",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4c389b2912e46efb/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4c389b2912e46efb/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4c389b2912e46efb/thumb",
+          "video_duration": 22,
+          "width": 720,
+          "height": 1280,
+          "message": "Ennuyé? Venez le rejoindre !"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "4ec5f2059581c2da",
+      "app_id": "65b9a5ceb3ae2704dac855ea",
+      "network": "TikTok",
+      "phashion_group": "4ec5f2059581c2da",
+      "ad_type": "video",
+      "first_seen_at": "2024-02-02",
+      "last_seen_at": "2026-01-26",
+      "creatives": [
+        {
+          "id": "4ec5f2059581c2da",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4d7f3d5059792e50/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4d7f3d5059792e50/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4d7f3d5059792e50/thumb",
+          "video_duration": 28,
+          "width": 720,
+          "height": 1280,
+          "message": "Nur 1 % der Leute können das Spiel bestehen!"
+        },
+        {
+          "id": "997780d16e206ef4",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4d7f3d5059792e50/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4d7f3d5059792e50/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4d7f3d5059792e50/thumb",
+          "video_duration": 28,
+          "width": 720,
+          "height": 1280,
+          "message": "Combien de niveaux pouvez-vous passer ?"
+        },
+        {
+          "id": "cda130a20af8aec1",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4d7f3d5059792e50/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4d7f3d5059792e50/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4d7f3d5059792e50/thumb",
+          "video_duration": 28,
+          "width": 720,
+          "height": 1280,
+          "message": "How many levels can you pass?"
+        },
+        {
+          "id": "e5585c3c759fd6a7",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4d7f3d5059792e50/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4d7f3d5059792e50/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4d7f3d5059792e50/thumb",
+          "video_duration": 28,
+          "width": 720,
+          "height": 1280,
+          "message": "Seulement 1% des personnes peuvent réussir le jeu !"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "0f9b1163ff085796",
+      "app_id": "65b9a5ceb3ae2704dac855ea",
+      "network": "TikTok",
+      "phashion_group": "0f9b1163ff085796",
+      "ad_type": "video",
+      "first_seen_at": "2023-12-23",
+      "last_seen_at": "2026-01-22",
+      "creatives": [
+        {
+          "id": "0f9b1163ff085796",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4da0bf03f1bf0287/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4da0bf03f1bf0287/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4da0bf03f1bf0287/thumb",
+          "video_duration": 24,
+          "width": 720,
+          "height": 1280,
+          "message": "Wie viele Level kannst du bestehen?"
+        },
+        {
+          "id": "1c51dcb3c85b1615",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4da0bf03f1bf0287/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4da0bf03f1bf0287/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4da0bf03f1bf0287/thumb",
+          "video_duration": 24,
+          "width": 720,
+          "height": 1280,
+          "message": "How many levels can you pass?"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "e8be7d6b6d4b18cd",
+      "app_id": "65b9a5ceb3ae2704dac855ea",
+      "network": "TikTok",
+      "phashion_group": "e8be7d6b6d4b18cd",
+      "ad_type": "video",
+      "first_seen_at": "2023-11-22",
+      "last_seen_at": "2026-01-22",
+      "creatives": [
+        {
+          "id": "e8be7d6b6d4b18cd",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4e3b8349997a86d8/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4e3b8349997a86d8/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4e3b8349997a86d8/thumb",
+          "video_duration": 15,
+          "width": 720,
+          "height": 1280,
+          "message": "Bored? Come and join it!"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "e59c6c120a8ba36a",
+      "app_id": "65b9a5ceb3ae2704dac855ea",
+      "network": "Facebook",
+      "phashion_group": "e59c6c120a8ba36a",
+      "ad_type": "video",
+      "first_seen_at": "2025-10-30",
+      "last_seen_at": "2025-12-17",
+      "creatives": [
+        {
+          "id": "e59c6c120a8ba36a",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4ef52d6b20bb398a/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4ef52d6b20bb398a/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4ef52d6b20bb398a/thumb",
+          "video_duration": 72,
+          "width": 720,
+          "height": 1280,
+          "button_text": "Install now",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "f6d54890fa57ea79",
+      "app_id": "65b9a5ceb3ae2704dac855ea",
+      "network": "Instagram",
+      "phashion_group": "f6d54890fa57ea79",
+      "ad_type": "video",
+      "first_seen_at": "2025-10-30",
+      "last_seen_at": "2025-12-17",
+      "creatives": [
+        {
+          "id": "f6d54890fa57ea79",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4ef52d6b20bb398a/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4ef52d6b20bb398a/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4ef52d6b20bb398a/thumb",
+          "video_duration": 72,
+          "width": 720,
+          "height": 1280,
+          "button_text": "Install now",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "d71ebf660593b2db",
+      "app_id": "65b9a5ceb3ae2704dac855ea",
+      "network": "Meta Audience Network",
+      "phashion_group": "d71ebf660593b2db",
+      "ad_type": "video",
+      "first_seen_at": "2025-10-30",
+      "last_seen_at": "2025-12-17",
+      "creatives": [
+        {
+          "id": "d71ebf660593b2db",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4ef52d6b20bb398a/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4ef52d6b20bb398a/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4ef52d6b20bb398a/thumb",
+          "video_duration": 72,
+          "width": 720,
+          "height": 1280,
+          "button_text": "Install now",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "af3607124468d4a7",
+      "app_id": "65b9a5ceb3ae2704dac855ea",
+      "network": "TikTok",
+      "phashion_group": "af3607124468d4a7",
+      "ad_type": "video",
+      "first_seen_at": "2025-04-28",
+      "last_seen_at": "2026-01-21",
+      "creatives": [
+        {
+          "id": "af3607124468d4a7",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4f0f7a42ed66eb01/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4f0f7a42ed66eb01/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4f0f7a42ed66eb01/thumb",
+          "video_duration": 34,
+          "width": 720,
+          "height": 1280,
+          "message": "How many levels can you pass?"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "af14b8bd82210663",
+      "app_id": "65b9a5ceb3ae2704dac855ea",
+      "network": "TikTok",
+      "phashion_group": "af14b8bd82210663",
+      "ad_type": "video",
+      "first_seen_at": "2025-04-13",
+      "last_seen_at": "2025-12-09",
+      "creatives": [
+        {
+          "id": "af14b8bd82210663",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4f2dc5ed2b2f39c5/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4f2dc5ed2b2f39c5/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4f2dc5ed2b2f39c5/thumb",
+          "video_duration": 49,
+          "width": 720,
+          "height": 1280,
+          "message": "How many levels can you pass?"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "2609d45885fa4f42",
+      "app_id": "65b9a5ceb3ae2704dac855ea",
+      "network": "TikTok",
+      "phashion_group": "2609d45885fa4f42",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-29",
+      "last_seen_at": "2026-01-18",
+      "creatives": [
+        {
+          "id": "2609d45885fa4f42",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/503fc02fe87586eb/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/503fc02fe87586eb/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/503fc02fe87586eb/thumb",
+          "video_duration": 57,
+          "width": 720,
+          "height": 1280,
+          "message": "Ready for the challenge? Survive ten levels!"
+        },
+        {
+          "id": "5b0c520db792bf45",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/503fc02fe87586eb/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/503fc02fe87586eb/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/503fc02fe87586eb/thumb",
+          "video_duration": 57,
+          "width": 720,
+          "height": 1280,
+          "message": "Someone’s Waiting for You to Win： Ready for the Challenge?"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "d09e3032e7514081",
+      "app_id": "65b9a5ceb3ae2704dac855ea",
+      "network": "TikTok",
+      "phashion_group": "d09e3032e7514081",
+      "ad_type": "video",
+      "first_seen_at": "2025-01-11",
+      "last_seen_at": "2025-12-24",
+      "creatives": [
+        {
+          "id": "d09e3032e7514081",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/50403dc0b4d0c010/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/50403dc0b4d0c010/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/50403dc0b4d0c010/thumb",
+          "video_duration": 26,
+          "width": 720,
+          "height": 1280,
+          "message": "How many levels can you pass?"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "8f43f2b931296154",
+      "app_id": "65b9a5ceb3ae2704dac855ea",
+      "network": "TikTok",
+      "phashion_group": "8f43f2b931296154",
+      "ad_type": "video",
+      "first_seen_at": "2024-02-19",
+      "last_seen_at": "2026-01-22",
+      "creatives": [
+        {
+          "id": "8f43f2b931296154",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/509371389727f0d4/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/509371389727f0d4/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/509371389727f0d4/thumb",
+          "video_duration": 29,
+          "width": 720,
+          "height": 1280,
+          "message": "How many levels can you pass?"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "b92d5d663185f433",
+      "app_id": "65b9a5ceb3ae2704dac855ea",
+      "network": "TikTok",
+      "phashion_group": "b92d5d663185f433",
+      "ad_type": "video",
+      "first_seen_at": "2025-05-30",
+      "last_seen_at": "2026-01-12",
+      "creatives": [
+        {
+          "id": "b92d5d663185f433",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/5199987d98e99c70/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/5199987d98e99c70/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/5199987d98e99c70/thumb",
+          "video_duration": 24,
+          "width": 720,
+          "height": 1280,
+          "message": "Berapa level yang bisa Anda lewati?"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "396c985be49994c4",
+      "app_id": "65b9a5ceb3ae2704dac855ea",
+      "network": "TikTok",
+      "phashion_group": "396c985be49994c4",
+      "ad_type": "video",
+      "first_seen_at": "2024-02-28",
+      "last_seen_at": "2026-01-28",
+      "creatives": [
+        {
+          "id": "396c985be49994c4",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/52cff34dde2d3aa6/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/52cff34dde2d3aa6/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/52cff34dde2d3aa6/thumb",
+          "video_duration": 18,
+          "width": 720,
+          "height": 1280,
+          "message": "¿Cuántos niveles puedes superar?"
+        },
+        {
+          "id": "722d7a8db6268bc0",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/52cff34dde2d3aa6/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/52cff34dde2d3aa6/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/52cff34dde2d3aa6/thumb",
+          "video_duration": 18,
+          "width": 720,
+          "height": 1280,
+          "message": "How many levels can you pass?"
+        },
+        {
+          "id": "b5f49e7fac661fef",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/52cff34dde2d3aa6/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/52cff34dde2d3aa6/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/52cff34dde2d3aa6/thumb",
+          "video_duration": 18,
+          "width": 720,
+          "height": 1280,
+          "message": "Promise me, don't play this game during your work time."
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "d2cf07e51b4804d0",
+      "app_id": "65b9a5ceb3ae2704dac855ea",
+      "network": "TikTok",
+      "phashion_group": "d2cf07e51b4804d0",
+      "ad_type": "video",
+      "first_seen_at": "2024-03-22",
+      "last_seen_at": "2026-01-09",
+      "creatives": [
+        {
+          "id": "d2cf07e51b4804d0",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/5426928455815bda/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/5426928455815bda/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/5426928455815bda/thumb",
+          "video_duration": 32,
+          "width": 720,
+          "height": 1280,
+          "message": "How many levels can you pass?"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "b1513bf204045540",
+      "app_id": "65b9a5ceb3ae2704dac855ea",
+      "network": "TikTok",
+      "phashion_group": "b1513bf204045540",
+      "ad_type": "video",
+      "first_seen_at": "2025-06-09",
+      "last_seen_at": "2026-01-27",
+      "creatives": [
+        {
+          "id": "b1513bf204045540",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/54a10ae3e4850b1f/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/54a10ae3e4850b1f/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/54a10ae3e4850b1f/thumb",
+          "video_duration": 30,
+          "width": 720,
+          "height": 1280,
+          "message": "How many levels can you pass?"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "b487d1ab8b314353",
+      "app_id": "65b9a5ceb3ae2704dac855ea",
+      "network": "TikTok",
+      "phashion_group": "b487d1ab8b314353",
+      "ad_type": "video",
+      "first_seen_at": "2025-04-25",
+      "last_seen_at": "2026-01-23",
+      "creatives": [
+        {
+          "id": "b487d1ab8b314353",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/54beacfb223f7cf5/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/54beacfb223f7cf5/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/54beacfb223f7cf5/thumb",
+          "video_duration": 39,
+          "width": 720,
+          "height": 1280,
+          "message": "How many levels can you pass?"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "741e58113abb0089",
+      "app_id": "65b9a5ceb3ae2704dac855ea",
+      "network": "TikTok",
+      "phashion_group": "741e58113abb0089",
+      "ad_type": "video",
+      "first_seen_at": "2024-03-03",
+      "last_seen_at": "2026-01-28",
+      "creatives": [
+        {
+          "id": "741e58113abb0089",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/54fcd1d152b0b1ef/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/54fcd1d152b0b1ef/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/54fcd1d152b0b1ef/thumb",
+          "video_duration": 17,
+          "width": 720,
+          "height": 1280,
+          "message": "How many levels can you pass?"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    }
+  ]
+}

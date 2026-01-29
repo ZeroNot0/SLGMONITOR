@@ -1,0 +1,2082 @@
+{
+  "count": 52,
+  "available_networks": [
+    "Facebook",
+    "Instagram",
+    "Meta Audience Network"
+  ],
+  "ad_units": [
+    {
+      "id": "1a34a9d79a10066a",
+      "app_id": "57e4fcde4f87ce0b4f00053e",
+      "network": "Facebook",
+      "phashion_group": "1a34a9d79a10066a",
+      "ad_type": "video",
+      "first_seen_at": "2025-10-27",
+      "last_seen_at": "2026-01-22",
+      "creatives": [
+        {
+          "id": "1a34a9d79a10066a",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/09e9fbdc8f134590/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/09e9fbdc8f134590/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/09e9fbdc8f134590/thumb",
+          "video_duration": 31,
+          "width": 1076,
+          "height": 1920,
+          "title": "Become the godfather of the underworld!",
+          "button_text": "Install now",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1076x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "4ffa97d58d3446f1",
+      "app_id": "57e4fcde4f87ce0b4f00053e",
+      "network": "Instagram",
+      "phashion_group": "4ffa97d58d3446f1",
+      "ad_type": "video",
+      "first_seen_at": "2025-10-27",
+      "last_seen_at": "2026-01-22",
+      "creatives": [
+        {
+          "id": "4ffa97d58d3446f1",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/09e9fbdc8f134590/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/09e9fbdc8f134590/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/09e9fbdc8f134590/thumb",
+          "video_duration": 31,
+          "width": 1076,
+          "height": 1920,
+          "title": "Become the godfather of the underworld!",
+          "button_text": "Install now",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1076x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "28b67aa3950817db",
+      "app_id": "57e4fcde4f87ce0b4f00053e",
+      "network": "Meta Audience Network",
+      "phashion_group": "28b67aa3950817db",
+      "ad_type": "video",
+      "first_seen_at": "2025-10-27",
+      "last_seen_at": "2026-01-22",
+      "creatives": [
+        {
+          "id": "28b67aa3950817db",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/09e9fbdc8f134590/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/09e9fbdc8f134590/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/09e9fbdc8f134590/thumb",
+          "video_duration": 31,
+          "width": 1076,
+          "height": 1920,
+          "title": "Become the godfather of the underworld!",
+          "button_text": "Install now",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1076x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "0e0f76edd2849bb8",
+      "app_id": "57e4fcde4f87ce0b4f00053e",
+      "network": "Facebook",
+      "phashion_group": "0e0f76edd2849bb8",
+      "ad_type": "video",
+      "first_seen_at": "2025-07-29",
+      "last_seen_at": "2026-01-26",
+      "creatives": [
+        {
+          "id": "0e0f76edd2849bb8",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1dd224e6c787d842/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1dd224e6c787d842/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1dd224e6c787d842/thumb",
+          "video_duration": 27,
+          "width": 1920,
+          "height": 1080,
+          "title": "Become the godfather of the underworld!",
+          "button_text": "Install now",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1920x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "3c8da599dd9c8a09",
+      "app_id": "57e4fcde4f87ce0b4f00053e",
+      "network": "Meta Audience Network",
+      "phashion_group": "3c8da599dd9c8a09",
+      "ad_type": "video",
+      "first_seen_at": "2025-07-29",
+      "last_seen_at": "2026-01-26",
+      "creatives": [
+        {
+          "id": "3c8da599dd9c8a09",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1dd224e6c787d842/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1dd224e6c787d842/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1dd224e6c787d842/thumb",
+          "video_duration": 27,
+          "width": 1920,
+          "height": 1080,
+          "title": "Become the godfather of the underworld!",
+          "button_text": "Install now",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1920x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "0c472d6746df9960",
+      "app_id": "57e4fcde4f87ce0b4f00053e",
+      "network": "Facebook",
+      "phashion_group": "0c472d6746df9960",
+      "ad_type": "video",
+      "first_seen_at": "2025-08-12",
+      "last_seen_at": "2026-01-14",
+      "creatives": [
+        {
+          "id": "0c472d6746df9960",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1f9a7f6c53dcda9a/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1f9a7f6c53dcda9a/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1f9a7f6c53dcda9a/thumb",
+          "video_duration": 30,
+          "width": 1920,
+          "height": 1080,
+          "button_text": "Install now",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1920x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "3ec5fe1349c788d1",
+      "app_id": "57e4fcde4f87ce0b4f00053e",
+      "network": "Meta Audience Network",
+      "phashion_group": "3ec5fe1349c788d1",
+      "ad_type": "video",
+      "first_seen_at": "2025-08-12",
+      "last_seen_at": "2026-01-14",
+      "creatives": [
+        {
+          "id": "3ec5fe1349c788d1",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1f9a7f6c53dcda9a/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1f9a7f6c53dcda9a/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1f9a7f6c53dcda9a/thumb",
+          "video_duration": 30,
+          "width": 1920,
+          "height": 1080,
+          "button_text": "Install now",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1920x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "39c9bd0dba0a9b1d",
+      "app_id": "57e4fcde4f87ce0b4f00053e",
+      "network": "Facebook",
+      "phashion_group": "39c9bd0dba0a9b1d",
+      "ad_type": "video",
+      "first_seen_at": "2025-09-09",
+      "last_seen_at": "2026-01-26",
+      "creatives": [
+        {
+          "id": "39c9bd0dba0a9b1d",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2a14ef06af09d8e7/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2a14ef06af09d8e7/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2a14ef06af09d8e7/thumb",
+          "video_duration": 27,
+          "width": 1284,
+          "height": 1608,
+          "button_text": "Install now",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1284x1608",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "0b4b6e79b5128aac",
+      "app_id": "57e4fcde4f87ce0b4f00053e",
+      "network": "Meta Audience Network",
+      "phashion_group": "0b4b6e79b5128aac",
+      "ad_type": "video",
+      "first_seen_at": "2025-09-09",
+      "last_seen_at": "2026-01-26",
+      "creatives": [
+        {
+          "id": "0b4b6e79b5128aac",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2a14ef06af09d8e7/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2a14ef06af09d8e7/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2a14ef06af09d8e7/thumb",
+          "video_duration": 27,
+          "width": 1284,
+          "height": 1608,
+          "button_text": "Install now",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1284x1608",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "59ea79038816033f",
+      "app_id": "57e4fcde4f87ce0b4f00053e",
+      "network": "Facebook",
+      "phashion_group": "59ea79038816033f",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-03",
+      "last_seen_at": "2025-12-11",
+      "creatives": [
+        {
+          "id": "59ea79038816033f",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4a372b089d1540c5/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4a372b089d1540c5/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4a372b089d1540c5/thumb",
+          "video_duration": 27,
+          "width": 1080,
+          "height": 1080,
+          "title": "Become the godfather of the underworld!",
+          "button_text": "Install now",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "0c2447019f3243a4",
+      "app_id": "57e4fcde4f87ce0b4f00053e",
+      "network": "Instagram",
+      "phashion_group": "0c2447019f3243a4",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-03",
+      "last_seen_at": "2025-12-11",
+      "creatives": [
+        {
+          "id": "0c2447019f3243a4",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4a372b089d1540c5/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4a372b089d1540c5/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4a372b089d1540c5/thumb",
+          "video_duration": 27,
+          "width": 1080,
+          "height": 1080,
+          "title": "Become the godfather of the underworld!",
+          "button_text": "Install now",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "6b68aa77870e128e",
+      "app_id": "57e4fcde4f87ce0b4f00053e",
+      "network": "Meta Audience Network",
+      "phashion_group": "6b68aa77870e128e",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-03",
+      "last_seen_at": "2025-12-11",
+      "creatives": [
+        {
+          "id": "6b68aa77870e128e",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4a372b089d1540c5/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4a372b089d1540c5/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4a372b089d1540c5/thumb",
+          "video_duration": 27,
+          "width": 1080,
+          "height": 1080,
+          "title": "Become the godfather of the underworld!",
+          "button_text": "Install now",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "47258ec370cee089",
+      "app_id": "57e4fcde4f87ce0b4f00053e",
+      "network": "Facebook",
+      "phashion_group": "47258ec370cee089",
+      "ad_type": "video",
+      "first_seen_at": "2025-09-08",
+      "last_seen_at": "2025-12-12",
+      "creatives": [
+        {
+          "id": "47258ec370cee089",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/54f8dcc865cda373/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/54f8dcc865cda373/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/54f8dcc865cda373/thumb",
+          "video_duration": 27,
+          "width": 1920,
+          "height": 1080,
+          "title": "Become the godfather of the underworld!",
+          "button_text": "Install now",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1920x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "75a75db77fd6f138",
+      "app_id": "57e4fcde4f87ce0b4f00053e",
+      "network": "Meta Audience Network",
+      "phashion_group": "75a75db77fd6f138",
+      "ad_type": "video",
+      "first_seen_at": "2025-09-08",
+      "last_seen_at": "2025-12-12",
+      "creatives": [
+        {
+          "id": "75a75db77fd6f138",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/54f8dcc865cda373/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/54f8dcc865cda373/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/54f8dcc865cda373/thumb",
+          "video_duration": 27,
+          "width": 1920,
+          "height": 1080,
+          "title": "Become the godfather of the underworld!",
+          "button_text": "Install now",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1920x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "71cfeb72a3655594",
+      "app_id": "57e4fcde4f87ce0b4f00053e",
+      "network": "Facebook",
+      "phashion_group": "71cfeb72a3655594",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-03",
+      "last_seen_at": "2025-12-15",
+      "creatives": [
+        {
+          "id": "71cfeb72a3655594",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/6212b979b666166e/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/6212b979b666166e/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/6212b979b666166e/thumb",
+          "video_duration": 27,
+          "width": 1080,
+          "height": 1920,
+          "title": "Become the godfather of the underworld!",
+          "button_text": "Install now",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "2401d570b441150f",
+      "app_id": "57e4fcde4f87ce0b4f00053e",
+      "network": "Instagram",
+      "phashion_group": "2401d570b441150f",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-03",
+      "last_seen_at": "2025-12-15",
+      "creatives": [
+        {
+          "id": "2401d570b441150f",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/6212b979b666166e/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/6212b979b666166e/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/6212b979b666166e/thumb",
+          "video_duration": 27,
+          "width": 1080,
+          "height": 1920,
+          "title": "Become the godfather of the underworld!",
+          "button_text": "Install now",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "434d3806ac7d4425",
+      "app_id": "57e4fcde4f87ce0b4f00053e",
+      "network": "Meta Audience Network",
+      "phashion_group": "434d3806ac7d4425",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-03",
+      "last_seen_at": "2025-12-15",
+      "creatives": [
+        {
+          "id": "434d3806ac7d4425",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/6212b979b666166e/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/6212b979b666166e/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/6212b979b666166e/thumb",
+          "video_duration": 27,
+          "width": 1080,
+          "height": 1920,
+          "title": "Become the godfather of the underworld!",
+          "button_text": "Install now",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "77c36db17b02c9c3",
+      "app_id": "57e4fcde4f87ce0b4f00053e",
+      "network": "Facebook",
+      "phashion_group": "77c36db17b02c9c3",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-03",
+      "last_seen_at": "2025-12-15",
+      "creatives": [
+        {
+          "id": "77c36db17b02c9c3",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/641e3fba6e018a39/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/641e3fba6e018a39/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/641e3fba6e018a39/thumb",
+          "video_duration": 32,
+          "width": 1080,
+          "height": 1920,
+          "title": "Become the godfather of the underworld!",
+          "button_text": "Install now",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "220d53b36c268958",
+      "app_id": "57e4fcde4f87ce0b4f00053e",
+      "network": "Instagram",
+      "phashion_group": "220d53b36c268958",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-03",
+      "last_seen_at": "2025-12-15",
+      "creatives": [
+        {
+          "id": "220d53b36c268958",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/641e3fba6e018a39/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/641e3fba6e018a39/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/641e3fba6e018a39/thumb",
+          "video_duration": 32,
+          "width": 1080,
+          "height": 1920,
+          "title": "Become the godfather of the underworld!",
+          "button_text": "Install now",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "4541bec5741ad872",
+      "app_id": "57e4fcde4f87ce0b4f00053e",
+      "network": "Meta Audience Network",
+      "phashion_group": "4541bec5741ad872",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-03",
+      "last_seen_at": "2025-12-15",
+      "creatives": [
+        {
+          "id": "4541bec5741ad872",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/641e3fba6e018a39/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/641e3fba6e018a39/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/641e3fba6e018a39/thumb",
+          "video_duration": 32,
+          "width": 1080,
+          "height": 1920,
+          "title": "Become the godfather of the underworld!",
+          "button_text": "Install now",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "93048f8d851c3a81",
+      "app_id": "57e4fcde4f87ce0b4f00053e",
+      "network": "Facebook",
+      "phashion_group": "93048f8d851c3a81",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-03",
+      "last_seen_at": "2025-12-14",
+      "creatives": [
+        {
+          "id": "93048f8d851c3a81",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/80d9dd86901f797b/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/80d9dd86901f797b/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/80d9dd86901f797b/thumb",
+          "video_duration": 32,
+          "width": 1920,
+          "height": 1080,
+          "title": "Become the godfather of the underworld!",
+          "button_text": "Install now",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1920x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "c6cab18f92387a1a",
+      "app_id": "57e4fcde4f87ce0b4f00053e",
+      "network": "Instagram",
+      "phashion_group": "c6cab18f92387a1a",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-03",
+      "last_seen_at": "2025-12-14",
+      "creatives": [
+        {
+          "id": "c6cab18f92387a1a",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/80d9dd86901f797b/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/80d9dd86901f797b/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/80d9dd86901f797b/thumb",
+          "video_duration": 32,
+          "width": 1920,
+          "height": 1080,
+          "title": "Become the godfather of the underworld!",
+          "button_text": "Install now",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1920x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "a1865cf98a042b30",
+      "app_id": "57e4fcde4f87ce0b4f00053e",
+      "network": "Meta Audience Network",
+      "phashion_group": "a1865cf98a042b30",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-03",
+      "last_seen_at": "2025-12-14",
+      "creatives": [
+        {
+          "id": "a1865cf98a042b30",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/80d9dd86901f797b/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/80d9dd86901f797b/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/80d9dd86901f797b/thumb",
+          "video_duration": 32,
+          "width": 1920,
+          "height": 1080,
+          "title": "Become the godfather of the underworld!",
+          "button_text": "Install now",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1920x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "928ddcce2b3298e2",
+      "app_id": "57e4fcde4f87ce0b4f00053e",
+      "network": "Facebook",
+      "phashion_group": "928ddcce2b3298e2",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-03",
+      "last_seen_at": "2025-12-15",
+      "creatives": [
+        {
+          "id": "928ddcce2b3298e2",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/81508ec53e31db18/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/81508ec53e31db18/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/81508ec53e31db18/thumb",
+          "video_duration": 27,
+          "width": 1080,
+          "height": 1920,
+          "title": "Become the godfather of the underworld!",
+          "button_text": "Install now",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "c743e2cc3c16d879",
+      "app_id": "57e4fcde4f87ce0b4f00053e",
+      "network": "Instagram",
+      "phashion_group": "c743e2cc3c16d879",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-03",
+      "last_seen_at": "2025-12-15",
+      "creatives": [
+        {
+          "id": "c743e2cc3c16d879",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/81508ec53e31db18/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/81508ec53e31db18/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/81508ec53e31db18/thumb",
+          "video_duration": 27,
+          "width": 1080,
+          "height": 1920,
+          "title": "Become the godfather of the underworld!",
+          "button_text": "Install now",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "a00f0fba242a8953",
+      "app_id": "57e4fcde4f87ce0b4f00053e",
+      "network": "Meta Audience Network",
+      "phashion_group": "a00f0fba242a8953",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-03",
+      "last_seen_at": "2025-12-15",
+      "creatives": [
+        {
+          "id": "a00f0fba242a8953",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/81508ec53e31db18/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/81508ec53e31db18/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/81508ec53e31db18/thumb",
+          "video_duration": 27,
+          "width": 1080,
+          "height": 1920,
+          "title": "Become the godfather of the underworld!",
+          "button_text": "Install now",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "87db7c124c12f13d",
+      "app_id": "57e4fcde4f87ce0b4f00053e",
+      "network": "Facebook",
+      "phashion_group": "87db7c124c12f13d",
+      "ad_type": "video",
+      "first_seen_at": "2025-07-30",
+      "last_seen_at": "2026-01-26",
+      "creatives": [
+        {
+          "id": "87db7c124c12f13d",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/94062e195911b2c7/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/94062e195911b2c7/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/94062e195911b2c7/thumb",
+          "video_duration": 27,
+          "width": 1920,
+          "height": 1080,
+          "title": "Become the godfather of the underworld!",
+          "button_text": "Install now",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1920x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "b559af66430ae08c",
+      "app_id": "57e4fcde4f87ce0b4f00053e",
+      "network": "Meta Audience Network",
+      "phashion_group": "b559af66430ae08c",
+      "ad_type": "video",
+      "first_seen_at": "2025-07-30",
+      "last_seen_at": "2026-01-26",
+      "creatives": [
+        {
+          "id": "b559af66430ae08c",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/94062e195911b2c7/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/94062e195911b2c7/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/94062e195911b2c7/thumb",
+          "video_duration": 27,
+          "width": 1920,
+          "height": 1080,
+          "title": "Become the godfather of the underworld!",
+          "button_text": "Install now",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1920x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "879fc6e3a80e359b",
+      "app_id": "57e4fcde4f87ce0b4f00053e",
+      "network": "Facebook",
+      "phashion_group": "879fc6e3a80e359b",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-03",
+      "last_seen_at": "2025-12-16",
+      "creatives": [
+        {
+          "id": "879fc6e3a80e359b",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/944294e8bd0d7661/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/944294e8bd0d7661/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/944294e8bd0d7661/thumb",
+          "video_duration": 27,
+          "width": 1080,
+          "height": 1080,
+          "title": "Become the godfather of the underworld!",
+          "button_text": "Install now",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "d251f8e1bf2a7500",
+      "app_id": "57e4fcde4f87ce0b4f00053e",
+      "network": "Instagram",
+      "phashion_group": "d251f8e1bf2a7500",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-03",
+      "last_seen_at": "2025-12-16",
+      "creatives": [
+        {
+          "id": "d251f8e1bf2a7500",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/944294e8bd0d7661/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/944294e8bd0d7661/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/944294e8bd0d7661/thumb",
+          "video_duration": 27,
+          "width": 1080,
+          "height": 1080,
+          "title": "Become the godfather of the underworld!",
+          "button_text": "Install now",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "b51d1597a716242a",
+      "app_id": "57e4fcde4f87ce0b4f00053e",
+      "network": "Meta Audience Network",
+      "phashion_group": "b51d1597a716242a",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-03",
+      "last_seen_at": "2025-12-16",
+      "creatives": [
+        {
+          "id": "b51d1597a716242a",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/944294e8bd0d7661/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/944294e8bd0d7661/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/944294e8bd0d7661/thumb",
+          "video_duration": 27,
+          "width": 1080,
+          "height": 1080,
+          "title": "Become the godfather of the underworld!",
+          "button_text": "Install now",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "8b91867a8a270bcf",
+      "app_id": "57e4fcde4f87ce0b4f00053e",
+      "network": "Facebook",
+      "phashion_group": "8b91867a8a270bcf",
+      "ad_type": "video",
+      "first_seen_at": "2025-09-08",
+      "last_seen_at": "2026-01-26",
+      "creatives": [
+        {
+          "id": "8b91867a8a270bcf",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/984cd4719f244835/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/984cd4719f244835/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/984cd4719f244835/thumb",
+          "video_duration": 30,
+          "width": 1920,
+          "height": 1080,
+          "button_text": "Install now",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1920x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "b913550e853f1a7e",
+      "app_id": "57e4fcde4f87ce0b4f00053e",
+      "network": "Meta Audience Network",
+      "phashion_group": "b913550e853f1a7e",
+      "ad_type": "video",
+      "first_seen_at": "2025-09-08",
+      "last_seen_at": "2026-01-26",
+      "creatives": [
+        {
+          "id": "b913550e853f1a7e",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/984cd4719f244835/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/984cd4719f244835/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/984cd4719f244835/thumb",
+          "video_duration": 30,
+          "width": 1920,
+          "height": 1080,
+          "button_text": "Install now",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1920x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "8a33ff7c19d65de5",
+      "app_id": "57e4fcde4f87ce0b4f00053e",
+      "network": "Facebook",
+      "phashion_group": "8a33ff7c19d65de5",
+      "ad_type": "video",
+      "first_seen_at": "2025-09-09",
+      "last_seen_at": "2025-12-12",
+      "creatives": [
+        {
+          "id": "8a33ff7c19d65de5",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/99eead770cd51e1f/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/99eead770cd51e1f/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/99eead770cd51e1f/thumb",
+          "video_duration": 27,
+          "width": 1920,
+          "height": 1080,
+          "title": "Become the godfather of the underworld!",
+          "button_text": "Install now",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1920x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "b8b12c0816ce4c54",
+      "app_id": "57e4fcde4f87ce0b4f00053e",
+      "network": "Meta Audience Network",
+      "phashion_group": "b8b12c0816ce4c54",
+      "ad_type": "video",
+      "first_seen_at": "2025-09-09",
+      "last_seen_at": "2025-12-12",
+      "creatives": [
+        {
+          "id": "b8b12c0816ce4c54",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/99eead770cd51e1f/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/99eead770cd51e1f/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/99eead770cd51e1f/thumb",
+          "video_duration": 27,
+          "width": 1920,
+          "height": 1080,
+          "title": "Become the godfather of the underworld!",
+          "button_text": "Install now",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1920x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "afafc23b622bc3cc",
+      "app_id": "57e4fcde4f87ce0b4f00053e",
+      "network": "Facebook",
+      "phashion_group": "afafc23b622bc3cc",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-03",
+      "last_seen_at": "2025-12-16",
+      "creatives": [
+        {
+          "id": "afafc23b622bc3cc",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/bc72903077288036/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/bc72903077288036/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/bc72903077288036/thumb",
+          "video_duration": 27,
+          "width": 1080,
+          "height": 1080,
+          "title": "Become the godfather of the underworld!",
+          "button_text": "Install now",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "fa61fc39750f8357",
+      "app_id": "57e4fcde4f87ce0b4f00053e",
+      "network": "Instagram",
+      "phashion_group": "fa61fc39750f8357",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-03",
+      "last_seen_at": "2025-12-16",
+      "creatives": [
+        {
+          "id": "fa61fc39750f8357",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/bc72903077288036/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/bc72903077288036/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/bc72903077288036/thumb",
+          "video_duration": 27,
+          "width": 1080,
+          "height": 1080,
+          "title": "Become the godfather of the underworld!",
+          "button_text": "Install now",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "9d2d114f6d33d27d",
+      "app_id": "57e4fcde4f87ce0b4f00053e",
+      "network": "Meta Audience Network",
+      "phashion_group": "9d2d114f6d33d27d",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-03",
+      "last_seen_at": "2025-12-16",
+      "creatives": [
+        {
+          "id": "9d2d114f6d33d27d",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/bc72903077288036/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/bc72903077288036/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/bc72903077288036/thumb",
+          "video_duration": 27,
+          "width": 1080,
+          "height": 1080,
+          "title": "Become the godfather of the underworld!",
+          "button_text": "Install now",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "af03110533638b02",
+      "app_id": "57e4fcde4f87ce0b4f00053e",
+      "network": "Facebook",
+      "phashion_group": "af03110533638b02",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-03",
+      "last_seen_at": "2025-12-15",
+      "creatives": [
+        {
+          "id": "af03110533638b02",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/bcde430e2660c8f8/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/bcde430e2660c8f8/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/bcde430e2660c8f8/thumb",
+          "video_duration": 27,
+          "width": 1080,
+          "height": 1080,
+          "title": "Become the godfather of the underworld!",
+          "button_text": "Install now",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "facd2f072447cb99",
+      "app_id": "57e4fcde4f87ce0b4f00053e",
+      "network": "Instagram",
+      "phashion_group": "facd2f072447cb99",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-03",
+      "last_seen_at": "2025-12-15",
+      "creatives": [
+        {
+          "id": "facd2f072447cb99",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/bcde430e2660c8f8/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/bcde430e2660c8f8/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/bcde430e2660c8f8/thumb",
+          "video_duration": 27,
+          "width": 1080,
+          "height": 1080,
+          "title": "Become the godfather of the underworld!",
+          "button_text": "Install now",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "9d81c2713c7b9ab3",
+      "app_id": "57e4fcde4f87ce0b4f00053e",
+      "network": "Meta Audience Network",
+      "phashion_group": "9d81c2713c7b9ab3",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-03",
+      "last_seen_at": "2025-12-15",
+      "creatives": [
+        {
+          "id": "9d81c2713c7b9ab3",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/bcde430e2660c8f8/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/bcde430e2660c8f8/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/bcde430e2660c8f8/thumb",
+          "video_duration": 27,
+          "width": 1080,
+          "height": 1080,
+          "title": "Become the godfather of the underworld!",
+          "button_text": "Install now",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "d05fa9069cdaca72",
+      "app_id": "57e4fcde4f87ce0b4f00053e",
+      "network": "Facebook",
+      "phashion_group": "d05fa9069cdaca72",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-18",
+      "last_seen_at": "2026-01-26",
+      "creatives": [
+        {
+          "id": "d05fa9069cdaca72",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/c382fb0d89d98988/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/c382fb0d89d98988/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/c382fb0d89d98988/thumb",
+          "video_duration": 31,
+          "width": 1080,
+          "height": 1920,
+          "title": "Become the godfather of the underworld!",
+          "button_text": "Install now",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "859197048bfe8ae9",
+      "app_id": "57e4fcde4f87ce0b4f00053e",
+      "network": "Instagram",
+      "phashion_group": "859197048bfe8ae9",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-18",
+      "last_seen_at": "2026-01-26",
+      "creatives": [
+        {
+          "id": "859197048bfe8ae9",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/c382fb0d89d98988/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/c382fb0d89d98988/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/c382fb0d89d98988/thumb",
+          "video_duration": 31,
+          "width": 1080,
+          "height": 1920,
+          "title": "Become the godfather of the underworld!",
+          "button_text": "Install now",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "e2dd7a7293c2dbc3",
+      "app_id": "57e4fcde4f87ce0b4f00053e",
+      "network": "Meta Audience Network",
+      "phashion_group": "e2dd7a7293c2dbc3",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-18",
+      "last_seen_at": "2026-01-26",
+      "creatives": [
+        {
+          "id": "e2dd7a7293c2dbc3",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/c382fb0d89d98988/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/c382fb0d89d98988/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/c382fb0d89d98988/thumb",
+          "video_duration": 31,
+          "width": 1080,
+          "height": 1920,
+          "title": "Become the godfather of the underworld!",
+          "button_text": "Install now",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "d65aa0d2fc277957",
+      "app_id": "57e4fcde4f87ce0b4f00053e",
+      "network": "Facebook",
+      "phashion_group": "d65aa0d2fc277957",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-03",
+      "last_seen_at": "2025-12-16",
+      "creatives": [
+        {
+          "id": "d65aa0d2fc277957",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/c587f2d9e9243aad/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/c587f2d9e9243aad/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/c587f2d9e9243aad/thumb",
+          "video_duration": 27,
+          "width": 1080,
+          "height": 1920,
+          "title": "Become the godfather of the underworld!",
+          "button_text": "Install now",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "83949ed0eb0339cc",
+      "app_id": "57e4fcde4f87ce0b4f00053e",
+      "network": "Instagram",
+      "phashion_group": "83949ed0eb0339cc",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-03",
+      "last_seen_at": "2025-12-16",
+      "creatives": [
+        {
+          "id": "83949ed0eb0339cc",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/c587f2d9e9243aad/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/c587f2d9e9243aad/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/c587f2d9e9243aad/thumb",
+          "video_duration": 27,
+          "width": 1080,
+          "height": 1920,
+          "title": "Become the godfather of the underworld!",
+          "button_text": "Install now",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "e4d873a6f33f68e6",
+      "app_id": "57e4fcde4f87ce0b4f00053e",
+      "network": "Meta Audience Network",
+      "phashion_group": "e4d873a6f33f68e6",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-03",
+      "last_seen_at": "2025-12-16",
+      "creatives": [
+        {
+          "id": "e4d873a6f33f68e6",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/c587f2d9e9243aad/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/c587f2d9e9243aad/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/c587f2d9e9243aad/thumb",
+          "video_duration": 27,
+          "width": 1080,
+          "height": 1920,
+          "title": "Become the godfather of the underworld!",
+          "button_text": "Install now",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "fff818acdaa62a2c",
+      "app_id": "57e4fcde4f87ce0b4f00053e",
+      "network": "Facebook",
+      "phashion_group": "fff818acdaa62a2c",
+      "ad_type": "video",
+      "first_seen_at": "2025-07-30",
+      "last_seen_at": "2026-01-26",
+      "creatives": [
+        {
+          "id": "fff818acdaa62a2c",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/ec254aa7cfa569d6/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/ec254aa7cfa569d6/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/ec254aa7cfa569d6/thumb",
+          "video_duration": 29,
+          "width": 1536,
+          "height": 1920,
+          "button_text": "Install now",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1536x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "cd7acbd8d5be3b9d",
+      "app_id": "57e4fcde4f87ce0b4f00053e",
+      "network": "Meta Audience Network",
+      "phashion_group": "cd7acbd8d5be3b9d",
+      "ad_type": "video",
+      "first_seen_at": "2025-07-30",
+      "last_seen_at": "2026-01-26",
+      "creatives": [
+        {
+          "id": "cd7acbd8d5be3b9d",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/ec254aa7cfa569d6/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/ec254aa7cfa569d6/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/ec254aa7cfa569d6/thumb",
+          "video_duration": 29,
+          "width": 1536,
+          "height": 1920,
+          "button_text": "Install now",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1536x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "fdfafff0f6939e12",
+      "app_id": "57e4fcde4f87ce0b4f00053e",
+      "network": "Facebook",
+      "phashion_group": "fdfafff0f6939e12",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-03",
+      "last_seen_at": "2025-12-13",
+      "creatives": [
+        {
+          "id": "fdfafff0f6939e12",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/ee27adfbe390dde8/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/ee27adfbe390dde8/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/ee27adfbe390dde8/thumb",
+          "video_duration": 27,
+          "width": 1080,
+          "height": 1920,
+          "title": "Become the godfather of the underworld!",
+          "button_text": "Install now",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "a834c1f2e1b7de89",
+      "app_id": "57e4fcde4f87ce0b4f00053e",
+      "network": "Instagram",
+      "phashion_group": "a834c1f2e1b7de89",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-03",
+      "last_seen_at": "2025-12-13",
+      "creatives": [
+        {
+          "id": "a834c1f2e1b7de89",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/ee27adfbe390dde8/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/ee27adfbe390dde8/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/ee27adfbe390dde8/thumb",
+          "video_duration": 27,
+          "width": 1080,
+          "height": 1920,
+          "title": "Become the godfather of the underworld!",
+          "button_text": "Install now",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "cf782c84f98b8fa3",
+      "app_id": "57e4fcde4f87ce0b4f00053e",
+      "network": "Meta Audience Network",
+      "phashion_group": "cf782c84f98b8fa3",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-03",
+      "last_seen_at": "2025-12-13",
+      "creatives": [
+        {
+          "id": "cf782c84f98b8fa3",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/ee27adfbe390dde8/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/ee27adfbe390dde8/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/ee27adfbe390dde8/thumb",
+          "video_duration": 27,
+          "width": 1080,
+          "height": 1920,
+          "title": "Become the godfather of the underworld!",
+          "button_text": "Install now",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    }
+  ]
+}
