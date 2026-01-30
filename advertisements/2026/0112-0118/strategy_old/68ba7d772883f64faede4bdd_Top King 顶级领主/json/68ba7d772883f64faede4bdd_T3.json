@@ -1,0 +1,4010 @@
+{
+  "count": 108,
+  "available_networks": [
+    "Facebook",
+    "Instagram",
+    "Meta Audience Network"
+  ],
+  "ad_units": [
+    {
+      "id": "65d761620a5102f2",
+      "app_id": "68ba7d772883f64faede4bdd",
+      "network": "Facebook",
+      "phashion_group": "65d761620a5102f2",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-12",
+      "last_seen_at": "2026-01-16",
+      "creatives": [
+        {
+          "id": "65d761620a5102f2",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/02a25a2331ea43d8/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/02a25a2331ea43d8/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/02a25a2331ea43d8/thumb",
+          "video_duration": 49,
+          "width": 1080,
+          "height": 1080,
+          "title": "Your World, Your Rule",
+          "button_text": "Install Now",
+          "message": "Be the Master of Strategy"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "ba1861a85a0b2371",
+      "app_id": "68ba7d772883f64faede4bdd",
+      "network": "Instagram",
+      "phashion_group": "ba1861a85a0b2371",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-13",
+      "last_seen_at": "2026-01-16",
+      "creatives": [
+        {
+          "id": "ba1861a85a0b2371",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/02a25a2331ea43d8/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/02a25a2331ea43d8/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/02a25a2331ea43d8/thumb",
+          "video_duration": 49,
+          "width": 1080,
+          "height": 1080,
+          "title": "Your World, Your Rule",
+          "button_text": "Install Now",
+          "message": "Be the Master of Strategy"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "5755b21605491343",
+      "app_id": "68ba7d772883f64faede4bdd",
+      "network": "Meta Audience Network",
+      "phashion_group": "5755b21605491343",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-13",
+      "last_seen_at": "2026-01-16",
+      "creatives": [
+        {
+          "id": "5755b21605491343",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/02a25a2331ea43d8/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/02a25a2331ea43d8/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/02a25a2331ea43d8/thumb",
+          "video_duration": 49,
+          "width": 1080,
+          "height": 1080,
+          "title": "Your World, Your Rule",
+          "button_text": "Install Now",
+          "message": "Be the Master of Strategy"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "776e045d9ffd09f2",
+      "app_id": "68ba7d772883f64faede4bdd",
+      "network": "Facebook",
+      "phashion_group": "776e045d9ffd09f2",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-14",
+      "last_seen_at": "2026-01-22",
+      "creatives": [
+        {
+          "id": "776e045d9ffd09f2",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/101b3f1ca44648d8/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/101b3f1ca44648d8/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/101b3f1ca44648d8/thumb",
+          "video_duration": 59,
+          "width": 1080,
+          "height": 1080,
+          "title": "Your World, Your Rule",
+          "button_text": "Install Now",
+          "message": "Be the Master of Strategy"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "a8a10497cfa72871",
+      "app_id": "68ba7d772883f64faede4bdd",
+      "network": "Instagram",
+      "phashion_group": "a8a10497cfa72871",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-14",
+      "last_seen_at": "2026-01-22",
+      "creatives": [
+        {
+          "id": "a8a10497cfa72871",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/101b3f1ca44648d8/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/101b3f1ca44648d8/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/101b3f1ca44648d8/thumb",
+          "video_duration": 59,
+          "width": 1080,
+          "height": 1080,
+          "title": "Your World, Your Rule",
+          "button_text": "Install Now",
+          "message": "Be the Master of Strategy"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "45ecd72990e51843",
+      "app_id": "68ba7d772883f64faede4bdd",
+      "network": "Meta Audience Network",
+      "phashion_group": "45ecd72990e51843",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-14",
+      "last_seen_at": "2026-01-22",
+      "creatives": [
+        {
+          "id": "45ecd72990e51843",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/101b3f1ca44648d8/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/101b3f1ca44648d8/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/101b3f1ca44648d8/thumb",
+          "video_duration": 59,
+          "width": 1080,
+          "height": 1080,
+          "title": "Your World, Your Rule",
+          "button_text": "Install Now",
+          "message": "Be the Master of Strategy"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "70a689c3dc953f1c",
+      "app_id": "68ba7d772883f64faede4bdd",
+      "network": "Facebook",
+      "phashion_group": "70a689c3dc953f1c",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-13",
+      "last_seen_at": "2026-01-22",
+      "creatives": [
+        {
+          "id": "70a689c3dc953f1c",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/17d3b282e72e7e36/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/17d3b282e72e7e36/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/17d3b282e72e7e36/thumb",
+          "video_duration": 58,
+          "width": 1080,
+          "height": 1080,
+          "title": "Your World, Your Rule",
+          "button_text": "Install Now",
+          "message": "Be the Master of Strategy"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "af6989098ccf1e9f",
+      "app_id": "68ba7d772883f64faede4bdd",
+      "network": "Instagram",
+      "phashion_group": "af6989098ccf1e9f",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-13",
+      "last_seen_at": "2026-01-22",
+      "creatives": [
+        {
+          "id": "af6989098ccf1e9f",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/17d3b282e72e7e36/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/17d3b282e72e7e36/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/17d3b282e72e7e36/thumb",
+          "video_duration": 58,
+          "width": 1080,
+          "height": 1080,
+          "title": "Your World, Your Rule",
+          "button_text": "Install Now",
+          "message": "Be the Master of Strategy"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "42245ab7d38d2ead",
+      "app_id": "68ba7d772883f64faede4bdd",
+      "network": "Meta Audience Network",
+      "phashion_group": "42245ab7d38d2ead",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-12",
+      "last_seen_at": "2026-01-22",
+      "creatives": [
+        {
+          "id": "42245ab7d38d2ead",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/17d3b282e72e7e36/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/17d3b282e72e7e36/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/17d3b282e72e7e36/thumb",
+          "video_duration": 58,
+          "width": 1080,
+          "height": 1080,
+          "title": "Your World, Your Rule",
+          "button_text": "Install Now",
+          "message": "Be the Master of Strategy"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "7dd0b9d497ab026e",
+      "app_id": "68ba7d772883f64faede4bdd",
+      "network": "Facebook",
+      "phashion_group": "7dd0b9d497ab026e",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-14",
+      "last_seen_at": "2026-01-23",
+      "creatives": [
+        {
+          "id": "7dd0b9d497ab026e",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1aa58295ac104344/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1aa58295ac104344/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1aa58295ac104344/thumb",
+          "video_duration": 42,
+          "width": 1080,
+          "height": 1080,
+          "title": "Your World, Your Rule",
+          "button_text": "Install Now",
+          "message": "Be the Master of Strategy"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "a21fb91ec7f123ed",
+      "app_id": "68ba7d772883f64faede4bdd",
+      "network": "Instagram",
+      "phashion_group": "a21fb91ec7f123ed",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-14",
+      "last_seen_at": "2026-01-23",
+      "creatives": [
+        {
+          "id": "a21fb91ec7f123ed",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1aa58295ac104344/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1aa58295ac104344/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1aa58295ac104344/thumb",
+          "video_duration": 42,
+          "width": 1080,
+          "height": 1080,
+          "title": "Your World, Your Rule",
+          "button_text": "Install Now",
+          "message": "Be the Master of Strategy"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "4f526aa098b313df",
+      "app_id": "68ba7d772883f64faede4bdd",
+      "network": "Meta Audience Network",
+      "phashion_group": "4f526aa098b313df",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-14",
+      "last_seen_at": "2026-01-23",
+      "creatives": [
+        {
+          "id": "4f526aa098b313df",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1aa58295ac104344/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1aa58295ac104344/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1aa58295ac104344/thumb",
+          "video_duration": 42,
+          "width": 1080,
+          "height": 1080,
+          "title": "Your World, Your Rule",
+          "button_text": "Install Now",
+          "message": "Be the Master of Strategy"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "7c0eb8c8f7a5b6f0",
+      "app_id": "68ba7d772883f64faede4bdd",
+      "network": "Facebook",
+      "phashion_group": "7c0eb8c8f7a5b6f0",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-10",
+      "last_seen_at": "2026-01-22",
+      "creatives": [
+        {
+          "id": "7c0eb8c8f7a5b6f0",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1b7b8389cc1ef7da/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1b7b8389cc1ef7da/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1b7b8389cc1ef7da/thumb",
+          "video_duration": 37,
+          "width": 1080,
+          "height": 1350,
+          "title": "Your World, Your Rule",
+          "button_text": "Install Now",
+          "message": "Be the Master of Strategy"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1350",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "a3c1b802a7ff9773",
+      "app_id": "68ba7d772883f64faede4bdd",
+      "network": "Instagram",
+      "phashion_group": "a3c1b802a7ff9773",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-10",
+      "last_seen_at": "2026-01-22",
+      "creatives": [
+        {
+          "id": "a3c1b802a7ff9773",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1b7b8389cc1ef7da/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1b7b8389cc1ef7da/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1b7b8389cc1ef7da/thumb",
+          "video_duration": 37,
+          "width": 1080,
+          "height": 1350,
+          "title": "Your World, Your Rule",
+          "button_text": "Install Now",
+          "message": "Be the Master of Strategy"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1350",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "4e8c6bbcf8bda741",
+      "app_id": "68ba7d772883f64faede4bdd",
+      "network": "Meta Audience Network",
+      "phashion_group": "4e8c6bbcf8bda741",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-10",
+      "last_seen_at": "2026-01-22",
+      "creatives": [
+        {
+          "id": "4e8c6bbcf8bda741",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1b7b8389cc1ef7da/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1b7b8389cc1ef7da/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1b7b8389cc1ef7da/thumb",
+          "video_duration": 37,
+          "width": 1080,
+          "height": 1350,
+          "title": "Your World, Your Rule",
+          "button_text": "Install Now",
+          "message": "Be the Master of Strategy"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1350",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "4506b7d5869f15fb",
+      "app_id": "68ba7d772883f64faede4bdd",
+      "network": "Facebook",
+      "phashion_group": "4506b7d5869f15fb",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-09",
+      "last_seen_at": "2026-01-13",
+      "creatives": [
+        {
+          "id": "4506b7d5869f15fb",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/22738c94bd2454d1/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/22738c94bd2454d1/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/22738c94bd2454d1/thumb",
+          "video_duration": 35,
+          "width": 1080,
+          "height": 1080,
+          "title": "Your World, Your Rule",
+          "button_text": "Install Now",
+          "message": "Be the Master of Strategy"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "9ac9b71fd6c53478",
+      "app_id": "68ba7d772883f64faede4bdd",
+      "network": "Instagram",
+      "phashion_group": "9ac9b71fd6c53478",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-09",
+      "last_seen_at": "2026-01-13",
+      "creatives": [
+        {
+          "id": "9ac9b71fd6c53478",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/22738c94bd2454d1/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/22738c94bd2454d1/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/22738c94bd2454d1/thumb",
+          "video_duration": 35,
+          "width": 1080,
+          "height": 1080,
+          "title": "Your World, Your Rule",
+          "button_text": "Install Now",
+          "message": "Be the Master of Strategy"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "778464a18987044a",
+      "app_id": "68ba7d772883f64faede4bdd",
+      "network": "Meta Audience Network",
+      "phashion_group": "778464a18987044a",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-09",
+      "last_seen_at": "2026-01-13",
+      "creatives": [
+        {
+          "id": "778464a18987044a",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/22738c94bd2454d1/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/22738c94bd2454d1/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/22738c94bd2454d1/thumb",
+          "video_duration": 35,
+          "width": 1080,
+          "height": 1080,
+          "title": "Your World, Your Rule",
+          "button_text": "Install Now",
+          "message": "Be the Master of Strategy"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "493de188baac5c96",
+      "app_id": "68ba7d772883f64faede4bdd",
+      "network": "Facebook",
+      "phashion_group": "493de188baac5c96",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-14",
+      "last_seen_at": "2026-01-22",
+      "creatives": [
+        {
+          "id": "493de188baac5c96",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2e48dac981171dbc/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2e48dac981171dbc/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2e48dac981171dbc/thumb",
+          "video_duration": 56,
+          "width": 1080,
+          "height": 1920,
+          "title": "Your World, Your Rule",
+          "button_text": "Install Now",
+          "message": "Be the Master of Strategy"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "96f2e142eaf67d15",
+      "app_id": "68ba7d772883f64faede4bdd",
+      "network": "Instagram",
+      "phashion_group": "96f2e142eaf67d15",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-14",
+      "last_seen_at": "2026-01-22",
+      "creatives": [
+        {
+          "id": "96f2e142eaf67d15",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2e48dac981171dbc/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2e48dac981171dbc/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2e48dac981171dbc/thumb",
+          "video_duration": 56,
+          "width": 1080,
+          "height": 1920,
+          "title": "Your World, Your Rule",
+          "button_text": "Install Now",
+          "message": "Be the Master of Strategy"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "7bbf32fcb5b44d27",
+      "app_id": "68ba7d772883f64faede4bdd",
+      "network": "Meta Audience Network",
+      "phashion_group": "7bbf32fcb5b44d27",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-14",
+      "last_seen_at": "2026-01-22",
+      "creatives": [
+        {
+          "id": "7bbf32fcb5b44d27",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2e48dac981171dbc/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2e48dac981171dbc/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2e48dac981171dbc/thumb",
+          "video_duration": 56,
+          "width": 1080,
+          "height": 1920,
+          "title": "Your World, Your Rule",
+          "button_text": "Install Now",
+          "message": "Be the Master of Strategy"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "5613404268cdf400",
+      "app_id": "68ba7d772883f64faede4bdd",
+      "network": "Facebook",
+      "phashion_group": "5613404268cdf400",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-13",
+      "last_seen_at": "2026-01-23",
+      "creatives": [
+        {
+          "id": "5613404268cdf400",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/31667b035376b52a/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/31667b035376b52a/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/31667b035376b52a/thumb",
+          "video_duration": 49,
+          "width": 1080,
+          "height": 1920,
+          "title": "Your World, Your Rule",
+          "button_text": "Install Now",
+          "message": "Be the Master of Strategy"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "89dc40883897d583",
+      "app_id": "68ba7d772883f64faede4bdd",
+      "network": "Instagram",
+      "phashion_group": "89dc40883897d583",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-13",
+      "last_seen_at": "2026-01-23",
+      "creatives": [
+        {
+          "id": "89dc40883897d583",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/31667b035376b52a/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/31667b035376b52a/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/31667b035376b52a/thumb",
+          "video_duration": 49,
+          "width": 1080,
+          "height": 1920,
+          "title": "Your World, Your Rule",
+          "button_text": "Install Now",
+          "message": "Be the Master of Strategy"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "6491933667d5e5b1",
+      "app_id": "68ba7d772883f64faede4bdd",
+      "network": "Meta Audience Network",
+      "phashion_group": "6491933667d5e5b1",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-13",
+      "last_seen_at": "2026-01-23",
+      "creatives": [
+        {
+          "id": "6491933667d5e5b1",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/31667b035376b52a/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/31667b035376b52a/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/31667b035376b52a/thumb",
+          "video_duration": 49,
+          "width": 1080,
+          "height": 1920,
+          "title": "Your World, Your Rule",
+          "button_text": "Install Now",
+          "message": "Be the Master of Strategy"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "522778a988c11abb",
+      "app_id": "68ba7d772883f64faede4bdd",
+      "network": "Facebook",
+      "phashion_group": "522778a988c11abb",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-09",
+      "last_seen_at": "2026-01-13",
+      "creatives": [
+        {
+          "id": "522778a988c11abb",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/355243e8b37a5b91/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/355243e8b37a5b91/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/355243e8b37a5b91/thumb",
+          "video_duration": 35,
+          "width": 1080,
+          "height": 1920,
+          "title": "Your World, Your Rule",
+          "button_text": "Install Now",
+          "message": "Be the Master of Strategy"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "8de87863d89b3b38",
+      "app_id": "68ba7d772883f64faede4bdd",
+      "network": "Instagram",
+      "phashion_group": "8de87863d89b3b38",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-09",
+      "last_seen_at": "2026-01-13",
+      "creatives": [
+        {
+          "id": "8de87863d89b3b38",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/355243e8b37a5b91/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/355243e8b37a5b91/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/355243e8b37a5b91/thumb",
+          "video_duration": 35,
+          "width": 1080,
+          "height": 1920,
+          "title": "Your World, Your Rule",
+          "button_text": "Install Now",
+          "message": "Be the Master of Strategy"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "60a5abdd87d90b0a",
+      "app_id": "68ba7d772883f64faede4bdd",
+      "network": "Meta Audience Network",
+      "phashion_group": "60a5abdd87d90b0a",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-09",
+      "last_seen_at": "2026-01-13",
+      "creatives": [
+        {
+          "id": "60a5abdd87d90b0a",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/355243e8b37a5b91/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/355243e8b37a5b91/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/355243e8b37a5b91/thumb",
+          "video_duration": 35,
+          "width": 1080,
+          "height": 1920,
+          "title": "Your World, Your Rule",
+          "button_text": "Install Now",
+          "message": "Be the Master of Strategy"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "5dfcdea54596688e",
+      "app_id": "68ba7d772883f64faede4bdd",
+      "network": "Facebook",
+      "phashion_group": "5dfcdea54596688e",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-13",
+      "last_seen_at": "2026-01-22",
+      "creatives": [
+        {
+          "id": "5dfcdea54596688e",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3a89e5e47e2d29a4/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3a89e5e47e2d29a4/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3a89e5e47e2d29a4/thumb",
+          "video_duration": 58,
+          "width": 1080,
+          "height": 1920,
+          "title": "Your World, Your Rule",
+          "button_text": "Install Now",
+          "message": "Be the Master of Strategy"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "8233de6f15cc490d",
+      "app_id": "68ba7d772883f64faede4bdd",
+      "network": "Instagram",
+      "phashion_group": "8233de6f15cc490d",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-13",
+      "last_seen_at": "2026-01-22",
+      "creatives": [
+        {
+          "id": "8233de6f15cc490d",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3a89e5e47e2d29a4/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3a89e5e47e2d29a4/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3a89e5e47e2d29a4/thumb",
+          "video_duration": 58,
+          "width": 1080,
+          "height": 1920,
+          "title": "Your World, Your Rule",
+          "button_text": "Install Now",
+          "message": "Be the Master of Strategy"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "6f7e0dd14a8e793f",
+      "app_id": "68ba7d772883f64faede4bdd",
+      "network": "Meta Audience Network",
+      "phashion_group": "6f7e0dd14a8e793f",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-13",
+      "last_seen_at": "2026-01-22",
+      "creatives": [
+        {
+          "id": "6f7e0dd14a8e793f",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3a89e5e47e2d29a4/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3a89e5e47e2d29a4/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3a89e5e47e2d29a4/thumb",
+          "video_duration": 58,
+          "width": 1080,
+          "height": 1920,
+          "title": "Your World, Your Rule",
+          "button_text": "Install Now",
+          "message": "Be the Master of Strategy"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "27c1d299535fb1ea",
+      "app_id": "68ba7d772883f64faede4bdd",
+      "network": "Facebook",
+      "phashion_group": "27c1d299535fb1ea",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-13",
+      "last_seen_at": "2026-01-22",
+      "creatives": [
+        {
+          "id": "27c1d299535fb1ea",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/40b4e9d868e4f0c0/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/40b4e9d868e4f0c0/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/40b4e9d868e4f0c0/thumb",
+          "video_duration": 43,
+          "width": 1080,
+          "height": 1920,
+          "title": "Your World, Your Rule",
+          "button_text": "Install Now",
+          "message": "Be the Master of Strategy"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "f80ed25303059069",
+      "app_id": "68ba7d772883f64faede4bdd",
+      "network": "Instagram",
+      "phashion_group": "f80ed25303059069",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-13",
+      "last_seen_at": "2026-01-22",
+      "creatives": [
+        {
+          "id": "f80ed25303059069",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/40b4e9d868e4f0c0/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/40b4e9d868e4f0c0/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/40b4e9d868e4f0c0/thumb",
+          "video_duration": 43,
+          "width": 1080,
+          "height": 1920,
+          "title": "Your World, Your Rule",
+          "button_text": "Install Now",
+          "message": "Be the Master of Strategy"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "154301ed5c47a05b",
+      "app_id": "68ba7d772883f64faede4bdd",
+      "network": "Meta Audience Network",
+      "phashion_group": "154301ed5c47a05b",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-13",
+      "last_seen_at": "2026-01-22",
+      "creatives": [
+        {
+          "id": "154301ed5c47a05b",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/40b4e9d868e4f0c0/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/40b4e9d868e4f0c0/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/40b4e9d868e4f0c0/thumb",
+          "video_duration": 43,
+          "width": 1080,
+          "height": 1920,
+          "title": "Your World, Your Rule",
+          "button_text": "Install Now",
+          "message": "Be the Master of Strategy"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "23f8b38dd3b12b9c",
+      "app_id": "68ba7d772883f64faede4bdd",
+      "network": "Facebook",
+      "phashion_group": "23f8b38dd3b12b9c",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-09",
+      "last_seen_at": "2026-01-23",
+      "creatives": [
+        {
+          "id": "23f8b38dd3b12b9c",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/448d88cce80a6ab6/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/448d88cce80a6ab6/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/448d88cce80a6ab6/thumb",
+          "video_duration": 59,
+          "width": 1080,
+          "height": 1350,
+          "title": "Your World, Your Rule",
+          "button_text": "Install Now",
+          "message": "Be the Master of Strategy"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1350",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "fc37b34783eb0a1f",
+      "app_id": "68ba7d772883f64faede4bdd",
+      "network": "Instagram",
+      "phashion_group": "fc37b34783eb0a1f",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-09",
+      "last_seen_at": "2026-01-23",
+      "creatives": [
+        {
+          "id": "fc37b34783eb0a1f",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/448d88cce80a6ab6/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/448d88cce80a6ab6/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/448d88cce80a6ab6/thumb",
+          "video_duration": 59,
+          "width": 1080,
+          "height": 1350,
+          "title": "Your World, Your Rule",
+          "button_text": "Install Now",
+          "message": "Be the Master of Strategy"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1350",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "117a60f9dca93a2d",
+      "app_id": "68ba7d772883f64faede4bdd",
+      "network": "Meta Audience Network",
+      "phashion_group": "117a60f9dca93a2d",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-09",
+      "last_seen_at": "2026-01-23",
+      "creatives": [
+        {
+          "id": "117a60f9dca93a2d",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/448d88cce80a6ab6/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/448d88cce80a6ab6/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/448d88cce80a6ab6/thumb",
+          "video_duration": 59,
+          "width": 1080,
+          "height": 1350,
+          "title": "Your World, Your Rule",
+          "button_text": "Install Now",
+          "message": "Be the Master of Strategy"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1350",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "2014909a4b780feb",
+      "app_id": "68ba7d772883f64faede4bdd",
+      "network": "Facebook",
+      "phashion_group": "2014909a4b780feb",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-14",
+      "last_seen_at": "2026-01-22",
+      "creatives": [
+        {
+          "id": "2014909a4b780feb",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4761abdb70c34ec1/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4761abdb70c34ec1/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4761abdb70c34ec1/thumb",
+          "video_duration": 56,
+          "width": 1080,
+          "height": 1080,
+          "title": "Your World, Your Rule",
+          "button_text": "Install Now",
+          "message": "Be the Master of Strategy"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "ffdb90501b222e68",
+      "app_id": "68ba7d772883f64faede4bdd",
+      "network": "Instagram",
+      "phashion_group": "ffdb90501b222e68",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-14",
+      "last_seen_at": "2026-01-22",
+      "creatives": [
+        {
+          "id": "ffdb90501b222e68",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4761abdb70c34ec1/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4761abdb70c34ec1/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4761abdb70c34ec1/thumb",
+          "video_duration": 56,
+          "width": 1080,
+          "height": 1080,
+          "title": "Your World, Your Rule",
+          "button_text": "Install Now",
+          "message": "Be the Master of Strategy"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "129643ee44601e5a",
+      "app_id": "68ba7d772883f64faede4bdd",
+      "network": "Meta Audience Network",
+      "phashion_group": "129643ee44601e5a",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-14",
+      "last_seen_at": "2026-01-22",
+      "creatives": [
+        {
+          "id": "129643ee44601e5a",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4761abdb70c34ec1/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4761abdb70c34ec1/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4761abdb70c34ec1/thumb",
+          "video_duration": 56,
+          "width": 1080,
+          "height": 1080,
+          "title": "Your World, Your Rule",
+          "button_text": "Install Now",
+          "message": "Be the Master of Strategy"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "2e7cb737f93e9f13",
+      "app_id": "68ba7d772883f64faede4bdd",
+      "network": "Facebook",
+      "phashion_group": "2e7cb737f93e9f13",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-13",
+      "last_seen_at": "2026-01-23",
+      "creatives": [
+        {
+          "id": "2e7cb737f93e9f13",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/49098c76c285de39/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/49098c76c285de39/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/49098c76c285de39/thumb",
+          "video_duration": 49,
+          "width": 1080,
+          "height": 1350,
+          "title": "Your World, Your Rule",
+          "button_text": "Install Now",
+          "message": "Be the Master of Strategy"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1350",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "f1b3b7fda964be90",
+      "app_id": "68ba7d772883f64faede4bdd",
+      "network": "Instagram",
+      "phashion_group": "f1b3b7fda964be90",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-13",
+      "last_seen_at": "2026-01-23",
+      "creatives": [
+        {
+          "id": "f1b3b7fda964be90",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/49098c76c285de39/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/49098c76c285de39/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/49098c76c285de39/thumb",
+          "video_duration": 49,
+          "width": 1080,
+          "height": 1350,
+          "title": "Your World, Your Rule",
+          "button_text": "Install Now",
+          "message": "Be the Master of Strategy"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1350",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "1cfe6443f6268ea2",
+      "app_id": "68ba7d772883f64faede4bdd",
+      "network": "Meta Audience Network",
+      "phashion_group": "1cfe6443f6268ea2",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-13",
+      "last_seen_at": "2026-01-23",
+      "creatives": [
+        {
+          "id": "1cfe6443f6268ea2",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/49098c76c285de39/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/49098c76c285de39/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/49098c76c285de39/thumb",
+          "video_duration": 49,
+          "width": 1080,
+          "height": 1350,
+          "title": "Your World, Your Rule",
+          "button_text": "Install Now",
+          "message": "Be the Master of Strategy"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1350",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "2ac1cf53003f66ad",
+      "app_id": "68ba7d772883f64faede4bdd",
+      "network": "Facebook",
+      "phashion_group": "2ac1cf53003f66ad",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-14",
+      "last_seen_at": "2026-01-22",
+      "creatives": [
+        {
+          "id": "2ac1cf53003f66ad",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4db4f4123b842787/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4db4f4123b842787/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4db4f4123b842787/thumb",
+          "video_duration": 59,
+          "width": 1080,
+          "height": 1920,
+          "title": "Your World, Your Rule",
+          "button_text": "Install Now",
+          "message": "Be the Master of Strategy"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "f50ecf995065472e",
+      "app_id": "68ba7d772883f64faede4bdd",
+      "network": "Instagram",
+      "phashion_group": "f50ecf995065472e",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-14",
+      "last_seen_at": "2026-01-22",
+      "creatives": [
+        {
+          "id": "f50ecf995065472e",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4db4f4123b842787/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4db4f4123b842787/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4db4f4123b842787/thumb",
+          "video_duration": 59,
+          "width": 1080,
+          "height": 1920,
+          "title": "Your World, Your Rule",
+          "button_text": "Install Now",
+          "message": "Be the Master of Strategy"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "18431c270f27771c",
+      "app_id": "68ba7d772883f64faede4bdd",
+      "network": "Meta Audience Network",
+      "phashion_group": "18431c270f27771c",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-14",
+      "last_seen_at": "2026-01-22",
+      "creatives": [
+        {
+          "id": "18431c270f27771c",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4db4f4123b842787/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4db4f4123b842787/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4db4f4123b842787/thumb",
+          "video_duration": 59,
+          "width": 1080,
+          "height": 1920,
+          "title": "Your World, Your Rule",
+          "button_text": "Install Now",
+          "message": "Be the Master of Strategy"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "38ed157865f854ef",
+      "app_id": "68ba7d772883f64faede4bdd",
+      "network": "Facebook",
+      "phashion_group": "38ed157865f854ef",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-09",
+      "last_seen_at": "2026-01-23",
+      "creatives": [
+        {
+          "id": "38ed157865f854ef",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/5f982e395e4315c5/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/5f982e395e4315c5/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/5f982e395e4315c5/thumb",
+          "video_duration": 59,
+          "width": 1080,
+          "height": 1080,
+          "title": "Your World, Your Rule",
+          "button_text": "Install Now",
+          "message": "Be the Master of Strategy"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "e72215b235a2756c",
+      "app_id": "68ba7d772883f64faede4bdd",
+      "network": "Instagram",
+      "phashion_group": "e72215b235a2756c",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-09",
+      "last_seen_at": "2026-01-23",
+      "creatives": [
+        {
+          "id": "e72215b235a2756c",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/5f982e395e4315c5/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/5f982e395e4315c5/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/5f982e395e4315c5/thumb",
+          "video_duration": 59,
+          "width": 1080,
+          "height": 1080,
+          "title": "Your World, Your Rule",
+          "button_text": "Install Now",
+          "message": "Be the Master of Strategy"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "0a6fc60c6ae0455e",
+      "app_id": "68ba7d772883f64faede4bdd",
+      "network": "Meta Audience Network",
+      "phashion_group": "0a6fc60c6ae0455e",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-09",
+      "last_seen_at": "2026-01-23",
+      "creatives": [
+        {
+          "id": "0a6fc60c6ae0455e",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/5f982e395e4315c5/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/5f982e395e4315c5/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/5f982e395e4315c5/thumb",
+          "video_duration": 59,
+          "width": 1080,
+          "height": 1080,
+          "title": "Your World, Your Rule",
+          "button_text": "Install Now",
+          "message": "Be the Master of Strategy"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "058f23ddeecf50bf",
+      "app_id": "68ba7d772883f64faede4bdd",
+      "network": "Facebook",
+      "phashion_group": "058f23ddeecf50bf",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-09",
+      "last_seen_at": "2026-01-13",
+      "creatives": [
+        {
+          "id": "058f23ddeecf50bf",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/62fa189cd5741195/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/62fa189cd5741195/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/62fa189cd5741195/thumb",
+          "video_duration": 35,
+          "width": 1080,
+          "height": 1350,
+          "title": "Your World, Your Rule",
+          "button_text": "Install Now",
+          "message": "Be the Master of Strategy"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1350",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "da402317be95713c",
+      "app_id": "68ba7d772883f64faede4bdd",
+      "network": "Instagram",
+      "phashion_group": "da402317be95713c",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-09",
+      "last_seen_at": "2026-01-13",
+      "creatives": [
+        {
+          "id": "da402317be95713c",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/62fa189cd5741195/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/62fa189cd5741195/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/62fa189cd5741195/thumb",
+          "video_duration": 35,
+          "width": 1080,
+          "height": 1350,
+          "title": "Your World, Your Rule",
+          "button_text": "Install Now",
+          "message": "Be the Master of Strategy"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1350",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "370df0a9e1d7410e",
+      "app_id": "68ba7d772883f64faede4bdd",
+      "network": "Meta Audience Network",
+      "phashion_group": "370df0a9e1d7410e",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-09",
+      "last_seen_at": "2026-01-13",
+      "creatives": [
+        {
+          "id": "370df0a9e1d7410e",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/62fa189cd5741195/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/62fa189cd5741195/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/62fa189cd5741195/thumb",
+          "video_duration": 35,
+          "width": 1080,
+          "height": 1350,
+          "title": "Your World, Your Rule",
+          "button_text": "Install Now",
+          "message": "Be the Master of Strategy"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1350",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "040604d36c77c3ab",
+      "app_id": "68ba7d772883f64faede4bdd",
+      "network": "Facebook",
+      "phashion_group": "040604d36c77c3ab",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-14",
+      "last_seen_at": "2026-01-23",
+      "creatives": [
+        {
+          "id": "040604d36c77c3ab",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/63733f9257cc8281/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/63733f9257cc8281/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/63733f9257cc8281/thumb",
+          "video_duration": 42,
+          "width": 1080,
+          "height": 1920,
+          "title": "Your World, Your Rule",
+          "button_text": "Install Now",
+          "message": "Be the Master of Strategy"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "dbc904193c2de228",
+      "app_id": "68ba7d772883f64faede4bdd",
+      "network": "Instagram",
+      "phashion_group": "dbc904193c2de228",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-14",
+      "last_seen_at": "2026-01-23",
+      "creatives": [
+        {
+          "id": "dbc904193c2de228",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/63733f9257cc8281/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/63733f9257cc8281/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/63733f9257cc8281/thumb",
+          "video_duration": 42,
+          "width": 1080,
+          "height": 1920,
+          "title": "Your World, Your Rule",
+          "button_text": "Install Now",
+          "message": "Be the Master of Strategy"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "3684d7a7636fd21a",
+      "app_id": "68ba7d772883f64faede4bdd",
+      "network": "Meta Audience Network",
+      "phashion_group": "3684d7a7636fd21a",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-14",
+      "last_seen_at": "2026-01-23",
+      "creatives": [
+        {
+          "id": "3684d7a7636fd21a",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/63733f9257cc8281/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/63733f9257cc8281/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/63733f9257cc8281/thumb",
+          "video_duration": 42,
+          "width": 1080,
+          "height": 1920,
+          "title": "Your World, Your Rule",
+          "button_text": "Install Now",
+          "message": "Be the Master of Strategy"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "09b8483cc15be648",
+      "app_id": "68ba7d772883f64faede4bdd",
+      "network": "Facebook",
+      "phashion_group": "09b8483cc15be648",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-14",
+      "last_seen_at": "2026-01-22",
+      "creatives": [
+        {
+          "id": "09b8483cc15be648",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/6ecd737dfae0a762/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/6ecd737dfae0a762/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/6ecd737dfae0a762/thumb",
+          "video_duration": 56,
+          "width": 1080,
+          "height": 1350,
+          "title": "Your World, Your Rule",
+          "button_text": "Install Now",
+          "message": "Be the Master of Strategy"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1350",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "d67748f69101c7cb",
+      "app_id": "68ba7d772883f64faede4bdd",
+      "network": "Instagram",
+      "phashion_group": "d67748f69101c7cb",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-14",
+      "last_seen_at": "2026-01-22",
+      "creatives": [
+        {
+          "id": "d67748f69101c7cb",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/6ecd737dfae0a762/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/6ecd737dfae0a762/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/6ecd737dfae0a762/thumb",
+          "video_duration": 56,
+          "width": 1080,
+          "height": 1350,
+          "title": "Your World, Your Rule",
+          "button_text": "Install Now",
+          "message": "Be the Master of Strategy"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1350",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "3b3a9b48ce43f7f9",
+      "app_id": "68ba7d772883f64faede4bdd",
+      "network": "Meta Audience Network",
+      "phashion_group": "3b3a9b48ce43f7f9",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-14",
+      "last_seen_at": "2026-01-22",
+      "creatives": [
+        {
+          "id": "3b3a9b48ce43f7f9",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/6ecd737dfae0a762/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/6ecd737dfae0a762/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/6ecd737dfae0a762/thumb",
+          "video_duration": 56,
+          "width": 1080,
+          "height": 1350,
+          "title": "Your World, Your Rule",
+          "button_text": "Install Now",
+          "message": "Be the Master of Strategy"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1350",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "e72598500deff3f7",
+      "app_id": "68ba7d772883f64faede4bdd",
+      "network": "Facebook",
+      "phashion_group": "e72598500deff3f7",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-09",
+      "last_seen_at": "2026-01-22",
+      "creatives": [
+        {
+          "id": "e72598500deff3f7",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/8050a3113654b2dd/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/8050a3113654b2dd/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/8050a3113654b2dd/thumb",
+          "video_duration": 33,
+          "width": 1080,
+          "height": 1080,
+          "title": "Your World, Your Rule",
+          "button_text": "Install Now",
+          "message": "Be the Master of Strategy"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "38ea989a5db5d274",
+      "app_id": "68ba7d772883f64faede4bdd",
+      "network": "Instagram",
+      "phashion_group": "38ea989a5db5d274",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-09",
+      "last_seen_at": "2026-01-22",
+      "creatives": [
+        {
+          "id": "38ea989a5db5d274",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/8050a3113654b2dd/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/8050a3113654b2dd/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/8050a3113654b2dd/thumb",
+          "video_duration": 33,
+          "width": 1080,
+          "height": 1080,
+          "title": "Your World, Your Rule",
+          "button_text": "Install Now",
+          "message": "Be the Master of Strategy"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "d5a74b2402f7e246",
+      "app_id": "68ba7d772883f64faede4bdd",
+      "network": "Meta Audience Network",
+      "phashion_group": "d5a74b2402f7e246",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-09",
+      "last_seen_at": "2026-01-22",
+      "creatives": [
+        {
+          "id": "d5a74b2402f7e246",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/8050a3113654b2dd/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/8050a3113654b2dd/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/8050a3113654b2dd/thumb",
+          "video_duration": 33,
+          "width": 1080,
+          "height": 1080,
+          "title": "Your World, Your Rule",
+          "button_text": "Install Now",
+          "message": "Be the Master of Strategy"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "e6321bfd2ae56585",
+      "app_id": "68ba7d772883f64faede4bdd",
+      "network": "Facebook",
+      "phashion_group": "e6321bfd2ae56585",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-09",
+      "last_seen_at": "2026-01-22",
+      "creatives": [
+        {
+          "id": "e6321bfd2ae56585",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/814720bc115e24af/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/814720bc115e24af/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/814720bc115e24af/thumb",
+          "video_duration": 33,
+          "width": 1080,
+          "height": 1350,
+          "title": "Your World, Your Rule",
+          "button_text": "Install Now",
+          "message": "Be the Master of Strategy"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1350",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "39fd1b377abf4406",
+      "app_id": "68ba7d772883f64faede4bdd",
+      "network": "Instagram",
+      "phashion_group": "39fd1b377abf4406",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-09",
+      "last_seen_at": "2026-01-22",
+      "creatives": [
+        {
+          "id": "39fd1b377abf4406",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/814720bc115e24af/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/814720bc115e24af/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/814720bc115e24af/thumb",
+          "video_duration": 33,
+          "width": 1080,
+          "height": 1350,
+          "title": "Your World, Your Rule",
+          "button_text": "Install Now",
+          "message": "Be the Master of Strategy"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1350",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "d4b0c88925fd7434",
+      "app_id": "68ba7d772883f64faede4bdd",
+      "network": "Meta Audience Network",
+      "phashion_group": "d4b0c88925fd7434",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-09",
+      "last_seen_at": "2026-01-22",
+      "creatives": [
+        {
+          "id": "d4b0c88925fd7434",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/814720bc115e24af/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/814720bc115e24af/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/814720bc115e24af/thumb",
+          "video_duration": 33,
+          "width": 1080,
+          "height": 1350,
+          "title": "Your World, Your Rule",
+          "button_text": "Install Now",
+          "message": "Be the Master of Strategy"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1350",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "e53bd4062701b2f4",
+      "app_id": "68ba7d772883f64faede4bdd",
+      "network": "Facebook",
+      "phashion_group": "e53bd4062701b2f4",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-11",
+      "last_seen_at": "2026-01-13",
+      "creatives": [
+        {
+          "id": "e53bd4062701b2f4",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/824eef471cbaf3de/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/824eef471cbaf3de/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/824eef471cbaf3de/thumb",
+          "video_duration": 50,
+          "width": 1080,
+          "height": 1350,
+          "title": "Your World, Your Rule",
+          "button_text": "Install Now",
+          "message": "Be the Master of Strategy"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1350",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "3af4d4cc775b9377",
+      "app_id": "68ba7d772883f64faede4bdd",
+      "network": "Instagram",
+      "phashion_group": "3af4d4cc775b9377",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-11",
+      "last_seen_at": "2026-01-13",
+      "creatives": [
+        {
+          "id": "3af4d4cc775b9377",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/824eef471cbaf3de/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/824eef471cbaf3de/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/824eef471cbaf3de/thumb",
+          "video_duration": 50,
+          "width": 1080,
+          "height": 1350,
+          "title": "Your World, Your Rule",
+          "button_text": "Install Now",
+          "message": "Be the Master of Strategy"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1350",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "d7b907722819a345",
+      "app_id": "68ba7d772883f64faede4bdd",
+      "network": "Meta Audience Network",
+      "phashion_group": "d7b907722819a345",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-11",
+      "last_seen_at": "2026-01-13",
+      "creatives": [
+        {
+          "id": "d7b907722819a345",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/824eef471cbaf3de/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/824eef471cbaf3de/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/824eef471cbaf3de/thumb",
+          "video_duration": 50,
+          "width": 1080,
+          "height": 1350,
+          "title": "Your World, Your Rule",
+          "button_text": "Install Now",
+          "message": "Be the Master of Strategy"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1350",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "e17fd79e7287d7e4",
+      "app_id": "68ba7d772883f64faede4bdd",
+      "network": "Facebook",
+      "phashion_group": "e17fd79e7287d7e4",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-13",
+      "last_seen_at": "2026-01-23",
+      "creatives": [
+        {
+          "id": "e17fd79e7287d7e4",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/860aecdf493c96ce/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/860aecdf493c96ce/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/860aecdf493c96ce/thumb",
+          "video_duration": 49,
+          "width": 1080,
+          "height": 1080,
+          "title": "Your World, Your Rule",
+          "button_text": "Install Now",
+          "message": "Be the Master of Strategy"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "3eb0d75422ddf667",
+      "app_id": "68ba7d772883f64faede4bdd",
+      "network": "Instagram",
+      "phashion_group": "3eb0d75422ddf667",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-13",
+      "last_seen_at": "2026-01-23",
+      "creatives": [
+        {
+          "id": "3eb0d75422ddf667",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/860aecdf493c96ce/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/860aecdf493c96ce/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/860aecdf493c96ce/thumb",
+          "video_duration": 49,
+          "width": 1080,
+          "height": 1080,
+          "title": "Your World, Your Rule",
+          "button_text": "Install Now",
+          "message": "Be the Master of Strategy"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "d3fd04ea7d9fc655",
+      "app_id": "68ba7d772883f64faede4bdd",
+      "network": "Meta Audience Network",
+      "phashion_group": "d3fd04ea7d9fc655",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-13",
+      "last_seen_at": "2026-01-23",
+      "creatives": [
+        {
+          "id": "d3fd04ea7d9fc655",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/860aecdf493c96ce/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/860aecdf493c96ce/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/860aecdf493c96ce/thumb",
+          "video_duration": 49,
+          "width": 1080,
+          "height": 1080,
+          "title": "Your World, Your Rule",
+          "button_text": "Install Now",
+          "message": "Be the Master of Strategy"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "eea29104139aad42",
+      "app_id": "68ba7d772883f64faede4bdd",
+      "network": "Facebook",
+      "phashion_group": "eea29104139aad42",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-10",
+      "last_seen_at": "2026-01-22",
+      "creatives": [
+        {
+          "id": "eea29104139aad42",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/89d7aa452821ec68/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/89d7aa452821ec68/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/89d7aa452821ec68/thumb",
+          "video_duration": 37,
+          "width": 1080,
+          "height": 1920,
+          "title": "Your World, Your Rule",
+          "button_text": "Install Now",
+          "message": "Be the Master of Strategy"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "316d91ce43c08cc1",
+      "app_id": "68ba7d772883f64faede4bdd",
+      "network": "Instagram",
+      "phashion_group": "316d91ce43c08cc1",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-10",
+      "last_seen_at": "2026-01-22",
+      "creatives": [
+        {
+          "id": "316d91ce43c08cc1",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/89d7aa452821ec68/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/89d7aa452821ec68/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/89d7aa452821ec68/thumb",
+          "video_duration": 37,
+          "width": 1080,
+          "height": 1920,
+          "title": "Your World, Your Rule",
+          "button_text": "Install Now",
+          "message": "Be the Master of Strategy"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "dc2042701c82bcf3",
+      "app_id": "68ba7d772883f64faede4bdd",
+      "network": "Meta Audience Network",
+      "phashion_group": "dc2042701c82bcf3",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-10",
+      "last_seen_at": "2026-01-22",
+      "creatives": [
+        {
+          "id": "dc2042701c82bcf3",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/89d7aa452821ec68/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/89d7aa452821ec68/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/89d7aa452821ec68/thumb",
+          "video_duration": 37,
+          "width": 1080,
+          "height": 1920,
+          "title": "Your World, Your Rule",
+          "button_text": "Install Now",
+          "message": "Be the Master of Strategy"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "f352f645f549cdeb",
+      "app_id": "68ba7d772883f64faede4bdd",
+      "network": "Facebook",
+      "phashion_group": "f352f645f549cdeb",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-11",
+      "last_seen_at": "2026-01-13",
+      "creatives": [
+        {
+          "id": "f352f645f549cdeb",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/9427cd04cef28cc1/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/9427cd04cef28cc1/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/9427cd04cef28cc1/thumb",
+          "video_duration": 50,
+          "width": 1080,
+          "height": 1080,
+          "title": "Your World, Your Rule",
+          "button_text": "Install Now",
+          "message": "Be the Master of Strategy"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "2c9df68fa513ec68",
+      "app_id": "68ba7d772883f64faede4bdd",
+      "network": "Instagram",
+      "phashion_group": "2c9df68fa513ec68",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-11",
+      "last_seen_at": "2026-01-13",
+      "creatives": [
+        {
+          "id": "2c9df68fa513ec68",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/9427cd04cef28cc1/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/9427cd04cef28cc1/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/9427cd04cef28cc1/thumb",
+          "video_duration": 50,
+          "width": 1080,
+          "height": 1080,
+          "title": "Your World, Your Rule",
+          "button_text": "Install Now",
+          "message": "Be the Master of Strategy"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "c1d02531fa51dc5a",
+      "app_id": "68ba7d772883f64faede4bdd",
+      "network": "Meta Audience Network",
+      "phashion_group": "c1d02531fa51dc5a",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-11",
+      "last_seen_at": "2026-01-13",
+      "creatives": [
+        {
+          "id": "c1d02531fa51dc5a",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/9427cd04cef28cc1/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/9427cd04cef28cc1/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/9427cd04cef28cc1/thumb",
+          "video_duration": 50,
+          "width": 1080,
+          "height": 1080,
+          "title": "Your World, Your Rule",
+          "button_text": "Install Now",
+          "message": "Be the Master of Strategy"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "f22dcdebd52c7eaf",
+      "app_id": "68ba7d772883f64faede4bdd",
+      "network": "Facebook",
+      "phashion_group": "f22dcdebd52c7eaf",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-10",
+      "last_seen_at": "2026-01-22",
+      "creatives": [
+        {
+          "id": "f22dcdebd52c7eaf",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/9558f6aaee973f85/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/9558f6aaee973f85/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/9558f6aaee973f85/thumb",
+          "video_duration": 37,
+          "width": 1080,
+          "height": 1080,
+          "title": "Your World, Your Rule",
+          "button_text": "Install Now",
+          "message": "Be the Master of Strategy"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "2de2cd2185765f2c",
+      "app_id": "68ba7d772883f64faede4bdd",
+      "network": "Instagram",
+      "phashion_group": "2de2cd2185765f2c",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-10",
+      "last_seen_at": "2026-01-22",
+      "creatives": [
+        {
+          "id": "2de2cd2185765f2c",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/9558f6aaee973f85/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/9558f6aaee973f85/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/9558f6aaee973f85/thumb",
+          "video_duration": 37,
+          "width": 1080,
+          "height": 1080,
+          "title": "Your World, Your Rule",
+          "button_text": "Install Now",
+          "message": "Be the Master of Strategy"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "c0af1e9fda346f1e",
+      "app_id": "68ba7d772883f64faede4bdd",
+      "network": "Meta Audience Network",
+      "phashion_group": "c0af1e9fda346f1e",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-10",
+      "last_seen_at": "2026-01-22",
+      "creatives": [
+        {
+          "id": "c0af1e9fda346f1e",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/9558f6aaee973f85/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/9558f6aaee973f85/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/9558f6aaee973f85/thumb",
+          "video_duration": 37,
+          "width": 1080,
+          "height": 1080,
+          "title": "Your World, Your Rule",
+          "button_text": "Install Now",
+          "message": "Be the Master of Strategy"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "ca660f19ad6a7bfc",
+      "app_id": "68ba7d772883f64faede4bdd",
+      "network": "Facebook",
+      "phashion_group": "ca660f19ad6a7bfc",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-09",
+      "last_seen_at": "2026-01-22",
+      "creatives": [
+        {
+          "id": "ca660f19ad6a7bfc",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/ad13345896d13ad6/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/ad13345896d13ad6/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/ad13345896d13ad6/thumb",
+          "video_duration": 33,
+          "width": 1080,
+          "height": 1920,
+          "title": "Your World, Your Rule",
+          "button_text": "Install Now",
+          "message": "Be the Master of Strategy"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "15a90fd3fd305a7f",
+      "app_id": "68ba7d772883f64faede4bdd",
+      "network": "Instagram",
+      "phashion_group": "15a90fd3fd305a7f",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-09",
+      "last_seen_at": "2026-01-22",
+      "creatives": [
+        {
+          "id": "15a90fd3fd305a7f",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/ad13345896d13ad6/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/ad13345896d13ad6/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/ad13345896d13ad6/thumb",
+          "video_duration": 33,
+          "width": 1080,
+          "height": 1920,
+          "title": "Your World, Your Rule",
+          "button_text": "Install Now",
+          "message": "Be the Master of Strategy"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "f8e4dc6da2726a4d",
+      "app_id": "68ba7d772883f64faede4bdd",
+      "network": "Meta Audience Network",
+      "phashion_group": "f8e4dc6da2726a4d",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-09",
+      "last_seen_at": "2026-01-22",
+      "creatives": [
+        {
+          "id": "f8e4dc6da2726a4d",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/ad13345896d13ad6/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/ad13345896d13ad6/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/ad13345896d13ad6/thumb",
+          "video_duration": 33,
+          "width": 1080,
+          "height": 1920,
+          "title": "Your World, Your Rule",
+          "button_text": "Install Now",
+          "message": "Be the Master of Strategy"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "d4ae70f6a64cac43",
+      "app_id": "68ba7d772883f64faede4bdd",
+      "network": "Facebook",
+      "phashion_group": "d4ae70f6a64cac43",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-13",
+      "last_seen_at": "2026-01-22",
+      "creatives": [
+        {
+          "id": "d4ae70f6a64cac43",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/b3db4bb79df7ed69/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/b3db4bb79df7ed69/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/b3db4bb79df7ed69/thumb",
+          "video_duration": 43,
+          "width": 1080,
+          "height": 1080,
+          "title": "Your World, Your Rule",
+          "button_text": "Install Now",
+          "message": "Be the Master of Strategy"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "0b61703cf6168dc0",
+      "app_id": "68ba7d772883f64faede4bdd",
+      "network": "Instagram",
+      "phashion_group": "0b61703cf6168dc0",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-13",
+      "last_seen_at": "2026-01-22",
+      "creatives": [
+        {
+          "id": "0b61703cf6168dc0",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/b3db4bb79df7ed69/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/b3db4bb79df7ed69/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/b3db4bb79df7ed69/thumb",
+          "video_duration": 43,
+          "width": 1080,
+          "height": 1080,
+          "title": "Your World, Your Rule",
+          "button_text": "Install Now",
+          "message": "Be the Master of Strategy"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "e62ca382a954bdf2",
+      "app_id": "68ba7d772883f64faede4bdd",
+      "network": "Meta Audience Network",
+      "phashion_group": "e62ca382a954bdf2",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-13",
+      "last_seen_at": "2026-01-22",
+      "creatives": [
+        {
+          "id": "e62ca382a954bdf2",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/b3db4bb79df7ed69/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/b3db4bb79df7ed69/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/b3db4bb79df7ed69/thumb",
+          "video_duration": 43,
+          "width": 1080,
+          "height": 1080,
+          "title": "Your World, Your Rule",
+          "button_text": "Install Now",
+          "message": "Be the Master of Strategy"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "a4dc379b092876c0",
+      "app_id": "68ba7d772883f64faede4bdd",
+      "network": "Facebook",
+      "phashion_group": "a4dc379b092876c0",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-09",
+      "last_seen_at": "2026-01-23",
+      "creatives": [
+        {
+          "id": "a4dc379b092876c0",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/c3a90cda329337ea/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/c3a90cda329337ea/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/c3a90cda329337ea/thumb",
+          "video_duration": 59,
+          "width": 1080,
+          "height": 1920,
+          "title": "Your World, Your Rule",
+          "button_text": "Install Now",
+          "message": "Be the Master of Strategy"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "7b13375159725743",
+      "app_id": "68ba7d772883f64faede4bdd",
+      "network": "Instagram",
+      "phashion_group": "7b13375159725743",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-09",
+      "last_seen_at": "2026-01-23",
+      "creatives": [
+        {
+          "id": "7b13375159725743",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/c3a90cda329337ea/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/c3a90cda329337ea/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/c3a90cda329337ea/thumb",
+          "video_duration": 59,
+          "width": 1080,
+          "height": 1920,
+          "title": "Your World, Your Rule",
+          "button_text": "Install Now",
+          "message": "Be the Master of Strategy"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "965ee4ef06306771",
+      "app_id": "68ba7d772883f64faede4bdd",
+      "network": "Meta Audience Network",
+      "phashion_group": "965ee4ef06306771",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-09",
+      "last_seen_at": "2026-01-23",
+      "creatives": [
+        {
+          "id": "965ee4ef06306771",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/c3a90cda329337ea/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/c3a90cda329337ea/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/c3a90cda329337ea/thumb",
+          "video_duration": 59,
+          "width": 1080,
+          "height": 1920,
+          "title": "Your World, Your Rule",
+          "button_text": "Install Now",
+          "message": "Be the Master of Strategy"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "a3089d2687f8d88c",
+      "app_id": "68ba7d772883f64faede4bdd",
+      "network": "Facebook",
+      "phashion_group": "a3089d2687f8d88c",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-13",
+      "last_seen_at": "2026-01-16",
+      "creatives": [
+        {
+          "id": "a3089d2687f8d88c",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/c47da667bc4399a6/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/c47da667bc4399a6/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/c47da667bc4399a6/thumb",
+          "video_duration": 49,
+          "width": 1080,
+          "height": 1350,
+          "title": "Your World, Your Rule",
+          "button_text": "Install Now",
+          "message": "Be the Master of Strategy"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1350",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "7cc79decd7a2f90f",
+      "app_id": "68ba7d772883f64faede4bdd",
+      "network": "Instagram",
+      "phashion_group": "7cc79decd7a2f90f",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-13",
+      "last_seen_at": "2026-01-16",
+      "creatives": [
+        {
+          "id": "7cc79decd7a2f90f",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/c47da667bc4399a6/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/c47da667bc4399a6/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/c47da667bc4399a6/thumb",
+          "video_duration": 49,
+          "width": 1080,
+          "height": 1350,
+          "title": "Your World, Your Rule",
+          "button_text": "Install Now",
+          "message": "Be the Master of Strategy"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1350",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "918a4e5288e0c93d",
+      "app_id": "68ba7d772883f64faede4bdd",
+      "network": "Meta Audience Network",
+      "phashion_group": "918a4e5288e0c93d",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-12",
+      "last_seen_at": "2026-01-16",
+      "creatives": [
+        {
+          "id": "918a4e5288e0c93d",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/c47da667bc4399a6/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/c47da667bc4399a6/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/c47da667bc4399a6/thumb",
+          "video_duration": 49,
+          "width": 1080,
+          "height": 1350,
+          "title": "Your World, Your Rule",
+          "button_text": "Install Now",
+          "message": "Be the Master of Strategy"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1350",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "ae6c33fd0e13996c",
+      "app_id": "68ba7d772883f64faede4bdd",
+      "network": "Facebook",
+      "phashion_group": "ae6c33fd0e13996c",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-14",
+      "last_seen_at": "2026-01-23",
+      "creatives": [
+        {
+          "id": "ae6c33fd0e13996c",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/c91908bc35a8d846/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/c91908bc35a8d846/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/c91908bc35a8d846/thumb",
+          "video_duration": 42,
+          "width": 1080,
+          "height": 1350,
+          "title": "Your World, Your Rule",
+          "button_text": "Install Now",
+          "message": "Be the Master of Strategy"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1350",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "71a333375e49b8ef",
+      "app_id": "68ba7d772883f64faede4bdd",
+      "network": "Instagram",
+      "phashion_group": "71a333375e49b8ef",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-14",
+      "last_seen_at": "2026-01-23",
+      "creatives": [
+        {
+          "id": "71a333375e49b8ef",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/c91908bc35a8d846/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/c91908bc35a8d846/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/c91908bc35a8d846/thumb",
+          "video_duration": 42,
+          "width": 1080,
+          "height": 1350,
+          "title": "Your World, Your Rule",
+          "button_text": "Install Now",
+          "message": "Be the Master of Strategy"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1350",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "9ceee089010b88dd",
+      "app_id": "68ba7d772883f64faede4bdd",
+      "network": "Meta Audience Network",
+      "phashion_group": "9ceee089010b88dd",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-14",
+      "last_seen_at": "2026-01-23",
+      "creatives": [
+        {
+          "id": "9ceee089010b88dd",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/c91908bc35a8d846/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/c91908bc35a8d846/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/c91908bc35a8d846/thumb",
+          "video_duration": 42,
+          "width": 1080,
+          "height": 1350,
+          "title": "Your World, Your Rule",
+          "button_text": "Install Now",
+          "message": "Be the Master of Strategy"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1350",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "bd2d3b26ecdffdb2",
+      "app_id": "68ba7d772883f64faede4bdd",
+      "network": "Facebook",
+      "phashion_group": "bd2d3b26ecdffdb2",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-11",
+      "last_seen_at": "2026-01-13",
+      "creatives": [
+        {
+          "id": "bd2d3b26ecdffdb2",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/da580067d764bc98/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/da580067d764bc98/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/da580067d764bc98/thumb",
+          "video_duration": 50,
+          "width": 1080,
+          "height": 1920,
+          "title": "Your World, Your Rule",
+          "button_text": "Install Now",
+          "message": "Be the Master of Strategy"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "62e23becbc85dc31",
+      "app_id": "68ba7d772883f64faede4bdd",
+      "network": "Instagram",
+      "phashion_group": "62e23becbc85dc31",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-11",
+      "last_seen_at": "2026-01-13",
+      "creatives": [
+        {
+          "id": "62e23becbc85dc31",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/da580067d764bc98/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/da580067d764bc98/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/da580067d764bc98/thumb",
+          "video_duration": 50,
+          "width": 1080,
+          "height": 1920,
+          "title": "Your World, Your Rule",
+          "button_text": "Install Now",
+          "message": "Be the Master of Strategy"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "8fafe852e3c7ec03",
+      "app_id": "68ba7d772883f64faede4bdd",
+      "network": "Meta Audience Network",
+      "phashion_group": "8fafe852e3c7ec03",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-11",
+      "last_seen_at": "2026-01-13",
+      "creatives": [
+        {
+          "id": "8fafe852e3c7ec03",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/da580067d764bc98/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/da580067d764bc98/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/da580067d764bc98/thumb",
+          "video_duration": 50,
+          "width": 1080,
+          "height": 1920,
+          "title": "Your World, Your Rule",
+          "button_text": "Install Now",
+          "message": "Be the Master of Strategy"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "87fc6143fb5a01dd",
+      "app_id": "68ba7d772883f64faede4bdd",
+      "network": "Facebook",
+      "phashion_group": "87fc6143fb5a01dd",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-14",
+      "last_seen_at": "2026-01-22",
+      "creatives": [
+        {
+          "id": "87fc6143fb5a01dd",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/e0895a02c0e140f7/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/e0895a02c0e140f7/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/e0895a02c0e140f7/thumb",
+          "video_duration": 59,
+          "width": 1080,
+          "height": 1350,
+          "title": "Your World, Your Rule",
+          "button_text": "Install Now",
+          "message": "Be the Master of Strategy"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1350",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "58336189ab00205e",
+      "app_id": "68ba7d772883f64faede4bdd",
+      "network": "Instagram",
+      "phashion_group": "58336189ab00205e",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-14",
+      "last_seen_at": "2026-01-22",
+      "creatives": [
+        {
+          "id": "58336189ab00205e",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/e0895a02c0e140f7/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/e0895a02c0e140f7/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/e0895a02c0e140f7/thumb",
+          "video_duration": 59,
+          "width": 1080,
+          "height": 1350,
+          "title": "Your World, Your Rule",
+          "button_text": "Install Now",
+          "message": "Be the Master of Strategy"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1350",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "b57eb237f442106c",
+      "app_id": "68ba7d772883f64faede4bdd",
+      "network": "Meta Audience Network",
+      "phashion_group": "b57eb237f442106c",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-14",
+      "last_seen_at": "2026-01-22",
+      "creatives": [
+        {
+          "id": "b57eb237f442106c",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/e0895a02c0e140f7/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/e0895a02c0e140f7/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/e0895a02c0e140f7/thumb",
+          "video_duration": 59,
+          "width": 1080,
+          "height": 1350,
+          "title": "Your World, Your Rule",
+          "button_text": "Install Now",
+          "message": "Be the Master of Strategy"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1350",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "841255e6b9061e4b",
+      "app_id": "68ba7d772883f64faede4bdd",
+      "network": "Facebook",
+      "phashion_group": "841255e6b9061e4b",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-13",
+      "last_seen_at": "2026-01-22",
+      "creatives": [
+        {
+          "id": "841255e6b9061e4b",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/e3676ea782bd5f61/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/e3676ea782bd5f61/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/e3676ea782bd5f61/thumb",
+          "video_duration": 43,
+          "width": 1080,
+          "height": 1350,
+          "title": "Your World, Your Rule",
+          "button_text": "Install Now",
+          "message": "Be the Master of Strategy"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1350",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    }
+  ]
+}

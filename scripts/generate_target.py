@@ -3,11 +3,10 @@
 """
 功能一·获得目标产品：从数据监测表（output 表）中按规则筛出策略目标与非策略目标，写入 target/ 下。
 
-- 策略目标：仅通过产品归属表确定——产品归属在 mapping/产品归属.xlsx 中的产品即为策略目标。
-- 非策略目标：通过 P50 + 周安装变动 > 20% 确定——非策略产品中，当周周安装 ≥ P50 且 周安装变动 > 20% 的行。
+- 策略目标：产品归属在 mapping/产品归属.xlsx 中有记录，且 周安装变动 > +20%，且 当周周安装 > 1000 的行。
+- 非策略目标：产品归属不在策略表中，且 周安装变动 > +20%，且 当周周安装 > 1000 的行（不再用 P50）。
 
 old / new 划分：按「第三方记录最早上线时间」与截止日期（默认 2025-01-01）区分爆量旧产品 / 新产品。
-策略目标另需满足：当周周安装 ≥ 1000。
 """
 
 import argparse
@@ -118,25 +117,20 @@ def run_generate_target(week_tag: str, year: int, old_new_cutoff: str = OLD_NEW_
     if col_product not in df.columns:
         raise ValueError("数据监测表缺少列: 产品归属")
 
-    # 策略目标：产品归属在产品归属表中，且当周周安装 ≥ 1000
-    strategy_mask = df[col_product].astype(str).str.strip().isin(strategy_set)
-    if col_install in df.columns:
-        inst = pd.to_numeric(df[col_install], errors="coerce").fillna(0)
-        strategy_mask = strategy_mask & (inst >= 1000)
+    # 目标产品条件：周安装变动 > +20%，当周周安装 > 1000，且有产品归属（在 mapping 中有记录）
+    inst = pd.to_numeric(df[col_install], errors="coerce").fillna(0) if col_install in df.columns else pd.Series(0, index=df.index)
+    pct_vals = df[col_change].apply(_parse_install_change) if col_change in df.columns else pd.Series(None, index=df.index)
+    mask_inst = inst > 1000
+    mask_20 = pct_vals.notna() & (pct_vals > 20)
+    mask_has_product = df[col_product].astype(str).str.strip() != ""
+
+    # 策略目标：产品归属在产品归属表中，且 周安装变动>20%、当周周安装>1000
+    strategy_mask = df[col_product].astype(str).str.strip().isin(strategy_set) & mask_inst & mask_20 & mask_has_product
     strategy_df = df[strategy_mask].copy()
 
-    # 非策略：产品归属不在策略表中的行
-    non_strategy_df = df[~strategy_mask].copy()
-    # P50 + 周安装变动 > 20%
-    if col_install in non_strategy_df.columns and col_change in non_strategy_df.columns and len(non_strategy_df) > 0:
-        installs = pd.to_numeric(non_strategy_df[col_install], errors="coerce").fillna(0)
-        p50 = installs.median()
-        pct_vals = non_strategy_df[col_change].apply(_parse_install_change)
-        mask_p50 = installs >= p50
-        mask_20 = pct_vals.notna() & (pct_vals > 20)
-        non_strategy_df = non_strategy_df[mask_p50 & mask_20].copy()
-    else:
-        non_strategy_df = non_strategy_df.iloc[0:0]
+    # 非策略目标：产品归属不在策略表中，且 周安装变动>20%、当周周安装>1000（不再用 P50）
+    non_strategy_mask = (~df[col_product].astype(str).str.strip().isin(strategy_set)) & mask_inst & mask_20 & mask_has_product
+    non_strategy_df = df[non_strategy_mask].copy()
 
     def split_old_new(sub_df):
         if col_date not in sub_df.columns or sub_df.empty:

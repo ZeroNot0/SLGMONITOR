@@ -39,6 +39,11 @@ body {
 
 .logo { font-size: 1.1rem; font-weight: 600; }
 
+.data-time-range {
+  font-size: 0.9rem;
+  color: #95a5a6;
+}
+
 .local-time {
   font-size: 0.9rem;
   color: #bdc3c7;
@@ -216,6 +221,222 @@ body {
   font-size: 0.9rem;
   color: #7f8c8d;
   min-width: 80px;
+}
+
+/* 产品详细信息看板 */
+.product-detail-sub-nav {
+  display: flex;
+  gap: 0;
+  margin-bottom: 0.75rem;
+  border-bottom: 1px solid var(--table-border);
+}
+
+.product-detail-sub-link {
+  padding: 0.5rem 1rem;
+  color: #7f8c8d;
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+  margin-bottom: -1px;
+}
+
+.product-detail-sub-link:hover { color: #2c3e50; }
+
+.product-detail-sub-link.active {
+  color: var(--top-nav-active);
+  border-bottom-color: var(--top-nav-active);
+  font-weight: 500;
+}
+
+.product-detail-date-range {
+  font-size: 0.9rem;
+  color: #7f8c8d;
+  margin: 0 0 1rem;
+}
+
+.product-detail-section-title {
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 0 0 0.5rem;
+  color: #2c3e50;
+}
+
+.product-detail-intro,
+.product-detail-metrics,
+.product-detail-trend,
+.product-detail-creative {
+  margin-bottom: 1.5rem;
+}
+
+.product-detail-trend-charts {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+  margin-top: 0.5rem;
+}
+
+.product-detail-trend-chart-wrap {
+  min-width: 0;
+}
+
+.product-detail-chart-container {
+  position: relative;
+  height: 260px;
+  width: 100%;
+}
+
+.product-detail-trend-loading {
+  font-size: 0.9rem;
+  color: #7f8c8d;
+  margin-top: 0.5rem;
+}
+
+.product-detail-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 0.75rem;
+}
+
+.product-detail-card {
+  padding: 0.75rem 1rem;
+  border: 1px solid var(--table-border);
+  border-radius: 6px;
+  background: var(--table-row-alt);
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.product-detail-card-label {
+  font-size: 0.8rem;
+  color: #7f8c8d;
+}
+
+.product-detail-card-value {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #2c3e50;
+}
+
+.product-detail-metrics-row {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+
+.product-detail-desc {
+  font-size: 0.85rem;
+  color: #7f8c8d;
+  margin: 0 0 0.5rem;
+}
+
+.product-detail-chart-placeholder {
+  min-height: 120px;
+  padding: 1.5rem;
+  border: 1px dashed var(--table-border);
+  border-radius: 6px;
+  background: #fafafa;
+  color: #95a5a6;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.product-detail-creative-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.product-detail-chart-wrap {
+  min-width: 0;
+}
+
+.product-detail-jump-wrap {
+  margin-top: 1rem;
+}
+
+.product-detail-jump-btn {
+  padding: 0.5rem 1.5rem;
+  font-size: 0.95rem;
+}
+
+/* 公司详细信息看板（复用产品详细样式） */
+.company-detail-sub-nav {
+  display: flex;
+  gap: 0;
+  margin-bottom: 0.75rem;
+  border-bottom: 1px solid var(--table-border);
+}
+
+.company-detail-sub-link {
+  padding: 0.5rem 1rem;
+  color: #7f8c8d;
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+  margin-bottom: -1px;
+}
+
+.company-detail-sub-link:hover { color: #2c3e50; }
+
+.company-detail-sub-link.active {
+  color: var(--top-nav-active);
+  border-bottom-color: var(--top-nav-active);
+  font-weight: 500;
+}
+
+.company-product-table-wrap {
+  overflow-x: auto;
+  margin-top: 0.5rem;
+  border: 1px solid var(--table-border);
+  border-radius: 6px;
+}
+
+.company-product-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13px;
+}
+
+.company-product-table th,
+.company-product-table td {
+  padding: 0.4rem 0.6rem;
+  border: 1px solid var(--table-border);
+}
+
+.company-product-table thead th {
+  background: var(--table-header-bg);
+  color: var(--table-header-text);
+  font-weight: 600;
+}
+
+.data-table .company-link {
+  color: #3498db;
+  text-decoration: none;
+}
+
+.data-table .company-link:hover { text-decoration: underline; }
+
+/* 公司维度首页 - 详细数据未选公司时的占位 */
+.company-home-detail-placeholder {
+  margin-top: 1rem;
+  padding: 2rem;
+  border: 1px solid var(--table-border);
+  border-radius: 8px;
+  background: var(--table-row-alt);
+}
+
+.company-home-detail-prompt {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #2c3e50;
+  margin: 0 0 0.5rem;
+}
+
+.company-home-detail-placeholder .product-detail-desc {
+  margin: 0;
 }
 
 /* 素材维度：当前周期与公司/产品维度一致提示 */
@@ -487,6 +708,9 @@ body {
 
 .data-table .cell-down { color: var(--change-down); }
 
+/* 周安装变动列：与公司维度统一，红色显示（去+号由 formatCell 处理） */
+.data-table .cell-change-pct { color: var(--change-down); }
+
 /* 汇总行加粗 */
 .data-table tr.row-summary td { font-weight: 700; }
 
@@ -505,3 +729,6 @@ body {
 }
 
 .error { color: var(--change-down); }
+
+/* 赛道排名功能暂时关闭，隐藏对应卡片 */
+.rank-card-hidden { display: none !important; }

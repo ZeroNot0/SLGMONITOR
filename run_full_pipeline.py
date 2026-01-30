@@ -123,7 +123,7 @@ def run_request_script(script_name: str, extra_args=None) -> bool:
 
 
 def week_tag_to_dates(year: int, week_tag: str):
-    """将 week_tag（如 0119-0125）和 year 转为 start_date、end_date（YYYY-MM-DD）。"""
+    """将 week_tag（如 0119-0125）和 year 转为 start_date、end_date（YYYY-MM-DD）。跨年周（如 1229-0104）时 end_date 用 year+1。"""
     s = (week_tag or "").strip()
     m = re.match(r"^(\d{2})(\d{2})-(\d{2})(\d{2})$", s)
     if not m:
@@ -131,15 +131,23 @@ def week_tag_to_dates(year: int, week_tag: str):
     m1, d1, m2, d2 = m.group(1), m.group(2), m.group(3), m.group(4)
     try:
         start_date = f"{year}-{m1}-{d1}"
-        end_date = f"{year}-{m2}-{d2}"
+        # 跨年周：1229-0104 结束月在 01，结束日在下一年
+        end_year = year if int(m2) >= int(m1) else year + 1
+        end_date = f"{end_year}-{m2}-{d2}"
         return start_date, end_date
     except Exception:
         return None, None
 
 
-def get_target_products_with_limit(year: int, week_tag: str, limit: str):
+TARGET_SOURCE_CHOICES = ("strategy", "non_strategy", "both")
+
+
+def get_target_products_with_limit(
+    year: int, week_tag: str, limit: str, target_source: str = "both"
+):
     """
-    从 target/{年}/{周}/ 下 strategy_target 与 non_strategy_target 的 xlsx 读取。
+    从 target/{年}/{周}/ 下按 target_source 读取 strategy_target 和/或 non_strategy_target 的 xlsx。
+    target_source: strategy=仅策略目标, non_strategy=仅非策略目标, both=两者。
     优先用「Unified ID」作为 app_id（ST API 所需），产品名为「产品归属」；无 Unified ID 时用产品归属作为 app_id。
     去重按 (app_id, 产品归属) 出现顺序，取前 limit 条。limit 为 top1/top5/top10/all。
     返回 (app_ids: list[str], app_list: list[tuple[str,str]])，app_list 为 (app_id, 产品归属)。
@@ -153,11 +161,17 @@ def get_target_products_with_limit(year: int, week_tag: str, limit: str):
     if not target_base.exists():
         print(f"  ❌ 未找到 target 目录: {target_base}，请先执行步骤 2")
         return [], []
+    if target_source == "strategy":
+        subs = ("strategy_target",)
+    elif target_source == "non_strategy":
+        subs = ("non_strategy_target",)
+    else:
+        subs = ("strategy_target", "non_strategy_target")
     col_product = "产品归属"
     col_uid = "Unified ID"
     seen_order = []  # (app_id, product_name)
     seen = set()
-    for sub in ("strategy_target", "non_strategy_target"):
+    for sub in subs:
         sub_dir = target_base / sub
         if not sub_dir.exists():
             continue
@@ -237,15 +251,19 @@ STEP_DEFS = {
 }
 
 
-def run_step(num: int, week_tag: str, year: int, limit: str = "all") -> bool:
-    """执行指定步骤。limit 仅对步骤 3、4 生效：top1 / top5 / top10 / all。"""
+def run_step(num: int, week_tag: str, year: int, limit: str = "all", **kwargs) -> bool:
+    """执行指定步骤。limit 仅对步骤 3、4 生效；kwargs 可传 target_source（strategy/non_strategy/both）。"""
     if num not in STEP_DEFS:
         print(f"  ❌ 未知步骤: {num}，可选: 1,2,3,4,5")
         return False
     step_def = STEP_DEFS[num]
-    # 步骤 3：拉取地区数据（写入 countiesdata/{年}/{周}/strategy_old 与 strategy_new，仿照 advertisements）
+    # 步骤 3：拉取地区数据（仅支持策略目标；非策略时跳过）
     if num == 3:
-        print(f"\n🔹 步骤 3: 拉取地区数据（处理数量: {limit}）")
+        target_src = (kwargs.get("target_source") or "both").lower()
+        if target_src == "non_strategy":
+            print(f"\n🔹 步骤 3: 拉取地区数据 — 已选「仅非策略目标」，地区数据仅支持策略目标，跳过")
+            return True
+        print(f"\n🔹 步骤 3: 拉取地区数据（处理数量: {limit}，目标: 策略）")
         start_date, end_date = week_tag_to_dates(year, week_tag)
         base_extra = ["--year", str(year), "--week", week_tag]
         if start_date:
@@ -278,15 +296,20 @@ def run_step(num: int, week_tag: str, year: int, limit: str = "all") -> bool:
             run_script("convert_country_json_to_xlsx.py", week_tag, year)
         # 若本周无任一 strategy 目标文件，仍返回 True 避免整条流水线报错
         return True
-    # 步骤 4：拉取创意数据（从 target 取产品列表，按 limit 截断后调用 fetch_ad_creatives）
+    # 步骤 4：拉取创意数据（从 target 取产品列表，按 limit 与 target_source 截断后调用 fetch_ad_creatives）
     if num == 4:
-        print(f"\n🔹 步骤 4: 拉取创意数据（处理数量: {limit}）")
-        _, app_list = get_target_products_with_limit(year, week_tag, limit)
+        target_src = (kwargs.get("target_source") or "both").lower()
+        print(f"\n🔹 步骤 4: 拉取创意数据（处理数量: {limit}，目标: {'仅策略' if target_src == 'strategy' else '仅非策略' if target_src == 'non_strategy' else '策略+非策略'}）")
+        _, app_list = get_target_products_with_limit(year, week_tag, limit, target_source=target_src)
         if not app_list:
             return False
         print(f"  目标产品数: {len(app_list)}")
         start_date, end_date = week_tag_to_dates(year, week_tag)
         extra = ["--year", str(year), "--week", week_tag]
+        if target_src == "non_strategy":
+            extra.extend(["--product_type", "non_strategy"])
+        elif target_src == "strategy":
+            extra.extend(["--product_type", "strategy_old"])
         if start_date:
             extra.extend(["--start_date", start_date])
         if end_date:
@@ -303,15 +326,24 @@ def run_step(num: int, week_tag: str, year: int, limit: str = "all") -> bool:
             return ok
         finally:
             Path(tmp_path).unlink(missing_ok=True)
-    # 步骤 5：前端数据更新（公司维度 JSON、产品维度 JSON、素材索引、weeks_index）
+    # 步骤 5：前端数据更新（公司维度 JSON、产品维度 JSON、素材索引、weeks_index、题材/画风映射）
     if num == 5:
-        print("\n🔹 步骤 5: 前端数据更新（公司/产品/素材 JSON + 周索引）")
+        print("\n🔹 步骤 5: 前端数据更新（公司/产品/素材 JSON + 周索引 + 题材/画风映射）")
+        # 题材/画风：从 mapping/产品归属.xlsx 转 JSON，供产品详情页按 Unified ID 取题材、画风
+        run_frontend_script("convert_product_mapping_to_json.py")
         out_excel = BASE_DIR / "output" / str(year) / f"{week_tag}_SLG数据监测表.xlsx"
         if out_excel.exists():
             if not run_frontend_script("convert_excel_with_format.py", year=year, week_tag=week_tag):
                 return False
         else:
             print(f"  ⏭ 跳过 convert_excel_with_format（未找到 {out_excel}）")
+        metrics_xlsx = BASE_DIR / "intermediate" / str(year) / week_tag / "metrics_total.xlsx"
+        if metrics_xlsx.exists():
+            run_frontend_script("convert_metrics_to_json.py", year=year, week_tag=week_tag)
+            # 产品赛道排名：根据 metrics_total.json 计算排名，生成 metrics_rank.json 供产品详情页使用
+            run_frontend_script("build_metrics_rank.py", year=year, week_tag=week_tag)
+        else:
+            print(f"  ⏭ 跳过 convert_metrics_to_json（未找到 {metrics_xlsx.relative_to(BASE_DIR)}）")
         # 用 target + country_data 生成/更新 final_join，保证新数据跑完后 final_join 会更新
         target_strategy_dir = BASE_DIR / "target" / str(year) / week_tag / "strategy_target"
         if target_strategy_dir.exists():
@@ -357,14 +389,16 @@ def run_phase2(
     fetch_country: bool,
     fetch_creatives: bool,
     limit: str,
+    target_source: str = "both",
 ) -> bool:
-    """第二步：根据目标产品表调 API。用户已选是否请求地区数据、创意数据及处理数量。"""
+    """第二步：根据目标产品表调 API。用户已选是否请求地区数据、创意数据、处理数量及策略/非策略目标。"""
     if not fetch_country and not fetch_creatives:
         print("  第二步未选择任何 API 请求，跳过")
         return True
-    if fetch_country and not run_step(3, week_tag, year, limit=limit):
+    kw = {"target_source": target_source}
+    if fetch_country and not run_step(3, week_tag, year, limit=limit, **kw):
         return False
-    if fetch_creatives and not run_step(4, week_tag, year, limit=limit):
+    if fetch_creatives and not run_step(4, week_tag, year, limit=limit, **kw):
         return False
     return True
 
@@ -382,8 +416,11 @@ def run_pipeline(
     api_fetch_country: bool = True,
     api_fetch_creatives: bool = True,
     limit: str = "all",
+    target_source: str = "both",
+    yes_over_100: bool = False,
+    interactive_confirm: bool = True,
 ) -> bool:
-    """按用户选择的阶段执行。第一步=表+目标产品；第二步=调API；执行了 1 或 2 后自动更新前端。"""
+    """按用户选择的阶段执行。第一步=表+目标产品；第二步=调API。第一步或第二步任一步运行结束后都会自动更新前端。"""
     print("=" * 60)
     print("🚀 SLG Monitor 完整数据流程")
     print("=" * 60)
@@ -397,7 +434,8 @@ def run_pipeline(
             parts.append("地区数据")
         if api_fetch_creatives:
             parts.append("创意数据")
-        phases.append(f"第二步(API: {', '.join(parts)}, 数量={limit})")
+        target_label = {"strategy": "策略", "non_strategy": "非策略", "both": "策略+非策略"}.get(target_source, target_source)
+        phases.append(f"第二步(API: {', '.join(parts)}, 数量={limit}, 目标={target_label})")
     print(f"  本次将执行: {'、'.join(phases)}（执行后自动更新前端）")
     print("=" * 60)
 
@@ -406,17 +444,39 @@ def run_pipeline(
         if not run_phase1(week_tag, year):
             print("\n❌ 第一步终止")
             return False
-    if run_phase2_flag:
-        print("\n🔹 第二步: 根据目标产品表调 API")
-        if not run_phase2(week_tag, year, api_fetch_country, api_fetch_creatives, limit):
-            print("\n❌ 第二步终止")
-            return False
-    # 只要执行了第一步或第二步，就自动更新前端（不消耗 API）
-    if run_phase1_flag or run_phase2_flag:
-        print("\n🔹 前端数据更新（自动）")
+        # 第一步结束后自动更新网页
+        print("\n🔹 前端数据更新（第一步完成后自动）")
         if not run_phase3(week_tag, year):
             print("\n❌ 前端更新终止")
             return False
+    if run_phase2_flag:
+        # 第二步前：目标产品超过 100 个时二次确认
+        _, app_list = get_target_products_with_limit(year, week_tag, limit, target_source=target_source)
+        n = len(app_list)
+        if n > 100 and not yes_over_100:
+            print(f"\n⚠️ 目标产品共 {n} 个，超过 100 个。")
+            if interactive_confirm:
+                try:
+                    s = input("  是否继续请求数据？[y/N]: ").strip().upper() or "N"
+                    if s not in ("Y", "YES"):
+                        print("  已跳过第二步。")
+                        run_phase2_flag = False
+                except EOFError:
+                    print("  输入已结束，已跳过第二步。")
+                    run_phase2_flag = False
+            else:
+                print("  非交互模式下请使用 --yes 以继续执行第二步，否则跳过。")
+                run_phase2_flag = False
+        if run_phase2_flag:
+            print("\n🔹 第二步: 根据目标产品表调 API")
+            if not run_phase2(week_tag, year, api_fetch_country, api_fetch_creatives, limit, target_source=target_source):
+                print("\n❌ 第二步终止")
+                return False
+            # 第二步结束后自动更新网页
+            print("\n🔹 前端数据更新（第二步完成后自动）")
+            if not run_phase3(week_tag, year):
+                print("\n❌ 前端更新终止")
+                return False
 
     print("\n" + "=" * 60)
     print("✅ 所选阶段执行完毕")
@@ -470,7 +530,7 @@ def _prompt_yn(msg: str, default: bool = True) -> bool:
 def interactive_collect_phases(year: int, week_tag: str):
     """
     交互式收集要执行的阶段与第二步 API 选项。
-    返回 (run_phase1, run_phase2, api_fetch_country, api_fetch_creatives, limit)。
+    返回 (run_phase1, run_phase2, api_fetch_country, api_fetch_creatives, limit, target_source)。
     执行阶段 1 或 2 后会自动更新前端，无需单独选择。
     """
     print("\n请选择要执行的阶段（可多选，执行后自动更新前端）：")
@@ -496,7 +556,20 @@ def interactive_collect_phases(year: int, week_tag: str):
     api_fetch_country = False
     api_fetch_creatives = False
     limit = "all"
+    target_source = "both"
     if run_phase2:
+        print("\n第二步：请求策略目标、非策略目标、还是两者？")
+        print("  1 = 仅策略目标  2 = 仅非策略目标  3 = 两者")
+        while True:
+            try:
+                raw = input("  目标 [3]: ").strip() or "3"
+                if raw in ("1", "2", "3"):
+                    target_source = {"1": "strategy", "2": "non_strategy", "3": "both"}[raw]
+                    break
+                print("  请输入 1、2 或 3")
+            except EOFError:
+                target_source = "both"
+                break
         print("\n第二步：请选择要请求的数据类型（可多选）")
         api_fetch_country = _prompt_yn("  请求地区数据？", default=True)
         api_fetch_creatives = _prompt_yn("  请求创意数据？", default=True)
@@ -511,7 +584,7 @@ def interactive_collect_phases(year: int, week_tag: str):
                     break
                 print(f"  请输入其中之一: {LIMIT_CHOICES}")
 
-    return run_phase1, run_phase2, api_fetch_country, api_fetch_creatives, limit
+    return run_phase1, run_phase2, api_fetch_country, api_fetch_creatives, limit, target_source
 
 
 def _parse_api_arg(s: str) -> tuple:
@@ -533,10 +606,13 @@ def main():
         epilog="""
 阶段（执行 1 或 2 后会自动更新前端，无需单独选择）:
   1  制作数据监测表 + 获得目标产品表
-  2  根据目标产品表调 API（地区数据/创意数据，可选数量）
+  2  根据目标产品表调 API（地区数据/创意数据，可选数量；会询问策略/非策略目标；超过 100 个产品会二次确认）
 
-示例（只执行第二步）:  --steps 2 --api creatives --limit top5
-示例（1+2）:  --steps 1,2 --api country,creatives
+  --target strategy|non_strategy|both  第二步请求策略目标、非策略目标或两者（默认 both）
+  --yes  目标产品超过 100 个时不二次确认，直接执行第二步
+
+示例（只执行第二步）:  --steps 2 --api creatives --limit top5 --target strategy
+示例（1+2，超过 100 不确认）:  --steps 1,2 --api country,creatives --yes
         """,
     )
     parser.add_argument(
@@ -560,6 +636,18 @@ def main():
         help="第二步 API 处理数量：top1/top5/top10/all。默认 all",
     )
     parser.add_argument(
+        "--target",
+        choices=TARGET_SOURCE_CHOICES,
+        default="both",
+        help="第二步请求的目标：strategy=仅策略目标, non_strategy=仅非策略目标, both=两者。默认 both",
+    )
+    parser.add_argument(
+        "--yes",
+        action="store_true",
+        dest="yes_over_100",
+        help="目标产品超过 100 个时不二次确认，直接执行第二步",
+    )
+    parser.add_argument(
         "--interactive",
         action="store_true",
         help="交互式：按提示选择阶段、第二步请求哪些数据及处理数量",
@@ -581,7 +669,9 @@ def main():
 
     # 未传 --steps 时通过键盘输入选择阶段（与 --interactive 行为一致）
     if args.interactive or not (args.steps or "").strip():
-        run_p1, run_p2, api_country, api_creatives, limit = interactive_collect_phases(year, week_tag)
+        run_p1, run_p2, api_country, api_creatives, limit, target_src = interactive_collect_phases(year, week_tag)
+        yes_over_100 = False
+        interactive_confirm = True
     else:
         raw = args.steps.strip()
         try:
@@ -597,6 +687,9 @@ def main():
         run_p2 = 2 in phases
         api_country, api_creatives = _parse_api_arg(args.api or "country,creatives")
         limit = args.limit or "all"
+        target_src = (args.target or "both").lower()
+        yes_over_100 = getattr(args, "yes_over_100", False)
+        interactive_confirm = False
 
     ok = run_pipeline(
         week_tag=week_tag,
@@ -606,6 +699,9 @@ def main():
         api_fetch_country=api_country,
         api_fetch_creatives=api_creatives,
         limit=limit,
+        target_source=target_src,
+        yes_over_100=yes_over_100,
+        interactive_confirm=interactive_confirm,
     )
     sys.exit(0 if ok else 1)
 

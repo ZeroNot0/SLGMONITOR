@@ -1,0 +1,730 @@
+{
+  "count": 18,
+  "available_networks": [
+    "Facebook",
+    "Instagram",
+    "Meta Audience Network"
+  ],
+  "ad_units": [
+    {
+      "id": "cf032cb9b178e443",
+      "app_id": "66c3da0947fce06aee0f3ffa",
+      "network": "Facebook",
+      "phashion_group": "cf032cb9b178e443",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-07",
+      "last_seen_at": "2026-01-26",
+      "creatives": [
+        {
+          "id": "cf032cb9b178e443",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/02064a0ceee54743/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/02064a0ceee54743/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/02064a0ceee54743/thumb",
+          "video_duration": 36,
+          "width": 1080,
+          "height": 1920,
+          "title": "📱 Travian: Legends Mobile",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "b344c94cfacf8540",
+      "app_id": "66c3da0947fce06aee0f3ffa",
+      "network": "Instagram",
+      "phashion_group": "b344c94cfacf8540",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-07",
+      "last_seen_at": "2026-01-26",
+      "creatives": [
+        {
+          "id": "b344c94cfacf8540",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/02064a0ceee54743/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/02064a0ceee54743/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/02064a0ceee54743/thumb",
+          "video_duration": 36,
+          "width": 1080,
+          "height": 1920,
+          "title": "📱 Travian: Legends Mobile",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "fd81ffcdbe60f5f2",
+      "app_id": "66c3da0947fce06aee0f3ffa",
+      "network": "Meta Audience Network",
+      "phashion_group": "fd81ffcdbe60f5f2",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-07",
+      "last_seen_at": "2026-01-26",
+      "creatives": [
+        {
+          "id": "fd81ffcdbe60f5f2",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/02064a0ceee54743/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/02064a0ceee54743/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/02064a0ceee54743/thumb",
+          "video_duration": 36,
+          "width": 1080,
+          "height": 1920,
+          "title": "📱 Travian: Legends Mobile",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "b5516ce8eff38143",
+      "app_id": "66c3da0947fce06aee0f3ffa",
+      "network": "Facebook",
+      "phashion_group": "b5516ce8eff38143",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-07",
+      "last_seen_at": "2026-01-26",
+      "creatives": [
+        {
+          "id": "b5516ce8eff38143",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/78540a5db06e2243/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/78540a5db06e2243/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/78540a5db06e2243/thumb",
+          "video_duration": 32,
+          "width": 1080,
+          "height": 1920,
+          "title": "📱 Travian: Legends v mobilu",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "c916891da444e040",
+      "app_id": "66c3da0947fce06aee0f3ffa",
+      "network": "Instagram",
+      "phashion_group": "c916891da444e040",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-07",
+      "last_seen_at": "2026-01-26",
+      "creatives": [
+        {
+          "id": "c916891da444e040",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/78540a5db06e2243/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/78540a5db06e2243/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/78540a5db06e2243/thumb",
+          "video_duration": 32,
+          "width": 1080,
+          "height": 1920,
+          "title": "📱 Travian: Legends v mobilu",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "87d3bf9ce0eb90f2",
+      "app_id": "66c3da0947fce06aee0f3ffa",
+      "network": "Meta Audience Network",
+      "phashion_group": "87d3bf9ce0eb90f2",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-07",
+      "last_seen_at": "2026-01-26",
+      "creatives": [
+        {
+          "id": "87d3bf9ce0eb90f2",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/78540a5db06e2243/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/78540a5db06e2243/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/78540a5db06e2243/thumb",
+          "video_duration": 32,
+          "width": 1080,
+          "height": 1920,
+          "title": "📱 Travian: Legends v mobilu",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "454734feee9a0d8c",
+      "app_id": "66c3da0947fce06aee0f3ffa",
+      "network": "Facebook",
+      "phashion_group": "454734feee9a0d8c",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-07",
+      "last_seen_at": "2026-01-26",
+      "creatives": [
+        {
+          "id": "454734feee9a0d8c",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/8842524bb107ae8c/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/8842524bb107ae8c/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/8842524bb107ae8c/thumb",
+          "video_duration": 36,
+          "width": 1080,
+          "height": 1920,
+          "title": "📱 Travian: Legends v mobilu",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "3900d10ba52d6c8f",
+      "app_id": "66c3da0947fce06aee0f3ffa",
+      "network": "Instagram",
+      "phashion_group": "3900d10ba52d6c8f",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-07",
+      "last_seen_at": "2026-01-26",
+      "creatives": [
+        {
+          "id": "3900d10ba52d6c8f",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/8842524bb107ae8c/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/8842524bb107ae8c/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/8842524bb107ae8c/thumb",
+          "video_duration": 36,
+          "width": 1080,
+          "height": 1920,
+          "title": "📱 Travian: Legends v mobilu",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "77c5e78ae1821c3d",
+      "app_id": "66c3da0947fce06aee0f3ffa",
+      "network": "Meta Audience Network",
+      "phashion_group": "77c5e78ae1821c3d",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-07",
+      "last_seen_at": "2026-01-19",
+      "creatives": [
+        {
+          "id": "77c5e78ae1821c3d",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/8842524bb107ae8c/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/8842524bb107ae8c/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/8842524bb107ae8c/thumb",
+          "video_duration": 36,
+          "width": 1080,
+          "height": 1920,
+          "title": "📱 Travian: Legends v mobilu",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "5f6141d2ecf93ead",
+      "app_id": "66c3da0947fce06aee0f3ffa",
+      "network": "Facebook",
+      "phashion_group": "5f6141d2ecf93ead",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-07",
+      "last_seen_at": "2026-01-26",
+      "creatives": [
+        {
+          "id": "5f6141d2ecf93ead",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/92642767b3649dad/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/92642767b3649dad/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/92642767b3649dad/thumb",
+          "video_duration": 33,
+          "width": 1080,
+          "height": 1920,
+          "title": "📱 Travian: Legends Mobile",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "2326a427a74e5fae",
+      "app_id": "66c3da0947fce06aee0f3ffa",
+      "network": "Instagram",
+      "phashion_group": "2326a427a74e5fae",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-07",
+      "last_seen_at": "2026-01-26",
+      "creatives": [
+        {
+          "id": "2326a427a74e5fae",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/92642767b3649dad/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/92642767b3649dad/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/92642767b3649dad/thumb",
+          "video_duration": 33,
+          "width": 1080,
+          "height": 1920,
+          "title": "📱 Travian: Legends Mobile",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "6de392a6e3e12f1c",
+      "app_id": "66c3da0947fce06aee0f3ffa",
+      "network": "Meta Audience Network",
+      "phashion_group": "6de392a6e3e12f1c",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-07",
+      "last_seen_at": "2026-01-26",
+      "creatives": [
+        {
+          "id": "6de392a6e3e12f1c",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/92642767b3649dad/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/92642767b3649dad/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/92642767b3649dad/thumb",
+          "video_duration": 33,
+          "width": 1080,
+          "height": 1920,
+          "title": "📱 Travian: Legends Mobile",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "5e7a5691af13cfe4",
+      "app_id": "66c3da0947fce06aee0f3ffa",
+      "network": "Facebook",
+      "phashion_group": "5e7a5691af13cfe4",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-07",
+      "last_seen_at": "2026-01-26",
+      "creatives": [
+        {
+          "id": "5e7a5691af13cfe4",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/937f3024f08e6ce4/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/937f3024f08e6ce4/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/937f3024f08e6ce4/thumb",
+          "video_duration": 55,
+          "width": 1080,
+          "height": 1920,
+          "title": "📱 Travian: Legends Mobile",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "223db364e4a4aee7",
+      "app_id": "66c3da0947fce06aee0f3ffa",
+      "network": "Instagram",
+      "phashion_group": "223db364e4a4aee7",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-07",
+      "last_seen_at": "2026-01-26",
+      "creatives": [
+        {
+          "id": "223db364e4a4aee7",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/937f3024f08e6ce4/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/937f3024f08e6ce4/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/937f3024f08e6ce4/thumb",
+          "video_duration": 55,
+          "width": 1080,
+          "height": 1920,
+          "title": "📱 Travian: Legends Mobile",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "6cf885e5a00bde55",
+      "app_id": "66c3da0947fce06aee0f3ffa",
+      "network": "Meta Audience Network",
+      "phashion_group": "6cf885e5a00bde55",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-07",
+      "last_seen_at": "2026-01-26",
+      "creatives": [
+        {
+          "id": "6cf885e5a00bde55",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/937f3024f08e6ce4/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/937f3024f08e6ce4/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/937f3024f08e6ce4/thumb",
+          "video_duration": 55,
+          "width": 1080,
+          "height": 1920,
+          "title": "📱 Travian: Legends Mobile",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "0784ab70a4fecd2b",
+      "app_id": "66c3da0947fce06aee0f3ffa",
+      "network": "Facebook",
+      "phashion_group": "0784ab70a4fecd2b",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-07",
+      "last_seen_at": "2026-01-26",
+      "creatives": [
+        {
+          "id": "0784ab70a4fecd2b",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/ca81cdc5fb636e2b/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/ca81cdc5fb636e2b/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/ca81cdc5fb636e2b/thumb",
+          "video_duration": 60,
+          "width": 1080,
+          "height": 1920,
+          "title": "📱 Travian: Legends v mobilu",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "7bc34e85ef49ac28",
+      "app_id": "66c3da0947fce06aee0f3ffa",
+      "network": "Instagram",
+      "phashion_group": "7bc34e85ef49ac28",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-07",
+      "last_seen_at": "2026-01-26",
+      "creatives": [
+        {
+          "id": "7bc34e85ef49ac28",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/ca81cdc5fb636e2b/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/ca81cdc5fb636e2b/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/ca81cdc5fb636e2b/thumb",
+          "video_duration": 60,
+          "width": 1080,
+          "height": 1920,
+          "title": "📱 Travian: Legends v mobilu",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "35067804abe6dc9a",
+      "app_id": "66c3da0947fce06aee0f3ffa",
+      "network": "Meta Audience Network",
+      "phashion_group": "35067804abe6dc9a",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-07",
+      "last_seen_at": "2026-01-26",
+      "creatives": [
+        {
+          "id": "35067804abe6dc9a",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/ca81cdc5fb636e2b/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/ca81cdc5fb636e2b/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/ca81cdc5fb636e2b/thumb",
+          "video_duration": 60,
+          "width": 1080,
+          "height": 1920,
+          "title": "📱 Travian: Legends v mobilu",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    }
+  ]
+}

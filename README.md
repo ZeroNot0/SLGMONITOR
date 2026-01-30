@@ -127,6 +127,7 @@ pip install pandas openpyxl
 
 ## 文档
 
+- **docs/从GitHub克隆项目说明.md** — 同事从 GitHub 克隆、依赖安装与复刻验证
 - **docs/系统功能与目标.md** — 系统定位、步骤与数据流
 - **docs/功能一_数据监测表与目标产品.md** — 数据监测表与目标产品规则
 - **docs/final_join说明.md** — final_join 与产品维度数据来源

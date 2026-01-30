@@ -1,0 +1,1186 @@
+{
+  "count": 31,
+  "available_networks": [
+    "TikTok"
+  ],
+  "ad_units": [
+    {
+      "id": "fc25893efbb28cde",
+      "app_id": "680af41ccab16e12f24d08fd",
+      "network": "TikTok",
+      "phashion_group": "fc25893efbb28cde",
+      "ad_type": "video",
+      "first_seen_at": "2025-09-21",
+      "last_seen_at": "2026-01-24",
+      "creatives": [
+        {
+          "id": "fc25893efbb28cde",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/063ee2af86230429/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/063ee2af86230429/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/063ee2af86230429/thumb",
+          "video_duration": 50,
+          "width": 720,
+          "height": 1280,
+          "message": "史上初, 文明進化型経営シミュレーション"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "f7a6bad246af134f",
+      "app_id": "680af41ccab16e12f24d08fd",
+      "network": "TikTok",
+      "phashion_group": "f7a6bad246af134f",
+      "ad_type": "video",
+      "first_seen_at": "2025-09-11",
+      "last_seen_at": "2026-01-12",
+      "creatives": [
+        {
+          "id": "f7a6bad246af134f",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0dbdd1433b3e9bb8/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0dbdd1433b3e9bb8/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0dbdd1433b3e9bb8/thumb",
+          "video_duration": 15,
+          "width": 720,
+          "height": 720,
+          "message": "史上初, 文明進化型経営シミュレーション"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x720",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "1504856c9e48318f",
+      "app_id": "680af41ccab16e12f24d08fd",
+      "network": "TikTok",
+      "phashion_group": "1504856c9e48318f",
+      "ad_type": "video",
+      "first_seen_at": "2025-10-08",
+      "last_seen_at": "2026-01-15",
+      "creatives": [
+        {
+          "id": "1504856c9e48318f",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/23b7e0aef889c1fd/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/23b7e0aef889c1fd/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/23b7e0aef889c1fd/thumb",
+          "video_duration": 43,
+          "width": 720,
+          "height": 1280,
+          "message": "史上初, 文明進化型経営シミュレーション"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "c95e8edc4077665b",
+      "app_id": "680af41ccab16e12f24d08fd",
+      "network": "TikTok",
+      "phashion_group": "c95e8edc4077665b",
+      "ad_type": "video",
+      "first_seen_at": "2025-09-11",
+      "last_seen_at": "2026-01-24",
+      "creatives": [
+        {
+          "id": "c95e8edc4077665b",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3345e54d3de6eeac/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3345e54d3de6eeac/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3345e54d3de6eeac/thumb",
+          "video_duration": 54,
+          "width": 720,
+          "height": 1280,
+          "message": "史上初, 文明進化型経営シミュレーション"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "09366909bbe04910",
+      "app_id": "680af41ccab16e12f24d08fd",
+      "network": "TikTok",
+      "phashion_group": "09366909bbe04910",
+      "ad_type": "video",
+      "first_seen_at": "2025-08-24",
+      "last_seen_at": "2026-01-24",
+      "creatives": [
+        {
+          "id": "09366909bbe04910",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3f850ccbdd21b962/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3f850ccbdd21b962/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3f850ccbdd21b962/thumb",
+          "video_duration": 37,
+          "width": 720,
+          "height": 1280,
+          "message": "史上初, 文明進化型経営シミュレーション"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "ab93e4e3294b4495",
+      "app_id": "680af41ccab16e12f24d08fd",
+      "network": "TikTok",
+      "phashion_group": "ab93e4e3294b4495",
+      "ad_type": "video",
+      "first_seen_at": "2025-07-05",
+      "last_seen_at": "2026-01-24",
+      "creatives": [
+        {
+          "id": "ab93e4e3294b4495",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3fcef10c57c88214/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3fcef10c57c88214/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3fcef10c57c88214/thumb",
+          "video_duration": 6,
+          "width": 1080,
+          "height": 1920,
+          "message": "時代を選んで，経営と冒険の旅へ！野人から2日で族長に！自分だけの時代を経営しよう！"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "6e32a6e38c7e5807",
+      "app_id": "680af41ccab16e12f24d08fd",
+      "network": "TikTok",
+      "phashion_group": "6e32a6e38c7e5807",
+      "ad_type": "video",
+      "first_seen_at": "2025-08-27",
+      "last_seen_at": "2026-01-12",
+      "creatives": [
+        {
+          "id": "6e32a6e38c7e5807",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/5881c321eabfa875/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/5881c321eabfa875/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/5881c321eabfa875/thumb",
+          "video_duration": 44,
+          "width": 720,
+          "height": 1280,
+          "message": "史上初, 文明進化型経営シミュレーション"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "9aec3c2707a52c3b",
+      "app_id": "680af41ccab16e12f24d08fd",
+      "network": "TikTok",
+      "phashion_group": "9aec3c2707a52c3b",
+      "ad_type": "video",
+      "first_seen_at": "2025-09-11",
+      "last_seen_at": "2026-01-12",
+      "creatives": [
+        {
+          "id": "9aec3c2707a52c3b",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/60f757b67a34a4cc/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/60f757b67a34a4cc/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/60f757b67a34a4cc/thumb",
+          "video_duration": 48,
+          "width": 1280,
+          "height": 720,
+          "message": "史上初, 文明進化型経営シミュレーション"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1280x720",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "9f5a7543563b7ddf",
+      "app_id": "680af41ccab16e12f24d08fd",
+      "network": "TikTok",
+      "phashion_group": "9f5a7543563b7ddf",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-07",
+      "last_seen_at": "2026-01-12",
+      "creatives": [
+        {
+          "id": "9f5a7543563b7ddf",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/65411ed22baaf528/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/65411ed22baaf528/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/65411ed22baaf528/thumb",
+          "video_duration": 43,
+          "width": 1920,
+          "height": 1080,
+          "message": "史上初, 文明進化型経営シミュレーション"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1920x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "8b8eb13d4b7b4d6d",
+      "app_id": "680af41ccab16e12f24d08fd",
+      "network": "TikTok",
+      "phashion_group": "8b8eb13d4b7b4d6d",
+      "ad_type": "video",
+      "first_seen_at": "2025-09-21",
+      "last_seen_at": "2026-01-24",
+      "creatives": [
+        {
+          "id": "8b8eb13d4b7b4d6d",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/7195daac36eac59a/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/7195daac36eac59a/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/7195daac36eac59a/thumb",
+          "video_duration": 34,
+          "width": 720,
+          "height": 1280,
+          "message": "史上初, 文明進化型経営シミュレーション"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "43348f7fad296b9d",
+      "app_id": "680af41ccab16e12f24d08fd",
+      "network": "TikTok",
+      "phashion_group": "43348f7fad296b9d",
+      "ad_type": "video",
+      "first_seen_at": "2025-08-24",
+      "last_seen_at": "2026-01-12",
+      "creatives": [
+        {
+          "id": "43348f7fad296b9d",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/7587eabdcbe89bef/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/7587eabdcbe89bef/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/7587eabdcbe89bef/thumb",
+          "video_duration": 48,
+          "width": 720,
+          "height": 1280,
+          "message": "史上初, 文明進化型経営シミュレーション"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "b9e7798617d67a8a",
+      "app_id": "680af41ccab16e12f24d08fd",
+      "network": "TikTok",
+      "phashion_group": "b9e7798617d67a8a",
+      "ad_type": "video",
+      "first_seen_at": "2025-10-29",
+      "last_seen_at": "2026-01-27",
+      "creatives": [
+        {
+          "id": "b9e7798617d67a8a",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/78492beeda46a9e8/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/78492beeda46a9e8/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/78492beeda46a9e8/thumb",
+          "video_duration": 6,
+          "width": 1080,
+          "height": 1920,
+          "message": "史上初! 文明進化型経営シミュレーション"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "7d99b8fa3a6fca53",
+      "app_id": "680af41ccab16e12f24d08fd",
+      "network": "TikTok",
+      "phashion_group": "7d99b8fa3a6fca53",
+      "ad_type": "video",
+      "first_seen_at": "2025-09-14",
+      "last_seen_at": "2026-01-24",
+      "creatives": [
+        {
+          "id": "7d99b8fa3a6fca53",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/8782d36b47fe42a4/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/8782d36b47fe42a4/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/8782d36b47fe42a4/thumb",
+          "video_duration": 41,
+          "width": 720,
+          "height": 1280,
+          "message": "史上初, 文明進化型経営シミュレーション"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "762ea01f04601b02",
+      "app_id": "680af41ccab16e12f24d08fd",
+      "network": "TikTok",
+      "phashion_group": "762ea01f04601b02",
+      "ad_type": "video",
+      "first_seen_at": "2025-09-11",
+      "last_seen_at": "2026-01-24",
+      "creatives": [
+        {
+          "id": "762ea01f04601b02",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/8c35cb8e79f193f5/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/8c35cb8e79f193f5/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/8c35cb8e79f193f5/thumb",
+          "video_duration": 42,
+          "width": 720,
+          "height": 1280,
+          "message": "史上初, 文明進化型経営シミュレーション"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "74e1ee8a4a124976",
+      "app_id": "680af41ccab16e12f24d08fd",
+      "network": "TikTok",
+      "phashion_group": "74e1ee8a4a124976",
+      "ad_type": "video",
+      "first_seen_at": "2025-09-20",
+      "last_seen_at": "2026-01-22",
+      "creatives": [
+        {
+          "id": "74e1ee8a4a124976",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/8efa851b3783c181/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/8efa851b3783c181/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/8efa851b3783c181/thumb",
+          "video_duration": 6,
+          "width": 720,
+          "height": 1280,
+          "message": "史上初, 文明進化型経営シミュレーション"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "60d8dcd105e6603c",
+      "app_id": "680af41ccab16e12f24d08fd",
+      "network": "TikTok",
+      "phashion_group": "60d8dcd105e6603c",
+      "ad_type": "video",
+      "first_seen_at": "2025-09-23",
+      "last_seen_at": "2026-01-24",
+      "creatives": [
+        {
+          "id": "60d8dcd105e6603c",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/9ac3b7407877e8cb/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/9ac3b7407877e8cb/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/9ac3b7407877e8cb/thumb",
+          "video_duration": 28,
+          "width": 720,
+          "height": 1280,
+          "message": "史上初, 文明進化型経営シミュレーション"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "5b77024a66600979",
+      "app_id": "680af41ccab16e12f24d08fd",
+      "network": "TikTok",
+      "phashion_group": "5b77024a66600979",
+      "ad_type": "video",
+      "first_seen_at": "2025-09-08",
+      "last_seen_at": "2026-01-12",
+      "creatives": [
+        {
+          "id": "5b77024a66600979",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/a16c69db1bf1818e/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/a16c69db1bf1818e/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/a16c69db1bf1818e/thumb",
+          "video_duration": 39,
+          "width": 720,
+          "height": 1280,
+          "message": "史上初, 文明進化型経営シミュレーション"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "95ca3ee8ec71e124",
+      "app_id": "680af41ccab16e12f24d08fd",
+      "network": "TikTok",
+      "phashion_group": "95ca3ee8ec71e124",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-26",
+      "last_seen_at": "2026-01-21",
+      "creatives": [
+        {
+          "id": "95ca3ee8ec71e124",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/a3795b2a8ab01156/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/a3795b2a8ab01156/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/a3795b2a8ab01156/thumb",
+          "video_duration": 37,
+          "width": 1080,
+          "height": 1920,
+          "message": "史上初, 文明進化型経営シミュレーション"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "867e8331228d0049",
+      "app_id": "680af41ccab16e12f24d08fd",
+      "network": "TikTok",
+      "phashion_group": "867e8331228d0049",
+      "ad_type": "video",
+      "first_seen_at": "2025-08-21",
+      "last_seen_at": "2026-01-12",
+      "creatives": [
+        {
+          "id": "867e8331228d0049",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/b0cde6f3444cf03b/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/b0cde6f3444cf03b/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/b0cde6f3444cf03b/thumb",
+          "video_duration": 25,
+          "width": 720,
+          "height": 1280,
+          "message": "史上初, 文明進化型経営シミュレーション"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "848a25d9ce963c65",
+      "app_id": "680af41ccab16e12f24d08fd",
+      "network": "TikTok",
+      "phashion_group": "848a25d9ce963c65",
+      "ad_type": "video",
+      "first_seen_at": "2025-08-27",
+      "last_seen_at": "2026-01-12",
+      "creatives": [
+        {
+          "id": "848a25d9ce963c65",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/b239401ba857cc17/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/b239401ba857cc17/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/b239401ba857cc17/thumb",
+          "video_duration": 27,
+          "width": 720,
+          "height": 1280,
+          "message": "史上初, 文明進化型経営シミュレーション"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "79e82d0ae5915e7e",
+      "app_id": "680af41ccab16e12f24d08fd",
+      "network": "TikTok",
+      "phashion_group": "79e82d0ae5915e7e",
+      "ad_type": "video",
+      "first_seen_at": "2025-10-29",
+      "last_seen_at": "2026-01-27",
+      "creatives": [
+        {
+          "id": "79e82d0ae5915e7e",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/b8467f6228018d1c/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/b8467f6228018d1c/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/b8467f6228018d1c/thumb",
+          "video_duration": 6,
+          "width": 1080,
+          "height": 1920,
+          "message": "史上初! 文明進化型経営シミュレーション"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "2d2c264f0d380e3e",
+      "app_id": "680af41ccab16e12f24d08fd",
+      "network": "TikTok",
+      "phashion_group": "2d2c264f0d380e3e",
+      "ad_type": "video",
+      "first_seen_at": "2025-06-29",
+      "last_seen_at": "2026-01-27",
+      "creatives": [
+        {
+          "id": "2d2c264f0d380e3e",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/b97133a073bbc8bf/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/b97133a073bbc8bf/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/b97133a073bbc8bf/thumb",
+          "video_duration": 6,
+          "width": 720,
+          "height": 1280,
+          "message": "時代を選んで，経営と冒険の旅へ！野人から2日で族長に！自分だけの時代を経営しよう！"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "3bf86db6c38c08b0",
+      "app_id": "680af41ccab16e12f24d08fd",
+      "network": "TikTok",
+      "phashion_group": "3bf86db6c38c08b0",
+      "ad_type": "video",
+      "first_seen_at": "2025-09-11",
+      "last_seen_at": "2026-01-24",
+      "creatives": [
+        {
+          "id": "3bf86db6c38c08b0",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/c1e30627be1d8047/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/c1e30627be1d8047/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/c1e30627be1d8047/thumb",
+          "video_duration": 30,
+          "width": 720,
+          "height": 1280,
+          "message": "史上初, 文明進化型経営シミュレーション"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "3f71f794894f01e0",
+      "app_id": "680af41ccab16e12f24d08fd",
+      "network": "TikTok",
+      "phashion_group": "3f71f794894f01e0",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-17",
+      "last_seen_at": "2026-01-22",
+      "creatives": [
+        {
+          "id": "3f71f794894f01e0",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/c56a9c05f4de8917/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/c56a9c05f4de8917/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/c56a9c05f4de8917/thumb",
+          "video_duration": 50,
+          "width": 1080,
+          "height": 1920,
+          "message": "史上初, 文明進化型経営シミュレーション"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "ed404974eea23f10",
+      "app_id": "680af41ccab16e12f24d08fd",
+      "network": "TikTok",
+      "phashion_group": "ed404974eea23f10",
+      "ad_type": "video",
+      "first_seen_at": "2025-08-31",
+      "last_seen_at": "2026-01-24",
+      "creatives": [
+        {
+          "id": "ed404974eea23f10",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/dbf32cb68863cf62/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/dbf32cb68863cf62/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/dbf32cb68863cf62/thumb",
+          "video_duration": 50,
+          "width": 720,
+          "height": 1280,
+          "message": "史上初, 文明進化型経営シミュレーション"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "24e1b6cead33f7b9",
+      "app_id": "680af41ccab16e12f24d08fd",
+      "network": "TikTok",
+      "phashion_group": "24e1b6cead33f7b9",
+      "ad_type": "video",
+      "first_seen_at": "2025-09-10",
+      "last_seen_at": "2026-01-24",
+      "creatives": [
+        {
+          "id": "24e1b6cead33f7b9",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/defadd5fd0a27f4e/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/defadd5fd0a27f4e/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/defadd5fd0a27f4e/thumb",
+          "video_duration": 39,
+          "width": 1280,
+          "height": 720,
+          "message": "史上初, 文明進化型経営シミュレーション"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1280x720",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "d09afefa1fade803",
+      "app_id": "680af41ccab16e12f24d08fd",
+      "network": "TikTok",
+      "phashion_group": "d09afefa1fade803",
+      "ad_type": "video",
+      "first_seen_at": "2025-08-21",
+      "last_seen_at": "2026-01-24",
+      "creatives": [
+        {
+          "id": "d09afefa1fade803",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/e6299b38796c1871/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/e6299b38796c1871/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/e6299b38796c1871/thumb",
+          "video_duration": 34,
+          "width": 720,
+          "height": 1280,
+          "message": "史上初, 文明進化型経営シミュレーション"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "dee46ff723b63614",
+      "app_id": "680af41ccab16e12f24d08fd",
+      "network": "TikTok",
+      "phashion_group": "dee46ff723b63614",
+      "ad_type": "video",
+      "first_seen_at": "2025-08-21",
+      "last_seen_at": "2026-01-12",
+      "creatives": [
+        {
+          "id": "dee46ff723b63614",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/e8570a354577c666/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/e8570a354577c666/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/e8570a354577c666/thumb",
+          "video_duration": 43,
+          "width": 720,
+          "height": 1280,
+          "message": "史上初, 文明進化型経営シミュレーション"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "1297afac51e5aefe",
+      "app_id": "680af41ccab16e12f24d08fd",
+      "network": "TikTok",
+      "phashion_group": "1297afac51e5aefe",
+      "ad_type": "video",
+      "first_seen_at": "2025-09-11",
+      "last_seen_at": "2026-01-24",
+      "creatives": [
+        {
+          "id": "1297afac51e5aefe",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/e88cc43d2c742609/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/e88cc43d2c742609/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/e88cc43d2c742609/thumb",
+          "video_duration": 44,
+          "width": 720,
+          "height": 1280,
+          "message": "史上初, 文明進化型経営シミュレーション"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "0ad1f31d00dbb226",
+      "app_id": "680af41ccab16e12f24d08fd",
+      "network": "TikTok",
+      "phashion_group": "0ad1f31d00dbb226",
+      "ad_type": "video",
+      "first_seen_at": "2025-09-11",
+      "last_seen_at": "2026-01-15",
+      "creatives": [
+        {
+          "id": "0ad1f31d00dbb226",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/f0ca988c7d4a3ad1/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/f0ca988c7d4a3ad1/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/f0ca988c7d4a3ad1/thumb",
+          "video_duration": 56,
+          "width": 1280,
+          "height": 720,
+          "message": "史上初, 文明進化型経営シミュレーション"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1280x720",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "01cd6b4f79d03fd7",
+      "app_id": "680af41ccab16e12f24d08fd",
+      "network": "TikTok",
+      "phashion_group": "01cd6b4f79d03fd7",
+      "ad_type": "video",
+      "first_seen_at": "2025-09-11",
+      "last_seen_at": "2026-01-12",
+      "creatives": [
+        {
+          "id": "01cd6b4f79d03fd7",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/fbd600de0441b720/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/fbd600de0441b720/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/fbd600de0441b720/thumb",
+          "video_duration": 43,
+          "width": 1280,
+          "height": 720,
+          "message": "史上初, 文明進化型経営シミュレーション"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1280x720",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    }
+  ]
+}

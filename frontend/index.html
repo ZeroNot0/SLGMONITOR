@@ -9,6 +9,7 @@
 <body>
   <header class="header">
     <span class="logo">SLG竞对数据监测演示DEMO</span>
+    <span class="data-time-range" id="dataTimeRange" title="根据 weeks_index 自动更新">数据时间: —</span>
     <span class="local-time" id="localTime">本机时间: --</span>
   </header>
 
@@ -25,19 +26,80 @@
     </aside>
 
     <main class="main">
-      <!-- 公司维度：大盘数据 -->
+      <!-- 公司维度：大盘数据 + 详细数据（样式与公司详细信息看板统一） -->
       <div id="panelCompany" class="main-panel">
         <h1 class="main-title" id="mainTitle">请从左侧选择周期</h1>
-        <nav class="sub-nav">
-          <a href="#" class="sub-nav-link active" data-tab="overall">大盘数据</a>
-          <a href="#" class="sub-nav-link" data-tab="region">公司分地区获量</a>
-          <a href="#" class="sub-nav-link" data-tab="creative">公司素材投放情况</a>
-          <a href="#" class="sub-nav-link" data-tab="trend">公司数据趋势</a>
+        <nav class="company-detail-sub-nav" id="companyHomeSubNav">
+          <a href="#" class="company-detail-sub-link active" data-tab="overall">大盘数据</a>
+          <a href="#" class="company-detail-sub-link" data-tab="detail">详细数据</a>
         </nav>
-        <div class="toolbar">
-          <label class="search-label">搜索:</label>
-          <input type="text" id="searchInput" class="search-input" placeholder="搜索表格内容...">
-          <button type="button" class="btn-download" id="btnDownload">下载表格</button>
+        <div id="companyHomeMarketWrap">
+          <div class="toolbar">
+            <label class="search-label">搜索:</label>
+            <input type="text" id="searchInput" class="search-input" placeholder="搜索表格内容...">
+            <button type="button" class="btn-download" id="btnDownload">下载表格</button>
+          </div>
+        </div>
+        <div id="companyHomeDetailPlaceholder" class="company-home-detail-placeholder" style="display:none;">
+          <p class="company-home-detail-prompt">请选择公司</p>
+          <p class="product-detail-desc">请在大盘数据表格中点击「公司归属」列的公司名，进入该公司详细信息。</p>
+        </div>
+      </div>
+
+      <!-- 公司详细信息看板（从公司维度大盘数据点击公司归属进入） -->
+      <div id="panelCompanyDetail" class="main-panel" style="display:none;">
+        <h1 class="main-title" id="companyDetailTitle">公司详细信息</h1>
+        <nav class="company-detail-sub-nav" id="companyDetailSubNav">
+          <a href="#" class="company-detail-sub-link" data-tab="market">大盘数据</a>
+          <a href="#" class="company-detail-sub-link active" data-tab="detail">详细数据</a>
+        </nav>
+        <p id="companyDetailDateRange" class="product-detail-date-range">—</p>
+        <div class="product-detail-intro">
+          <h2 class="product-detail-section-title">公司简介</h2>
+          <div class="product-detail-cards">
+            <div class="product-detail-card"><span class="product-detail-card-label">公司累计安装</span><span id="companyDetailInstall" class="product-detail-card-value">—</span></div>
+            <div class="product-detail-card"><span class="product-detail-card-label">赛道排名（安装）</span><span id="companyDetailRankInstall" class="product-detail-card-value">—</span></div>
+            <div class="product-detail-card"><span class="product-detail-card-label">公司累计流水</span><span id="companyDetailRevenue" class="product-detail-card-value">—</span></div>
+            <div class="product-detail-card"><span class="product-detail-card-label">赛道排名（流水）</span><span id="companyDetailRankRevenue" class="product-detail-card-value">—</span></div>
+          </div>
+        </div>
+        <div class="product-detail-trend">
+          <h2 class="product-detail-section-title">公司产品汇总</h2>
+          <p id="companyDetailTableDateRange" class="product-detail-desc">20xx年-xx月-xx日 ~ 20xx年-xx月-xx日</p>
+          <div class="company-product-table-wrap">
+            <table class="data-table company-product-table">
+              <thead><tr><th>产品名</th><th>上线时间</th><th>周安装变动（最新周）</th><th>周流水变动（最新周）</th></tr></thead>
+              <tbody id="companyDetailProductBody"></tbody>
+            </table>
+          </div>
+        </div>
+        <div class="product-detail-trend">
+          <h2 class="product-detail-section-title">公司数据趋势</h2>
+          <p class="product-detail-desc">折线图：各周产品按公司聚合的当周周安装；堆叠柱状图：各产品在当周周安装的占额</p>
+          <div class="product-detail-trend-charts">
+            <div class="product-detail-trend-chart-wrap">
+              <p class="product-detail-desc">当周周安装（公司汇总，折线图）</p>
+              <div class="product-detail-chart-container"><canvas id="companyDetailLineChart"></canvas></div>
+            </div>
+            <div class="product-detail-trend-chart-wrap">
+              <p class="product-detail-desc">各产品当周周安装占额（堆叠柱状图）</p>
+              <div class="product-detail-chart-container"><canvas id="companyDetailStackedBarChart"></canvas></div>
+            </div>
+          </div>
+          <div id="companyDetailTrendLoading" class="product-detail-trend-loading" style="display:none;">加载趋势数据中…</div>
+        </div>
+        <div class="product-detail-creative">
+          <h2 class="product-detail-section-title">公司素材投放</h2>
+          <div class="product-detail-creative-row">
+            <div class="product-detail-chart-wrap">
+              <p class="product-detail-desc">饼图 素材各标签占比</p>
+              <div class="product-detail-chart-placeholder">饼图占位</div>
+            </div>
+            <div class="product-detail-chart-wrap">
+              <p class="product-detail-desc">柱状图 素材各标签获量</p>
+              <div class="product-detail-chart-placeholder">柱状图占位</div>
+            </div>
+          </div>
         </div>
       </div>
 
@@ -55,6 +117,67 @@
           <label class="search-label">搜索:</label>
           <input type="text" id="productSearchInput" class="search-input" placeholder="搜索表格内容...">
           <button type="button" class="btn-download" id="btnProductDownload">下载表格</button>
+        </div>
+      </div>
+
+      <!-- 产品详细信息看板（从产品维度点击产品进入） -->
+      <div id="panelProductDetail" class="main-panel" style="display:none;">
+        <h1 class="main-title" id="productDetailTitle">产品详细信息</h1>
+        <nav class="product-detail-sub-nav">
+          <a href="#" class="product-detail-sub-link" data-tab="market">大盘数据</a>
+          <a href="#" class="product-detail-sub-link active" data-tab="detail">详细数据</a>
+        </nav>
+        <p id="productDetailDateRange" class="product-detail-date-range">20xx年-xx月-xx日 ~ 20xx年-xx月-xx日</p>
+        <div class="product-detail-intro">
+          <h2 class="product-detail-section-title">产品简介</h2>
+          <div class="product-detail-cards">
+            <div class="product-detail-card"><span class="product-detail-card-label">公司归属</span><span id="productDetailCompany" class="product-detail-card-value">—</span></div>
+            <div class="product-detail-card"><span class="product-detail-card-label">新/旧产品</span><span id="productDetailNewOld" class="product-detail-card-value">—</span></div>
+            <div class="product-detail-card"><span class="product-detail-card-label">上线时间</span><span id="productDetailLaunch" class="product-detail-card-value">—</span></div>
+            <div class="product-detail-card"><span class="product-detail-card-label">题材标签</span><span id="productDetailTheme" class="product-detail-card-value">—</span></div>
+            <div class="product-detail-card"><span class="product-detail-card-label">画风标签</span><span id="productDetailStyle" class="product-detail-card-value">—</span></div>
+          </div>
+        </div>
+        <div class="product-detail-metrics">
+          <div class="product-detail-metrics-row">
+            <div class="product-detail-card"><span class="product-detail-card-label">产品累计安装</span><span id="productDetailInstall" class="product-detail-card-value">—</span></div>
+            <div class="product-detail-card"><span class="product-detail-card-label">赛道排名（安装）</span><span id="productDetailRankInstall" class="product-detail-card-value">—</span></div>
+          </div>
+          <div class="product-detail-metrics-row">
+            <div class="product-detail-card"><span class="product-detail-card-label">产品累计流水</span><span id="productDetailRevenue" class="product-detail-card-value">—</span></div>
+            <div class="product-detail-card"><span class="product-detail-card-label">赛道排名（流水）</span><span id="productDetailRankRevenue" class="product-detail-card-value">—</span></div>
+          </div>
+        </div>
+        <div class="product-detail-trend">
+          <h2 class="product-detail-section-title">产品数据趋势</h2>
+          <p class="product-detail-desc">总时间线（周维度）安装变化和分地区获量情况。折线图（当周周安装）+ 累计叠加柱状图（各市场获量）</p>
+          <div class="product-detail-trend-charts">
+            <div class="product-detail-trend-chart-wrap">
+              <p class="product-detail-desc">当周周安装（折线图）</p>
+              <div class="product-detail-chart-container"><canvas id="productDetailLineChart"></canvas></div>
+            </div>
+            <div class="product-detail-trend-chart-wrap">
+              <p class="product-detail-desc">各市场获量（堆叠柱状图）</p>
+              <div class="product-detail-chart-container"><canvas id="productDetailStackedBarChart"></canvas></div>
+            </div>
+          </div>
+          <div id="productDetailTrendLoading" class="product-detail-trend-loading" style="display:none;">加载趋势数据中…</div>
+        </div>
+        <div class="product-detail-creative">
+          <h2 class="product-detail-section-title">产品素材投放</h2>
+          <div class="product-detail-creative-row">
+            <div class="product-detail-chart-wrap">
+              <p class="product-detail-desc">饼图 素材各标签占比</p>
+              <div id="productDetailPieChart" class="product-detail-chart-placeholder">饼图占位</div>
+            </div>
+            <div class="product-detail-chart-wrap">
+              <p class="product-detail-desc">柱状图 素材各标签获量</p>
+              <div id="productDetailBarChart" class="product-detail-chart-placeholder">柱状图占位</div>
+            </div>
+          </div>
+          <div class="product-detail-jump-wrap">
+            <button type="button" id="btnProductDetailToCreative" class="btn-download product-detail-jump-btn">跳转详细</button>
+          </div>
         </div>
       </div>
 
@@ -182,6 +305,7 @@
     </main>
   </div>
 
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
   <script src="js/app.js"></script>
 </body>
 </html>

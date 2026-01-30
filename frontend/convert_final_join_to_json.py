@@ -22,9 +22,10 @@ COLUMN_DISPLAY = {
     "Downloads (PoP Growth %)": "周安装变动",
 }
 
-# 产品维度页面展示列（顺序）
+# 产品维度页面展示列（顺序）；Unified ID 用于前端按产品唯一标识聚合/匹配
 PRODUCT_DIMENSION_COLUMNS = [
     "产品归属",
+    "Unified ID",
     "公司归属",
     "第三方记录最早上线时间",
     "当周周安装",

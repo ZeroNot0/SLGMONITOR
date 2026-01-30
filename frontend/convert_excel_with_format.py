@@ -4,38 +4,44 @@
 将Excel文件转换为JSON，保留格式信息（颜色、字体等）
 """
 
-import pandas as pd
 import json
+import re
 from pathlib import Path
+
+import pandas as pd
 from openpyxl import load_workbook
 from openpyxl.styles import Font, PatternFill
 
 BASE_DIR = Path(__file__).parent.parent
-TARGET_DIR = BASE_DIR / "target"
-TARGET_ROW_BG = "#FFF2CC"  # 目标产品行黄底，前端配合蓝字与可点击跳转素材维度
+TARGET_ROW_BG = "#FFF2CC"  # 标黄行黄底：周安装变动≥20% 且 当周周安装>1000
+SUMMARY_ROW_BG = "#D9E1F2"  # 汇总行浅蓝
 
 
-def get_target_product_set(year, week_tag):
-    """
-    从 target/{年}/{周}/strategy_target 与 non_strategy_target 下 4 张表
-    读取「产品归属」列，合并为集合，用于大盘表格按目标产品标黄。
-    """
-    target_base = TARGET_DIR / str(year) / week_tag
-    if not target_base.exists():
-        return set()
-    product_set = set()
-    for sub in ("strategy_target", "non_strategy_target"):
-        sub_dir = target_base / sub
-        if not sub_dir.exists():
-            continue
-        for f in sub_dir.glob("*.xlsx"):
-            try:
-                df = pd.read_excel(f)
-                if "产品归属" in df.columns:
-                    product_set.update(df["产品归属"].dropna().astype(str).str.strip().unique())
-            except Exception:
-                continue
-    return product_set
+def _parse_install_change(val):
+    """从「周安装变动」字符串（如 31.81%▲、-16.51%▼）解析出数值，无法解析返回 None。"""
+    if val is None or (isinstance(val, float) and pd.isna(val)):
+        return None
+    s = str(val).strip()
+    if not s:
+        return None
+    import re
+    m = re.search(r"([+-]?\d+\.?\d*)\s*%", s)
+    if m:
+        try:
+            return float(m.group(1))
+        except ValueError:
+            return None
+    return None
+
+
+def _parse_install_count(val):
+    """当周周安装：转为数字，无法解析返回 0。"""
+    if val is None or (isinstance(val, float) and pd.isna(val)):
+        return 0
+    try:
+        return float(str(val).strip().replace(",", ""))
+    except (ValueError, TypeError):
+        return 0
 
 
 def get_cell_style(cell):
@@ -129,24 +135,27 @@ def convert_excel_to_json_with_format(year, week_tag):
         data["rows"].append(row_data)
         data["styles"].append(row_styles)
     
-    # 按目标产品统一标黄：仅目标产品行标黄，汇总行保持浅蓝，其余行不标黄
-    target_products = get_target_product_set(year, week_tag)
+    # 标黄规则：周安装变动 ≥ 20% 且 当周周安装 > 1000；汇总行保持浅蓝
     headers = data["headers"]
-    col_product = headers.index("产品归属") if "产品归属" in headers else -1
     col_company = headers.index("公司归属") if "公司归属" in headers else -1
+    col_inst_this = headers.index("当周周安装") if "当周周安装" in headers else -1
+    col_inst_chg = headers.index("周安装变动") if "周安装变动" in headers else -1
     for row_idx, row in enumerate(data["rows"]):
         style_row = data["styles"][row_idx + 1]  # styles[0] 为表头
         company_val = str(row[col_company]).strip() if col_company >= 0 and col_company < len(row) else ""
-        product_val = str(row[col_product]).strip() if col_product >= 0 and col_product < len(row) else ""
         is_summary = company_val.endswith("汇总")
         if is_summary:
-            continue  # 汇总行保持 Excel 原有样式（浅蓝）
-        if product_val in target_products:
+            for s in style_row:
+                s["bg_color"] = SUMMARY_ROW_BG  # 汇总行统一浅蓝，不标黄
+            continue
+        inst_this = _parse_install_count(row[col_inst_this]) if col_inst_this >= 0 and col_inst_this < len(row) else 0
+        chg = _parse_install_change(row[col_inst_chg]) if col_inst_chg >= 0 and col_inst_chg < len(row) else None
+        if chg is not None and chg >= 20 and inst_this > 1000:
             for s in style_row:
                 s["bg_color"] = TARGET_ROW_BG
         else:
             for s in style_row:
-                s["bg_color"] = None  # 非目标产品行取消标黄（覆盖原「周安装变动≥20%」的黄色）
+                s["bg_color"] = None
     
     # 保存JSON
     json_file.parent.mkdir(parents=True, exist_ok=True)

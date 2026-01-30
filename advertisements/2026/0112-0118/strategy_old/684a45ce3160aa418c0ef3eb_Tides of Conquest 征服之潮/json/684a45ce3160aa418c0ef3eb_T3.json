@@ -1,0 +1,3730 @@
+{
+  "count": 93,
+  "available_networks": [
+    "Facebook",
+    "Instagram",
+    "Meta Audience Network"
+  ],
+  "ad_units": [
+    {
+      "id": "de4f7447460ad780",
+      "app_id": "684a45ce3160aa418c0ef3eb",
+      "network": "Facebook",
+      "phashion_group": "de4f7447460ad780",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-25",
+      "last_seen_at": "2026-01-15",
+      "creatives": [
+        {
+          "id": "de4f7447460ad780",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/06155d9d88096610/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/06155d9d88096610/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/06155d9d88096610/thumb",
+          "video_duration": 37,
+          "width": 1080,
+          "height": 1920,
+          "title": "Conquer the high seas🏴‍☠️",
+          "button_text": "Install Now",
+          "message": "Ahoy, Captain! Fight epic battles, locate hidden treasures, and become the most feared pirate on the seas.🏴‍☠️🏴‍☠️"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "a1838966e477c251",
+      "app_id": "684a45ce3160aa418c0ef3eb",
+      "network": "Instagram",
+      "phashion_group": "a1838966e477c251",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-25",
+      "last_seen_at": "2026-01-15",
+      "creatives": [
+        {
+          "id": "a1838966e477c251",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/06155d9d88096610/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/06155d9d88096610/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/06155d9d88096610/thumb",
+          "video_duration": 37,
+          "width": 1080,
+          "height": 1920,
+          "title": "Conquer the high seas🏴‍☠️",
+          "button_text": "Install Now",
+          "message": "Ahoy, Captain! Fight epic battles, locate hidden treasures, and become the most feared pirate on the seas.🏴‍☠️🏴‍☠️"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "eccda7334912c631",
+      "app_id": "684a45ce3160aa418c0ef3eb",
+      "network": "Meta Audience Network",
+      "phashion_group": "eccda7334912c631",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-25",
+      "last_seen_at": "2026-01-15",
+      "creatives": [
+        {
+          "id": "eccda7334912c631",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/06155d9d88096610/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/06155d9d88096610/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/06155d9d88096610/thumb",
+          "video_duration": 37,
+          "width": 1080,
+          "height": 1920,
+          "title": "Conquer the high seas🏴‍☠️",
+          "button_text": "Install Now",
+          "message": "Ahoy, Captain! Fight epic battles, locate hidden treasures, and become the most feared pirate on the seas.🏴‍☠️🏴‍☠️"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "dff0eaff8aa0d3b6",
+      "app_id": "684a45ce3160aa418c0ef3eb",
+      "network": "Facebook",
+      "phashion_group": "dff0eaff8aa0d3b6",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-31",
+      "last_seen_at": "2026-01-26",
+      "creatives": [
+        {
+          "id": "dff0eaff8aa0d3b6",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/07aac32544a36226/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/07aac32544a36226/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/07aac32544a36226/thumb",
+          "video_duration": 34,
+          "width": 1080,
+          "height": 1920,
+          "title": "Conquer the high seas🏴‍☠️",
+          "button_text": "Install Now",
+          "message": "Ahoy, Captain! Fight epic battles, locate hidden treasures, and become the most feared pirate on the seas.🏴‍☠️🏴‍☠️"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "a03c17de28ddc667",
+      "app_id": "684a45ce3160aa418c0ef3eb",
+      "network": "Instagram",
+      "phashion_group": "a03c17de28ddc667",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-31",
+      "last_seen_at": "2026-01-26",
+      "creatives": [
+        {
+          "id": "a03c17de28ddc667",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/07aac32544a36226/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/07aac32544a36226/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/07aac32544a36226/thumb",
+          "video_duration": 34,
+          "width": 1080,
+          "height": 1920,
+          "title": "Conquer the high seas🏴‍☠️",
+          "button_text": "Install Now",
+          "message": "Ahoy, Captain! Fight epic battles, locate hidden treasures, and become the most feared pirate on the seas.🏴‍☠️🏴‍☠️"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "ed72398b85b8c207",
+      "app_id": "684a45ce3160aa418c0ef3eb",
+      "network": "Meta Audience Network",
+      "phashion_group": "ed72398b85b8c207",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-31",
+      "last_seen_at": "2026-01-26",
+      "creatives": [
+        {
+          "id": "ed72398b85b8c207",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/07aac32544a36226/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/07aac32544a36226/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/07aac32544a36226/thumb",
+          "video_duration": 34,
+          "width": 1080,
+          "height": 1920,
+          "title": "Conquer the high seas🏴‍☠️",
+          "button_text": "Install Now",
+          "message": "Ahoy, Captain! Fight epic battles, locate hidden treasures, and become the most feared pirate on the seas.🏴‍☠️🏴‍☠️"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "d5020e1a91fce8d9",
+      "app_id": "684a45ce3160aa418c0ef3eb",
+      "network": "Facebook",
+      "phashion_group": "d5020e1a91fce8d9",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-08",
+      "last_seen_at": "2026-01-16",
+      "creatives": [
+        {
+          "id": "d5020e1a91fce8d9",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0d5827c05fff5949/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0d5827c05fff5949/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0d5827c05fff5949/thumb",
+          "video_duration": 37,
+          "width": 1080,
+          "height": 1080,
+          "title": "Conquer the high seas🏴‍☠️",
+          "button_text": "Install Now",
+          "message": "Ahoy, Captain! Fight epic battles, locate hidden treasures, and become the most feared pirate on the seas.🏴‍☠️🏴‍☠️"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "aacef33b3381fd08",
+      "app_id": "684a45ce3160aa418c0ef3eb",
+      "network": "Instagram",
+      "phashion_group": "aacef33b3381fd08",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-08",
+      "last_seen_at": "2026-01-16",
+      "creatives": [
+        {
+          "id": "aacef33b3381fd08",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0d5827c05fff5949/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0d5827c05fff5949/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0d5827c05fff5949/thumb",
+          "video_duration": 37,
+          "width": 1080,
+          "height": 1080,
+          "title": "Conquer the high seas🏴‍☠️",
+          "button_text": "Install Now",
+          "message": "Ahoy, Captain! Fight epic battles, locate hidden treasures, and become the most feared pirate on the seas.🏴‍☠️🏴‍☠️"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "e780dd6e9ee4f968",
+      "app_id": "684a45ce3160aa418c0ef3eb",
+      "network": "Meta Audience Network",
+      "phashion_group": "e780dd6e9ee4f968",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-08",
+      "last_seen_at": "2026-01-16",
+      "creatives": [
+        {
+          "id": "e780dd6e9ee4f968",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0d5827c05fff5949/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0d5827c05fff5949/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0d5827c05fff5949/thumb",
+          "video_duration": 37,
+          "width": 1080,
+          "height": 1080,
+          "title": "Conquer the high seas🏴‍☠️",
+          "button_text": "Install Now",
+          "message": "Ahoy, Captain! Fight epic battles, locate hidden treasures, and become the most feared pirate on the seas.🏴‍☠️🏴‍☠️"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "cbba65d9d422aa87",
+      "app_id": "684a45ce3160aa418c0ef3eb",
+      "network": "Facebook",
+      "phashion_group": "cbba65d9d422aa87",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-24",
+      "last_seen_at": "2026-01-12",
+      "creatives": [
+        {
+          "id": "cbba65d9d422aa87",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/13e04c031a211b17/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/13e04c031a211b17/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/13e04c031a211b17/thumb",
+          "video_duration": 43,
+          "width": 1080,
+          "height": 1920,
+          "title": "Conquer the high seas🏴‍☠️",
+          "button_text": "Install Now",
+          "message": "Ahoy, Captain! Fight epic battles, locate hidden treasures, and become the most feared pirate on the seas.🏴‍☠️🏴‍☠️"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "b47698f8765fbf56",
+      "app_id": "684a45ce3160aa418c0ef3eb",
+      "network": "Instagram",
+      "phashion_group": "b47698f8765fbf56",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-24",
+      "last_seen_at": "2026-01-12",
+      "creatives": [
+        {
+          "id": "b47698f8765fbf56",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/13e04c031a211b17/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/13e04c031a211b17/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/13e04c031a211b17/thumb",
+          "video_duration": 43,
+          "width": 1080,
+          "height": 1920,
+          "title": "Conquer the high seas🏴‍☠️",
+          "button_text": "Install Now",
+          "message": "Ahoy, Captain! Fight epic battles, locate hidden treasures, and become the most feared pirate on the seas.🏴‍☠️🏴‍☠️"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "f938b6addb3abb36",
+      "app_id": "684a45ce3160aa418c0ef3eb",
+      "network": "Meta Audience Network",
+      "phashion_group": "f938b6addb3abb36",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-24",
+      "last_seen_at": "2026-01-12",
+      "creatives": [
+        {
+          "id": "f938b6addb3abb36",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/13e04c031a211b17/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/13e04c031a211b17/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/13e04c031a211b17/thumb",
+          "video_duration": 43,
+          "width": 1080,
+          "height": 1920,
+          "title": "Conquer the high seas🏴‍☠️",
+          "button_text": "Install Now",
+          "message": "Ahoy, Captain! Fight epic battles, locate hidden treasures, and become the most feared pirate on the seas.🏴‍☠️🏴‍☠️"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "c5bb0957304ea60c",
+      "app_id": "684a45ce3160aa418c0ef3eb",
+      "network": "Facebook",
+      "phashion_group": "c5bb0957304ea60c",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-25",
+      "last_seen_at": "2026-01-15",
+      "creatives": [
+        {
+          "id": "c5bb0957304ea60c",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1de1208dfe4d179c/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1de1208dfe4d179c/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1de1208dfe4d179c/thumb",
+          "video_duration": 37,
+          "width": 1920,
+          "height": 1080,
+          "title": "Conquer the high seas🏴‍☠️",
+          "button_text": "Install Now",
+          "message": "Ahoy, Captain! Fight epic battles, locate hidden treasures, and become the most feared pirate on the seas.🏴‍☠️🏴‍☠️"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1920x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "ba77f4769233b3dd",
+      "app_id": "684a45ce3160aa418c0ef3eb",
+      "network": "Instagram",
+      "phashion_group": "ba77f4769233b3dd",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-25",
+      "last_seen_at": "2026-01-15",
+      "creatives": [
+        {
+          "id": "ba77f4769233b3dd",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1de1208dfe4d179c/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1de1208dfe4d179c/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1de1208dfe4d179c/thumb",
+          "video_duration": 37,
+          "width": 1920,
+          "height": 1080,
+          "title": "Conquer the high seas🏴‍☠️",
+          "button_text": "Install Now",
+          "message": "Ahoy, Captain! Fight epic battles, locate hidden treasures, and become the most feared pirate on the seas.🏴‍☠️🏴‍☠️"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1920x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "f739da233f56b7bd",
+      "app_id": "684a45ce3160aa418c0ef3eb",
+      "network": "Meta Audience Network",
+      "phashion_group": "f739da233f56b7bd",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-25",
+      "last_seen_at": "2026-01-15",
+      "creatives": [
+        {
+          "id": "f739da233f56b7bd",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1de1208dfe4d179c/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1de1208dfe4d179c/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1de1208dfe4d179c/thumb",
+          "video_duration": 37,
+          "width": 1920,
+          "height": 1080,
+          "title": "Conquer the high seas🏴‍☠️",
+          "button_text": "Install Now",
+          "message": "Ahoy, Captain! Fight epic battles, locate hidden treasures, and become the most feared pirate on the seas.🏴‍☠️🏴‍☠️"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1920x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "eca4258f05775d0e",
+      "app_id": "684a45ce3160aa418c0ef3eb",
+      "network": "Facebook",
+      "phashion_group": "eca4258f05775d0e",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-31",
+      "last_seen_at": "2026-01-28",
+      "creatives": [
+        {
+          "id": "eca4258f05775d0e",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/34fe0c55cb74ec9e/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/34fe0c55cb74ec9e/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/34fe0c55cb74ec9e/thumb",
+          "video_duration": 19,
+          "width": 1080,
+          "height": 1080,
+          "title": "Conquer the high seas🏴‍☠️",
+          "button_text": "Install Now",
+          "message": "Ahoy, Captain! Fight epic battles, locate hidden treasures, and become the most feared pirate on the seas.🏴‍☠️🏴‍☠️"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "9368d8aea70a48df",
+      "app_id": "684a45ce3160aa418c0ef3eb",
+      "network": "Instagram",
+      "phashion_group": "9368d8aea70a48df",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-31",
+      "last_seen_at": "2026-01-28",
+      "creatives": [
+        {
+          "id": "9368d8aea70a48df",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/34fe0c55cb74ec9e/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/34fe0c55cb74ec9e/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/34fe0c55cb74ec9e/thumb",
+          "video_duration": 19,
+          "width": 1080,
+          "height": 1080,
+          "title": "Conquer the high seas🏴‍☠️",
+          "button_text": "Install Now",
+          "message": "Ahoy, Captain! Fight epic battles, locate hidden treasures, and become the most feared pirate on the seas.🏴‍☠️🏴‍☠️"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "de26f6fb0a6f4cbf",
+      "app_id": "684a45ce3160aa418c0ef3eb",
+      "network": "Meta Audience Network",
+      "phashion_group": "de26f6fb0a6f4cbf",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-31",
+      "last_seen_at": "2026-01-28",
+      "creatives": [
+        {
+          "id": "de26f6fb0a6f4cbf",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/34fe0c55cb74ec9e/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/34fe0c55cb74ec9e/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/34fe0c55cb74ec9e/thumb",
+          "video_duration": 19,
+          "width": 1080,
+          "height": 1080,
+          "title": "Conquer the high seas🏴‍☠️",
+          "button_text": "Install Now",
+          "message": "Ahoy, Captain! Fight epic battles, locate hidden treasures, and become the most feared pirate on the seas.🏴‍☠️🏴‍☠️"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "e4da03fef59c042e",
+      "app_id": "684a45ce3160aa418c0ef3eb",
+      "network": "Facebook",
+      "phashion_group": "e4da03fef59c042e",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-12",
+      "last_seen_at": "2026-01-28",
+      "creatives": [
+        {
+          "id": "e4da03fef59c042e",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3c802a243b9fb5be/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3c802a243b9fb5be/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3c802a243b9fb5be/thumb",
+          "video_duration": 42,
+          "width": 1080,
+          "height": 1920,
+          "title": "Conquer the high seas🏴‍☠️",
+          "button_text": "Install Now",
+          "message": "Ahoy, Captain! Fight epic battles, locate hidden treasures, and become the most feared pirate on the seas.🏴‍☠️🏴‍☠️"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "9b16fedf57e111ff",
+      "app_id": "684a45ce3160aa418c0ef3eb",
+      "network": "Instagram",
+      "phashion_group": "9b16fedf57e111ff",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-12",
+      "last_seen_at": "2026-01-28",
+      "creatives": [
+        {
+          "id": "9b16fedf57e111ff",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3c802a243b9fb5be/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3c802a243b9fb5be/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3c802a243b9fb5be/thumb",
+          "video_duration": 42,
+          "width": 1080,
+          "height": 1920,
+          "title": "Conquer the high seas🏴‍☠️",
+          "button_text": "Install Now",
+          "message": "Ahoy, Captain! Fight epic battles, locate hidden treasures, and become the most feared pirate on the seas.🏴‍☠️🏴‍☠️"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "d658d08afa84159f",
+      "app_id": "684a45ce3160aa418c0ef3eb",
+      "network": "Meta Audience Network",
+      "phashion_group": "d658d08afa84159f",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-12",
+      "last_seen_at": "2026-01-28",
+      "creatives": [
+        {
+          "id": "d658d08afa84159f",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3c802a243b9fb5be/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3c802a243b9fb5be/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3c802a243b9fb5be/thumb",
+          "video_duration": 42,
+          "width": 1080,
+          "height": 1920,
+          "title": "Conquer the high seas🏴‍☠️",
+          "button_text": "Install Now",
+          "message": "Ahoy, Captain! Fight epic battles, locate hidden treasures, and become the most feared pirate on the seas.🏴‍☠️🏴‍☠️"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "9dd7e633d246dca5",
+      "app_id": "684a45ce3160aa418c0ef3eb",
+      "network": "Facebook",
+      "phashion_group": "9dd7e633d246dca5",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-05",
+      "last_seen_at": "2026-01-12",
+      "creatives": [
+        {
+          "id": "9dd7e633d246dca5",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/458dcfe91c456d35/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/458dcfe91c456d35/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/458dcfe91c456d35/thumb",
+          "video_duration": 40,
+          "width": 1080,
+          "height": 1080,
+          "title": "Conquer the high seas🏴‍☠️",
+          "button_text": "Install Now",
+          "message": "Ahoy, Captain! Fight epic battles, locate hidden treasures, and become the most feared pirate on the seas.🏴‍☠️🏴‍☠️"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "e21b1b12703bc974",
+      "app_id": "684a45ce3160aa418c0ef3eb",
+      "network": "Instagram",
+      "phashion_group": "e21b1b12703bc974",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-05",
+      "last_seen_at": "2026-01-12",
+      "creatives": [
+        {
+          "id": "e21b1b12703bc974",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/458dcfe91c456d35/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/458dcfe91c456d35/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/458dcfe91c456d35/thumb",
+          "video_duration": 40,
+          "width": 1080,
+          "height": 1080,
+          "title": "Conquer the high seas🏴‍☠️",
+          "button_text": "Install Now",
+          "message": "Ahoy, Captain! Fight epic battles, locate hidden treasures, and become the most feared pirate on the seas.🏴‍☠️🏴‍☠️"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "af553547dd5ecd14",
+      "app_id": "684a45ce3160aa418c0ef3eb",
+      "network": "Meta Audience Network",
+      "phashion_group": "af553547dd5ecd14",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-05",
+      "last_seen_at": "2026-01-12",
+      "creatives": [
+        {
+          "id": "af553547dd5ecd14",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/458dcfe91c456d35/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/458dcfe91c456d35/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/458dcfe91c456d35/thumb",
+          "video_duration": 40,
+          "width": 1080,
+          "height": 1080,
+          "title": "Conquer the high seas🏴‍☠️",
+          "button_text": "Install Now",
+          "message": "Ahoy, Captain! Fight epic battles, locate hidden treasures, and become the most feared pirate on the seas.🏴‍☠️🏴‍☠️"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "afe98988aca4ea86",
+      "app_id": "684a45ce3160aa418c0ef3eb",
+      "network": "Facebook",
+      "phashion_group": "afe98988aca4ea86",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-12",
+      "last_seen_at": "2026-01-28",
+      "creatives": [
+        {
+          "id": "afe98988aca4ea86",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/77b3a05262a75b16/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/77b3a05262a75b16/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/77b3a05262a75b16/thumb",
+          "video_duration": 42,
+          "width": 1080,
+          "height": 1080,
+          "title": "Conquer the high seas🏴‍☠️",
+          "button_text": "Install Now",
+          "message": "Ahoy, Captain! Fight epic battles, locate hidden treasures, and become the most feared pirate on the seas.🏴‍☠️🏴‍☠️"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "d02574a90ed9ff57",
+      "app_id": "684a45ce3160aa418c0ef3eb",
+      "network": "Instagram",
+      "phashion_group": "d02574a90ed9ff57",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-12",
+      "last_seen_at": "2026-01-28",
+      "creatives": [
+        {
+          "id": "d02574a90ed9ff57",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/77b3a05262a75b16/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/77b3a05262a75b16/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/77b3a05262a75b16/thumb",
+          "video_duration": 42,
+          "width": 1080,
+          "height": 1080,
+          "title": "Conquer the high seas🏴‍☠️",
+          "button_text": "Install Now",
+          "message": "Ahoy, Captain! Fight epic battles, locate hidden treasures, and become the most feared pirate on the seas.🏴‍☠️🏴‍☠️"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "9d6b5afca3bcfb37",
+      "app_id": "684a45ce3160aa418c0ef3eb",
+      "network": "Meta Audience Network",
+      "phashion_group": "9d6b5afca3bcfb37",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-12",
+      "last_seen_at": "2026-01-28",
+      "creatives": [
+        {
+          "id": "9d6b5afca3bcfb37",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/77b3a05262a75b16/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/77b3a05262a75b16/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/77b3a05262a75b16/thumb",
+          "video_duration": 42,
+          "width": 1080,
+          "height": 1080,
+          "title": "Conquer the high seas🏴‍☠️",
+          "button_text": "Install Now",
+          "message": "Ahoy, Captain! Fight epic battles, locate hidden treasures, and become the most feared pirate on the seas.🏴‍☠️🏴‍☠️"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "a712bfe90918f39d",
+      "app_id": "684a45ce3160aa418c0ef3eb",
+      "network": "Facebook",
+      "phashion_group": "a712bfe90918f39d",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-24",
+      "last_seen_at": "2026-01-12",
+      "creatives": [
+        {
+          "id": "a712bfe90918f39d",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/7f489633c71b420d/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/7f489633c71b420d/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/7f489633c71b420d/thumb",
+          "video_duration": 42,
+          "width": 1080,
+          "height": 1080,
+          "title": "Conquer the high seas🏴‍☠️",
+          "button_text": "Install Now",
+          "message": "Ahoy, Captain! Fight epic battles, locate hidden treasures, and become the most feared pirate on the seas.🏴‍☠️🏴‍☠️"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "d8de42c8ab65e64c",
+      "app_id": "684a45ce3160aa418c0ef3eb",
+      "network": "Instagram",
+      "phashion_group": "d8de42c8ab65e64c",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-24",
+      "last_seen_at": "2026-01-12",
+      "creatives": [
+        {
+          "id": "d8de42c8ab65e64c",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/7f489633c71b420d/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/7f489633c71b420d/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/7f489633c71b420d/thumb",
+          "video_duration": 42,
+          "width": 1080,
+          "height": 1080,
+          "title": "Conquer the high seas🏴‍☠️",
+          "button_text": "Install Now",
+          "message": "Ahoy, Captain! Fight epic battles, locate hidden treasures, and become the most feared pirate on the seas.🏴‍☠️🏴‍☠️"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "95906c9d0600e22c",
+      "app_id": "684a45ce3160aa418c0ef3eb",
+      "network": "Meta Audience Network",
+      "phashion_group": "95906c9d0600e22c",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-24",
+      "last_seen_at": "2026-01-12",
+      "creatives": [
+        {
+          "id": "95906c9d0600e22c",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/7f489633c71b420d/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/7f489633c71b420d/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/7f489633c71b420d/thumb",
+          "video_duration": 42,
+          "width": 1080,
+          "height": 1080,
+          "title": "Conquer the high seas🏴‍☠️",
+          "button_text": "Install Now",
+          "message": "Ahoy, Captain! Fight epic battles, locate hidden treasures, and become the most feared pirate on the seas.🏴‍☠️🏴‍☠️"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "5af7a0663ab1fe4d",
+      "app_id": "684a45ce3160aa418c0ef3eb",
+      "network": "Facebook",
+      "phashion_group": "5af7a0663ab1fe4d",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-14",
+      "last_seen_at": "2026-01-28",
+      "creatives": [
+        {
+          "id": "5af7a0663ab1fe4d",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/82ad89bcf4b24fdd/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/82ad89bcf4b24fdd/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/82ad89bcf4b24fdd/thumb",
+          "video_duration": 27,
+          "width": 1080,
+          "height": 1920,
+          "title": "Conquer the high seas🏴‍☠️",
+          "button_text": "Install Now",
+          "message": "Ahoy, Captain! Fight epic battles, locate hidden treasures, and become the most feared pirate on the seas.🏴‍☠️🏴‍☠️"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "253b5d4798cceb9c",
+      "app_id": "684a45ce3160aa418c0ef3eb",
+      "network": "Instagram",
+      "phashion_group": "253b5d4798cceb9c",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-14",
+      "last_seen_at": "2026-01-28",
+      "creatives": [
+        {
+          "id": "253b5d4798cceb9c",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/82ad89bcf4b24fdd/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/82ad89bcf4b24fdd/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/82ad89bcf4b24fdd/thumb",
+          "video_duration": 27,
+          "width": 1080,
+          "height": 1920,
+          "title": "Conquer the high seas🏴‍☠️",
+          "button_text": "Install Now",
+          "message": "Ahoy, Captain! Fight epic battles, locate hidden treasures, and become the most feared pirate on the seas.🏴‍☠️🏴‍☠️"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "6875731235a9effc",
+      "app_id": "684a45ce3160aa418c0ef3eb",
+      "network": "Meta Audience Network",
+      "phashion_group": "6875731235a9effc",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-14",
+      "last_seen_at": "2026-01-28",
+      "creatives": [
+        {
+          "id": "6875731235a9effc",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/82ad89bcf4b24fdd/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/82ad89bcf4b24fdd/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/82ad89bcf4b24fdd/thumb",
+          "video_duration": 27,
+          "width": 1080,
+          "height": 1920,
+          "title": "Conquer the high seas🏴‍☠️",
+          "button_text": "Install Now",
+          "message": "Ahoy, Captain! Fight epic battles, locate hidden treasures, and become the most feared pirate on the seas.🏴‍☠️🏴‍☠️"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "5d15e6c8a261737f",
+      "app_id": "684a45ce3160aa418c0ef3eb",
+      "network": "Facebook",
+      "phashion_group": "5d15e6c8a261737f",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-12",
+      "last_seen_at": "2026-01-26",
+      "creatives": [
+        {
+          "id": "5d15e6c8a261737f",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/854fcf126c62c2ef/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/854fcf126c62c2ef/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/854fcf126c62c2ef/thumb",
+          "video_duration": 30,
+          "width": 1076,
+          "height": 1920,
+          "title": "Conquer the high seas🏴‍☠️",
+          "button_text": "Install Now",
+          "message": "Ahoy, Captain! Fight epic battles, locate hidden treasures, and become the most feared pirate on the seas.🏴‍☠️🏴‍☠️"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1076x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "22d91be9001c66ae",
+      "app_id": "684a45ce3160aa418c0ef3eb",
+      "network": "Instagram",
+      "phashion_group": "22d91be9001c66ae",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-12",
+      "last_seen_at": "2026-01-26",
+      "creatives": [
+        {
+          "id": "22d91be9001c66ae",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/854fcf126c62c2ef/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/854fcf126c62c2ef/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/854fcf126c62c2ef/thumb",
+          "video_duration": 30,
+          "width": 1076,
+          "height": 1920,
+          "title": "Conquer the high seas🏴‍☠️",
+          "button_text": "Install Now",
+          "message": "Ahoy, Captain! Fight epic battles, locate hidden treasures, and become the most feared pirate on the seas.🏴‍☠️🏴‍☠️"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1076x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "6f9735bcad7962ce",
+      "app_id": "684a45ce3160aa418c0ef3eb",
+      "network": "Meta Audience Network",
+      "phashion_group": "6f9735bcad7962ce",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-12",
+      "last_seen_at": "2026-01-26",
+      "creatives": [
+        {
+          "id": "6f9735bcad7962ce",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/854fcf126c62c2ef/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/854fcf126c62c2ef/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/854fcf126c62c2ef/thumb",
+          "video_duration": 30,
+          "width": 1076,
+          "height": 1920,
+          "title": "Conquer the high seas🏴‍☠️",
+          "button_text": "Install Now",
+          "message": "Ahoy, Captain! Fight epic battles, locate hidden treasures, and become the most feared pirate on the seas.🏴‍☠️🏴‍☠️"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1076x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "500d73194764909e",
+      "app_id": "684a45ce3160aa418c0ef3eb",
+      "network": "Facebook",
+      "phashion_group": "500d73194764909e",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-12",
+      "last_seen_at": "2026-01-28",
+      "creatives": [
+        {
+          "id": "500d73194764909e",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/88575ac38967210e/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/88575ac38967210e/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/88575ac38967210e/thumb",
+          "video_duration": 46,
+          "width": 1080,
+          "height": 1920,
+          "title": "Conquer the high seas🏴‍☠️",
+          "button_text": "Install Now",
+          "message": "Ahoy, Captain! Fight epic battles, locate hidden treasures, and become the most feared pirate on the seas.🏴‍☠️🏴‍☠️"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "2fc18e38e519854f",
+      "app_id": "684a45ce3160aa418c0ef3eb",
+      "network": "Instagram",
+      "phashion_group": "2fc18e38e519854f",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-12",
+      "last_seen_at": "2026-01-28",
+      "creatives": [
+        {
+          "id": "2fc18e38e519854f",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/88575ac38967210e/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/88575ac38967210e/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/88575ac38967210e/thumb",
+          "video_duration": 46,
+          "width": 1080,
+          "height": 1920,
+          "title": "Conquer the high seas🏴‍☠️",
+          "button_text": "Install Now",
+          "message": "Ahoy, Captain! Fight epic battles, locate hidden treasures, and become the most feared pirate on the seas.🏴‍☠️🏴‍☠️"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "628fa06d487c812f",
+      "app_id": "684a45ce3160aa418c0ef3eb",
+      "network": "Meta Audience Network",
+      "phashion_group": "628fa06d487c812f",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-12",
+      "last_seen_at": "2026-01-28",
+      "creatives": [
+        {
+          "id": "628fa06d487c812f",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/88575ac38967210e/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/88575ac38967210e/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/88575ac38967210e/thumb",
+          "video_duration": 46,
+          "width": 1080,
+          "height": 1920,
+          "title": "Conquer the high seas🏴‍☠️",
+          "button_text": "Install Now",
+          "message": "Ahoy, Captain! Fight epic battles, locate hidden treasures, and become the most feared pirate on the seas.🏴‍☠️🏴‍☠️"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "51eafa3e5ca45b72",
+      "app_id": "684a45ce3160aa418c0ef3eb",
+      "network": "Facebook",
+      "phashion_group": "51eafa3e5ca45b72",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-05",
+      "last_seen_at": "2026-01-12",
+      "creatives": [
+        {
+          "id": "51eafa3e5ca45b72",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/89b0d3e492a7eae2/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/89b0d3e492a7eae2/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/89b0d3e492a7eae2/thumb",
+          "video_duration": 40,
+          "width": 1920,
+          "height": 1080,
+          "title": "Conquer the high seas🏴‍☠️",
+          "button_text": "Install Now",
+          "message": "Ahoy, Captain! Fight epic battles, locate hidden treasures, and become the most feared pirate on the seas.🏴‍☠️🏴‍☠️"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1920x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "2e26071ffed94ea3",
+      "app_id": "684a45ce3160aa418c0ef3eb",
+      "network": "Instagram",
+      "phashion_group": "2e26071ffed94ea3",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-05",
+      "last_seen_at": "2026-01-12",
+      "creatives": [
+        {
+          "id": "2e26071ffed94ea3",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/89b0d3e492a7eae2/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/89b0d3e492a7eae2/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/89b0d3e492a7eae2/thumb",
+          "video_duration": 40,
+          "width": 1920,
+          "height": 1080,
+          "title": "Conquer the high seas🏴‍☠️",
+          "button_text": "Install Now",
+          "message": "Ahoy, Captain! Fight epic battles, locate hidden treasures, and become the most feared pirate on the seas.🏴‍☠️🏴‍☠️"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1920x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "6368294a53bc4ac3",
+      "app_id": "684a45ce3160aa418c0ef3eb",
+      "network": "Meta Audience Network",
+      "phashion_group": "6368294a53bc4ac3",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-05",
+      "last_seen_at": "2026-01-12",
+      "creatives": [
+        {
+          "id": "6368294a53bc4ac3",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/89b0d3e492a7eae2/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/89b0d3e492a7eae2/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/89b0d3e492a7eae2/thumb",
+          "video_duration": 40,
+          "width": 1920,
+          "height": 1080,
+          "title": "Conquer the high seas🏴‍☠️",
+          "button_text": "Install Now",
+          "message": "Ahoy, Captain! Fight epic battles, locate hidden treasures, and become the most feared pirate on the seas.🏴‍☠️🏴‍☠️"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1920x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "43d2d49c13b0a618",
+      "app_id": "684a45ce3160aa418c0ef3eb",
+      "network": "Facebook",
+      "phashion_group": "43d2d49c13b0a618",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-12",
+      "last_seen_at": "2026-01-26",
+      "creatives": [
+        {
+          "id": "43d2d49c13b0a618",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/9b88fd46ddb31788/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/9b88fd46ddb31788/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/9b88fd46ddb31788/thumb",
+          "video_duration": 30,
+          "width": 1920,
+          "height": 1080,
+          "title": "Conquer the high seas🏴‍☠️",
+          "button_text": "Install Now",
+          "message": "Ahoy, Captain! Fight epic battles, locate hidden treasures, and become the most feared pirate on the seas.🏴‍☠️🏴‍☠️"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1920x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "3c1e29bdb1cdb3c9",
+      "app_id": "684a45ce3160aa418c0ef3eb",
+      "network": "Instagram",
+      "phashion_group": "3c1e29bdb1cdb3c9",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-12",
+      "last_seen_at": "2026-01-26",
+      "creatives": [
+        {
+          "id": "3c1e29bdb1cdb3c9",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/9b88fd46ddb31788/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/9b88fd46ddb31788/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/9b88fd46ddb31788/thumb",
+          "video_duration": 30,
+          "width": 1920,
+          "height": 1080,
+          "title": "Conquer the high seas🏴‍☠️",
+          "button_text": "Install Now",
+          "message": "Ahoy, Captain! Fight epic battles, locate hidden treasures, and become the most feared pirate on the seas.🏴‍☠️🏴‍☠️"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1920x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "715007e81ca8b7a9",
+      "app_id": "684a45ce3160aa418c0ef3eb",
+      "network": "Meta Audience Network",
+      "phashion_group": "715007e81ca8b7a9",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-12",
+      "last_seen_at": "2026-01-26",
+      "creatives": [
+        {
+          "id": "715007e81ca8b7a9",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/9b88fd46ddb31788/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/9b88fd46ddb31788/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/9b88fd46ddb31788/thumb",
+          "video_duration": 30,
+          "width": 1920,
+          "height": 1080,
+          "title": "Conquer the high seas🏴‍☠️",
+          "button_text": "Install Now",
+          "message": "Ahoy, Captain! Fight epic battles, locate hidden treasures, and become the most feared pirate on the seas.🏴‍☠️🏴‍☠️"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1920x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "7ac868d83f953468",
+      "app_id": "684a45ce3160aa418c0ef3eb",
+      "network": "Facebook",
+      "phashion_group": "7ac868d83f953468",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-14",
+      "last_seen_at": "2026-01-28",
+      "creatives": [
+        {
+          "id": "7ac868d83f953468",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/a2924102f19685f8/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/a2924102f19685f8/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/a2924102f19685f8/thumb",
+          "video_duration": 27,
+          "width": 1920,
+          "height": 1080,
+          "title": "Conquer the high seas🏴‍☠️",
+          "button_text": "Install Now",
+          "message": "Ahoy, Captain! Fight epic battles, locate hidden treasures, and become the most feared pirate on the seas.🏴‍☠️🏴‍☠️"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1920x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "050495f99de821b9",
+      "app_id": "684a45ce3160aa418c0ef3eb",
+      "network": "Instagram",
+      "phashion_group": "050495f99de821b9",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-14",
+      "last_seen_at": "2026-01-28",
+      "creatives": [
+        {
+          "id": "050495f99de821b9",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/a2924102f19685f8/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/a2924102f19685f8/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/a2924102f19685f8/thumb",
+          "video_duration": 27,
+          "width": 1920,
+          "height": 1080,
+          "title": "Conquer the high seas🏴‍☠️",
+          "button_text": "Install Now",
+          "message": "Ahoy, Captain! Fight epic battles, locate hidden treasures, and become the most feared pirate on the seas.🏴‍☠️🏴‍☠️"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1920x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "484abbac308d25d9",
+      "app_id": "684a45ce3160aa418c0ef3eb",
+      "network": "Meta Audience Network",
+      "phashion_group": "484abbac308d25d9",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-14",
+      "last_seen_at": "2026-01-28",
+      "creatives": [
+        {
+          "id": "484abbac308d25d9",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/a2924102f19685f8/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/a2924102f19685f8/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/a2924102f19685f8/thumb",
+          "video_duration": 27,
+          "width": 1920,
+          "height": 1080,
+          "title": "Conquer the high seas🏴‍☠️",
+          "button_text": "Install Now",
+          "message": "Ahoy, Captain! Fight epic battles, locate hidden treasures, and become the most feared pirate on the seas.🏴‍☠️🏴‍☠️"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1920x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "7a8a21220e89679f",
+      "app_id": "684a45ce3160aa418c0ef3eb",
+      "network": "Facebook",
+      "phashion_group": "7a8a21220e89679f",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-19",
+      "last_seen_at": "2026-01-28",
+      "creatives": [
+        {
+          "id": "7a8a21220e89679f",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/a2d008f8c08ad60f/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/a2d008f8c08ad60f/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/a2d008f8c08ad60f/thumb",
+          "video_duration": 38,
+          "width": 1920,
+          "height": 1080,
+          "title": "Conquer the high seas🏴‍☠️",
+          "button_text": "Install Now",
+          "message": "Ahoy, Captain! Fight epic battles, locate hidden treasures, and become the most feared pirate on the seas.🏴‍☠️🏴‍☠️"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1920x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "0546dc03acf4724e",
+      "app_id": "684a45ce3160aa418c0ef3eb",
+      "network": "Instagram",
+      "phashion_group": "0546dc03acf4724e",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-19",
+      "last_seen_at": "2026-01-28",
+      "creatives": [
+        {
+          "id": "0546dc03acf4724e",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/a2d008f8c08ad60f/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/a2d008f8c08ad60f/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/a2d008f8c08ad60f/thumb",
+          "video_duration": 38,
+          "width": 1920,
+          "height": 1080,
+          "title": "Conquer the high seas🏴‍☠️",
+          "button_text": "Install Now",
+          "message": "Ahoy, Captain! Fight epic battles, locate hidden treasures, and become the most feared pirate on the seas.🏴‍☠️🏴‍☠️"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1920x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "4808f2560191762e",
+      "app_id": "684a45ce3160aa418c0ef3eb",
+      "network": "Meta Audience Network",
+      "phashion_group": "4808f2560191762e",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-19",
+      "last_seen_at": "2026-01-28",
+      "creatives": [
+        {
+          "id": "4808f2560191762e",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/a2d008f8c08ad60f/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/a2d008f8c08ad60f/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/a2d008f8c08ad60f/thumb",
+          "video_duration": 38,
+          "width": 1920,
+          "height": 1080,
+          "title": "Conquer the high seas🏴‍☠️",
+          "button_text": "Install Now",
+          "message": "Ahoy, Captain! Fight epic battles, locate hidden treasures, and become the most feared pirate on the seas.🏴‍☠️🏴‍☠️"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1920x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "7d0517cb284eb924",
+      "app_id": "684a45ce3160aa418c0ef3eb",
+      "network": "Facebook",
+      "phashion_group": "7d0517cb284eb924",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-08",
+      "last_seen_at": "2026-01-16",
+      "creatives": [
+        {
+          "id": "7d0517cb284eb924",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/a55f3e11e64d08b4/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/a55f3e11e64d08b4/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/a55f3e11e64d08b4/thumb",
+          "video_duration": 37,
+          "width": 1920,
+          "height": 1080,
+          "title": "Conquer the high seas🏴‍☠️",
+          "button_text": "Install Now",
+          "message": "Ahoy, Captain! Fight epic battles, locate hidden treasures, and become the most feared pirate on the seas.🏴‍☠️🏴‍☠️"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1920x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "02c9eaea8a33acf5",
+      "app_id": "684a45ce3160aa418c0ef3eb",
+      "network": "Instagram",
+      "phashion_group": "02c9eaea8a33acf5",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-08",
+      "last_seen_at": "2026-01-16",
+      "creatives": [
+        {
+          "id": "02c9eaea8a33acf5",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/a55f3e11e64d08b4/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/a55f3e11e64d08b4/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/a55f3e11e64d08b4/thumb",
+          "video_duration": 37,
+          "width": 1920,
+          "height": 1080,
+          "title": "Conquer the high seas🏴‍☠️",
+          "button_text": "Install Now",
+          "message": "Ahoy, Captain! Fight epic battles, locate hidden treasures, and become the most feared pirate on the seas.🏴‍☠️🏴‍☠️"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1920x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "4f87c4bf2756a895",
+      "app_id": "684a45ce3160aa418c0ef3eb",
+      "network": "Meta Audience Network",
+      "phashion_group": "4f87c4bf2756a895",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-08",
+      "last_seen_at": "2026-01-16",
+      "creatives": [
+        {
+          "id": "4f87c4bf2756a895",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/a55f3e11e64d08b4/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/a55f3e11e64d08b4/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/a55f3e11e64d08b4/thumb",
+          "video_duration": 37,
+          "width": 1920,
+          "height": 1080,
+          "title": "Conquer the high seas🏴‍☠️",
+          "button_text": "Install Now",
+          "message": "Ahoy, Captain! Fight epic battles, locate hidden treasures, and become the most feared pirate on the seas.🏴‍☠️🏴‍☠️"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1920x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "753410f41499606a",
+      "app_id": "684a45ce3160aa418c0ef3eb",
+      "network": "Facebook",
+      "phashion_group": "753410f41499606a",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-12",
+      "last_seen_at": "2026-01-26",
+      "creatives": [
+        {
+          "id": "753410f41499606a",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/ad6e392eda9ad1fa/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/ad6e392eda9ad1fa/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/ad6e392eda9ad1fa/thumb",
+          "video_duration": 30,
+          "width": 1080,
+          "height": 1080,
+          "title": "Conquer the high seas🏴‍☠️",
+          "button_text": "Install Now",
+          "message": "Ahoy, Captain! Fight epic battles, locate hidden treasures, and become the most feared pirate on the seas.🏴‍☠️🏴‍☠️"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "0af8edd5b6e475bb",
+      "app_id": "684a45ce3160aa418c0ef3eb",
+      "network": "Instagram",
+      "phashion_group": "0af8edd5b6e475bb",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-12",
+      "last_seen_at": "2026-01-26",
+      "creatives": [
+        {
+          "id": "0af8edd5b6e475bb",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/ad6e392eda9ad1fa/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/ad6e392eda9ad1fa/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/ad6e392eda9ad1fa/thumb",
+          "video_duration": 30,
+          "width": 1080,
+          "height": 1080,
+          "title": "Conquer the high seas🏴‍☠️",
+          "button_text": "Install Now",
+          "message": "Ahoy, Captain! Fight epic battles, locate hidden treasures, and become the most feared pirate on the seas.🏴‍☠️🏴‍☠️"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "47b6c3801b8171db",
+      "app_id": "684a45ce3160aa418c0ef3eb",
+      "network": "Meta Audience Network",
+      "phashion_group": "47b6c3801b8171db",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-12",
+      "last_seen_at": "2026-01-26",
+      "creatives": [
+        {
+          "id": "47b6c3801b8171db",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/ad6e392eda9ad1fa/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/ad6e392eda9ad1fa/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/ad6e392eda9ad1fa/thumb",
+          "video_duration": 30,
+          "width": 1080,
+          "height": 1080,
+          "title": "Conquer the high seas🏴‍☠️",
+          "button_text": "Install Now",
+          "message": "Ahoy, Captain! Fight epic battles, locate hidden treasures, and become the most feared pirate on the seas.🏴‍☠️🏴‍☠️"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "77310d34b7a7ffed",
+      "app_id": "684a45ce3160aa418c0ef3eb",
+      "network": "Facebook",
+      "phashion_group": "77310d34b7a7ffed",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-24",
+      "last_seen_at": "2026-01-12",
+      "creatives": [
+        {
+          "id": "77310d34b7a7ffed",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/af6b24ee79a44e7d/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/af6b24ee79a44e7d/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/af6b24ee79a44e7d/thumb",
+          "video_duration": 42,
+          "width": 1920,
+          "height": 1080,
+          "title": "Conquer the high seas🏴‍☠️",
+          "button_text": "Install Now",
+          "message": "Ahoy, Captain! Fight epic battles, locate hidden treasures, and become the most feared pirate on the seas.🏴‍☠️🏴‍☠️"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1920x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "08fdf01515daea3c",
+      "app_id": "684a45ce3160aa418c0ef3eb",
+      "network": "Instagram",
+      "phashion_group": "08fdf01515daea3c",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-24",
+      "last_seen_at": "2026-01-12",
+      "creatives": [
+        {
+          "id": "08fdf01515daea3c",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/af6b24ee79a44e7d/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/af6b24ee79a44e7d/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/af6b24ee79a44e7d/thumb",
+          "video_duration": 42,
+          "width": 1920,
+          "height": 1080,
+          "title": "Conquer the high seas🏴‍☠️",
+          "button_text": "Install Now",
+          "message": "Ahoy, Captain! Fight epic battles, locate hidden treasures, and become the most feared pirate on the seas.🏴‍☠️🏴‍☠️"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1920x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "45b3de40b8bfee5c",
+      "app_id": "684a45ce3160aa418c0ef3eb",
+      "network": "Meta Audience Network",
+      "phashion_group": "45b3de40b8bfee5c",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-24",
+      "last_seen_at": "2026-01-12",
+      "creatives": [
+        {
+          "id": "45b3de40b8bfee5c",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/af6b24ee79a44e7d/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/af6b24ee79a44e7d/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/af6b24ee79a44e7d/thumb",
+          "video_duration": 42,
+          "width": 1920,
+          "height": 1080,
+          "title": "Conquer the high seas🏴‍☠️",
+          "button_text": "Install Now",
+          "message": "Ahoy, Captain! Fight epic battles, locate hidden treasures, and become the most feared pirate on the seas.🏴‍☠️🏴‍☠️"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1920x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "6887787644df5c29",
+      "app_id": "684a45ce3160aa418c0ef3eb",
+      "network": "Facebook",
+      "phashion_group": "6887787644df5c29",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-19",
+      "last_seen_at": "2026-01-28",
+      "creatives": [
+        {
+          "id": "6887787644df5c29",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/b0dd51ac8adcedb9/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/b0dd51ac8adcedb9/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/b0dd51ac8adcedb9/thumb",
+          "video_duration": 38,
+          "width": 1080,
+          "height": 1920,
+          "title": "Conquer the high seas🏴‍☠️",
+          "button_text": "Install Now",
+          "message": "Ahoy, Captain! Fight epic battles, locate hidden treasures, and become the most feared pirate on the seas.🏴‍☠️🏴‍☠️"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "174b8557e6a249f8",
+      "app_id": "684a45ce3160aa418c0ef3eb",
+      "network": "Instagram",
+      "phashion_group": "174b8557e6a249f8",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-19",
+      "last_seen_at": "2026-01-28",
+      "creatives": [
+        {
+          "id": "174b8557e6a249f8",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/b0dd51ac8adcedb9/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/b0dd51ac8adcedb9/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/b0dd51ac8adcedb9/thumb",
+          "video_duration": 38,
+          "width": 1080,
+          "height": 1920,
+          "title": "Conquer the high seas🏴‍☠️",
+          "button_text": "Install Now",
+          "message": "Ahoy, Captain! Fight epic battles, locate hidden treasures, and become the most feared pirate on the seas.🏴‍☠️🏴‍☠️"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "5a05ab024bc74d98",
+      "app_id": "684a45ce3160aa418c0ef3eb",
+      "network": "Meta Audience Network",
+      "phashion_group": "5a05ab024bc74d98",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-19",
+      "last_seen_at": "2026-01-28",
+      "creatives": [
+        {
+          "id": "5a05ab024bc74d98",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/b0dd51ac8adcedb9/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/b0dd51ac8adcedb9/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/b0dd51ac8adcedb9/thumb",
+          "video_duration": 38,
+          "width": 1080,
+          "height": 1920,
+          "title": "Conquer the high seas🏴‍☠️",
+          "button_text": "Install Now",
+          "message": "Ahoy, Captain! Fight epic battles, locate hidden treasures, and become the most feared pirate on the seas.🏴‍☠️🏴‍☠️"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "6a06a360043adc7a",
+      "app_id": "684a45ce3160aa418c0ef3eb",
+      "network": "Facebook",
+      "phashion_group": "6a06a360043adc7a",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-19",
+      "last_seen_at": "2026-01-28",
+      "creatives": [
+        {
+          "id": "6a06a360043adc7a",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/b25c8abaca396dea/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/b25c8abaca396dea/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/b25c8abaca396dea/thumb",
+          "video_duration": 38,
+          "width": 1080,
+          "height": 1080,
+          "title": "Conquer the high seas🏴‍☠️",
+          "button_text": "Install Now",
+          "message": "Ahoy, Captain! Fight epic battles, locate hidden treasures, and become the most feared pirate on the seas.🏴‍☠️🏴‍☠️"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "15ca5e41a647c9ab",
+      "app_id": "684a45ce3160aa418c0ef3eb",
+      "network": "Instagram",
+      "phashion_group": "15ca5e41a647c9ab",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-19",
+      "last_seen_at": "2026-01-28",
+      "creatives": [
+        {
+          "id": "15ca5e41a647c9ab",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/b25c8abaca396dea/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/b25c8abaca396dea/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/b25c8abaca396dea/thumb",
+          "video_duration": 38,
+          "width": 1080,
+          "height": 1080,
+          "title": "Conquer the high seas🏴‍☠️",
+          "button_text": "Install Now",
+          "message": "Ahoy, Captain! Fight epic battles, locate hidden treasures, and become the most feared pirate on the seas.🏴‍☠️🏴‍☠️"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "588470140b22cdcb",
+      "app_id": "684a45ce3160aa418c0ef3eb",
+      "network": "Meta Audience Network",
+      "phashion_group": "588470140b22cdcb",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-19",
+      "last_seen_at": "2026-01-28",
+      "creatives": [
+        {
+          "id": "588470140b22cdcb",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/b25c8abaca396dea/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/b25c8abaca396dea/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/b25c8abaca396dea/thumb",
+          "video_duration": 38,
+          "width": 1080,
+          "height": 1080,
+          "title": "Conquer the high seas🏴‍☠️",
+          "button_text": "Install Now",
+          "message": "Ahoy, Captain! Fight epic battles, locate hidden treasures, and become the most feared pirate on the seas.🏴‍☠️🏴‍☠️"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "6530672a83948033",
+      "app_id": "684a45ce3160aa418c0ef3eb",
+      "network": "Facebook",
+      "phashion_group": "6530672a83948033",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-31",
+      "last_seen_at": "2026-01-28",
+      "creatives": [
+        {
+          "id": "6530672a83948033",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/bd6a4ef04d9731a3/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/bd6a4ef04d9731a3/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/bd6a4ef04d9731a3/thumb",
+          "video_duration": 19,
+          "width": 1920,
+          "height": 1080,
+          "title": "Conquer the high seas🏴‍☠️",
+          "button_text": "Install Now",
+          "message": "Ahoy, Captain! Fight epic battles, locate hidden treasures, and become the most feared pirate on the seas.🏴‍☠️🏴‍☠️"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1920x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "1afc9a0b21e995e2",
+      "app_id": "684a45ce3160aa418c0ef3eb",
+      "network": "Instagram",
+      "phashion_group": "1afc9a0b21e995e2",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-31",
+      "last_seen_at": "2026-01-28",
+      "creatives": [
+        {
+          "id": "1afc9a0b21e995e2",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/bd6a4ef04d9731a3/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/bd6a4ef04d9731a3/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/bd6a4ef04d9731a3/thumb",
+          "video_duration": 19,
+          "width": 1920,
+          "height": 1080,
+          "title": "Conquer the high seas🏴‍☠️",
+          "button_text": "Install Now",
+          "message": "Ahoy, Captain! Fight epic battles, locate hidden treasures, and become the most feared pirate on the seas.🏴‍☠️🏴‍☠️"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1920x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "57b2b45e8c8c9182",
+      "app_id": "684a45ce3160aa418c0ef3eb",
+      "network": "Meta Audience Network",
+      "phashion_group": "57b2b45e8c8c9182",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-31",
+      "last_seen_at": "2026-01-28",
+      "creatives": [
+        {
+          "id": "57b2b45e8c8c9182",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/bd6a4ef04d9731a3/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/bd6a4ef04d9731a3/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/bd6a4ef04d9731a3/thumb",
+          "video_duration": 19,
+          "width": 1920,
+          "height": 1080,
+          "title": "Conquer the high seas🏴‍☠️",
+          "button_text": "Install Now",
+          "message": "Ahoy, Captain! Fight epic battles, locate hidden treasures, and become the most feared pirate on the seas.🏴‍☠️🏴‍☠️"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1920x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "095a5c920e9b89e5",
+      "app_id": "684a45ce3160aa418c0ef3eb",
+      "network": "Facebook",
+      "phashion_group": "095a5c920e9b89e5",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-31",
+      "last_seen_at": "2026-01-26",
+      "creatives": [
+        {
+          "id": "095a5c920e9b89e5",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/d1007548c0983875/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/d1007548c0983875/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/d1007548c0983875/thumb",
+          "video_duration": 34,
+          "width": 1920,
+          "height": 1080,
+          "title": "Conquer the high seas🏴‍☠️",
+          "button_text": "Install Now",
+          "message": "Ahoy, Captain! Fight epic battles, locate hidden treasures, and become the most feared pirate on the seas.🏴‍☠️🏴‍☠️"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1920x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "7696a1b3ace69c34",
+      "app_id": "684a45ce3160aa418c0ef3eb",
+      "network": "Instagram",
+      "phashion_group": "7696a1b3ace69c34",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-31",
+      "last_seen_at": "2026-01-26",
+      "creatives": [
+        {
+          "id": "7696a1b3ace69c34",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/d1007548c0983875/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/d1007548c0983875/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/d1007548c0983875/thumb",
+          "video_duration": 34,
+          "width": 1920,
+          "height": 1080,
+          "title": "Conquer the high seas🏴‍☠️",
+          "button_text": "Install Now",
+          "message": "Ahoy, Captain! Fight epic battles, locate hidden treasures, and become the most feared pirate on the seas.🏴‍☠️🏴‍☠️"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1920x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "3bd88fe601839854",
+      "app_id": "684a45ce3160aa418c0ef3eb",
+      "network": "Meta Audience Network",
+      "phashion_group": "3bd88fe601839854",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-31",
+      "last_seen_at": "2026-01-26",
+      "creatives": [
+        {
+          "id": "3bd88fe601839854",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/d1007548c0983875/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/d1007548c0983875/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/d1007548c0983875/thumb",
+          "video_duration": 34,
+          "width": 1920,
+          "height": 1080,
+          "title": "Conquer the high seas🏴‍☠️",
+          "button_text": "Install Now",
+          "message": "Ahoy, Captain! Fight epic battles, locate hidden treasures, and become the most feared pirate on the seas.🏴‍☠️🏴‍☠️"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1920x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "0dcfe275acf8b2e3",
+      "app_id": "684a45ce3160aa418c0ef3eb",
+      "network": "Facebook",
+      "phashion_group": "0dcfe275acf8b2e3",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-31",
+      "last_seen_at": "2026-01-28",
+      "creatives": [
+        {
+          "id": "0dcfe275acf8b2e3",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/d595cbaf62fb0373/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/d595cbaf62fb0373/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/d595cbaf62fb0373/thumb",
+          "video_duration": 19,
+          "width": 1080,
+          "height": 1920,
+          "title": "Conquer the high seas🏴‍☠️",
+          "button_text": "Install Now",
+          "message": "Ahoy, Captain! Fight epic battles, locate hidden treasures, and become the most feared pirate on the seas.🏴‍☠️🏴‍☠️"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "72031f540e85a732",
+      "app_id": "684a45ce3160aa418c0ef3eb",
+      "network": "Instagram",
+      "phashion_group": "72031f540e85a732",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-31",
+      "last_seen_at": "2026-01-28",
+      "creatives": [
+        {
+          "id": "72031f540e85a732",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/d595cbaf62fb0373/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/d595cbaf62fb0373/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/d595cbaf62fb0373/thumb",
+          "video_duration": 19,
+          "width": 1080,
+          "height": 1920,
+          "title": "Conquer the high seas🏴‍☠️",
+          "button_text": "Install Now",
+          "message": "Ahoy, Captain! Fight epic battles, locate hidden treasures, and become the most feared pirate on the seas.🏴‍☠️🏴‍☠️"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "3f4d3101a3e0a352",
+      "app_id": "684a45ce3160aa418c0ef3eb",
+      "network": "Meta Audience Network",
+      "phashion_group": "3f4d3101a3e0a352",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-31",
+      "last_seen_at": "2026-01-28",
+      "creatives": [
+        {
+          "id": "3f4d3101a3e0a352",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/d595cbaf62fb0373/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/d595cbaf62fb0373/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/d595cbaf62fb0373/thumb",
+          "video_duration": 19,
+          "width": 1080,
+          "height": 1920,
+          "title": "Conquer the high seas🏴‍☠️",
+          "button_text": "Install Now",
+          "message": "Ahoy, Captain! Fight epic battles, locate hidden treasures, and become the most feared pirate on the seas.🏴‍☠️🏴‍☠️"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "00bc762865074315",
+      "app_id": "684a45ce3160aa418c0ef3eb",
+      "network": "Facebook",
+      "phashion_group": "00bc762865074315",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-25",
+      "last_seen_at": "2026-01-15",
+      "creatives": [
+        {
+          "id": "00bc762865074315",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/d8e65ff2ab04f285/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/d8e65ff2ab04f285/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/d8e65ff2ab04f285/thumb",
+          "video_duration": 37,
+          "width": 1080,
+          "height": 1080,
+          "title": "Conquer the high seas🏴‍☠️",
+          "button_text": "Install Now",
+          "message": "Ahoy, Captain! Fight epic battles, locate hidden treasures, and become the most feared pirate on the seas.🏴‍☠️🏴‍☠️"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "7f708b09c77a56c4",
+      "app_id": "684a45ce3160aa418c0ef3eb",
+      "network": "Instagram",
+      "phashion_group": "7f708b09c77a56c4",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-25",
+      "last_seen_at": "2026-01-15",
+      "creatives": [
+        {
+          "id": "7f708b09c77a56c4",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/d8e65ff2ab04f285/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/d8e65ff2ab04f285/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/d8e65ff2ab04f285/thumb",
+          "video_duration": 37,
+          "width": 1080,
+          "height": 1080,
+          "title": "Conquer the high seas🏴‍☠️",
+          "button_text": "Install Now",
+          "message": "Ahoy, Captain! Fight epic battles, locate hidden treasures, and become the most feared pirate on the seas.🏴‍☠️🏴‍☠️"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "323ea55c6a1f52a4",
+      "app_id": "684a45ce3160aa418c0ef3eb",
+      "network": "Meta Audience Network",
+      "phashion_group": "323ea55c6a1f52a4",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-25",
+      "last_seen_at": "2026-01-15",
+      "creatives": [
+        {
+          "id": "323ea55c6a1f52a4",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/d8e65ff2ab04f285/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/d8e65ff2ab04f285/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/d8e65ff2ab04f285/thumb",
+          "video_duration": 37,
+          "width": 1080,
+          "height": 1080,
+          "title": "Conquer the high seas🏴‍☠️",
+          "button_text": "Install Now",
+          "message": "Ahoy, Captain! Fight epic battles, locate hidden treasures, and become the most feared pirate on the seas.🏴‍☠️🏴‍☠️"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "047606222c143930",
+      "app_id": "684a45ce3160aa418c0ef3eb",
+      "network": "Facebook",
+      "phashion_group": "047606222c143930",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-14",
+      "last_seen_at": "2026-01-28",
+      "creatives": [
+        {
+          "id": "047606222c143930",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/dc2c2ff8e21788a0/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/dc2c2ff8e21788a0/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/dc2c2ff8e21788a0/thumb",
+          "video_duration": 27,
+          "width": 1080,
+          "height": 1080,
+          "title": "Conquer the high seas🏴‍☠️",
+          "button_text": "Install Now",
+          "message": "Ahoy, Captain! Fight epic battles, locate hidden treasures, and become the most feared pirate on the seas.🏴‍☠️🏴‍☠️"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "7bbafb038e692ce1",
+      "app_id": "684a45ce3160aa418c0ef3eb",
+      "network": "Instagram",
+      "phashion_group": "7bbafb038e692ce1",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-14",
+      "last_seen_at": "2026-01-28",
+      "creatives": [
+        {
+          "id": "7bbafb038e692ce1",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/dc2c2ff8e21788a0/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/dc2c2ff8e21788a0/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/dc2c2ff8e21788a0/thumb",
+          "video_duration": 27,
+          "width": 1080,
+          "height": 1080,
+          "title": "Conquer the high seas🏴‍☠️",
+          "button_text": "Install Now",
+          "message": "Ahoy, Captain! Fight epic battles, locate hidden treasures, and become the most feared pirate on the seas.🏴‍☠️🏴‍☠️"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "36f4d556230c2881",
+      "app_id": "684a45ce3160aa418c0ef3eb",
+      "network": "Meta Audience Network",
+      "phashion_group": "36f4d556230c2881",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-14",
+      "last_seen_at": "2026-01-28",
+      "creatives": [
+        {
+          "id": "36f4d556230c2881",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/dc2c2ff8e21788a0/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/dc2c2ff8e21788a0/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/dc2c2ff8e21788a0/thumb",
+          "video_duration": 27,
+          "width": 1080,
+          "height": 1080,
+          "title": "Conquer the high seas🏴‍☠️",
+          "button_text": "Install Now",
+          "message": "Ahoy, Captain! Fight epic battles, locate hidden treasures, and become the most feared pirate on the seas.🏴‍☠️🏴‍☠️"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "3376d6b1433390ae",
+      "app_id": "684a45ce3160aa418c0ef3eb",
+      "network": "Facebook",
+      "phashion_group": "3376d6b1433390ae",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-08",
+      "last_seen_at": "2026-01-16",
+      "creatives": [
+        {
+          "id": "3376d6b1433390ae",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/eb2cff6b8d30213e/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/eb2cff6b8d30213e/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/eb2cff6b8d30213e/thumb",
+          "video_duration": 37,
+          "width": 1080,
+          "height": 1920,
+          "title": "Conquer the high seas🏴‍☠️",
+          "button_text": "Install Now",
+          "message": "Ahoy, Captain! Fight epic battles, locate hidden treasures, and become the most feared pirate on the seas.🏴‍☠️🏴‍☠️"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "4cba2b90e14e857f",
+      "app_id": "684a45ce3160aa418c0ef3eb",
+      "network": "Instagram",
+      "phashion_group": "4cba2b90e14e857f",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-08",
+      "last_seen_at": "2026-01-16",
+      "creatives": [
+        {
+          "id": "4cba2b90e14e857f",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/eb2cff6b8d30213e/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/eb2cff6b8d30213e/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/eb2cff6b8d30213e/thumb",
+          "video_duration": 37,
+          "width": 1080,
+          "height": 1920,
+          "title": "Conquer the high seas🏴‍☠️",
+          "button_text": "Install Now",
+          "message": "Ahoy, Captain! Fight epic battles, locate hidden treasures, and become the most feared pirate on the seas.🏴‍☠️🏴‍☠️"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "01f405c54c2b811f",
+      "app_id": "684a45ce3160aa418c0ef3eb",
+      "network": "Meta Audience Network",
+      "phashion_group": "01f405c54c2b811f",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-08",
+      "last_seen_at": "2026-01-16",
+      "creatives": [
+        {
+          "id": "01f405c54c2b811f",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/eb2cff6b8d30213e/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/eb2cff6b8d30213e/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/eb2cff6b8d30213e/thumb",
+          "video_duration": 37,
+          "width": 1080,
+          "height": 1920,
+          "title": "Conquer the high seas🏴‍☠️",
+          "button_text": "Install Now",
+          "message": "Ahoy, Captain! Fight epic battles, locate hidden treasures, and become the most feared pirate on the seas.🏴‍☠️🏴‍☠️"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "28fcd6a4470cd1d8",
+      "app_id": "684a45ce3160aa418c0ef3eb",
+      "network": "Facebook",
+      "phashion_group": "28fcd6a4470cd1d8",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-12",
+      "last_seen_at": "2026-01-28",
+      "creatives": [
+        {
+          "id": "28fcd6a4470cd1d8",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/f0a6ff7e890f6048/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/f0a6ff7e890f6048/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/f0a6ff7e890f6048/thumb",
+          "video_duration": 42,
+          "width": 1920,
+          "height": 1080,
+          "title": "Conquer the high seas🏴‍☠️",
+          "button_text": "Install Now",
+          "message": "Ahoy, Captain! Fight epic battles, locate hidden treasures, and become the most feared pirate on the seas.🏴‍☠️🏴‍☠️"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1920x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "57302b85e571c409",
+      "app_id": "684a45ce3160aa418c0ef3eb",
+      "network": "Instagram",
+      "phashion_group": "57302b85e571c409",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-12",
+      "last_seen_at": "2026-01-28",
+      "creatives": [
+        {
+          "id": "57302b85e571c409",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/f0a6ff7e890f6048/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/f0a6ff7e890f6048/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/f0a6ff7e890f6048/thumb",
+          "video_duration": 42,
+          "width": 1920,
+          "height": 1080,
+          "title": "Conquer the high seas🏴‍☠️",
+          "button_text": "Install Now",
+          "message": "Ahoy, Captain! Fight epic battles, locate hidden treasures, and become the most feared pirate on the seas.🏴‍☠️🏴‍☠️"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1920x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "1a7e05d04814c069",
+      "app_id": "684a45ce3160aa418c0ef3eb",
+      "network": "Meta Audience Network",
+      "phashion_group": "1a7e05d04814c069",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-12",
+      "last_seen_at": "2026-01-28",
+      "creatives": [
+        {
+          "id": "1a7e05d04814c069",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/f0a6ff7e890f6048/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/f0a6ff7e890f6048/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/f0a6ff7e890f6048/thumb",
+          "video_duration": 42,
+          "width": 1920,
+          "height": 1080,
+          "title": "Conquer the high seas🏴‍☠️",
+          "button_text": "Install Now",
+          "message": "Ahoy, Captain! Fight epic battles, locate hidden treasures, and become the most feared pirate on the seas.🏴‍☠️🏴‍☠️"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1920x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "2b91f5485aa8476f",
+      "app_id": "684a45ce3160aa418c0ef3eb",
+      "network": "Facebook",
+      "phashion_group": "2b91f5485aa8476f",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-05",
+      "last_seen_at": "2026-01-12",
+      "creatives": [
+        {
+          "id": "2b91f5485aa8476f",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/f3cbdc9294abf6ff/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/f3cbdc9294abf6ff/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/f3cbdc9294abf6ff/thumb",
+          "video_duration": 40,
+          "width": 1080,
+          "height": 1920,
+          "title": "Conquer the high seas🏴‍☠️",
+          "button_text": "Install Now",
+          "message": "Ahoy, Captain! Fight epic battles, locate hidden treasures, and become the most feared pirate on the seas.🏴‍☠️🏴‍☠️"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "545d0869f8d552be",
+      "app_id": "684a45ce3160aa418c0ef3eb",
+      "network": "Instagram",
+      "phashion_group": "545d0869f8d552be",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-05",
+      "last_seen_at": "2026-01-12",
+      "creatives": [
+        {
+          "id": "545d0869f8d552be",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/f3cbdc9294abf6ff/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/f3cbdc9294abf6ff/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/f3cbdc9294abf6ff/thumb",
+          "video_duration": 40,
+          "width": 1080,
+          "height": 1920,
+          "title": "Conquer the high seas🏴‍☠️",
+          "button_text": "Install Now",
+          "message": "Ahoy, Captain! Fight epic battles, locate hidden treasures, and become the most feared pirate on the seas.🏴‍☠️🏴‍☠️"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "1913263c55b056de",
+      "app_id": "684a45ce3160aa418c0ef3eb",
+      "network": "Meta Audience Network",
+      "phashion_group": "1913263c55b056de",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-05",
+      "last_seen_at": "2026-01-12",
+      "creatives": [
+        {
+          "id": "1913263c55b056de",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/f3cbdc9294abf6ff/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/f3cbdc9294abf6ff/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/f3cbdc9294abf6ff/thumb",
+          "video_duration": 40,
+          "width": 1080,
+          "height": 1920,
+          "title": "Conquer the high seas🏴‍☠️",
+          "button_text": "Install Now",
+          "message": "Ahoy, Captain! Fight epic battles, locate hidden treasures, and become the most feared pirate on the seas.🏴‍☠️🏴‍☠️"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "2ec216bb5c601d42",
+      "app_id": "684a45ce3160aa418c0ef3eb",
+      "network": "Facebook",
+      "phashion_group": "2ec216bb5c601d42",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-31",
+      "last_seen_at": "2026-01-26",
+      "creatives": [
+        {
+          "id": "2ec216bb5c601d42",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/f6983f619263acd2/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/f6983f619263acd2/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/f6983f619263acd2/thumb",
+          "video_duration": 34,
+          "width": 1080,
+          "height": 1080,
+          "title": "Conquer the high seas🏴‍☠️",
+          "button_text": "Install Now",
+          "message": "Ahoy, Captain! Fight epic battles, locate hidden treasures, and become the most feared pirate on the seas.🏴‍☠️🏴‍☠️"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "510eeb9afe1d0893",
+      "app_id": "684a45ce3160aa418c0ef3eb",
+      "network": "Instagram",
+      "phashion_group": "510eeb9afe1d0893",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-31",
+      "last_seen_at": "2026-01-26",
+      "creatives": [
+        {
+          "id": "510eeb9afe1d0893",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/f6983f619263acd2/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/f6983f619263acd2/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/f6983f619263acd2/thumb",
+          "video_duration": 34,
+          "width": 1080,
+          "height": 1080,
+          "title": "Conquer the high seas🏴‍☠️",
+          "button_text": "Install Now",
+          "message": "Ahoy, Captain! Fight epic battles, locate hidden treasures, and become the most feared pirate on the seas.🏴‍☠️🏴‍☠️"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "1c40c5cf53780cf3",
+      "app_id": "684a45ce3160aa418c0ef3eb",
+      "network": "Meta Audience Network",
+      "phashion_group": "1c40c5cf53780cf3",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-31",
+      "last_seen_at": "2026-01-26",
+      "creatives": [
+        {
+          "id": "1c40c5cf53780cf3",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/f6983f619263acd2/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/f6983f619263acd2/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/f6983f619263acd2/thumb",
+          "video_duration": 34,
+          "width": 1080,
+          "height": 1080,
+          "title": "Conquer the high seas🏴‍☠️",
+          "button_text": "Install Now",
+          "message": "Ahoy, Captain! Fight epic battles, locate hidden treasures, and become the most feared pirate on the seas.🏴‍☠️🏴‍☠️"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    }
+  ]
+}

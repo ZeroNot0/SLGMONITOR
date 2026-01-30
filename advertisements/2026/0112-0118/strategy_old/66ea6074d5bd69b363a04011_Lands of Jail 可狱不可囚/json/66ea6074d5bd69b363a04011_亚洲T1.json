@@ -1,0 +1,5833 @@
+{
+  "count": 675,
+  "available_networks": [
+    "Admob",
+    "Applovin",
+    "BidMachine",
+    "Facebook",
+    "InMobi",
+    "Instagram",
+    "Meta Audience Network",
+    "Snapchat",
+    "Supersonic",
+    "TikTok",
+    "Unity",
+    "Vungle",
+    "Youtube"
+  ],
+  "ad_units": [
+    {
+      "id": "e20a9025233a5616",
+      "app_id": "66ea6074d5bd69b363a04011",
+      "network": "Applovin",
+      "phashion_group": "e20a9025233a5616",
+      "ad_type": "video",
+      "first_seen_at": "2025-10-10",
+      "last_seen_at": "2026-01-29",
+      "creatives": [
+        {
+          "id": "e20a9025233a5616",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/369cb3bf64f43183/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/369cb3bf64f43183/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/369cb3bf64f43183/thumb",
+          "video_duration": 59,
+          "width": 720,
+          "height": 1280,
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "rewarded",
+        "interstitial",
+        "other"
+      ],
+      "share": 0.261304,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2026-01-12T00:00:00Z",
+              "2026-01-12T00:00:00Z"
+            ],
+            0.423804
+          ],
+          [
+            [
+              "2026-01-13T00:00:00Z",
+              "2026-01-13T00:00:00Z"
+            ],
+            0.541171
+          ],
+          [
+            [
+              "2026-01-14T00:00:00Z",
+              "2026-01-14T00:00:00Z"
+            ],
+            0.553696
+          ],
+          [
+            [
+              "2026-01-15T00:00:00Z",
+              "2026-01-15T00:00:00Z"
+            ],
+            0.5696
+          ],
+          [
+            [
+              "2026-01-16T00:00:00Z",
+              "2026-01-16T00:00:00Z"
+            ],
+            0.634215
+          ],
+          [
+            [
+              "2026-01-17T00:00:00Z",
+              "2026-01-17T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2026-01-18T00:00:00Z",
+              "2026-01-18T00:00:00Z"
+            ],
+            0.975031
+          ]
+        ],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 15,
+        "data": [
+          [
+            "65bb9bc515b20c137cbc15ee",
+            0.527907
+          ],
+          [
+            "656ab40b40beda73acd1f0c4",
+            0.219823
+          ],
+          [
+            "5e47c88584ba8f0ffc44d183",
+            0.081515
+          ],
+          [
+            "635f96cfc48d086ea53ca6f9",
+            0.066198
+          ],
+          [
+            "67f51ab51f5e4931de15ff38",
+            0.036377
+          ],
+          [
+            "58a5031adcbd16685d00ba8f",
+            0.027104
+          ],
+          [
+            "5919fd19ee05f407440011a7",
+            0.01291
+          ],
+          [
+            "6478d3edb3ae272847ad30f8",
+            0.005882
+          ],
+          [
+            "60d5ef80b3ae2707117ec25f",
+            0.005545
+          ],
+          [
+            "683a66e146d5fe7b6db213a9",
+            0.004435
+          ],
+          [
+            "593841480211a63b60000a27",
+            0.00353
+          ],
+          [
+            "55c500a002ac64f9c0001ee6",
+            0.002381
+          ],
+          [
+            "6131a161b3ae272e94cc85aa",
+            0.002381
+          ],
+          [
+            "5584d9004b9763cc760036e4",
+            0.002137
+          ],
+          [
+            "598883ec0211a62498000f51",
+            0.001874
+          ]
+        ]
+      }
+    },
+    {
+      "id": "822bba834c43e45c",
+      "app_id": "66ea6074d5bd69b363a04011",
+      "network": "Youtube",
+      "phashion_group": "822bba834c43e45c",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-08",
+      "last_seen_at": "2026-01-29",
+      "creatives": [
+        {
+          "id": "822bba834c43e45c",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/93f5a7e43ee65eea/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/93f5a7e43ee65eea/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/93f5a7e43ee65eea/thumb",
+          "video_duration": 58,
+          "width": 1280,
+          "height": 720,
+          "title": "Lands of Jail",
+          "button_text": "Download",
+          "message": "このゲームで監獄長になり、プロのように監獄を管理しよう"
+        },
+        {
+          "id": "9bb31217d63dba33",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/93f5a7e43ee65eea/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/93f5a7e43ee65eea/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/93f5a7e43ee65eea/thumb",
+          "video_duration": 58,
+          "width": 1280,
+          "height": 720,
+          "title": "Lands of Jail",
+          "button_text": "Install",
+          "message": "自分の監獄を建設・管理・運営し、究極のボスになろう"
+        },
+        {
+          "id": "b48efcdc752e7b4f",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/93f5a7e43ee65eea/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/93f5a7e43ee65eea/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/93f5a7e43ee65eea/thumb",
+          "video_duration": 58,
+          "width": 1280,
+          "height": 720,
+          "title": "Lands of Jail",
+          "button_text": "Install",
+          "message": "99%の人はクリアできません"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": 0.214014,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2026-01-12T00:00:00Z",
+              "2026-01-12T00:00:00Z"
+            ],
+            0.25298
+          ],
+          [
+            [
+              "2026-01-13T00:00:00Z",
+              "2026-01-13T00:00:00Z"
+            ],
+            0.390099
+          ],
+          [
+            [
+              "2026-01-14T00:00:00Z",
+              "2026-01-14T00:00:00Z"
+            ],
+            0.60835
+          ],
+          [
+            [
+              "2026-01-15T00:00:00Z",
+              "2026-01-15T00:00:00Z"
+            ],
+            0.625439
+          ],
+          [
+            [
+              "2026-01-16T00:00:00Z",
+              "2026-01-16T00:00:00Z"
+            ],
+            0.41484
+          ],
+          [
+            [
+              "2026-01-17T00:00:00Z",
+              "2026-01-17T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2026-01-18T00:00:00Z",
+              "2026-01-18T00:00:00Z"
+            ],
+            0.353228
+          ]
+        ],
+        "dimensions": [
+          [
+            "1280x720",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "6631132fa7a67a18",
+      "app_id": "66ea6074d5bd69b363a04011",
+      "network": "Admob",
+      "phashion_group": "6631132fa7a67a18",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-06",
+      "last_seen_at": "2026-01-12",
+      "creatives": [
+        {
+          "id": "6631132fa7a67a18",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/333cf5c74d91867b/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/333cf5c74d91867b/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/333cf5c74d91867b/thumb",
+          "video_duration": 56,
+          "width": 720,
+          "height": 1280,
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": 0.06212,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2026-01-12T00:00:00Z",
+              "2026-01-12T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2026-01-13T00:00:00Z",
+              "2026-01-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2026-01-14T00:00:00Z",
+              "2026-01-14T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2026-01-15T00:00:00Z",
+              "2026-01-15T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2026-01-16T00:00:00Z",
+              "2026-01-16T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2026-01-17T00:00:00Z",
+              "2026-01-17T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2026-01-18T00:00:00Z",
+              "2026-01-18T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 1,
+        "data": [
+          [
+            "537b6894830f782dbe00bdd2",
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "id": "e2a13c2794172896",
+      "app_id": "66ea6074d5bd69b363a04011",
+      "network": "Youtube",
+      "phashion_group": "e2a13c2794172896",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-28",
+      "last_seen_at": "2026-01-26",
+      "creatives": [
+        {
+          "id": "e2a13c2794172896",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/973b79b7062a12cb/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/973b79b7062a12cb/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/973b79b7062a12cb/thumb",
+          "video_duration": 5,
+          "width": 1280,
+          "height": 720,
+          "title": "Lands of Jail",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": 0.058871,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2026-01-12T00:00:00Z",
+              "2026-01-12T00:00:00Z"
+            ],
+            0.561
+          ],
+          [
+            [
+              "2026-01-13T00:00:00Z",
+              "2026-01-13T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2026-01-14T00:00:00Z",
+              "2026-01-14T00:00:00Z"
+            ],
+            0.486509
+          ],
+          [
+            [
+              "2026-01-15T00:00:00Z",
+              "2026-01-15T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2026-01-16T00:00:00Z",
+              "2026-01-16T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2026-01-17T00:00:00Z",
+              "2026-01-17T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2026-01-18T00:00:00Z",
+              "2026-01-18T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "1280x720",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "f42ed28df0a45af3",
+      "app_id": "66ea6074d5bd69b363a04011",
+      "network": "Youtube",
+      "phashion_group": "f42ed28df0a45af3",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-05",
+      "last_seen_at": "2026-01-29",
+      "creatives": [
+        {
+          "id": "f42ed28df0a45af3",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/dad3a5990c98ca52/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/dad3a5990c98ca52/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/dad3a5990c98ca52/thumb",
+          "video_duration": 5,
+          "width": 1280,
+          "height": 720,
+          "title": "この監獄ほんmoneyすぎんご",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": 0.058819,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2026-01-12T00:00:00Z",
+              "2026-01-12T00:00:00Z"
+            ],
+            0.358097
+          ],
+          [
+            [
+              "2026-01-13T00:00:00Z",
+              "2026-01-13T00:00:00Z"
+            ],
+            0.276096
+          ],
+          [
+            [
+              "2026-01-14T00:00:00Z",
+              "2026-01-14T00:00:00Z"
+            ],
+            0.287044
+          ],
+          [
+            [
+              "2026-01-15T00:00:00Z",
+              "2026-01-15T00:00:00Z"
+            ],
+            0.472171
+          ],
+          [
+            [
+              "2026-01-16T00:00:00Z",
+              "2026-01-16T00:00:00Z"
+            ],
+            0.293607
+          ],
+          [
+            [
+              "2026-01-17T00:00:00Z",
+              "2026-01-17T00:00:00Z"
+            ],
+            0.149002
+          ],
+          [
+            [
+              "2026-01-18T00:00:00Z",
+              "2026-01-18T00:00:00Z"
+            ],
+            1.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "1280x720",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "b61a0ca6a1303739",
+      "app_id": "66ea6074d5bd69b363a04011",
+      "network": "Youtube",
+      "phashion_group": "b61a0ca6a1303739",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-05",
+      "last_seen_at": "2026-01-28",
+      "creatives": [
+        {
+          "id": "b61a0ca6a1303739",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/98e77bb25d0ca798/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/98e77bb25d0ca798/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/98e77bb25d0ca798/thumb",
+          "video_duration": 5,
+          "width": 1280,
+          "height": 720,
+          "title": "この監獄ほんmoneyすぎんご",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": 0.047947,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2026-01-12T00:00:00Z",
+              "2026-01-12T00:00:00Z"
+            ],
+            0.600827
+          ],
+          [
+            [
+              "2026-01-13T00:00:00Z",
+              "2026-01-13T00:00:00Z"
+            ],
+            0.926486
+          ],
+          [
+            [
+              "2026-01-14T00:00:00Z",
+              "2026-01-14T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2026-01-15T00:00:00Z",
+              "2026-01-15T00:00:00Z"
+            ],
+            0.792223
+          ],
+          [
+            [
+              "2026-01-16T00:00:00Z",
+              "2026-01-16T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2026-01-17T00:00:00Z",
+              "2026-01-17T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2026-01-18T00:00:00Z",
+              "2026-01-18T00:00:00Z"
+            ],
+            0.559277
+          ]
+        ],
+        "dimensions": [
+          [
+            "1280x720",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "d95c48f2d9ea98f1",
+      "app_id": "66ea6074d5bd69b363a04011",
+      "network": "Applovin",
+      "phashion_group": "d95c48f2d9ea98f1",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-26",
+      "last_seen_at": "2026-01-29",
+      "creatives": [
+        {
+          "id": "d95c48f2d9ea98f1",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0dca6b689e24ff64/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0dca6b689e24ff64/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0dca6b689e24ff64/thumb",
+          "video_duration": 56,
+          "width": 720,
+          "height": 1280,
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "rewarded",
+        "interstitial"
+      ],
+      "share": 0.041238,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2026-01-12T00:00:00Z",
+              "2026-01-12T00:00:00Z"
+            ],
+            0.182846
+          ],
+          [
+            [
+              "2026-01-13T00:00:00Z",
+              "2026-01-13T00:00:00Z"
+            ],
+            0.276633
+          ],
+          [
+            [
+              "2026-01-14T00:00:00Z",
+              "2026-01-14T00:00:00Z"
+            ],
+            0.169531
+          ],
+          [
+            [
+              "2026-01-15T00:00:00Z",
+              "2026-01-15T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2026-01-16T00:00:00Z",
+              "2026-01-16T00:00:00Z"
+            ],
+            0.671286
+          ],
+          [
+            [
+              "2026-01-17T00:00:00Z",
+              "2026-01-17T00:00:00Z"
+            ],
+            0.062295
+          ],
+          [
+            [
+              "2026-01-18T00:00:00Z",
+              "2026-01-18T00:00:00Z"
+            ],
+            0.417502
+          ]
+        ],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 12,
+        "data": [
+          [
+            "67f51ab51f5e4931de15ff38",
+            0.162066
+          ],
+          [
+            "65bb9bc515b20c137cbc15ee",
+            0.139033
+          ],
+          [
+            "5919fd19ee05f407440011a7",
+            0.12445
+          ],
+          [
+            "61d12e78fa4913350e9ac28e",
+            0.107241
+          ],
+          [
+            "660a000b07b029033e9d211b",
+            0.073021
+          ],
+          [
+            "622390aa2e0fa027dbdc26b8",
+            0.068801
+          ],
+          [
+            "60d5ef80b3ae2707117ec25f",
+            0.067797
+          ],
+          [
+            "64a8ed37fd0a6a586e1e87a8",
+            0.067582
+          ],
+          [
+            "55c500a002ac64f9c0001ee6",
+            0.064332
+          ],
+          [
+            "6478d3edb3ae272847ad30f8",
+            0.051268
+          ],
+          [
+            "5e47c88584ba8f0ffc44d183",
+            0.042079
+          ],
+          [
+            "656ab40b40beda73acd1f0c4",
+            0.032328
+          ]
+        ]
+      }
+    },
+    {
+      "id": "2ef97d786aadcb6a",
+      "app_id": "66ea6074d5bd69b363a04011",
+      "network": "Youtube",
+      "phashion_group": "2ef97d786aadcb6a",
+      "ad_type": "video",
+      "first_seen_at": "2025-10-20",
+      "last_seen_at": "2026-01-26",
+      "creatives": [
+        {
+          "id": "2ef97d786aadcb6a",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/bb6e285f1b1f4070/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/bb6e285f1b1f4070/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/bb6e285f1b1f4070/thumb",
+          "video_duration": 49,
+          "width": 1280,
+          "height": 720,
+          "title": "Lands of Jail",
+          "button_text": "Install",
+          "message": "管理囚犯獲得無盡財富"
+        },
+        {
+          "id": "35f46b1b74272faf",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/bb6e285f1b1f4070/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/bb6e285f1b1f4070/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/bb6e285f1b1f4070/thumb",
+          "video_duration": 49,
+          "width": 1280,
+          "height": 720,
+          "title": "Lands of Jail",
+          "button_text": "Install",
+          "message": "是男人就進監獄闖一百關"
+        },
+        {
+          "id": "ee6ff471088c3173",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/bb6e285f1b1f4070/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/bb6e285f1b1f4070/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/bb6e285f1b1f4070/thumb",
+          "video_duration": 49,
+          "width": 1280,
+          "height": 720,
+          "title": "Lands of Jail",
+          "button_text": "Install",
+          "message": "終極監獄模擬經營"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": 0.034463,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2026-01-12T00:00:00Z",
+              "2026-01-12T00:00:00Z"
+            ],
+            0.355099
+          ],
+          [
+            [
+              "2026-01-13T00:00:00Z",
+              "2026-01-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2026-01-14T00:00:00Z",
+              "2026-01-14T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2026-01-15T00:00:00Z",
+              "2026-01-15T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2026-01-16T00:00:00Z",
+              "2026-01-16T00:00:00Z"
+            ],
+            0.920994
+          ],
+          [
+            [
+              "2026-01-17T00:00:00Z",
+              "2026-01-17T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2026-01-18T00:00:00Z",
+              "2026-01-18T00:00:00Z"
+            ],
+            1.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "1280x720",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "6c913c040679432b",
+      "app_id": "66ea6074d5bd69b363a04011",
+      "network": "Youtube",
+      "phashion_group": "6c913c040679432b",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-05",
+      "last_seen_at": "2026-01-27",
+      "creatives": [
+        {
+          "id": "6c913c040679432b",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/426c4b10fa45d38a/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/426c4b10fa45d38a/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/426c4b10fa45d38a/thumb",
+          "video_duration": 5,
+          "width": 1280,
+          "height": 720,
+          "title": "この監獄ほんmoneyすぎんご",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": 0.026301,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2026-01-12T00:00:00Z",
+              "2026-01-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2026-01-13T00:00:00Z",
+              "2026-01-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2026-01-14T00:00:00Z",
+              "2026-01-14T00:00:00Z"
+            ],
+            0.810564
+          ],
+          [
+            [
+              "2026-01-15T00:00:00Z",
+              "2026-01-15T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2026-01-16T00:00:00Z",
+              "2026-01-16T00:00:00Z"
+            ],
+            0.829097
+          ],
+          [
+            [
+              "2026-01-17T00:00:00Z",
+              "2026-01-17T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2026-01-18T00:00:00Z",
+              "2026-01-18T00:00:00Z"
+            ],
+            0.941278
+          ]
+        ],
+        "dimensions": [
+          [
+            "1280x720",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "317983fb43ec747d",
+      "app_id": "66ea6074d5bd69b363a04011",
+      "network": "Youtube",
+      "phashion_group": "317983fb43ec747d",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-12",
+      "last_seen_at": "2026-01-28",
+      "creatives": [
+        {
+          "id": "317983fb43ec747d",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/44e3c66bd1d14e20/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/44e3c66bd1d14e20/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/44e3c66bd1d14e20/thumb",
+          "video_duration": 5,
+          "width": 1280,
+          "height": 720,
+          "title": "Lands of Jail",
+          "message": ""
+        },
+        {
+          "id": "c69be3ff833d57af",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/44e3c66bd1d14e20/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/44e3c66bd1d14e20/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/44e3c66bd1d14e20/thumb",
+          "video_duration": 5,
+          "width": 1280,
+          "height": 720,
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": 0.025895,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2026-01-12T00:00:00Z",
+              "2026-01-12T00:00:00Z"
+            ],
+            0.710199
+          ],
+          [
+            [
+              "2026-01-13T00:00:00Z",
+              "2026-01-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2026-01-14T00:00:00Z",
+              "2026-01-14T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2026-01-15T00:00:00Z",
+              "2026-01-15T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2026-01-16T00:00:00Z",
+              "2026-01-16T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2026-01-17T00:00:00Z",
+              "2026-01-17T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2026-01-18T00:00:00Z",
+              "2026-01-18T00:00:00Z"
+            ],
+            1.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "1280x720",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "fc596bd22223e618",
+      "app_id": "66ea6074d5bd69b363a04011",
+      "network": "Applovin",
+      "phashion_group": "fc596bd22223e618",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-08",
+      "last_seen_at": "2026-01-29",
+      "creatives": [
+        {
+          "id": "fc596bd22223e618",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/28cf484865ed818d/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/28cf484865ed818d/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/28cf484865ed818d/thumb",
+          "video_duration": 53,
+          "width": 720,
+          "height": 1280,
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "rewarded",
+        "interstitial"
+      ],
+      "share": 0.019077,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2026-01-12T00:00:00Z",
+              "2026-01-12T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2026-01-13T00:00:00Z",
+              "2026-01-13T00:00:00Z"
+            ],
+            0.442472
+          ],
+          [
+            [
+              "2026-01-14T00:00:00Z",
+              "2026-01-14T00:00:00Z"
+            ],
+            0.21007
+          ],
+          [
+            [
+              "2026-01-15T00:00:00Z",
+              "2026-01-15T00:00:00Z"
+            ],
+            0.198653
+          ],
+          [
+            [
+              "2026-01-16T00:00:00Z",
+              "2026-01-16T00:00:00Z"
+            ],
+            0.080034
+          ],
+          [
+            [
+              "2026-01-17T00:00:00Z",
+              "2026-01-17T00:00:00Z"
+            ],
+            0.246513
+          ],
+          [
+            [
+              "2026-01-18T00:00:00Z",
+              "2026-01-18T00:00:00Z"
+            ],
+            0.082733
+          ]
+        ],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 10,
+        "data": [
+          [
+            "635f96cfc48d086ea53ca6f9",
+            0.358155
+          ],
+          [
+            "65bb9bc515b20c137cbc15ee",
+            0.302688
+          ],
+          [
+            "660a000b07b029033e9d211b",
+            0.077483
+          ],
+          [
+            "656ab40b40beda73acd1f0c4",
+            0.06501
+          ],
+          [
+            "683a66e146d5fe7b6db213a9",
+            0.056904
+          ],
+          [
+            "68498ade43283a19eb2c5a85",
+            0.055281
+          ],
+          [
+            "61d12e78fa4913350e9ac28e",
+            0.030587
+          ],
+          [
+            "5e47c88584ba8f0ffc44d183",
+            0.020994
+          ],
+          [
+            "5919fd19ee05f407440011a7",
+            0.019416
+          ],
+          [
+            "6478d3edb3ae272847ad30f8",
+            0.013482
+          ]
+        ]
+      }
+    },
+    {
+      "id": "6e8fc18514fa7140",
+      "app_id": "66ea6074d5bd69b363a04011",
+      "network": "Youtube",
+      "phashion_group": "6e8fc18514fa7140",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-11",
+      "last_seen_at": "2026-01-17",
+      "creatives": [
+        {
+          "id": "6e8fc18514fa7140",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/fb1894a26548fa5a/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/fb1894a26548fa5a/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/fb1894a26548fa5a/thumb",
+          "video_duration": 44,
+          "width": 1280,
+          "height": 720,
+          "title": "Lands of Jail",
+          "button_text": "Tải xuống",
+          "message": "管理囚犯獲得無盡財富"
+        },
+        {
+          "id": "8e82d132f775c007",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/fb1894a26548fa5a/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/fb1894a26548fa5a/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/fb1894a26548fa5a/thumb",
+          "video_duration": 44,
+          "width": 1280,
+          "height": 720,
+          "title": "Lands of Jail",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": 0.017998,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2026-01-12T00:00:00Z",
+              "2026-01-12T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2026-01-13T00:00:00Z",
+              "2026-01-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2026-01-14T00:00:00Z",
+              "2026-01-14T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2026-01-15T00:00:00Z",
+              "2026-01-15T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2026-01-16T00:00:00Z",
+              "2026-01-16T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2026-01-17T00:00:00Z",
+              "2026-01-17T00:00:00Z"
+            ],
+            0.724112
+          ],
+          [
+            [
+              "2026-01-18T00:00:00Z",
+              "2026-01-18T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "1280x720",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "66eaf29261363e5e",
+      "app_id": "66ea6074d5bd69b363a04011",
+      "network": "Applovin",
+      "phashion_group": "66eaf29261363e5e",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-08",
+      "last_seen_at": "2026-01-28",
+      "creatives": [
+        {
+          "id": "66eaf29261363e5e",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/b27cd10826f859cb/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/b27cd10826f859cb/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/b27cd10826f859cb/thumb",
+          "video_duration": 49,
+          "width": 720,
+          "height": 1280,
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "rewarded",
+        "interstitial"
+      ],
+      "share": 0.014406,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2026-01-12T00:00:00Z",
+              "2026-01-12T00:00:00Z"
+            ],
+            0.380984
+          ],
+          [
+            [
+              "2026-01-13T00:00:00Z",
+              "2026-01-13T00:00:00Z"
+            ],
+            0.241182
+          ],
+          [
+            [
+              "2026-01-14T00:00:00Z",
+              "2026-01-14T00:00:00Z"
+            ],
+            0.316966
+          ],
+          [
+            [
+              "2026-01-15T00:00:00Z",
+              "2026-01-15T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2026-01-16T00:00:00Z",
+              "2026-01-16T00:00:00Z"
+            ],
+            0.095722
+          ],
+          [
+            [
+              "2026-01-17T00:00:00Z",
+              "2026-01-17T00:00:00Z"
+            ],
+            0.244748
+          ],
+          [
+            [
+              "2026-01-18T00:00:00Z",
+              "2026-01-18T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 10,
+        "data": [
+          [
+            "5e47c88584ba8f0ffc44d183",
+            0.263176
+          ],
+          [
+            "67f51ab51f5e4931de15ff38",
+            0.228364
+          ],
+          [
+            "55c500a002ac64f9c0001ee6",
+            0.203806
+          ],
+          [
+            "61d12e78fa4913350e9ac28e",
+            0.059351
+          ],
+          [
+            "60d5ef80b3ae2707117ec25f",
+            0.048541
+          ],
+          [
+            "5a72671d0dc0bc69efd2cad4",
+            0.042234
+          ],
+          [
+            "64a8ed37fd0a6a586e1e87a8",
+            0.041579
+          ],
+          [
+            "6478d3edb3ae272847ad30f8",
+            0.041523
+          ],
+          [
+            "65bb9bc515b20c137cbc15ee",
+            0.041232
+          ],
+          [
+            "660a000b07b029033e9d211b",
+            0.030194
+          ]
+        ]
+      }
+    },
+    {
+      "id": "21842ef52d3cb87a",
+      "app_id": "66ea6074d5bd69b363a04011",
+      "network": "Youtube",
+      "phashion_group": "21842ef52d3cb87a",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-01",
+      "last_seen_at": "2026-01-22",
+      "creatives": [
+        {
+          "id": "21842ef52d3cb87a",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/541e6b65bf018227/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/541e6b65bf018227/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/541e6b65bf018227/thumb",
+          "video_duration": 6,
+          "width": 1280,
+          "height": 720,
+          "title": "Lands of Jail",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": 0.011612,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2026-01-12T00:00:00Z",
+              "2026-01-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2026-01-13T00:00:00Z",
+              "2026-01-13T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2026-01-14T00:00:00Z",
+              "2026-01-14T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2026-01-15T00:00:00Z",
+              "2026-01-15T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2026-01-16T00:00:00Z",
+              "2026-01-16T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2026-01-17T00:00:00Z",
+              "2026-01-17T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2026-01-18T00:00:00Z",
+              "2026-01-18T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "1280x720",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "8424b9f495f7dd3e",
+      "app_id": "66ea6074d5bd69b363a04011",
+      "network": "Youtube",
+      "phashion_group": "8424b9f495f7dd3e",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-16",
+      "last_seen_at": "2026-01-26",
+      "creatives": [
+        {
+          "id": "8424b9f495f7dd3e",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/f1befc6407cae763/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/f1befc6407cae763/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/f1befc6407cae763/thumb",
+          "video_duration": 6,
+          "width": 1280,
+          "height": 720,
+          "title": "Lands of Jail",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": 0.011408,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2026-01-12T00:00:00Z",
+              "2026-01-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2026-01-13T00:00:00Z",
+              "2026-01-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2026-01-14T00:00:00Z",
+              "2026-01-14T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2026-01-15T00:00:00Z",
+              "2026-01-15T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2026-01-16T00:00:00Z",
+              "2026-01-16T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2026-01-17T00:00:00Z",
+              "2026-01-17T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2026-01-18T00:00:00Z",
+              "2026-01-18T00:00:00Z"
+            ],
+            1.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "1280x720",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "1e3d2d78b4aead93",
+      "app_id": "66ea6074d5bd69b363a04011",
+      "network": "Youtube",
+      "phashion_group": "1e3d2d78b4aead93",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-12",
+      "last_seen_at": "2026-01-12",
+      "creatives": [
+        {
+          "id": "1e3d2d78b4aead93",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/cc06c58aa88240b2/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/cc06c58aa88240b2/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/cc06c58aa88240b2/thumb",
+          "video_duration": 56,
+          "width": 1280,
+          "height": 720,
+          "title": "Lands of Jail",
+          "button_text": "下載",
+          "message": "超解壓監獄建造"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": 0.010439,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2026-01-12T00:00:00Z",
+              "2026-01-12T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2026-01-13T00:00:00Z",
+              "2026-01-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2026-01-14T00:00:00Z",
+              "2026-01-14T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2026-01-15T00:00:00Z",
+              "2026-01-15T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2026-01-16T00:00:00Z",
+              "2026-01-16T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2026-01-17T00:00:00Z",
+              "2026-01-17T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2026-01-18T00:00:00Z",
+              "2026-01-18T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "1280x720",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "a202d52d91907205",
+      "app_id": "66ea6074d5bd69b363a04011",
+      "network": "Applovin",
+      "phashion_group": "a202d52d91907205",
+      "ad_type": "video",
+      "first_seen_at": "2025-09-21",
+      "last_seen_at": "2026-01-16",
+      "creatives": [
+        {
+          "id": "a202d52d91907205",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/7694f6b7d65e1590/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/7694f6b7d65e1590/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/7694f6b7d65e1590/thumb",
+          "video_duration": 57,
+          "width": 720,
+          "height": 1280,
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "rewarded"
+      ],
+      "share": 0.008823,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2026-01-12T00:00:00Z",
+              "2026-01-12T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2026-01-13T00:00:00Z",
+              "2026-01-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2026-01-14T00:00:00Z",
+              "2026-01-14T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2026-01-15T00:00:00Z",
+              "2026-01-15T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2026-01-16T00:00:00Z",
+              "2026-01-16T00:00:00Z"
+            ],
+            0.540479
+          ],
+          [
+            [
+              "2026-01-17T00:00:00Z",
+              "2026-01-17T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2026-01-18T00:00:00Z",
+              "2026-01-18T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 1,
+        "data": [
+          [
+            "635f96cfc48d086ea53ca6f9",
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "id": "dc2dcfc7d0fdb7dd",
+      "app_id": "66ea6074d5bd69b363a04011",
+      "network": "Youtube",
+      "phashion_group": "dc2dcfc7d0fdb7dd",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-15",
+      "last_seen_at": "2026-01-15",
+      "creatives": [
+        {
+          "id": "dc2dcfc7d0fdb7dd",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/a9b78a5742c08d80/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/a9b78a5742c08d80/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/a9b78a5742c08d80/thumb",
+          "video_duration": 59,
+          "width": 1280,
+          "height": 720,
+          "title": "Lands of Jail",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": 0.007937,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2026-01-12T00:00:00Z",
+              "2026-01-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2026-01-13T00:00:00Z",
+              "2026-01-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2026-01-14T00:00:00Z",
+              "2026-01-14T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2026-01-15T00:00:00Z",
+              "2026-01-15T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2026-01-16T00:00:00Z",
+              "2026-01-16T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2026-01-17T00:00:00Z",
+              "2026-01-17T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2026-01-18T00:00:00Z",
+              "2026-01-18T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "1280x720",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "752a23be30fd0baf",
+      "app_id": "66ea6074d5bd69b363a04011",
+      "network": "Youtube",
+      "phashion_group": "752a23be30fd0baf",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-17",
+      "last_seen_at": "2026-01-17",
+      "creatives": [
+        {
+          "id": "752a23be30fd0baf",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/00b0662ea2c031f2/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/00b0662ea2c031f2/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/00b0662ea2c031f2/thumb",
+          "video_duration": 59,
+          "width": 1280,
+          "height": 720,
+          "title": "Lands of Jail",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": 0.007559,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2026-01-12T00:00:00Z",
+              "2026-01-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2026-01-13T00:00:00Z",
+              "2026-01-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2026-01-14T00:00:00Z",
+              "2026-01-14T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2026-01-15T00:00:00Z",
+              "2026-01-15T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2026-01-16T00:00:00Z",
+              "2026-01-16T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2026-01-17T00:00:00Z",
+              "2026-01-17T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2026-01-18T00:00:00Z",
+              "2026-01-18T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "1280x720",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "04dbbaee134cce2d",
+      "app_id": "66ea6074d5bd69b363a04011",
+      "network": "Youtube",
+      "phashion_group": "04dbbaee134cce2d",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-27",
+      "last_seen_at": "2026-01-14",
+      "creatives": [
+        {
+          "id": "04dbbaee134cce2d",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/86a39f7a41a0d7a2/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/86a39f7a41a0d7a2/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/86a39f7a41a0d7a2/thumb",
+          "video_duration": 6,
+          "width": 1280,
+          "height": 720,
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": 0.006994,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2026-01-12T00:00:00Z",
+              "2026-01-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2026-01-13T00:00:00Z",
+              "2026-01-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2026-01-14T00:00:00Z",
+              "2026-01-14T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2026-01-15T00:00:00Z",
+              "2026-01-15T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2026-01-16T00:00:00Z",
+              "2026-01-16T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2026-01-17T00:00:00Z",
+              "2026-01-17T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2026-01-18T00:00:00Z",
+              "2026-01-18T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "1280x720",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "69ff9cfffa45a234",
+      "app_id": "66ea6074d5bd69b363a04011",
+      "network": "Youtube",
+      "phashion_group": "69ff9cfffa45a234",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-22",
+      "last_seen_at": "2026-01-14",
+      "creatives": [
+        {
+          "id": "69ff9cfffa45a234",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/eb87b96ba8a9bbbb/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/eb87b96ba8a9bbbb/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/eb87b96ba8a9bbbb/thumb",
+          "video_duration": 5,
+          "width": 1280,
+          "height": 720,
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": 0.006994,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2026-01-12T00:00:00Z",
+              "2026-01-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2026-01-13T00:00:00Z",
+              "2026-01-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2026-01-14T00:00:00Z",
+              "2026-01-14T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2026-01-15T00:00:00Z",
+              "2026-01-15T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2026-01-16T00:00:00Z",
+              "2026-01-16T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2026-01-17T00:00:00Z",
+              "2026-01-17T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2026-01-18T00:00:00Z",
+              "2026-01-18T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "1280x720",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "78df0e67027f5a87",
+      "app_id": "66ea6074d5bd69b363a04011",
+      "network": "Youtube",
+      "phashion_group": "78df0e67027f5a87",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-05",
+      "last_seen_at": "2026-01-14",
+      "creatives": [
+        {
+          "id": "78df0e67027f5a87",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/faa72bf350934308/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/faa72bf350934308/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/faa72bf350934308/thumb",
+          "video_duration": 5,
+          "width": 1280,
+          "height": 720,
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": 0.006994,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2026-01-12T00:00:00Z",
+              "2026-01-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2026-01-13T00:00:00Z",
+              "2026-01-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2026-01-14T00:00:00Z",
+              "2026-01-14T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2026-01-15T00:00:00Z",
+              "2026-01-15T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2026-01-16T00:00:00Z",
+              "2026-01-16T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2026-01-17T00:00:00Z",
+              "2026-01-17T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2026-01-18T00:00:00Z",
+              "2026-01-18T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "1280x720",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "8c1bd5dd9a5b6df5",
+      "app_id": "66ea6074d5bd69b363a04011",
+      "network": "Youtube",
+      "phashion_group": "8c1bd5dd9a5b6df5",
+      "ad_type": "video",
+      "first_seen_at": "2025-10-23",
+      "last_seen_at": "2026-01-19",
+      "creatives": [
+        {
+          "id": "8c1bd5dd9a5b6df5",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/d91a09f389c81cf6/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/d91a09f389c81cf6/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/d91a09f389c81cf6/thumb",
+          "video_duration": 56,
+          "width": 1280,
+          "height": 720,
+          "title": "Lands of Jail",
+          "button_text": "Downloaden",
+          "message": "終極監獄模擬經營"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": 0.006973,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2026-01-12T00:00:00Z",
+              "2026-01-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2026-01-13T00:00:00Z",
+              "2026-01-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2026-01-14T00:00:00Z",
+              "2026-01-14T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2026-01-15T00:00:00Z",
+              "2026-01-15T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2026-01-16T00:00:00Z",
+              "2026-01-16T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2026-01-17T00:00:00Z",
+              "2026-01-17T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2026-01-18T00:00:00Z",
+              "2026-01-18T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "1280x720",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "8cbc485279810dbd",
+      "app_id": "66ea6074d5bd69b363a04011",
+      "network": "Youtube",
+      "phashion_group": "8cbc485279810dbd",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-18",
+      "last_seen_at": "2026-01-18",
+      "creatives": [
+        {
+          "id": "8cbc485279810dbd",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/25adc2647f1f3ac6/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/25adc2647f1f3ac6/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/25adc2647f1f3ac6/thumb",
+          "video_duration": 41,
+          "width": 1280,
+          "height": 720,
+          "title": "この監獄ほんmoneyすぎんご",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": 0.006913,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2026-01-12T00:00:00Z",
+              "2026-01-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2026-01-13T00:00:00Z",
+              "2026-01-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2026-01-14T00:00:00Z",
+              "2026-01-14T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2026-01-15T00:00:00Z",
+              "2026-01-15T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2026-01-16T00:00:00Z",
+              "2026-01-16T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2026-01-17T00:00:00Z",
+              "2026-01-17T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2026-01-18T00:00:00Z",
+              "2026-01-18T00:00:00Z"
+            ],
+            1.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "1280x720",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "19ba074f2143da23",
+      "app_id": "66ea6074d5bd69b363a04011",
+      "network": "Youtube",
+      "phashion_group": "19ba074f2143da23",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-07",
+      "last_seen_at": "2026-01-12",
+      "creatives": [
+        {
+          "id": "19ba074f2143da23",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/9bc222db73afc3ac/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/9bc222db73afc3ac/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/9bc222db73afc3ac/thumb",
+          "video_duration": 5,
+          "width": 1280,
+          "height": 720,
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": 0.005377,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2026-01-12T00:00:00Z",
+              "2026-01-12T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2026-01-13T00:00:00Z",
+              "2026-01-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2026-01-14T00:00:00Z",
+              "2026-01-14T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2026-01-15T00:00:00Z",
+              "2026-01-15T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2026-01-16T00:00:00Z",
+              "2026-01-16T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2026-01-17T00:00:00Z",
+              "2026-01-17T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2026-01-18T00:00:00Z",
+              "2026-01-18T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "1280x720",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "700be31713bb0c9b",
+      "app_id": "66ea6074d5bd69b363a04011",
+      "network": "Youtube",
+      "phashion_group": "700be31713bb0c9b",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-12",
+      "last_seen_at": "2026-01-12",
+      "creatives": [
+        {
+          "id": "700be31713bb0c9b",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/a2300be50f97e1ba/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/a2300be50f97e1ba/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/a2300be50f97e1ba/thumb",
+          "video_duration": 54,
+          "width": 1280,
+          "height": 720,
+          "title": "Lands of Jail",
+          "button_text": "Install",
+          "message": "超解壓監獄建造"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": 0.005377,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2026-01-12T00:00:00Z",
+              "2026-01-12T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2026-01-13T00:00:00Z",
+              "2026-01-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2026-01-14T00:00:00Z",
+              "2026-01-14T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2026-01-15T00:00:00Z",
+              "2026-01-15T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2026-01-16T00:00:00Z",
+              "2026-01-16T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2026-01-17T00:00:00Z",
+              "2026-01-17T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2026-01-18T00:00:00Z",
+              "2026-01-18T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "1280x720",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "87b74c7e88f5f32b",
+      "app_id": "66ea6074d5bd69b363a04011",
+      "network": "Applovin",
+      "phashion_group": "87b74c7e88f5f32b",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-27",
+      "last_seen_at": "2026-01-29",
+      "creatives": [
+        {
+          "id": "87b74c7e88f5f32b",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/53216fe4cf3b94be/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/53216fe4cf3b94be/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/53216fe4cf3b94be/thumb",
+          "video_duration": 52,
+          "width": 720,
+          "height": 1280,
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "rewarded",
+        "interstitial"
+      ],
+      "share": 0.004807,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2026-01-12T00:00:00Z",
+              "2026-01-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2026-01-13T00:00:00Z",
+              "2026-01-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2026-01-14T00:00:00Z",
+              "2026-01-14T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2026-01-15T00:00:00Z",
+              "2026-01-15T00:00:00Z"
+            ],
+            0.202602
+          ],
+          [
+            [
+              "2026-01-16T00:00:00Z",
+              "2026-01-16T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2026-01-17T00:00:00Z",
+              "2026-01-17T00:00:00Z"
+            ],
+            0.124912
+          ],
+          [
+            [
+              "2026-01-18T00:00:00Z",
+              "2026-01-18T00:00:00Z"
+            ],
+            0.225562
+          ]
+        ],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 4,
+        "data": [
+          [
+            "60408d0886931972c42c94f3",
+            0.599712
+          ],
+          [
+            "656ab40b40beda73acd1f0c4",
+            0.203737
+          ],
+          [
+            "67f51ab51f5e4931de15ff38",
+            0.122157
+          ],
+          [
+            "5e47c88584ba8f0ffc44d183",
+            0.074394
+          ]
+        ]
+      }
+    },
+    {
+      "id": "6598c0c8cb7d94a3",
+      "app_id": "66ea6074d5bd69b363a04011",
+      "network": "Applovin",
+      "phashion_group": "6598c0c8cb7d94a3",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-13",
+      "last_seen_at": "2026-01-13",
+      "creatives": [
+        {
+          "id": "6598c0c8cb7d94a3",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/b10ee3528cb3f336/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/b10ee3528cb3f336/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/b10ee3528cb3f336/thumb",
+          "video_duration": 54,
+          "width": 720,
+          "height": 1280,
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "rewarded",
+        "interstitial"
+      ],
+      "share": 0.004711,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2026-01-12T00:00:00Z",
+              "2026-01-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2026-01-13T00:00:00Z",
+              "2026-01-13T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2026-01-14T00:00:00Z",
+              "2026-01-14T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2026-01-15T00:00:00Z",
+              "2026-01-15T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2026-01-16T00:00:00Z",
+              "2026-01-16T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2026-01-17T00:00:00Z",
+              "2026-01-17T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2026-01-18T00:00:00Z",
+              "2026-01-18T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 1,
+        "data": [
+          [
+            "660a000b07b029033e9d211b",
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "id": "e45144a308d129da",
+      "app_id": "66ea6074d5bd69b363a04011",
+      "network": "Applovin",
+      "phashion_group": "e45144a308d129da",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-15",
+      "last_seen_at": "2026-01-29",
+      "creatives": [
+        {
+          "id": "e45144a308d129da",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/30c767394f1f4e4f/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/30c767394f1f4e4f/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/30c767394f1f4e4f/thumb",
+          "video_duration": 57,
+          "width": 720,
+          "height": 1280,
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "rewarded",
+        "interstitial"
+      ],
+      "share": 0.002307,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2026-01-12T00:00:00Z",
+              "2026-01-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2026-01-13T00:00:00Z",
+              "2026-01-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2026-01-14T00:00:00Z",
+              "2026-01-14T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2026-01-15T00:00:00Z",
+              "2026-01-15T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2026-01-16T00:00:00Z",
+              "2026-01-16T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2026-01-17T00:00:00Z",
+              "2026-01-17T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2026-01-18T00:00:00Z",
+              "2026-01-18T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 2,
+        "data": [
+          [
+            "5919fd19ee05f407440011a7",
+            0.698637
+          ],
+          [
+            "67f51ab51f5e4931de15ff38",
+            0.301363
+          ]
+        ]
+      }
+    },
+    {
+      "id": "abedb1c6add6b5c6",
+      "app_id": "66ea6074d5bd69b363a04011",
+      "network": "Applovin",
+      "phashion_group": "abedb1c6add6b5c6",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-23",
+      "last_seen_at": "2026-01-23",
+      "creatives": [
+        {
+          "id": "abedb1c6add6b5c6",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/7f7b925cea18d253/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/7f7b925cea18d253/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/7f7b925cea18d253/thumb",
+          "video_duration": 56,
+          "width": 720,
+          "height": 1280,
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "rewarded",
+        "interstitial"
+      ],
+      "share": 0.001694,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2026-01-12T00:00:00Z",
+              "2026-01-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2026-01-13T00:00:00Z",
+              "2026-01-13T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2026-01-14T00:00:00Z",
+              "2026-01-14T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2026-01-15T00:00:00Z",
+              "2026-01-15T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2026-01-16T00:00:00Z",
+              "2026-01-16T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2026-01-17T00:00:00Z",
+              "2026-01-17T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2026-01-18T00:00:00Z",
+              "2026-01-18T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 1,
+        "data": [
+          [
+            "660a000b07b029033e9d211b",
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "id": "c6e18440e1e3c72a",
+      "app_id": "66ea6074d5bd69b363a04011",
+      "network": "Applovin",
+      "phashion_group": "c6e18440e1e3c72a",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-12",
+      "last_seen_at": "2026-01-16",
+      "creatives": [
+        {
+          "id": "c6e18440e1e3c72a",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1277a7daa62da0bf/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1277a7daa62da0bf/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1277a7daa62da0bf/thumb",
+          "video_duration": 53,
+          "width": 720,
+          "height": 1280,
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "interstitial"
+      ],
+      "share": 0.000628,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2026-01-12T00:00:00Z",
+              "2026-01-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2026-01-13T00:00:00Z",
+              "2026-01-13T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2026-01-14T00:00:00Z",
+              "2026-01-14T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2026-01-15T00:00:00Z",
+              "2026-01-15T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2026-01-16T00:00:00Z",
+              "2026-01-16T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2026-01-17T00:00:00Z",
+              "2026-01-17T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2026-01-18T00:00:00Z",
+              "2026-01-18T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 1,
+        "data": [
+          [
+            "660a000b07b029033e9d211b",
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "id": "0c701676e882663a",
+      "app_id": "66ea6074d5bd69b363a04011",
+      "network": "Facebook",
+      "phashion_group": "0c701676e882663a",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-11",
+      "last_seen_at": "2026-01-29",
+      "creatives": [
+        {
+          "id": "0c701676e882663a",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/00d2226d009bbbd6/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/00d2226d009bbbd6/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/00d2226d009bbbd6/thumb",
+          "video_duration": 57,
+          "width": 720,
+          "height": 1280,
+          "title": "99%の人はクリアできません。",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "156a0548afaf557e",
+      "app_id": "66ea6074d5bd69b363a04011",
+      "network": "Instagram",
+      "phashion_group": "156a0548afaf557e",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-11",
+      "last_seen_at": "2026-01-29",
+      "creatives": [
+        {
+          "id": "156a0548afaf557e",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/00d2226d009bbbd6/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/00d2226d009bbbd6/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/00d2226d009bbbd6/thumb",
+          "video_duration": 57,
+          "width": 720,
+          "height": 1280,
+          "title": "99%の人はクリアできません。",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "1bb6edbbf2c0c51b",
+      "app_id": "66ea6074d5bd69b363a04011",
+      "network": "TikTok",
+      "phashion_group": "1bb6edbbf2c0c51b",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-25",
+      "last_seen_at": "2026-01-24",
+      "creatives": [
+        {
+          "id": "1bb6edbbf2c0c51b",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/014734dafa205722/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/014734dafa205722/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/014734dafa205722/thumb",
+          "video_duration": 32,
+          "width": 720,
+          "height": 1280,
+          "message": "日夜夢中にさせるゲーム"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "91401d67d5cccdba",
+      "app_id": "66ea6074d5bd69b363a04011",
+      "network": "Facebook",
+      "phashion_group": "91401d67d5cccdba",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-08",
+      "last_seen_at": "2026-01-16",
+      "creatives": [
+        {
+          "id": "91401d67d5cccdba",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/02790616fb61e326/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/02790616fb61e326/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/02790616fb61e326/thumb",
+          "video_duration": 58,
+          "width": 720,
+          "height": 1280,
+          "title": "胡鬧監獄",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "58372fba3d8461ba",
+      "app_id": "66ea6074d5bd69b363a04011",
+      "network": "Instagram",
+      "phashion_group": "58372fba3d8461ba",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-08",
+      "last_seen_at": "2026-01-16",
+      "creatives": [
+        {
+          "id": "58372fba3d8461ba",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/02790616fb61e326/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/02790616fb61e326/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/02790616fb61e326/thumb",
+          "video_duration": 58,
+          "width": 720,
+          "height": 1280,
+          "title": "胡鬧監獄",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "a3c2ce13dad4dc0b",
+      "app_id": "66ea6074d5bd69b363a04011",
+      "network": "Meta Audience Network",
+      "phashion_group": "a3c2ce13dad4dc0b",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-08",
+      "last_seen_at": "2026-01-16",
+      "creatives": [
+        {
+          "id": "a3c2ce13dad4dc0b",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/02790616fb61e326/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/02790616fb61e326/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/02790616fb61e326/thumb",
+          "video_duration": 58,
+          "width": 720,
+          "height": 1280,
+          "title": "胡鬧監獄",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "c0ec66c2e7536b97",
+      "app_id": "66ea6074d5bd69b363a04011",
+      "network": "TikTok",
+      "phashion_group": "c0ec66c2e7536b97",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-21",
+      "last_seen_at": "2026-01-28",
+      "creatives": [
+        {
+          "id": "c0ec66c2e7536b97",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/02f96fe178d5b67a/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/02f96fe178d5b67a/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/02f96fe178d5b67a/thumb",
+          "video_duration": 50,
+          "width": 720,
+          "height": 1280,
+          "message": "Keep Order, Control the Prisoners"
+        },
+        {
+          "id": "fd9cf8c1fb36168f",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/02f96fe178d5b67a/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/02f96fe178d5b67a/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/02f96fe178d5b67a/thumb",
+          "video_duration": 50,
+          "width": 720,
+          "height": 1280,
+          "message": "Prevent the Escape, Master the Prison"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "d11ab0c04dd2b905",
+      "app_id": "66ea6074d5bd69b363a04011",
+      "network": "TikTok",
+      "phashion_group": "d11ab0c04dd2b905",
+      "ad_type": "video",
+      "first_seen_at": "2025-05-17",
+      "last_seen_at": "2026-01-24",
+      "creatives": [
+        {
+          "id": "d11ab0c04dd2b905",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/032545b4ab10a248/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/032545b4ab10a248/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/032545b4ab10a248/thumb",
+          "video_duration": 23,
+          "width": 720,
+          "height": 1280,
+          "message": "究極の監獄管理シムゲーム、挑戦する準備はできたか？"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "97a5e3b91dbc6114",
+      "app_id": "66ea6074d5bd69b363a04011",
+      "network": "Facebook",
+      "phashion_group": "97a5e3b91dbc6114",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-16",
+      "last_seen_at": "2026-01-23",
+      "creatives": [
+        {
+          "id": "97a5e3b91dbc6114",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/049cf8c833114f88/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/049cf8c833114f88/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/049cf8c833114f88/thumb",
+          "video_duration": 24,
+          "width": 720,
+          "height": 1280,
+          "title": "胡鬧監獄",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "5ed2d164f5f4cd14",
+      "app_id": "66ea6074d5bd69b363a04011",
+      "network": "Instagram",
+      "phashion_group": "5ed2d164f5f4cd14",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-16",
+      "last_seen_at": "2026-01-23",
+      "creatives": [
+        {
+          "id": "5ed2d164f5f4cd14",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/049cf8c833114f88/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/049cf8c833114f88/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/049cf8c833114f88/thumb",
+          "video_duration": 24,
+          "width": 720,
+          "height": 1280,
+          "title": "胡鬧監獄",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "a52730cd12a470a5",
+      "app_id": "66ea6074d5bd69b363a04011",
+      "network": "Meta Audience Network",
+      "phashion_group": "a52730cd12a470a5",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-16",
+      "last_seen_at": "2026-01-23",
+      "creatives": [
+        {
+          "id": "a52730cd12a470a5",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/049cf8c833114f88/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/049cf8c833114f88/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/049cf8c833114f88/thumb",
+          "video_duration": 24,
+          "width": 720,
+          "height": 1280,
+          "title": "胡鬧監獄",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "dedc4db8e08bb091",
+      "app_id": "66ea6074d5bd69b363a04011",
+      "network": "TikTok",
+      "phashion_group": "dedc4db8e08bb091",
+      "ad_type": "video",
+      "first_seen_at": "2025-04-06",
+      "last_seen_at": "2026-01-21",
+      "creatives": [
+        {
+          "id": "dedc4db8e08bb091",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0527c5297deab26a/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0527c5297deab26a/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0527c5297deab26a/thumb",
+          "video_duration": 30,
+          "width": 720,
+          "height": 1280,
+          "message": "超のんびりできる放置系監獄シミュレーションスマホゲーム事前登録開始"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "9687a5b7f2478b67",
+      "app_id": "66ea6074d5bd69b363a04011",
+      "network": "Facebook",
+      "phashion_group": "9687a5b7f2478b67",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-05",
+      "last_seen_at": "2026-01-16",
+      "creatives": [
+        {
+          "id": "9687a5b7f2478b67",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/05bebec6dceaa5fb/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/05bebec6dceaa5fb/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/05bebec6dceaa5fb/thumb",
+          "video_duration": 26,
+          "width": 720,
+          "height": 1280,
+          "title": "胡鬧監獄",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "5ff0976a1a0f2767",
+      "app_id": "66ea6074d5bd69b363a04011",
+      "network": "Instagram",
+      "phashion_group": "5ff0976a1a0f2767",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-05",
+      "last_seen_at": "2026-01-16",
+      "creatives": [
+        {
+          "id": "5ff0976a1a0f2767",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/05bebec6dceaa5fb/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/05bebec6dceaa5fb/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/05bebec6dceaa5fb/thumb",
+          "video_duration": 26,
+          "width": 720,
+          "height": 1280,
+          "title": "胡鬧監獄",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "a40576c3fd5f9ad6",
+      "app_id": "66ea6074d5bd69b363a04011",
+      "network": "Meta Audience Network",
+      "phashion_group": "a40576c3fd5f9ad6",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-04",
+      "last_seen_at": "2026-01-16",
+      "creatives": [
+        {
+          "id": "a40576c3fd5f9ad6",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/05bebec6dceaa5fb/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/05bebec6dceaa5fb/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/05bebec6dceaa5fb/thumb",
+          "video_duration": 26,
+          "width": 720,
+          "height": 1280,
+          "title": "胡鬧監獄",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "c559e64d389431b7",
+      "app_id": "66ea6074d5bd69b363a04011",
+      "network": "TikTok",
+      "phashion_group": "c559e64d389431b7",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-01",
+      "last_seen_at": "2026-01-28",
+      "creatives": [
+        {
+          "id": "c559e64d389431b7",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/074cef6ea712ec5a/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/074cef6ea712ec5a/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/074cef6ea712ec5a/thumb",
+          "video_duration": 59,
+          "width": 720,
+          "height": 1280,
+          "message": "Keep Order, Control the Prisoners"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "963e7e31cd9d3db5",
+      "app_id": "66ea6074d5bd69b363a04011",
+      "network": "TikTok",
+      "phashion_group": "963e7e31cd9d3db5",
+      "ad_type": "video",
+      "first_seen_at": "2025-04-21",
+      "last_seen_at": "2026-01-28",
+      "creatives": [
+        {
+          "id": "963e7e31cd9d3db5",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0856753e7eecb18f/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0856753e7eecb18f/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0856753e7eecb18f/thumb",
+          "video_duration": 26,
+          "width": 720,
+          "height": 1280,
+          "message": "簡素な監獄から始め、最も安全な防衛要塞に改造しよう"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "9abe6723b07945d1",
+      "app_id": "66ea6074d5bd69b363a04011",
+      "network": "Facebook",
+      "phashion_group": "9abe6723b07945d1",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-30",
+      "last_seen_at": "2026-01-16",
+      "creatives": [
+        {
+          "id": "9abe6723b07945d1",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/09877c529ed46b4d/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/09877c529ed46b4d/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/09877c529ed46b4d/thumb",
+          "video_duration": 56,
+          "width": 720,
+          "height": 1280,
+          "title": "维持秩序，控制囚犯",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "53c955fe5831e9d1",
+      "app_id": "66ea6074d5bd69b363a04011",
+      "network": "Instagram",
+      "phashion_group": "53c955fe5831e9d1",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-30",
+      "last_seen_at": "2026-01-16",
+      "creatives": [
+        {
+          "id": "53c955fe5831e9d1",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/09877c529ed46b4d/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/09877c529ed46b4d/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/09877c529ed46b4d/thumb",
+          "video_duration": 56,
+          "width": 720,
+          "height": 1280,
+          "title": "维持秩序，控制囚犯",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "a83cb457bf615460",
+      "app_id": "66ea6074d5bd69b363a04011",
+      "network": "Meta Audience Network",
+      "phashion_group": "a83cb457bf615460",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-30",
+      "last_seen_at": "2026-01-16",
+      "creatives": [
+        {
+          "id": "a83cb457bf615460",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/09877c529ed46b4d/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/09877c529ed46b4d/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/09877c529ed46b4d/thumb",
+          "video_duration": 56,
+          "width": 720,
+          "height": 1280,
+          "title": "维持秩序，控制囚犯",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "f572b98213a21ac1",
+      "app_id": "66ea6074d5bd69b363a04011",
+      "network": "TikTok",
+      "phashion_group": "f572b98213a21ac1",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-07",
+      "last_seen_at": "2026-01-26",
+      "creatives": [
+        {
+          "id": "f572b98213a21ac1",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0a172ea29041ba34/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0a172ea29041ba34/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0a172ea29041ba34/thumb",
+          "video_duration": 24,
+          "width": 720,
+          "height": 1280,
+          "message": "Prevent the Escape, Master the Prison"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "374bec6f4125f96f",
+      "app_id": "66ea6074d5bd69b363a04011",
+      "network": "TikTok",
+      "phashion_group": "374bec6f4125f96f",
+      "ad_type": "video",
+      "first_seen_at": "2025-10-25",
+      "last_seen_at": "2026-01-21",
+      "creatives": [
+        {
+          "id": "374bec6f4125f96f",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0a4046a414844e78/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0a4046a414844e78/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0a4046a414844e78/thumb",
+          "video_duration": 41,
+          "width": 720,
+          "height": 1280,
+          "message": "Keep Order, Control the Prisoners"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "c84ebe013ba0d695",
+      "app_id": "66ea6074d5bd69b363a04011",
+      "network": "TikTok",
+      "phashion_group": "c84ebe013ba0d695",
+      "ad_type": "video",
+      "first_seen_at": "2025-10-19",
+      "last_seen_at": "2026-01-16",
+      "creatives": [
+        {
+          "id": "c84ebe013ba0d695",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0a5bb722a4260b78/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0a5bb722a4260b78/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0a5bb722a4260b78/thumb",
+          "video_duration": 30,
+          "width": 720,
+          "height": 1280,
+          "message": "Keep Order, Control the Prisoners"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "f5c26ae42ab097e6",
+      "app_id": "66ea6074d5bd69b363a04011",
+      "network": "TikTok",
+      "phashion_group": "f5c26ae42ab097e6",
+      "ad_type": "video",
+      "first_seen_at": "2025-10-23",
+      "last_seen_at": "2026-01-15",
+      "creatives": [
+        {
+          "id": "f5c26ae42ab097e6",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0aa7fdc4a9533713/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0aa7fdc4a9533713/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0aa7fdc4a9533713/thumb",
+          "video_duration": 41,
+          "width": 720,
+          "height": 1280,
+          "message": "Prevent the Escape, Master the Prison"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "1036c048483d7da8",
+      "app_id": "66ea6074d5bd69b363a04011",
+      "network": "TikTok",
+      "phashion_group": "1036c048483d7da8",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-31",
+      "last_seen_at": "2026-01-24",
+      "creatives": [
+        {
+          "id": "1036c048483d7da8",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0ac7192940ddef91/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0ac7192940ddef91/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0ac7192940ddef91/thumb",
+          "video_duration": 43,
+          "width": 720,
+          "height": 1280,
+          "message": "日夜夢中にさせるゲーム"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "99eb0ad6d2dbab8f",
+      "app_id": "66ea6074d5bd69b363a04011",
+      "network": "Facebook",
+      "phashion_group": "99eb0ad6d2dbab8f",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-24",
+      "last_seen_at": "2026-01-23",
+      "creatives": [
+        {
+          "id": "99eb0ad6d2dbab8f",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0ad211a7fc768513/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0ad211a7fc768513/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0ad211a7fc768513/thumb",
+          "video_duration": 57,
+          "width": 720,
+          "height": 1280,
+          "title": "超解壓監獄建造",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "509c380b3a93078f",
+      "app_id": "66ea6074d5bd69b363a04011",
+      "network": "Instagram",
+      "phashion_group": "509c380b3a93078f",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-24",
+      "last_seen_at": "2026-01-23",
+      "creatives": [
+        {
+          "id": "509c380b3a93078f",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0ad211a7fc768513/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0ad211a7fc768513/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0ad211a7fc768513/thumb",
+          "video_duration": 57,
+          "width": 720,
+          "height": 1280,
+          "title": "超解壓監獄建造",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "ab69d9a2ddc3ba3e",
+      "app_id": "66ea6074d5bd69b363a04011",
+      "network": "Meta Audience Network",
+      "phashion_group": "ab69d9a2ddc3ba3e",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-24",
+      "last_seen_at": "2026-01-23",
+      "creatives": [
+        {
+          "id": "ab69d9a2ddc3ba3e",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0ad211a7fc768513/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0ad211a7fc768513/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0ad211a7fc768513/thumb",
+          "video_duration": 57,
+          "width": 720,
+          "height": 1280,
+          "title": "超解壓監獄建造",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "077765a38fac36f0",
+      "app_id": "66ea6074d5bd69b363a04011",
+      "network": "Facebook",
+      "phashion_group": "077765a38fac36f0",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-08",
+      "last_seen_at": "2026-01-29",
+      "creatives": [
+        {
+          "id": "077765a38fac36f0",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0bd551b867b5eb1c/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0bd551b867b5eb1c/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0bd551b867b5eb1c/thumb",
+          "video_duration": 59,
+          "width": 720,
+          "height": 1280,
+          "title": "99%の人はクリアできません。",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "1e6d769dc88105b4",
+      "app_id": "66ea6074d5bd69b363a04011",
+      "network": "Instagram",
+      "phashion_group": "1e6d769dc88105b4",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-08",
+      "last_seen_at": "2026-01-29",
+      "creatives": [
+        {
+          "id": "1e6d769dc88105b4",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0bd551b867b5eb1c/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0bd551b867b5eb1c/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0bd551b867b5eb1c/thumb",
+          "video_duration": 59,
+          "width": 720,
+          "height": 1280,
+          "title": "99%の人はクリアできません。",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "ce38ab57b9830df5",
+      "app_id": "66ea6074d5bd69b363a04011",
+      "network": "TikTok",
+      "phashion_group": "ce38ab57b9830df5",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-15",
+      "last_seen_at": "2026-01-29",
+      "creatives": [
+        {
+          "id": "ce38ab57b9830df5",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0c2da2742605d018/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0c2da2742605d018/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0c2da2742605d018/thumb",
+          "video_duration": 26,
+          "width": 720,
+          "height": 1280,
+          "message": "Keep Order, Control the Prisoners"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "12df21c166525775",
+      "app_id": "66ea6074d5bd69b363a04011",
+      "network": "TikTok",
+      "phashion_group": "12df21c166525775",
+      "ad_type": "video",
+      "first_seen_at": "2025-06-25",
+      "last_seen_at": "2026-01-28",
+      "creatives": [
+        {
+          "id": "12df21c166525775",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0c4fa66cafd9a033/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0c4fa66cafd9a033/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0c4fa66cafd9a033/thumb",
+          "video_duration": 30,
+          "width": 720,
+          "height": 1280,
+          "message": "究極の監獄管理シムゲーム、挑戦する準備はできたか？"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "ce99bdbae6c61bb1",
+      "app_id": "66ea6074d5bd69b363a04011",
+      "network": "TikTok",
+      "phashion_group": "ce99bdbae6c61bb1",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-02",
+      "last_seen_at": "2026-01-26",
+      "creatives": [
+        {
+          "id": "ce99bdbae6c61bb1",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0c8cb4997940c65c/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0c8cb4997940c65c/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0c8cb4997940c65c/thumb",
+          "video_duration": 38,
+          "width": 720,
+          "height": 1280,
+          "message": "Keep Order, Control the Prisoners"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "92dfdd0aab830c63",
+      "app_id": "66ea6074d5bd69b363a04011",
+      "network": "TikTok",
+      "phashion_group": "92dfdd0aab830c63",
+      "ad_type": "video",
+      "first_seen_at": "2025-05-24",
+      "last_seen_at": "2026-01-28",
+      "creatives": [
+        {
+          "id": "92dfdd0aab830c63",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0cb7d60518f28059/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0cb7d60518f28059/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0cb7d60518f28059/thumb",
+          "video_duration": 28,
+          "width": 720,
+          "height": 1280,
+          "message": "簡素な監獄から始め、最も安全な防衛要塞に改造しよう"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "9ea42676c9e9cc11",
+      "app_id": "66ea6074d5bd69b363a04011",
+      "network": "Facebook",
+      "phashion_group": "9ea42676c9e9cc11",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-08",
+      "last_seen_at": "2026-01-23",
+      "creatives": [
+        {
+          "id": "9ea42676c9e9cc11",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0d9d3d07e744e28d/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0d9d3d07e744e28d/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0d9d3d07e744e28d/thumb",
+          "video_duration": 58,
+          "width": 720,
+          "height": 1280,
+          "title": "胡鬧監獄",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "57d314ab21a16011",
+      "app_id": "66ea6074d5bd69b363a04011",
+      "network": "Instagram",
+      "phashion_group": "57d314ab21a16011",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-08",
+      "last_seen_at": "2026-01-23",
+      "creatives": [
+        {
+          "id": "57d314ab21a16011",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0d9d3d07e744e28d/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0d9d3d07e744e28d/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0d9d3d07e744e28d/thumb",
+          "video_duration": 58,
+          "width": 720,
+          "height": 1280,
+          "title": "胡鬧監獄",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "ac26f502c6f1dda0",
+      "app_id": "66ea6074d5bd69b363a04011",
+      "network": "Meta Audience Network",
+      "phashion_group": "ac26f502c6f1dda0",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-08",
+      "last_seen_at": "2026-01-23",
+      "creatives": [
+        {
+          "id": "ac26f502c6f1dda0",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0d9d3d07e744e28d/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0d9d3d07e744e28d/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0d9d3d07e744e28d/thumb",
+          "video_duration": 58,
+          "width": 720,
+          "height": 1280,
+          "title": "胡鬧監獄",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "cfb6f394bf05d261",
+      "app_id": "66ea6074d5bd69b363a04011",
+      "network": "TikTok",
+      "phashion_group": "cfb6f394bf05d261",
+      "ad_type": "video",
+      "first_seen_at": "2025-09-07",
+      "last_seen_at": "2026-01-24",
+      "creatives": [
+        {
+          "id": "cfb6f394bf05d261",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0da3fab720830f8c/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0da3fab720830f8c/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0da3fab720830f8c/thumb",
+          "video_duration": 54,
+          "width": 720,
+          "height": 1280,
+          "message": "Keep Order, Control the Prisoners"
+        },
+        {
+          "id": "f2c66d97a360af79",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0da3fab720830f8c/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0da3fab720830f8c/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0da3fab720830f8c/thumb",
+          "video_duration": 54,
+          "width": 720,
+          "height": 1280,
+          "message": "Prevent the Escape, Master the Prison"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "0286714c97d41326",
+      "app_id": "66ea6074d5bd69b363a04011",
+      "network": "Facebook",
+      "phashion_group": "0286714c97d41326",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-28",
+      "last_seen_at": "2026-01-29",
+      "creatives": [
+        {
+          "id": "0286714c97d41326",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0e2445577fcdceca/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0e2445577fcdceca/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0e2445577fcdceca/thumb",
+          "video_duration": 53,
+          "width": 720,
+          "height": 1280,
+          "title": "99%の人はクリアできません。",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "1b9c6272d0f92062",
+      "app_id": "66ea6074d5bd69b363a04011",
+      "network": "Instagram",
+      "phashion_group": "1b9c6272d0f92062",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-28",
+      "last_seen_at": "2026-01-29",
+      "creatives": [
+        {
+          "id": "1b9c6272d0f92062",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0e2445577fcdceca/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0e2445577fcdceca/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0e2445577fcdceca/thumb",
+          "video_duration": 53,
+          "width": 720,
+          "height": 1280,
+          "title": "99%の人はクリアできません。",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "b3e9a5957a1ec0cb",
+      "app_id": "66ea6074d5bd69b363a04011",
+      "network": "TikTok",
+      "phashion_group": "b3e9a5957a1ec0cb",
+      "ad_type": "video",
+      "first_seen_at": "2025-05-30",
+      "last_seen_at": "2026-01-21",
+      "creatives": [
+        {
+          "id": "b3e9a5957a1ec0cb",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0edd096e3eb01111/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0edd096e3eb01111/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0edd096e3eb01111/thumb",
+          "video_duration": 33,
+          "width": 720,
+          "height": 1280,
+          "message": "Your Jail, Your Rules"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "9c36846c9af066c5",
+      "app_id": "66ea6074d5bd69b363a04011",
+      "network": "Facebook",
+      "phashion_group": "9c36846c9af066c5",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-30",
+      "last_seen_at": "2026-01-16",
+      "creatives": [
+        {
+          "id": "9c36846c9af066c5",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0f0f9f1db45d4859/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0f0f9f1db45d4859/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0f0f9f1db45d4859/thumb",
+          "video_duration": 67,
+          "width": 720,
+          "height": 1280,
+          "title": "维持秩序，控制囚犯",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "5541b6b172b8cac5",
+      "app_id": "66ea6074d5bd69b363a04011",
+      "network": "Instagram",
+      "phashion_group": "5541b6b172b8cac5",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-30",
+      "last_seen_at": "2026-01-16",
+      "creatives": [
+        {
+          "id": "5541b6b172b8cac5",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0f0f9f1db45d4859/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0f0f9f1db45d4859/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0f0f9f1db45d4859/thumb",
+          "video_duration": 67,
+          "width": 720,
+          "height": 1280,
+          "title": "维持秩序，控制囚犯",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "aeb4571895e87774",
+      "app_id": "66ea6074d5bd69b363a04011",
+      "network": "Meta Audience Network",
+      "phashion_group": "aeb4571895e87774",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-30",
+      "last_seen_at": "2026-01-16",
+      "creatives": [
+        {
+          "id": "aeb4571895e87774",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0f0f9f1db45d4859/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0f0f9f1db45d4859/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0f0f9f1db45d4859/thumb",
+          "video_duration": 67,
+          "width": 720,
+          "height": 1280,
+          "title": "维持秩序，控制囚犯",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "cd4fca0e53847cca",
+      "app_id": "66ea6074d5bd69b363a04011",
+      "network": "TikTok",
+      "phashion_group": "cd4fca0e53847cca",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-03",
+      "last_seen_at": "2026-01-19",
+      "creatives": [
+        {
+          "id": "cd4fca0e53847cca",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0f5ac32dcc02a127/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0f5ac32dcc02a127/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0f5ac32dcc02a127/thumb",
+          "video_duration": 41,
+          "width": 720,
+          "height": 1280,
+          "message": "Keep Order, Control the Prisoners"
+        },
+        {
+          "id": "f03f540d4fe101d2",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0f5ac32dcc02a127/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0f5ac32dcc02a127/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0f5ac32dcc02a127/thumb",
+          "video_duration": 41,
+          "width": 720,
+          "height": 1280,
+          "message": "Prevent the Escape, Master the Prison"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "0335ae729a8b3c98",
+      "app_id": "66ea6074d5bd69b363a04011",
+      "network": "Facebook",
+      "phashion_group": "0335ae729a8b3c98",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-09",
+      "last_seen_at": "2026-01-29",
+      "creatives": [
+        {
+          "id": "0335ae729a8b3c98",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0f979a697292e174/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0f979a697292e174/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0f979a697292e174/thumb",
+          "video_duration": 56,
+          "width": 720,
+          "height": 1280,
+          "title": "99%の人はクリアできません。",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "1a2fbd4cdda60fdc",
+      "app_id": "66ea6074d5bd69b363a04011",
+      "network": "Instagram",
+      "phashion_group": "1a2fbd4cdda60fdc",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-09",
+      "last_seen_at": "2026-01-29",
+      "creatives": [
+        {
+          "id": "1a2fbd4cdda60fdc",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0f979a697292e174/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0f979a697292e174/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0f979a697292e174/thumb",
+          "video_duration": 56,
+          "width": 720,
+          "height": 1280,
+          "title": "99%の人はクリアできません。",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "83445d9029b6218b",
+      "app_id": "66ea6074d5bd69b363a04011",
+      "network": "Facebook",
+      "phashion_group": "83445d9029b6218b",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-08",
+      "last_seen_at": "2026-01-23",
+      "creatives": [
+        {
+          "id": "83445d9029b6218b",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/107d46e1071b0f17/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/107d46e1071b0f17/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/107d46e1071b0f17/thumb",
+          "video_duration": 54,
+          "width": 720,
+          "height": 1280,
+          "title": "胡鬧監獄",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "4a336f4dc1fe8d8b",
+      "app_id": "66ea6074d5bd69b363a04011",
+      "network": "Instagram",
+      "phashion_group": "4a336f4dc1fe8d8b",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-08",
+      "last_seen_at": "2026-01-23",
+      "creatives": [
+        {
+          "id": "4a336f4dc1fe8d8b",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/107d46e1071b0f17/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/107d46e1071b0f17/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/107d46e1071b0f17/thumb",
+          "video_duration": 54,
+          "width": 720,
+          "height": 1280,
+          "title": "胡鬧監獄",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "b1c68ee426ae303a",
+      "app_id": "66ea6074d5bd69b363a04011",
+      "network": "Meta Audience Network",
+      "phashion_group": "b1c68ee426ae303a",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-08",
+      "last_seen_at": "2026-01-23",
+      "creatives": [
+        {
+          "id": "b1c68ee426ae303a",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/107d46e1071b0f17/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/107d46e1071b0f17/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/107d46e1071b0f17/thumb",
+          "video_duration": 54,
+          "width": 720,
+          "height": 1280,
+          "title": "胡鬧監獄",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "83afcaa6ab9fc6ba",
+      "app_id": "66ea6074d5bd69b363a04011",
+      "network": "Facebook",
+      "phashion_group": "83afcaa6ab9fc6ba",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-16",
+      "last_seen_at": "2026-01-23",
+      "creatives": [
+        {
+          "id": "83afcaa6ab9fc6ba",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1096d1d78532e826/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1096d1d78532e826/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1096d1d78532e826/thumb",
+          "video_duration": 56,
+          "width": 720,
+          "height": 1280,
+          "title": "胡鬧監獄",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "4ad8f87b43d76aba",
+      "app_id": "66ea6074d5bd69b363a04011",
+      "network": "Instagram",
+      "phashion_group": "4ad8f87b43d76aba",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-16",
+      "last_seen_at": "2026-01-23",
+      "creatives": [
+        {
+          "id": "4ad8f87b43d76aba",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1096d1d78532e826/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1096d1d78532e826/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1096d1d78532e826/thumb",
+          "video_duration": 56,
+          "width": 720,
+          "height": 1280,
+          "title": "胡鬧監獄",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "b12d19d2a487d70b",
+      "app_id": "66ea6074d5bd69b363a04011",
+      "network": "Meta Audience Network",
+      "phashion_group": "b12d19d2a487d70b",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-16",
+      "last_seen_at": "2026-01-23",
+      "creatives": [
+        {
+          "id": "b12d19d2a487d70b",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1096d1d78532e826/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1096d1d78532e826/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1096d1d78532e826/thumb",
+          "video_duration": 56,
+          "width": 720,
+          "height": 1280,
+          "title": "胡鬧監獄",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "a78d71d619c5ef6f",
+      "app_id": "66ea6074d5bd69b363a04011",
+      "network": "TikTok",
+      "phashion_group": "a78d71d619c5ef6f",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-07",
+      "last_seen_at": "2026-01-19",
+      "creatives": [
+        {
+          "id": "a78d71d619c5ef6f",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/10fda46c39c32420/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/10fda46c39c32420/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/10fda46c39c32420/thumb",
+          "video_duration": 16,
+          "width": 720,
+          "height": 1280,
+          "message": "Reform or Punish? You Decide!"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "829320e84131b8a0",
+      "app_id": "66ea6074d5bd69b363a04011",
+      "network": "Facebook",
+      "phashion_group": "829320e84131b8a0",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-24",
+      "last_seen_at": "2026-01-23",
+      "creatives": [
+        {
+          "id": "829320e84131b8a0",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/11aa3b996f9c963c/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/11aa3b996f9c963c/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/11aa3b996f9c963c/thumb",
+          "video_duration": 33,
+          "width": 720,
+          "height": 1280,
+          "title": "超解壓監獄建造",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "4be41235a97914a0",
+      "app_id": "66ea6074d5bd69b363a04011",
+      "network": "Instagram",
+      "phashion_group": "4be41235a97914a0",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-24",
+      "last_seen_at": "2026-01-23",
+      "creatives": [
+        {
+          "id": "4be41235a97914a0",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/11aa3b996f9c963c/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/11aa3b996f9c963c/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/11aa3b996f9c963c/thumb",
+          "video_duration": 33,
+          "width": 720,
+          "height": 1280,
+          "title": "超解壓監獄建造",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "b011f39c4e29a911",
+      "app_id": "66ea6074d5bd69b363a04011",
+      "network": "Meta Audience Network",
+      "phashion_group": "b011f39c4e29a911",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-24",
+      "last_seen_at": "2026-01-23",
+      "creatives": [
+        {
+          "id": "b011f39c4e29a911",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/11aa3b996f9c963c/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/11aa3b996f9c963c/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/11aa3b996f9c963c/thumb",
+          "video_duration": 33,
+          "width": 720,
+          "height": 1280,
+          "title": "超解壓監獄建造",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "b47638d6d4389640",
+      "app_id": "66ea6074d5bd69b363a04011",
+      "network": "TikTok",
+      "phashion_group": "b47638d6d4389640",
+      "ad_type": "video",
+      "first_seen_at": "2025-04-11",
+      "last_seen_at": "2026-01-20",
+      "creatives": [
+        {
+          "id": "b47638d6d4389640",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1345cef2d9f391ae/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1345cef2d9f391ae/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1345cef2d9f391ae/thumb",
+          "video_duration": 26,
+          "width": 720,
+          "height": 1280,
+          "message": "Shape the Perfect Prison System"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "ec187760b1f1ab35",
+      "app_id": "66ea6074d5bd69b363a04011",
+      "network": "TikTok",
+      "phashion_group": "ec187760b1f1ab35",
+      "ad_type": "video",
+      "first_seen_at": "2025-10-28",
+      "last_seen_at": "2026-01-29",
+      "creatives": [
+        {
+          "id": "ec187760b1f1ab35",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/137de04032120bc0/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/137de04032120bc0/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/137de04032120bc0/thumb",
+          "video_duration": 54,
+          "width": 720,
+          "height": 1280,
+          "message": "Prevent the Escape, Master the Prison"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "0a740cadff44ca9a",
+      "app_id": "66ea6074d5bd69b363a04011",
+      "network": "TikTok",
+      "phashion_group": "0a740cadff44ca9a",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-22",
+      "last_seen_at": "2026-01-15",
+      "creatives": [
+        {
+          "id": "0a740cadff44ca9a",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/14e48b0036cf3ddc/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/14e48b0036cf3ddc/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/14e48b0036cf3ddc/thumb",
+          "video_duration": 26,
+          "width": 720,
+          "height": 1280,
+          "message": "究極の監獄管理シムゲーム、挑戦する準備はできたか？"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "47827db39f83f3c9",
+      "app_id": "66ea6074d5bd69b363a04011",
+      "network": "TikTok",
+      "phashion_group": "47827db39f83f3c9",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-09",
+      "last_seen_at": "2026-01-24",
+      "creatives": [
+        {
+          "id": "47827db39f83f3c9",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1545046503bb93f8/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1545046503bb93f8/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1545046503bb93f8/thumb",
+          "video_duration": 46,
+          "width": 720,
+          "height": 1280,
+          "message": "簡素な監獄から始め、最も安全な防衛要塞に改造しよう"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "86f320829f9e5555",
+      "app_id": "66ea6074d5bd69b363a04011",
+      "network": "Facebook",
+      "phashion_group": "86f320829f9e5555",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-16",
+      "last_seen_at": "2026-01-23",
+      "creatives": [
+        {
+          "id": "86f320829f9e5555",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/15ca3bf3b1337bc9/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/15ca3bf3b1337bc9/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/15ca3bf3b1337bc9/thumb",
+          "video_duration": 51,
+          "width": 720,
+          "height": 1280,
+          "title": "胡鬧監獄",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "4f84125f77d6f955",
+      "app_id": "66ea6074d5bd69b363a04011",
+      "network": "Instagram",
+      "phashion_group": "4f84125f77d6f955",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-16",
+      "last_seen_at": "2026-01-23",
+      "creatives": [
+        {
+          "id": "4f84125f77d6f955",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/15ca3bf3b1337bc9/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/15ca3bf3b1337bc9/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/15ca3bf3b1337bc9/thumb",
+          "video_duration": 51,
+          "width": 720,
+          "height": 1280,
+          "title": "胡鬧監獄",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "b471f3f6908644e4",
+      "app_id": "66ea6074d5bd69b363a04011",
+      "network": "Meta Audience Network",
+      "phashion_group": "b471f3f6908644e4",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-16",
+      "last_seen_at": "2026-01-23",
+      "creatives": [
+        {
+          "id": "b471f3f6908644e4",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/15ca3bf3b1337bc9/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/15ca3bf3b1337bc9/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/15ca3bf3b1337bc9/thumb",
+          "video_duration": 51,
+          "width": 720,
+          "height": 1280,
+          "title": "胡鬧監獄",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "e96a8fbad5cb01f6",
+      "app_id": "66ea6074d5bd69b363a04011",
+      "network": "TikTok",
+      "phashion_group": "e96a8fbad5cb01f6",
+      "ad_type": "video",
+      "first_seen_at": "2025-10-22",
+      "last_seen_at": "2026-01-19",
+      "creatives": [
+        {
+          "id": "e96a8fbad5cb01f6",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/160f189a5628a103/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/160f189a5628a103/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/160f189a5628a103/thumb",
+          "video_duration": 20,
+          "width": 720,
+          "height": 1280,
+          "message": "Prevent the Escape, Master the Prison"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "854d03ea02fc6dd2",
+      "app_id": "66ea6074d5bd69b363a04011",
+      "network": "Facebook",
+      "phashion_group": "854d03ea02fc6dd2",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-08",
+      "last_seen_at": "2026-01-23",
+      "creatives": [
+        {
+          "id": "854d03ea02fc6dd2",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1674189b2c51434e/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1674189b2c51434e/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1674189b2c51434e/thumb",
+          "video_duration": 58,
+          "width": 720,
+          "height": 1280,
+          "title": "胡鬧監獄",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "4c3a3137eab4c1d2",
+      "app_id": "66ea6074d5bd69b363a04011",
+      "network": "Instagram",
+      "phashion_group": "4c3a3137eab4c1d2",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-08",
+      "last_seen_at": "2026-01-23",
+      "creatives": [
+        {
+          "id": "4c3a3137eab4c1d2",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1674189b2c51434e/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1674189b2c51434e/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1674189b2c51434e/thumb",
+          "video_duration": 58,
+          "width": 720,
+          "height": 1280,
+          "title": "胡鬧監獄",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "b7cfd09e0de47c63",
+      "app_id": "66ea6074d5bd69b363a04011",
+      "network": "Meta Audience Network",
+      "phashion_group": "b7cfd09e0de47c63",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-08",
+      "last_seen_at": "2026-01-23",
+      "creatives": [
+        {
+          "id": "b7cfd09e0de47c63",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1674189b2c51434e/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1674189b2c51434e/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1674189b2c51434e/thumb",
+          "video_duration": 58,
+          "width": 720,
+          "height": 1280,
+          "title": "胡鬧監獄",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "8546d7a0da2315e7",
+      "app_id": "66ea6074d5bd69b363a04011",
+      "network": "Facebook",
+      "phashion_group": "8546d7a0da2315e7",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-28",
+      "last_seen_at": "2026-01-23",
+      "creatives": [
+        {
+          "id": "8546d7a0da2315e7",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/167fccd1f48e3b7b/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/167fccd1f48e3b7b/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/167fccd1f48e3b7b/thumb",
+          "video_duration": 52,
+          "width": 720,
+          "height": 1280,
+          "title": "胡鬧監獄",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    }
+  ]
+}

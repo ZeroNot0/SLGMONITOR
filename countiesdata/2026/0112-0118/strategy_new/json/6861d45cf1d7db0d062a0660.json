@@ -1,0 +1,138 @@
+[
+  {
+    "app_id": "6861d45cf1d7db0d062a0660",
+    "country": "AU",
+    "date": "2026-01-12T00:00:00Z",
+    "android_revenue": 1372,
+    "unified_units": 0,
+    "unified_revenue": 1372
+  },
+  {
+    "app_id": "6861d45cf1d7db0d062a0660",
+    "country": "BF",
+    "date": "2026-01-12T00:00:00Z",
+    "android_revenue": 1,
+    "unified_units": 0,
+    "unified_revenue": 1
+  },
+  {
+    "app_id": "6861d45cf1d7db0d062a0660",
+    "country": "CA",
+    "date": "2026-01-12T00:00:00Z",
+    "android_revenue": 7504,
+    "unified_units": 0,
+    "unified_revenue": 7504
+  },
+  {
+    "app_id": "6861d45cf1d7db0d062a0660",
+    "country": "CG",
+    "date": "2026-01-12T00:00:00Z",
+    "unified_units": 0,
+    "unified_revenue": 0
+  },
+  {
+    "app_id": "6861d45cf1d7db0d062a0660",
+    "country": "CH",
+    "date": "2026-01-12T00:00:00Z",
+    "android_revenue": 791,
+    "unified_units": 0,
+    "unified_revenue": 791
+  },
+  {
+    "app_id": "6861d45cf1d7db0d062a0660",
+    "country": "DE",
+    "date": "2026-01-12T00:00:00Z",
+    "android_revenue": 16365,
+    "unified_units": 0,
+    "unified_revenue": 16365
+  },
+  {
+    "app_id": "6861d45cf1d7db0d062a0660",
+    "country": "ES",
+    "date": "2026-01-12T00:00:00Z",
+    "android_revenue": 5896,
+    "unified_units": 0,
+    "unified_revenue": 5896
+  },
+  {
+    "app_id": "6861d45cf1d7db0d062a0660",
+    "country": "FR",
+    "date": "2026-01-12T00:00:00Z",
+    "android_revenue": 4339,
+    "unified_units": 0,
+    "unified_revenue": 4339
+  },
+  {
+    "app_id": "6861d45cf1d7db0d062a0660",
+    "country": "GB",
+    "date": "2026-01-12T00:00:00Z",
+    "android_revenue": 9427,
+    "unified_units": 0,
+    "unified_revenue": 9427
+  },
+  {
+    "app_id": "6861d45cf1d7db0d062a0660",
+    "country": "IT",
+    "date": "2026-01-12T00:00:00Z",
+    "android_revenue": 16204,
+    "unified_units": 0,
+    "unified_revenue": 16204
+  },
+  {
+    "app_id": "6861d45cf1d7db0d062a0660",
+    "country": "LY",
+    "date": "2026-01-12T00:00:00Z",
+    "android_revenue": 54,
+    "unified_units": 0,
+    "unified_revenue": 54
+  },
+  {
+    "app_id": "6861d45cf1d7db0d062a0660",
+    "country": "ML",
+    "date": "2026-01-12T00:00:00Z",
+    "android_revenue": 3,
+    "unified_units": 0,
+    "unified_revenue": 3
+  },
+  {
+    "app_id": "6861d45cf1d7db0d062a0660",
+    "country": "MZ",
+    "date": "2026-01-12T00:00:00Z",
+    "android_revenue": 11,
+    "unified_units": 0,
+    "unified_revenue": 11
+  },
+  {
+    "app_id": "6861d45cf1d7db0d062a0660",
+    "country": "NL",
+    "date": "2026-01-12T00:00:00Z",
+    "android_revenue": 1582,
+    "unified_units": 0,
+    "unified_revenue": 1582
+  },
+  {
+    "app_id": "6861d45cf1d7db0d062a0660",
+    "country": "UG",
+    "date": "2026-01-12T00:00:00Z",
+    "android_revenue": 3,
+    "unified_units": 0,
+    "unified_revenue": 3
+  },
+  {
+    "app_id": "6861d45cf1d7db0d062a0660",
+    "country": "US",
+    "date": "2026-01-12T00:00:00Z",
+    "android_units": 1702,
+    "android_revenue": 820071,
+    "unified_units": 1702,
+    "unified_revenue": 820071
+  },
+  {
+    "app_id": "6861d45cf1d7db0d062a0660",
+    "country": "ZM",
+    "date": "2026-01-12T00:00:00Z",
+    "android_revenue": 7,
+    "unified_units": 0,
+    "unified_revenue": 7
+  }
+]

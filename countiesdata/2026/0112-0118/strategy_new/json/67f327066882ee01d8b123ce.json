@@ -1,0 +1,19 @@
+[
+  {
+    "app_id": "67f327066882ee01d8b123ce",
+    "country": "ID",
+    "date": "2026-01-12T00:00:00Z",
+    "android_revenue": 2660,
+    "unified_units": 0,
+    "unified_revenue": 2660
+  },
+  {
+    "app_id": "67f327066882ee01d8b123ce",
+    "country": "US",
+    "date": "2026-01-12T00:00:00Z",
+    "android_units": 2455,
+    "android_revenue": 140346,
+    "unified_units": 2455,
+    "unified_revenue": 140346
+  }
+]

@@ -45,11 +45,31 @@ NETWORKS = [
     "Supersonic", "TikTok", "Twitter", "Unity", "Verve", "Vungle", "Youtube",
 ]
 
-# T3 市场国家代码（未在 市场T度.csv 中的常见新兴市场，供 API 传参）
+# T3 市场国家代码：完整 50 国列表中未在 市场T度.csv（亚洲T1/欧美T1/T2）的国家，共 26 个
 T3_COUNTRIES = [
-    "BR", "MX", "IN", "ID", "TH", "MY", "PH", "VN", "TR", "RU", "PL",
-    "CO", "AR", "CL", "PE", "EG", "NG", "PK", "BD", "UA", "RO", "PT", "GR",
+    "AR", "BR", "CL", "CN", "CO", "CZ", "EC", "GR", "ID", "IN", "LU",
+    "MX", "MY", "NG", "PA", "PE", "PH", "PL", "PT", "RO", "RU", "TH",
+    "TR", "UA", "VN", "ZA",
 ]
+
+
+def week_tag_to_dates(year: int, week_tag: str):
+    """将 week_tag（如 0119-0125）和 year 转为 start_date、end_date（YYYY-MM-DD）。跨年周（如 1229-0104）时 end_date 用 year+1。"""
+    if not year or not week_tag:
+        return None, None
+    s = (week_tag or "").strip()
+    m = re.match(r"^(\d{2})(\d{2})-(\d{2})(\d{2})$", s)
+    if not m:
+        return None, None
+    m1, d1, m2, d2 = m.group(1), m.group(2), m.group(3), m.group(4)
+    try:
+        start_date = f"{year}-{m1}-{d1}"
+        # 跨年周：如 1229-0104，结束月在 01 小于开始月 12，则 end 用 year+1
+        end_year = year if int(m2) >= int(m1) else year + 1
+        end_date = f"{end_year}-{m2}-{d2}"
+        return start_date, end_date
+    except Exception:
+        return None, None
 
 
 def load_market_countries():
@@ -315,10 +335,27 @@ def main():
         print("请提供 --app_ids、--app_ids_file 或 --app_list_file（含 app_id[,产品名]）")
         sys.exit(1)
 
+    # 有 --year 和 --week 时自动补全 start_date / end_date，确保创意 API 始终带 end_date
+    start_date = args.start_date
+    end_date = args.end_date
+    if args.year and args.week_tag:
+        derived_start, derived_end = week_tag_to_dates(int(args.year), args.week_tag)
+        if derived_start and not start_date:
+            start_date = derived_start
+        if derived_end and not end_date:
+            end_date = derived_end
+    if start_date and not end_date:
+        try:
+            from datetime import datetime, timedelta
+            dt = datetime.strptime(start_date, "%Y-%m-%d")
+            end_date = (dt + timedelta(days=6)).strftime("%Y-%m-%d")
+        except Exception:
+            pass
+
     run(
         app_list,
-        start_date=args.start_date,
-        end_date=args.end_date,
+        start_date=start_date,
+        end_date=end_date,
         os_platform=args.os_platform,
         countries=args.countries,
         save_xlsx_too=not args.no_xlsx,

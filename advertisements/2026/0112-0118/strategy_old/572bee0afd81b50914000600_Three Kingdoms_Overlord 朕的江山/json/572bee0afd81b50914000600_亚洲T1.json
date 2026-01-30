@@ -1,0 +1,462 @@
+{
+  "count": 5,
+  "available_networks": [
+    "Admob",
+    "Youtube"
+  ],
+  "ad_units": [
+    {
+      "id": "faa98cadad57b4e3",
+      "app_id": "572bee0afd81b50914000600",
+      "network": "Admob",
+      "phashion_group": "faa98cadad57b4e3",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-17",
+      "last_seen_at": "2026-01-17",
+      "creatives": [
+        {
+          "id": "faa98cadad57b4e3",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/74f5027ebe0dcc68/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/74f5027ebe0dcc68/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/74f5027ebe0dcc68/thumb",
+          "video_duration": 50,
+          "width": 1280,
+          "height": 720,
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "rewarded"
+      ],
+      "share": 0.443483,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2026-01-12T00:00:00Z",
+              "2026-01-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2026-01-13T00:00:00Z",
+              "2026-01-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2026-01-14T00:00:00Z",
+              "2026-01-14T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2026-01-15T00:00:00Z",
+              "2026-01-15T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2026-01-16T00:00:00Z",
+              "2026-01-16T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2026-01-17T00:00:00Z",
+              "2026-01-17T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2026-01-18T00:00:00Z",
+              "2026-01-18T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "1280x720",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 1,
+        "data": [
+          [
+            "5aed09a1dbec471e16399f60",
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "id": "c12216ca5bd900a4",
+      "app_id": "572bee0afd81b50914000600",
+      "network": "Youtube",
+      "phashion_group": "c12216ca5bd900a4",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-12",
+      "last_seen_at": "2026-01-12",
+      "creatives": [
+        {
+          "id": "c12216ca5bd900a4",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/74f5027ebe0dcc68/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/74f5027ebe0dcc68/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/74f5027ebe0dcc68/thumb",
+          "video_duration": 50,
+          "width": 1280,
+          "height": 720,
+          "title": "我が天下~【世界配信9周年】",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": 0.153485,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2026-01-12T00:00:00Z",
+              "2026-01-12T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2026-01-13T00:00:00Z",
+              "2026-01-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2026-01-14T00:00:00Z",
+              "2026-01-14T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2026-01-15T00:00:00Z",
+              "2026-01-15T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2026-01-16T00:00:00Z",
+              "2026-01-16T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2026-01-17T00:00:00Z",
+              "2026-01-17T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2026-01-18T00:00:00Z",
+              "2026-01-18T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "1280x720",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "04a7014b7ceaa42c",
+      "app_id": "572bee0afd81b50914000600",
+      "network": "Youtube",
+      "phashion_group": "04a7014b7ceaa42c",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-14",
+      "last_seen_at": "2026-01-14",
+      "creatives": [
+        {
+          "id": "04a7014b7ceaa42c",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/678619392ab145bc/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/678619392ab145bc/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/678619392ab145bc/thumb",
+          "video_duration": 18,
+          "width": 1280,
+          "height": 720,
+          "title": "Three Kingdoms:Overlord",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": 0.145025,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2026-01-12T00:00:00Z",
+              "2026-01-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2026-01-13T00:00:00Z",
+              "2026-01-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2026-01-14T00:00:00Z",
+              "2026-01-14T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2026-01-15T00:00:00Z",
+              "2026-01-15T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2026-01-16T00:00:00Z",
+              "2026-01-16T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2026-01-17T00:00:00Z",
+              "2026-01-17T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2026-01-18T00:00:00Z",
+              "2026-01-18T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "1280x720",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "0121d08910c3b116",
+      "app_id": "572bee0afd81b50914000600",
+      "network": "Youtube",
+      "phashion_group": "0121d08910c3b116",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-15",
+      "last_seen_at": "2026-01-15",
+      "creatives": [
+        {
+          "id": "0121d08910c3b116",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/b4f6c43df5177dda/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/b4f6c43df5177dda/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/b4f6c43df5177dda/thumb",
+          "video_duration": 32,
+          "width": 1280,
+          "height": 720,
+          "title": "我が天下~【世界配信9周年】",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": 0.137959,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2026-01-12T00:00:00Z",
+              "2026-01-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2026-01-13T00:00:00Z",
+              "2026-01-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2026-01-14T00:00:00Z",
+              "2026-01-14T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2026-01-15T00:00:00Z",
+              "2026-01-15T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2026-01-16T00:00:00Z",
+              "2026-01-16T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2026-01-17T00:00:00Z",
+              "2026-01-17T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2026-01-18T00:00:00Z",
+              "2026-01-18T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "1280x720",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "afb1f3aebd295322",
+      "app_id": "572bee0afd81b50914000600",
+      "network": "Admob",
+      "phashion_group": "afb1f3aebd295322",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-14",
+      "last_seen_at": "2026-01-15",
+      "creatives": [
+        {
+          "id": "afb1f3aebd295322",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/21ed7d7dae732ba9/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/21ed7d7dae732ba9/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/21ed7d7dae732ba9/thumb",
+          "video_duration": 34,
+          "width": 1280,
+          "height": 720,
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "rewarded"
+      ],
+      "share": 0.120048,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2026-01-12T00:00:00Z",
+              "2026-01-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2026-01-13T00:00:00Z",
+              "2026-01-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2026-01-14T00:00:00Z",
+              "2026-01-14T00:00:00Z"
+            ],
+            0.429314
+          ],
+          [
+            [
+              "2026-01-15T00:00:00Z",
+              "2026-01-15T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2026-01-16T00:00:00Z",
+              "2026-01-16T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2026-01-17T00:00:00Z",
+              "2026-01-17T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2026-01-18T00:00:00Z",
+              "2026-01-18T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "1280x720",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 1,
+        "data": [
+          [
+            "5970c7470211a6f5930006e7",
+            1
+          ]
+        ]
+      }
+    }
+  ]
+}

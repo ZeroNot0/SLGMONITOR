@@ -1,0 +1,1930 @@
+{
+  "count": 48,
+  "available_networks": [
+    "Facebook",
+    "Instagram",
+    "Meta Audience Network"
+  ],
+  "ad_units": [
+    {
+      "id": "c8c6210435a2e2c4",
+      "app_id": "66b98fdfaf0c1c0e6845cd13",
+      "network": "Facebook",
+      "phashion_group": "c8c6210435a2e2c4",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-16",
+      "last_seen_at": "2026-01-20",
+      "creatives": [
+        {
+          "id": "c8c6210435a2e2c4",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/01cda0f4d8cbc383/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/01cda0f4d8cbc383/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/01cda0f4d8cbc383/thumb",
+          "video_duration": 27,
+          "width": 1080,
+          "height": 1080,
+          "title": "Lựa chọn của 10tr+ người chơi 🔥🔥🔥",
+          "button_text": "Play Game",
+          "message": "Xây dựng hạm đội mạnh mẽ của riêng bạn!\nNhận ngay Tàu Chiến SSR miễn phí! 🔥\nBạn đã sẵn sàng trở thành chủ sở hữu tàu chiến quyền lực nhất?"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "d251feb9faf1ba9c",
+      "app_id": "66b98fdfaf0c1c0e6845cd13",
+      "network": "Instagram",
+      "phashion_group": "d251feb9faf1ba9c",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-16",
+      "last_seen_at": "2026-01-20",
+      "creatives": [
+        {
+          "id": "d251feb9faf1ba9c",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/01cda0f4d8cbc383/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/01cda0f4d8cbc383/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/01cda0f4d8cbc383/thumb",
+          "video_duration": 27,
+          "width": 1080,
+          "height": 1080,
+          "title": "Lựa chọn của 10tr+ người chơi 🔥🔥🔥",
+          "button_text": "Play Game",
+          "message": "Xây dựng hạm đội mạnh mẽ của riêng bạn!\nNhận ngay Tàu Chiến SSR miễn phí! 🔥\nBạn đã sẵn sàng trở thành chủ sở hữu tàu chiến quyền lực nhất?"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "fa44f2703abaf375",
+      "app_id": "66b98fdfaf0c1c0e6845cd13",
+      "network": "Meta Audience Network",
+      "phashion_group": "fa44f2703abaf375",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-16",
+      "last_seen_at": "2026-01-20",
+      "creatives": [
+        {
+          "id": "fa44f2703abaf375",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/01cda0f4d8cbc383/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/01cda0f4d8cbc383/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/01cda0f4d8cbc383/thumb",
+          "video_duration": 27,
+          "width": 1080,
+          "height": 1080,
+          "title": "Lựa chọn của 10tr+ người chơi 🔥🔥🔥",
+          "button_text": "Play Game",
+          "message": "Xây dựng hạm đội mạnh mẽ của riêng bạn!\nNhận ngay Tàu Chiến SSR miễn phí! 🔥\nBạn đã sẵn sàng trở thành chủ sở hữu tàu chiến quyền lực nhất?"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "c3485d089f4b4f46",
+      "app_id": "66b98fdfaf0c1c0e6845cd13",
+      "network": "Facebook",
+      "phashion_group": "c3485d089f4b4f46",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-16",
+      "last_seen_at": "2026-01-20",
+      "creatives": [
+        {
+          "id": "c3485d089f4b4f46",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0a43dcf872226e01/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0a43dcf872226e01/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0a43dcf872226e01/thumb",
+          "video_duration": 27,
+          "width": 1280,
+          "height": 720,
+          "title": "Lựa chọn của 10tr+ người chơi 🔥🔥🔥",
+          "button_text": "Play Game",
+          "message": "Xây dựng hạm đội mạnh mẽ của riêng bạn!\nNhận ngay Tàu Chiến SSR miễn phí! 🔥\nBạn đã sẵn sàng trở thành chủ sở hữu tàu chiến quyền lực nhất?"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1280x720",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "d9df82b55018171e",
+      "app_id": "66b98fdfaf0c1c0e6845cd13",
+      "network": "Instagram",
+      "phashion_group": "d9df82b55018171e",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-16",
+      "last_seen_at": "2026-01-20",
+      "creatives": [
+        {
+          "id": "d9df82b55018171e",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0a43dcf872226e01/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0a43dcf872226e01/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0a43dcf872226e01/thumb",
+          "video_duration": 27,
+          "width": 1280,
+          "height": 720,
+          "title": "Lựa chọn của 10tr+ người chơi 🔥🔥🔥",
+          "button_text": "Play Game",
+          "message": "Xây dựng hạm đội mạnh mẽ của riêng bạn!\nNhận ngay Tàu Chiến SSR miễn phí! 🔥\nBạn đã sẵn sàng trở thành chủ sở hữu tàu chiến quyền lực nhất?"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1280x720",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "f1ca8e7c90535ef7",
+      "app_id": "66b98fdfaf0c1c0e6845cd13",
+      "network": "Meta Audience Network",
+      "phashion_group": "f1ca8e7c90535ef7",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-16",
+      "last_seen_at": "2026-01-20",
+      "creatives": [
+        {
+          "id": "f1ca8e7c90535ef7",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0a43dcf872226e01/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0a43dcf872226e01/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0a43dcf872226e01/thumb",
+          "video_duration": 27,
+          "width": 1280,
+          "height": 720,
+          "title": "Lựa chọn của 10tr+ người chơi 🔥🔥🔥",
+          "button_text": "Play Game",
+          "message": "Xây dựng hạm đội mạnh mẽ của riêng bạn!\nNhận ngay Tàu Chiến SSR miễn phí! 🔥\nBạn đã sẵn sàng trở thành chủ sở hữu tàu chiến quyền lực nhất?"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1280x720",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "f83aec8bb23336c2",
+      "app_id": "66b98fdfaf0c1c0e6845cd13",
+      "network": "Facebook",
+      "phashion_group": "f83aec8bb23336c2",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-14",
+      "last_seen_at": "2026-01-20",
+      "creatives": [
+        {
+          "id": "f83aec8bb23336c2",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/31316d7b5f5a1785/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/31316d7b5f5a1785/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/31316d7b5f5a1785/thumb",
+          "video_duration": 33,
+          "width": 1280,
+          "height": 720,
+          "title": "Lựa chọn của 10tr+ người chơi 🔥🔥🔥",
+          "button_text": "Play Game",
+          "message": "Xây dựng hạm đội mạnh mẽ của riêng bạn!\nNhận ngay Tàu Chiến SSR miễn phí! 🔥\nBạn đã sẵn sàng trở thành chủ sở hữu tàu chiến quyền lực nhất?"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1280x720",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "e2ad33367d606e9a",
+      "app_id": "66b98fdfaf0c1c0e6845cd13",
+      "network": "Instagram",
+      "phashion_group": "e2ad33367d606e9a",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-14",
+      "last_seen_at": "2026-01-20",
+      "creatives": [
+        {
+          "id": "e2ad33367d606e9a",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/31316d7b5f5a1785/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/31316d7b5f5a1785/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/31316d7b5f5a1785/thumb",
+          "video_duration": 33,
+          "width": 1280,
+          "height": 720,
+          "title": "Lựa chọn của 10tr+ người chơi 🔥🔥🔥",
+          "button_text": "Play Game",
+          "message": "Xây dựng hạm đội mạnh mẽ của riêng bạn!\nNhận ngay Tàu Chiến SSR miễn phí! 🔥\nBạn đã sẵn sàng trở thành chủ sở hữu tàu chiến quyền lực nhất?"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1280x720",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "cab83fffbd2b2773",
+      "app_id": "66b98fdfaf0c1c0e6845cd13",
+      "network": "Meta Audience Network",
+      "phashion_group": "cab83fffbd2b2773",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-14",
+      "last_seen_at": "2026-01-20",
+      "creatives": [
+        {
+          "id": "cab83fffbd2b2773",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/31316d7b5f5a1785/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/31316d7b5f5a1785/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/31316d7b5f5a1785/thumb",
+          "video_duration": 33,
+          "width": 1280,
+          "height": 720,
+          "title": "Lựa chọn của 10tr+ người chơi 🔥🔥🔥",
+          "button_text": "Play Game",
+          "message": "Xây dựng hạm đội mạnh mẽ của riêng bạn!\nNhận ngay Tàu Chiến SSR miễn phí! 🔥\nBạn đã sẵn sàng trở thành chủ sở hữu tàu chiến quyền lực nhất?"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1280x720",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "ffe3afab1137433e",
+      "app_id": "66b98fdfaf0c1c0e6845cd13",
+      "network": "Facebook",
+      "phashion_group": "ffe3afab1137433e",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-15",
+      "last_seen_at": "2026-01-20",
+      "creatives": [
+        {
+          "id": "ffe3afab1137433e",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/36e82e5bfc5e6279/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/36e82e5bfc5e6279/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/36e82e5bfc5e6279/thumb",
+          "video_duration": 22,
+          "width": 1080,
+          "height": 1080,
+          "title": "Lựa chọn của 10tr+ người chơi 🔥🔥🔥",
+          "button_text": "Play Game",
+          "message": "Xây dựng hạm đội mạnh mẽ của riêng bạn!\nNhận ngay Tàu Chiến SSR miễn phí! 🔥\nBạn đã sẵn sàng trở thành chủ sở hữu tàu chiến quyền lực nhất?"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "e5747016de641b66",
+      "app_id": "66b98fdfaf0c1c0e6845cd13",
+      "network": "Instagram",
+      "phashion_group": "e5747016de641b66",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-15",
+      "last_seen_at": "2026-01-20",
+      "creatives": [
+        {
+          "id": "e5747016de641b66",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/36e82e5bfc5e6279/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/36e82e5bfc5e6279/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/36e82e5bfc5e6279/thumb",
+          "video_duration": 22,
+          "width": 1080,
+          "height": 1080,
+          "title": "Lựa chọn của 10tr+ người chơi 🔥🔥🔥",
+          "button_text": "Play Game",
+          "message": "Xây dựng hạm đội mạnh mẽ của riêng bạn!\nNhận ngay Tàu Chiến SSR miễn phí! 🔥\nBạn đã sẵn sàng trở thành chủ sở hữu tàu chiến quyền lực nhất?"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "cd617cdf1e2f528f",
+      "app_id": "66b98fdfaf0c1c0e6845cd13",
+      "network": "Meta Audience Network",
+      "phashion_group": "cd617cdf1e2f528f",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-15",
+      "last_seen_at": "2026-01-20",
+      "creatives": [
+        {
+          "id": "cd617cdf1e2f528f",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/36e82e5bfc5e6279/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/36e82e5bfc5e6279/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/36e82e5bfc5e6279/thumb",
+          "video_duration": 22,
+          "width": 1080,
+          "height": 1080,
+          "title": "Lựa chọn của 10tr+ người chơi 🔥🔥🔥",
+          "button_text": "Play Game",
+          "message": "Xây dựng hạm đội mạnh mẽ của riêng bạn!\nNhận ngay Tàu Chiến SSR miễn phí! 🔥\nBạn đã sẵn sàng trở thành chủ sở hữu tàu chiến quyền lực nhất?"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "f34ce7d45648f489",
+      "app_id": "66b98fdfaf0c1c0e6845cd13",
+      "network": "Facebook",
+      "phashion_group": "f34ce7d45648f489",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-16",
+      "last_seen_at": "2026-01-20",
+      "creatives": [
+        {
+          "id": "f34ce7d45648f489",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3a476624bb21d5ce/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3a476624bb21d5ce/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3a476624bb21d5ce/thumb",
+          "video_duration": 27,
+          "width": 720,
+          "height": 1280,
+          "title": "Lựa chọn của 10tr+ người chơi 🔥🔥🔥",
+          "button_text": "Play Game",
+          "message": "Xây dựng hạm đội mạnh mẽ của riêng bạn!\nNhận ngay Tàu Chiến SSR miễn phí! 🔥\nBạn đã sẵn sàng trở thành chủ sở hữu tàu chiến quyền lực nhất?"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "e9db3869991bacd1",
+      "app_id": "66b98fdfaf0c1c0e6845cd13",
+      "network": "Instagram",
+      "phashion_group": "e9db3869991bacd1",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-16",
+      "last_seen_at": "2026-01-20",
+      "creatives": [
+        {
+          "id": "e9db3869991bacd1",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3a476624bb21d5ce/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3a476624bb21d5ce/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3a476624bb21d5ce/thumb",
+          "video_duration": 27,
+          "width": 720,
+          "height": 1280,
+          "title": "Lựa chọn của 10tr+ người chơi 🔥🔥🔥",
+          "button_text": "Play Game",
+          "message": "Xây dựng hạm đội mạnh mẽ của riêng bạn!\nNhận ngay Tàu Chiến SSR miễn phí! 🔥\nBạn đã sẵn sàng trở thành chủ sở hữu tàu chiến quyền lực nhất?"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "c1ce34a05950e538",
+      "app_id": "66b98fdfaf0c1c0e6845cd13",
+      "network": "Meta Audience Network",
+      "phashion_group": "c1ce34a05950e538",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-16",
+      "last_seen_at": "2026-01-20",
+      "creatives": [
+        {
+          "id": "c1ce34a05950e538",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3a476624bb21d5ce/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3a476624bb21d5ce/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3a476624bb21d5ce/thumb",
+          "video_duration": 27,
+          "width": 720,
+          "height": 1280,
+          "title": "Lựa chọn của 10tr+ người chơi 🔥🔥🔥",
+          "button_text": "Play Game",
+          "message": "Xây dựng hạm đội mạnh mẽ của riêng bạn!\nNhận ngay Tàu Chiến SSR miễn phí! 🔥\nBạn đã sẵn sàng trở thành chủ sở hữu tàu chiến quyền lực nhất?"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "b53946604ab85a59",
+      "app_id": "66b98fdfaf0c1c0e6845cd13",
+      "network": "Facebook",
+      "phashion_group": "b53946604ab85a59",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-14",
+      "last_seen_at": "2026-01-20",
+      "creatives": [
+        {
+          "id": "b53946604ab85a59",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/7c32c790a7d17b1e/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/7c32c790a7d17b1e/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/7c32c790a7d17b1e/thumb",
+          "video_duration": 33,
+          "width": 720,
+          "height": 1280,
+          "title": "Lựa chọn của 10tr+ người chơi 🔥🔥🔥",
+          "button_text": "Play Game",
+          "message": "Xây dựng hạm đội mạnh mẽ của riêng bạn!\nNhận ngay Tàu Chiến SSR miễn phí! 🔥\nBạn đã sẵn sàng trở thành chủ sở hữu tàu chiến quyền lực nhất?"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "afae99dd85eb0201",
+      "app_id": "66b98fdfaf0c1c0e6845cd13",
+      "network": "Instagram",
+      "phashion_group": "afae99dd85eb0201",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-14",
+      "last_seen_at": "2026-01-20",
+      "creatives": [
+        {
+          "id": "afae99dd85eb0201",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/7c32c790a7d17b1e/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/7c32c790a7d17b1e/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/7c32c790a7d17b1e/thumb",
+          "video_duration": 33,
+          "width": 720,
+          "height": 1280,
+          "title": "Lựa chọn của 10tr+ người chơi 🔥🔥🔥",
+          "button_text": "Play Game",
+          "message": "Xây dựng hạm đội mạnh mẽ của riêng bạn!\nNhận ngay Tàu Chiến SSR miễn phí! 🔥\nBạn đã sẵn sàng trở thành chủ sở hữu tàu chiến quyền lực nhất?"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "87bb951445a04be8",
+      "app_id": "66b98fdfaf0c1c0e6845cd13",
+      "network": "Meta Audience Network",
+      "phashion_group": "87bb951445a04be8",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-14",
+      "last_seen_at": "2026-01-20",
+      "creatives": [
+        {
+          "id": "87bb951445a04be8",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/7c32c790a7d17b1e/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/7c32c790a7d17b1e/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/7c32c790a7d17b1e/thumb",
+          "video_duration": 33,
+          "width": 720,
+          "height": 1280,
+          "title": "Lựa chọn của 10tr+ người chơi 🔥🔥🔥",
+          "button_text": "Play Game",
+          "message": "Xây dựng hạm đội mạnh mẽ của riêng bạn!\nNhận ngay Tàu Chiến SSR miễn phí! 🔥\nBạn đã sẵn sàng trở thành chủ sở hữu tàu chiến quyền lực nhất?"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "41484a8f88d3bfb8",
+      "app_id": "66b98fdfaf0c1c0e6845cd13",
+      "network": "Facebook",
+      "phashion_group": "41484a8f88d3bfb8",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-14",
+      "last_seen_at": "2026-01-20",
+      "creatives": [
+        {
+          "id": "41484a8f88d3bfb8",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/8843cb7f65ba9eff/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/8843cb7f65ba9eff/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/8843cb7f65ba9eff/thumb",
+          "video_duration": 67,
+          "width": 960,
+          "height": 960,
+          "title": "Lựa chọn của 10tr+ người chơi 🔥🔥🔥",
+          "button_text": "Play Game",
+          "message": "Xây dựng hạm đội mạnh mẽ của riêng bạn!\nNhận ngay Tàu Chiến SSR miễn phí! 🔥\nBạn đã sẵn sàng trở thành chủ sở hữu tàu chiến quyền lực nhất?"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "960x960",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "5bdf95324780e7e0",
+      "app_id": "66b98fdfaf0c1c0e6845cd13",
+      "network": "Instagram",
+      "phashion_group": "5bdf95324780e7e0",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-14",
+      "last_seen_at": "2026-01-20",
+      "creatives": [
+        {
+          "id": "5bdf95324780e7e0",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/8843cb7f65ba9eff/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/8843cb7f65ba9eff/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/8843cb7f65ba9eff/thumb",
+          "video_duration": 67,
+          "width": 960,
+          "height": 960,
+          "title": "Lựa chọn của 10tr+ người chơi 🔥🔥🔥",
+          "button_text": "Play Game",
+          "message": "Xây dựng hạm đội mạnh mẽ của riêng bạn!\nNhận ngay Tàu Chiến SSR miễn phí! 🔥\nBạn đã sẵn sàng trở thành chủ sở hữu tàu chiến quyền lực nhất?"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "960x960",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "73ca99fb87cbae09",
+      "app_id": "66b98fdfaf0c1c0e6845cd13",
+      "network": "Meta Audience Network",
+      "phashion_group": "73ca99fb87cbae09",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-14",
+      "last_seen_at": "2026-01-20",
+      "creatives": [
+        {
+          "id": "73ca99fb87cbae09",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/8843cb7f65ba9eff/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/8843cb7f65ba9eff/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/8843cb7f65ba9eff/thumb",
+          "video_duration": 67,
+          "width": 960,
+          "height": 960,
+          "title": "Lựa chọn của 10tr+ người chơi 🔥🔥🔥",
+          "button_text": "Play Game",
+          "message": "Xây dựng hạm đội mạnh mẽ của riêng bạn!\nNhận ngay Tàu Chiến SSR miễn phí! 🔥\nBạn đã sẵn sàng trở thành chủ sở hữu tàu chiến quyền lực nhất?"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "960x960",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "47ae9b4b4ee2f0f5",
+      "app_id": "66b98fdfaf0c1c0e6845cd13",
+      "network": "Facebook",
+      "phashion_group": "47ae9b4b4ee2f0f5",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-15",
+      "last_seen_at": "2026-01-20",
+      "creatives": [
+        {
+          "id": "47ae9b4b4ee2f0f5",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/8ea51abba38bd1b2/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/8ea51abba38bd1b2/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/8ea51abba38bd1b2/thumb",
+          "video_duration": 26,
+          "width": 1080,
+          "height": 1080,
+          "title": "Lựa chọn của 10tr+ người chơi 🔥🔥🔥",
+          "button_text": "Play Game",
+          "message": "Xây dựng hạm đội mạnh mẽ của riêng bạn!\nNhận ngay Tàu Chiến SSR miễn phí! 🔥\nBạn đã sẵn sàng trở thành chủ sở hữu tàu chiến quyền lực nhất?"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "5d3944f681b1a8ad",
+      "app_id": "66b98fdfaf0c1c0e6845cd13",
+      "network": "Instagram",
+      "phashion_group": "5d3944f681b1a8ad",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-15",
+      "last_seen_at": "2026-01-20",
+      "creatives": [
+        {
+          "id": "5d3944f681b1a8ad",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/8ea51abba38bd1b2/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/8ea51abba38bd1b2/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/8ea51abba38bd1b2/thumb",
+          "video_duration": 26,
+          "width": 1080,
+          "height": 1080,
+          "title": "Lựa chọn của 10tr+ người chơi 🔥🔥🔥",
+          "button_text": "Play Game",
+          "message": "Xây dựng hạm đội mạnh mẽ của riêng bạn!\nNhận ngay Tàu Chiến SSR miễn phí! 🔥\nBạn đã sẵn sàng trở thành chủ sở hữu tàu chiến quyền lực nhất?"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "752c483f41fae144",
+      "app_id": "66b98fdfaf0c1c0e6845cd13",
+      "network": "Meta Audience Network",
+      "phashion_group": "752c483f41fae144",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-15",
+      "last_seen_at": "2026-01-20",
+      "creatives": [
+        {
+          "id": "752c483f41fae144",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/8ea51abba38bd1b2/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/8ea51abba38bd1b2/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/8ea51abba38bd1b2/thumb",
+          "video_duration": 26,
+          "width": 1080,
+          "height": 1080,
+          "title": "Lựa chọn của 10tr+ người chơi 🔥🔥🔥",
+          "button_text": "Play Game",
+          "message": "Xây dựng hạm đội mạnh mẽ của riêng bạn!\nNhận ngay Tàu Chiến SSR miễn phí! 🔥\nBạn đã sẵn sàng trở thành chủ sở hữu tàu chiến quyền lực nhất?"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "5d2a64363f2d885f",
+      "app_id": "66b98fdfaf0c1c0e6845cd13",
+      "network": "Facebook",
+      "phashion_group": "5d2a64363f2d885f",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-14",
+      "last_seen_at": "2026-01-20",
+      "creatives": [
+        {
+          "id": "5d2a64363f2d885f",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/9421e5c6d244a918/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/9421e5c6d244a918/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/9421e5c6d244a918/thumb",
+          "video_duration": 27,
+          "width": 1280,
+          "height": 720,
+          "title": "Lựa chọn của 10tr+ người chơi 🔥🔥🔥",
+          "button_text": "Play Game",
+          "message": "Xây dựng hạm đội mạnh mẽ của riêng bạn!\nNhận ngay Tàu Chiến SSR miễn phí! 🔥\nBạn đã sẵn sàng trở thành chủ sở hữu tàu chiến quyền lực nhất?"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1280x720",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "47bdbb8bf07ed007",
+      "app_id": "66b98fdfaf0c1c0e6845cd13",
+      "network": "Instagram",
+      "phashion_group": "47bdbb8bf07ed007",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-14",
+      "last_seen_at": "2026-01-20",
+      "creatives": [
+        {
+          "id": "47bdbb8bf07ed007",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/9421e5c6d244a918/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/9421e5c6d244a918/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/9421e5c6d244a918/thumb",
+          "video_duration": 27,
+          "width": 1280,
+          "height": 720,
+          "title": "Lựa chọn của 10tr+ người chơi 🔥🔥🔥",
+          "button_text": "Play Game",
+          "message": "Xây dựng hạm đội mạnh mẽ của riêng bạn!\nNhận ngay Tàu Chiến SSR miễn phí! 🔥\nBạn đã sẵn sàng trở thành chủ sở hữu tàu chiến quyền lực nhất?"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1280x720",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "6fa8b742303599ee",
+      "app_id": "66b98fdfaf0c1c0e6845cd13",
+      "network": "Meta Audience Network",
+      "phashion_group": "6fa8b742303599ee",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-14",
+      "last_seen_at": "2026-01-20",
+      "creatives": [
+        {
+          "id": "6fa8b742303599ee",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/9421e5c6d244a918/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/9421e5c6d244a918/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/9421e5c6d244a918/thumb",
+          "video_duration": 27,
+          "width": 1280,
+          "height": 720,
+          "title": "Lựa chọn của 10tr+ người chơi 🔥🔥🔥",
+          "button_text": "Play Game",
+          "message": "Xây dựng hạm đội mạnh mẽ của riêng bạn!\nNhận ngay Tàu Chiến SSR miễn phí! 🔥\nBạn đã sẵn sàng trở thành chủ sở hữu tàu chiến quyền lực nhất?"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1280x720",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "50698275576c3e9c",
+      "app_id": "66b98fdfaf0c1c0e6845cd13",
+      "network": "Facebook",
+      "phashion_group": "50698275576c3e9c",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-15",
+      "last_seen_at": "2026-01-20",
+      "creatives": [
+        {
+          "id": "50698275576c3e9c",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/99620385ba051fdb/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/99620385ba051fdb/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/99620385ba051fdb/thumb",
+          "video_duration": 22,
+          "width": 720,
+          "height": 1280,
+          "title": "Lựa chọn của 10tr+ người chơi 🔥🔥🔥",
+          "button_text": "Play Game",
+          "message": "Xây dựng hạm đội mạnh mẽ của riêng bạn!\nNhận ngay Tàu Chiến SSR miễn phí! 🔥\nBạn đã sẵn sàng trở thành chủ sở hữu tàu chiến quyền lực nhất?"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "4afe5dc8983f66c4",
+      "app_id": "66b98fdfaf0c1c0e6845cd13",
+      "network": "Instagram",
+      "phashion_group": "4afe5dc8983f66c4",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-15",
+      "last_seen_at": "2026-01-20",
+      "creatives": [
+        {
+          "id": "4afe5dc8983f66c4",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/99620385ba051fdb/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/99620385ba051fdb/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/99620385ba051fdb/thumb",
+          "video_duration": 22,
+          "width": 720,
+          "height": 1280,
+          "title": "Lựa chọn của 10tr+ người chơi 🔥🔥🔥",
+          "button_text": "Play Game",
+          "message": "Xây dựng hạm đội mạnh mẽ của riêng bạn!\nNhận ngay Tàu Chiến SSR miễn phí! 🔥\nBạn đã sẵn sàng trở thành chủ sở hữu tàu chiến quyền lực nhất?"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "62eb510158742f2d",
+      "app_id": "66b98fdfaf0c1c0e6845cd13",
+      "network": "Meta Audience Network",
+      "phashion_group": "62eb510158742f2d",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-15",
+      "last_seen_at": "2026-01-20",
+      "creatives": [
+        {
+          "id": "62eb510158742f2d",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/99620385ba051fdb/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/99620385ba051fdb/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/99620385ba051fdb/thumb",
+          "video_duration": 22,
+          "width": 720,
+          "height": 1280,
+          "title": "Lựa chọn của 10tr+ người chơi 🔥🔥🔥",
+          "button_text": "Play Game",
+          "message": "Xây dựng hạm đội mạnh mẽ của riêng bạn!\nNhận ngay Tàu Chiến SSR miễn phí! 🔥\nBạn đã sẵn sàng trở thành chủ sở hữu tàu chiến quyền lực nhất?"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "77a2ecf7cad32ad4",
+      "app_id": "66b98fdfaf0c1c0e6845cd13",
+      "network": "Facebook",
+      "phashion_group": "77a2ecf7cad32ad4",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-15",
+      "last_seen_at": "2026-01-20",
+      "creatives": [
+        {
+          "id": "77a2ecf7cad32ad4",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/bea96d0727ba0b93/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/bea96d0727ba0b93/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/bea96d0727ba0b93/thumb",
+          "video_duration": 22,
+          "width": 1280,
+          "height": 720,
+          "title": "Lựa chọn của 10tr+ người chơi 🔥🔥🔥",
+          "button_text": "Play Game",
+          "message": "Xây dựng hạm đội mạnh mẽ của riêng bạn!\nNhận ngay Tàu Chiến SSR miễn phí! 🔥\nBạn đã sẵn sàng trở thành chủ sở hữu tàu chiến quyền lực nhất?"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1280x720",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "6d35334a0580728c",
+      "app_id": "66b98fdfaf0c1c0e6845cd13",
+      "network": "Instagram",
+      "phashion_group": "6d35334a0580728c",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-15",
+      "last_seen_at": "2026-01-20",
+      "creatives": [
+        {
+          "id": "6d35334a0580728c",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/bea96d0727ba0b93/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/bea96d0727ba0b93/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/bea96d0727ba0b93/thumb",
+          "video_duration": 22,
+          "width": 1280,
+          "height": 720,
+          "title": "Lựa chọn của 10tr+ người chơi 🔥🔥🔥",
+          "button_text": "Play Game",
+          "message": "Xây dựng hạm đội mạnh mẽ của riêng bạn!\nNhận ngay Tàu Chiến SSR miễn phí! 🔥\nBạn đã sẵn sàng trở thành chủ sở hữu tàu chiến quyền lực nhất?"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1280x720",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "45203f83c5cb3b65",
+      "app_id": "66b98fdfaf0c1c0e6845cd13",
+      "network": "Meta Audience Network",
+      "phashion_group": "45203f83c5cb3b65",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-15",
+      "last_seen_at": "2026-01-20",
+      "creatives": [
+        {
+          "id": "45203f83c5cb3b65",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/bea96d0727ba0b93/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/bea96d0727ba0b93/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/bea96d0727ba0b93/thumb",
+          "video_duration": 22,
+          "width": 1280,
+          "height": 720,
+          "title": "Lựa chọn của 10tr+ người chơi 🔥🔥🔥",
+          "button_text": "Play Game",
+          "message": "Xây dựng hạm đội mạnh mẽ của riêng bạn!\nNhận ngay Tàu Chiến SSR miễn phí! 🔥\nBạn đã sẵn sàng trở thành chủ sở hữu tàu chiến quyền lực nhất?"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1280x720",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "0069e7045581c0a5",
+      "app_id": "66b98fdfaf0c1c0e6845cd13",
+      "network": "Facebook",
+      "phashion_group": "0069e7045581c0a5",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-14",
+      "last_seen_at": "2026-01-20",
+      "creatives": [
+        {
+          "id": "0069e7045581c0a5",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/c96266f4b8e8e1e2/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/c96266f4b8e8e1e2/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/c96266f4b8e8e1e2/thumb",
+          "video_duration": 68,
+          "width": 720,
+          "height": 1280,
+          "title": "Lựa chọn của 10tr+ người chơi 🔥🔥🔥",
+          "button_text": "Play Game",
+          "message": "Xây dựng hạm đội mạnh mẽ của riêng bạn!\nNhận ngay Tàu Chiến SSR miễn phí! 🔥\nBạn đã sẵn sàng trở thành chủ sở hữu tàu chiến quyền lực nhất?"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "1afe38b99ad298fd",
+      "app_id": "66b98fdfaf0c1c0e6845cd13",
+      "network": "Instagram",
+      "phashion_group": "1afe38b99ad298fd",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-14",
+      "last_seen_at": "2026-01-20",
+      "creatives": [
+        {
+          "id": "1afe38b99ad298fd",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/c96266f4b8e8e1e2/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/c96266f4b8e8e1e2/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/c96266f4b8e8e1e2/thumb",
+          "video_duration": 68,
+          "width": 720,
+          "height": 1280,
+          "title": "Lựa chọn của 10tr+ người chơi 🔥🔥🔥",
+          "button_text": "Play Game",
+          "message": "Xây dựng hạm đội mạnh mẽ của riêng bạn!\nNhận ngay Tàu Chiến SSR miễn phí! 🔥\nBạn đã sẵn sàng trở thành chủ sở hữu tàu chiến quyền lực nhất?"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "32eb34705a99d114",
+      "app_id": "66b98fdfaf0c1c0e6845cd13",
+      "network": "Meta Audience Network",
+      "phashion_group": "32eb34705a99d114",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-14",
+      "last_seen_at": "2026-01-20",
+      "creatives": [
+        {
+          "id": "32eb34705a99d114",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/c96266f4b8e8e1e2/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/c96266f4b8e8e1e2/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/c96266f4b8e8e1e2/thumb",
+          "video_duration": 68,
+          "width": 720,
+          "height": 1280,
+          "title": "Lựa chọn của 10tr+ người chơi 🔥🔥🔥",
+          "button_text": "Play Game",
+          "message": "Xây dựng hạm đội mạnh mẽ của riêng bạn!\nNhận ngay Tàu Chiến SSR miễn phí! 🔥\nBạn đã sẵn sàng trở thành chủ sở hữu tàu chiến quyền lực nhất?"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "04a47b7a3700e050",
+      "app_id": "66b98fdfaf0c1c0e6845cd13",
+      "network": "Facebook",
+      "phashion_group": "04a47b7a3700e050",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-14",
+      "last_seen_at": "2026-01-20",
+      "creatives": [
+        {
+          "id": "04a47b7a3700e050",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/cdaffa8ada69c117/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/cdaffa8ada69c117/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/cdaffa8ada69c117/thumb",
+          "video_duration": 27,
+          "width": 1080,
+          "height": 1080,
+          "title": "Lựa chọn của 10tr+ người chơi 🔥🔥🔥",
+          "button_text": "Play Game",
+          "message": "Xây dựng hạm đội mạnh mẽ của riêng bạn!\nNhận ngay Tàu Chiến SSR miễn phí! 🔥\nBạn đã sẵn sàng trở thành chủ sở hữu tàu chiến quyền lực nhất?"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "1e33a4c7f853b808",
+      "app_id": "66b98fdfaf0c1c0e6845cd13",
+      "network": "Instagram",
+      "phashion_group": "1e33a4c7f853b808",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-14",
+      "last_seen_at": "2026-01-20",
+      "creatives": [
+        {
+          "id": "1e33a4c7f853b808",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/cdaffa8ada69c117/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/cdaffa8ada69c117/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/cdaffa8ada69c117/thumb",
+          "video_duration": 27,
+          "width": 1080,
+          "height": 1080,
+          "title": "Lựa chọn của 10tr+ người chơi 🔥🔥🔥",
+          "button_text": "Play Game",
+          "message": "Xây dựng hạm đội mạnh mẽ của riêng bạn!\nNhận ngay Tàu Chiến SSR miễn phí! 🔥\nBạn đã sẵn sàng trở thành chủ sở hữu tàu chiến quyền lực nhất?"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "3626a80e3818f1e1",
+      "app_id": "66b98fdfaf0c1c0e6845cd13",
+      "network": "Meta Audience Network",
+      "phashion_group": "3626a80e3818f1e1",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-14",
+      "last_seen_at": "2026-01-20",
+      "creatives": [
+        {
+          "id": "3626a80e3818f1e1",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/cdaffa8ada69c117/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/cdaffa8ada69c117/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/cdaffa8ada69c117/thumb",
+          "video_duration": 27,
+          "width": 1080,
+          "height": 1080,
+          "title": "Lựa chọn của 10tr+ người chơi 🔥🔥🔥",
+          "button_text": "Play Game",
+          "message": "Xây dựng hạm đội mạnh mẽ của riêng bạn!\nNhận ngay Tàu Chiến SSR miễn phí! 🔥\nBạn đã sẵn sàng trở thành chủ sở hữu tàu chiến quyền lực nhất?"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "07c31683cbb41ce0",
+      "app_id": "66b98fdfaf0c1c0e6845cd13",
+      "network": "Facebook",
+      "phashion_group": "07c31683cbb41ce0",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-14",
+      "last_seen_at": "2026-01-20",
+      "creatives": [
+        {
+          "id": "07c31683cbb41ce0",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/cec8977326dd3da7/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/cec8977326dd3da7/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/cec8977326dd3da7/thumb",
+          "video_duration": 27,
+          "width": 720,
+          "height": 1280,
+          "title": "Lựa chọn của 10tr+ người chơi 🔥🔥🔥",
+          "button_text": "Play Game",
+          "message": "Xây dựng hạm đội mạnh mẽ của riêng bạn!\nNhận ngay Tàu Chiến SSR miễn phí! 🔥\nBạn đã sẵn sàng trở thành chủ sở hữu tàu chiến quyền lực nhất?"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "1d54c93e04e744b8",
+      "app_id": "66b98fdfaf0c1c0e6845cd13",
+      "network": "Instagram",
+      "phashion_group": "1d54c93e04e744b8",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-14",
+      "last_seen_at": "2026-01-20",
+      "creatives": [
+        {
+          "id": "1d54c93e04e744b8",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/cec8977326dd3da7/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/cec8977326dd3da7/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/cec8977326dd3da7/thumb",
+          "video_duration": 27,
+          "width": 720,
+          "height": 1280,
+          "title": "Lựa chọn của 10tr+ người chơi 🔥🔥🔥",
+          "button_text": "Play Game",
+          "message": "Xây dựng hạm đội mạnh mẽ của riêng bạn!\nNhận ngay Tàu Chiến SSR miễn phí! 🔥\nBạn đã sẵn sàng trở thành chủ sở hữu tàu chiến quyền lực nhất?"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "3541c5f7c4ac0d51",
+      "app_id": "66b98fdfaf0c1c0e6845cd13",
+      "network": "Meta Audience Network",
+      "phashion_group": "3541c5f7c4ac0d51",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-14",
+      "last_seen_at": "2026-01-20",
+      "creatives": [
+        {
+          "id": "3541c5f7c4ac0d51",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/cec8977326dd3da7/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/cec8977326dd3da7/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/cec8977326dd3da7/thumb",
+          "video_duration": 27,
+          "width": 720,
+          "height": 1280,
+          "title": "Lựa chọn của 10tr+ người chơi 🔥🔥🔥",
+          "button_text": "Play Game",
+          "message": "Xây dựng hạm đội mạnh mẽ của riêng bạn!\nNhận ngay Tàu Chiến SSR miễn phí! 🔥\nBạn đã sẵn sàng trở thành chủ sở hữu tàu chiến quyền lực nhất?"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "06fb1146ccb64327",
+      "app_id": "66b98fdfaf0c1c0e6845cd13",
+      "network": "Facebook",
+      "phashion_group": "06fb1146ccb64327",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-15",
+      "last_seen_at": "2026-01-20",
+      "creatives": [
+        {
+          "id": "06fb1146ccb64327",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/cff090b621df6260/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/cff090b621df6260/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/cff090b621df6260/thumb",
+          "video_duration": 26,
+          "width": 1280,
+          "height": 720,
+          "title": "Lựa chọn của 10tr+ người chơi 🔥🔥🔥",
+          "button_text": "Play Game",
+          "message": "Xây dựng hạm đội mạnh mẽ của riêng bạn!\nNhận ngay Tàu Chiến SSR miễn phí! 🔥\nBạn đã sẵn sàng trở thành chủ sở hữu tàu chiến quyền lực nhất?"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1280x720",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "1c6ccefb03e51b7f",
+      "app_id": "66b98fdfaf0c1c0e6845cd13",
+      "network": "Instagram",
+      "phashion_group": "1c6ccefb03e51b7f",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-15",
+      "last_seen_at": "2026-01-20",
+      "creatives": [
+        {
+          "id": "1c6ccefb03e51b7f",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/cff090b621df6260/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/cff090b621df6260/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/cff090b621df6260/thumb",
+          "video_duration": 26,
+          "width": 1280,
+          "height": 720,
+          "title": "Lựa chọn của 10tr+ người chơi 🔥🔥🔥",
+          "button_text": "Play Game",
+          "message": "Xây dựng hạm đội mạnh mẽ của riêng bạn!\nNhận ngay Tàu Chiến SSR miễn phí! 🔥\nBạn đã sẵn sàng trở thành chủ sở hữu tàu chiến quyền lực nhất?"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1280x720",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "3479c232c3ae5296",
+      "app_id": "66b98fdfaf0c1c0e6845cd13",
+      "network": "Meta Audience Network",
+      "phashion_group": "3479c232c3ae5296",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-15",
+      "last_seen_at": "2026-01-20",
+      "creatives": [
+        {
+          "id": "3479c232c3ae5296",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/cff090b621df6260/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/cff090b621df6260/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/cff090b621df6260/thumb",
+          "video_duration": 26,
+          "width": 1280,
+          "height": 720,
+          "title": "Lựa chọn của 10tr+ người chơi 🔥🔥🔥",
+          "button_text": "Play Game",
+          "message": "Xây dựng hạm đội mạnh mẽ của riêng bạn!\nNhận ngay Tàu Chiến SSR miễn phí! 🔥\nBạn đã sẵn sàng trở thành chủ sở hữu tàu chiến quyền lực nhất?"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1280x720",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "1bfccf939e584ed0",
+      "app_id": "66b98fdfaf0c1c0e6845cd13",
+      "network": "Facebook",
+      "phashion_group": "1bfccf939e584ed0",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-14",
+      "last_seen_at": "2026-01-20",
+      "creatives": [
+        {
+          "id": "1bfccf939e584ed0",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/d2f74e6373316f97/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/d2f74e6373316f97/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/d2f74e6373316f97/thumb",
+          "video_duration": 33,
+          "width": 1080,
+          "height": 1080,
+          "title": "Lựa chọn của 10tr+ người chơi 🔥🔥🔥",
+          "button_text": "Play Game",
+          "message": "Xây dựng hạm đội mạnh mẽ của riêng bạn!\nNhận ngay Tàu Chiến SSR miễn phí! 🔥\nBạn đã sẵn sàng trở thành chủ sở hữu tàu chiến quyền lực nhất?"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "016b102e510b1688",
+      "app_id": "66b98fdfaf0c1c0e6845cd13",
+      "network": "Instagram",
+      "phashion_group": "016b102e510b1688",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-14",
+      "last_seen_at": "2026-01-20",
+      "creatives": [
+        {
+          "id": "016b102e510b1688",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/d2f74e6373316f97/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/d2f74e6373316f97/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/d2f74e6373316f97/thumb",
+          "video_duration": 33,
+          "width": 1080,
+          "height": 1080,
+          "title": "Lựa chọn của 10tr+ người chơi 🔥🔥🔥",
+          "button_text": "Play Game",
+          "message": "Xây dựng hạm đội mạnh mẽ của riêng bạn!\nNhận ngay Tàu Chiến SSR miễn phí! 🔥\nBạn đã sẵn sàng trở thành chủ sở hữu tàu chiến quyền lực nhất?"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "297e1ce791405f61",
+      "app_id": "66b98fdfaf0c1c0e6845cd13",
+      "network": "Meta Audience Network",
+      "phashion_group": "297e1ce791405f61",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-14",
+      "last_seen_at": "2026-01-20",
+      "creatives": [
+        {
+          "id": "297e1ce791405f61",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/d2f74e6373316f97/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/d2f74e6373316f97/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/d2f74e6373316f97/thumb",
+          "video_duration": 33,
+          "width": 1080,
+          "height": 1080,
+          "title": "Lựa chọn của 10tr+ người chơi 🔥🔥🔥",
+          "button_text": "Play Game",
+          "message": "Xây dựng hạm đội mạnh mẽ của riêng bạn!\nNhận ngay Tàu Chiến SSR miễn phí! 🔥\nBạn đã sẵn sàng trở thành chủ sở hữu tàu chiến quyền lực nhất?"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1080",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    }
+  ]
+}

@@ -9,6 +9,7 @@
 """
 import argparse
 import http.server
+import json
 import socketserver
 import os
 import sys
@@ -18,6 +19,10 @@ from pathlib import Path
 
 DEFAULT_PORT = 8000
 BASE_DIR = Path(__file__).resolve().parent
+FRONTEND_DIR = BASE_DIR / "frontend"
+WEEKS_INDEX_PATH = FRONTEND_DIR / "data" / "weeks_index.json"
+THEME_STYLE_MAPPING_PATH = FRONTEND_DIR / "data" / "product_theme_style_mapping.json"
+INDEX_HTML_PATH = FRONTEND_DIR / "index.html"
 
 # 多线程：每个请求在独立线程中处理，充分利用 M 系列多核，避免视频代理/大文件阻塞其它请求
 class ThreadedHTTPServer(socketserver.ThreadingMixIn, socketserver.TCPServer):
@@ -83,6 +88,44 @@ class CORSRequestHandler(http.server.SimpleHTTPRequestHandler):
             self.path = "/frontend/" + ("?" + raw.split("?", 1)[1] if "?" in raw else "")
         self._send_no_content = p == "/favicon.ico"
 
+    def _serve_frontend_index_with_weeks(self):
+        """访问 /frontend 或 /frontend/ 时返回 index.html，并注入 weeks_index.json，避免前端 fetch 失败导致侧栏空白。"""
+        raw = (self.path or "").split("?")[0].rstrip("/")
+        if raw != "/frontend" and raw != "/frontend/":
+            return False
+        if not INDEX_HTML_PATH.exists():
+            return False
+        try:
+            html = INDEX_HTML_PATH.read_text(encoding="utf-8")
+        except Exception:
+            return False
+        # 注入周索引（必须在 app.js 之前执行，供 loadWeeksIndex 使用）
+        inj_scripts = []
+        if WEEKS_INDEX_PATH.exists():
+            try:
+                data = json.loads(WEEKS_INDEX_PATH.read_text(encoding="utf-8"))
+                inj_scripts.append("window.__WEEKS_INDEX__=" + json.dumps(data, ensure_ascii=False))
+            except Exception:
+                pass
+        # 注入题材/画风映射（只从 mapping/产品归属.xlsx 一张表取，供产品详情页统一显示）
+        if THEME_STYLE_MAPPING_PATH.exists():
+            try:
+                mapping = json.loads(THEME_STYLE_MAPPING_PATH.read_text(encoding="utf-8"))
+                inj_scripts.append("window.__PRODUCT_THEME_STYLE_MAPPING__=" + json.dumps(mapping, ensure_ascii=False))
+            except Exception:
+                pass
+        if inj_scripts:
+            inj = "<script>" + ";".join(inj_scripts) + "</script>\n  "
+            if inj.strip() not in html:
+                html = html.replace('<script src="js/app.js"></script>', inj + '<script src="js/app.js"></script>')
+        self.send_response(200)
+        self.send_header("Content-Type", "text/html; charset=utf-8")
+        self.send_header("Access-Control-Allow-Origin", "*")
+        self.send_header("Cache-Control", "no-store, no-cache, must-revalidate")
+        self.end_headers()
+        self.wfile.write(html.encode("utf-8"))
+        return True
+
     def _handle_video_proxy(self):
         """同网共享时：另一台电脑通过本机代理拉取外部视频，避免对方无法直连 CDN。"""
         raw = self.path or ""
@@ -138,6 +181,8 @@ class CORSRequestHandler(http.server.SimpleHTTPRequestHandler):
             return
         if self._handle_video_proxy():
             return
+        if self._serve_frontend_index_with_weeks():
+            return
         super().do_GET()
 
     def do_HEAD(self):
@@ -191,17 +236,37 @@ def main():
         help="仅监听 127.0.0.1，不允许同网访问（默认监听所有网卡，允许同网访问）",
     )
     args = parser.parse_args()
-    port = args.port
     bind_host = "127.0.0.1" if args.local_only else ""
+    # 自动切换端口：首选端口被占用时依次尝试下一端口（如 8000 -> 8001）
+    ports_to_try = [args.port, args.port + 1]
 
     os.chdir(BASE_DIR)
+    ThreadedHTTPServer.allow_reuse_address = True
+    httpd = None
+    used_port = None
+    for port in ports_to_try:
+        try:
+            httpd = ThreadedHTTPServer((bind_host, port), CORSRequestHandler)
+            used_port = port
+            break
+        except OSError as e:
+            if e.errno == 48:  # Address already in use
+                if port == ports_to_try[-1]:
+                    print(f"端口 {ports_to_try[0]}、{ports_to_try[1]} 均已被占用，请先结束占用进程或指定其他端口。", flush=True)
+                    sys.exit(1)
+                print(f"端口 {port} 已被占用，尝试下一端口 {port + 1} …", flush=True)
+            else:
+                print(f"启动失败: {e}", flush=True)
+                sys.exit(1)
+
+    port = used_port
     try:
-        # 允许端口复用，避免上次未正常退出时“地址已被占用”
-        ThreadedHTTPServer.allow_reuse_address = True
-        with ThreadedHTTPServer((bind_host, port), CORSRequestHandler) as httpd:
+        with httpd:
             print("=" * 60, flush=True)
             print("SLG Monitor 静态资源服务（多线程，只读）", flush=True)
             print("=" * 60, flush=True)
+            if port != args.port:
+                print(f"（首选端口 {args.port} 被占用，已使用端口 {port}）", flush=True)
             print(f"本机访问:   http://localhost:{port}/frontend/", flush=True)
             if not args.local_only:
                 lan_ips = get_lan_ips()
@@ -217,12 +282,7 @@ def main():
                 print("\n正在关闭服务器…", flush=True)
                 httpd.shutdown()
     except OSError as e:
-        if e.errno == 48:  # Address already in use
-            print(f"端口 {port} 已被占用。请使用其他端口，例如：", flush=True)
-            print(f"  python start_server.py --port 8001", flush=True)
-            print("或先结束占用该端口的进程（如之前的 start_server）。", flush=True)
-        else:
-            print(f"启动失败: {e}", flush=True)
+        print(f"启动失败: {e}", flush=True)
         sys.exit(1)
 
 

@@ -1,0 +1,71 @@
+[
+  {
+    "app_id": "68d228a1ef93f32bb85c312e",
+    "country": "AU",
+    "date": "2026-01-12T00:00:00Z",
+    "android_units": 12,
+    "android_revenue": 8048,
+    "ipad_revenue": 15629,
+    "unified_units": 12,
+    "unified_revenue": 23677
+  },
+  {
+    "app_id": "68d228a1ef93f32bb85c312e",
+    "country": "CA",
+    "date": "2026-01-12T00:00:00Z",
+    "android_revenue": 2660,
+    "ipad_units": 2,
+    "ipad_revenue": 5038,
+    "iphone_revenue": 11782,
+    "unified_units": 2,
+    "unified_revenue": 19480
+  },
+  {
+    "app_id": "68d228a1ef93f32bb85c312e",
+    "country": "HK",
+    "date": "2026-01-12T00:00:00Z",
+    "android_units": 91,
+    "android_revenue": 251966,
+    "ipad_units": 56,
+    "ipad_revenue": 430654,
+    "iphone_units": 135,
+    "iphone_revenue": 619068,
+    "unified_units": 282,
+    "unified_revenue": 1301688
+  },
+  {
+    "app_id": "68d228a1ef93f32bb85c312e",
+    "country": "KR",
+    "date": "2026-01-12T00:00:00Z",
+    "android_units": 5573,
+    "android_revenue": 958999,
+    "ipad_units": 621,
+    "ipad_revenue": 53873,
+    "iphone_units": 12663,
+    "iphone_revenue": 2269718,
+    "unified_units": 18857,
+    "unified_revenue": 3282590
+  },
+  {
+    "app_id": "68d228a1ef93f32bb85c312e",
+    "country": "MO",
+    "date": "2026-01-12T00:00:00Z",
+    "iphone_units": 1,
+    "iphone_revenue": 25543,
+    "unified_units": 1,
+    "unified_revenue": 25543
+  },
+  {
+    "app_id": "68d228a1ef93f32bb85c312e",
+    "country": "TW",
+    "date": "2026-01-12T00:00:00Z",
+    "android_units": 903,
+    "android_revenue": 254186,
+    "ipad_units": 18,
+    "ipad_revenue": 38911,
+    "iphone_units": 93,
+    "iphone_revenue": 304874,
+    "unified_units": 1014,
+    "unified_revenue": 597971
+  }
+]

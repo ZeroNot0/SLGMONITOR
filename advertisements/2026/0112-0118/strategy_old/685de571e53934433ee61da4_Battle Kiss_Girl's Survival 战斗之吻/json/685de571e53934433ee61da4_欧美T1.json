@@ -1,0 +1,2233 @@
+{
+  "count": 57,
+  "available_networks": [
+    "Facebook",
+    "Instagram",
+    "Meta Audience Network"
+  ],
+  "ad_units": [
+    {
+      "id": "2b345282ba5406b1",
+      "app_id": "685de571e53934433ee61da4",
+      "network": "Facebook",
+      "phashion_group": "2b345282ba5406b1",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-14",
+      "last_seen_at": "2026-01-18",
+      "creatives": [
+        {
+          "id": "2b345282ba5406b1",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/05262a456e7876d1/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/05262a456e7876d1/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/05262a456e7876d1/thumb",
+          "video_duration": 50,
+          "width": 720,
+          "height": 1280,
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "a82570deb343c6be",
+      "app_id": "685de571e53934433ee61da4",
+      "network": "Instagram",
+      "phashion_group": "a82570deb343c6be",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-14",
+      "last_seen_at": "2026-01-18",
+      "creatives": [
+        {
+          "id": "a82570deb343c6be",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/05262a456e7876d1/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/05262a456e7876d1/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/05262a456e7876d1/thumb",
+          "video_duration": 50,
+          "width": 720,
+          "height": 1280,
+          "button_text": "Install now",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "19b681f6b54c1700",
+      "app_id": "685de571e53934433ee61da4",
+      "network": "Meta Audience Network",
+      "phashion_group": "19b681f6b54c1700",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-14",
+      "last_seen_at": "2026-01-18",
+      "creatives": [
+        {
+          "id": "19b681f6b54c1700",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/05262a456e7876d1/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/05262a456e7876d1/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/05262a456e7876d1/thumb",
+          "video_duration": 50,
+          "width": 720,
+          "height": 1280,
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "289c0cbe9e514800",
+      "app_id": "685de571e53934433ee61da4",
+      "network": "Facebook",
+      "phashion_group": "289c0cbe9e514800",
+      "ad_type": "video",
+      "first_seen_at": "2025-10-23",
+      "last_seen_at": "2026-01-17",
+      "creatives": [
+        {
+          "id": "289c0cbe9e514800",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/068e74794a7d3860/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/068e74794a7d3860/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/068e74794a7d3860/thumb",
+          "video_duration": 50,
+          "width": 720,
+          "height": 1280,
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "ab8d2ee29746880f",
+      "app_id": "685de571e53934433ee61da4",
+      "network": "Instagram",
+      "phashion_group": "ab8d2ee29746880f",
+      "ad_type": "video",
+      "first_seen_at": "2025-10-23",
+      "last_seen_at": "2026-01-17",
+      "creatives": [
+        {
+          "id": "ab8d2ee29746880f",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/068e74794a7d3860/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/068e74794a7d3860/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/068e74794a7d3860/thumb",
+          "video_duration": 50,
+          "width": 720,
+          "height": 1280,
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "1a1edfca914959b1",
+      "app_id": "685de571e53934433ee61da4",
+      "network": "Meta Audience Network",
+      "phashion_group": "1a1edfca914959b1",
+      "ad_type": "video",
+      "first_seen_at": "2025-10-23",
+      "last_seen_at": "2026-01-17",
+      "creatives": [
+        {
+          "id": "1a1edfca914959b1",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/068e74794a7d3860/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/068e74794a7d3860/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/068e74794a7d3860/thumb",
+          "video_duration": 50,
+          "width": 720,
+          "height": 1280,
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "2213c23435db10b5",
+      "app_id": "685de571e53934433ee61da4",
+      "network": "Facebook",
+      "phashion_group": "2213c23435db10b5",
+      "ad_type": "video",
+      "first_seen_at": "2025-10-22",
+      "last_seen_at": "2026-01-18",
+      "creatives": [
+        {
+          "id": "2213c23435db10b5",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0c01baf3e1f760d5/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0c01baf3e1f760d5/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0c01baf3e1f760d5/thumb",
+          "video_duration": 43,
+          "width": 720,
+          "height": 1280,
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "a102e0683cccd0ba",
+      "app_id": "685de571e53934433ee61da4",
+      "network": "Instagram",
+      "phashion_group": "a102e0683cccd0ba",
+      "ad_type": "video",
+      "first_seen_at": "2025-10-22",
+      "last_seen_at": "2026-01-18",
+      "creatives": [
+        {
+          "id": "a102e0683cccd0ba",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0c01baf3e1f760d5/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0c01baf3e1f760d5/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0c01baf3e1f760d5/thumb",
+          "video_duration": 43,
+          "width": 720,
+          "height": 1280,
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "109111403ac30104",
+      "app_id": "685de571e53934433ee61da4",
+      "network": "Meta Audience Network",
+      "phashion_group": "109111403ac30104",
+      "ad_type": "video",
+      "first_seen_at": "2025-10-22",
+      "last_seen_at": "2026-01-18",
+      "creatives": [
+        {
+          "id": "109111403ac30104",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0c01baf3e1f760d5/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0c01baf3e1f760d5/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0c01baf3e1f760d5/thumb",
+          "video_duration": 43,
+          "width": 720,
+          "height": 1280,
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "3c00747dd925b812",
+      "app_id": "685de571e53934433ee61da4",
+      "network": "Facebook",
+      "phashion_group": "3c00747dd925b812",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-15",
+      "last_seen_at": "2026-01-17",
+      "creatives": [
+        {
+          "id": "3c00747dd925b812",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/12120cba0d09c872/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/12120cba0d09c872/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/12120cba0d09c872/thumb",
+          "video_duration": 36,
+          "width": 720,
+          "height": 1280,
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "bf115621d032781d",
+      "app_id": "685de571e53934433ee61da4",
+      "network": "Instagram",
+      "phashion_group": "bf115621d032781d",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-15",
+      "last_seen_at": "2026-01-17",
+      "creatives": [
+        {
+          "id": "bf115621d032781d",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/12120cba0d09c872/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/12120cba0d09c872/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/12120cba0d09c872/thumb",
+          "video_duration": 36,
+          "width": 720,
+          "height": 1280,
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "0e82a709d63da9a3",
+      "app_id": "685de571e53934433ee61da4",
+      "network": "Meta Audience Network",
+      "phashion_group": "0e82a709d63da9a3",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-15",
+      "last_seen_at": "2026-01-17",
+      "creatives": [
+        {
+          "id": "0e82a709d63da9a3",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/12120cba0d09c872/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/12120cba0d09c872/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/12120cba0d09c872/thumb",
+          "video_duration": 36,
+          "width": 720,
+          "height": 1280,
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "3cd842aaf7f9d39d",
+      "app_id": "685de571e53934433ee61da4",
+      "network": "Facebook",
+      "phashion_group": "3cd842aaf7f9d39d",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-14",
+      "last_seen_at": "2026-01-18",
+      "creatives": [
+        {
+          "id": "3cd842aaf7f9d39d",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/12ca3a6d23d5a3fd/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/12ca3a6d23d5a3fd/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/12ca3a6d23d5a3fd/thumb",
+          "video_duration": 43,
+          "width": 720,
+          "height": 1280,
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "bfc960f6feee1392",
+      "app_id": "685de571e53934433ee61da4",
+      "network": "Instagram",
+      "phashion_group": "bfc960f6feee1392",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-14",
+      "last_seen_at": "2026-01-18",
+      "creatives": [
+        {
+          "id": "bfc960f6feee1392",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/12ca3a6d23d5a3fd/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/12ca3a6d23d5a3fd/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/12ca3a6d23d5a3fd/thumb",
+          "video_duration": 43,
+          "width": 720,
+          "height": 1280,
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "0e5a91def8e1c22c",
+      "app_id": "685de571e53934433ee61da4",
+      "network": "Meta Audience Network",
+      "phashion_group": "0e5a91def8e1c22c",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-14",
+      "last_seen_at": "2026-01-18",
+      "creatives": [
+        {
+          "id": "0e5a91def8e1c22c",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/12ca3a6d23d5a3fd/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/12ca3a6d23d5a3fd/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/12ca3a6d23d5a3fd/thumb",
+          "video_duration": 43,
+          "width": 720,
+          "height": 1280,
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "6c02d3bc44fc5960",
+      "app_id": "685de571e53934433ee61da4",
+      "network": "Facebook",
+      "phashion_group": "6c02d3bc44fc5960",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-16",
+      "last_seen_at": "2026-01-17",
+      "creatives": [
+        {
+          "id": "6c02d3bc44fc5960",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4210ab7b90d02900/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4210ab7b90d02900/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4210ab7b90d02900/thumb",
+          "video_duration": 45,
+          "width": 720,
+          "height": 1280,
+          "button_text": "Install now",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "ef13f1e04deb996f",
+      "app_id": "685de571e53934433ee61da4",
+      "network": "Instagram",
+      "phashion_group": "ef13f1e04deb996f",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-16",
+      "last_seen_at": "2026-01-17",
+      "creatives": [
+        {
+          "id": "ef13f1e04deb996f",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4210ab7b90d02900/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4210ab7b90d02900/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4210ab7b90d02900/thumb",
+          "video_duration": 45,
+          "width": 720,
+          "height": 1280,
+          "button_text": "Install now",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "5e8000c84be448d1",
+      "app_id": "685de571e53934433ee61da4",
+      "network": "Meta Audience Network",
+      "phashion_group": "5e8000c84be448d1",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-16",
+      "last_seen_at": "2026-01-17",
+      "creatives": [
+        {
+          "id": "5e8000c84be448d1",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4210ab7b90d02900/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4210ab7b90d02900/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4210ab7b90d02900/thumb",
+          "video_duration": 45,
+          "width": 720,
+          "height": 1280,
+          "button_text": "Install now",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "6852fdce55a147e3",
+      "app_id": "685de571e53934433ee61da4",
+      "network": "Facebook",
+      "phashion_group": "6852fdce55a147e3",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-14",
+      "last_seen_at": "2026-01-17",
+      "creatives": [
+        {
+          "id": "6852fdce55a147e3",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/46408509818d3783/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/46408509818d3783/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/46408509818d3783/thumb",
+          "video_duration": 33,
+          "width": 720,
+          "height": 1280,
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "eb43df925cb687ec",
+      "app_id": "685de571e53934433ee61da4",
+      "network": "Instagram",
+      "phashion_group": "eb43df925cb687ec",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-14",
+      "last_seen_at": "2026-01-17",
+      "creatives": [
+        {
+          "id": "eb43df925cb687ec",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/46408509818d3783/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/46408509818d3783/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/46408509818d3783/thumb",
+          "video_duration": 33,
+          "width": 720,
+          "height": 1280,
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "5ad02eba5ab95652",
+      "app_id": "685de571e53934433ee61da4",
+      "network": "Meta Audience Network",
+      "phashion_group": "5ad02eba5ab95652",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-14",
+      "last_seen_at": "2026-01-17",
+      "creatives": [
+        {
+          "id": "5ad02eba5ab95652",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/46408509818d3783/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/46408509818d3783/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/46408509818d3783/thumb",
+          "video_duration": 33,
+          "width": 720,
+          "height": 1280,
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "484280014b37c956",
+      "app_id": "685de571e53934433ee61da4",
+      "network": "Facebook",
+      "phashion_group": "484280014b37c956",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-14",
+      "last_seen_at": "2026-01-17",
+      "creatives": [
+        {
+          "id": "484280014b37c956",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/6650f8c69f1bb936/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/6650f8c69f1bb936/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/6650f8c69f1bb936/thumb",
+          "video_duration": 25,
+          "width": 720,
+          "height": 1280,
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "cb53a25d42200959",
+      "app_id": "685de571e53934433ee61da4",
+      "network": "Instagram",
+      "phashion_group": "cb53a25d42200959",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-14",
+      "last_seen_at": "2026-01-17",
+      "creatives": [
+        {
+          "id": "cb53a25d42200959",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/6650f8c69f1bb936/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/6650f8c69f1bb936/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/6650f8c69f1bb936/thumb",
+          "video_duration": 25,
+          "width": 720,
+          "height": 1280,
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "7ac05375442fd8e7",
+      "app_id": "685de571e53934433ee61da4",
+      "network": "Meta Audience Network",
+      "phashion_group": "7ac05375442fd8e7",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-14",
+      "last_seen_at": "2026-01-17",
+      "creatives": [
+        {
+          "id": "7ac05375442fd8e7",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/6650f8c69f1bb936/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/6650f8c69f1bb936/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/6650f8c69f1bb936/thumb",
+          "video_duration": 25,
+          "width": 720,
+          "height": 1280,
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "47864ddb0ce2489e",
+      "app_id": "685de571e53934433ee61da4",
+      "network": "Facebook",
+      "phashion_group": "47864ddb0ce2489e",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-14",
+      "last_seen_at": "2026-01-18",
+      "creatives": [
+        {
+          "id": "47864ddb0ce2489e",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/6994351cd8ce38fe/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/6994351cd8ce38fe/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/6994351cd8ce38fe/thumb",
+          "video_duration": 45,
+          "width": 720,
+          "height": 1280,
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "c4976f8705f58891",
+      "app_id": "685de571e53934433ee61da4",
+      "network": "Instagram",
+      "phashion_group": "c4976f8705f58891",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-14",
+      "last_seen_at": "2026-01-18",
+      "creatives": [
+        {
+          "id": "c4976f8705f58891",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/6994351cd8ce38fe/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/6994351cd8ce38fe/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/6994351cd8ce38fe/thumb",
+          "video_duration": 45,
+          "width": 720,
+          "height": 1280,
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "75049eaf03fa592f",
+      "app_id": "685de571e53934433ee61da4",
+      "network": "Meta Audience Network",
+      "phashion_group": "75049eaf03fa592f",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-14",
+      "last_seen_at": "2026-01-18",
+      "creatives": [
+        {
+          "id": "75049eaf03fa592f",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/6994351cd8ce38fe/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/6994351cd8ce38fe/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/6994351cd8ce38fe/thumb",
+          "video_duration": 45,
+          "width": 720,
+          "height": 1280,
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "58114077121764ee",
+      "app_id": "685de571e53934433ee61da4",
+      "network": "Facebook",
+      "phashion_group": "58114077121764ee",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-15",
+      "last_seen_at": "2026-01-18",
+      "creatives": [
+        {
+          "id": "58114077121764ee",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/760338b0c63b148e/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/760338b0c63b148e/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/760338b0c63b148e/thumb",
+          "video_duration": 33,
+          "width": 720,
+          "height": 1280,
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "db00622b1b00a4e1",
+      "app_id": "685de571e53934433ee61da4",
+      "network": "Instagram",
+      "phashion_group": "db00622b1b00a4e1",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-15",
+      "last_seen_at": "2026-01-18",
+      "creatives": [
+        {
+          "id": "db00622b1b00a4e1",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/760338b0c63b148e/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/760338b0c63b148e/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/760338b0c63b148e/thumb",
+          "video_duration": 33,
+          "width": 720,
+          "height": 1280,
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "6a9393031d0f755f",
+      "app_id": "685de571e53934433ee61da4",
+      "network": "Meta Audience Network",
+      "phashion_group": "6a9393031d0f755f",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-15",
+      "last_seen_at": "2026-01-18",
+      "creatives": [
+        {
+          "id": "6a9393031d0f755f",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/760338b0c63b148e/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/760338b0c63b148e/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/760338b0c63b148e/thumb",
+          "video_duration": 33,
+          "width": 720,
+          "height": 1280,
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "b3e2abfe624a97d3",
+      "app_id": "685de571e53934433ee61da4",
+      "network": "Facebook",
+      "phashion_group": "b3e2abfe624a97d3",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-14",
+      "last_seen_at": "2026-01-17",
+      "creatives": [
+        {
+          "id": "b3e2abfe624a97d3",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/9df0d339b666e7b3/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/9df0d339b666e7b3/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/9df0d339b666e7b3/thumb",
+          "video_duration": 43,
+          "width": 720,
+          "height": 1280,
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "30f389a26b5d57dc",
+      "app_id": "685de571e53934433ee61da4",
+      "network": "Instagram",
+      "phashion_group": "30f389a26b5d57dc",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-14",
+      "last_seen_at": "2026-01-17",
+      "creatives": [
+        {
+          "id": "30f389a26b5d57dc",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/9df0d339b666e7b3/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/9df0d339b666e7b3/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/9df0d339b666e7b3/thumb",
+          "video_duration": 43,
+          "width": 720,
+          "height": 1280,
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "8160788a6d528662",
+      "app_id": "685de571e53934433ee61da4",
+      "network": "Meta Audience Network",
+      "phashion_group": "8160788a6d528662",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-14",
+      "last_seen_at": "2026-01-17",
+      "creatives": [
+        {
+          "id": "8160788a6d528662",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/9df0d339b666e7b3/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/9df0d339b666e7b3/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/9df0d339b666e7b3/thumb",
+          "video_duration": 43,
+          "width": 720,
+          "height": 1280,
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "8d0a8ea741e68961",
+      "app_id": "685de571e53934433ee61da4",
+      "network": "Facebook",
+      "phashion_group": "8d0a8ea741e68961",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-14",
+      "last_seen_at": "2026-01-18",
+      "creatives": [
+        {
+          "id": "8d0a8ea741e68961",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/a318f66095caf901/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/a318f66095caf901/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/a318f66095caf901/thumb",
+          "video_duration": 51,
+          "width": 720,
+          "height": 1280,
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "0e1bacfb48f1496e",
+      "app_id": "685de571e53934433ee61da4",
+      "network": "Instagram",
+      "phashion_group": "0e1bacfb48f1496e",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-14",
+      "last_seen_at": "2026-01-18",
+      "creatives": [
+        {
+          "id": "0e1bacfb48f1496e",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/a318f66095caf901/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/a318f66095caf901/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/a318f66095caf901/thumb",
+          "video_duration": 51,
+          "width": 720,
+          "height": 1280,
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "bf885dd34efe98d0",
+      "app_id": "685de571e53934433ee61da4",
+      "network": "Meta Audience Network",
+      "phashion_group": "bf885dd34efe98d0",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-14",
+      "last_seen_at": "2026-01-18",
+      "creatives": [
+        {
+          "id": "bf885dd34efe98d0",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/a318f66095caf901/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/a318f66095caf901/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/a318f66095caf901/thumb",
+          "video_duration": 51,
+          "width": 720,
+          "height": 1280,
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "86090572f5ea2a22",
+      "app_id": "685de571e53934433ee61da4",
+      "network": "Facebook",
+      "phashion_group": "86090572f5ea2a22",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-14",
+      "last_seen_at": "2026-01-17",
+      "creatives": [
+        {
+          "id": "86090572f5ea2a22",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/a81b7db521c65a42/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/a81b7db521c65a42/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/a81b7db521c65a42/thumb",
+          "video_duration": 51,
+          "width": 720,
+          "height": 1280,
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "0518272efcfdea2d",
+      "app_id": "685de571e53934433ee61da4",
+      "network": "Instagram",
+      "phashion_group": "0518272efcfdea2d",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-14",
+      "last_seen_at": "2026-01-17",
+      "creatives": [
+        {
+          "id": "0518272efcfdea2d",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/a81b7db521c65a42/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/a81b7db521c65a42/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/a81b7db521c65a42/thumb",
+          "video_duration": 51,
+          "width": 720,
+          "height": 1280,
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "b48bd606faf23b93",
+      "app_id": "685de571e53934433ee61da4",
+      "network": "Meta Audience Network",
+      "phashion_group": "b48bd606faf23b93",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-14",
+      "last_seen_at": "2026-01-17",
+      "creatives": [
+        {
+          "id": "b48bd606faf23b93",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/a81b7db521c65a42/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/a81b7db521c65a42/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/a81b7db521c65a42/thumb",
+          "video_duration": 51,
+          "width": 720,
+          "height": 1280,
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "974d402d560b65d4",
+      "app_id": "685de571e53934433ee61da4",
+      "network": "Facebook",
+      "phashion_group": "974d402d560b65d4",
+      "ad_type": "video",
+      "first_seen_at": "2025-10-23",
+      "last_seen_at": "2026-01-18",
+      "creatives": [
+        {
+          "id": "974d402d560b65d4",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/b95f38ea822715b4/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/b95f38ea822715b4/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/b95f38ea822715b4/thumb",
+          "video_duration": 45,
+          "width": 720,
+          "height": 1280,
+          "button_text": "Install now",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "145c62715f1ca5db",
+      "app_id": "685de571e53934433ee61da4",
+      "network": "Instagram",
+      "phashion_group": "145c62715f1ca5db",
+      "ad_type": "video",
+      "first_seen_at": "2025-10-23",
+      "last_seen_at": "2026-01-18",
+      "creatives": [
+        {
+          "id": "145c62715f1ca5db",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/b95f38ea822715b4/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/b95f38ea822715b4/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/b95f38ea822715b4/thumb",
+          "video_duration": 45,
+          "width": 720,
+          "height": 1280,
+          "button_text": "Install now",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "a5cf935959137465",
+      "app_id": "685de571e53934433ee61da4",
+      "network": "Meta Audience Network",
+      "phashion_group": "a5cf935959137465",
+      "ad_type": "video",
+      "first_seen_at": "2025-10-23",
+      "last_seen_at": "2026-01-18",
+      "creatives": [
+        {
+          "id": "a5cf935959137465",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/b95f38ea822715b4/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/b95f38ea822715b4/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/b95f38ea822715b4/thumb",
+          "video_duration": 45,
+          "width": 720,
+          "height": 1280,
+          "button_text": "Install now",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "f0b293819b24f3a6",
+      "app_id": "685de571e53934433ee61da4",
+      "network": "Facebook",
+      "phashion_group": "f0b293819b24f3a6",
+      "ad_type": "video",
+      "first_seen_at": "2025-10-22",
+      "last_seen_at": "2026-01-17",
+      "creatives": [
+        {
+          "id": "f0b293819b24f3a6",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/dea0eb464f0883c6/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/dea0eb464f0883c6/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/dea0eb464f0883c6/thumb",
+          "video_duration": 51,
+          "width": 720,
+          "height": 1280,
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "73a3b1dd923333a9",
+      "app_id": "685de571e53934433ee61da4",
+      "network": "Instagram",
+      "phashion_group": "73a3b1dd923333a9",
+      "ad_type": "video",
+      "first_seen_at": "2025-10-22",
+      "last_seen_at": "2026-01-17",
+      "creatives": [
+        {
+          "id": "73a3b1dd923333a9",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/dea0eb464f0883c6/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/dea0eb464f0883c6/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/dea0eb464f0883c6/thumb",
+          "video_duration": 51,
+          "width": 720,
+          "height": 1280,
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "c23040f5943ce217",
+      "app_id": "685de571e53934433ee61da4",
+      "network": "Meta Audience Network",
+      "phashion_group": "c23040f5943ce217",
+      "ad_type": "video",
+      "first_seen_at": "2025-10-22",
+      "last_seen_at": "2026-01-17",
+      "creatives": [
+        {
+          "id": "c23040f5943ce217",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/dea0eb464f0883c6/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/dea0eb464f0883c6/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/dea0eb464f0883c6/thumb",
+          "video_duration": 51,
+          "width": 720,
+          "height": 1280,
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "c8f5005c83263fe3",
+      "app_id": "685de571e53934433ee61da4",
+      "network": "Facebook",
+      "phashion_group": "c8f5005c83263fe3",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-14",
+      "last_seen_at": "2026-01-17",
+      "creatives": [
+        {
+          "id": "c8f5005c83263fe3",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/e6e7789b570a4f83/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/e6e7789b570a4f83/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/e6e7789b570a4f83/thumb",
+          "video_duration": 25,
+          "width": 720,
+          "height": 1280,
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "4be422008a31ffec",
+      "app_id": "685de571e53934433ee61da4",
+      "network": "Instagram",
+      "phashion_group": "4be422008a31ffec",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-14",
+      "last_seen_at": "2026-01-17",
+      "creatives": [
+        {
+          "id": "4be422008a31ffec",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/e6e7789b570a4f83/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/e6e7789b570a4f83/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/e6e7789b570a4f83/thumb",
+          "video_duration": 25,
+          "width": 720,
+          "height": 1280,
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "fa77d3288c3e2e52",
+      "app_id": "685de571e53934433ee61da4",
+      "network": "Meta Audience Network",
+      "phashion_group": "fa77d3288c3e2e52",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-14",
+      "last_seen_at": "2026-01-17",
+      "creatives": [
+        {
+          "id": "fa77d3288c3e2e52",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/e6e7789b570a4f83/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/e6e7789b570a4f83/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/e6e7789b570a4f83/thumb",
+          "video_duration": 25,
+          "width": 720,
+          "height": 1280,
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "db793d5df4b31deb",
+      "app_id": "685de571e53934433ee61da4",
+      "network": "Facebook",
+      "phashion_group": "db793d5df4b31deb",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-15",
+      "last_seen_at": "2026-01-17",
+      "creatives": [
+        {
+          "id": "db793d5df4b31deb",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/f56b459a209f6d8b/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/f56b459a209f6d8b/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/f56b459a209f6d8b/thumb",
+          "video_duration": 43,
+          "width": 720,
+          "height": 1280,
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "58681f01fda4dde4",
+      "app_id": "685de571e53934433ee61da4",
+      "network": "Instagram",
+      "phashion_group": "58681f01fda4dde4",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-15",
+      "last_seen_at": "2026-01-17",
+      "creatives": [
+        {
+          "id": "58681f01fda4dde4",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/f56b459a209f6d8b/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/f56b459a209f6d8b/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/f56b459a209f6d8b/thumb",
+          "video_duration": 43,
+          "width": 720,
+          "height": 1280,
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "e9fbee29fbab0c5a",
+      "app_id": "685de571e53934433ee61da4",
+      "network": "Meta Audience Network",
+      "phashion_group": "e9fbee29fbab0c5a",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-15",
+      "last_seen_at": "2026-01-17",
+      "creatives": [
+        {
+          "id": "e9fbee29fbab0c5a",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/f56b459a209f6d8b/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/f56b459a209f6d8b/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/f56b459a209f6d8b/thumb",
+          "video_duration": 43,
+          "width": 720,
+          "height": 1280,
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "d3602b4f497c5468",
+      "app_id": "685de571e53934433ee61da4",
+      "network": "Facebook",
+      "phashion_group": "d3602b4f497c5468",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-14",
+      "last_seen_at": "2026-01-17",
+      "creatives": [
+        {
+          "id": "d3602b4f497c5468",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/fd7253889d502408/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/fd7253889d502408/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/fd7253889d502408/thumb",
+          "video_duration": 46,
+          "width": 720,
+          "height": 1280,
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "50710913406b9467",
+      "app_id": "685de571e53934433ee61da4",
+      "network": "Instagram",
+      "phashion_group": "50710913406b9467",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-14",
+      "last_seen_at": "2026-01-17",
+      "creatives": [
+        {
+          "id": "50710913406b9467",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/fd7253889d502408/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/fd7253889d502408/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/fd7253889d502408/thumb",
+          "video_duration": 46,
+          "width": 720,
+          "height": 1280,
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "e1e2f83b466445d9",
+      "app_id": "685de571e53934433ee61da4",
+      "network": "Meta Audience Network",
+      "phashion_group": "e1e2f83b466445d9",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-14",
+      "last_seen_at": "2026-01-17",
+      "creatives": [
+        {
+          "id": "e1e2f83b466445d9",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/fd7253889d502408/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/fd7253889d502408/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/fd7253889d502408/thumb",
+          "video_duration": 46,
+          "width": 720,
+          "height": 1280,
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "d3f1c3606d448fda",
+      "app_id": "685de571e53934433ee61da4",
+      "network": "Facebook",
+      "phashion_group": "d3f1c3606d448fda",
+      "ad_type": "video",
+      "first_seen_at": "2025-10-23",
+      "last_seen_at": "2026-01-17",
+      "creatives": [
+        {
+          "id": "d3f1c3606d448fda",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/fde3bba7b968ffba/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/fde3bba7b968ffba/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/fde3bba7b968ffba/thumb",
+          "video_duration": 43,
+          "width": 720,
+          "height": 1280,
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "50e0e13c64534fd5",
+      "app_id": "685de571e53934433ee61da4",
+      "network": "Instagram",
+      "phashion_group": "50e0e13c64534fd5",
+      "ad_type": "video",
+      "first_seen_at": "2025-10-22",
+      "last_seen_at": "2026-01-17",
+      "creatives": [
+        {
+          "id": "50e0e13c64534fd5",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/fde3bba7b968ffba/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/fde3bba7b968ffba/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/fde3bba7b968ffba/thumb",
+          "video_duration": 43,
+          "width": 720,
+          "height": 1280,
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "e1731014625c9e6b",
+      "app_id": "685de571e53934433ee61da4",
+      "network": "Meta Audience Network",
+      "phashion_group": "e1731014625c9e6b",
+      "ad_type": "video",
+      "first_seen_at": "2025-10-22",
+      "last_seen_at": "2026-01-17",
+      "creatives": [
+        {
+          "id": "e1731014625c9e6b",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/fde3bba7b968ffba/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/fde3bba7b968ffba/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/fde3bba7b968ffba/thumb",
+          "video_duration": 43,
+          "width": 720,
+          "height": 1280,
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    }
+  ]
+}

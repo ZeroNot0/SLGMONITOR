@@ -1,0 +1,705 @@
+{
+  "count": 9,
+  "available_networks": [
+    "Applovin",
+    "Facebook",
+    "InMobi",
+    "Instagram",
+    "TikTok",
+    "Vungle"
+  ],
+  "ad_units": [
+    {
+      "id": "0c23e6656c8dfa0d",
+      "app_id": "5e70259386f3f936cb1aae06",
+      "network": "Applovin",
+      "phashion_group": "0c23e6656c8dfa0d",
+      "ad_type": "video",
+      "first_seen_at": "2025-05-10",
+      "last_seen_at": "2026-01-19",
+      "creatives": [
+        {
+          "id": "0c23e6656c8dfa0d",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/00ae800db17ef17f/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/00ae800db17ef17f/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/00ae800db17ef17f/thumb",
+          "video_duration": 56,
+          "width": 720,
+          "height": 1280,
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "rewarded",
+        "interstitial"
+      ],
+      "share": 0.488395,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2026-01-12T00:00:00Z",
+              "2026-01-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2026-01-13T00:00:00Z",
+              "2026-01-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2026-01-14T00:00:00Z",
+              "2026-01-14T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2026-01-15T00:00:00Z",
+              "2026-01-15T00:00:00Z"
+            ],
+            0.591752
+          ],
+          [
+            [
+              "2026-01-16T00:00:00Z",
+              "2026-01-16T00:00:00Z"
+            ],
+            0.885555
+          ],
+          [
+            [
+              "2026-01-17T00:00:00Z",
+              "2026-01-17T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2026-01-18T00:00:00Z",
+              "2026-01-18T00:00:00Z"
+            ],
+            1.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 3,
+        "data": [
+          [
+            "644764d364e2cd7370727b07",
+            0.587892
+          ],
+          [
+            "635f96cfc48d086ea53ca6f9",
+            0.359503
+          ],
+          [
+            "622390aa2e0fa027dbdc26b8",
+            0.052605
+          ]
+        ]
+      }
+    },
+    {
+      "id": "9530888dd20b8e6a",
+      "app_id": "5e70259386f3f936cb1aae06",
+      "network": "Applovin",
+      "phashion_group": "9530888dd20b8e6a",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-01",
+      "last_seen_at": "2026-01-19",
+      "creatives": [
+        {
+          "id": "9530888dd20b8e6a",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/99bdeee50ff88518/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/99bdeee50ff88518/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/99bdeee50ff88518/thumb",
+          "video_duration": 58,
+          "width": 720,
+          "height": 1280,
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "rewarded"
+      ],
+      "share": 0.210168,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2026-01-12T00:00:00Z",
+              "2026-01-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2026-01-13T00:00:00Z",
+              "2026-01-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2026-01-14T00:00:00Z",
+              "2026-01-14T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2026-01-15T00:00:00Z",
+              "2026-01-15T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2026-01-16T00:00:00Z",
+              "2026-01-16T00:00:00Z"
+            ],
+            0.10401
+          ],
+          [
+            [
+              "2026-01-17T00:00:00Z",
+              "2026-01-17T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2026-01-18T00:00:00Z",
+              "2026-01-18T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 2,
+        "data": [
+          [
+            "635f96cfc48d086ea53ca6f9",
+            0.903961
+          ],
+          [
+            "644764d364e2cd7370727b07",
+            0.096039
+          ]
+        ]
+      }
+    },
+    {
+      "id": "60b278ab77fb2019",
+      "app_id": "5e70259386f3f936cb1aae06",
+      "network": "Applovin",
+      "phashion_group": "60b278ab77fb2019",
+      "ad_type": "video",
+      "first_seen_at": "2025-07-02",
+      "last_seen_at": "2026-01-29",
+      "creatives": [
+        {
+          "id": "60b278ab77fb2019",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/6c3f1ec3aa082b6b/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/6c3f1ec3aa082b6b/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/6c3f1ec3aa082b6b/thumb",
+          "video_duration": 51,
+          "width": 720,
+          "height": 1280,
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "rewarded",
+        "interstitial",
+        "other"
+      ],
+      "share": 0.176261,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2026-01-12T00:00:00Z",
+              "2026-01-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2026-01-13T00:00:00Z",
+              "2026-01-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2026-01-14T00:00:00Z",
+              "2026-01-14T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2026-01-15T00:00:00Z",
+              "2026-01-15T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2026-01-16T00:00:00Z",
+              "2026-01-16T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2026-01-17T00:00:00Z",
+              "2026-01-17T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2026-01-18T00:00:00Z",
+              "2026-01-18T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 1,
+        "data": [
+          [
+            "644764d364e2cd7370727b07",
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "id": "78ae51da08e85d39",
+      "app_id": "5e70259386f3f936cb1aae06",
+      "network": "Applovin",
+      "phashion_group": "78ae51da08e85d39",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-17",
+      "last_seen_at": "2026-01-29",
+      "creatives": [
+        {
+          "id": "78ae51da08e85d39",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/742337b2d51b564b/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/742337b2d51b564b/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/742337b2d51b564b/thumb",
+          "video_duration": 55,
+          "width": 720,
+          "height": 1280,
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "rewarded",
+        "other"
+      ],
+      "share": 0.064722,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2026-01-12T00:00:00Z",
+              "2026-01-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2026-01-13T00:00:00Z",
+              "2026-01-13T00:00:00Z"
+            ],
+            0.743971
+          ],
+          [
+            [
+              "2026-01-14T00:00:00Z",
+              "2026-01-14T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2026-01-15T00:00:00Z",
+              "2026-01-15T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2026-01-16T00:00:00Z",
+              "2026-01-16T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2026-01-17T00:00:00Z",
+              "2026-01-17T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2026-01-18T00:00:00Z",
+              "2026-01-18T00:00:00Z"
+            ],
+            1.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 2,
+        "data": [
+          [
+            "622390aa2e0fa027dbdc26b8",
+            0.585831
+          ],
+          [
+            "55d20e4302ac64ee730001ff",
+            0.414169
+          ]
+        ]
+      }
+    },
+    {
+      "id": "94e2d47a4716b73c",
+      "app_id": "5e70259386f3f936cb1aae06",
+      "network": "Applovin",
+      "phashion_group": "94e2d47a4716b73c",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-24",
+      "last_seen_at": "2026-01-29",
+      "creatives": [
+        {
+          "id": "94e2d47a4716b73c",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/986fb2129ae5bc4e/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/986fb2129ae5bc4e/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/986fb2129ae5bc4e/thumb",
+          "video_duration": 54,
+          "width": 720,
+          "height": 1280,
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "rewarded"
+      ],
+      "share": 0.04158,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2026-01-12T00:00:00Z",
+              "2026-01-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2026-01-13T00:00:00Z",
+              "2026-01-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2026-01-14T00:00:00Z",
+              "2026-01-14T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2026-01-15T00:00:00Z",
+              "2026-01-15T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2026-01-16T00:00:00Z",
+              "2026-01-16T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2026-01-17T00:00:00Z",
+              "2026-01-17T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2026-01-18T00:00:00Z",
+              "2026-01-18T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 1,
+        "data": [
+          [
+            "644764d364e2cd7370727b07",
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "id": "1299cf64cd520a04",
+      "app_id": "5e70259386f3f936cb1aae06",
+      "network": "Applovin",
+      "phashion_group": "1299cf64cd520a04",
+      "ad_type": "video",
+      "first_seen_at": "2025-06-05",
+      "last_seen_at": "2026-01-19",
+      "creatives": [
+        {
+          "id": "1299cf64cd520a04",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1e14a90c10a10176/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1e14a90c10a10176/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1e14a90c10a10176/thumb",
+          "video_duration": 51,
+          "width": 720,
+          "height": 1280,
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "interstitial"
+      ],
+      "share": 0.018874,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2026-01-12T00:00:00Z",
+              "2026-01-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2026-01-13T00:00:00Z",
+              "2026-01-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2026-01-14T00:00:00Z",
+              "2026-01-14T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2026-01-15T00:00:00Z",
+              "2026-01-15T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2026-01-16T00:00:00Z",
+              "2026-01-16T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2026-01-17T00:00:00Z",
+              "2026-01-17T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2026-01-18T00:00:00Z",
+              "2026-01-18T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 1,
+        "data": [
+          [
+            "644764d364e2cd7370727b07",
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "id": "3bb744742f1d4b90",
+      "app_id": "5e70259386f3f936cb1aae06",
+      "network": "TikTok",
+      "phashion_group": "3bb744742f1d4b90",
+      "ad_type": "video",
+      "first_seen_at": "2024-04-18",
+      "last_seen_at": "2026-01-29",
+      "creatives": [
+        {
+          "id": "3bb744742f1d4b90",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/501bad2927fffb3c/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/501bad2927fffb3c/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/501bad2927fffb3c/thumb",
+          "video_duration": 32,
+          "width": 720,
+          "height": 1280,
+          "message": "The best time to play this game"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "16ede3737f44d56c",
+      "app_id": "5e70259386f3f936cb1aae06",
+      "network": "TikTok",
+      "phashion_group": "16ede3737f44d56c",
+      "ad_type": "video",
+      "first_seen_at": "2024-04-18",
+      "last_seen_at": "2026-01-15",
+      "creatives": [
+        {
+          "id": "16ede3737f44d56c",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/7d410a2e77a665c0/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/7d410a2e77a665c0/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/7d410a2e77a665c0/thumb",
+          "video_duration": 33,
+          "width": 720,
+          "height": 1280,
+          "message": "The best time to play this game"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "8119af9f8c05231b",
+      "app_id": "5e70259386f3f936cb1aae06",
+      "network": "TikTok",
+      "phashion_group": "8119af9f8c05231b",
+      "ad_type": "video",
+      "first_seen_at": "2024-04-18",
+      "last_seen_at": "2026-01-29",
+      "creatives": [
+        {
+          "id": "8119af9f8c05231b",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/eab546c284e793b7/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/eab546c284e793b7/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/eab546c284e793b7/thumb",
+          "video_duration": 32,
+          "width": 720,
+          "height": 1280,
+          "message": "The best time to play this game"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    }
+  ]
+}

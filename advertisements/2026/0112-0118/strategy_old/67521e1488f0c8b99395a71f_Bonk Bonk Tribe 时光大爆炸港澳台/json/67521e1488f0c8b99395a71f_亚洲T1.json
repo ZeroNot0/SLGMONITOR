@@ -1,0 +1,2792 @@
+{
+  "count": 56,
+  "available_networks": [
+    "Applovin",
+    "Facebook",
+    "Instagram",
+    "Meta Audience Network",
+    "TikTok"
+  ],
+  "ad_units": [
+    {
+      "id": "5cec326e39addd8a",
+      "app_id": "67521e1488f0c8b99395a71f",
+      "network": "Applovin",
+      "phashion_group": "5cec326e39addd8a",
+      "ad_type": "video",
+      "first_seen_at": "2025-07-08",
+      "last_seen_at": "2026-01-29",
+      "creatives": [
+        {
+          "id": "5cec326e39addd8a",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/b0bcbf405cde94c9/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/b0bcbf405cde94c9/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/b0bcbf405cde94c9/thumb",
+          "video_duration": 33,
+          "width": 720,
+          "height": 1280,
+          "message": ""
+        },
+        {
+          "id": "b273a76bcc993a3f",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/b0bcbf405cde94c9/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/b0bcbf405cde94c9/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/b0bcbf405cde94c9/thumb",
+          "video_duration": 33,
+          "width": 720,
+          "height": 1280,
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "rewarded",
+        "interstitial"
+      ],
+      "share": 0.825398,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2026-01-12T00:00:00Z",
+              "2026-01-12T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2026-01-13T00:00:00Z",
+              "2026-01-13T00:00:00Z"
+            ],
+            0.300855
+          ],
+          [
+            [
+              "2026-01-14T00:00:00Z",
+              "2026-01-14T00:00:00Z"
+            ],
+            0.607793
+          ],
+          [
+            [
+              "2026-01-15T00:00:00Z",
+              "2026-01-15T00:00:00Z"
+            ],
+            0.995793
+          ],
+          [
+            [
+              "2026-01-16T00:00:00Z",
+              "2026-01-16T00:00:00Z"
+            ],
+            0.67789
+          ],
+          [
+            [
+              "2026-01-17T00:00:00Z",
+              "2026-01-17T00:00:00Z"
+            ],
+            0.48425
+          ],
+          [
+            [
+              "2026-01-18T00:00:00Z",
+              "2026-01-18T00:00:00Z"
+            ],
+            0.406006
+          ]
+        ],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 14,
+        "data": [
+          [
+            "665e82ed0296fd9b4b4ad23b",
+            0.237686
+          ],
+          [
+            "667ffe9c6e98fe0d9e01f33a",
+            0.203385
+          ],
+          [
+            "66d3d48cf6a8791001fe4c21",
+            0.187633
+          ],
+          [
+            "58dce04f0211a613bb000606",
+            0.08071
+          ],
+          [
+            "622390aa2e0fa027dbdc26b8",
+            0.075918
+          ],
+          [
+            "644764d364e2cd7370727b07",
+            0.072243
+          ],
+          [
+            "679b93d85882c3cbdf0530e6",
+            0.070445
+          ],
+          [
+            "668286e4ad4adbae8c5f1057",
+            0.026091
+          ],
+          [
+            "60408d0886931972c42c94f3",
+            0.017121
+          ],
+          [
+            "635f96cfc48d086ea53ca6f9",
+            0.0104
+          ],
+          [
+            "613d89635f790b3e3a3081ec",
+            0.007282
+          ],
+          [
+            "631bd9d8ad4adb511ca24c08",
+            0.005586
+          ],
+          [
+            "5a72671d0dc0bc69efd2cad4",
+            0.002997
+          ],
+          [
+            "62dda88e1800973f6cb6b791",
+            0.002503
+          ]
+        ]
+      }
+    },
+    {
+      "id": "9110e3ae714001bc",
+      "app_id": "67521e1488f0c8b99395a71f",
+      "network": "Applovin",
+      "phashion_group": "9110e3ae714001bc",
+      "ad_type": "video",
+      "first_seen_at": "2025-10-30",
+      "last_seen_at": "2026-01-29",
+      "creatives": [
+        {
+          "id": "9110e3ae714001bc",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/7d406e80143348ff/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/7d406e80143348ff/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/7d406e80143348ff/thumb",
+          "video_duration": 47,
+          "width": 720,
+          "height": 1280,
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "rewarded",
+        "interstitial"
+      ],
+      "share": 0.085074,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2026-01-12T00:00:00Z",
+              "2026-01-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2026-01-13T00:00:00Z",
+              "2026-01-13T00:00:00Z"
+            ],
+            0.354532
+          ],
+          [
+            [
+              "2026-01-14T00:00:00Z",
+              "2026-01-14T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2026-01-15T00:00:00Z",
+              "2026-01-15T00:00:00Z"
+            ],
+            0.074919
+          ],
+          [
+            [
+              "2026-01-16T00:00:00Z",
+              "2026-01-16T00:00:00Z"
+            ],
+            0.539293
+          ],
+          [
+            [
+              "2026-01-17T00:00:00Z",
+              "2026-01-17T00:00:00Z"
+            ],
+            0.446656
+          ],
+          [
+            [
+              "2026-01-18T00:00:00Z",
+              "2026-01-18T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 3,
+        "data": [
+          [
+            "665e82ed0296fd9b4b4ad23b",
+            0.561613
+          ],
+          [
+            "66d3d48cf6a8791001fe4c21",
+            0.412906
+          ],
+          [
+            "667ffe9c6e98fe0d9e01f33a",
+            0.025481
+          ]
+        ]
+      }
+    },
+    {
+      "id": "37c8886581e4b60b",
+      "app_id": "67521e1488f0c8b99395a71f",
+      "network": "Applovin",
+      "phashion_group": "37c8886581e4b60b",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-07",
+      "last_seen_at": "2026-01-29",
+      "creatives": [
+        {
+          "id": "37c8886581e4b60b",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/db98054be497ff48/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/db98054be497ff48/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/db98054be497ff48/thumb",
+          "video_duration": 41,
+          "width": 720,
+          "height": 1280,
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "rewarded",
+        "interstitial"
+      ],
+      "share": 0.021735,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2026-01-12T00:00:00Z",
+              "2026-01-12T00:00:00Z"
+            ],
+            0.53457
+          ],
+          [
+            [
+              "2026-01-13T00:00:00Z",
+              "2026-01-13T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2026-01-14T00:00:00Z",
+              "2026-01-14T00:00:00Z"
+            ],
+            0.402547
+          ],
+          [
+            [
+              "2026-01-15T00:00:00Z",
+              "2026-01-15T00:00:00Z"
+            ],
+            0.638616
+          ],
+          [
+            [
+              "2026-01-16T00:00:00Z",
+              "2026-01-16T00:00:00Z"
+            ],
+            0.823164
+          ],
+          [
+            [
+              "2026-01-17T00:00:00Z",
+              "2026-01-17T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2026-01-18T00:00:00Z",
+              "2026-01-18T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 4,
+        "data": [
+          [
+            "61d12e78fa4913350e9ac28e",
+            0.450441
+          ],
+          [
+            "5c81393b5c32a02233b16bcc",
+            0.261653
+          ],
+          [
+            "64a8ed37fd0a6a586e1e87a8",
+            0.188338
+          ],
+          [
+            "58dce04f0211a613bb000606",
+            0.099568
+          ]
+        ]
+      }
+    },
+    {
+      "id": "9b6f92d38d517455",
+      "app_id": "67521e1488f0c8b99395a71f",
+      "network": "Applovin",
+      "phashion_group": "9b6f92d38d517455",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-01",
+      "last_seen_at": "2026-01-29",
+      "creatives": [
+        {
+          "id": "9b6f92d38d517455",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/773f1ffde8223d16/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/773f1ffde8223d16/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/773f1ffde8223d16/thumb",
+          "video_duration": 55,
+          "width": 720,
+          "height": 1280,
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "rewarded",
+        "interstitial"
+      ],
+      "share": 0.021194,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2026-01-12T00:00:00Z",
+              "2026-01-12T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2026-01-13T00:00:00Z",
+              "2026-01-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2026-01-14T00:00:00Z",
+              "2026-01-14T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2026-01-15T00:00:00Z",
+              "2026-01-15T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2026-01-16T00:00:00Z",
+              "2026-01-16T00:00:00Z"
+            ],
+            0.997276
+          ],
+          [
+            [
+              "2026-01-17T00:00:00Z",
+              "2026-01-17T00:00:00Z"
+            ],
+            0.747274
+          ],
+          [
+            [
+              "2026-01-18T00:00:00Z",
+              "2026-01-18T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 3,
+        "data": [
+          [
+            "66d3d48cf6a8791001fe4c21",
+            0.639412
+          ],
+          [
+            "5a72671d0dc0bc69efd2cad4",
+            0.240392
+          ],
+          [
+            "667ffe9c6e98fe0d9e01f33a",
+            0.120196
+          ]
+        ]
+      }
+    },
+    {
+      "id": "971d69934bfed674",
+      "app_id": "67521e1488f0c8b99395a71f",
+      "network": "Applovin",
+      "phashion_group": "971d69934bfed674",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-12",
+      "last_seen_at": "2026-01-29",
+      "creatives": [
+        {
+          "id": "971d69934bfed674",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/7b4de4bd2e8d9f37/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/7b4de4bd2e8d9f37/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/7b4de4bd2e8d9f37/thumb",
+          "video_duration": 48,
+          "width": 720,
+          "height": 1280,
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "rewarded",
+        "interstitial"
+      ],
+      "share": 0.017788,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2026-01-12T00:00:00Z",
+              "2026-01-12T00:00:00Z"
+            ],
+            0.789624
+          ],
+          [
+            [
+              "2026-01-13T00:00:00Z",
+              "2026-01-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2026-01-14T00:00:00Z",
+              "2026-01-14T00:00:00Z"
+            ],
+            0.594609
+          ],
+          [
+            [
+              "2026-01-15T00:00:00Z",
+              "2026-01-15T00:00:00Z"
+            ],
+            0.609541
+          ],
+          [
+            [
+              "2026-01-16T00:00:00Z",
+              "2026-01-16T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2026-01-17T00:00:00Z",
+              "2026-01-17T00:00:00Z"
+            ],
+            0.498255
+          ],
+          [
+            [
+              "2026-01-18T00:00:00Z",
+              "2026-01-18T00:00:00Z"
+            ],
+            0.61687
+          ]
+        ],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 4,
+        "data": [
+          [
+            "65bb9bc515b20c137cbc15ee",
+            0.344811
+          ],
+          [
+            "58dce04f0211a613bb000606",
+            0.289559
+          ],
+          [
+            "61d12e78fa4913350e9ac28e",
+            0.252048
+          ],
+          [
+            "5c81393b5c32a02233b16bcc",
+            0.113582
+          ]
+        ]
+      }
+    },
+    {
+      "id": "1da640e1e200e48c",
+      "app_id": "67521e1488f0c8b99395a71f",
+      "network": "Applovin",
+      "phashion_group": "1da640e1e200e48c",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-08",
+      "last_seen_at": "2026-01-24",
+      "creatives": [
+        {
+          "id": "1da640e1e200e48c",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/f1f6cdcf8773adcf/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/f1f6cdcf8773adcf/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/f1f6cdcf8773adcf/thumb",
+          "video_duration": 17,
+          "width": 720,
+          "height": 1280,
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "rewarded",
+        "interstitial"
+      ],
+      "share": 0.011205,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2026-01-12T00:00:00Z",
+              "2026-01-12T00:00:00Z"
+            ],
+            0.663986
+          ],
+          [
+            [
+              "2026-01-13T00:00:00Z",
+              "2026-01-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2026-01-14T00:00:00Z",
+              "2026-01-14T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2026-01-15T00:00:00Z",
+              "2026-01-15T00:00:00Z"
+            ],
+            0.512556
+          ],
+          [
+            [
+              "2026-01-16T00:00:00Z",
+              "2026-01-16T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2026-01-17T00:00:00Z",
+              "2026-01-17T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2026-01-18T00:00:00Z",
+              "2026-01-18T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 2,
+        "data": [
+          [
+            "61d12e78fa4913350e9ac28e",
+            0.799966
+          ],
+          [
+            "5c81393b5c32a02233b16bcc",
+            0.200034
+          ]
+        ]
+      }
+    },
+    {
+      "id": "225b8db656067176",
+      "app_id": "67521e1488f0c8b99395a71f",
+      "network": "Applovin",
+      "phashion_group": "225b8db656067176",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-12",
+      "last_seen_at": "2026-01-21",
+      "creatives": [
+        {
+          "id": "225b8db656067176",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/ce0b009833753835/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/ce0b009833753835/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/ce0b009833753835/thumb",
+          "video_duration": 42,
+          "width": 720,
+          "height": 1280,
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "rewarded"
+      ],
+      "share": 0.009977,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2026-01-12T00:00:00Z",
+              "2026-01-12T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2026-01-13T00:00:00Z",
+              "2026-01-13T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2026-01-14T00:00:00Z",
+              "2026-01-14T00:00:00Z"
+            ],
+            0.347708
+          ],
+          [
+            [
+              "2026-01-15T00:00:00Z",
+              "2026-01-15T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2026-01-16T00:00:00Z",
+              "2026-01-16T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2026-01-17T00:00:00Z",
+              "2026-01-17T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2026-01-18T00:00:00Z",
+              "2026-01-18T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 1,
+        "data": [
+          [
+            "61d12e78fa4913350e9ac28e",
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "id": "237b3bc33bdf6d82",
+      "app_id": "67521e1488f0c8b99395a71f",
+      "network": "Applovin",
+      "phashion_group": "237b3bc33bdf6d82",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-12",
+      "last_seen_at": "2026-01-24",
+      "creatives": [
+        {
+          "id": "237b3bc33bdf6d82",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/cf2bb6ed5eac24c1/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/cf2bb6ed5eac24c1/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/cf2bb6ed5eac24c1/thumb",
+          "video_duration": 11,
+          "width": 720,
+          "height": 1280,
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "interstitial"
+      ],
+      "share": 0.007629,
+      "breakdown": {
+        "date": [
+          [
+            [
+              "2026-01-12T00:00:00Z",
+              "2026-01-12T00:00:00Z"
+            ],
+            1.0
+          ],
+          [
+            [
+              "2026-01-13T00:00:00Z",
+              "2026-01-13T00:00:00Z"
+            ],
+            0.478682
+          ],
+          [
+            [
+              "2026-01-14T00:00:00Z",
+              "2026-01-14T00:00:00Z"
+            ],
+            0.753028
+          ],
+          [
+            [
+              "2026-01-15T00:00:00Z",
+              "2026-01-15T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2026-01-16T00:00:00Z",
+              "2026-01-16T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2026-01-17T00:00:00Z",
+              "2026-01-17T00:00:00Z"
+            ],
+            0.0
+          ],
+          [
+            [
+              "2026-01-18T00:00:00Z",
+              "2026-01-18T00:00:00Z"
+            ],
+            0.0
+          ]
+        ],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 2,
+        "data": [
+          [
+            "58dce04f0211a613bb000606",
+            0.660526
+          ],
+          [
+            "5c81393b5c32a02233b16bcc",
+            0.339474
+          ]
+        ]
+      }
+    },
+    {
+      "id": "7496a9d8da51ae29",
+      "app_id": "67521e1488f0c8b99395a71f",
+      "network": "Facebook",
+      "phashion_group": "7496a9d8da51ae29",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-13",
+      "last_seen_at": "2026-01-24",
+      "creatives": [
+        {
+          "id": "7496a9d8da51ae29",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1ca4c233bdceea0f/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1ca4c233bdceea0f/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1ca4c233bdceea0f/thumb",
+          "video_duration": 42,
+          "width": 1080,
+          "height": 1920,
+          "title": "立即下載🔥",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "d9ce8deb55152946",
+      "app_id": "67521e1488f0c8b99395a71f",
+      "network": "Instagram",
+      "phashion_group": "d9ce8deb55152946",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-13",
+      "last_seen_at": "2026-01-24",
+      "creatives": [
+        {
+          "id": "d9ce8deb55152946",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1ca4c233bdceea0f/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1ca4c233bdceea0f/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1ca4c233bdceea0f/thumb",
+          "video_duration": 42,
+          "width": 1080,
+          "height": 1920,
+          "title": "立即下載🔥",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "46147aacd549bf98",
+      "app_id": "67521e1488f0c8b99395a71f",
+      "network": "Meta Audience Network",
+      "phashion_group": "46147aacd549bf98",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-13",
+      "last_seen_at": "2026-01-24",
+      "creatives": [
+        {
+          "id": "46147aacd549bf98",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1ca4c233bdceea0f/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1ca4c233bdceea0f/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1ca4c233bdceea0f/thumb",
+          "video_duration": 42,
+          "width": 1080,
+          "height": 1920,
+          "title": "立即下載🔥",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "54ed13e7604258e3",
+      "app_id": "67521e1488f0c8b99395a71f",
+      "network": "Facebook",
+      "phashion_group": "54ed13e7604258e3",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-05",
+      "last_seen_at": "2026-01-24",
+      "creatives": [
+        {
+          "id": "54ed13e7604258e3",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3cdf780c07dd1cc5/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3cdf780c07dd1cc5/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3cdf780c07dd1cc5/thumb",
+          "video_duration": 35,
+          "width": 1080,
+          "height": 1920,
+          "title": "立即安裝，經營你的時代",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "f9b537d4ef06df8c",
+      "app_id": "67521e1488f0c8b99395a71f",
+      "network": "Instagram",
+      "phashion_group": "f9b537d4ef06df8c",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-05",
+      "last_seen_at": "2026-01-24",
+      "creatives": [
+        {
+          "id": "f9b537d4ef06df8c",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3cdf780c07dd1cc5/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3cdf780c07dd1cc5/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3cdf780c07dd1cc5/thumb",
+          "video_duration": 35,
+          "width": 1080,
+          "height": 1920,
+          "title": "立即安裝，經營你的時代",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "666fc0936f5a4952",
+      "app_id": "67521e1488f0c8b99395a71f",
+      "network": "Meta Audience Network",
+      "phashion_group": "666fc0936f5a4952",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-09",
+      "last_seen_at": "2026-01-24",
+      "creatives": [
+        {
+          "id": "666fc0936f5a4952",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3cdf780c07dd1cc5/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3cdf780c07dd1cc5/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3cdf780c07dd1cc5/thumb",
+          "video_duration": 35,
+          "width": 1080,
+          "height": 1920,
+          "title": "立即安裝，經營你的時代",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "2b6d39c4d0ae94e8",
+      "app_id": "67521e1488f0c8b99395a71f",
+      "network": "Facebook",
+      "phashion_group": "2b6d39c4d0ae94e8",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-08",
+      "last_seen_at": "2026-01-24",
+      "creatives": [
+        {
+          "id": "2b6d39c4d0ae94e8",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/435f522fb731d0ce/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/435f522fb731d0ce/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/435f522fb731d0ce/thumb",
+          "video_duration": 42,
+          "width": 1080,
+          "height": 1920,
+          "title": "立即下載🔥",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "86351df75fea1387",
+      "app_id": "67521e1488f0c8b99395a71f",
+      "network": "Instagram",
+      "phashion_group": "86351df75fea1387",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-08",
+      "last_seen_at": "2026-01-24",
+      "creatives": [
+        {
+          "id": "86351df75fea1387",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/435f522fb731d0ce/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/435f522fb731d0ce/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/435f522fb731d0ce/thumb",
+          "video_duration": 42,
+          "width": 1080,
+          "height": 1920,
+          "title": "立即下載🔥",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "19efeab0dfb68559",
+      "app_id": "67521e1488f0c8b99395a71f",
+      "network": "Meta Audience Network",
+      "phashion_group": "19efeab0dfb68559",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-08",
+      "last_seen_at": "2026-01-24",
+      "creatives": [
+        {
+          "id": "19efeab0dfb68559",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/435f522fb731d0ce/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/435f522fb731d0ce/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/435f522fb731d0ce/thumb",
+          "video_duration": 42,
+          "width": 1080,
+          "height": 1920,
+          "title": "立即下載🔥",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "22b705b68130b00b",
+      "app_id": "67521e1488f0c8b99395a71f",
+      "network": "Facebook",
+      "phashion_group": "22b705b68130b00b",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-09",
+      "last_seen_at": "2026-01-22",
+      "creatives": [
+        {
+          "id": "22b705b68130b00b",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4a856e5de6aff42d/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4a856e5de6aff42d/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4a856e5de6aff42d/thumb",
+          "video_duration": 43,
+          "width": 1080,
+          "height": 1920,
+          "title": "立即下载体验🔥",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "8fef21850e743764",
+      "app_id": "67521e1488f0c8b99395a71f",
+      "network": "Instagram",
+      "phashion_group": "8fef21850e743764",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-09",
+      "last_seen_at": "2026-01-22",
+      "creatives": [
+        {
+          "id": "8fef21850e743764",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4a856e5de6aff42d/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4a856e5de6aff42d/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4a856e5de6aff42d/thumb",
+          "video_duration": 43,
+          "width": 1080,
+          "height": 1920,
+          "title": "立即下载体验🔥",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "1035d6c28e28a1ba",
+      "app_id": "67521e1488f0c8b99395a71f",
+      "network": "Meta Audience Network",
+      "phashion_group": "1035d6c28e28a1ba",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-09",
+      "last_seen_at": "2026-01-22",
+      "creatives": [
+        {
+          "id": "1035d6c28e28a1ba",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4a856e5de6aff42d/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4a856e5de6aff42d/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4a856e5de6aff42d/thumb",
+          "video_duration": 43,
+          "width": 1080,
+          "height": 1920,
+          "title": "立即下载体验🔥",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "26db1404f992e7d7",
+      "app_id": "67521e1488f0c8b99395a71f",
+      "network": "Facebook",
+      "phashion_group": "26db1404f992e7d7",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-12",
+      "last_seen_at": "2026-01-24",
+      "creatives": [
+        {
+          "id": "26db1404f992e7d7",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4ee97fef9e0da3f1/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4ee97fef9e0da3f1/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4ee97fef9e0da3f1/thumb",
+          "video_duration": 38,
+          "width": 1080,
+          "height": 1920,
+          "title": "立即下載🔥",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "8b83303776d660b8",
+      "app_id": "67521e1488f0c8b99395a71f",
+      "network": "Instagram",
+      "phashion_group": "8b83303776d660b8",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-12",
+      "last_seen_at": "2026-01-24",
+      "creatives": [
+        {
+          "id": "8b83303776d660b8",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4ee97fef9e0da3f1/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4ee97fef9e0da3f1/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4ee97fef9e0da3f1/thumb",
+          "video_duration": 38,
+          "width": 1080,
+          "height": 1920,
+          "title": "立即下載🔥",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "1459c770f68af666",
+      "app_id": "67521e1488f0c8b99395a71f",
+      "network": "Meta Audience Network",
+      "phashion_group": "1459c770f68af666",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-12",
+      "last_seen_at": "2026-01-24",
+      "creatives": [
+        {
+          "id": "1459c770f68af666",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4ee97fef9e0da3f1/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4ee97fef9e0da3f1/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4ee97fef9e0da3f1/thumb",
+          "video_duration": 38,
+          "width": 1080,
+          "height": 1920,
+          "title": "立即下載🔥",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "3957c88665b798d7",
+      "app_id": "67521e1488f0c8b99395a71f",
+      "network": "Facebook",
+      "phashion_group": "3957c88665b798d7",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-11",
+      "last_seen_at": "2026-01-22",
+      "creatives": [
+        {
+          "id": "3957c88665b798d7",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/5165a36d0228dcf1/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/5165a36d0228dcf1/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/5165a36d0228dcf1/thumb",
+          "video_duration": 40,
+          "width": 1080,
+          "height": 1920,
+          "title": "立即安裝，經營你的時代",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "940fecb5eaf31fb8",
+      "app_id": "67521e1488f0c8b99395a71f",
+      "network": "Instagram",
+      "phashion_group": "940fecb5eaf31fb8",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-11",
+      "last_seen_at": "2026-01-22",
+      "creatives": [
+        {
+          "id": "940fecb5eaf31fb8",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/5165a36d0228dcf1/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/5165a36d0228dcf1/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/5165a36d0228dcf1/thumb",
+          "video_duration": 40,
+          "width": 1080,
+          "height": 1920,
+          "title": "立即安裝，經營你的時代",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "0bd51bf26aaf8966",
+      "app_id": "67521e1488f0c8b99395a71f",
+      "network": "Meta Audience Network",
+      "phashion_group": "0bd51bf26aaf8966",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-11",
+      "last_seen_at": "2026-01-22",
+      "creatives": [
+        {
+          "id": "0bd51bf26aaf8966",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/5165a36d0228dcf1/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/5165a36d0228dcf1/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/5165a36d0228dcf1/thumb",
+          "video_duration": 40,
+          "width": 1080,
+          "height": 1920,
+          "title": "立即安裝，經營你的時代",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "35e8e31e6a3f51b0",
+      "app_id": "67521e1488f0c8b99395a71f",
+      "network": "Facebook",
+      "phashion_group": "35e8e31e6a3f51b0",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-11",
+      "last_seen_at": "2026-01-24",
+      "creatives": [
+        {
+          "id": "35e8e31e6a3f51b0",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/5dda88f50da01596/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/5dda88f50da01596/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/5dda88f50da01596/thumb",
+          "video_duration": 42,
+          "width": 1080,
+          "height": 1920,
+          "title": "立即安裝，經營你的時代",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "98b0c72de57bd6df",
+      "app_id": "67521e1488f0c8b99395a71f",
+      "network": "Instagram",
+      "phashion_group": "98b0c72de57bd6df",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-11",
+      "last_seen_at": "2026-01-24",
+      "creatives": [
+        {
+          "id": "98b0c72de57bd6df",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/5dda88f50da01596/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/5dda88f50da01596/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/5dda88f50da01596/thumb",
+          "video_duration": 42,
+          "width": 1080,
+          "height": 1920,
+          "title": "立即安裝，經營你的時代",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "076a306a65274001",
+      "app_id": "67521e1488f0c8b99395a71f",
+      "network": "Meta Audience Network",
+      "phashion_group": "076a306a65274001",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-11",
+      "last_seen_at": "2026-01-24",
+      "creatives": [
+        {
+          "id": "076a306a65274001",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/5dda88f50da01596/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/5dda88f50da01596/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/5dda88f50da01596/thumb",
+          "video_duration": 42,
+          "width": 1080,
+          "height": 1920,
+          "title": "立即安裝，經營你的時代",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "366043b3cb81df59",
+      "app_id": "67521e1488f0c8b99395a71f",
+      "network": "Facebook",
+      "phashion_group": "366043b3cb81df59",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-10",
+      "last_seen_at": "2026-01-24",
+      "creatives": [
+        {
+          "id": "366043b3cb81df59",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/5e522858ac1e9b7f/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/5e522858ac1e9b7f/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/5e522858ac1e9b7f/thumb",
+          "video_duration": 21,
+          "width": 1080,
+          "height": 1920,
+          "title": "立即下載統領部落🔥",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "9b38678044c55836",
+      "app_id": "67521e1488f0c8b99395a71f",
+      "network": "Instagram",
+      "phashion_group": "9b38678044c55836",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-10",
+      "last_seen_at": "2026-01-24",
+      "creatives": [
+        {
+          "id": "9b38678044c55836",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/5e522858ac1e9b7f/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/5e522858ac1e9b7f/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/5e522858ac1e9b7f/thumb",
+          "video_duration": 21,
+          "width": 1080,
+          "height": 1920,
+          "title": "立即下載統領部落🔥",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "04e290c7c499cee8",
+      "app_id": "67521e1488f0c8b99395a71f",
+      "network": "Meta Audience Network",
+      "phashion_group": "04e290c7c499cee8",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-10",
+      "last_seen_at": "2026-01-24",
+      "creatives": [
+        {
+          "id": "04e290c7c499cee8",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/5e522858ac1e9b7f/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/5e522858ac1e9b7f/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/5e522858ac1e9b7f/thumb",
+          "video_duration": 21,
+          "width": 1080,
+          "height": 1920,
+          "title": "立即下載統領部落🔥",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "00ca12ed6da0bdac",
+      "app_id": "67521e1488f0c8b99395a71f",
+      "network": "Facebook",
+      "phashion_group": "00ca12ed6da0bdac",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-11",
+      "last_seen_at": "2026-01-22",
+      "creatives": [
+        {
+          "id": "00ca12ed6da0bdac",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/68f879060a3ff98a/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/68f879060a3ff98a/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/68f879060a3ff98a/thumb",
+          "video_duration": 42,
+          "width": 1080,
+          "height": 1920,
+          "title": "立即下载体验🔥",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "ad9236dee2e43ac3",
+      "app_id": "67521e1488f0c8b99395a71f",
+      "network": "Instagram",
+      "phashion_group": "ad9236dee2e43ac3",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-11",
+      "last_seen_at": "2026-01-22",
+      "creatives": [
+        {
+          "id": "ad9236dee2e43ac3",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/68f879060a3ff98a/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/68f879060a3ff98a/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/68f879060a3ff98a/thumb",
+          "video_duration": 42,
+          "width": 1080,
+          "height": 1920,
+          "title": "立即下载体验🔥",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "3248c19962b8ac1d",
+      "app_id": "67521e1488f0c8b99395a71f",
+      "network": "Meta Audience Network",
+      "phashion_group": "3248c19962b8ac1d",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-11",
+      "last_seen_at": "2026-01-22",
+      "creatives": [
+        {
+          "id": "3248c19962b8ac1d",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/68f879060a3ff98a/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/68f879060a3ff98a/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/68f879060a3ff98a/thumb",
+          "video_duration": 42,
+          "width": 1080,
+          "height": 1920,
+          "title": "立即下载体验🔥",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "023827c84c4b8a45",
+      "app_id": "67521e1488f0c8b99395a71f",
+      "network": "Facebook",
+      "phashion_group": "023827c84c4b8a45",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-22",
+      "last_seen_at": "2026-01-24",
+      "creatives": [
+        {
+          "id": "023827c84c4b8a45",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/6a0a4c232bd4ce63/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/6a0a4c232bd4ce63/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/6a0a4c232bd4ce63/thumb",
+          "video_duration": 40,
+          "width": 1080,
+          "height": 1920,
+          "title": "立即下載🔥",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "af6003fbc30f0d2a",
+      "app_id": "67521e1488f0c8b99395a71f",
+      "network": "Instagram",
+      "phashion_group": "af6003fbc30f0d2a",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-22",
+      "last_seen_at": "2026-01-24",
+      "creatives": [
+        {
+          "id": "af6003fbc30f0d2a",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/6a0a4c232bd4ce63/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/6a0a4c232bd4ce63/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/6a0a4c232bd4ce63/thumb",
+          "video_duration": 40,
+          "width": 1080,
+          "height": 1920,
+          "title": "立即下載🔥",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "30baf4bc43539bf4",
+      "app_id": "67521e1488f0c8b99395a71f",
+      "network": "Meta Audience Network",
+      "phashion_group": "30baf4bc43539bf4",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-22",
+      "last_seen_at": "2026-01-24",
+      "creatives": [
+        {
+          "id": "30baf4bc43539bf4",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/6a0a4c232bd4ce63/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/6a0a4c232bd4ce63/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/6a0a4c232bd4ce63/thumb",
+          "video_duration": 40,
+          "width": 1080,
+          "height": 1920,
+          "title": "立即下載🔥",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "178f0bba33f9c9f3",
+      "app_id": "67521e1488f0c8b99395a71f",
+      "network": "Facebook",
+      "phashion_group": "178f0bba33f9c9f3",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-08",
+      "last_seen_at": "2026-01-24",
+      "creatives": [
+        {
+          "id": "178f0bba33f9c9f3",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/7fbd605154668dd5/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/7fbd605154668dd5/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/7fbd605154668dd5/thumb",
+          "video_duration": 43,
+          "width": 1080,
+          "height": 1920,
+          "title": "立即下載🔥",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "bad72f89bcbd4e9c",
+      "app_id": "67521e1488f0c8b99395a71f",
+      "network": "Instagram",
+      "phashion_group": "bad72f89bcbd4e9c",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-08",
+      "last_seen_at": "2026-01-24",
+      "creatives": [
+        {
+          "id": "bad72f89bcbd4e9c",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/7fbd605154668dd5/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/7fbd605154668dd5/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/7fbd605154668dd5/thumb",
+          "video_duration": 43,
+          "width": 1080,
+          "height": 1920,
+          "title": "立即下載🔥",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "250dd8ce3ce1d842",
+      "app_id": "67521e1488f0c8b99395a71f",
+      "network": "Meta Audience Network",
+      "phashion_group": "250dd8ce3ce1d842",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-08",
+      "last_seen_at": "2026-01-24",
+      "creatives": [
+        {
+          "id": "250dd8ce3ce1d842",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/7fbd605154668dd5/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/7fbd605154668dd5/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/7fbd605154668dd5/thumb",
+          "video_duration": 43,
+          "width": 1080,
+          "height": 1920,
+          "title": "立即下載🔥",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "ce37f6057d71f9d7",
+      "app_id": "67521e1488f0c8b99395a71f",
+      "network": "Facebook",
+      "phashion_group": "ce37f6057d71f9d7",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-12",
+      "last_seen_at": "2026-01-24",
+      "creatives": [
+        {
+          "id": "ce37f6057d71f9d7",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/a6059dee1aeebdf1/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/a6059dee1aeebdf1/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/a6059dee1aeebdf1/thumb",
+          "video_duration": 41,
+          "width": 1080,
+          "height": 1920,
+          "title": "立即下載🔥",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "636fd236f2357eb8",
+      "app_id": "67521e1488f0c8b99395a71f",
+      "network": "Instagram",
+      "phashion_group": "636fd236f2357eb8",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-12",
+      "last_seen_at": "2026-01-24",
+      "creatives": [
+        {
+          "id": "636fd236f2357eb8",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/a6059dee1aeebdf1/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/a6059dee1aeebdf1/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/a6059dee1aeebdf1/thumb",
+          "video_duration": 41,
+          "width": 1080,
+          "height": 1920,
+          "title": "立即下載🔥",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "fcb525717269e866",
+      "app_id": "67521e1488f0c8b99395a71f",
+      "network": "Meta Audience Network",
+      "phashion_group": "fcb525717269e866",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-12",
+      "last_seen_at": "2026-01-24",
+      "creatives": [
+        {
+          "id": "fcb525717269e866",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/a6059dee1aeebdf1/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/a6059dee1aeebdf1/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/a6059dee1aeebdf1/thumb",
+          "video_duration": 41,
+          "width": 1080,
+          "height": 1920,
+          "title": "立即下載🔥",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "aca159e10a994c25",
+      "app_id": "67521e1488f0c8b99395a71f",
+      "network": "Facebook",
+      "phashion_group": "aca159e10a994c25",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-11",
+      "last_seen_at": "2026-01-24",
+      "creatives": [
+        {
+          "id": "aca159e10a994c25",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/c493320a6d060803/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/c493320a6d060803/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/c493320a6d060803/thumb",
+          "video_duration": 17,
+          "width": 1080,
+          "height": 1920,
+          "title": "立即下載🔥",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "01f97dd285ddcb4a",
+      "app_id": "67521e1488f0c8b99395a71f",
+      "network": "Instagram",
+      "phashion_group": "01f97dd285ddcb4a",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-11",
+      "last_seen_at": "2026-01-24",
+      "creatives": [
+        {
+          "id": "01f97dd285ddcb4a",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/c493320a6d060803/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/c493320a6d060803/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/c493320a6d060803/thumb",
+          "video_duration": 17,
+          "width": 1080,
+          "height": 1920,
+          "title": "立即下載🔥",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "9e238a9505815d94",
+      "app_id": "67521e1488f0c8b99395a71f",
+      "network": "Meta Audience Network",
+      "phashion_group": "9e238a9505815d94",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-11",
+      "last_seen_at": "2026-01-24",
+      "creatives": [
+        {
+          "id": "9e238a9505815d94",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/c493320a6d060803/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/c493320a6d060803/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/c493320a6d060803/thumb",
+          "video_duration": 17,
+          "width": 1080,
+          "height": 1920,
+          "title": "立即下載🔥",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "a73dc953ee99d943",
+      "app_id": "67521e1488f0c8b99395a71f",
+      "network": "Facebook",
+      "phashion_group": "a73dc953ee99d943",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-03",
+      "last_seen_at": "2026-01-22",
+      "creatives": [
+        {
+          "id": "a73dc953ee99d943",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/cf0fa2b889069d65/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/cf0fa2b889069d65/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/cf0fa2b889069d65/thumb",
+          "video_duration": 50,
+          "width": 1080,
+          "height": 1920,
+          "title": "立即下載🔥",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "0a65ed6061dd5e2c",
+      "app_id": "67521e1488f0c8b99395a71f",
+      "network": "Instagram",
+      "phashion_group": "0a65ed6061dd5e2c",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-03",
+      "last_seen_at": "2026-01-22",
+      "creatives": [
+        {
+          "id": "0a65ed6061dd5e2c",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/cf0fa2b889069d65/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/cf0fa2b889069d65/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/cf0fa2b889069d65/thumb",
+          "video_duration": 50,
+          "width": 1080,
+          "height": 1920,
+          "title": "立即下載🔥",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "95bf1a27e181c8f2",
+      "app_id": "67521e1488f0c8b99395a71f",
+      "network": "Meta Audience Network",
+      "phashion_group": "95bf1a27e181c8f2",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-03",
+      "last_seen_at": "2026-01-22",
+      "creatives": [
+        {
+          "id": "95bf1a27e181c8f2",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/cf0fa2b889069d65/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/cf0fa2b889069d65/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/cf0fa2b889069d65/thumb",
+          "video_duration": 50,
+          "width": 1080,
+          "height": 1920,
+          "title": "立即下載🔥",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "b8d0f74c9f8c67dc",
+      "app_id": "67521e1488f0c8b99395a71f",
+      "network": "Facebook",
+      "phashion_group": "b8d0f74c9f8c67dc",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-12",
+      "last_seen_at": "2026-01-24",
+      "creatives": [
+        {
+          "id": "b8d0f74c9f8c67dc",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/d0e29ca7f81323fa/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/d0e29ca7f81323fa/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/d0e29ca7f81323fa/thumb",
+          "video_duration": 41,
+          "width": 1080,
+          "height": 1920,
+          "title": "立即下載🔥",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "1588d37f10c8e0b3",
+      "app_id": "67521e1488f0c8b99395a71f",
+      "network": "Instagram",
+      "phashion_group": "1588d37f10c8e0b3",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-12",
+      "last_seen_at": "2026-01-24",
+      "creatives": [
+        {
+          "id": "1588d37f10c8e0b3",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/d0e29ca7f81323fa/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/d0e29ca7f81323fa/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/d0e29ca7f81323fa/thumb",
+          "video_duration": 41,
+          "width": 1080,
+          "height": 1920,
+          "title": "立即下載🔥",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "8a5224389094766d",
+      "app_id": "67521e1488f0c8b99395a71f",
+      "network": "Meta Audience Network",
+      "phashion_group": "8a5224389094766d",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-12",
+      "last_seen_at": "2026-01-24",
+      "creatives": [
+        {
+          "id": "8a5224389094766d",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/d0e29ca7f81323fa/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/d0e29ca7f81323fa/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/d0e29ca7f81323fa/thumb",
+          "video_duration": 41,
+          "width": 1080,
+          "height": 1920,
+          "title": "立即下載🔥",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "9d464dc537ce7cf3",
+      "app_id": "67521e1488f0c8b99395a71f",
+      "network": "Facebook",
+      "phashion_group": "9d464dc537ce7cf3",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-12",
+      "last_seen_at": "2026-01-24",
+      "creatives": [
+        {
+          "id": "9d464dc537ce7cf3",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/f574262e505138d5/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/f574262e505138d5/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/f574262e505138d5/thumb",
+          "video_duration": 42,
+          "width": 1080,
+          "height": 1920,
+          "title": "立即下載🔥",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "301e69f6b88afb9c",
+      "app_id": "67521e1488f0c8b99395a71f",
+      "network": "Instagram",
+      "phashion_group": "301e69f6b88afb9c",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-12",
+      "last_seen_at": "2026-01-24",
+      "creatives": [
+        {
+          "id": "301e69f6b88afb9c",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/f574262e505138d5/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/f574262e505138d5/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/f574262e505138d5/thumb",
+          "video_duration": 42,
+          "width": 1080,
+          "height": 1920,
+          "title": "立即下載🔥",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "afc49eb138d66d42",
+      "app_id": "67521e1488f0c8b99395a71f",
+      "network": "Meta Audience Network",
+      "phashion_group": "afc49eb138d66d42",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-12",
+      "last_seen_at": "2026-01-24",
+      "creatives": [
+        {
+          "id": "afc49eb138d66d42",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/f574262e505138d5/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/f574262e505138d5/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/f574262e505138d5/thumb",
+          "video_duration": 42,
+          "width": 1080,
+          "height": 1920,
+          "title": "立即下載🔥",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    }
+  ]
+}

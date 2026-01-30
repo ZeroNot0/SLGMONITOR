@@ -1,0 +1,46 @@
+{
+  "count": 1,
+  "available_networks": [
+    "TikTok"
+  ],
+  "ad_units": [
+    {
+      "id": "2fe971cff1fcc4a1",
+      "app_id": "62c3caa98d5b737fed085e68",
+      "network": "TikTok",
+      "phashion_group": "2fe971cff1fcc4a1",
+      "ad_type": "video",
+      "first_seen_at": "2022-09-16",
+      "last_seen_at": "2026-01-29",
+      "creatives": [
+        {
+          "id": "2fe971cff1fcc4a1",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/53f744b1adb57435/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/53f744b1adb57435/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/53f744b1adb57435/thumb",
+          "video_duration": 30,
+          "width": 720,
+          "height": 1280,
+          "message": "Strategy games can be hard, so let's play this!"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    }
+  ]
+}
