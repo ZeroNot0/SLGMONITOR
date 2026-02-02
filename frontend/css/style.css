@@ -49,6 +49,103 @@ body {
   color: #bdc3c7;
 }
 
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.header-username {
+  font-size: 0.9rem;
+  color: #95a5a6;
+}
+
+.btn-logout {
+  padding: 0.25rem 0.75rem;
+  font-size: 0.85rem;
+  color: var(--header-text);
+  background: rgba(255,255,255,0.15);
+  border: 1px solid rgba(255,255,255,0.3);
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-logout:hover {
+  background: rgba(255,255,255,0.25);
+}
+
+/* 登录层 */
+.login-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(44, 62, 80, 0.95);
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-box {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+  min-width: 320px;
+}
+
+.login-title {
+  margin: 0 0 0.25rem;
+  font-size: 1.25rem;
+  color: #2c3e50;
+}
+
+.login-desc {
+  margin: 0 0 1.5rem;
+  font-size: 0.9rem;
+  color: #7f8c8d;
+}
+
+.login-form .login-input {
+  display: block;
+  width: 100%;
+  margin-bottom: 1rem;
+  padding: 0.6rem 0.75rem;
+  font-size: 1rem;
+  border: 1px solid #bdc3c7;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.login-form .login-input:focus {
+  outline: none;
+  border-color: var(--top-nav-active);
+}
+
+.login-error {
+  margin: 0 0 0.75rem;
+  font-size: 0.85rem;
+  color: var(--change-down);
+  min-height: 1.2em;
+}
+
+.login-submit {
+  width: 100%;
+  padding: 0.65rem;
+  font-size: 1rem;
+  color: #fff;
+  background: var(--top-nav-active);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.login-submit:hover {
+  background: #d35400;
+}
+
 /* 主导航：公司维度 / 产品维度 / 素材维度 / 组合分析 */
 .top-nav {
   display: flex;
@@ -127,6 +224,17 @@ body {
   background: var(--top-nav-active);
   color: #fff;
 }
+
+/* 上线新游：在总表中存在为「是」时标红 */
+.new-product-in-total-yes { color: #c00; }
+
+/* 数据维护页：隐藏侧边栏，主内容区占满 */
+#layout.layout-maintenance .sidebar { display: none; }
+#layout.layout-maintenance .main { flex: 1; min-width: 0; }
+
+/* 数据底表页：仅「产品总表」时显示侧边栏，其他底表选项隐藏侧边栏 */
+#layout.layout-basetable-no-sidebar .sidebar { display: none; }
+#layout.layout-basetable-no-sidebar .main { flex: 1; min-width: 0; }
 
 /* 主内容区 */
 .main {
@@ -221,6 +329,32 @@ body {
   font-size: 0.9rem;
   color: #7f8c8d;
   min-width: 80px;
+}
+
+/* 上线新游：仅搜索栏 + 空状态/表格 */
+.product-newgame-wrap {
+  margin-bottom: 0.75rem;
+}
+
+.product-newgame-toolbar {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.5rem 1rem;
+  margin-bottom: 0.75rem;
+}
+
+.product-newgame-content {
+  min-height: 120px;
+}
+
+.product-newgame-empty {
+  padding: 2rem 1rem;
+  text-align: center;
+  color: #7f8c8d;
+  font-size: 0.95rem;
+  background: var(--table-row-alt);
+  border-radius: 6px;
 }
 
 /* 产品详细信息看板 */
@@ -438,6 +572,88 @@ body {
 .company-home-detail-placeholder .product-detail-desc {
   margin: 0;
 }
+
+/* 数据维护：大卡片入口 */
+.maintenance-panel .maintenance-desc {
+  margin-bottom: 1.5rem;
+}
+
+.maintenance-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(420px, 1fr));
+  gap: 1.5rem;
+}
+
+.maintenance-card {
+  border: 1px solid var(--table-border);
+  border-radius: 10px;
+  padding: 1.25rem 1.5rem;
+  background: var(--table-row-alt);
+  box-shadow: 0 1px 3px rgba(0,0,0,0.06);
+}
+
+.maintenance-card-title {
+  font-size: 1.05rem;
+  font-weight: 600;
+  margin: 0 0 0.5rem;
+  color: #2c3e50;
+}
+
+.maintenance-card-desc {
+  font-size: 0.9rem;
+  color: #5a6c7d;
+  margin: 0 0 1rem;
+  line-height: 1.45;
+}
+
+.maintenance-card-form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.maintenance-form-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1rem;
+}
+
+.maintenance-field {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.maintenance-label {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #2c3e50;
+}
+
+.maintenance-input {
+  padding: 0.4rem 0.6rem;
+  border: 1px solid var(--table-border);
+  border-radius: 4px;
+  font-size: 13px;
+  width: 8rem;
+}
+
+.maintenance-file-input {
+  padding: 0.4rem;
+  border: 1px solid var(--table-border);
+  border-radius: 4px;
+  font-size: 13px;
+  max-width: 100%;
+}
+
+.maintenance-status-inline {
+  font-size: 0.9rem;
+  color: #5a6c7d;
+}
+
+.maintenance-status-inline.ok { color: #2e7d32; }
+.maintenance-status-inline.err { color: #c62828; }
 
 /* 素材维度：当前周期与公司/产品维度一致提示 */
 .creative-period-hint {
@@ -703,10 +919,18 @@ body {
 
 .data-table .num { text-align: center; }
 
-/* 周安装/流水变动：▲ 绿色 ▼ 红色 */
+/* 周安装/流水变动：▲ 绿色 ▼ 红色（主表） */
 .data-table .cell-up { color: var(--change-up); }
 
 .data-table .cell-down { color: var(--change-down); }
+
+/* 公司产品汇总表：下降▼绿色、上涨▲红色 */
+.company-product-table .cell-down { color: var(--change-up); }
+.company-product-table .cell-up { color: var(--change-down); }
+
+/* 公司产品汇总表：表头可点击排序，hover 与主表一致（蓝色高亮，不泛白） */
+.company-product-table th.sortable { cursor: pointer; }
+.company-product-table th.sortable:hover { background: #5a8fd4; }
 
 /* 周安装变动列：与公司维度统一，红色显示（去+号由 formatCell 处理） */
 .data-table .cell-change-pct { color: var(--change-down); }

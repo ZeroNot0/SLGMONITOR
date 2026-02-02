@@ -7,9 +7,27 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+  <!-- 登录层：未登录时显示，登录后隐藏 -->
+  <div id="loginOverlay" class="login-overlay" style="display:none;">
+    <div class="login-box">
+      <h1 class="login-title">SLG 竞对数据监测</h1>
+      <p class="login-desc">请登录后使用</p>
+      <form id="loginForm" class="login-form">
+        <input type="text" id="loginUsername" class="login-input" placeholder="用户名" autocomplete="username" required>
+        <input type="password" id="loginPassword" class="login-input" placeholder="密码" autocomplete="current-password" required>
+        <p id="loginError" class="login-error"></p>
+        <button type="submit" id="loginSubmit" class="login-submit">登录</button>
+      </form>
+    </div>
+  </div>
+
   <header class="header">
     <span class="logo">SLG竞对数据监测演示DEMO</span>
     <span class="data-time-range" id="dataTimeRange" title="根据 weeks_index 自动更新">数据时间: —</span>
+    <span class="header-right">
+      <span id="headerUsername" class="header-username"></span>
+      <button type="button" id="btnLogout" class="btn-logout">退出</button>
+    </span>
     <span class="local-time" id="localTime">本机时间: --</span>
   </header>
 
@@ -18,9 +36,11 @@
     <a href="#" class="top-nav-link" data-dim="product">产品维度</a>
     <a href="#" class="top-nav-link" data-dim="creative">素材维度</a>
     <a href="#" class="top-nav-link" data-dim="combo">组合分析</a>
+    <a href="#" class="top-nav-link" data-dim="basetable">数据底表</a>
+    <a href="#" class="top-nav-link" data-dim="maintenance">数据维护</a>
   </nav>
 
-  <div class="layout">
+  <div id="layout" class="layout">
     <aside class="sidebar">
       <div id="sidebarYears"></div>
     </aside>
@@ -38,6 +58,7 @@
             <label class="search-label">搜索:</label>
             <input type="text" id="searchInput" class="search-input" placeholder="搜索表格内容...">
             <button type="button" class="btn-download" id="btnDownload">下载表格</button>
+            <button type="button" class="btn-download" id="btnDownloadMonitorTable">下载数据监测表</button>
           </div>
         </div>
         <div id="companyHomeDetailPlaceholder" class="company-home-detail-placeholder" style="display:none;">
@@ -68,7 +89,7 @@
           <p id="companyDetailTableDateRange" class="product-detail-desc">20xx年-xx月-xx日 ~ 20xx年-xx月-xx日</p>
           <div class="company-product-table-wrap">
             <table class="data-table company-product-table">
-              <thead><tr><th>产品名</th><th>上线时间</th><th>周安装变动（最新周）</th><th>周流水变动（最新周）</th></tr></thead>
+              <thead><tr><th data-col="0" class="sortable">产品名</th><th data-col="1" class="sortable">上线时间</th><th data-col="2" class="sortable">最新周安装</th><th data-col="3" class="sortable">周安装变动（最新周）</th><th data-col="4" class="sortable">最新周流水</th><th data-col="5" class="sortable">周流水变动（最新周）</th></tr></thead>
               <tbody id="companyDetailProductBody"></tbody>
             </table>
           </div>
@@ -103,10 +124,15 @@
         </div>
       </div>
 
-      <!-- 产品维度：爆量产品地区数据 -->
+      <!-- 产品维度：大盘数据 / 上线新游 / 详细数据，与公司维度布局统一 -->
       <div id="panelProduct" class="main-panel" style="display:none;">
         <h1 class="main-title" id="productTitle">请从左侧选择周期</h1>
-        <div class="product-toolbar">
+        <nav class="company-detail-sub-nav" id="productHomeSubNav">
+          <a href="#" class="company-detail-sub-link active" data-tab="overall">大盘数据</a>
+          <a href="#" class="company-detail-sub-link" data-tab="new">上线新游</a>
+          <a href="#" class="company-detail-sub-link" data-tab="detail">详细数据</a>
+        </nav>
+        <div class="product-toolbar" id="productToolbar">
           <label class="product-label">产品选择:</label>
           <select id="productSelect" class="product-select">
             <option value="old">SLG爆量旧产品</option>
@@ -118,15 +144,40 @@
           <input type="text" id="productSearchInput" class="search-input" placeholder="搜索表格内容...">
           <button type="button" class="btn-download" id="btnProductDownload">下载表格</button>
         </div>
+        <div id="productNewGameWrap" class="product-newgame-wrap" style="display:none;">
+          <div class="product-toolbar product-newgame-toolbar">
+            <label class="search-label">搜索:</label>
+            <input type="text" id="productNewGameSearch" class="search-input" placeholder="搜索上线新游...">
+          </div>
+          <div id="productNewGameContent" class="product-newgame-content">
+            <div id="productNewGameEmpty" class="product-newgame-empty">本周暂无新 SLG 游戏上线测试记录</div>
+            <div id="productNewGameTableWrap" class="table-wrap" style="display:none;">
+              <table class="data-table" id="productNewGameTable">
+                <thead id="productNewGameTableHead"></thead>
+                <tbody id="productNewGameTableBody"></tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+        <div id="productHomeDetailPlaceholder" class="company-home-detail-placeholder" style="display:none;">
+          <p class="company-home-detail-prompt">请选择产品</p>
+          <p class="product-detail-desc">请在大盘数据表格中点击「产品归属」列的产品名，进入该产品详细信息。</p>
+        </div>
       </div>
 
-      <!-- 产品详细信息看板（从产品维度点击产品进入） -->
+      <!-- 产品详细信息看板（与产品维度首页导航统一：大盘数据 | 上线新游 | 详细数据） -->
       <div id="panelProductDetail" class="main-panel" style="display:none;">
         <h1 class="main-title" id="productDetailTitle">产品详细信息</h1>
-        <nav class="product-detail-sub-nav">
+        <nav class="product-detail-sub-nav" id="productDetailSubNav">
           <a href="#" class="product-detail-sub-link" data-tab="market">大盘数据</a>
+          <a href="#" class="product-detail-sub-link" data-tab="new">上线新游</a>
           <a href="#" class="product-detail-sub-link active" data-tab="detail">详细数据</a>
         </nav>
+        <div id="productDetailPlaceholder" class="company-home-detail-placeholder" style="display:none;">
+          <p class="company-home-detail-prompt">请选择产品</p>
+          <p class="product-detail-desc">请在大盘数据表格中点击「产品归属」列的产品名，进入该产品详细信息。</p>
+        </div>
+        <div id="productDetailContent">
         <p id="productDetailDateRange" class="product-detail-date-range">20xx年-xx月-xx日 ~ 20xx年-xx月-xx日</p>
         <div class="product-detail-intro">
           <h2 class="product-detail-section-title">产品简介</h2>
@@ -178,6 +229,7 @@
           <div class="product-detail-jump-wrap">
             <button type="button" id="btnProductDetailToCreative" class="btn-download product-detail-jump-btn">跳转详细</button>
           </div>
+        </div>
         </div>
       </div>
 
@@ -289,6 +341,194 @@
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 数据底表：侧边栏仍为时间，左侧子导航为各底表，主区展示表格 -->
+      <div id="panelBasetable" class="main-panel" style="display:none;">
+        <h1 class="main-title" id="basetableTitle">数据底表</h1>
+        <nav class="company-detail-sub-nav" id="basetableSubNav">
+          <a href="#" class="company-detail-sub-link" data-tab="metrics_total">产品总表</a>
+          <a href="#" class="company-detail-sub-link" data-tab="product_mapping">产品归属表</a>
+          <a href="#" class="company-detail-sub-link" data-tab="company_mapping">公司归属表</a>
+          <a href="#" class="company-detail-sub-link" data-tab="new_products">新产品监测表</a>
+          <a href="#" class="company-detail-sub-link" data-tab="theme_label">题材标签表</a>
+          <a href="#" class="company-detail-sub-link" data-tab="gameplay_label">玩法标签表</a>
+          <a href="#" class="company-detail-sub-link" data-tab="art_style_label">画风标签表</a>
+        </nav>
+        <p id="basetablePeriodHint" class="product-detail-desc" style="display:none;">当前周期：<span id="basetablePeriodText"></span>（产品总表按所选周展示）</p>
+        <div id="basetableMetricsToolbar" class="product-toolbar product-newgame-toolbar" style="display:none;">
+          <label class="search-label">搜索:</label>
+          <input type="text" id="basetableMetricsSearch" class="search-input" placeholder="输入关键词搜索产品总表…">
+          <span id="basetableMetricsHint" class="product-period" style="margin-left:0.5rem;"></span>
+        </div>
+        <div id="basetableOtherToolbar" class="product-toolbar product-newgame-toolbar" style="display:none;">
+          <label class="search-label">搜索:</label>
+          <input type="text" id="basetableOtherSearch" class="search-input" placeholder="输入关键词筛选当前表格…">
+          <span id="basetableOtherHint" class="product-period" style="margin-left:0.5rem;"></span>
+        </div>
+        <div id="basetableEmpty" class="company-home-detail-placeholder" style="display:none;">
+          <p class="company-home-detail-prompt">请从左侧选择要查看的底表</p>
+        </div>
+        <div id="basetableTableWrap" class="table-wrap" style="display:none;">
+          <table class="data-table" id="basetableTable">
+            <thead id="basetableTableHead"></thead>
+            <tbody id="basetableTableBody"></tbody>
+          </table>
+        </div>
+      </div>
+
+      <!-- 数据维护：大卡片功能入口，无侧边栏 -->
+      <div id="panelMaintenance" class="main-panel maintenance-panel" style="display:none;">
+        <h1 class="main-title">数据维护</h1>
+        <p class="product-detail-desc maintenance-desc">选择下方功能卡片，上传数据并由后端处理，完成前端数据更新。</p>
+        <div class="maintenance-cards">
+          <div class="maintenance-card" id="maintenanceCardPhase1">
+            <h2 class="maintenance-card-title">公司维度大盘数据（第一步）</h2>
+            <p class="maintenance-card-desc">上传 13 个 CSV 表（如 0119-0125-action.csv、0119-0125-strategy.csv 等），选择对应年份与周，执行流水线第一步并更新公司维度首页大盘数据。执行结束后会自动将 metrics_total 表转为 JSON（frontend/data/{年}/{周}/metrics_total.json），供【数据底表】-【产品总表】按周查看。</p>
+            <form id="maintenancePhase1Form" class="maintenance-card-form">
+              <div class="maintenance-form-row">
+                <div class="maintenance-field">
+                  <label class="maintenance-label">年份</label>
+                  <input type="number" id="maintenanceYear" name="year" min="2020" max="2030" placeholder="如 2026" class="maintenance-input" required>
+                </div>
+                <div class="maintenance-field">
+                  <label class="maintenance-label">周标签</label>
+                  <input type="text" id="maintenanceWeek" name="week_tag" placeholder="如 0119-0125" pattern="\d{4}-\d{4}" class="maintenance-input" required>
+                </div>
+              </div>
+              <div class="maintenance-field">
+                <label class="maintenance-label">选择 13 个 CSV 文件（可多选）</label>
+                <input type="file" id="maintenancePhase1Files" name="files" multiple accept=".csv" class="maintenance-file-input">
+              </div>
+              <div class="maintenance-form-row">
+                <button type="submit" id="maintenancePhase1Submit" class="btn-download">上传并执行第一步</button>
+                <span id="maintenancePhase1Status" class="maintenance-status-inline"></span>
+              </div>
+            </form>
+          </div>
+          <div class="maintenance-card" id="maintenanceCardPhase2_1">
+            <h2 class="maintenance-card-title">产品维度拉取目标产品分地区数据（2.1 步）</h2>
+            <p class="maintenance-card-desc">选择年份与周、策略/非策略目标、新/老产品、拉取数量，执行流水线 2.1 步并更新产品维度分地区数据。（需先完成第一步生成目标产品表。）</p>
+            <form id="maintenancePhase2_1Form" class="maintenance-card-form">
+              <div class="maintenance-form-row">
+                <div class="maintenance-field">
+                  <label class="maintenance-label">年份</label>
+                  <input type="number" id="maintenancePhase2_1Year" name="year" min="2020" max="2030" placeholder="如 2026" class="maintenance-input" required>
+                </div>
+                <div class="maintenance-field">
+                  <label class="maintenance-label">周标签</label>
+                  <input type="text" id="maintenancePhase2_1Week" name="week_tag" placeholder="如 0119-0125" pattern="\d{4}-\d{4}" class="maintenance-input" required>
+                </div>
+              </div>
+              <div class="maintenance-form-row">
+                <div class="maintenance-field">
+                  <label class="maintenance-label">目标产品</label>
+                  <select id="maintenancePhase2_1Target" class="maintenance-input">
+                    <option value="strategy">策略产品</option>
+                    <option value="non_strategy">非策略产品</option>
+                  </select>
+                </div>
+                <div class="maintenance-field">
+                  <label class="maintenance-label">新/老产品</label>
+                  <select id="maintenancePhase2_1ProductType" class="maintenance-input">
+                    <option value="old">老产品</option>
+                    <option value="new">新产品</option>
+                    <option value="both">全部</option>
+                  </select>
+                </div>
+                <div class="maintenance-field">
+                  <label class="maintenance-label">拉取数量</label>
+                  <select id="maintenancePhase2_1Limit" class="maintenance-input">
+                    <option value="top1">1</option>
+                    <option value="top5">5</option>
+                    <option value="top10">10</option>
+                    <option value="top20">20</option>
+                    <option value="all">全部</option>
+                  </select>
+                </div>
+              </div>
+              <div class="maintenance-form-row">
+                <button type="submit" id="maintenancePhase2_1Submit" class="btn-download">拉取并执行 2.1 步</button>
+                <span id="maintenancePhase2_1Status" class="maintenance-status-inline"></span>
+              </div>
+            </form>
+          </div>
+          <div class="maintenance-card" id="maintenanceCardPhase2_2">
+            <h2 class="maintenance-card-title">素材维度拉取目标产品创意数据（2.2 步）</h2>
+            <p class="maintenance-card-desc">选择年份与周、策略/非策略目标、新/老产品、拉取数量，执行流水线 2.2 步并更新素材维度创意数据。（需先完成第一步生成目标产品表。）</p>
+            <form id="maintenancePhase2_2Form" class="maintenance-card-form">
+              <div class="maintenance-form-row">
+                <div class="maintenance-field">
+                  <label class="maintenance-label">年份</label>
+                  <input type="number" id="maintenancePhase2_2Year" name="year" min="2020" max="2030" placeholder="如 2026" class="maintenance-input" required>
+                </div>
+                <div class="maintenance-field">
+                  <label class="maintenance-label">周标签</label>
+                  <input type="text" id="maintenancePhase2_2Week" name="week_tag" placeholder="如 0119-0125" pattern="\d{4}-\d{4}" class="maintenance-input" required>
+                </div>
+              </div>
+              <div class="maintenance-form-row">
+                <div class="maintenance-field">
+                  <label class="maintenance-label">目标产品</label>
+                  <select id="maintenancePhase2_2Target" class="maintenance-input">
+                    <option value="strategy">策略产品</option>
+                    <option value="non_strategy">非策略产品</option>
+                  </select>
+                </div>
+                <div class="maintenance-field">
+                  <label class="maintenance-label">新/老产品</label>
+                  <select id="maintenancePhase2_2ProductType" class="maintenance-input">
+                    <option value="old">老产品</option>
+                    <option value="new">新产品</option>
+                    <option value="both">全部</option>
+                  </select>
+                </div>
+                <div class="maintenance-field">
+                  <label class="maintenance-label">拉取数量</label>
+                  <select id="maintenancePhase2_2Limit" class="maintenance-input">
+                    <option value="top1">1</option>
+                    <option value="top5">5</option>
+                    <option value="top10">10</option>
+                    <option value="top20">20</option>
+                    <option value="all">全部</option>
+                  </select>
+                </div>
+              </div>
+              <div class="maintenance-form-row">
+                <button type="submit" id="maintenancePhase2_2Submit" class="btn-download">拉取并执行 2.2 步</button>
+                <span id="maintenancePhase2_2Status" class="maintenance-status-inline"></span>
+              </div>
+            </form>
+          </div>
+          <div class="maintenance-card" id="maintenanceCardMappingUpdate">
+            <h2 class="maintenance-card-title">产品/公司归属表更新</h2>
+            <p class="maintenance-card-desc">上传包含必填列的产品归属表 Excel（.xlsx），系统将合并进 mapping 总表，用于与总表匹配及监测/目标产品。必填列：产品名（实时更新中）、Unified ID、产品归属、题材、画风、发行商；公司归属可选，缺则按发行商在公司归属表中查找补全。合成表包含 7 列；若已有行与上传行任一一列不同则用上传行更新。</p>
+            <form id="maintenanceMappingUpdateForm" class="maintenance-card-form">
+              <div class="maintenance-field">
+                <label class="maintenance-label">选择 Excel 文件（.xlsx）</label>
+                <input type="file" id="maintenanceMappingUpdateFile" name="file" accept=".xlsx" class="maintenance-file-input">
+              </div>
+              <div class="maintenance-form-row">
+                <button type="submit" id="maintenanceMappingUpdateSubmit" class="btn-download">上传并更新归属表</button>
+                <span id="maintenanceMappingUpdateStatus" class="maintenance-status-inline"></span>
+              </div>
+            </form>
+          </div>
+          <div class="maintenance-card" id="maintenanceCardNewProducts">
+            <h2 class="maintenance-card-title">新产品监测表</h2>
+            <p class="maintenance-card-desc">上传新产品监测表 Excel（.xlsx），保存到 newproducts/ 并生成 frontend/data/new_products.json，供【产品维度】-【上线新游】页面展示。建议列：产品名（实时更新中）、产品归属、题材、画风、发行商、公司归属、开测时间、是否下架。</p>
+            <form id="maintenanceNewProductsForm" class="maintenance-card-form">
+              <div class="maintenance-field">
+                <label class="maintenance-label">选择 Excel 文件（.xlsx）</label>
+                <input type="file" id="maintenanceNewProductsFile" name="file" accept=".xlsx" class="maintenance-file-input">
+              </div>
+              <div class="maintenance-form-row">
+                <button type="submit" id="maintenanceNewProductsSubmit" class="btn-download">上传并更新新产品监测表</button>
+                <span id="maintenanceNewProductsStatus" class="maintenance-status-inline"></span>
+              </div>
+            </form>
           </div>
         </div>
       </div>

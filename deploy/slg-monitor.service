@@ -1,0 +1,16 @@
+[Unit]
+Description=SLG Monitor 3.0 HTTP Service
+After=network.target
+
+[Service]
+Type=simple
+User=www-data
+Group=www-data
+WorkingDirectory=/opt/slg-monitor
+Environment=PATH=/opt/slg-monitor/venv/bin:/usr/local/bin:/usr/bin:/bin
+ExecStart=/opt/slg-monitor/venv/bin/python start_server.py --port 8000
+Restart=on-failure
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,4017 @@
+{
+  "count": 685,
+  "available_networks": [
+    "Facebook",
+    "Instagram",
+    "Meta Audience Network",
+    "TikTok"
+  ],
+  "ad_units": [
+    {
+      "id": "2f96fe772bab43f5",
+      "app_id": "573d973122cbf508c500071e",
+      "network": "TikTok",
+      "phashion_group": "2f96fe772bab43f5",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-05",
+      "last_seen_at": "2026-01-25",
+      "creatives": [
+        {
+          "id": "2f96fe772bab43f5",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0303f46843c54ded/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0303f46843c54ded/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0303f46843c54ded/thumb",
+          "video_duration": 24,
+          "width": 1080,
+          "height": 1920,
+          "message": "Get ready for fierce battles"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "f60b2869245a78e0",
+      "app_id": "573d973122cbf508c500071e",
+      "network": "TikTok",
+      "phashion_group": "f60b2869245a78e0",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-19",
+      "last_seen_at": "2026-01-27",
+      "creatives": [
+        {
+          "id": "f60b2869245a78e0",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/03f150bff247734f/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/03f150bff247734f/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/03f150bff247734f/thumb",
+          "video_duration": 30,
+          "width": 1080,
+          "height": 1920,
+          "message": "Love Adventure Games? Try THIS"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "87a56e36045fb241",
+      "app_id": "573d973122cbf508c500071e",
+      "network": "Facebook",
+      "phashion_group": "87a56e36045fb241",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-16",
+      "last_seen_at": "2026-01-21",
+      "creatives": [
+        {
+          "id": "87a56e36045fb241",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/044d4fc4ea85eea8/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/044d4fc4ea85eea8/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/044d4fc4ea85eea8/thumb",
+          "video_duration": 30,
+          "width": 1080,
+          "height": 1920,
+          "title": "😎Design your empire your way!",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "9c234149846d67f0",
+      "app_id": "573d973122cbf508c500071e",
+      "network": "Instagram",
+      "phashion_group": "9c234149846d67f0",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-16",
+      "last_seen_at": "2026-01-21",
+      "creatives": [
+        {
+          "id": "9c234149846d67f0",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/044d4fc4ea85eea8/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/044d4fc4ea85eea8/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/044d4fc4ea85eea8/thumb",
+          "video_duration": 30,
+          "width": 1080,
+          "height": 1920,
+          "title": "😎Design your empire your way!",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "b527bd420b47a3f0",
+      "app_id": "573d973122cbf508c500071e",
+      "network": "Meta Audience Network",
+      "phashion_group": "b527bd420b47a3f0",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-16",
+      "last_seen_at": "2026-01-21",
+      "creatives": [
+        {
+          "id": "b527bd420b47a3f0",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/044d4fc4ea85eea8/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/044d4fc4ea85eea8/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/044d4fc4ea85eea8/thumb",
+          "video_duration": 30,
+          "width": 1080,
+          "height": 1920,
+          "title": "😎Design your empire your way!",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "86cde656365c65af",
+      "app_id": "573d973122cbf508c500071e",
+      "network": "Facebook",
+      "phashion_group": "86cde656365c65af",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-07",
+      "last_seen_at": "2026-02-01",
+      "creatives": [
+        {
+          "id": "86cde656365c65af",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0525c7a4d8863946/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0525c7a4d8863946/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0525c7a4d8863946/thumb",
+          "video_duration": 30,
+          "width": 1080,
+          "height": 1920,
+          "title": "😎Design your empire your way!",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "9d4bc929b66eb01e",
+      "app_id": "573d973122cbf508c500071e",
+      "network": "Instagram",
+      "phashion_group": "9d4bc929b66eb01e",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-07",
+      "last_seen_at": "2026-02-01",
+      "creatives": [
+        {
+          "id": "9d4bc929b66eb01e",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0525c7a4d8863946/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0525c7a4d8863946/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0525c7a4d8863946/thumb",
+          "video_duration": 30,
+          "width": 1080,
+          "height": 1920,
+          "title": "😎Design your empire your way!",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "b44f35223944741e",
+      "app_id": "573d973122cbf508c500071e",
+      "network": "Meta Audience Network",
+      "phashion_group": "b44f35223944741e",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-07",
+      "last_seen_at": "2026-02-01",
+      "creatives": [
+        {
+          "id": "b44f35223944741e",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0525c7a4d8863946/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0525c7a4d8863946/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0525c7a4d8863946/thumb",
+          "video_duration": 30,
+          "width": 1080,
+          "height": 1920,
+          "title": "😎Design your empire your way!",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "5ceca91a433699f6",
+      "app_id": "573d973122cbf508c500071e",
+      "network": "TikTok",
+      "phashion_group": "5ceca91a433699f6",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-27",
+      "last_seen_at": "2026-01-23",
+      "creatives": [
+        {
+          "id": "5ceca91a433699f6",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/06ebfa645f3cc05c/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/06ebfa645f3cc05c/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/06ebfa645f3cc05c/thumb",
+          "video_duration": 30,
+          "width": 1080,
+          "height": 1920,
+          "message": "Love Adventure Games? Try THIS"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "84bf160c66654a51",
+      "app_id": "573d973122cbf508c500071e",
+      "network": "Facebook",
+      "phashion_group": "84bf160c66654a51",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-05",
+      "last_seen_at": "2026-02-01",
+      "creatives": [
+        {
+          "id": "84bf160c66654a51",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/075737fe88bf16b8/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/075737fe88bf16b8/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/075737fe88bf16b8/thumb",
+          "video_duration": 35,
+          "width": 1080,
+          "height": 1920,
+          "title": "😎Design your empire your way!",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "9f393973e6579fe0",
+      "app_id": "573d973122cbf508c500071e",
+      "network": "Instagram",
+      "phashion_group": "9f393973e6579fe0",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-05",
+      "last_seen_at": "2026-02-01",
+      "creatives": [
+        {
+          "id": "9f393973e6579fe0",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/075737fe88bf16b8/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/075737fe88bf16b8/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/075737fe88bf16b8/thumb",
+          "video_duration": 35,
+          "width": 1080,
+          "height": 1920,
+          "title": "😎Design your empire your way!",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "b63dc578697d5be0",
+      "app_id": "573d973122cbf508c500071e",
+      "network": "Meta Audience Network",
+      "phashion_group": "b63dc578697d5be0",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-05",
+      "last_seen_at": "2026-02-01",
+      "creatives": [
+        {
+          "id": "b63dc578697d5be0",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/075737fe88bf16b8/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/075737fe88bf16b8/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/075737fe88bf16b8/thumb",
+          "video_duration": 35,
+          "width": 1080,
+          "height": 1920,
+          "title": "😎Design your empire your way!",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "4fa4b7b94b37d2dc",
+      "app_id": "573d973122cbf508c500071e",
+      "network": "TikTok",
+      "phashion_group": "4fa4b7b94b37d2dc",
+      "ad_type": "video",
+      "first_seen_at": "2025-09-08",
+      "last_seen_at": "2026-02-01",
+      "creatives": [
+        {
+          "id": "4fa4b7b94b37d2dc",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/097c7969233e0bb5/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/097c7969233e0bb5/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/097c7969233e0bb5/thumb",
+          "video_duration": 30,
+          "width": 720,
+          "height": 1280,
+          "message": "Conquer or Embark,A world filled with political intrigue and epic confrontations awaits"
+        },
+        {
+          "id": "537b2a173f34521f",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/097c7969233e0bb5/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/097c7969233e0bb5/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/097c7969233e0bb5/thumb",
+          "video_duration": 30,
+          "width": 720,
+          "height": 1280,
+          "message": "Love Adventure Games? Try THIS"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "27e6b350478c4dec",
+      "app_id": "573d973122cbf508c500071e",
+      "network": "TikTok",
+      "phashion_group": "27e6b350478c4dec",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-04",
+      "last_seen_at": "2026-01-29",
+      "creatives": [
+        {
+          "id": "27e6b350478c4dec",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0b73b94f2fe243f4/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0b73b94f2fe243f4/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0b73b94f2fe243f4/thumb",
+          "video_duration": 29,
+          "width": 1080,
+          "height": 1920,
+          "message": "Get ready for fierce battles"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "9315d49418fbe3cd",
+      "app_id": "573d973122cbf508c500071e",
+      "network": "Facebook",
+      "phashion_group": "9315d49418fbe3cd",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-01",
+      "last_seen_at": "2026-01-05",
+      "creatives": [
+        {
+          "id": "9315d49418fbe3cd",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0b773427f770fd74/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0b773427f770fd74/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0b773427f770fd74/thumb",
+          "video_duration": 20,
+          "width": 1080,
+          "height": 1920,
+          "title": "🔥🔥🔥🔥🔥",
+          "button_text": "Play Game",
+          "message": "🔥🔥🔥"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "8893fbeb98c9367c",
+      "app_id": "573d973122cbf508c500071e",
+      "network": "Instagram",
+      "phashion_group": "8893fbeb98c9367c",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-01",
+      "last_seen_at": "2026-01-05",
+      "creatives": [
+        {
+          "id": "8893fbeb98c9367c",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0b773427f770fd74/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0b773427f770fd74/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0b773427f770fd74/thumb",
+          "video_duration": 20,
+          "width": 1080,
+          "height": 1920,
+          "title": "🔥🔥🔥🔥🔥",
+          "button_text": "Play Game",
+          "message": "🔥🔥🔥"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "a19707e017e3f27c",
+      "app_id": "573d973122cbf508c500071e",
+      "network": "Meta Audience Network",
+      "phashion_group": "a19707e017e3f27c",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-01",
+      "last_seen_at": "2026-01-05",
+      "creatives": [
+        {
+          "id": "a19707e017e3f27c",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0b773427f770fd74/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0b773427f770fd74/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0b773427f770fd74/thumb",
+          "video_duration": 20,
+          "width": 1080,
+          "height": 1920,
+          "title": "🔥🔥🔥🔥🔥",
+          "button_text": "Play Game",
+          "message": "🔥🔥🔥"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "51af9b7be2b8dc41",
+      "app_id": "573d973122cbf508c500071e",
+      "network": "TikTok",
+      "phashion_group": "51af9b7be2b8dc41",
+      "ad_type": "video",
+      "first_seen_at": "2025-04-28",
+      "last_seen_at": "2026-01-13",
+      "creatives": [
+        {
+          "id": "51af9b7be2b8dc41",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0ba8c805feb285eb/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0ba8c805feb285eb/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0ba8c805feb285eb/thumb",
+          "video_duration": 47,
+          "width": 720,
+          "height": 1280,
+          "message": "Love Adventure Games? Try THIS"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "8f938fef4ff53447",
+      "app_id": "573d973122cbf508c500071e",
+      "network": "Facebook",
+      "phashion_group": "8f938fef4ff53447",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-01",
+      "last_seen_at": "2026-01-06",
+      "creatives": [
+        {
+          "id": "8f938fef4ff53447",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0c7bae1da12f68ae/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0c7bae1da12f68ae/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0c7bae1da12f68ae/thumb",
+          "video_duration": 34,
+          "width": 1080,
+          "height": 1920,
+          "title": "Once you start, you’re hooked!",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "9415a090cfc7e1f6",
+      "app_id": "573d973122cbf508c500071e",
+      "network": "Instagram",
+      "phashion_group": "9415a090cfc7e1f6",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-01",
+      "last_seen_at": "2026-01-06",
+      "creatives": [
+        {
+          "id": "9415a090cfc7e1f6",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0c7bae1da12f68ae/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0c7bae1da12f68ae/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0c7bae1da12f68ae/thumb",
+          "video_duration": 34,
+          "width": 1080,
+          "height": 1920,
+          "title": "Once you start, you’re hooked!",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "bd115c9b40ed25f6",
+      "app_id": "573d973122cbf508c500071e",
+      "network": "Meta Audience Network",
+      "phashion_group": "bd115c9b40ed25f6",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-01",
+      "last_seen_at": "2026-01-06",
+      "creatives": [
+        {
+          "id": "bd115c9b40ed25f6",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0c7bae1da12f68ae/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0c7bae1da12f68ae/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0c7bae1da12f68ae/thumb",
+          "video_duration": 34,
+          "width": 1080,
+          "height": 1920,
+          "title": "Once you start, you’re hooked!",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "8f570e7922c2cecf",
+      "app_id": "573d973122cbf508c500071e",
+      "network": "Facebook",
+      "phashion_group": "8f570e7922c2cecf",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-26",
+      "last_seen_at": "2026-01-12",
+      "creatives": [
+        {
+          "id": "8f570e7922c2cecf",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0cbf2f8bcc189226/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0cbf2f8bcc189226/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0cbf2f8bcc189226/thumb",
+          "video_duration": 20,
+          "width": 1080,
+          "height": 1920,
+          "title": "Battle never ends!",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "94d12106a2f01b7e",
+      "app_id": "573d973122cbf508c500071e",
+      "network": "Instagram",
+      "phashion_group": "94d12106a2f01b7e",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-26",
+      "last_seen_at": "2026-01-12",
+      "creatives": [
+        {
+          "id": "94d12106a2f01b7e",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0cbf2f8bcc189226/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0cbf2f8bcc189226/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0cbf2f8bcc189226/thumb",
+          "video_duration": 20,
+          "width": 1080,
+          "height": 1920,
+          "title": "Battle never ends!",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "bdd5dd0d2ddadf7e",
+      "app_id": "573d973122cbf508c500071e",
+      "network": "Meta Audience Network",
+      "phashion_group": "bdd5dd0d2ddadf7e",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-26",
+      "last_seen_at": "2026-01-12",
+      "creatives": [
+        {
+          "id": "bdd5dd0d2ddadf7e",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0cbf2f8bcc189226/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0cbf2f8bcc189226/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0cbf2f8bcc189226/thumb",
+          "video_duration": 20,
+          "width": 1080,
+          "height": 1920,
+          "title": "Battle never ends!",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "547f589d41e9af6d",
+      "app_id": "573d973122cbf508c500071e",
+      "network": "TikTok",
+      "phashion_group": "547f589d41e9af6d",
+      "ad_type": "video",
+      "first_seen_at": "2025-04-02",
+      "last_seen_at": "2026-02-01",
+      "creatives": [
+        {
+          "id": "547f589d41e9af6d",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0e780be35de3f6c7/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0e780be35de3f6c7/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0e780be35de3f6c7/thumb",
+          "video_duration": 33,
+          "width": 720,
+          "height": 1280,
+          "message": "Love Adventure Games? Try THIS"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "2c31a2b8838d16ea",
+      "app_id": "573d973122cbf508c500071e",
+      "network": "TikTok",
+      "phashion_group": "2c31a2b8838d16ea",
+      "ad_type": "video",
+      "first_seen_at": "2024-10-18",
+      "last_seen_at": "2026-01-12",
+      "creatives": [
+        {
+          "id": "2c31a2b8838d16ea",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0ec18722e306ece2/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0ec18722e306ece2/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0ec18722e306ece2/thumb",
+          "video_duration": 39,
+          "width": 720,
+          "height": 1280,
+          "message": "Why is this game so fun?! Play Now!"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "9688b2645f41c19c",
+      "app_id": "573d973122cbf508c500071e",
+      "network": "Facebook",
+      "phashion_group": "9688b2645f41c19c",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-01",
+      "last_seen_at": "2026-01-05",
+      "creatives": [
+        {
+          "id": "9688b2645f41c19c",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0eea52d7b0cadf25/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0eea52d7b0cadf25/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0eea52d7b0cadf25/thumb",
+          "video_duration": 27,
+          "width": 1080,
+          "height": 1920,
+          "title": "🔥🔥🔥🔥🔥",
+          "button_text": "Play Game",
+          "message": "🔥🔥🔥"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "8d0e9d1bdf73142d",
+      "app_id": "573d973122cbf508c500071e",
+      "network": "Instagram",
+      "phashion_group": "8d0e9d1bdf73142d",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-01",
+      "last_seen_at": "2026-01-05",
+      "creatives": [
+        {
+          "id": "8d0e9d1bdf73142d",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0eea52d7b0cadf25/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0eea52d7b0cadf25/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0eea52d7b0cadf25/thumb",
+          "video_duration": 27,
+          "width": 1080,
+          "height": 1920,
+          "title": "🔥🔥🔥🔥🔥",
+          "button_text": "Play Game",
+          "message": "🔥🔥🔥"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "a40a61105059d02d",
+      "app_id": "573d973122cbf508c500071e",
+      "network": "Meta Audience Network",
+      "phashion_group": "a40a61105059d02d",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-01",
+      "last_seen_at": "2026-01-05",
+      "creatives": [
+        {
+          "id": "a40a61105059d02d",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0eea52d7b0cadf25/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0eea52d7b0cadf25/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0eea52d7b0cadf25/thumb",
+          "video_duration": 27,
+          "width": 1080,
+          "height": 1920,
+          "title": "🔥🔥🔥🔥🔥",
+          "button_text": "Play Game",
+          "message": "🔥🔥🔥"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "55eef27042498923",
+      "app_id": "573d973122cbf508c500071e",
+      "network": "TikTok",
+      "phashion_group": "55eef27042498923",
+      "ad_type": "video",
+      "first_seen_at": "2025-10-15",
+      "last_seen_at": "2026-01-31",
+      "creatives": [
+        {
+          "id": "55eef27042498923",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0fe9a10e5e43d089/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0fe9a10e5e43d089/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0fe9a10e5e43d089/thumb",
+          "video_duration": 28,
+          "width": 720,
+          "height": 1280,
+          "message": "Love Adventure Games? Try THIS"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "e5db26bcef71898c",
+      "app_id": "573d973122cbf508c500071e",
+      "network": "TikTok",
+      "phashion_group": "e5db26bcef71898c",
+      "ad_type": "video",
+      "first_seen_at": "2025-07-21",
+      "last_seen_at": "2026-01-30",
+      "creatives": [
+        {
+          "id": "e5db26bcef71898c",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/10215e6a396c8223/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/10215e6a396c8223/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/10215e6a396c8223/thumb",
+          "video_duration": 29,
+          "width": 720,
+          "height": 1280,
+          "message": "Love Adventure Games? Try THIS"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "4a258f7da478dfe2",
+      "app_id": "573d973122cbf508c500071e",
+      "network": "TikTok",
+      "phashion_group": "4a258f7da478dfe2",
+      "ad_type": "video",
+      "first_seen_at": "2025-10-02",
+      "last_seen_at": "2026-01-31",
+      "creatives": [
+        {
+          "id": "4a258f7da478dfe2",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1022dc03b8728648/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1022dc03b8728648/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1022dc03b8728648/thumb",
+          "video_duration": 31,
+          "width": 720,
+          "height": 1280,
+          "message": "Love Adventure Games? Try THIS"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "df57b2f0fcccc9c4",
+      "app_id": "573d973122cbf508c500071e",
+      "network": "Facebook",
+      "phashion_group": "df57b2f0fcccc9c4",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-02",
+      "last_seen_at": "2026-01-05",
+      "creatives": [
+        {
+          "id": "df57b2f0fcccc9c4",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1132735887f45107/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1132735887f45107/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1132735887f45107/thumb",
+          "video_duration": 25,
+          "width": 1080,
+          "height": 1920,
+          "title": "Play for FREE!",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "982ced84f05187cb",
+      "app_id": "573d973122cbf508c500071e",
+      "network": "Instagram",
+      "phashion_group": "982ced84f05187cb",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-02",
+      "last_seen_at": "2026-01-05",
+      "creatives": [
+        {
+          "id": "982ced84f05187cb",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1132735887f45107/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1132735887f45107/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1132735887f45107/thumb",
+          "video_duration": 25,
+          "width": 1080,
+          "height": 1920,
+          "title": "Play for FREE!",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "edd56184f3d4d875",
+      "app_id": "573d973122cbf508c500071e",
+      "network": "Meta Audience Network",
+      "phashion_group": "edd56184f3d4d875",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-02",
+      "last_seen_at": "2026-01-05",
+      "creatives": [
+        {
+          "id": "edd56184f3d4d875",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1132735887f45107/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1132735887f45107/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1132735887f45107/thumb",
+          "video_duration": 25,
+          "width": 1080,
+          "height": 1920,
+          "title": "Play for FREE!",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "e4a9ac74e1ea7547",
+      "app_id": "573d973122cbf508c500071e",
+      "network": "TikTok",
+      "phashion_group": "e4a9ac74e1ea7547",
+      "ad_type": "video",
+      "first_seen_at": "2025-04-12",
+      "last_seen_at": "2026-01-29",
+      "creatives": [
+        {
+          "id": "e4a9ac74e1ea7547",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1153d4a237f77ee8/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1153d4a237f77ee8/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1153d4a237f77ee8/thumb",
+          "video_duration": 41,
+          "width": 720,
+          "height": 1280,
+          "message": "Love Adventure Games? Try THIS"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "dd5e5a5f20143dcf",
+      "app_id": "573d973122cbf508c500071e",
+      "network": "Facebook",
+      "phashion_group": "dd5e5a5f20143dcf",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-09",
+      "last_seen_at": "2026-01-13",
+      "creatives": [
+        {
+          "id": "dd5e5a5f20143dcf",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/133b9bf75b2ca50c/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/133b9bf75b2ca50c/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/133b9bf75b2ca50c/thumb",
+          "video_duration": 34,
+          "width": 1080,
+          "height": 1920,
+          "title": "Play for FREE!",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "9a25052b2c8973c0",
+      "app_id": "573d973122cbf508c500071e",
+      "network": "Instagram",
+      "phashion_group": "9a25052b2c8973c0",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-09",
+      "last_seen_at": "2026-01-13",
+      "creatives": [
+        {
+          "id": "9a25052b2c8973c0",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/133b9bf75b2ca50c/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/133b9bf75b2ca50c/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/133b9bf75b2ca50c/thumb",
+          "video_duration": 34,
+          "width": 1080,
+          "height": 1920,
+          "title": "Play for FREE!",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "efdc892b2f0c2c7e",
+      "app_id": "573d973122cbf508c500071e",
+      "network": "Meta Audience Network",
+      "phashion_group": "efdc892b2f0c2c7e",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-09",
+      "last_seen_at": "2026-01-13",
+      "creatives": [
+        {
+          "id": "efdc892b2f0c2c7e",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/133b9bf75b2ca50c/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/133b9bf75b2ca50c/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/133b9bf75b2ca50c/thumb",
+          "video_duration": 34,
+          "width": 1080,
+          "height": 1920,
+          "title": "Play for FREE!",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "905216a524b76325",
+      "app_id": "573d973122cbf508c500071e",
+      "network": "Facebook",
+      "phashion_group": "905216a524b76325",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-26",
+      "last_seen_at": "2026-01-15",
+      "creatives": [
+        {
+          "id": "905216a524b76325",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/13ba3757ca6d3fcc/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/13ba3757ca6d3fcc/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/13ba3757ca6d3fcc/thumb",
+          "video_duration": 30,
+          "width": 1080,
+          "height": 1920,
+          "title": "Battle never ends!",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "8bd439daa485b694",
+      "app_id": "573d973122cbf508c500071e",
+      "network": "Instagram",
+      "phashion_group": "8bd439daa485b694",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-26",
+      "last_seen_at": "2026-01-15",
+      "creatives": [
+        {
+          "id": "8bd439daa485b694",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/13ba3757ca6d3fcc/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/13ba3757ca6d3fcc/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/13ba3757ca6d3fcc/thumb",
+          "video_duration": 30,
+          "width": 1080,
+          "height": 1920,
+          "title": "Battle never ends!",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "a2d0c5d12baf7294",
+      "app_id": "573d973122cbf508c500071e",
+      "network": "Meta Audience Network",
+      "phashion_group": "a2d0c5d12baf7294",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-26",
+      "last_seen_at": "2026-01-15",
+      "creatives": [
+        {
+          "id": "a2d0c5d12baf7294",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/13ba3757ca6d3fcc/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/13ba3757ca6d3fcc/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/13ba3757ca6d3fcc/thumb",
+          "video_duration": 30,
+          "width": 1080,
+          "height": 1920,
+          "title": "Battle never ends!",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "97ac371ef91bf8b9",
+      "app_id": "573d973122cbf508c500071e",
+      "network": "Facebook",
+      "phashion_group": "97ac371ef91bf8b9",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-26",
+      "last_seen_at": "2026-01-19",
+      "creatives": [
+        {
+          "id": "97ac371ef91bf8b9",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/144416ec17c1a450/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/144416ec17c1a450/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/144416ec17c1a450/thumb",
+          "video_duration": 30,
+          "width": 1080,
+          "height": 1920,
+          "title": "Battle never ends!",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "8c2a186179292d08",
+      "app_id": "573d973122cbf508c500071e",
+      "network": "Instagram",
+      "phashion_group": "8c2a186179292d08",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-26",
+      "last_seen_at": "2026-01-19",
+      "creatives": [
+        {
+          "id": "8c2a186179292d08",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/144416ec17c1a450/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/144416ec17c1a450/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/144416ec17c1a450/thumb",
+          "video_duration": 30,
+          "width": 1080,
+          "height": 1920,
+          "title": "Battle never ends!",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "a52ee46af603e908",
+      "app_id": "573d973122cbf508c500071e",
+      "network": "Meta Audience Network",
+      "phashion_group": "a52ee46af603e908",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-26",
+      "last_seen_at": "2026-01-19",
+      "creatives": [
+        {
+          "id": "a52ee46af603e908",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/144416ec17c1a450/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/144416ec17c1a450/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/144416ec17c1a450/thumb",
+          "video_duration": 30,
+          "width": 1080,
+          "height": 1920,
+          "title": "Battle never ends!",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "db1b93273d85ac11",
+      "app_id": "573d973122cbf508c500071e",
+      "network": "Facebook",
+      "phashion_group": "db1b93273d85ac11",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-09",
+      "last_seen_at": "2026-01-11",
+      "creatives": [
+        {
+          "id": "db1b93273d85ac11",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/157e528f46bd34d2/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/157e528f46bd34d2/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/157e528f46bd34d2/thumb",
+          "video_duration": 24,
+          "width": 1080,
+          "height": 1920,
+          "title": "Play for FREE!",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "9c60cc533118e21e",
+      "app_id": "573d973122cbf508c500071e",
+      "network": "Instagram",
+      "phashion_group": "9c60cc533118e21e",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-09",
+      "last_seen_at": "2026-01-11",
+      "creatives": [
+        {
+          "id": "9c60cc533118e21e",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/157e528f46bd34d2/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/157e528f46bd34d2/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/157e528f46bd34d2/thumb",
+          "video_duration": 24,
+          "width": 1080,
+          "height": 1920,
+          "title": "Play for FREE!",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "e9994053329dbda0",
+      "app_id": "573d973122cbf508c500071e",
+      "network": "Meta Audience Network",
+      "phashion_group": "e9994053329dbda0",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-09",
+      "last_seen_at": "2026-01-11",
+      "creatives": [
+        {
+          "id": "e9994053329dbda0",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/157e528f46bd34d2/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/157e528f46bd34d2/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/157e528f46bd34d2/thumb",
+          "video_duration": 24,
+          "width": 1080,
+          "height": 1920,
+          "title": "Play for FREE!",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "4f836f31ad72f725",
+      "app_id": "573d973122cbf508c500071e",
+      "network": "TikTok",
+      "phashion_group": "4f836f31ad72f725",
+      "ad_type": "video",
+      "first_seen_at": "2025-03-10",
+      "last_seen_at": "2026-02-01",
+      "creatives": [
+        {
+          "id": "4f836f31ad72f725",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/15843c4fb178ae8f/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/15843c4fb178ae8f/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/15843c4fb178ae8f/thumb",
+          "video_duration": 28,
+          "width": 720,
+          "height": 1280,
+          "message": "Love Adventure Games? Try THIS"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "3a35de4f52ae2c6f",
+      "app_id": "573d973122cbf508c500071e",
+      "network": "TikTok",
+      "phashion_group": "3a35de4f52ae2c6f",
+      "ad_type": "video",
+      "first_seen_at": "2025-10-24",
+      "last_seen_at": "2026-01-31",
+      "creatives": [
+        {
+          "id": "3a35de4f52ae2c6f",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/16a0d4503ac02277/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/16a0d4503ac02277/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/16a0d4503ac02277/thumb",
+          "video_duration": 25,
+          "width": 720,
+          "height": 1280,
+          "message": "Get ready for fierce battles"
+        },
+        {
+          "id": "4ca7872e26ca7bdd",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/16a0d4503ac02277/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/16a0d4503ac02277/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/16a0d4503ac02277/thumb",
+          "video_duration": 25,
+          "width": 720,
+          "height": 1280,
+          "message": "Love Adventure Games? Try THIS"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "3a4c6fd8371aeb10",
+      "app_id": "573d973122cbf508c500071e",
+      "network": "TikTok",
+      "phashion_group": "3a4c6fd8371aeb10",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-25",
+      "last_seen_at": "2026-01-16",
+      "creatives": [
+        {
+          "id": "3a4c6fd8371aeb10",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/16d965c75f74e508/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/16d965c75f74e508/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/16d965c75f74e508/thumb",
+          "video_duration": 30,
+          "width": 1080,
+          "height": 1920,
+          "message": "Get ready for fierce battles"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "3bd4d4edf8757665",
+      "app_id": "573d973122cbf508c500071e",
+      "network": "TikTok",
+      "phashion_group": "3bd4d4edf8757665",
+      "ad_type": "video",
+      "first_seen_at": "2025-10-27",
+      "last_seen_at": "2026-01-25",
+      "creatives": [
+        {
+          "id": "3bd4d4edf8757665",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1741def2901b787d/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1741def2901b787d/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1741def2901b787d/thumb",
+          "video_duration": 30,
+          "width": 720,
+          "height": 1280,
+          "message": "Get ready for fierce battles"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "3b2386f821f3c439",
+      "app_id": "573d973122cbf508c500071e",
+      "network": "TikTok",
+      "phashion_group": "3b2386f821f3c439",
+      "ad_type": "video",
+      "first_seen_at": "2025-09-15",
+      "last_seen_at": "2026-01-31",
+      "creatives": [
+        {
+          "id": "3b2386f821f3c439",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/17b68ce7499dca21/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/17b68ce7499dca21/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/17b68ce7499dca21/thumb",
+          "video_duration": 30,
+          "width": 720,
+          "height": 1280,
+          "message": "Get ready for fierce battles"
+        },
+        {
+          "id": "4db1df995597938b",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/17b68ce7499dca21/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/17b68ce7499dca21/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/17b68ce7499dca21/thumb",
+          "video_duration": 30,
+          "width": 720,
+          "height": 1280,
+          "message": "Love Adventure Games? Try THIS"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "4df3e222065b4d97",
+      "app_id": "573d973122cbf508c500071e",
+      "network": "TikTok",
+      "phashion_group": "4df3e222065b4d97",
+      "ad_type": "video",
+      "first_seen_at": "2025-04-25",
+      "last_seen_at": "2026-01-05",
+      "creatives": [
+        {
+          "id": "4df3e222065b4d97",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/17f4b15c1a51143d/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/17f4b15c1a51143d/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/17f4b15c1a51143d/thumb",
+          "video_duration": 33,
+          "width": 720,
+          "height": 1280,
+          "message": "Love Adventure Games? Try THIS"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "7b96ccfb85deb825",
+      "app_id": "573d973122cbf508c500071e",
+      "network": "TikTok",
+      "phashion_group": "7b96ccfb85deb825",
+      "ad_type": "video",
+      "first_seen_at": "2025-02-01",
+      "last_seen_at": "2026-01-23",
+      "creatives": [
+        {
+          "id": "7b96ccfb85deb825",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1a98a80e0b880c53/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1a98a80e0b880c53/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1a98a80e0b880c53/thumb",
+          "video_duration": 33,
+          "width": 1080,
+          "height": 1920,
+          "message": "The newest strategy mobile game in 2025,Play now for free."
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "40bafc3b4e6fb657",
+      "app_id": "573d973122cbf508c500071e",
+      "network": "TikTok",
+      "phashion_group": "40bafc3b4e6fb657",
+      "ad_type": "video",
+      "first_seen_at": "2025-09-06",
+      "last_seen_at": "2026-01-30",
+      "creatives": [
+        {
+          "id": "40bafc3b4e6fb657",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1abdaf455265effd/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1abdaf455265effd/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1abdaf455265effd/thumb",
+          "video_duration": 30,
+          "width": 720,
+          "height": 1280,
+          "message": "Love Adventure Games? Try THIS"
+        },
+        {
+          "id": "5c6561953a6c3694",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1abdaf455265effd/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1abdaf455265effd/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1abdaf455265effd/thumb",
+          "video_duration": 30,
+          "width": 720,
+          "height": 1280,
+          "message": "Conquer or Embark,A world filled with political intrigue and epic confrontations awaits"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "f1821314631b8f24",
+      "app_id": "573d973122cbf508c500071e",
+      "network": "Facebook",
+      "phashion_group": "f1821314631b8f24",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-10",
+      "last_seen_at": "2026-01-11",
+      "creatives": [
+        {
+          "id": "f1821314631b8f24",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1afbd7f6fcb8aab0/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1afbd7f6fcb8aab0/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1afbd7f6fcb8aab0/thumb",
+          "video_duration": 36,
+          "width": 1080,
+          "height": 1920,
+          "title": "😎Design your empire your way!",
+          "button_text": "Play Game",
+          "message": "Grow from small hamlets to grand realms 🌍🔝— plan strategies and outsmart rivals!"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "ea043c6be3295a95",
+      "app_id": "573d973122cbf508c500071e",
+      "network": "Instagram",
+      "phashion_group": "ea043c6be3295a95",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-10",
+      "last_seen_at": "2026-01-11",
+      "creatives": [
+        {
+          "id": "ea043c6be3295a95",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1afbd7f6fcb8aab0/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1afbd7f6fcb8aab0/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1afbd7f6fcb8aab0/thumb",
+          "video_duration": 36,
+          "width": 1080,
+          "height": 1920,
+          "title": "😎Design your empire your way!",
+          "button_text": "Play Game",
+          "message": "Grow from small hamlets to grand realms 🌍🔝— plan strategies and outsmart rivals!"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "37dcf4dab32f7a34",
+      "app_id": "573d973122cbf508c500071e",
+      "network": "TikTok",
+      "phashion_group": "37dcf4dab32f7a34",
+      "ad_type": "video",
+      "first_seen_at": "2025-10-22",
+      "last_seen_at": "2026-01-31",
+      "creatives": [
+        {
+          "id": "37dcf4dab32f7a34",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1b49fec5db41742c/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1b49fec5db41742c/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1b49fec5db41742c/thumb",
+          "video_duration": 29,
+          "width": 720,
+          "height": 1280,
+          "message": "Get ready for fierce battles"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "375bf4eec79509bf",
+      "app_id": "573d973122cbf508c500071e",
+      "network": "TikTok",
+      "phashion_group": "375bf4eec79509bf",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-09",
+      "last_seen_at": "2026-01-12",
+      "creatives": [
+        {
+          "id": "375bf4eec79509bf",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1bcefef1affb07a7/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1bcefef1affb07a7/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1bcefef1affb07a7/thumb",
+          "video_duration": 35,
+          "width": 1080,
+          "height": 1920,
+          "message": "Get ready for fierce battles"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "30f18945f5b1df71",
+      "app_id": "573d973122cbf508c500071e",
+      "network": "TikTok",
+      "phashion_group": "30f18945f5b1df71",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-08",
+      "last_seen_at": "2026-01-13",
+      "creatives": [
+        {
+          "id": "30f18945f5b1df71",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1c64835a9ddfd169/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1c64835a9ddfd169/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1c64835a9ddfd169/thumb",
+          "video_duration": 30,
+          "width": 1080,
+          "height": 1920,
+          "message": "Get ready for fierce battles"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "9e50718fd5899259",
+      "app_id": "573d973122cbf508c500071e",
+      "network": "Facebook",
+      "phashion_group": "9e50718fd5899259",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-26",
+      "last_seen_at": "2026-01-19",
+      "creatives": [
+        {
+          "id": "9e50718fd5899259",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1db8507d3b53ceb0/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1db8507d3b53ceb0/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1db8507d3b53ceb0/thumb",
+          "video_duration": 27,
+          "width": 1080,
+          "height": 1920,
+          "title": "Battle never ends!",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "85d65ef055bb47e8",
+      "app_id": "573d973122cbf508c500071e",
+      "network": "Instagram",
+      "phashion_group": "85d65ef055bb47e8",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-26",
+      "last_seen_at": "2026-01-19",
+      "creatives": [
+        {
+          "id": "85d65ef055bb47e8",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1db8507d3b53ceb0/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1db8507d3b53ceb0/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1db8507d3b53ceb0/thumb",
+          "video_duration": 27,
+          "width": 1080,
+          "height": 1920,
+          "title": "Battle never ends!",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "acd2a2fbda9183e8",
+      "app_id": "573d973122cbf508c500071e",
+      "network": "Meta Audience Network",
+      "phashion_group": "acd2a2fbda9183e8",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-26",
+      "last_seen_at": "2026-01-19",
+      "creatives": [
+        {
+          "id": "acd2a2fbda9183e8",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1db8507d3b53ceb0/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1db8507d3b53ceb0/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1db8507d3b53ceb0/thumb",
+          "video_duration": 27,
+          "width": 1080,
+          "height": 1920,
+          "title": "Battle never ends!",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "9cf16527e858a211",
+      "app_id": "573d973122cbf508c500071e",
+      "network": "Facebook",
+      "phashion_group": "9cf16527e858a211",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-01",
+      "last_seen_at": "2026-01-06",
+      "creatives": [
+        {
+          "id": "9cf16527e858a211",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1f1944d50682fef8/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1f1944d50682fef8/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1f1944d50682fef8/thumb",
+          "video_duration": 33,
+          "width": 1080,
+          "height": 1920,
+          "title": "Once you start, you’re hooked!",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "87774a58686a77a0",
+      "app_id": "573d973122cbf508c500071e",
+      "network": "Instagram",
+      "phashion_group": "87774a58686a77a0",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-01",
+      "last_seen_at": "2026-01-06",
+      "creatives": [
+        {
+          "id": "87774a58686a77a0",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1f1944d50682fef8/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1f1944d50682fef8/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1f1944d50682fef8/thumb",
+          "video_duration": 33,
+          "width": 1080,
+          "height": 1920,
+          "title": "Once you start, you’re hooked!",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "ae73b653e740b3a0",
+      "app_id": "573d973122cbf508c500071e",
+      "network": "Meta Audience Network",
+      "phashion_group": "ae73b653e740b3a0",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-01",
+      "last_seen_at": "2026-01-06",
+      "creatives": [
+        {
+          "id": "ae73b653e740b3a0",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1f1944d50682fef8/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1f1944d50682fef8/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1f1944d50682fef8/thumb",
+          "video_duration": 33,
+          "width": 1080,
+          "height": 1920,
+          "title": "Once you start, you’re hooked!",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "45687ea87175dcf6",
+      "app_id": "573d973122cbf508c500071e",
+      "network": "TikTok",
+      "phashion_group": "45687ea87175dcf6",
+      "ad_type": "video",
+      "first_seen_at": "2025-09-01",
+      "last_seen_at": "2026-01-10",
+      "creatives": [
+        {
+          "id": "45687ea87175dcf6",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1f6f2dd66d7f855c/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1f6f2dd66d7f855c/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1f6f2dd66d7f855c/thumb",
+          "video_duration": 29,
+          "width": 720,
+          "height": 1280,
+          "message": "Love Adventure Games? Try THIS"
+        },
+        {
+          "id": "8ab92cd5a67b412f",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1f6f2dd66d7f855c/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1f6f2dd66d7f855c/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1f6f2dd66d7f855c/thumb",
+          "video_duration": 29,
+          "width": 720,
+          "height": 1280,
+          "message": "Every tale needs a champion. Will you take the call and become a legend?"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "ea5adc86a9f70646",
+      "app_id": "573d973122cbf508c500071e",
+      "network": "TikTok",
+      "phashion_group": "ea5adc86a9f70646",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-19",
+      "last_seen_at": "2026-01-27",
+      "creatives": [
+        {
+          "id": "ea5adc86a9f70646",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1fa0a4507fea0de9/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1fa0a4507fea0de9/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1fa0a4507fea0de9/thumb",
+          "video_duration": 25,
+          "width": 1080,
+          "height": 1920,
+          "message": "Love Adventure Games? Try THIS"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "45ab6dcd6ac3c812",
+      "app_id": "573d973122cbf508c500071e",
+      "network": "TikTok",
+      "phashion_group": "45ab6dcd6ac3c812",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-17",
+      "last_seen_at": "2026-01-24",
+      "creatives": [
+        {
+          "id": "45ab6dcd6ac3c812",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1fac3eb376c991b8/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1fac3eb376c991b8/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1fac3eb376c991b8/thumb",
+          "video_duration": 33,
+          "width": 1080,
+          "height": 1920,
+          "message": "Love Adventure Games? Try THIS"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "d5ffb618aec6ae1b",
+      "app_id": "573d973122cbf508c500071e",
+      "network": "TikTok",
+      "phashion_group": "d5ffb618aec6ae1b",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-25",
+      "last_seen_at": "2026-01-21",
+      "creatives": [
+        {
+          "id": "d5ffb618aec6ae1b",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2005cece78dba5b4/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2005cece78dba5b4/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2005cece78dba5b4/thumb",
+          "video_duration": 34,
+          "width": 1080,
+          "height": 1920,
+          "message": "Love Adventure Games? Try THIS"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "0c8e4ed7723621b9",
+      "app_id": "573d973122cbf508c500071e",
+      "network": "TikTok",
+      "phashion_group": "0c8e4ed7723621b9",
+      "ad_type": "video",
+      "first_seen_at": "2025-09-05",
+      "last_seen_at": "2026-01-12",
+      "creatives": [
+        {
+          "id": "0c8e4ed7723621b9",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/201b44c81a582fa1/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/201b44c81a582fa1/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/201b44c81a582fa1/thumb",
+          "video_duration": 32,
+          "width": 720,
+          "height": 1280,
+          "message": "Get ready for fierce battles"
+        },
+        {
+          "id": "66c38a187251f6c8",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/201b44c81a582fa1/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/201b44c81a582fa1/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/201b44c81a582fa1/thumb",
+          "video_duration": 32,
+          "width": 720,
+          "height": 1280,
+          "message": "Conquer or Embark,A world filled with political intrigue and epic confrontations awaits"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "b45ed712be56d250",
+      "app_id": "573d973122cbf508c500071e",
+      "network": "TikTok",
+      "phashion_group": "b45ed712be56d250",
+      "ad_type": "video",
+      "first_seen_at": "2025-09-05",
+      "last_seen_at": "2026-01-08",
+      "creatives": [
+        {
+          "id": "b45ed712be56d250",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2188d61175521623/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2188d61175521623/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2188d61175521623/thumb",
+          "video_duration": 40,
+          "width": 720,
+          "height": 1280,
+          "message": "Every tale needs a champion. Will you take the call and become a legend?"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "78465b2ee32f6ca6",
+      "app_id": "573d973122cbf508c500071e",
+      "network": "TikTok",
+      "phashion_group": "78465b2ee32f6ca6",
+      "ad_type": "video",
+      "first_seen_at": "2025-03-10",
+      "last_seen_at": "2026-01-26",
+      "creatives": [
+        {
+          "id": "78465b2ee32f6ca6",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/22410850ff25350c/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/22410850ff25350c/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/22410850ff25350c/thumb",
+          "video_duration": 27,
+          "width": 720,
+          "height": 1280,
+          "message": "Love Adventure Games? Try THIS"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "d7639990e3ced696",
+      "app_id": "573d973122cbf508c500071e",
+      "network": "TikTok",
+      "phashion_group": "d7639990e3ced696",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-08",
+      "last_seen_at": "2026-01-30",
+      "creatives": [
+        {
+          "id": "d7639990e3ced696",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2299e14635d3dd39/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2299e14635d3dd39/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2299e14635d3dd39/thumb",
+          "video_duration": 32,
+          "width": 1080,
+          "height": 1920,
+          "message": "Love Adventure Games? Try THIS"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "a148740d12d22745",
+      "app_id": "573d973122cbf508c500071e",
+      "network": "Facebook",
+      "phashion_group": "a148740d12d22745",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-01",
+      "last_seen_at": "2026-01-06",
+      "creatives": [
+        {
+          "id": "a148740d12d22745",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/22a055fffc087bac/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/22a055fffc087bac/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/22a055fffc087bac/thumb",
+          "video_duration": 34,
+          "width": 1080,
+          "height": 1920,
+          "title": "Once you start, you’re hooked!",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "bace5b7292e0f2f4",
+      "app_id": "573d973122cbf508c500071e",
+      "network": "Instagram",
+      "phashion_group": "bace5b7292e0f2f4",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-01",
+      "last_seen_at": "2026-01-06",
+      "creatives": [
+        {
+          "id": "bace5b7292e0f2f4",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/22a055fffc087bac/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/22a055fffc087bac/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/22a055fffc087bac/thumb",
+          "video_duration": 34,
+          "width": 1080,
+          "height": 1920,
+          "title": "Once you start, you’re hooked!",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "93caa7791dca36f4",
+      "app_id": "573d973122cbf508c500071e",
+      "network": "Meta Audience Network",
+      "phashion_group": "93caa7791dca36f4",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-01",
+      "last_seen_at": "2026-01-06",
+      "creatives": [
+        {
+          "id": "93caa7791dca36f4",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/22a055fffc087bac/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/22a055fffc087bac/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/22a055fffc087bac/thumb",
+          "video_duration": 34,
+          "width": 1080,
+          "height": 1920,
+          "title": "Once you start, you’re hooked!",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "65c7795a5a7e2786",
+      "app_id": "573d973122cbf508c500071e",
+      "network": "TikTok",
+      "phashion_group": "65c7795a5a7e2786",
+      "ad_type": "video",
+      "first_seen_at": "2025-09-05",
+      "last_seen_at": "2026-01-06",
+      "creatives": [
+        {
+          "id": "65c7795a5a7e2786",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/231fb78a3277feef/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/231fb78a3277feef/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/231fb78a3277feef/thumb",
+          "video_duration": 25,
+          "width": 720,
+          "height": 1280,
+          "message": "Conquer or Embark,A world filled with political intrigue and epic confrontations awaits"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "0f1be1af1b54fbcd",
+      "app_id": "573d973122cbf508c500071e",
+      "network": "TikTok",
+      "phashion_group": "0f1be1af1b54fbcd",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-17",
+      "last_seen_at": "2026-01-10",
+      "creatives": [
+        {
+          "id": "0f1be1af1b54fbcd",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/238eebb0733af5d5/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/238eebb0733af5d5/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/238eebb0733af5d5/thumb",
+          "video_duration": 27,
+          "width": 1080,
+          "height": 1920,
+          "message": "Get ready for fierce battles"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "61236cd84f7e2054",
+      "app_id": "573d973122cbf508c500071e",
+      "network": "TikTok",
+      "phashion_group": "61236cd84f7e2054",
+      "ad_type": "video",
+      "first_seen_at": "2025-10-18",
+      "last_seen_at": "2026-01-20",
+      "creatives": [
+        {
+          "id": "61236cd84f7e2054",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/27fba2082777f93d/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/27fba2082777f93d/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/27fba2082777f93d/thumb",
+          "video_duration": 30,
+          "width": 1080,
+          "height": 1920,
+          "message": "Conquer or Embark,A world filled with political intrigue and epic confrontations awaits"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "abdf4b016ad5f3ba",
+      "app_id": "573d973122cbf508c500071e",
+      "network": "Facebook",
+      "phashion_group": "abdf4b016ad5f3ba",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-04",
+      "last_seen_at": "2026-01-06",
+      "creatives": [
+        {
+          "id": "abdf4b016ad5f3ba",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/28376af3840faf53/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/28376af3840faf53/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/28376af3840faf53/thumb",
+          "video_duration": 28,
+          "width": 1080,
+          "height": 1920,
+          "title": "😎Design your empire your way!",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "b059647eeae7260b",
+      "app_id": "573d973122cbf508c500071e",
+      "network": "Instagram",
+      "phashion_group": "b059647eeae7260b",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-04",
+      "last_seen_at": "2026-01-06",
+      "creatives": [
+        {
+          "id": "b059647eeae7260b",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/28376af3840faf53/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/28376af3840faf53/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/28376af3840faf53/thumb",
+          "video_duration": 28,
+          "width": 1080,
+          "height": 1920,
+          "title": "😎Design your empire your way!",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "995d987565cde20b",
+      "app_id": "573d973122cbf508c500071e",
+      "network": "Meta Audience Network",
+      "phashion_group": "995d987565cde20b",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-04",
+      "last_seen_at": "2026-01-06",
+      "creatives": [
+        {
+          "id": "995d987565cde20b",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/28376af3840faf53/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/28376af3840faf53/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/28376af3840faf53/thumb",
+          "video_duration": 28,
+          "width": 1080,
+          "height": 1920,
+          "title": "Once you start, you’re hooked!",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "b03a6667c11e600c",
+      "app_id": "573d973122cbf508c500071e",
+      "network": "Facebook",
+      "phashion_group": "b03a6667c11e600c",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-01",
+      "last_seen_at": "2026-01-05",
+      "creatives": [
+        {
+          "id": "b03a6667c11e600c",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/285886d42e957eb5/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/285886d42e957eb5/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/285886d42e957eb5/thumb",
+          "video_duration": 25,
+          "width": 1080,
+          "height": 1920,
+          "title": "🔥🔥🔥🔥🔥",
+          "button_text": "Play Game",
+          "message": "🔥🔥🔥"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "abbc4918412cb5bd",
+      "app_id": "573d973122cbf508c500071e",
+      "network": "Instagram",
+      "phashion_group": "abbc4918412cb5bd",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-01",
+      "last_seen_at": "2026-01-05",
+      "creatives": [
+        {
+          "id": "abbc4918412cb5bd",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/285886d42e957eb5/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/285886d42e957eb5/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/285886d42e957eb5/thumb",
+          "video_duration": 25,
+          "width": 1080,
+          "height": 1920,
+          "title": "🔥🔥🔥🔥🔥",
+          "button_text": "Play Game",
+          "message": "🔥🔥🔥"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "82b8b513ce0671bd",
+      "app_id": "573d973122cbf508c500071e",
+      "network": "Meta Audience Network",
+      "phashion_group": "82b8b513ce0671bd",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-01",
+      "last_seen_at": "2026-01-05",
+      "creatives": [
+        {
+          "id": "82b8b513ce0671bd",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/285886d42e957eb5/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/285886d42e957eb5/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/285886d42e957eb5/thumb",
+          "video_duration": 25,
+          "width": 1080,
+          "height": 1920,
+          "title": "🔥🔥🔥🔥🔥",
+          "button_text": "Play Game",
+          "message": "🔥🔥🔥"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "04119763c0bc1f7c",
+      "app_id": "573d973122cbf508c500071e",
+      "network": "TikTok",
+      "phashion_group": "04119763c0bc1f7c",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-17",
+      "last_seen_at": "2026-01-10",
+      "creatives": [
+        {
+          "id": "04119763c0bc1f7c",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/28849d7ca8d21164/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/28849d7ca8d21164/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/28849d7ca8d21164/thumb",
+          "video_duration": 30,
+          "width": 1080,
+          "height": 1920,
+          "message": "Get ready for fierce battles"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "c3f4fdfc535b123f",
+      "app_id": "573d973122cbf508c500071e",
+      "network": "Facebook",
+      "phashion_group": "c3f4fdfc535b123f",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-10",
+      "last_seen_at": "2026-01-11",
+      "creatives": [
+        {
+          "id": "c3f4fdfc535b123f",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/288d391eccf837ab/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/288d391eccf837ab/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/288d391eccf837ab/thumb",
+          "video_duration": 29,
+          "width": 1080,
+          "height": 1920,
+          "title": "😎Design your empire your way!",
+          "button_text": "Play Game",
+          "message": "Grow from small hamlets to grand realms 🌍🔝— plan strategies and outsmart rivals!"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "d872d283d369c78e",
+      "app_id": "573d973122cbf508c500071e",
+      "network": "Instagram",
+      "phashion_group": "d872d283d369c78e",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-10",
+      "last_seen_at": "2026-01-11",
+      "creatives": [
+        {
+          "id": "d872d283d369c78e",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/288d391eccf837ab/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/288d391eccf837ab/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/288d391eccf837ab/thumb",
+          "video_duration": 29,
+          "width": 1080,
+          "height": 1920,
+          "title": "😎Design your empire your way!",
+          "button_text": "Play Game",
+          "message": "Grow from small hamlets to grand realms 🌍🔝— plan strategies and outsmart rivals!"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "dcd55aafb031d4f0",
+      "app_id": "573d973122cbf508c500071e",
+      "network": "TikTok",
+      "phashion_group": "dcd55aafb031d4f0",
+      "ad_type": "video",
+      "first_seen_at": "2025-12-17",
+      "last_seen_at": "2026-01-15",
+      "creatives": [
+        {
+          "id": "dcd55aafb031d4f0",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/292f2279662cdf5f/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/292f2279662cdf5f/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/292f2279662cdf5f/thumb",
+          "video_duration": 28,
+          "width": 1080,
+          "height": 1920,
+          "message": "Love Adventure Games? Try THIS"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "e7021fb5178f113f",
+      "app_id": "573d973122cbf508c500071e",
+      "network": "Facebook",
+      "phashion_group": "e7021fb5178f113f",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-09",
+      "last_seen_at": "2026-01-12",
+      "creatives": [
+        {
+          "id": "e7021fb5178f113f",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2967de1d6cb789fc/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2967de1d6cb789fc/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2967de1d6cb789fc/thumb",
+          "video_duration": 16,
+          "width": 1080,
+          "height": 1920,
+          "title": "Play for FREE!",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "a07940c11b125f30",
+      "app_id": "573d973122cbf508c500071e",
+      "network": "Instagram",
+      "phashion_group": "a07940c11b125f30",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-09",
+      "last_seen_at": "2026-01-12",
+      "creatives": [
+        {
+          "id": "a07940c11b125f30",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2967de1d6cb789fc/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2967de1d6cb789fc/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2967de1d6cb789fc/thumb",
+          "video_duration": 16,
+          "width": 1080,
+          "height": 1920,
+          "title": "Play for FREE!",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "d580ccc11897008e",
+      "app_id": "573d973122cbf508c500071e",
+      "network": "Meta Audience Network",
+      "phashion_group": "d580ccc11897008e",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-09",
+      "last_seen_at": "2026-01-12",
+      "creatives": [
+        {
+          "id": "d580ccc11897008e",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2967de1d6cb789fc/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2967de1d6cb789fc/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2967de1d6cb789fc/thumb",
+          "video_duration": 16,
+          "width": 1080,
+          "height": 1920,
+          "title": "Play for FREE!",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "aa0169169d6f652d",
+      "app_id": "573d973122cbf508c500071e",
+      "network": "Facebook",
+      "phashion_group": "aa0169169d6f652d",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-13",
+      "last_seen_at": "2026-01-12",
+      "creatives": [
+        {
+          "id": "aa0169169d6f652d",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/29e948e473b539c4/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/29e948e473b539c4/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/29e948e473b539c4/thumb",
+          "video_duration": 45,
+          "width": 1080,
+          "height": 1920,
+          "title": "Feudalism, Siege, Conquer: Your Strategy Awaits! ⚔️",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "b18746691d5db09c",
+      "app_id": "573d973122cbf508c500071e",
+      "network": "Instagram",
+      "phashion_group": "b18746691d5db09c",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-13",
+      "last_seen_at": "2026-01-12",
+      "creatives": [
+        {
+          "id": "b18746691d5db09c",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/29e948e473b539c4/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/29e948e473b539c4/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/29e948e473b539c4/thumb",
+          "video_duration": 45,
+          "width": 1080,
+          "height": 1920,
+          "title": "Feudalism, Siege, Conquer: Your Strategy Awaits! ⚔️",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "9883ba629277749c",
+      "app_id": "573d973122cbf508c500071e",
+      "network": "Meta Audience Network",
+      "phashion_group": "9883ba629277749c",
+      "ad_type": "video",
+      "first_seen_at": "2025-11-13",
+      "last_seen_at": "2026-01-12",
+      "creatives": [
+        {
+          "id": "9883ba629277749c",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/29e948e473b539c4/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/29e948e473b539c4/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/29e948e473b539c4/thumb",
+          "video_duration": 45,
+          "width": 1080,
+          "height": 1920,
+          "title": "Feudalism, Siege, Conquer: Your Strategy Awaits! ⚔️",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "063269a847bd3c7f",
+      "app_id": "573d973122cbf508c500071e",
+      "network": "TikTok",
+      "phashion_group": "063269a847bd3c7f",
+      "ad_type": "video",
+      "first_seen_at": "2025-09-10",
+      "last_seen_at": "2026-02-01",
+      "creatives": [
+        {
+          "id": "063269a847bd3c7f",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2aa763b72fd33267/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2aa763b72fd33267/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2aa763b72fd33267/thumb",
+          "video_duration": 24,
+          "width": 720,
+          "height": 1280,
+          "message": "Get ready for fierce battles"
+        },
+        {
+          "id": "70a030c933d96bcd",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2aa763b72fd33267/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2aa763b72fd33267/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2aa763b72fd33267/thumb",
+          "video_duration": 24,
+          "width": 720,
+          "height": 1280,
+          "message": "Love Adventure Games? Try THIS"
+        },
+        {
+          "id": "bf7162b4e4d7f614",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2aa763b72fd33267/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2aa763b72fd33267/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2aa763b72fd33267/thumb",
+          "video_duration": 24,
+          "width": 720,
+          "height": 1280,
+          "message": "Every tale needs a champion. Will you take the call and become a legend?"
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "720x1280",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "a8c624b915dfbd3c",
+      "app_id": "573d973122cbf508c500071e",
+      "network": "Facebook",
+      "phashion_group": "a8c624b915dfbd3c",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-01",
+      "last_seen_at": "2026-01-05",
+      "creatives": [
+        {
+          "id": "a8c624b915dfbd3c",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2b2e054bfb05e1d5/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2b2e054bfb05e1d5/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2b2e054bfb05e1d5/thumb",
+          "video_duration": 32,
+          "width": 1080,
+          "height": 1920,
+          "title": "😎Design your empire your way!",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    },
+    {
+      "id": "b3400bc695ed688d",
+      "app_id": "573d973122cbf508c500071e",
+      "network": "Instagram",
+      "phashion_group": "b3400bc695ed688d",
+      "ad_type": "video",
+      "first_seen_at": "2026-01-01",
+      "last_seen_at": "2026-01-05",
+      "creatives": [
+        {
+          "id": "b3400bc695ed688d",
+          "creative_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2b2e054bfb05e1d5/media",
+          "preview_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2b2e054bfb05e1d5/preview",
+          "thumb_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2b2e054bfb05e1d5/thumb",
+          "video_duration": 32,
+          "width": 1080,
+          "height": 1920,
+          "title": "😎Design your empire your way!",
+          "button_text": "Play game",
+          "message": ""
+        }
+      ],
+      "ad_formats": [
+        "other"
+      ],
+      "share": null,
+      "breakdown": {
+        "date": [],
+        "dimensions": [
+          [
+            "1080x1920",
+            1.0
+          ]
+        ]
+      },
+      "top_publishers": {
+        "count": 0,
+        "data": []
+      }
+    }
+  ]
+}

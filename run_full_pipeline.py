@@ -29,8 +29,8 @@ from pathlib import Path
 BASE_DIR = Path(__file__).parent
 
 # 处理数量选项（API 请求阶段）
-LIMIT_CHOICES = ("top1", "top5", "top10", "all")
-LIMIT_MAP = {"top1": 1, "top5": 5, "top10": 10, "all": None}
+LIMIT_CHOICES = ("top1", "top5", "top10", "top20", "all")
+LIMIT_MAP = {"top1": 1, "top5": 5, "top10": 10, "top20": 20, "all": None}
 
 
 def parse_date(date_str: str):
@@ -143,13 +143,14 @@ TARGET_SOURCE_CHOICES = ("strategy", "non_strategy", "both")
 
 
 def get_target_products_with_limit(
-    year: int, week_tag: str, limit: str, target_source: str = "both"
+    year: int, week_tag: str, limit: str, target_source: str = "both", product_type: str = "both"
 ):
     """
     从 target/{年}/{周}/ 下按 target_source 读取 strategy_target 和/或 non_strategy_target 的 xlsx。
     target_source: strategy=仅策略目标, non_strategy=仅非策略目标, both=两者。
+    product_type: old=仅老产品, new=仅新产品, both=全部；仅当 target_source 为 strategy 时生效，非策略目标不区分新老。
     优先用「Unified ID」作为 app_id（ST API 所需），产品名为「产品归属」；无 Unified ID 时用产品归属作为 app_id。
-    去重按 (app_id, 产品归属) 出现顺序，取前 limit 条。limit 为 top1/top5/top10/all。
+    去重按 (app_id, 产品归属) 出现顺序，取前 limit 条。limit 为 top1/top5/top10/top20/all。
     返回 (app_ids: list[str], app_list: list[tuple[str,str]])，app_list 为 (app_id, 产品归属)。
     """
     try:
@@ -171,11 +172,17 @@ def get_target_products_with_limit(
     col_uid = "Unified ID"
     seen_order = []  # (app_id, product_name)
     seen = set()
+    product_scope = (product_type or "both").lower()
     for sub in subs:
         sub_dir = target_base / sub
         if not sub_dir.exists():
             continue
         for f in sub_dir.glob("*.xlsx"):
+            if sub == "strategy_target" and product_scope in ("old", "new"):
+                if product_scope == "old" and f.name != "target_strategy_old.xlsx":
+                    continue
+                if product_scope == "new" and f.name != "target_strategy_new.xlsx":
+                    continue
             try:
                 df = pd.read_excel(f)
                 if col_product not in df.columns:
@@ -263,18 +270,26 @@ def run_step(num: int, week_tag: str, year: int, limit: str = "all", **kwargs) -
         if target_src == "non_strategy":
             print(f"\n🔹 步骤 3: 拉取地区数据 — 已选「仅非策略目标」，地区数据仅支持策略目标，跳过")
             return True
-        print(f"\n🔹 步骤 3: 拉取地区数据（处理数量: {limit}，目标: 策略）")
+        product_scope = (kwargs.get("product_type") or "both").lower()
+        scope_label = {"old": "老产品", "new": "新产品", "both": "老+新"}.get(product_scope, product_scope)
+        print(f"\n🔹 步骤 3: 拉取地区数据（处理数量: {limit}，目标: 策略，产品: {scope_label}）")
         start_date, end_date = week_tag_to_dates(year, week_tag)
         base_extra = ["--year", str(year), "--week", week_tag]
         if start_date:
             base_extra.extend(["--start_date", start_date])
         if end_date:
             base_extra.extend(["--end_date", end_date])
+        if product_scope == "old":
+            type_list = [("strategy_old", "target_strategy_old.xlsx")]
+        elif product_scope == "new":
+            type_list = [("strategy_new", "target_strategy_new.xlsx")]
+        else:
+            type_list = [
+                ("strategy_old", "target_strategy_old.xlsx"),
+                ("strategy_new", "target_strategy_new.xlsx"),
+            ]
         any_ok = False
-        for product_type, filename in [
-            ("strategy_old", "target_strategy_old.xlsx"),
-            ("strategy_new", "target_strategy_new.xlsx"),
-        ]:
+        for product_type, filename in type_list:
             app_ids = get_app_ids_from_strategy_file(year, week_tag, filename, limit=limit)
             if not app_ids:
                 print(f"  ⏭ 跳过 {product_type}（无目标或文件不存在: {filename}）")
@@ -296,11 +311,13 @@ def run_step(num: int, week_tag: str, year: int, limit: str = "all", **kwargs) -
             run_script("convert_country_json_to_xlsx.py", week_tag, year)
         # 若本周无任一 strategy 目标文件，仍返回 True 避免整条流水线报错
         return True
-    # 步骤 4：拉取创意数据（从 target 取产品列表，按 limit 与 target_source 截断后调用 fetch_ad_creatives）
+    # 步骤 4：拉取创意数据（从 target 取产品列表，按 limit、target_source、product_type 截断后调用 fetch_ad_creatives）
     if num == 4:
         target_src = (kwargs.get("target_source") or "both").lower()
-        print(f"\n🔹 步骤 4: 拉取创意数据（处理数量: {limit}，目标: {'仅策略' if target_src == 'strategy' else '仅非策略' if target_src == 'non_strategy' else '策略+非策略'}）")
-        _, app_list = get_target_products_with_limit(year, week_tag, limit, target_source=target_src)
+        product_scope = (kwargs.get("product_type") or "both").lower()
+        scope_label = {"old": "老产品", "new": "新产品", "both": "老+新"}.get(product_scope, product_scope)
+        print(f"\n🔹 步骤 4: 拉取创意数据（处理数量: {limit}，目标: {'仅策略' if target_src == 'strategy' else '仅非策略' if target_src == 'non_strategy' else '策略+非策略'}，产品: {scope_label}）")
+        _, app_list = get_target_products_with_limit(year, week_tag, limit, target_source=target_src, product_type=product_scope)
         if not app_list:
             return False
         print(f"  目标产品数: {len(app_list)}")
@@ -390,12 +407,13 @@ def run_phase2(
     fetch_creatives: bool,
     limit: str,
     target_source: str = "both",
+    product_type: str = "both",
 ) -> bool:
-    """第二步：根据目标产品表调 API。用户已选是否请求地区数据、创意数据、处理数量及策略/非策略目标。"""
+    """第二步：根据目标产品表调 API。用户已选是否请求地区数据、创意数据、处理数量及策略/非策略目标、新/老产品。"""
     if not fetch_country and not fetch_creatives:
         print("  第二步未选择任何 API 请求，跳过")
         return True
-    kw = {"target_source": target_source}
+    kw = {"target_source": target_source, "product_type": product_type}
     if fetch_country and not run_step(3, week_tag, year, limit=limit, **kw):
         return False
     if fetch_creatives and not run_step(4, week_tag, year, limit=limit, **kw):
@@ -633,7 +651,7 @@ def main():
         "--limit",
         choices=LIMIT_CHOICES,
         default="all",
-        help="第二步 API 处理数量：top1/top5/top10/all。默认 all",
+        help="第二步 API 处理数量：top1/top5/top10/top20/all。默认 all",
     )
     parser.add_argument(
         "--target",

@@ -125,6 +125,12 @@ pip install pandas openpyxl
 
 ---
 
+## 云上部署（腾讯云）
+
+若需将站点部署到腾讯云（轻量应用服务器 / CVM 或 Docker 云托管），请参考：**docs/腾讯云迁移指南.md**。内含环境准备、systemd 开机自启、可选 Nginx/HTTPS 与 Docker 部署步骤。
+
+---
+
 ## 文档
 
 - **docs/从GitHub克隆项目说明.md** — 同事从 GitHub 克隆、依赖安装与复刻验证

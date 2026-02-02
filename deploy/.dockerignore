@@ -1,0 +1,10 @@
+# 构建镜像时忽略，减小镜像体积、加快构建
+.git
+.gitignore
+*.pyc
+__pycache__
+venv
+.venv
+*.md
+docs/
+deploy/

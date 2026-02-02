@@ -24,6 +24,7 @@
   const panelProductDetail = document.getElementById('panelProductDetail');
   const panelCreative = document.getElementById('panelCreative');
   const panelCombo = document.getElementById('panelCombo');
+  const panelMaintenance = document.getElementById('panelMaintenance');
   const comboTitleEl = document.getElementById('comboTitle');
   const comboPeriodEl = document.getElementById('comboPeriod');
   const tableWrap = document.getElementById('tableWrap');
@@ -31,6 +32,14 @@
   const productPeriodEl = document.getElementById('productPeriod');
   const productSearchInput = document.getElementById('productSearchInput');
   const productSelect = document.getElementById('productSelect');
+  const productToolbar = document.getElementById('productToolbar');
+  const productNewGameWrap = document.getElementById('productNewGameWrap');
+  const productNewGameEmpty = document.getElementById('productNewGameEmpty');
+  const productNewGameTableWrap = document.getElementById('productNewGameTableWrap');
+  const productNewGameTableHead = document.getElementById('productNewGameTableHead');
+  const productNewGameTableBody = document.getElementById('productNewGameTableBody');
+  const productNewGameSearch = document.getElementById('productNewGameSearch');
+  const productHomeDetailPlaceholder = document.getElementById('productHomeDetailPlaceholder');
   const creativeTitleEl = document.getElementById('creativeTitle');
   const creativePeriodHintEl = document.getElementById('creativePeriodHint');
   const creativeProductTable = document.getElementById('creativeProductTable');
@@ -43,14 +52,40 @@
   const creativeProductDataHead = document.getElementById('creativeProductDataHead');
   const creativeProductDataBody = document.getElementById('creativeProductDataBody');
   const btnDownload = document.getElementById('btnDownload');
+  const btnDownloadMonitorTable = document.getElementById('btnDownloadMonitorTable');
   const btnProductDownload = document.getElementById('btnProductDownload');
   const btnCreativeDownload = document.getElementById('btnCreativeDownload');
+  const panelBasetable = document.getElementById('panelBasetable');
+  const basetableSubNav = document.getElementById('basetableSubNav');
+  const basetableTitle = document.getElementById('basetableTitle');
+  const basetablePeriodHint = document.getElementById('basetablePeriodHint');
+  const basetablePeriodText = document.getElementById('basetablePeriodText');
+  const basetableEmpty = document.getElementById('basetableEmpty');
+  const basetableTableWrap = document.getElementById('basetableTableWrap');
+  const basetableTableHead = document.getElementById('basetableTableHead');
+  const basetableTableBody = document.getElementById('basetableTableBody');
+  const basetableMetricsToolbar = document.getElementById('basetableMetricsToolbar');
+  const basetableMetricsSearch = document.getElementById('basetableMetricsSearch');
+  const basetableMetricsHint = document.getElementById('basetableMetricsHint');
+  const basetableOtherToolbar = document.getElementById('basetableOtherToolbar');
+  const basetableOtherSearch = document.getElementById('basetableOtherSearch');
+  const basetableOtherHint = document.getElementById('basetableOtherHint');
   const tableHead = document.getElementById('tableHead');
   const tableBody = document.getElementById('tableBody');
   const searchInput = document.getElementById('searchInput');
   const loadingEl = document.getElementById('loading');
   const emptyEl = document.getElementById('empty');
   const errorEl = document.getElementById('error');
+  const loginOverlay = document.getElementById('loginOverlay');
+  const loginForm = document.getElementById('loginForm');
+  const loginUsername = document.getElementById('loginUsername');
+  const loginPassword = document.getElementById('loginPassword');
+  const loginError = document.getElementById('loginError');
+  const loginSubmit = document.getElementById('loginSubmit');
+  const btnLogout = document.getElementById('btnLogout');
+  const headerUsername = document.getElementById('headerUsername');
+
+  const API_BASE = document.location.pathname.startsWith('/frontend') ? '' : '';
 
   let weeksIndex = null;
   let productThemeStyleMapping = null;  // { byUnifiedId: { id: { 题材, 画风 } } }，来自 product_theme_style_mapping.json（mapping/产品归属.xlsx）
@@ -59,9 +94,13 @@
   let currentWeek = null;
   let currentDimension = 'company';
   let currentCompanySubTab = 'overall';
+  let currentProductSubTab = 'overall';  // 产品维度子导航：overall=大盘数据, new=上线新游, detail=详细数据
+  let currentBasetableTab = null;  // 数据底表子导航：metrics_total|product_mapping|company_mapping|new_products|theme_label|gameplay_label|art_style_label
+  let basetableCachedData = null;  // 非产品总表时缓存 { tab, headers, rows }，供搜索筛选
+  const VALID_DIMS = ['company', 'company-detail', 'product', 'product-detail', 'creative', 'combo', 'basetable', 'maintenance'];
   (function () {
     var h = (window.location.hash || '#company').replace('#', '').toLowerCase();
-    if (['company', 'company-detail', 'product', 'product-detail', 'creative', 'combo'].indexOf(h) >= 0) currentDimension = h;
+    if (VALID_DIMS.indexOf(h) >= 0) currentDimension = h;
   })();
   let currentData = null;
   let filteredRows = null;
@@ -71,6 +110,13 @@
   let creativeRows = null;
   let creativeFilteredRows = null;
   let productDataForCreative = null;
+  let newProductsData = null;   // { headers: [], rows: [] }，来自 data/new_products.json（newproducts/*.xlsx 转出）
+  let newProductsFilteredRows = null;
+  let newProductsWeekFilteredRows = null;  // 按当前周（所属周）过滤后的行，搜索在此基础上再过滤
+  let newProductsMetricsByWeek = null;    // [{ year, week, productNames: [], nameToUnifiedId: {} }, ...]，按周存总表产品名与 Unified ID，匹配时只考虑「包含或晚于开测日期」的周
+  let newProductsInProductMapping = null; // Set<string> 产品归属表中存在的「产品归属」
+  // 上线新游展示列：产品名、产品归属、发行商、公司归属(空填未知)、开测日期、是否下架、是否在总表中存在、是否在产品表中存在、操作
+  const NEW_PRODUCTS_DISPLAY = ['产品名', '产品归属', '发行商', '公司归属', '开测日期', '是否下架', '是否在总表中存在', '是否在产品表中存在', '操作'];
   let pendingCreativeProduct = null;  // 从公司维度点击标黄行跳转素材维度时待选中的产品归属
   let selectedProductForDetail = null;  // 从产品维度点击产品进入产品详细看板时：{ name, key: 'old'|'new' }
   let productDetailOrigin = 'product';  // 进入产品详细看板时的来源：'company' 从公司大盘点入，'product' 从产品大盘点入；用于「大盘数据」按钮跳回对应维度
@@ -79,6 +125,10 @@
   let productDetailStackedBarChartInstance = null;
   let companyDetailLineChartInstance = null;
   let companyDetailStackedBarChartInstance = null;
+  let companyDetailProductRows = null;   // 公司产品汇总表原始行，用于排序后重绘
+  let companyDetailProductMeta = null;   // { productColIdx, launchColIdx, ... }
+  let companyDetailProductSortCol = -1;
+  let companyDetailProductSortAsc = true;
   const CREATIVE_REGIONS = [{ key: '亚洲T1', label: '亚洲 T1 市场' }, { key: '欧美T1', label: '欧美 T1 市场' }, { key: 'T2', label: 'T2 市场' }, { key: 'T3', label: 'T3 市场' }];
   const YELLOW_BG = '#fff2cc';
   const CREATIVE_TAG_OPTIONS = ['数字门跑酷', '塔防', '肉鸽/幸存者 like/割草'];
@@ -230,8 +280,9 @@
     const companyColIndexInitial = headers.indexOf('公司归属');
     const unifiedIdColIndexInitial = headers.indexOf('Unified ID');
     const isCompanyDimInitial = currentDimension === 'company';
+    const hideUnifiedIdCol = isCompanyDimInitial || isProductDimension;
     headers.forEach((h, i) => {
-      if (isCompanyDimInitial && h === 'Unified ID') return;
+      if (hideUnifiedIdCol && h === 'Unified ID') return;
       const th = document.createElement('th');
       th.textContent = h;
       th.dataset.col = i;
@@ -251,11 +302,11 @@
         tr.classList.add('target-product-row');
         tr.dataset.product = String(row[productColIndex]);
       }
-      if (isCompanyDimInitial && !isSummaryRow(row) && unifiedIdColIndexInitial >= 0 && row[unifiedIdColIndexInitial] != null && String(row[unifiedIdColIndexInitial]).trim() !== '') {
+      if ((isCompanyDimInitial || isProductDimension) && !isSummaryRow(row) && unifiedIdColIndexInitial >= 0 && row[unifiedIdColIndexInitial] != null && String(row[unifiedIdColIndexInitial]).trim() !== '') {
         tr.dataset.unifiedId = String(row[unifiedIdColIndexInitial]).trim();
       }
       row.forEach((cell, colIdx) => {
-        if (isCompanyDimInitial && colIdx === unifiedIdColIndexInitial) return;
+        if (hideUnifiedIdCol && colIdx === unifiedIdColIndexInitial) return;
         const td = document.createElement('td');
         const isCompanyNameLink = isCompanyDimInitial && !isSummaryRow(row) && colIdx === companyColIndexInitial && companyColIndexInitial >= 0 && cell != null && String(cell) !== '';
         const isProductNameLink = (isProductDimension || (!isSummaryRow(row) && isCompanyDimInitial)) && colIdx === productColIndex && productColIndex >= 0;
@@ -314,6 +365,8 @@
     const companyColIndex = currentData.headers.indexOf('公司归属');
     const unifiedIdColIndex = currentData.headers.indexOf('Unified ID');
     const isCompanyDim = currentDimension === 'company';
+    const isProductDim = currentDimension === 'product';
+    const hideUnifiedIdInSort = isCompanyDim || isProductDim;
     filteredRows.forEach((row, idx) => {
       const tr = document.createElement('tr');
       if (isSummaryRow(row)) tr.classList.add('row-summary');
@@ -329,9 +382,8 @@
       if (currentDimension === 'company' && !isSummaryRow(row) && unifiedIdColIndex >= 0 && row[unifiedIdColIndex] != null && String(row[unifiedIdColIndex]).trim() !== '') {
         tr.dataset.unifiedId = String(row[unifiedIdColIndex]).trim();
       }
-      const isProductDim = currentDimension === 'product';
       row.forEach((cell, colIdx) => {
-        if (isCompanyDim && colIdx === unifiedIdColIndex) return;
+        if (hideUnifiedIdInSort && colIdx === unifiedIdColIndex) return;
         const td = document.createElement('td');
         const isCompanyNameLink = isCompanyDim && !isSummaryRow(row) && colIdx === companyColIndex && companyColIndex >= 0 && cell != null && String(cell) !== '';
         const isProductNameLink = (isProductDim || (!isSummaryRow(row) && isCompanyDim)) && colIdx === productColIndex && productColIndex >= 0;
@@ -421,6 +473,30 @@
     }
   }
 
+  /** 产品维度子 tab 内容：大盘数据=筛选栏+表格，上线新游=搜索+空状态/表格，详细数据=请选择产品占位（与公司维度一致） */
+  function showProductSubTabContent() {
+    if (productNewGameWrap) hide(productNewGameWrap);
+    if (productHomeDetailPlaceholder) hide(productHomeDetailPlaceholder);
+    if (productToolbar) hide(productToolbar);
+    hide(tableWrap);
+    hide(loadingEl);
+    hide(emptyEl);
+    hide(errorEl);
+    if (currentProductSubTab === 'new') {
+      if (productNewGameWrap) show(productNewGameWrap);
+      if (productTitleEl) {
+        productTitleEl.textContent = (currentYear && currentWeek) ? currentYear + '年, ' + currentWeek + ', 上线新游' : '请从左侧选择周期（上线新游）';
+      }
+      loadNewProducts();
+    } else if (currentProductSubTab === 'detail') {
+      if (productHomeDetailPlaceholder) show(productHomeDetailPlaceholder);
+    } else {
+      if (productToolbar) show(productToolbar);
+      show(tableWrap);
+      if (currentData && currentDimension === 'product') renderTable(true);
+    }
+  }
+
   function loadProductWeek(year, week) {
     if (!year || !week) {
       productTitleEl.textContent = '请从左侧选择周期';
@@ -445,15 +521,389 @@
       .catch(err => { errorEl.textContent = '加载失败: ' + err.message + '（请先运行 convert_final_join_to_json.py 生成 JSON）'; setState('error'); });
   }
 
+  /** 从开测时间字符串取日期部分 YYYY-MM-DD */
+  function formatOpenTestDate(s) {
+    if (s == null || s === '') return '—';
+    var str = String(s).trim();
+    if (str.length >= 10) return str.substring(0, 10);
+    return str || '—';
+  }
+
+  /** 周标签 MMDD-MMDD（如 0119-0125）对应该周结束日 YYYY-MM-DD */
+  function weekEndDate(year, weekTag) {
+    if (!year || !weekTag || typeof weekTag !== 'string') return '';
+    var parts = weekTag.split('-');
+    if (parts.length < 2) return '';
+    var endPart = parts[1].trim();
+    if (endPart.length < 4) return '';
+    var m = endPart.substring(0, 2);
+    var d = endPart.substring(2, 4);
+    return String(year) + '-' + m + '-' + d;
+  }
+
+  /** 产品名规范化后比较（trim、折叠空格、转小写），与总表 Unified Name 匹配用 */
+  function normalizeProductNameForTotal(s) {
+    if (s == null || s === '') return '';
+    return String(s).trim().replace(/\s+/g, ' ').toLowerCase();
+  }
+
+  /** 仅用产品名在「包含或晚于开测日期」的周的总表 Unified Name 中匹配；有则返回 { inTotal: true, unifiedId }，否则 { inTotal: false, unifiedId: '' } */
+  function isProductInTotalByOpenTestDate(productName, openTestDateStr) {
+    if (!productName || !newProductsMetricsByWeek || !newProductsMetricsByWeek.length) return { inTotal: false, unifiedId: '' };
+    var nameNorm = normalizeProductNameForTotal(productName);
+    if (!nameNorm) return { inTotal: false, unifiedId: '' };
+    var compareDate = (openTestDateStr === '—' || !openTestDateStr) ? '' : String(openTestDateStr).trim();
+    for (var i = 0; i < newProductsMetricsByWeek.length; i++) {
+      var w = newProductsMetricsByWeek[i];
+      var weekEndStr = weekEndDate(w.year, w.week);
+      if (compareDate && weekEndStr && weekEndStr < compareDate) continue;
+      var names = w.productNames || [];
+      for (var j = 0; j < names.length; j++) {
+        var n = names[j];
+        if (normalizeProductNameForTotal(n) === nameNorm) {
+          var uid = (w.nameToUnifiedId && w.nameToUnifiedId[n]) ? String(w.nameToUnifiedId[n]).trim() : '';
+          return { inTotal: true, unifiedId: uid || '' };
+        }
+      }
+    }
+    return { inTotal: false, unifiedId: '' };
+  }
+
+  function loadNewProducts() {
+    if (!productNewGameWrap || !productNewGameTableHead || !productNewGameTableBody) return;
+    if (productNewGameEmpty) show(productNewGameEmpty);
+    if (productNewGameTableWrap) hide(productNewGameTableWrap);
+    var dataBase = (document.location.pathname || '').indexOf('frontend') >= 0 ? '/frontend' : (typeof base !== 'undefined' ? base : '');
+    var url = dataBase + '/data/new_products.json?t=' + (Date.now ? Date.now() : 0);
+    var mappingUrl = '/api/basetable?name=product_mapping';
+    var allPairs = [];
+    if (weeksIndex) {
+      Object.keys(weeksIndex).filter(function (y) { return /^\d{4}$/.test(y); }).forEach(function (y) {
+        (weeksIndex[y] || []).forEach(function (wt) { allPairs.push({ year: y, week: wt }); });
+      });
+    }
+    var metricsFetches = allPairs.map(function (p) {
+      return fetch('/api/basetable/metrics_total_product_names?year=' + encodeURIComponent(p.year) + '&week=' + encodeURIComponent(p.week))
+        .then(function (r) { return r.ok ? r.json() : { productNames: [], nameToUnifiedId: {} }; })
+        .catch(function () { return { productNames: [], nameToUnifiedId: {} }; })
+        .then(function (data) { return { year: p.year, week: p.week, productNames: data.productNames || [], nameToUnifiedId: data.nameToUnifiedId || {} }; });
+    });
+    Promise.all([
+      fetch(url).then(function (r) { return r.ok ? r.json() : { headers: [], rows: [] }; }).catch(function () { return { headers: [], rows: [] }; }),
+      Promise.all(metricsFetches),
+      fetch(mappingUrl).then(function (r) { return r.ok ? r.json() : { headers: [], rows: [] }; }).catch(function () { return { headers: [], rows: [] }; })
+    ]).then(function (results) {
+      var data = results[0];
+      var metricsList = results[1];
+      var mappingData = results[2];
+      newProductsData = { headers: data.headers || [], rows: data.rows || [] };
+      var headers = newProductsData.headers || [];
+      var allRows = newProductsData.rows || [];
+      var weekColIdx = headers.indexOf('所属周');
+      var weekKey = (currentYear && currentWeek) ? (String(currentYear) + '/' + String(currentWeek)) : '';
+      if (weekColIdx >= 0 && weekKey) {
+        newProductsWeekFilteredRows = allRows.filter(function (row) {
+          var cell = row[weekColIdx];
+          return cell != null && String(cell).trim() === weekKey;
+        });
+      } else {
+        newProductsWeekFilteredRows = allRows.slice();
+      }
+      var q = (productNewGameSearch && productNewGameSearch.value) ? productNewGameSearch.value.trim().toLowerCase() : '';
+      if (!q) {
+        newProductsFilteredRows = newProductsWeekFilteredRows.slice();
+      } else {
+        newProductsFilteredRows = newProductsWeekFilteredRows.filter(function (row) {
+          return row.some(function (cell) { return String(cell || '').toLowerCase().indexOf(q) >= 0; });
+        });
+      }
+      if (productNewGameSearch) productNewGameSearch.value = q;
+      newProductsMetricsByWeek = metricsList;
+      newProductsInProductMapping = new Set();
+      if (mappingData.rows && mappingData.headers) {
+        var mapIdx = mappingData.headers.indexOf('产品归属');
+        if (mapIdx >= 0) {
+          mappingData.rows.forEach(function (row) {
+            var v = row[mapIdx];
+            if (v != null && String(v).trim() !== '') newProductsInProductMapping.add(String(v).trim());
+          });
+        } else if (mappingData.rows.length && mappingData.rows[0].length > 4) {
+          mappingData.rows.forEach(function (row) {
+            var v = row[4];
+            if (v != null && String(v).trim() !== '') newProductsInProductMapping.add(String(v).trim());
+          });
+        }
+      }
+      renderNewProductsTable();
+      if (newProductsFilteredRows && newProductsFilteredRows.length > 0) {
+        if (productNewGameEmpty) hide(productNewGameEmpty);
+        if (productNewGameTableWrap) show(productNewGameTableWrap);
+      } else {
+        if (productNewGameEmpty) show(productNewGameEmpty);
+        if (productNewGameTableWrap) hide(productNewGameTableWrap);
+      }
+    });
+  }
+
+  function renderNewProductsTable() {
+    if (!newProductsData || !productNewGameTableHead || !productNewGameTableBody) return;
+    var headers = newProductsData.headers || [];
+    var rows = newProductsFilteredRows || [];
+    var idxName = headers.indexOf('产品名（实时更新中）');
+    var idxBelong = headers.indexOf('产品归属');
+    var idxTheme = headers.indexOf('题材');
+    var idxStyle = headers.indexOf('画风');
+    var idxPub = headers.indexOf('发行商');
+    var idxComp = headers.indexOf('公司归属');
+    var idxOpenTest = headers.indexOf('开测时间');
+    var idxOffline = headers.indexOf('是否下架');
+    var inMapping = newProductsInProductMapping || new Set();
+    productNewGameTableHead.innerHTML = '';
+    var theadTr = document.createElement('tr');
+    NEW_PRODUCTS_DISPLAY.forEach(function (h) {
+      var th = document.createElement('th');
+      th.textContent = h;
+      theadTr.appendChild(th);
+    });
+    productNewGameTableHead.appendChild(theadTr);
+    productNewGameTableBody.innerHTML = '';
+    rows.forEach(function (row, rowIdx) {
+      var nameVal = idxName >= 0 && row[idxName] != null ? String(row[idxName]).trim() : '';
+      var belongVal = idxBelong >= 0 && row[idxBelong] != null ? String(row[idxBelong]).trim() : '';
+      var compVal = idxComp >= 0 && row[idxComp] != null ? String(row[idxComp]).trim() : '';
+      if (!compVal) compVal = '未知';
+      var openTestVal = idxOpenTest >= 0 && row[idxOpenTest] != null ? formatOpenTestDate(row[idxOpenTest]) : '—';
+      var openTestDateStr = openTestVal === '—' ? '' : openTestVal;
+      var offlineVal = idxOffline >= 0 && row[idxOffline] != null ? formatOpenTestDate(row[idxOffline]) : '—';
+      var inTotalResult = isProductInTotalByOpenTestDate(nameVal, openTestDateStr);
+      var inTotalVal = inTotalResult.inTotal ? '是' : '否';
+      var inMappingVal = belongVal && inMapping.has(belongVal) ? '是' : '否';
+      var displayRow = [
+        nameVal || belongVal || '—',
+        belongVal || '—',
+        idxPub >= 0 && row[idxPub] != null ? String(row[idxPub]).trim() : '—',
+        compVal,
+        openTestVal,
+        offlineVal,
+        inTotalVal,
+        inMappingVal
+      ];
+      var tr = document.createElement('tr');
+      displayRow.forEach(function (cell, colIdx) {
+        var td = document.createElement('td');
+        td.textContent = cell != null && cell !== '' ? cell : '—';
+        if (colIdx === 6 && cell === '是') td.classList.add('new-product-in-total-yes');
+        tr.appendChild(td);
+      });
+      var tdAction = document.createElement('td');
+      var btn = document.createElement('button');
+      btn.type = 'button';
+      btn.className = 'btn-download btn-add-mapping';
+      btn.textContent = '加入产品归属表';
+      btn.dataset.rowIndex = String(rowIdx);
+      tdAction.appendChild(btn);
+      tr.appendChild(tdAction);
+      productNewGameTableBody.appendChild(tr);
+    });
+    productNewGameTableBody.querySelectorAll('.btn-add-mapping').forEach(function (btnEl) {
+      btnEl.addEventListener('click', function () {
+        var clickedBtn = this;
+        var rowIdx = parseInt(clickedBtn.dataset.rowIndex, 10);
+        if (!newProductsFilteredRows || rowIdx < 0 || rowIdx >= newProductsFilteredRows.length) return;
+        var row = newProductsFilteredRows[rowIdx];
+        var headers = newProductsData.headers || [];
+        var idxName = headers.indexOf('产品名（实时更新中）');
+        var idxBelong = headers.indexOf('产品归属');
+        var idxTheme = headers.indexOf('题材');
+        var idxStyle = headers.indexOf('画风');
+        var idxPub = headers.indexOf('发行商');
+        var idxComp = headers.indexOf('公司归属');
+        var idxOpenTest = headers.indexOf('开测时间');
+        var belongVal = idxBelong >= 0 && row[idxBelong] != null ? String(row[idxBelong]).trim() : '';
+        var compVal = idxComp >= 0 && row[idxComp] != null ? String(row[idxComp]).trim() : '';
+        if (!compVal) compVal = '未知';
+        var prodName = idxName >= 0 && row[idxName] != null ? String(row[idxName]).trim() : belongVal;
+        var openTestDateStr = idxOpenTest >= 0 && row[idxOpenTest] != null ? formatOpenTestDate(row[idxOpenTest]) : '';
+        if (openTestDateStr === '—') openTestDateStr = '';
+        var totalResult = isProductInTotalByOpenTestDate(prodName, openTestDateStr);
+        var product = {
+          产品名: prodName,
+          产品归属: belongVal,
+          'Unified ID': totalResult.unifiedId || '',
+          题材: idxTheme >= 0 && row[idxTheme] != null ? String(row[idxTheme]).trim() : '',
+          画风: idxStyle >= 0 && row[idxStyle] != null ? String(row[idxStyle]).trim() : '',
+          发行商: idxPub >= 0 && row[idxPub] != null ? String(row[idxPub]).trim() : '',
+          公司归属: compVal
+        };
+        if (!product.产品归属) {
+          alert('该行无有效产品归属。');
+          return;
+        }
+        var origText = clickedBtn.textContent;
+        clickedBtn.disabled = true;
+        clickedBtn.textContent = '提交中...';
+        fetch('/api/maintenance/add_to_product_mapping', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ products: [product] })
+        }).then(function (r) { return r.json(); }).then(function (res) {
+          clickedBtn.disabled = false;
+          clickedBtn.textContent = origText;
+          alert(res.ok ? (res.message + (res.added != null ? ' 新增 ' + res.added + ' 条。' : '')) : res.message || '请求失败');
+          if (res.ok && res.added > 0) {
+            newProductsInProductMapping = null;
+            loadNewProducts();
+          }
+        }).catch(function (err) {
+          clickedBtn.disabled = false;
+          clickedBtn.textContent = origText;
+          alert('请求失败: ' + (err.message || err));
+        });
+      });
+    });
+  }
+
+  function loadBasetableContent(tab) {
+    if (!basetableTableHead || !basetableTableBody) return;
+    var dataBase = (document.location.pathname || '').indexOf('frontend') >= 0 ? '/frontend' : (typeof base !== 'undefined' ? base : '');
+    if (basetablePeriodHint && basetablePeriodText) {
+      if (tab === 'metrics_total' && currentYear && currentWeek) {
+        basetablePeriodHint.style.display = '';
+        basetablePeriodText.textContent = currentYear + '年 ' + currentWeek;
+      } else {
+        basetablePeriodHint.style.display = 'none';
+      }
+    }
+    if (tab === 'metrics_total') {
+      if (!currentYear || !currentWeek) {
+        if (basetableMetricsToolbar) hide(basetableMetricsToolbar);
+        if (basetableEmpty) { show(basetableEmpty); basetableEmpty.querySelector('.company-home-detail-prompt').textContent = '请从左侧选择周期（产品总表按周展示）'; }
+        if (basetableTableWrap) hide(basetableTableWrap);
+        return;
+      }
+      if (basetableMetricsToolbar) show(basetableMetricsToolbar);
+      if (basetableOtherToolbar) hide(basetableOtherToolbar);
+      var searchQ = (basetableMetricsSearch && basetableMetricsSearch.value) ? basetableMetricsSearch.value.trim() : '';
+      var limit = searchQ ? 2000 : 1000;
+      var apiUrl = '/api/basetable/metrics_total?year=' + encodeURIComponent(currentYear) + '&week=' + encodeURIComponent(currentWeek) + '&limit=' + limit + (searchQ ? '&q=' + encodeURIComponent(searchQ) : '');
+      fetch(apiUrl).then(function (r) { return r.ok ? r.json() : { headers: [], rows: [], total: 0 }; }).catch(function () { return { headers: [], rows: [], total: 0 }; })
+        .then(function (data) {
+          var headers = data.headers || [];
+          var rows = data.rows || [];
+          var total = data.total !== undefined ? data.total : rows.length;
+          if (basetableEmpty) hide(basetableEmpty);
+          if (basetableTableWrap) show(basetableTableWrap);
+          basetableTableHead.innerHTML = '';
+          var tr = document.createElement('tr');
+          headers.forEach(function (h) { var th = document.createElement('th'); th.textContent = h; tr.appendChild(th); });
+          basetableTableHead.appendChild(tr);
+          basetableTableBody.innerHTML = '';
+          rows.forEach(function (row) {
+            var rowTr = document.createElement('tr');
+            (row || []).forEach(function (cell) {
+              var td = document.createElement('td');
+              td.textContent = cell != null && cell !== '' ? String(cell) : '—';
+              rowTr.appendChild(td);
+            });
+            basetableTableBody.appendChild(rowTr);
+          });
+          if (basetableMetricsHint) {
+            if (searchQ) {
+              basetableMetricsHint.textContent = '共 ' + total + ' 条匹配，当前展示前 ' + rows.length + ' 条（最多 2000 条）';
+            } else {
+              basetableMetricsHint.textContent = '共 ' + total + ' 条，当前展示前 ' + rows.length + ' 条，可搜索查看其他';
+            }
+          }
+        });
+      return;
+    }
+    if (basetableMetricsToolbar) hide(basetableMetricsToolbar);
+    if (tab === 'new_products') {
+      var newUrl = dataBase + '/data/new_products.json';
+      fetch(newUrl).then(function (r) { return r.ok ? r.json() : { headers: [], rows: [] }; }).catch(function () { return { headers: [], rows: [] }; })
+        .then(function (data) {
+          var headers = data.headers || [];
+          var rows = data.rows || [];
+          basetableCachedData = { tab: tab, headers: headers, rows: rows };
+          if (basetableOtherToolbar) show(basetableOtherToolbar);
+          if (basetableOtherSearch) basetableOtherSearch.value = '';
+          renderBasetableOtherTable();
+        });
+      return;
+    }
+    var apiUrl = '/api/basetable?name=' + encodeURIComponent(tab);
+    fetch(apiUrl).then(function (r) { return r.ok ? r.json() : { headers: [], rows: [] }; }).catch(function () { return { headers: [], rows: [] }; })
+      .then(function (data) {
+        var headers = data.headers || [];
+        var rows = data.rows || [];
+        if (!headers.length && !rows.length) {
+          basetableCachedData = null;
+          if (basetableOtherToolbar) hide(basetableOtherToolbar);
+          if (basetableEmpty) { show(basetableEmpty); basetableEmpty.querySelector('.company-home-detail-prompt').textContent = '暂无数据或文件不存在'; }
+          if (basetableTableWrap) hide(basetableTableWrap);
+        } else {
+          basetableCachedData = { tab: tab, headers: headers, rows: rows };
+          if (basetableOtherToolbar) show(basetableOtherToolbar);
+          if (basetableOtherSearch) basetableOtherSearch.value = '';
+          renderBasetableOtherTable();
+        }
+      });
+  }
+
+  function renderBasetableOtherTable() {
+    if (!basetableCachedData || !basetableTableHead || !basetableTableBody) return;
+    var headers = basetableCachedData.headers || [];
+    var allRows = basetableCachedData.rows || [];
+    var q = (basetableOtherSearch && basetableOtherSearch.value) ? basetableOtherSearch.value.trim().toLowerCase() : '';
+    var rows = q ? allRows.filter(function (row) {
+      return (row || []).some(function (cell) { return String(cell || '').toLowerCase().indexOf(q) >= 0; });
+    }) : allRows;
+    var hideColIdx = (basetableCachedData.tab === 'new_products') ? headers.indexOf('所属周') : -1;
+    if (basetableEmpty) hide(basetableEmpty);
+    if (basetableTableWrap) show(basetableTableWrap);
+    basetableTableHead.innerHTML = '';
+    var tr = document.createElement('tr');
+    headers.forEach(function (h, i) {
+      if (i === hideColIdx) return;
+      var th = document.createElement('th');
+      th.textContent = h;
+      tr.appendChild(th);
+    });
+    basetableTableHead.appendChild(tr);
+    basetableTableBody.innerHTML = '';
+    rows.forEach(function (row) {
+      var rowTr = document.createElement('tr');
+      (row || []).forEach(function (cell, i) {
+        if (i === hideColIdx) return;
+        var td = document.createElement('td');
+        td.textContent = cell != null && cell !== '' ? String(cell) : '—';
+        rowTr.appendChild(td);
+      });
+      basetableTableBody.appendChild(rowTr);
+    });
+    if (basetableOtherHint) {
+      if (q) {
+        basetableOtherHint.textContent = '共 ' + allRows.length + ' 条，当前筛选出 ' + rows.length + ' 条';
+      } else {
+        basetableOtherHint.textContent = '共 ' + allRows.length + ' 条';
+      }
+    }
+  }
+
   function loadWeek(year, week) {
-    currentYear = year;
-    currentWeek = week;
+    currentYear = year != null ? String(year) : null;
+    currentWeek = week != null ? String(week) : null;
+    setActiveWeekInSidebar(currentYear, currentWeek);
     if (currentDimension === 'company') loadCompanyWeek(year, week);
-    else if (currentDimension === 'company-detail') switchDimension('company');
-    else if (currentDimension === 'product') loadProductWeek(year, week);
-    else if (currentDimension === 'product-detail') switchDimension('product');
+    else if (currentDimension === 'company-detail') loadCompanyDetail();
+    else if (currentDimension === 'product') {
+      if (currentProductSubTab === 'new') showProductSubTabContent();
+      else loadProductWeek(year, week);
+    }
+    else if (currentDimension === 'product-detail') loadProductDetail();
     else if (currentDimension === 'creative') loadCreativeWeek(year, week);
     else if (currentDimension === 'combo') updateComboDisplay();
+    else if (currentDimension === 'basetable' && currentBasetableTab === 'metrics_total') loadBasetableContent('metrics_total');
   }
 
   function loadCreativeProductsThen(year, week) {
@@ -782,18 +1232,29 @@
   }
 
   function setActiveWeekInSidebar(year, week) {
+    var y = year != null ? String(year) : '';
+    var w = week != null ? String(week) : '';
     document.querySelectorAll('.sidebar-week-link').forEach(a => {
       a.classList.remove('active');
-      if (a.dataset.year === year && a.dataset.week === week) a.classList.add('active');
+      if (String(a.dataset.year || '') === y && String(a.dataset.week || '') === w) a.classList.add('active');
     });
   }
 
-  function switchDimension(dim) {
-    currentDimension = dim;
-    if (dim !== 'product-detail') destroyProductDetailCharts();
-    if (dim !== 'company-detail') destroyCompanyTrendCharts();
+  /** 从 URL hash 解析当前维度（唯一路由入口的输入） */
+  function parseHash() {
+    var h = (window.location.hash || '#company').replace('#', '').toLowerCase();
+    return VALID_DIMS.indexOf(h) >= 0 ? h : 'company';
+  }
+
+  /** 仅更新 URL hash，不执行渲染；由 hashchange 触发 applyRoute，避免双向驱动 */
+  function setRoute(dim) {
     if (window.location.hash !== '#' + dim) window.location.hash = '#' + dim;
+  }
+
+  /** 仅负责面板显示/隐藏与子导航状态，不加载数据 */
+  function renderPanels(dim) {
     var navDim = dim === 'product-detail' ? 'product' : (dim === 'company-detail' ? 'company' : dim);
+    if (dim === 'maintenance') navDim = 'maintenance';
     document.querySelectorAll('.top-nav-link').forEach(l => { l.classList.toggle('active', l.dataset.dim === navDim); });
     if (dim === 'company') {
       show(panelCompany);
@@ -802,9 +1263,9 @@
       hide(panelProductDetail);
       hide(panelCreative);
       hide(panelCombo);
+      hide(panelBasetable);
+      hide(panelMaintenance);
       showCompanySubTabContent();
-      if (currentYear && currentWeek) loadCompanyWeek(currentYear, currentWeek);
-      else setState('empty');
     } else if (dim === 'company-detail') {
       hide(panelCompany);
       show(panelCompanyDetail);
@@ -812,6 +1273,8 @@
       hide(panelProductDetail);
       hide(panelCreative);
       hide(panelCombo);
+      hide(panelBasetable);
+      hide(panelMaintenance);
       hide(tableWrap);
       hide(loadingEl);
       hide(emptyEl);
@@ -822,8 +1285,6 @@
         var detailTab = companyDetailSubNav.querySelector('.company-detail-sub-link[data-tab="detail"]');
         if (detailTab) detailTab.classList.add('active');
       }
-      if (currentYear && currentWeek && selectedCompanyForDetail) loadCompanyDetail();
-      else renderCompanyDetailPlaceholder();
     } else if (dim === 'product') {
       hide(panelCompany);
       hide(panelCompanyDetail);
@@ -831,9 +1292,16 @@
       hide(panelProductDetail);
       hide(panelCreative);
       hide(panelCombo);
+      hide(panelBasetable);
+      hide(panelMaintenance);
       show(tableWrap);
-      if (currentYear && currentWeek) loadProductWeek(currentYear, currentWeek);
-      else setState('empty');
+      var productHomeNav = document.getElementById('productHomeSubNav');
+      if (productHomeNav) {
+        productHomeNav.querySelectorAll('.company-detail-sub-link').forEach(function (l) {
+          l.classList.toggle('active', (l.dataset.tab || '') === currentProductSubTab);
+        });
+      }
+      showProductSubTabContent();
     } else if (dim === 'product-detail') {
       hide(panelCompany);
       hide(panelCompanyDetail);
@@ -841,22 +1309,123 @@
       show(panelProductDetail);
       hide(panelCreative);
       hide(panelCombo);
+      hide(panelBasetable);
+      hide(panelMaintenance);
       hide(tableWrap);
       hide(loadingEl);
       hide(emptyEl);
       hide(errorEl);
-      document.querySelectorAll('.product-detail-sub-link').forEach(function (l) { l.classList.remove('active'); });
-      var productDetailTab = document.querySelector('.product-detail-sub-link[data-tab="detail"]');
-      if (productDetailTab) productDetailTab.classList.add('active');
-      if (currentYear && currentWeek && selectedProductForDetail) loadProductDetail();
-      else renderProductDetailPlaceholder();
+      var pdetailNav = document.getElementById('productDetailSubNav');
+      if (pdetailNav) {
+        pdetailNav.querySelectorAll('.product-detail-sub-link').forEach(function (l) { l.classList.remove('active'); });
+        var productDetailTab = pdetailNav.querySelector('.product-detail-sub-link[data-tab="detail"]');
+        if (productDetailTab) productDetailTab.classList.add('active');
+      }
     } else if (dim === 'creative') {
       hide(panelCompany);
       hide(panelCompanyDetail);
       hide(panelProduct);
       hide(panelProductDetail);
       show(panelCreative);
+      hide(panelCombo);
+      hide(panelBasetable);
+      hide(panelMaintenance);
       show(tableWrap);
+    } else if (dim === 'combo') {
+      hide(panelCompany);
+      hide(panelCompanyDetail);
+      hide(panelProduct);
+      hide(panelProductDetail);
+      hide(panelCreative);
+      show(panelCombo);
+      hide(panelBasetable);
+      hide(panelMaintenance);
+      hide(tableWrap);
+      hide(loadingEl);
+      hide(emptyEl);
+      hide(errorEl);
+    } else if (dim === 'basetable') {
+      hide(panelCompany);
+      hide(panelCompanyDetail);
+      hide(panelProduct);
+      hide(panelProductDetail);
+      hide(panelCreative);
+      hide(panelCombo);
+      show(panelBasetable);
+      hide(panelMaintenance);
+      hide(tableWrap);
+      hide(loadingEl);
+      hide(emptyEl);
+      hide(errorEl);
+      if (basetableEmpty) show(basetableEmpty);
+      if (basetableTableWrap) hide(basetableTableWrap);
+      if (basetableSubNav) {
+        basetableSubNav.querySelectorAll('.company-detail-sub-link').forEach(function (l) {
+          l.classList.toggle('active', l.getAttribute('data-tab') === currentBasetableTab);
+        });
+        if (!currentBasetableTab) {
+          var first = basetableSubNav.querySelector('.company-detail-sub-link');
+          if (first) {
+            currentBasetableTab = first.getAttribute('data-tab');
+            first.classList.add('active');
+          }
+        }
+      }
+    } else if (dim === 'maintenance') {
+      hide(panelCompany);
+      hide(panelCompanyDetail);
+      hide(panelProduct);
+      hide(panelProductDetail);
+      hide(panelCreative);
+      hide(panelCombo);
+      hide(panelBasetable);
+      show(panelMaintenance);
+      hide(tableWrap);
+      hide(loadingEl);
+      hide(emptyEl);
+      hide(errorEl);
+    } else {
+      hide(panelCompany);
+      hide(panelCompanyDetail);
+      show(panelProduct);
+      hide(panelProductDetail);
+      hide(panelCreative);
+      hide(panelCombo);
+      hide(panelBasetable);
+      hide(panelMaintenance);
+      show(tableWrap);
+    }
+    var layoutEl = document.getElementById('layout');
+    if (layoutEl) {
+      layoutEl.classList.toggle('layout-maintenance', dim === 'maintenance');
+      layoutEl.classList.toggle('layout-basetable-no-sidebar', dim === 'basetable' && currentBasetableTab !== 'metrics_total');
+    }
+    if (dim === 'basetable' && currentBasetableTab) {
+      loadBasetableContent(currentBasetableTab);
+      if (currentBasetableTab === 'metrics_total' && currentYear && currentWeek && typeof setActiveWeekInSidebar === 'function') setActiveWeekInSidebar(currentYear, currentWeek);
+    }
+  }
+
+  /** 仅负责按当前维度加载数据 */
+  function loadDataForDimension(dim) {
+    if (dim === 'company') {
+      if (currentYear && currentWeek) loadCompanyWeek(currentYear, currentWeek);
+      else setState('empty');
+    } else if (dim === 'company-detail') {
+      if (currentYear && currentWeek && selectedCompanyForDetail) loadCompanyDetail();
+      else renderCompanyDetailPlaceholder();
+    } else if (dim === 'product') {
+      if (currentProductSubTab === 'new') {
+        showProductSubTabContent();
+      } else if (currentYear && currentWeek) {
+        loadProductWeek(currentYear, currentWeek);
+      } else {
+        setState('empty');
+      }
+    } else if (dim === 'product-detail') {
+      if (currentYear && currentWeek && selectedProductForDetail) loadProductDetail();
+      else renderProductDetailPlaceholder();
+    } else if (dim === 'creative') {
       if (currentYear && currentWeek) loadCreativeWeek(currentYear, currentWeek);
       else {
         creativeTitleEl.textContent = '请从左侧选择周期';
@@ -865,27 +1434,55 @@
         setState('empty');
       }
     } else if (dim === 'combo') {
-      hide(panelCompany);
-      hide(panelCompanyDetail);
-      hide(panelProduct);
-      hide(panelProductDetail);
-      hide(panelCreative);
-      show(panelCombo);
-      hide(tableWrap);
-      hide(loadingEl);
-      hide(emptyEl);
-      hide(errorEl);
       updateComboDisplay();
+    } else if (dim === 'basetable') {
+      if (currentBasetableTab) loadBasetableContent(currentBasetableTab);
+      else if (basetableEmpty) { show(basetableEmpty); hide(basetableTableWrap); }
+    } else if (dim === 'maintenance') {
+      /* 数据维护页无需预加载数据 */
     } else {
-      hide(panelCompany);
-      hide(panelCompanyDetail);
-      show(panelProduct);
-      hide(panelProductDetail);
-      hide(panelCreative);
-      hide(panelCombo);
-      show(tableWrap);
       setState('empty');
     }
+  }
+
+  /** 唯一的路由应用入口：同步状态、渲染面板、加载数据；仅由 hashchange 或初始化调用，不直接写 hash */
+  function applyRoute(dim) {
+    if (VALID_DIMS.indexOf(dim) < 0) dim = 'company';
+    currentDimension = dim;
+    if (dim !== 'product-detail') destroyProductDetailCharts();
+    if (dim !== 'company-detail') destroyCompanyTrendCharts();
+    renderPanels(dim);
+    loadDataForDimension(dim);
+  }
+
+  /** 统一跳转：仅改 hash，由 hashchange 触发 applyRoute */
+  function goToDimension(dim) {
+    setRoute(dim);
+  }
+
+  /** 打开公司详情：先写入选中的公司，再改路由 */
+  function openCompanyDetail(company) {
+    selectedCompanyForDetail = company;
+    setRoute('company-detail');
+  }
+
+  /** 打开产品详情：先写入产品和来源，再改路由 */
+  function openProductDetail(productInfo, origin) {
+    selectedProductForDetail = productInfo;
+    productDetailOrigin = origin || 'product';
+    setRoute('product-detail');
+  }
+
+  /** 打开素材维度，可选预选产品 */
+  function openCreative(pendingProduct, productKey) {
+    pendingCreativeProduct = pendingProduct || null;
+    if (creativeProductTable && productKey) creativeProductTable.value = 'strategy_' + (productKey === 'new' ? 'new' : 'old');
+    setRoute('creative');
+  }
+
+  /** @deprecated 仅保留供 buildSidebar 等内部在“不触发 hash”的场景下切维度，其余请用 goToDimension/openCompanyDetail/openProductDetail/openCreative + setRoute */
+  function switchDimension(dim) {
+    applyRoute(dim);
   }
 
   function weekTagToDateRange(year, weekTag) {
@@ -920,8 +1517,12 @@
   function renderProductDetailPlaceholder() {
     var titleEl = document.getElementById('productDetailTitle');
     var dateEl = document.getElementById('productDetailDateRange');
+    var placeholderEl = document.getElementById('productDetailPlaceholder');
+    var contentEl = document.getElementById('productDetailContent');
     if (titleEl) titleEl.textContent = '产品详细信息';
     if (dateEl) dateEl.textContent = '—';
+    if (placeholderEl) show(placeholderEl);
+    if (contentEl) hide(contentEl);
     ['productDetailCompany', 'productDetailNewOld', 'productDetailLaunch', 'productDetailTheme', 'productDetailStyle', 'productDetailInstall', 'productDetailRankInstall', 'productDetailRevenue', 'productDetailRankRevenue'].forEach(function (id) {
       var el = document.getElementById(id);
       if (el) el.textContent = '—';
@@ -941,6 +1542,110 @@
     });
     var tbody = document.getElementById('companyDetailProductBody');
     if (tbody) tbody.innerHTML = '';
+    companyDetailProductRows = null;
+    companyDetailProductMeta = null;
+    companyDetailProductSortCol = -1;
+    companyDetailProductSortAsc = true;
+  }
+
+  /** 从变动列原始值解析数值用于排序：如 "31.81%▲" -> 31.81，"-16.51%▼" -> -16.51，"inf%▲" -> 大数 */
+  function parsePctForSort(val) {
+    if (val == null || val === '') return null;
+    var n = Number(val);
+    if (!Number.isNaN(n)) return n;
+    var s = String(val).trim();
+    var infMatch = /inf|∞/i.test(s);
+    if (infMatch) return s.indexOf('-') >= 0 ? -Infinity : Infinity;
+    var m = s.match(/([+-]?\d+\.?\d*)\s*%?/);
+    return m ? parseFloat(m[1]) : null;
+  }
+
+  /** 按当前排序状态重绘公司产品汇总表 */
+  function renderCompanyDetailProductTable() {
+    var tbody = document.getElementById('companyDetailProductBody');
+    if (!tbody || !companyDetailProductRows || !companyDetailProductMeta) return;
+    var meta = companyDetailProductMeta;
+    var productColIdx = meta.productColIdx;
+    var launchColIdx = meta.launchColIdx;
+    var latestInstallColIdx = meta.latestInstallColIdx;
+    var installChangeColIdx = meta.installChangeColIdx;
+    var latestRevenueColIdx = meta.latestRevenueColIdx;
+    var revenueChangeColIdx = meta.revenueChangeColIdx;
+    var unifiedIdColIdx = meta.unifiedIdColIdx;
+    var rows = companyDetailProductRows.slice();
+    var col = companyDetailProductSortCol;
+    var asc = companyDetailProductSortAsc;
+    if (col >= 0 && col <= 5) {
+      rows.sort(function (a, b) {
+        var av, bv;
+        if (col === 0) {
+          av = productColIdx >= 0 ? (a[productColIdx] != null ? String(a[productColIdx]) : '') : '';
+          bv = productColIdx >= 0 ? (b[productColIdx] != null ? String(b[productColIdx]) : '') : '';
+          return asc ? (av || '').localeCompare(bv || '') : (bv || '').localeCompare(av || '');
+        }
+        if (col === 1) {
+          av = launchColIdx >= 0 ? (a[launchColIdx] != null ? String(a[launchColIdx]).replace(/\s+\d{2}:\d{2}:\d{2}$/, '') : '') : '';
+          bv = launchColIdx >= 0 ? (b[launchColIdx] != null ? String(b[launchColIdx]).replace(/\s+\d{2}:\d{2}:\d{2}$/, '') : '') : '';
+          return asc ? (av || '').localeCompare(bv || '') : (bv || '').localeCompare(av || '');
+        }
+        if (col === 2) {
+          av = latestInstallColIdx >= 0 ? (Number(a[latestInstallColIdx]) || 0) : 0;
+          bv = latestInstallColIdx >= 0 ? (Number(b[latestInstallColIdx]) || 0) : 0;
+          return asc ? av - bv : bv - av;
+        }
+        if (col === 3) {
+          av = parsePctForSort(a[installChangeColIdx]);
+          bv = parsePctForSort(b[installChangeColIdx]);
+          if (av == null && bv == null) return 0;
+          if (av == null) return asc ? 1 : -1;
+          if (bv == null) return asc ? -1 : 1;
+          return asc ? av - bv : bv - av;
+        }
+        if (col === 4) {
+          av = latestRevenueColIdx >= 0 ? (Number(a[latestRevenueColIdx]) || 0) : 0;
+          bv = latestRevenueColIdx >= 0 ? (Number(b[latestRevenueColIdx]) || 0) : 0;
+          return asc ? av - bv : bv - av;
+        }
+        if (col === 5) {
+          av = parsePctForSort(a[revenueChangeColIdx]);
+          bv = parsePctForSort(b[revenueChangeColIdx]);
+          if (av == null && bv == null) return 0;
+          if (av == null) return asc ? 1 : -1;
+          if (bv == null) return asc ? -1 : 1;
+          return asc ? av - bv : bv - av;
+        }
+        return 0;
+      });
+    }
+    document.querySelectorAll('.company-product-table thead th').forEach(function (th) {
+      var c = th.dataset.col != null ? parseInt(th.dataset.col, 10) : -1;
+      th.dataset.sort = (c === col && col >= 0) ? (asc ? 'asc' : 'desc') : '';
+    });
+    tbody.innerHTML = '';
+    rows.forEach(function (r) {
+      var tr = document.createElement('tr');
+      var productName = productColIdx >= 0 ? (r[productColIdx] != null ? String(r[productColIdx]) : '—') : '—';
+      var launch = launchColIdx >= 0 ? (r[launchColIdx] != null ? String(r[launchColIdx]).replace(/\s+\d{2}:\d{2}:\d{2}$/, '') : '—') : '—';
+      var latestInstall = latestInstallColIdx >= 0 && r[latestInstallColIdx] != null && r[latestInstallColIdx] !== ''
+        ? (Number(r[latestInstallColIdx]) || 0).toLocaleString('en-US') : '—';
+      var latestRevenue = latestRevenueColIdx >= 0 && r[latestRevenueColIdx] != null && r[latestRevenueColIdx] !== ''
+        ? '$' + (Math.round(Number(r[latestRevenueColIdx])) || 0).toLocaleString('en-US') : '—';
+      var installChangeRaw = installChangeColIdx >= 0 ? (r[installChangeColIdx] != null ? formatCell('周安装变动', r[installChangeColIdx]) : '—') : '—';
+      var revenueChangeRaw = revenueChangeColIdx >= 0 ? (r[revenueChangeColIdx] != null ? formatCell('周流水变动', r[revenueChangeColIdx]) : '—') : '—';
+      var installChangeClass = (String(installChangeRaw).indexOf('▼') >= 0) ? 'cell-down' : (String(installChangeRaw).indexOf('▲') >= 0 ? 'cell-up' : '');
+      var revenueChangeClass = (String(revenueChangeRaw).indexOf('▼') >= 0) ? 'cell-down' : (String(revenueChangeRaw).indexOf('▲') >= 0 ? 'cell-up' : '');
+      var productLinkHtml = productName !== '—' ? '<a href="#" class="product-link company-detail-product-link">' + escapeHtml(productName) + '</a>' : escapeHtml(productName);
+      var unifiedId = unifiedIdColIdx >= 0 && r[unifiedIdColIdx] != null ? String(r[unifiedIdColIdx]).trim() : null;
+      tr.innerHTML = '<td>' + productLinkHtml + '</td><td>' + escapeHtml(launch) + '</td><td>' + escapeHtml(latestInstall) + '</td><td class="' + installChangeClass + '">' + escapeHtml(installChangeRaw) + '</td><td>' + escapeHtml(latestRevenue) + '</td><td class="' + revenueChangeClass + '">' + escapeHtml(revenueChangeRaw) + '</td>';
+      if (productName !== '—') {
+        var linkEl = tr.querySelector('.company-detail-product-link');
+        if (linkEl) {
+          linkEl.dataset.productName = productName;
+          if (unifiedId) linkEl.dataset.unifiedId = unifiedId;
+        }
+      }
+      tbody.appendChild(tr);
+    });
   }
 
   function loadCompanyDetail() {
@@ -969,24 +1674,25 @@
         var productColIdx = headers.indexOf('产品归属');
         var unifiedIdColIdx = headers.indexOf('Unified ID');
         var launchColIdx = headers.indexOf('第三方记录最早上线时间');
+        var latestInstallColIdx = headers.indexOf('当周周安装');
         var installChangeColIdx = headers.indexOf('周安装变动');
+        var latestRevenueColIdx = headers.indexOf('当周周流水');
         var revenueChangeColIdx = headers.indexOf('周流水变动');
         var companyRows = companyColIdx >= 0 ? rows.filter(function (r) {
           var c = r[companyColIdx];
           return c != null && String(c).trim() === String(selectedCompanyForDetail).trim();
         }) : [];
-        var tbody = document.getElementById('companyDetailProductBody');
-        if (!tbody) return;
-        tbody.innerHTML = '';
-        companyRows.forEach(function (r) {
-          var tr = document.createElement('tr');
-          var productName = productColIdx >= 0 ? (r[productColIdx] != null ? String(r[productColIdx]) : '—') : '—';
-          var launch = launchColIdx >= 0 ? (r[launchColIdx] != null ? String(r[launchColIdx]).replace(/\s+\d{2}:\d{2}:\d{2}$/, '') : '—') : '—';
-          var installChange = installChangeColIdx >= 0 ? (r[installChangeColIdx] != null ? formatCell('周安装变动', r[installChangeColIdx]) : '—') : '—';
-          var revenueChange = revenueChangeColIdx >= 0 ? (r[revenueChangeColIdx] != null ? formatCell('周流水变动', r[revenueChangeColIdx]) : '—') : '—';
-          tr.innerHTML = '<td>' + escapeHtml(productName) + '</td><td>' + escapeHtml(launch) + '</td><td>' + escapeHtml(installChange) + '</td><td>' + escapeHtml(revenueChange) + '</td>';
-          tbody.appendChild(tr);
-        });
+        companyDetailProductRows = companyRows;
+        companyDetailProductMeta = {
+          productColIdx: productColIdx,
+          launchColIdx: launchColIdx,
+          latestInstallColIdx: latestInstallColIdx,
+          installChangeColIdx: installChangeColIdx,
+          latestRevenueColIdx: latestRevenueColIdx,
+          revenueChangeColIdx: revenueChangeColIdx,
+          unifiedIdColIdx: unifiedIdColIdx
+        };
+        renderCompanyDetailProductTable();
         // 公司累计安装/流水 = 该公司下所有产品的累计安装/流水加和；赛道排名 = 按公司汇总后的安装/流水在全赛道中的名次
         function setCompanyCumulative(sumInstall, sumRevenue) {
           var installEl = document.getElementById('companyDetailInstall');
@@ -1277,6 +1983,10 @@
       renderProductDetailPlaceholder();
       return;
     }
+    var placeholderEl = document.getElementById('productDetailPlaceholder');
+    var contentEl = document.getElementById('productDetailContent');
+    if (placeholderEl) hide(placeholderEl);
+    if (contentEl) show(contentEl);
     var titleEl = document.getElementById('productDetailTitle');
     var dateEl = document.getElementById('productDetailDateRange');
     if (titleEl) titleEl.textContent = selectedProductForDetail.name || '产品详细信息';
@@ -1851,13 +2561,12 @@
     if (years.length && allPairs.length) {
       currentYear = allPairs[0].year;
       currentWeek = allPairs[0].weekTag;
-      // 每次打开前端自动跳转到最新时间段的公司维度大盘数据首页
-      currentDimension = 'company';
-      if (window.location.hash !== '#company') window.location.hash = '#company';
-      switchDimension('company');  // 内部会 loadCompanyWeek(currentYear, currentWeek)
+      // 每次打开前端自动跳转到公司维度首页；若 hash 已是 #company 则不会触发 hashchange，需显式 apply 一次
+      setRoute('company');
+      applyRoute('company');
     } else {
       setState('empty');
-      switchDimension(currentDimension);
+      applyRoute(currentDimension);
     }
   }
 
@@ -1929,9 +2638,40 @@
     URL.revokeObjectURL(a.href);
   }
 
+  function downloadMonitorTable() {
+    if (!currentYear || !currentWeek) return;
+    var url = '/api/maintenance/download?year=' + encodeURIComponent(currentYear) + '&week=' + encodeURIComponent(currentWeek);
+    var a = document.createElement('a');
+    a.href = url;
+    a.download = (currentWeek || 'table') + '_SLG数据监测表.xlsx';
+    a.click();
+  }
+
   if (searchInput) searchInput.addEventListener('input', filterRows);
   if (productSearchInput) productSearchInput.addEventListener('input', filterRows);
+  if (productNewGameSearch) productNewGameSearch.addEventListener('input', function () {
+    if (!newProductsWeekFilteredRows) return;
+    var q = (productNewGameSearch.value || '').trim().toLowerCase();
+    if (!q) {
+      newProductsFilteredRows = newProductsWeekFilteredRows.slice();
+    } else {
+      newProductsFilteredRows = newProductsWeekFilteredRows.filter(function (row) {
+        return row.some(function (cell) { return String(cell || '').toLowerCase().indexOf(q) >= 0; });
+      });
+    }
+    renderNewProductsTable();
+    if (productNewGameEmpty && productNewGameTableWrap) {
+      if (!newProductsFilteredRows || newProductsFilteredRows.length === 0) {
+        show(productNewGameEmpty);
+        hide(productNewGameTableWrap);
+      } else {
+        hide(productNewGameEmpty);
+        show(productNewGameTableWrap);
+      }
+    }
+  });
   if (btnDownload) btnDownload.addEventListener('click', downloadTable);
+  if (btnDownloadMonitorTable) btnDownloadMonitorTable.addEventListener('click', downloadMonitorTable);
   if (btnProductDownload) btnProductDownload.addEventListener('click', downloadTable);
 
   if (productSelect) productSelect.addEventListener('change', function () {
@@ -1997,13 +2737,11 @@
   });
 
   if (tableBody) tableBody.addEventListener('click', function (e) {
-    // e.target 可能是 <a> 内的文本节点，文本节点无 .closest，需从父元素查找
     var start = e.target && e.target.nodeType === 1 ? e.target : (e.target && e.target.parentElement);
     var companyLink = start && start.closest ? start.closest('a.company-link') : null;
     if (companyLink) {
       e.preventDefault();
-      selectedCompanyForDetail = companyLink.textContent.trim();
-      switchDimension('company-detail');
+      openCompanyDetail(companyLink.textContent.trim());
       return;
     }
     var link = start && start.closest ? start.closest('a.product-link') : null;
@@ -2012,43 +2750,57 @@
       var productName = link.textContent.trim();
       var tr = start && start.closest ? start.closest('tr') : null;
       var unifiedId = (tr && tr.dataset && tr.dataset.unifiedId) ? tr.dataset.unifiedId : null;
-      if (currentDimension === 'product') {
-        productDetailOrigin = 'product';
-        selectedProductForDetail = { name: productName, key: productSelect.value || 'old', unifiedId: unifiedId };
-        switchDimension('product-detail');
-      } else if (currentDimension === 'company') {
-        productDetailOrigin = 'company';
-        selectedProductForDetail = { name: productName, key: 'old', unifiedId: unifiedId };
-        switchDimension('product-detail');
-      } else {
-        pendingCreativeProduct = productName;
-        switchDimension('creative');
-      }
+      var info = { name: productName, key: (currentDimension === 'company' ? 'old' : (productSelect.value || 'old')), unifiedId: unifiedId };
+      if (currentDimension === 'product') openProductDetail(info, 'product');
+      else if (currentDimension === 'company') openProductDetail(info, 'company');
+      else openCreative(productName);
       return;
     }
     var tr = start && start.closest ? start.closest('tr') : null;
     if (tr && tr.classList.contains('target-product-row') && tr.dataset.product) {
       e.preventDefault();
-      pendingCreativeProduct = tr.dataset.product;
-      switchDimension('creative');
+      openCreative(tr.dataset.product);
     }
   });
 
   document.querySelectorAll('.top-nav-link').forEach(link => {
     link.addEventListener('click', function (e) {
       e.preventDefault();
-      switchDimension(this.dataset.dim);
+      goToDimension(this.dataset.dim);
     });
   });
 
-  // 浏览器前进/后退时根据 URL hash 同步当前维度与面板，否则返回上一页时内容不会切换
+  // 唯一驱动：浏览器前进/后退或程序 setRoute 后由 hash 驱动；仅当维度变化时应用，避免重复执行
   window.addEventListener('hashchange', function () {
-    var h = (window.location.hash || '#company').replace('#', '').toLowerCase();
-    if (['company', 'company-detail', 'product', 'product-detail', 'creative', 'combo'].indexOf(h) >= 0 && currentDimension !== h) {
-      currentDimension = h;
-      switchDimension(h);
-    }
+    var dim = parseHash();
+    if (currentDimension !== dim) applyRoute(dim);
   });
+
+  // 公司详情页「公司产品汇总」表中产品名点击 → 跳转该产品最新周详情（当前查看周即最新周）
+  var companyDetailTableWrap = document.querySelector('.company-product-table-wrap');
+  if (companyDetailTableWrap) {
+    companyDetailTableWrap.addEventListener('click', function (e) {
+      var link = e.target && e.target.closest && e.target.closest('a.company-detail-product-link');
+      if (!link) return;
+      e.preventDefault();
+      var productName = (link.dataset && link.dataset.productName) ? link.dataset.productName : (link.textContent || '').trim();
+      var unifiedId = (link.dataset && link.dataset.unifiedId) ? link.dataset.unifiedId : null;
+      openProductDetail({ name: productName, key: 'old', unifiedId: unifiedId || undefined }, 'company');
+    });
+  }
+
+  // 公司产品汇总表：点击表头列排序
+  var companyProductTable = document.querySelector('.company-product-table');
+  if (companyProductTable && companyProductTable.tHead) {
+    companyProductTable.tHead.addEventListener('click', function (e) {
+      var th = e.target && e.target.closest && e.target.closest('th.sortable');
+      if (!th || th.dataset.col == null) return;
+      var col = parseInt(th.dataset.col, 10);
+      if (companyDetailProductSortCol === col) companyDetailProductSortAsc = !companyDetailProductSortAsc;
+      else { companyDetailProductSortCol = col; companyDetailProductSortAsc = true; }
+      renderCompanyDetailProductTable();
+    });
+  }
 
   var companyDetailSubNavEl = document.getElementById('companyDetailSubNav');
   if (companyDetailSubNavEl) {
@@ -2058,29 +2810,41 @@
         var tab = this.dataset.tab;
         companyDetailSubNavEl.querySelectorAll('.company-detail-sub-link').forEach(function (l) { l.classList.remove('active'); });
         this.classList.add('active');
-        if (tab === 'market') switchDimension('company');
+        if (tab === 'market') goToDimension('company');
       });
     });
   }
 
-  document.querySelectorAll('.product-detail-sub-link').forEach(function (link) {
-    link.addEventListener('click', function (e) {
-      e.preventDefault();
-      var tab = this.dataset.tab;
-      document.querySelectorAll('.product-detail-sub-link').forEach(function (l) { l.classList.remove('active'); });
-      this.classList.add('active');
-      if (tab === 'market') switchDimension(productDetailOrigin || 'product');
-      // detail 保持当前产品详细看板
+  // 产品详细信息页：大盘数据/上线新游 统一跳转当周产品维度首页；详细数据留在当前页
+  var productDetailSubNav = document.getElementById('productDetailSubNav');
+  if (productDetailSubNav) {
+    productDetailSubNav.querySelectorAll('.product-detail-sub-link').forEach(function (link) {
+      link.addEventListener('click', function (e) {
+        e.preventDefault();
+        var tab = this.dataset.tab;
+        productDetailSubNav.querySelectorAll('.product-detail-sub-link').forEach(function (l) { l.classList.remove('active'); });
+        this.classList.add('active');
+        if (tab === 'detail') return;
+        if (tab === 'market') {
+          currentProductSubTab = 'overall';
+          if (productSelect) productSelect.value = 'old';
+          goToDimension('product');
+          return;
+        }
+        if (tab === 'new') {
+          currentProductSubTab = 'new';
+          if (productSelect) productSelect.value = 'new';
+          goToDimension('product');
+        }
+      });
     });
-  });
+  }
 
   var btnProductDetailToCreative = document.getElementById('btnProductDetailToCreative');
   if (btnProductDetailToCreative) {
     btnProductDetailToCreative.addEventListener('click', function () {
       if (selectedProductForDetail && selectedProductForDetail.name) {
-        pendingCreativeProduct = selectedProductForDetail.name;
-        if (creativeProductTable) creativeProductTable.value = 'strategy_' + (selectedProductForDetail.key || 'old');
-        switchDimension('creative');
+        openCreative(selectedProductForDetail.name, selectedProductForDetail.key);
       }
     });
   }
@@ -2100,12 +2864,426 @@
     });
   }
 
+  // 产品维度子导航：大盘数据 | 上线新游 | 详细数据；上线新游仅搜索+空状态/表格
+  var productHomeSubNav = document.getElementById('productHomeSubNav');
+  if (productHomeSubNav) {
+    productHomeSubNav.querySelectorAll('.company-detail-sub-link').forEach(function (link) {
+      link.addEventListener('click', function (e) {
+        e.preventDefault();
+        var tab = this.dataset.tab || 'overall';
+        if (tab !== 'overall' && tab !== 'new' && tab !== 'detail') return;
+        currentProductSubTab = tab;
+        productHomeSubNav.querySelectorAll('.company-detail-sub-link').forEach(function (l) { l.classList.remove('active'); });
+        this.classList.add('active');
+        if (currentDimension !== 'product') return;
+        if (tab === 'new') {
+          showProductSubTabContent();
+        } else if (tab === 'overall') {
+          if (productSelect) productSelect.value = 'old';
+          showProductSubTabContent();
+          if (currentYear && currentWeek) loadProductWeek(currentYear, currentWeek);
+        } else {
+          showProductSubTabContent();
+        }
+      });
+    });
+  }
+
+  // 数据底表子导航：产品总表 | 产品归属表 | 公司归属表 | 新产品监测表 | 题材/玩法/画风标签表；仅产品总表时显示侧边栏并高亮所选周
+  if (basetableSubNav) {
+    basetableSubNav.querySelectorAll('.company-detail-sub-link').forEach(function (link) {
+      link.addEventListener('click', function (e) {
+        e.preventDefault();
+        var tab = this.getAttribute('data-tab');
+        if (!tab) return;
+        currentBasetableTab = tab;
+        basetableSubNav.querySelectorAll('.company-detail-sub-link').forEach(function (l) { l.classList.remove('active'); });
+        this.classList.add('active');
+        var layoutEl = document.getElementById('layout');
+        if (layoutEl) layoutEl.classList.toggle('layout-basetable-no-sidebar', tab !== 'metrics_total');
+        if (currentDimension === 'basetable') {
+          loadBasetableContent(tab);
+          if (tab === 'metrics_total' && currentYear && currentWeek && typeof setActiveWeekInSidebar === 'function') setActiveWeekInSidebar(currentYear, currentWeek);
+        }
+      });
+    });
+  }
+  // 产品总表搜索：防抖 400ms 或 Enter 触发重新加载
+  var basetableMetricsSearchDebounce = null;
+  if (basetableMetricsSearch) {
+    function doBasetableMetricsSearch() {
+      if (currentDimension === 'basetable' && currentBasetableTab === 'metrics_total' && currentYear && currentWeek) {
+        loadBasetableContent('metrics_total');
+      }
+    }
+    basetableMetricsSearch.addEventListener('input', function () {
+      if (basetableMetricsSearchDebounce) clearTimeout(basetableMetricsSearchDebounce);
+      basetableMetricsSearchDebounce = setTimeout(doBasetableMetricsSearch, 400);
+    });
+    basetableMetricsSearch.addEventListener('keydown', function (e) {
+      if (e.key === 'Enter') {
+        if (basetableMetricsSearchDebounce) clearTimeout(basetableMetricsSearchDebounce);
+        basetableMetricsSearchDebounce = null;
+        doBasetableMetricsSearch();
+      }
+    });
+  }
+  // 产品归属表 / 公司归属表 / 新产品监测表 / 题材·玩法·画风标签表：搜索栏即时筛选
+  if (basetableOtherSearch) {
+    basetableOtherSearch.addEventListener('input', function () {
+      if (currentDimension === 'basetable' && basetableCachedData) renderBasetableOtherTable();
+    });
+  }
+
+  // 数据维护：第一步卡片 — 上传 13 个 CSV → 公司维度大盘数据（run_full_pipeline 第一步）
+  var MAINTENANCE_PHASE1_URL = '/api/maintenance/phase1';
+  var maintenancePhase1Form = document.getElementById('maintenancePhase1Form');
+  var maintenancePhase1Files = document.getElementById('maintenancePhase1Files');
+  var maintenancePhase1Submit = document.getElementById('maintenancePhase1Submit');
+  var maintenancePhase1Status = document.getElementById('maintenancePhase1Status');
+  if (maintenancePhase1Form && maintenancePhase1Files && maintenancePhase1Status) {
+    maintenancePhase1Form.addEventListener('submit', function (e) {
+      e.preventDefault();
+      var yearVal = (document.getElementById('maintenanceYear') && document.getElementById('maintenanceYear').value) || '';
+      var weekVal = (document.getElementById('maintenanceWeek') && document.getElementById('maintenanceWeek').value) || '';
+      if (!yearVal.trim() || !weekVal.trim()) {
+        maintenancePhase1Status.textContent = '请填写年份与周标签';
+        maintenancePhase1Status.className = 'maintenance-status-inline err';
+        return;
+      }
+      var files = maintenancePhase1Files.files;
+      if (!files || files.length === 0) {
+        maintenancePhase1Status.textContent = '请选择至少一个 CSV 文件';
+        maintenancePhase1Status.className = 'maintenance-status-inline err';
+        return;
+      }
+      var formData = new FormData();
+      formData.append('year', yearVal.trim());
+      formData.append('week_tag', weekVal.trim());
+      for (var i = 0; i < files.length; i++) formData.append('files', files[i], (files[i].name && files[i].name.toLowerCase().endsWith('.csv')) ? files[i].name : 'file' + i + '.csv');
+      if (maintenancePhase1Submit) {
+        maintenancePhase1Submit.disabled = true;
+        maintenancePhase1Submit.textContent = '上传并执行中…';
+      }
+      maintenancePhase1Status.textContent = '正在上传并执行第一步流水线…';
+      maintenancePhase1Status.className = 'maintenance-status-inline';
+      fetch(MAINTENANCE_PHASE1_URL, { method: 'POST', body: formData })
+        .then(function (r) {
+          if (!r.ok) throw new Error(r.statusText || '请求失败');
+          return r.json().catch(function () { return {}; });
+        })
+        .then(function (data) {
+          maintenancePhase1Status.textContent = data.message || '第一步执行完成，公司维度大盘数据已更新。可刷新页面或切换周期查看。';
+          maintenancePhase1Status.className = 'maintenance-status-inline ok';
+          if (typeof loadWeeksIndex === 'function') loadWeeksIndex();
+        })
+        .catch(function (err) {
+          maintenancePhase1Status.textContent = err.message || '请求失败，请确认后端已启动且路径正确（' + MAINTENANCE_PHASE1_URL + '）';
+          maintenancePhase1Status.className = 'maintenance-status-inline err';
+        })
+        .finally(function () {
+          if (maintenancePhase1Submit) {
+            maintenancePhase1Submit.disabled = false;
+            maintenancePhase1Submit.textContent = '上传并执行第一步';
+          }
+        });
+    });
+  }
+
+  // 数据维护：2.1 步卡片 — 拉取目标产品分地区数据
+  var MAINTENANCE_PHASE2_1_URL = '/api/maintenance/phase2_1';
+  var maintenancePhase2_1Form = document.getElementById('maintenancePhase2_1Form');
+  var maintenancePhase2_1Submit = document.getElementById('maintenancePhase2_1Submit');
+  var maintenancePhase2_1Status = document.getElementById('maintenancePhase2_1Status');
+  if (maintenancePhase2_1Form && maintenancePhase2_1Status) {
+    maintenancePhase2_1Form.addEventListener('submit', function (e) {
+      e.preventDefault();
+      var yearEl = document.getElementById('maintenancePhase2_1Year');
+      var weekEl = document.getElementById('maintenancePhase2_1Week');
+      var targetEl = document.getElementById('maintenancePhase2_1Target');
+      var productTypeEl = document.getElementById('maintenancePhase2_1ProductType');
+      var limitEl = document.getElementById('maintenancePhase2_1Limit');
+      var yearVal = (yearEl && yearEl.value) ? yearEl.value.trim() : '';
+      var weekVal = (weekEl && weekEl.value) ? weekEl.value.trim() : '';
+      if (!yearVal || !weekVal) {
+        maintenancePhase2_1Status.textContent = '请填写年份与周标签';
+        maintenancePhase2_1Status.className = 'maintenance-status-inline err';
+        return;
+      }
+      var target = (targetEl && targetEl.value) ? targetEl.value : 'strategy';
+      var productType = (productTypeEl && productTypeEl.value) ? productTypeEl.value : 'both';
+      var limit = (limitEl && limitEl.value) ? limitEl.value : 'all';
+      if (maintenancePhase2_1Submit) {
+        maintenancePhase2_1Submit.disabled = true;
+        maintenancePhase2_1Submit.textContent = '拉取中…';
+      }
+      maintenancePhase2_1Status.textContent = '正在执行 2.1 步拉取地区数据…';
+      maintenancePhase2_1Status.className = 'maintenance-status-inline';
+      fetch(MAINTENANCE_PHASE2_1_URL, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ year: yearVal, week_tag: weekVal, target: target, product_type: productType, limit: limit })
+      })
+        .then(function (r) {
+          if (!r.ok) throw new Error(r.statusText || '请求失败');
+          return r.json().catch(function () { return {}; });
+        })
+        .then(function (data) {
+          maintenancePhase2_1Status.textContent = data.message || '2.1 步执行完成，分地区数据已更新。';
+          maintenancePhase2_1Status.className = 'maintenance-status-inline ok';
+          if (typeof loadWeeksIndex === 'function') loadWeeksIndex();
+        })
+        .catch(function (err) {
+          maintenancePhase2_1Status.textContent = err.message || '请求失败，请确认后端已启动（' + MAINTENANCE_PHASE2_1_URL + '）';
+          maintenancePhase2_1Status.className = 'maintenance-status-inline err';
+        })
+        .finally(function () {
+          if (maintenancePhase2_1Submit) {
+            maintenancePhase2_1Submit.disabled = false;
+            maintenancePhase2_1Submit.textContent = '拉取并执行 2.1 步';
+          }
+        });
+    });
+  }
+
+  // 数据维护：2.2 步卡片 — 拉取目标产品创意数据
+  var MAINTENANCE_PHASE2_2_URL = '/api/maintenance/phase2_2';
+  var maintenancePhase2_2Form = document.getElementById('maintenancePhase2_2Form');
+  var maintenancePhase2_2Submit = document.getElementById('maintenancePhase2_2Submit');
+  var maintenancePhase2_2Status = document.getElementById('maintenancePhase2_2Status');
+  if (maintenancePhase2_2Form && maintenancePhase2_2Status) {
+    maintenancePhase2_2Form.addEventListener('submit', function (e) {
+      e.preventDefault();
+      var yearEl = document.getElementById('maintenancePhase2_2Year');
+      var weekEl = document.getElementById('maintenancePhase2_2Week');
+      var targetEl = document.getElementById('maintenancePhase2_2Target');
+      var productTypeEl = document.getElementById('maintenancePhase2_2ProductType');
+      var limitEl = document.getElementById('maintenancePhase2_2Limit');
+      var yearVal = (yearEl && yearEl.value) ? yearEl.value.trim() : '';
+      var weekVal = (weekEl && weekEl.value) ? weekEl.value.trim() : '';
+      if (!yearVal || !weekVal) {
+        maintenancePhase2_2Status.textContent = '请填写年份与周标签';
+        maintenancePhase2_2Status.className = 'maintenance-status-inline err';
+        return;
+      }
+      var target = (targetEl && targetEl.value) ? targetEl.value : 'strategy';
+      var productType = (productTypeEl && productTypeEl.value) ? productTypeEl.value : 'both';
+      var limit = (limitEl && limitEl.value) ? limitEl.value : 'all';
+      if (maintenancePhase2_2Submit) {
+        maintenancePhase2_2Submit.disabled = true;
+        maintenancePhase2_2Submit.textContent = '拉取中…';
+      }
+      maintenancePhase2_2Status.textContent = '正在执行 2.2 步拉取创意数据…';
+      maintenancePhase2_2Status.className = 'maintenance-status-inline';
+      fetch(MAINTENANCE_PHASE2_2_URL, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ year: yearVal, week_tag: weekVal, target: target, product_type: productType, limit: limit })
+      })
+        .then(function (r) {
+          if (!r.ok) throw new Error(r.statusText || '请求失败');
+          return r.json().catch(function () { return {}; });
+        })
+        .then(function (data) {
+          maintenancePhase2_2Status.textContent = data.message || '2.2 步执行完成，创意数据已更新。';
+          maintenancePhase2_2Status.className = 'maintenance-status-inline ok';
+          if (typeof loadWeeksIndex === 'function') loadWeeksIndex();
+        })
+        .catch(function (err) {
+          maintenancePhase2_2Status.textContent = err.message || '请求失败，请确认后端已启动（' + MAINTENANCE_PHASE2_2_URL + '）';
+          maintenancePhase2_2Status.className = 'maintenance-status-inline err';
+        })
+        .finally(function () {
+          if (maintenancePhase2_2Submit) {
+            maintenancePhase2_2Submit.disabled = false;
+            maintenancePhase2_2Submit.textContent = '拉取并执行 2.2 步';
+          }
+        });
+    });
+  }
+
+  // 数据维护：产品/公司归属表更新卡片
+  var MAINTENANCE_MAPPING_UPDATE_URL = '/api/maintenance/mapping_update';
+  var maintenanceMappingUpdateForm = document.getElementById('maintenanceMappingUpdateForm');
+  var maintenanceMappingUpdateFile = document.getElementById('maintenanceMappingUpdateFile');
+  var maintenanceMappingUpdateSubmit = document.getElementById('maintenanceMappingUpdateSubmit');
+  var maintenanceMappingUpdateStatus = document.getElementById('maintenanceMappingUpdateStatus');
+  if (maintenanceMappingUpdateForm && maintenanceMappingUpdateFile && maintenanceMappingUpdateStatus) {
+    maintenanceMappingUpdateForm.addEventListener('submit', function (e) {
+      e.preventDefault();
+      var file = maintenanceMappingUpdateFile.files && maintenanceMappingUpdateFile.files[0];
+      if (!file) {
+        maintenanceMappingUpdateStatus.textContent = '请选择一个 .xlsx 文件';
+        maintenanceMappingUpdateStatus.className = 'maintenance-status-inline err';
+        return;
+      }
+      if (!file.name.toLowerCase().endsWith('.xlsx')) {
+        maintenanceMappingUpdateStatus.textContent = '请上传 .xlsx 格式的 Excel 文件';
+        maintenanceMappingUpdateStatus.className = 'maintenance-status-inline err';
+        return;
+      }
+      var formData = new FormData();
+      formData.append('file', file, file.name);
+      if (maintenanceMappingUpdateSubmit) {
+        maintenanceMappingUpdateSubmit.disabled = true;
+        maintenanceMappingUpdateSubmit.textContent = '上传并更新中…';
+      }
+      maintenanceMappingUpdateStatus.textContent = '正在上传并更新归属表…';
+      maintenanceMappingUpdateStatus.className = 'maintenance-status-inline';
+      fetch(MAINTENANCE_MAPPING_UPDATE_URL, { method: 'POST', body: formData })
+        .then(function (r) {
+          if (!r.ok) throw new Error(r.statusText || '请求失败');
+          return r.json().catch(function () { return {}; });
+        })
+        .then(function (data) {
+          maintenanceMappingUpdateStatus.textContent = data.message || '归属表已更新。';
+          maintenanceMappingUpdateStatus.className = data.ok ? 'maintenance-status-inline ok' : 'maintenance-status-inline err';
+        })
+        .catch(function (err) {
+          maintenanceMappingUpdateStatus.textContent = err.message || '请求失败，请确认后端已启动（' + MAINTENANCE_MAPPING_UPDATE_URL + '）';
+          maintenanceMappingUpdateStatus.className = 'maintenance-status-inline err';
+        })
+        .finally(function () {
+          if (maintenanceMappingUpdateSubmit) {
+            maintenanceMappingUpdateSubmit.disabled = false;
+            maintenanceMappingUpdateSubmit.textContent = '上传并更新归属表';
+          }
+        });
+    });
+  }
+
+  // 数据维护：新产品监测表卡片
+  var MAINTENANCE_NEWPRODUCTS_UPDATE_URL = '/api/maintenance/newproducts_update';
+  var maintenanceNewProductsForm = document.getElementById('maintenanceNewProductsForm');
+  var maintenanceNewProductsFile = document.getElementById('maintenanceNewProductsFile');
+  var maintenanceNewProductsSubmit = document.getElementById('maintenanceNewProductsSubmit');
+  var maintenanceNewProductsStatus = document.getElementById('maintenanceNewProductsStatus');
+  if (maintenanceNewProductsForm && maintenanceNewProductsFile && maintenanceNewProductsStatus) {
+    maintenanceNewProductsForm.addEventListener('submit', function (e) {
+      e.preventDefault();
+      var file = maintenanceNewProductsFile.files && maintenanceNewProductsFile.files[0];
+      if (!file) {
+        maintenanceNewProductsStatus.textContent = '请选择一个 .xlsx 文件';
+        maintenanceNewProductsStatus.className = 'maintenance-status-inline err';
+        return;
+      }
+      if (!file.name.toLowerCase().endsWith('.xlsx')) {
+        maintenanceNewProductsStatus.textContent = '请上传 .xlsx 格式的 Excel 文件';
+        maintenanceNewProductsStatus.className = 'maintenance-status-inline err';
+        return;
+      }
+      var formData = new FormData();
+      formData.append('file', file, file.name);
+      if (maintenanceNewProductsSubmit) {
+        maintenanceNewProductsSubmit.disabled = true;
+        maintenanceNewProductsSubmit.textContent = '上传并更新中…';
+      }
+      maintenanceNewProductsStatus.textContent = '正在上传新产品监测表…';
+      maintenanceNewProductsStatus.className = 'maintenance-status-inline';
+      fetch(MAINTENANCE_NEWPRODUCTS_UPDATE_URL, { method: 'POST', body: formData })
+        .then(function (r) {
+          if (!r.ok) throw new Error(r.statusText || '请求失败');
+          return r.json().catch(function () { return {}; });
+        })
+        .then(function (data) {
+          maintenanceNewProductsStatus.textContent = data.message || '新产品监测表已更新。';
+          maintenanceNewProductsStatus.className = data.ok ? 'maintenance-status-inline ok' : 'maintenance-status-inline err';
+          if (data.ok && typeof loadNewProducts === 'function') loadNewProducts();
+        })
+        .catch(function (err) {
+          maintenanceNewProductsStatus.textContent = err.message || '请求失败，请确认后端已启动（' + MAINTENANCE_NEWPRODUCTS_UPDATE_URL + '）';
+          maintenanceNewProductsStatus.className = 'maintenance-status-inline err';
+        })
+        .finally(function () {
+          if (maintenanceNewProductsSubmit) {
+            maintenanceNewProductsSubmit.disabled = false;
+            maintenanceNewProductsSubmit.textContent = '上传并更新新产品监测表';
+          }
+        });
+    });
+  }
+
   setInterval(updateLocalTime, 1000);
   if (localTimeEl) updateLocalTime();
 
-  // 等 DOM 完全就绪后再请求周索引，避免个别环境下取不到元素或请求路径异常
-  function init() {
+  function showLoginOverlay() {
+    if (loginOverlay) loginOverlay.style.display = 'flex';
+  }
+  function hideLoginOverlay() {
+    if (loginOverlay) loginOverlay.style.display = 'none';
+  }
+  function setHeaderUsername(name) {
+    if (headerUsername) headerUsername.textContent = name ? name + ' · ' : '';
+  }
+
+  function runApp() {
+    hideLoginOverlay();
     loadWeeksIndex();
+  }
+
+  function checkAuthThenInit() {
+    fetch('/api/auth/check', { credentials: 'include' })
+      .then(function (r) { return r.status === 200 ? r.json() : Promise.reject(); })
+      .then(function (data) {
+        if (data && data.ok && data.username) {
+          setHeaderUsername(data.username);
+          runApp();
+        } else {
+          showLoginOverlay();
+        }
+      })
+      .catch(function () {
+        showLoginOverlay();
+      });
+  }
+
+  function bindLoginForm() {
+    if (!loginForm) return;
+    loginForm.addEventListener('submit', function (e) {
+      e.preventDefault();
+      var user = (loginUsername && loginUsername.value) ? loginUsername.value.trim() : '';
+      var pass = (loginPassword && loginPassword.value) || '';
+      if (loginError) loginError.textContent = '';
+      if (!user) { if (loginError) loginError.textContent = '请输入用户名'; return; }
+      if (!pass) { if (loginError) loginError.textContent = '请输入密码'; return; }
+      if (loginSubmit) { loginSubmit.disabled = true; loginSubmit.textContent = '登录中…'; }
+      fetch('/api/auth/login', {
+        method: 'POST',
+        credentials: 'include',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ username: user, password: pass })
+      })
+        .then(function (r) { return r.json(); })
+        .then(function (data) {
+          if (data && data.ok) {
+            setHeaderUsername(data.username);
+            runApp();
+          } else {
+            if (loginError) loginError.textContent = (data && data.message) || '登录失败';
+            if (loginSubmit) { loginSubmit.disabled = false; loginSubmit.textContent = '登录'; }
+          }
+        })
+        .catch(function () {
+          if (loginError) loginError.textContent = '网络错误，请重试';
+          if (loginSubmit) { loginSubmit.disabled = false; loginSubmit.textContent = '登录'; }
+        });
+    });
+  }
+
+  function bindLogout() {
+    if (!btnLogout) return;
+    btnLogout.addEventListener('click', function () {
+      fetch('/api/auth/logout', { method: 'POST', credentials: 'include' })
+        .then(function () { window.location.reload(); })
+        .catch(function () { window.location.reload(); });
+    });
+  }
+
+  // 等 DOM 完全就绪后先校验登录态，再加载数据或显示登录框
+  function init() {
+    bindLogout();
+    checkAuthThenInit();
+    bindLoginForm();
   }
   if (document.readyState === 'loading') {
     document.addEventListener('DOMContentLoaded', init);
