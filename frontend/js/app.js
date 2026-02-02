@@ -257,7 +257,7 @@
       row.forEach((cell, colIdx) => {
         if (isCompanyDimInitial && colIdx === unifiedIdColIndexInitial) return;
         const td = document.createElement('td');
-        const isCompanyNameLink = isCompanyDimInitial && colIdx === companyColIndexInitial && companyColIndexInitial >= 0 && cell != null && String(cell) !== '';
+        const isCompanyNameLink = isCompanyDimInitial && !isSummaryRow(row) && colIdx === companyColIndexInitial && companyColIndexInitial >= 0 && cell != null && String(cell) !== '';
         const isProductNameLink = (isProductDimension || (!isSummaryRow(row) && isCompanyDimInitial)) && colIdx === productColIndex && productColIndex >= 0;
         if (isCompanyNameLink) {
           const a = document.createElement('a');
@@ -333,7 +333,7 @@
       row.forEach((cell, colIdx) => {
         if (isCompanyDim && colIdx === unifiedIdColIndex) return;
         const td = document.createElement('td');
-        const isCompanyNameLink = isCompanyDim && colIdx === companyColIndex && companyColIndex >= 0 && cell != null && String(cell) !== '';
+        const isCompanyNameLink = isCompanyDim && !isSummaryRow(row) && colIdx === companyColIndex && companyColIndex >= 0 && cell != null && String(cell) !== '';
         const isProductNameLink = (isProductDim || (!isSummaryRow(row) && isCompanyDim)) && colIdx === productColIndex && productColIndex >= 0;
         if (isCompanyNameLink) {
           const a = document.createElement('a');
@@ -1427,16 +1427,20 @@
         };
         var launchFromTotal = null;
         var companyFromFormatted = null;
+        var companyFromMetrics = null;
         var allTimeDownloadsFromTotal = null;
         var allTimeRevenueFromTotal = null;
         // 产品累计安装/流水：从 metrics_total（最新一周有则用，没有则用上一周）按 Unified ID 匹配；无 Unified ID 时用上一周 metrics 按产品名匹配
+        // 上线时间、公司归属：若当前周 formatted/strategy 无，则从 metrics_total 同条匹配行取（与累计数据同源，不依赖当前周）
         if (metricsData && metricsData.rows && metricsData.rows.length && metricsData.headers) {
           var mHeaders = metricsData.headers;
           var mRows = metricsData.rows;
           var mUnifiedCol = mHeaders.indexOf('Unified ID');
           var mProductCol = mHeaders.indexOf('产品归属');
+          var mCompanyCol = mHeaders.indexOf('公司归属');
           var mAllTimeDownloadsCol = mHeaders.indexOf('All Time Downloads (WW)');
           var mAllTimeRevenueCol = mHeaders.indexOf('All Time Revenue (WW)');
+          var mLaunchCol = mHeaders.indexOf('第三方记录最早上线时间') >= 0 ? mHeaders.indexOf('第三方记录最早上线时间') : mHeaders.indexOf('Earliest Release Date');
           if (mUnifiedCol >= 0 && (mAllTimeDownloadsCol >= 0 || mAllTimeRevenueCol >= 0)) {
             var found = false;
             if (resolvedUnifiedId) {
@@ -1446,6 +1450,8 @@
                 if (rowId === resolvedUnifiedId) {
                   if (mAllTimeDownloadsCol >= 0 && mr[mAllTimeDownloadsCol] != null && mr[mAllTimeDownloadsCol] !== '') allTimeDownloadsFromTotal = mr[mAllTimeDownloadsCol];
                   if (mAllTimeRevenueCol >= 0 && mr[mAllTimeRevenueCol] != null && mr[mAllTimeRevenueCol] !== '') allTimeRevenueFromTotal = mr[mAllTimeRevenueCol];
+                  if (launchFromTotal == null && mLaunchCol >= 0 && mr[mLaunchCol] != null && mr[mLaunchCol] !== '') launchFromTotal = mr[mLaunchCol];
+                  if (mCompanyCol >= 0 && mr[mCompanyCol] != null && String(mr[mCompanyCol]).trim() !== '' && String(mr[mCompanyCol]).trim().indexOf('汇总') === -1) companyFromMetrics = String(mr[mCompanyCol]).trim();
                   found = true;
                   break;
                 }
@@ -1458,6 +1464,8 @@
                 if (productNameExactMatch(selectedProductForDetail.name, cell)) {
                   if (mAllTimeDownloadsCol >= 0 && mr[mAllTimeDownloadsCol] != null && mr[mAllTimeDownloadsCol] !== '') allTimeDownloadsFromTotal = mr[mAllTimeDownloadsCol];
                   if (mAllTimeRevenueCol >= 0 && mr[mAllTimeRevenueCol] != null && mr[mAllTimeRevenueCol] !== '') allTimeRevenueFromTotal = mr[mAllTimeRevenueCol];
+                  if (launchFromTotal == null && mLaunchCol >= 0 && mr[mLaunchCol] != null && mr[mLaunchCol] !== '') launchFromTotal = mr[mLaunchCol];
+                  if (mCompanyCol >= 0 && mr[mCompanyCol] != null && String(mr[mCompanyCol]).trim() !== '' && String(mr[mCompanyCol]).trim().indexOf('汇总') === -1) companyFromMetrics = String(mr[mCompanyCol]).trim();
                   if (mUnifiedCol >= 0 && mr[mUnifiedCol] != null) selectedProductForDetail.unifiedId = String(mr[mUnifiedCol]).trim();
                   break;
                 }
@@ -1487,8 +1495,9 @@
               if (productNamesMatch(selectedProductForDetail.name, tc, tc)) match = true;
             }
             if (match) {
-              if (totalCompanyCol >= 0 && tr[totalCompanyCol] != null && String(tr[totalCompanyCol]).trim() !== '') companyFromFormatted = String(tr[totalCompanyCol]).trim();
-              if (totalLaunchCol >= 0) launchFromTotal = tr[totalLaunchCol];
+              if (isSummaryRow(tr)) continue;
+              if (totalCompanyCol >= 0 && tr[totalCompanyCol] != null && String(tr[totalCompanyCol]).trim() !== '' && String(tr[totalCompanyCol]).trim().indexOf('汇总') === -1) companyFromFormatted = String(tr[totalCompanyCol]).trim();
+              if (totalLaunchCol >= 0 && tr[totalLaunchCol] != null && tr[totalLaunchCol] !== '') launchFromTotal = tr[totalLaunchCol];
               if (allTimeDownloadsFromTotal == null && totalAllTimeDownloadsCol >= 0 && tr[totalAllTimeDownloadsCol] != null && tr[totalAllTimeDownloadsCol] !== '') allTimeDownloadsFromTotal = tr[totalAllTimeDownloadsCol];
               if (allTimeRevenueFromTotal == null && totalAllTimeRevenueCol >= 0 && tr[totalAllTimeRevenueCol] != null && tr[totalAllTimeRevenueCol] !== '') allTimeRevenueFromTotal = tr[totalAllTimeRevenueCol];
               break;
@@ -1504,7 +1513,7 @@
         var rankInstallEl = document.getElementById('productDetailRankInstall');
         var revenueEl = document.getElementById('productDetailRevenue');
         var rankRevenueEl = document.getElementById('productDetailRankRevenue');
-        if (companyEl) companyEl.textContent = (getVal('公司归属') != null ? getVal('公司归属') : (companyFromFormatted != null ? companyFromFormatted : '—'));
+        if (companyEl) companyEl.textContent = (getVal('公司归属') != null && String(getVal('公司归属')).indexOf('汇总') === -1 ? getVal('公司归属') : (companyFromFormatted != null ? companyFromFormatted : (companyFromMetrics != null ? companyFromMetrics : '—')));
         if (newOldEl) newOldEl.textContent = key === 'old' ? '旧产品' : '新产品';
         if (launchEl) {
           var t = launchFromTotal != null && launchFromTotal !== '' ? launchFromTotal : getVal('第三方记录最早上线时间');
