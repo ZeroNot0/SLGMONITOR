@@ -5,6 +5,9 @@ request/token.txt
 .env.*
 token.txt
 
+# 登录用户表（含密码哈希，勿提交）
+deploy/auth_users.json
+
 # Python
 __pycache__/
 *.py[cod]
