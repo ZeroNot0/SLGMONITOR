@@ -21,6 +21,8 @@ ENV/
 
 # 系统与 IDE
 .DS_Store
+.DS_Store
+._*
 .idea/
 *.iml
 .vscode/
@@ -32,6 +34,8 @@ ENV/
 *.xlsx
 *.xls
 *.csv
+2025_raw_csv
+2026_raw_csv
 raw_csv/
 intermediate/
 output/
@@ -46,3 +50,6 @@ frontend/data/
 
 # 打包与备份
 *.zip
+dist/
+build/
+*.spec

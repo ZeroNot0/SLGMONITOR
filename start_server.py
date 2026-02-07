@@ -22,6 +22,7 @@ import time
 import urllib.parse
 import urllib.request
 from pathlib import Path
+from app_paths import get_data_root, get_resource_root, ensure_seed_data
 
 # 产品维度「爆量产品地区数据」空数据时的表头，与 frontend/convert_final_join_to_json.py 的 PRODUCT_DIMENSION_COLUMNS 一致
 PRODUCT_STRATEGY_EMPTY_HEADERS = [
@@ -104,13 +105,17 @@ def _excel_to_headers_rows(path: Path) -> tuple:
 
 
 DEFAULT_PORT = 8000
-BASE_DIR = Path(__file__).resolve().parent
+RESOURCE_ROOT = get_resource_root()
+DATA_ROOT = get_data_root()
+ensure_seed_data(RESOURCE_ROOT, DATA_ROOT)
+BASE_DIR = RESOURCE_ROOT
 # 设为 True 时禁止写操作（PUT/POST/DELETE/PATCH 返回 405）；做权限管理后可改回 True
 READ_ONLY_SERVER = False
-FRONTEND_DIR = BASE_DIR / "frontend"
-WEEKS_INDEX_PATH = FRONTEND_DIR / "data" / "weeks_index.json"
-MAPPING_DIR = BASE_DIR / "mapping"
-LABELS_DIR = BASE_DIR / "labels"
+FRONTEND_DIR = RESOURCE_ROOT / "frontend"
+FRONTEND_DATA_DIR = DATA_ROOT / "frontend" / "data"
+WEEKS_INDEX_PATH = FRONTEND_DATA_DIR / "weeks_index.json"
+MAPPING_DIR = DATA_ROOT / "mapping"
+LABELS_DIR = DATA_ROOT / "labels"
 # 数据底表 API 名称 -> Excel 路径（前端 产品总表 / 新产品监测表 直接读 data 下 JSON）
 BASETABLE_SOURCES = {
     "product_mapping": MAPPING_DIR / "产品归属.xlsx",
@@ -119,11 +124,11 @@ BASETABLE_SOURCES = {
     "gameplay_label": LABELS_DIR / "玩法标签表.xlsx",
     "art_style_label": LABELS_DIR / "画风标签表.xlsx",
 }
-THEME_STYLE_MAPPING_PATH = FRONTEND_DIR / "data" / "product_theme_style_mapping.json"
+THEME_STYLE_MAPPING_PATH = FRONTEND_DATA_DIR / "product_theme_style_mapping.json"
 INDEX_HTML_PATH = FRONTEND_DIR / "index.html"
 
 # 登录与权限：用户表路径、session 存储、Cookie 名
-AUTH_USERS_PATH = BASE_DIR / "deploy" / "auth_users.json"
+AUTH_USERS_PATH = DATA_ROOT / "deploy" / "auth_users.json"
 AUTH_SESSIONS = {}  # session_id -> {"username": str}
 AUTH_SESSIONS_LOCK = threading.Lock()
 AUTH_COOKIE_NAME = "slg_session"
@@ -236,7 +241,31 @@ class CORSRequestHandler(http.server.SimpleHTTPRequestHandler):
     """只读静态服务器：禁止 PUT/POST/DELETE，仅允许 GET/HEAD，不修改、不删除任何本地文件。"""
 
     def __init__(self, *args, **kwargs):
-        super().__init__(*args, directory=str(BASE_DIR), **kwargs)
+        super().__init__(*args, directory=str(RESOURCE_ROOT), **kwargs)
+
+    def translate_path(self, path):
+        raw_path = urllib.parse.urlparse(path).path
+        raw_path = urllib.parse.unquote(raw_path)
+        path_parts = [p for p in raw_path.split("/") if p and p not in (".", "..")]
+
+        def _from_root(root: Path, parts):
+            return str((root.joinpath(*parts)).resolve())
+
+        if raw_path.startswith("/frontend/data/"):
+            return _from_root(DATA_ROOT / "frontend" / "data", path_parts[2:])
+        if raw_path.startswith("/output/"):
+            return _from_root(DATA_ROOT / "output", path_parts[1:])
+        if raw_path.startswith("/advertisements/"):
+            return _from_root(DATA_ROOT / "advertisements", path_parts[1:])
+        if raw_path.startswith("/request/"):
+            return _from_root(DATA_ROOT / "request", path_parts[1:])
+        if raw_path.startswith("/mapping/"):
+            return _from_root(DATA_ROOT / "mapping", path_parts[1:])
+        if raw_path.startswith("/labels/"):
+            return _from_root(DATA_ROOT / "labels", path_parts[1:])
+        if raw_path.startswith("/newproducts/"):
+            return _from_root(DATA_ROOT / "newproducts", path_parts[1:])
+        return _from_root(RESOURCE_ROOT, path_parts)
 
     def _fix_typo_path(self):
         """将常见拼写错误 /fronted 转为 /frontend/；对 /favicon.ico 标记为不落盘，返回 204 减少 404 刷屏。"""
@@ -347,7 +376,7 @@ class CORSRequestHandler(http.server.SimpleHTTPRequestHandler):
         if not year.isdigit() or len(year) != 4:
             self.send_error(400, "year must be 4 digits")
             return True
-        out_path = BASE_DIR / "output" / year / ("%s_SLG数据监测表.xlsx" % week)
+        out_path = DATA_ROOT / "output" / year / ("%s_SLG数据监测表.xlsx" % week)
         if not out_path.is_file():
             self.send_error(404, "File not found: %s" % out_path.name)
             return True
@@ -395,7 +424,7 @@ class CORSRequestHandler(http.server.SimpleHTTPRequestHandler):
             limit = 1000
         limit = max(1, min(limit, 50000))
         q = (params.get("q") or [""])[0].strip()
-        json_path = FRONTEND_DIR / "data" / year / week / "metrics_total.json"
+        json_path = FRONTEND_DATA_DIR / year / week / "metrics_total.json"
         if not json_path.is_file():
             self.send_response(200)
             self.send_header("Content-Type", "application/json; charset=utf-8")
@@ -442,7 +471,7 @@ class CORSRequestHandler(http.server.SimpleHTTPRequestHandler):
             self.end_headers()
             self.wfile.write(json.dumps({"error": "year and week required"}, ensure_ascii=False).encode("utf-8"))
             return True
-        json_path = FRONTEND_DIR / "data" / year / week / "metrics_total.json"
+        json_path = FRONTEND_DATA_DIR / year / week / "metrics_total.json"
         if not json_path.is_file():
             self.send_response(200)
             self.send_header("Content-Type", "application/json; charset=utf-8")
@@ -511,7 +540,7 @@ class CORSRequestHandler(http.server.SimpleHTTPRequestHandler):
             for week_tag in (index_data.get(year_s) or []):
                 if not week_tag or not isinstance(week_tag, str):
                     continue
-                json_path = FRONTEND_DIR / "data" / str(year_s) / week_tag / "metrics_total.json"
+                json_path = FRONTEND_DATA_DIR / str(year_s) / week_tag / "metrics_total.json"
                 if not json_path.is_file():
                     continue
                 try:
@@ -780,7 +809,7 @@ class CORSRequestHandler(http.server.SimpleHTTPRequestHandler):
                 self.end_headers()
                 self.wfile.write(json.dumps({"error": "year and week required"}, ensure_ascii=False).encode("utf-8"))
                 return True
-            out = api_data.get_formatted(year, week) if use_db else read_json_path(FRONTEND_DIR / "data" / year / (week + "_formatted.json"))
+            out = api_data.get_formatted(year, week) if use_db else read_json_path(FRONTEND_DATA_DIR / year / (week + "_formatted.json"))
             if out is not None:
                 return send_json(out)
             # 启用 MySQL 但该周无数据时仍返回 JSON，避免请求落到静态文件导致 404 File not found
@@ -801,7 +830,7 @@ class CORSRequestHandler(http.server.SimpleHTTPRequestHandler):
                 self.wfile.write(json.dumps({"error": "year and week required"}, ensure_ascii=False).encode("utf-8"))
                 return True
             fn = "product_strategy_old.json" if typ == "old" else "product_strategy_new.json"
-            out = api_data.get_product_strategy(year, week, typ) if use_db else read_json_path(FRONTEND_DIR / "data" / year / week / fn)
+            out = api_data.get_product_strategy(year, week, typ) if use_db else read_json_path(FRONTEND_DATA_DIR / year / week / fn)
             if out is not None:
                 return send_json(out)
             # 无数据时仍返回标准表头，前端显示表头+“无数据”而非整页空白
@@ -859,7 +888,7 @@ class CORSRequestHandler(http.server.SimpleHTTPRequestHandler):
                 self.end_headers()
                 self.wfile.write(json.dumps({"error": "year and week required"}, ensure_ascii=False).encode("utf-8"))
                 return True
-            out = api_data.get_creative_products(year, week) if use_db else read_json_path(FRONTEND_DIR / "data" / year / week / "creative_products.json")
+            out = api_data.get_creative_products(year, week) if use_db else read_json_path(FRONTEND_DATA_DIR / year / week / "creative_products.json")
             if out is not None:
                 return send_json(out)
             if use_db:
@@ -884,7 +913,7 @@ class CORSRequestHandler(http.server.SimpleHTTPRequestHandler):
             if use_db:
                 out = api_data.get_metrics_total(year, week, limit=limit, q=q)
             else:
-                data = read_json_path(FRONTEND_DIR / "data" / year / week / "metrics_total.json")
+                data = read_json_path(FRONTEND_DATA_DIR / year / week / "metrics_total.json")
                 if not data:
                     out = None
                 else:
@@ -911,7 +940,7 @@ class CORSRequestHandler(http.server.SimpleHTTPRequestHandler):
                 return True
             out = api_data.get_metrics_total_product_names(year, week) if use_db else None
             if not use_db:
-                data = read_json_path(FRONTEND_DIR / "data" / year / week / "metrics_total.json")
+                data = read_json_path(FRONTEND_DATA_DIR / year / week / "metrics_total.json")
                 if data:
                     headers = data.get("headers") or []
                     rows = data.get("rows") or []
@@ -951,7 +980,7 @@ class CORSRequestHandler(http.server.SimpleHTTPRequestHandler):
                         for wt in wl:
                             if not isinstance(wt, str):
                                 continue
-                            data = read_json_path(FRONTEND_DIR / "data" / ys / wt / "metrics_total.json")
+                            data = read_json_path(FRONTEND_DATA_DIR / ys / wt / "metrics_total.json")
                             if not data:
                                 continue
                             headers = data.get("headers") or []
@@ -982,7 +1011,7 @@ class CORSRequestHandler(http.server.SimpleHTTPRequestHandler):
                 return send_json({"weeks": []})
             return False
         if raw == "/api/data/new_products":
-            out = api_data.get_new_products() if use_db else read_json_path(FRONTEND_DIR / "data" / "new_products.json")
+            out = api_data.get_new_products() if use_db else read_json_path(FRONTEND_DATA_DIR / "new_products.json")
             if out is not None:
                 return send_json(out)
             if use_db:
@@ -1456,7 +1485,7 @@ class CORSRequestHandler(http.server.SimpleHTTPRequestHandler):
             if not files_list:
                 self.send_error(400, "Missing files")
                 return True
-            raw_dir = BASE_DIR / "raw_csv" / str(year) / week_val
+            raw_dir = DATA_ROOT / "raw_csv" / str(year) / week_val
             raw_dir.mkdir(parents=True, exist_ok=True)
             saved = 0
             for idx, (filename, content) in enumerate(files_list):
@@ -1511,7 +1540,7 @@ class CORSRequestHandler(http.server.SimpleHTTPRequestHandler):
                     conn = get_connection()
                     if conn:
                         try:
-                            sync_week_from_files(conn, year, week_val, BASE_DIR)
+                            sync_week_from_files(conn, year, week_val, DATA_ROOT)
                             refresh_weeks_index(conn, year, week_val)
                             synced_mysql = True
                         finally:
@@ -1523,14 +1552,14 @@ class CORSRequestHandler(http.server.SimpleHTTPRequestHandler):
                 except Exception:
                     pass
             # 第一步完成后显式将 metrics_total 转为 JSON，供数据底表「产品总表」展示
-            metrics_xlsx = BASE_DIR / "intermediate" / str(year) / week_val / "metrics_total.xlsx"
+            metrics_xlsx = DATA_ROOT / "intermediate" / str(year) / week_val / "metrics_total.xlsx"
             if metrics_xlsx.is_file():
                 try:
                     from run_full_pipeline import run_frontend_script
                     run_frontend_script("convert_metrics_to_json.py", year=year, week_tag=week_val)
                 except Exception:
                     pass
-            out_excel = BASE_DIR / "output" / str(year) / ("%s_SLG数据监测表.xlsx" % week_val)
+            out_excel = DATA_ROOT / "output" / str(year) / ("%s_SLG数据监测表.xlsx" % week_val)
             download_url = ""
             download_name = ""
             if out_excel.exists():
@@ -1677,7 +1706,7 @@ class CORSRequestHandler(http.server.SimpleHTTPRequestHandler):
                     conn = get_connection()
                     if conn:
                         try:
-                            sync_week_from_files(conn, year, week_val, BASE_DIR)
+                            sync_week_from_files(conn, year, week_val, DATA_ROOT)
                             refresh_weeks_index(conn, year, week_val)
                             refreshed_index = True
                         finally:
@@ -1788,7 +1817,7 @@ class CORSRequestHandler(http.server.SimpleHTTPRequestHandler):
                     conn = get_connection()
                     if conn:
                         try:
-                            sync_week_from_files(conn, year, week_val, BASE_DIR)
+                            sync_week_from_files(conn, year, week_val, DATA_ROOT)
                             synced_mysql = True
                         finally:
                             conn.close()
@@ -1891,7 +1920,7 @@ class CORSRequestHandler(http.server.SimpleHTTPRequestHandler):
                     conn = get_connection()
                     if conn:
                         try:
-                            sync_week_from_files(conn, year, week_val, BASE_DIR)
+                            sync_week_from_files(conn, year, week_val, DATA_ROOT)
                             synced_mysql = True
                         finally:
                             conn.close()
@@ -1959,7 +1988,7 @@ class CORSRequestHandler(http.server.SimpleHTTPRequestHandler):
                 tmp_path = tmp.name
             try:
                 import sys
-                sys.path.insert(0, str(BASE_DIR))
+                sys.path.insert(0, str(RESOURCE_ROOT))
                 from scripts.update_mapping_from_upload import run as run_mapping_update
                 ok, msg = run_mapping_update(Path(tmp_path))
                 if ok:
@@ -1979,7 +2008,7 @@ class CORSRequestHandler(http.server.SimpleHTTPRequestHandler):
                             conn = get_connection()
                             if conn:
                                 try:
-                                    if sync_basetable_from_files(conn, BASE_DIR):
+                                    if sync_basetable_from_files(conn, DATA_ROOT):
                                         msg = msg + " 已同步到 MySQL。"
                                 finally:
                                     conn.close()
@@ -2043,7 +2072,7 @@ class CORSRequestHandler(http.server.SimpleHTTPRequestHandler):
                     "message": "请上传 .xlsx 格式的 Excel 文件"
                 }, ensure_ascii=False).encode("utf-8"))
                 return True
-            newproducts_dir = BASE_DIR / "newproducts"
+            newproducts_dir = DATA_ROOT / "newproducts"
             newproducts_dir.mkdir(parents=True, exist_ok=True)
             # 保存为固定文件名，便于 convert 脚本稳定读取；也可保留原文件名（脚本取第一个 xlsx）
             out_name = "新产品监测表.xlsx"
@@ -2051,7 +2080,7 @@ class CORSRequestHandler(http.server.SimpleHTTPRequestHandler):
             out_path.write_bytes(content)
             ok, msg = True, "新产品监测表已保存，正在生成上线新游 JSON…"
             try:
-                sys.path.insert(0, str(BASE_DIR))
+                sys.path.insert(0, str(RESOURCE_ROOT))
                 from run_full_pipeline import run_frontend_script
                 if run_frontend_script("convert_newproducts_to_json.py"):
                     msg = "新产品监测表已更新，【产品维度】-【上线新游】将展示最新数据。"
@@ -2066,7 +2095,7 @@ class CORSRequestHandler(http.server.SimpleHTTPRequestHandler):
                             conn = get_connection()
                             if conn:
                                 try:
-                                    if sync_new_products_from_file(conn, BASE_DIR):
+                                    if sync_new_products_from_file(conn, DATA_ROOT):
                                         msg = (msg if msg else "新产品监测表已更新。") + " 已同步到 MySQL。"
                                 finally:
                                     conn.close()
@@ -2227,7 +2256,7 @@ class CORSRequestHandler(http.server.SimpleHTTPRequestHandler):
                 except Exception:
                     pass
             try:
-                sys.path.insert(0, str(BASE_DIR))
+                sys.path.insert(0, str(RESOURCE_ROOT))
                 from run_full_pipeline import run_frontend_script
                 run_frontend_script("convert_product_mapping_to_json.py")
             except Exception:
@@ -2360,7 +2389,7 @@ def _ensure_mysql_and_check_tables():
             row = cur.fetchone()
             n = (row.get("n") or 0) if isinstance(row, dict) else (row[0] if row else 0)
         if n == 0:
-            schema_path = BASE_DIR / "backend" / "db" / "schema.sql"
+            schema_path = RESOURCE_ROOT / "backend" / "db" / "schema.sql"
             print("  → 当前数据库暂无表。请先导入表结构：", flush=True)
             print(f"     mysql -u root -p {os.environ.get('MYSQL_DATABASE', 'slg_monitor')} < {schema_path}", flush=True)
         else:
@@ -2372,6 +2401,71 @@ def _ensure_mysql_and_check_tables():
             conn.close()
         except Exception:
             pass
+
+
+def run_server(
+    port: int = DEFAULT_PORT,
+    local_only: bool = False,
+    allow_port_fallback: bool = True,
+    print_startup: bool = True,
+    on_ready=None,
+):
+    bind_host = "127.0.0.1" if local_only else ""
+    ports_to_try = [port, port + 1] if allow_port_fallback else [port]
+
+    os.chdir(RESOURCE_ROOT)
+    if os.environ.get("USE_MYSQL", "").strip() in ("1", "true", "yes"):
+        _ensure_mysql_and_check_tables()
+    ThreadedHTTPServer.allow_reuse_address = True
+    httpd = None
+    used_port = None
+    for candidate_port in ports_to_try:
+        try:
+            httpd = ThreadedHTTPServer((bind_host, candidate_port), CORSRequestHandler)
+            used_port = candidate_port
+            break
+        except OSError as e:
+            if e.errno in (48, 98, 10048):
+                if candidate_port == ports_to_try[-1]:
+                    raise RuntimeError(
+                        f"端口 {ports_to_try[0]}、{ports_to_try[-1]} 均已被占用，请先结束占用进程或指定其他端口。"
+                    )
+                if print_startup:
+                    print(f"端口 {candidate_port} 已被占用，尝试下一端口 {candidate_port + 1} …", flush=True)
+            else:
+                raise
+
+    if httpd is None or used_port is None:
+        raise RuntimeError("启动失败：未能绑定端口")
+
+    if on_ready:
+        on_ready(used_port)
+
+    try:
+        with httpd:
+            if print_startup:
+                print("=" * 60, flush=True)
+                print("SLG Monitor 静态资源服务（多线程，只读）", flush=True)
+                print("=" * 60, flush=True)
+                if used_port != port:
+                    print(f"（首选端口 {port} 被占用，已使用端口 {used_port}）", flush=True)
+                print(f"本机访问:   http://localhost:{used_port}/frontend/", flush=True)
+                if not local_only:
+                    lan_ips = get_lan_ips()
+                    for ip in lan_ips:
+                        print(f"同网访问:   http://{ip}:{used_port}/frontend/", flush=True)
+                    if not lan_ips:
+                        print("同网访问:   请在本机「系统设置 → 网络」中查看本机 IP，再使用 http://<本机IP>:%d/frontend/" % used_port, flush=True)
+                print("按 Ctrl+C 或 PyCharm 停止按钮结束服务", flush=True)
+                print("=" * 60, flush=True)
+            try:
+                httpd.serve_forever()
+            except KeyboardInterrupt:
+                if print_startup:
+                    print("\n正在关闭服务器…", flush=True)
+                httpd.shutdown()
+    except OSError as e:
+        raise RuntimeError(f"启动失败: {e}") from e
 
 
 def main():
@@ -2391,55 +2485,15 @@ def main():
         help="仅监听 127.0.0.1，不允许同网访问（默认监听所有网卡，允许同网访问）",
     )
     args = parser.parse_args()
-    bind_host = "127.0.0.1" if args.local_only else ""
-    # 自动切换端口：首选端口被占用时依次尝试下一端口（如 8000 -> 8001）
-    ports_to_try = [args.port, args.port + 1]
-
-    os.chdir(BASE_DIR)
-    if os.environ.get("USE_MYSQL", "").strip() in ("1", "true", "yes"):
-        _ensure_mysql_and_check_tables()
-    ThreadedHTTPServer.allow_reuse_address = True
-    httpd = None
-    used_port = None
-    for port in ports_to_try:
-        try:
-            httpd = ThreadedHTTPServer((bind_host, port), CORSRequestHandler)
-            used_port = port
-            break
-        except OSError as e:
-            if e.errno == 48:  # Address already in use
-                if port == ports_to_try[-1]:
-                    print(f"端口 {ports_to_try[0]}、{ports_to_try[1]} 均已被占用，请先结束占用进程或指定其他端口。", flush=True)
-                    sys.exit(1)
-                print(f"端口 {port} 已被占用，尝试下一端口 {port + 1} …", flush=True)
-            else:
-                print(f"启动失败: {e}", flush=True)
-                sys.exit(1)
-
-    port = used_port
     try:
-        with httpd:
-            print("=" * 60, flush=True)
-            print("SLG Monitor 静态资源服务（多线程，只读）", flush=True)
-            print("=" * 60, flush=True)
-            if port != args.port:
-                print(f"（首选端口 {args.port} 被占用，已使用端口 {port}）", flush=True)
-            print(f"本机访问:   http://localhost:{port}/frontend/", flush=True)
-            if not args.local_only:
-                lan_ips = get_lan_ips()
-                for ip in lan_ips:
-                    print(f"同网访问:   http://{ip}:{port}/frontend/", flush=True)
-                if not lan_ips:
-                    print("同网访问:   请在本机「系统设置 → 网络」中查看本机 IP，再使用 http://<本机IP>:%d/frontend/" % port, flush=True)
-            print("按 Ctrl+C 或 PyCharm 停止按钮结束服务", flush=True)
-            print("=" * 60, flush=True)
-            try:
-                httpd.serve_forever()
-            except KeyboardInterrupt:
-                print("\n正在关闭服务器…", flush=True)
-                httpd.shutdown()
-    except OSError as e:
-        print(f"启动失败: {e}", flush=True)
+        run_server(
+            port=args.port,
+            local_only=args.local_only,
+            allow_port_fallback=True,
+            print_startup=True,
+        )
+    except RuntimeError as e:
+        print(str(e), flush=True)
         sys.exit(1)
 
 
