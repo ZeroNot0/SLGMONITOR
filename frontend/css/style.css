@@ -26,7 +26,7 @@ body {
   background: var(--main-bg);
 }
 
-/* 顶部：标题 + 本机时间 */
+/* 顶部：系统名 + 用户名/退出（右上角） */
 .header {
   display: flex;
   align-items: center;
@@ -38,16 +38,6 @@ body {
 }
 
 .logo { font-size: 1.1rem; font-weight: 600; }
-
-.data-time-range {
-  font-size: 0.9rem;
-  color: #95a5a6;
-}
-
-.local-time {
-  font-size: 0.9rem;
-  color: #bdc3c7;
-}
 
 .header-right {
   display: flex;
@@ -146,6 +136,83 @@ body {
   background: #d35400;
 }
 
+.login-tabs {
+  display: flex;
+  gap: 0;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid #ecf0f1;
+}
+
+.login-tab {
+  flex: 1;
+  padding: 0.5rem 1rem;
+  font-size: 0.95rem;
+  color: #7f8c8d;
+  background: none;
+  border: none;
+  border-bottom: 2px solid transparent;
+  cursor: pointer;
+}
+
+.login-tab.active {
+  color: var(--top-nav-active);
+  border-bottom-color: var(--top-nav-active);
+}
+
+.login-tab-content { margin-top: 0; }
+
+.login-success {
+  margin: 0 0 0.75rem;
+  font-size: 0.9rem;
+  color: var(--change-up);
+}
+
+.login-switch {
+  margin: 1rem 0 0;
+  font-size: 0.9rem;
+  color: #7f8c8d;
+}
+
+.login-switch a {
+  color: var(--top-nav-active);
+  text-decoration: none;
+}
+
+.login-switch a:hover { text-decoration: underline; }
+
+/* 用户审批面板 */
+.approval-panel .approval-toolbar { margin-bottom: 1rem; }
+
+.approval-list-wrap { max-width: 480px; }
+
+.approval-empty {
+  margin: 0;
+  font-size: 0.95rem;
+  color: #7f8c8d;
+}
+
+.approval-table { margin-top: 0.5rem; }
+
+.approval-table th,
+.approval-table td { padding: 0.5rem 0.75rem; }
+
+.approval-table .btn-approve {
+  padding: 0.25rem 0.6rem;
+  font-size: 0.85rem;
+  color: #fff;
+  background: var(--change-up);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.approval-table .btn-approve:hover { opacity: 0.9; }
+
+.approval-table .btn-approve:disabled {
+  background: #95a5a6;
+  cursor: not-allowed;
+}
+
 /* 主导航：公司维度 / 产品维度 / 素材维度 / 组合分析 */
 .top-nav {
   display: flex;
@@ -225,7 +292,7 @@ body {
   color: #fff;
 }
 
-/* 上线新游：在总表中存在为「是」时标红 */
+/* 上线新游：是否在总表中存在、是否在产品表中存在两列「是」标红 */
 .new-product-in-total-yes { color: #c00; }
 
 /* 数据维护页：隐藏侧边栏，主内容区占满 */
@@ -235,6 +302,46 @@ body {
 /* 数据底表页：仅「产品总表」时显示侧边栏，其他底表选项隐藏侧边栏 */
 #layout.layout-basetable-no-sidebar .sidebar { display: none; }
 #layout.layout-basetable-no-sidebar .main { flex: 1; min-width: 0; }
+
+/* 高级查询：侧边栏显示表列表 */
+.sidebar-advanced-tables .sidebar-year-title { margin-bottom: 0.5rem; font-weight: 600; }
+.sidebar-advanced-tables .sidebar-week-list { list-style: none; padding: 0; margin: 0; }
+.sidebar-advanced-tables .sidebar-table-link {
+  display: block;
+  padding: 0.35rem 0.5rem;
+  color: #2c3e50;
+  text-decoration: none;
+  border-radius: 4px;
+  font-size: 0.9rem;
+}
+.sidebar-advanced-tables .sidebar-table-link:hover { background: #e8f4fc; }
+.sidebar-advanced-tables .sidebar-table-link.active { background: var(--top-nav-active); color: #fff; }
+
+/* 高级查询：未启用 MySQL 时的操作提示 */
+.advanced-query-mysql-hint {
+  white-space: normal;
+  word-break: break-word;
+  line-height: 1.5;
+  padding: 0.5rem 0.25rem;
+  font-size: 0.8rem;
+  color: #555;
+}
+
+.advanced-query-panel .advanced-query-sql-wrap { margin-bottom: 1rem; }
+.advanced-query-sql {
+  width: 100%;
+  max-width: 800px;
+  padding: 0.5rem 0.6rem;
+  border: 1px solid var(--table-border);
+  border-radius: 4px;
+  font-family: Consolas, Monaco, monospace;
+  font-size: 13px;
+  resize: vertical;
+  box-sizing: border-box;
+}
+.advanced-query-sql:focus { outline: none; border-color: var(--table-header-bg); }
+.advanced-query-toolbar { display: flex; align-items: center; gap: 0.5rem 1rem; margin-top: 0.5rem; flex-wrap: wrap; }
+.advanced-query-status { font-size: 0.9rem; color: #7f8c8d; }
 
 /* 主内容区 */
 .main {
@@ -451,6 +558,41 @@ body {
   color: #2c3e50;
 }
 
+.product-detail-card-unified {
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+  grid-column: span 2;
+  min-width: 0;
+}
+.product-detail-card-unified .product-detail-card-label { width: 100%; }
+.product-detail-card-unified .product-detail-card-value { flex: 1; min-width: 12em; word-break: break-all; }
+.btn-copy-unified {
+  padding: 0.25rem 0.5rem;
+  font-size: 0.8rem;
+  background: var(--table-header-bg);
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.btn-copy-unified:hover { opacity: 0.9; }
+
+.product-detail-single-pull {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.5rem 1rem;
+  margin-top: 0.75rem;
+  padding-top: 0.75rem;
+  border-top: 1px solid var(--table-border);
+}
+.product-detail-single-pull .product-detail-desc { margin: 0; }
+.btn-pull-single { font-size: 0.9rem; }
+
+.maintenance-field-wide { flex: 1; min-width: 200px; }
+
 .product-detail-metrics-row {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -604,6 +746,83 @@ body {
   color: #5a6c7d;
   margin: 0 0 1rem;
   line-height: 1.45;
+}
+
+.maintenance-card-desc-sub {
+  font-size: 0.85rem;
+  color: #6c7d8e;
+  margin: 0 0 0.75rem;
+}
+
+/* 展开/收起「从已有数据完成第一步」 */
+.maintenance-toggle-wrap {
+  margin: 0.75rem 0 0;
+}
+.maintenance-toggle-btn {
+  background: none;
+  border: none;
+  color: #1976d2;
+  cursor: pointer;
+  font-size: 0.9rem;
+  padding: 0;
+  text-decoration: underline;
+}
+.maintenance-toggle-btn:hover {
+  color: #1565c0;
+}
+
+.maintenance-phase1-extras {
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--table-border);
+}
+
+/* 进度条：请求进行中显示，纯 CSS 动画，无依赖 */
+.maintenance-progress-wrap {
+  display: none;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}
+.maintenance-progress-wrap.visible {
+  display: flex;
+}
+.maintenance-progress-bar {
+  flex: 1;
+  height: 6px;
+  background: #e0e0e0;
+  border-radius: 3px;
+  overflow: hidden;
+  max-width: 280px;
+}
+.maintenance-progress-fill {
+  display: block;
+  height: 100%;
+  width: 36%;
+  min-width: 80px;
+  background: linear-gradient(90deg, #1976d2, #64b5f6);
+  border-radius: 3px;
+  animation: maintenance-progress-slide 1.4s ease-in-out infinite;
+}
+@keyframes maintenance-progress-slide {
+  0% { transform: translateX(-100%); }
+  100% { transform: translateX(380%); }
+}
+.maintenance-progress-pct {
+  font-size: 0.85rem;
+  color: #5a6c7d;
+  min-width: 2.5em;
+}
+
+.maintenance-card-form .btn-secondary {
+  background: #6c757d;
+  color: #fff;
+  border-color: #6c757d;
+}
+
+.maintenance-card-form .btn-secondary:hover {
+  background: #5a6268;
+  border-color: #545b62;
 }
 
 .maintenance-card-form {

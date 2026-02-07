@@ -3,32 +3,50 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>SLG竞对数据监测演示DEMO</title>
+  <title>SLG竞对数据监测系统</title>
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <!-- 登录层：未登录时显示，登录后隐藏 -->
-  <div id="loginOverlay" class="login-overlay" style="display:none;">
+  <!-- 登录页：作为系统首页，未登录时仅显示此页 -->
+  <div id="loginOverlay" class="login-overlay" style="display:flex;">
     <div class="login-box">
-      <h1 class="login-title">SLG 竞对数据监测</h1>
-      <p class="login-desc">请登录后使用</p>
-      <form id="loginForm" class="login-form">
-        <input type="text" id="loginUsername" class="login-input" placeholder="用户名" autocomplete="username" required>
-        <input type="password" id="loginPassword" class="login-input" placeholder="密码" autocomplete="current-password" required>
-        <p id="loginError" class="login-error"></p>
-        <button type="submit" id="loginSubmit" class="login-submit">登录</button>
-      </form>
+      <h1 class="login-title">SLG竞对数据监测系统</h1>
+      <div class="login-tabs">
+        <button type="button" id="loginTabBtn" class="login-tab active">登录</button>
+        <button type="button" id="registerTabBtn" class="login-tab">注册</button>
+      </div>
+      <div id="loginTabContent" class="login-tab-content">
+        <p class="login-desc">请登录后使用</p>
+        <form id="loginForm" class="login-form">
+          <input type="text" id="loginUsername" class="login-input" placeholder="用户名" autocomplete="username" required>
+          <input type="password" id="loginPassword" class="login-input" placeholder="密码" autocomplete="current-password" required>
+          <p id="loginError" class="login-error"></p>
+          <button type="submit" id="loginSubmit" class="login-submit">登录</button>
+        </form>
+      </div>
+      <div id="registerTabContent" class="login-tab-content" style="display:none;">
+        <p class="login-desc">注册后需管理员审批通过方可登录</p>
+        <form id="registerForm" class="login-form">
+          <input type="text" id="registerUsername" class="login-input" placeholder="用户名（至少 2 位）" autocomplete="username" required>
+          <input type="password" id="registerPassword" class="login-input" placeholder="密码（至少 6 位）" autocomplete="new-password" required>
+          <input type="password" id="registerPasswordConfirm" class="login-input" placeholder="确认密码" autocomplete="new-password" required>
+          <p id="registerError" class="login-error"></p>
+          <p id="registerSuccess" class="login-success" style="display:none;"></p>
+          <button type="submit" id="registerSubmit" class="login-submit">注册</button>
+        </form>
+        <p class="login-switch">已有账号？<a href="#" id="goLoginLink">去登录</a></p>
+      </div>
+      <p class="login-switch" id="goRegisterWrap">没有账号？<a href="#" id="goRegisterLink">去注册</a></p>
     </div>
   </div>
 
+  <div id="appWrap" style="display:none;">
   <header class="header">
-    <span class="logo">SLG竞对数据监测演示DEMO</span>
-    <span class="data-time-range" id="dataTimeRange" title="根据 weeks_index 自动更新">数据时间: —</span>
+    <span class="logo">SLG竞对数据监测系统</span>
     <span class="header-right">
       <span id="headerUsername" class="header-username"></span>
       <button type="button" id="btnLogout" class="btn-logout">退出</button>
     </span>
-    <span class="local-time" id="localTime">本机时间: --</span>
   </header>
 
   <nav class="top-nav">
@@ -37,12 +55,25 @@
     <a href="#" class="top-nav-link" data-dim="creative">素材维度</a>
     <a href="#" class="top-nav-link" data-dim="combo">组合分析</a>
     <a href="#" class="top-nav-link" data-dim="basetable">数据底表</a>
-    <a href="#" class="top-nav-link" data-dim="maintenance">数据维护</a>
+    <a href="#" class="top-nav-link nav-admin-only" data-dim="maintenance" style="display:none;">数据维护</a>
+    <a href="#" class="top-nav-link nav-admin-only" data-dim="approval" style="display:none;">用户管理</a>
+    <a href="#" class="top-nav-link nav-admin-only" data-dim="advanced_query" style="display:none;">高级查询</a>
   </nav>
 
   <div id="layout" class="layout">
     <aside class="sidebar">
       <div id="sidebarYears"></div>
+      <div id="sidebarApprovalTabs" class="sidebar-advanced-tables" style="display:none;">
+        <div class="sidebar-year-title">用户管理</div>
+        <ul id="approvalTabList" class="sidebar-week-list">
+          <li><a href="#" class="sidebar-table-link approval-tab-link active" data-tab="pending">待审批用户</a></li>
+          <li><a href="#" class="sidebar-table-link approval-tab-link" data-tab="existing">现有用户</a></li>
+        </ul>
+      </div>
+      <div id="sidebarAdvancedTables" class="sidebar-advanced-tables" style="display:none;">
+        <div class="sidebar-year-title">数据库表</div>
+        <ul id="advancedQueryTableList" class="sidebar-week-list"></ul>
+      </div>
     </aside>
 
     <main class="main">
@@ -150,6 +181,10 @@
             <input type="text" id="productNewGameSearch" class="search-input" placeholder="搜索上线新游...">
           </div>
           <div id="productNewGameContent" class="product-newgame-content">
+            <div class="maintenance-progress-wrap" id="productNewGameProgress" aria-hidden="true">
+              <div class="maintenance-progress-bar"><span class="maintenance-progress-fill"></span></div>
+              <span class="maintenance-progress-pct" id="productNewGameProgressPct">0%</span>
+            </div>
             <div id="productNewGameEmpty" class="product-newgame-empty">本周暂无新 SLG 游戏上线测试记录</div>
             <div id="productNewGameTableWrap" class="table-wrap" style="display:none;">
               <table class="data-table" id="productNewGameTable">
@@ -178,15 +213,28 @@
           <p class="product-detail-desc">请在大盘数据表格中点击「产品归属」列的产品名，进入该产品详细信息。</p>
         </div>
         <div id="productDetailContent">
-        <p id="productDetailDateRange" class="product-detail-date-range">20xx年-xx月-xx日 ~ 20xx年-xx月-xx日</p>
+        <div class="product-detail-toolbar" style="display:flex;align-items:center;gap:12px;margin-bottom:8px;">
+          <p id="productDetailDateRange" class="product-detail-date-range" style="margin:0;">20xx年-xx月-xx日 ~ 20xx年-xx月-xx日</p>
+          <button type="button" id="productDetailRefreshBtn" class="btn-download btn-pull-single">刷新</button>
+        </div>
         <div class="product-detail-intro">
           <h2 class="product-detail-section-title">产品简介</h2>
           <div class="product-detail-cards">
             <div class="product-detail-card"><span class="product-detail-card-label">公司归属</span><span id="productDetailCompany" class="product-detail-card-value">—</span></div>
             <div class="product-detail-card"><span class="product-detail-card-label">新/旧产品</span><span id="productDetailNewOld" class="product-detail-card-value">—</span></div>
             <div class="product-detail-card"><span class="product-detail-card-label">上线时间</span><span id="productDetailLaunch" class="product-detail-card-value">—</span></div>
+            <div class="product-detail-card product-detail-card-unified">
+              <span class="product-detail-card-label">Unified ID</span>
+              <span id="productDetailUnifiedId" class="product-detail-card-value">—</span>
+              <button type="button" id="productDetailUnifiedIdCopy" class="btn-copy-unified" title="复制 Unified ID" style="display:none;">复制</button>
+            </div>
             <div class="product-detail-card"><span class="product-detail-card-label">题材标签</span><span id="productDetailTheme" class="product-detail-card-value">—</span></div>
             <div class="product-detail-card"><span class="product-detail-card-label">画风标签</span><span id="productDetailStyle" class="product-detail-card-value">—</span></div>
+          </div>
+          <div class="product-detail-single-pull" id="productDetailSinglePullWrap" style="display:none;">
+            <span class="product-detail-desc">按当前产品 Unified ID 与所选周期执行一次拉取：</span>
+            <button type="button" id="productDetailPull2_1" class="btn-download btn-pull-single">拉取该产品 2.1 步</button>
+            <button type="button" id="productDetailPull2_2" class="btn-download btn-pull-single">拉取该产品 2.2 步</button>
           </div>
         </div>
         <div class="product-detail-metrics">
@@ -379,6 +427,59 @@
         </div>
       </div>
 
+      <!-- 用户管理：超级管理员可见，侧栏「待审批用户」/「现有用户」 -->
+      <div id="panelApproval" class="main-panel approval-panel" style="display:none;">
+        <h1 class="main-title">用户管理</h1>
+        <div id="approvalViewPending" class="approval-view">
+          <p class="product-detail-desc">审批通过后，用户方可登录系统。</p>
+          <div class="approval-toolbar">
+            <button type="button" id="approvalRefreshBtn" class="btn-download">刷新列表</button>
+          </div>
+          <div id="approvalListWrap" class="approval-list-wrap">
+            <p id="approvalEmpty" class="approval-empty">暂无待审批用户</p>
+            <table class="data-table approval-table" id="approvalTable" style="display:none;">
+              <thead><tr><th>用户名</th><th>操作</th></tr></thead>
+              <tbody id="approvalTableBody"></tbody>
+            </table>
+          </div>
+        </div>
+        <div id="approvalViewExisting" class="approval-view" style="display:none;">
+          <p class="product-detail-desc">已审批通过、可登录系统的用户列表。</p>
+          <div class="approval-toolbar">
+            <button type="button" id="approvalExistingRefreshBtn" class="btn-download">刷新列表</button>
+          </div>
+          <div id="approvalExistingWrap" class="approval-list-wrap">
+            <p id="approvalExistingEmpty" class="approval-empty">暂无用户</p>
+            <table class="data-table approval-table" id="approvalExistingTable" style="display:none;">
+              <thead><tr><th>用户名</th><th>角色</th><th>状态</th></tr></thead>
+              <tbody id="approvalExistingTableBody"></tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <!-- 高级查询：侧边栏为表列表，主区 SQL 输入 + 结果表 + 下载 -->
+      <div id="panelAdvancedQuery" class="main-panel advanced-query-panel" style="display:none;">
+        <h1 class="main-title">高级查询</h1>
+        <p class="product-detail-desc">左侧选择表可查看表结构及部分数据；下方输入 SQL 执行增删改查，结果支持下载。</p>
+        <div class="advanced-query-sql-wrap">
+          <label class="search-label">SQL：</label>
+          <textarea id="advancedQuerySql" class="advanced-query-sql" rows="4" placeholder="输入 SELECT / INSERT / UPDATE / DELETE 等语句…"></textarea>
+          <div class="advanced-query-toolbar">
+            <button type="button" id="advancedQueryRunBtn" class="btn-download">执行</button>
+            <button type="button" id="advancedQueryDownloadBtn" class="btn-download">下载表格</button>
+            <span id="advancedQueryStatus" class="advanced-query-status"></span>
+          </div>
+        </div>
+        <div id="advancedQueryResultWrap" class="table-wrap">
+          <table class="data-table" id="advancedQueryResultTable">
+            <thead id="advancedQueryResultHead"></thead>
+            <tbody id="advancedQueryResultBody"></tbody>
+          </table>
+        </div>
+        <div id="advancedQueryEmpty" class="product-newgame-empty" style="display:none;">执行 SQL 或点击左侧表名查看数据</div>
+      </div>
+
       <!-- 数据维护：大卡片功能入口，无侧边栏 -->
       <div id="panelMaintenance" class="main-panel maintenance-panel" style="display:none;">
         <h1 class="main-title">数据维护</h1>
@@ -406,11 +507,15 @@
                 <button type="submit" id="maintenancePhase1Submit" class="btn-download">上传并执行第一步</button>
                 <span id="maintenancePhase1Status" class="maintenance-status-inline"></span>
               </div>
+              <div class="maintenance-progress-wrap" id="maintenancePhase1Progress" aria-hidden="true">
+                <div class="maintenance-progress-bar"><span class="maintenance-progress-fill"></span></div>
+                <span class="maintenance-progress-pct" id="maintenancePhase1ProgressPct">0%</span>
+              </div>
             </form>
           </div>
           <div class="maintenance-card" id="maintenanceCardPhase2_1">
             <h2 class="maintenance-card-title">产品维度拉取目标产品分地区数据（2.1 步）</h2>
-            <p class="maintenance-card-desc">选择年份与周、策略/非策略目标、新/老产品、拉取数量，执行流水线 2.1 步并更新产品维度分地区数据。（需先完成第一步生成目标产品表。）</p>
+            <p class="maintenance-card-desc">仅填写年、周、Unified ID 即可执行单产品拉取；目标产品/新老产品/拉取数量可留空。拉回后将按总表上线时间与游戏类别自动归类。批量拉取时需选择目标产品、新/老产品与拉取数量。（需先完成第一步生成目标产品表。）</p>
             <form id="maintenancePhase2_1Form" class="maintenance-card-form">
               <div class="maintenance-form-row">
                 <div class="maintenance-field">
@@ -426,6 +531,7 @@
                 <div class="maintenance-field">
                   <label class="maintenance-label">目标产品</label>
                   <select id="maintenancePhase2_1Target" class="maintenance-input">
+                    <option value="">请选择（单产品拉取可留空）</option>
                     <option value="strategy">策略产品</option>
                     <option value="non_strategy">非策略产品</option>
                   </select>
@@ -433,6 +539,7 @@
                 <div class="maintenance-field">
                   <label class="maintenance-label">新/老产品</label>
                   <select id="maintenancePhase2_1ProductType" class="maintenance-input">
+                    <option value="">请选择（单产品拉取可留空）</option>
                     <option value="old">老产品</option>
                     <option value="new">新产品</option>
                     <option value="both">全部</option>
@@ -441,6 +548,7 @@
                 <div class="maintenance-field">
                   <label class="maintenance-label">拉取数量</label>
                   <select id="maintenancePhase2_1Limit" class="maintenance-input">
+                    <option value="">请选择（单产品拉取可留空）</option>
                     <option value="top1">1</option>
                     <option value="top5">5</option>
                     <option value="top10">10</option>
@@ -450,14 +558,24 @@
                 </div>
               </div>
               <div class="maintenance-form-row">
+                <div class="maintenance-field maintenance-field-wide">
+                  <label class="maintenance-label">Unified ID（单产品拉取，选填）</label>
+                  <input type="text" id="maintenancePhase2_1UnifiedId" name="unified_id" placeholder="填写则仅对该产品执行一次对应日期的拉取" class="maintenance-input">
+                </div>
+              </div>
+              <div class="maintenance-form-row">
                 <button type="submit" id="maintenancePhase2_1Submit" class="btn-download">拉取并执行 2.1 步</button>
                 <span id="maintenancePhase2_1Status" class="maintenance-status-inline"></span>
+              </div>
+              <div class="maintenance-progress-wrap" id="maintenancePhase2_1Progress" aria-hidden="true">
+                <div class="maintenance-progress-bar"><span class="maintenance-progress-fill"></span></div>
+                <span class="maintenance-progress-pct" id="maintenancePhase2_1ProgressPct">0%</span>
               </div>
             </form>
           </div>
           <div class="maintenance-card" id="maintenanceCardPhase2_2">
             <h2 class="maintenance-card-title">素材维度拉取目标产品创意数据（2.2 步）</h2>
-            <p class="maintenance-card-desc">选择年份与周、策略/非策略目标、新/老产品、拉取数量，执行流水线 2.2 步并更新素材维度创意数据。（需先完成第一步生成目标产品表。）</p>
+            <p class="maintenance-card-desc">仅填写年、周、Unified ID 即可执行单产品拉取；目标产品/新老产品/拉取数量可留空。拉回后将按总表上线时间与游戏类别自动归类。批量拉取时需选择目标产品、新/老产品与拉取数量。（需先完成第一步生成目标产品表。）</p>
             <form id="maintenancePhase2_2Form" class="maintenance-card-form">
               <div class="maintenance-form-row">
                 <div class="maintenance-field">
@@ -473,6 +591,7 @@
                 <div class="maintenance-field">
                   <label class="maintenance-label">目标产品</label>
                   <select id="maintenancePhase2_2Target" class="maintenance-input">
+                    <option value="">请选择（单产品拉取可留空）</option>
                     <option value="strategy">策略产品</option>
                     <option value="non_strategy">非策略产品</option>
                   </select>
@@ -480,6 +599,7 @@
                 <div class="maintenance-field">
                   <label class="maintenance-label">新/老产品</label>
                   <select id="maintenancePhase2_2ProductType" class="maintenance-input">
+                    <option value="">请选择（单产品拉取可留空）</option>
                     <option value="old">老产品</option>
                     <option value="new">新产品</option>
                     <option value="both">全部</option>
@@ -488,6 +608,7 @@
                 <div class="maintenance-field">
                   <label class="maintenance-label">拉取数量</label>
                   <select id="maintenancePhase2_2Limit" class="maintenance-input">
+                    <option value="">请选择（单产品拉取可留空）</option>
                     <option value="top1">1</option>
                     <option value="top5">5</option>
                     <option value="top10">10</option>
@@ -497,8 +618,18 @@
                 </div>
               </div>
               <div class="maintenance-form-row">
+                <div class="maintenance-field maintenance-field-wide">
+                  <label class="maintenance-label">Unified ID（单产品拉取，选填）</label>
+                  <input type="text" id="maintenancePhase2_2UnifiedId" name="unified_id" placeholder="填写则仅对该产品执行一次对应日期的拉取" class="maintenance-input">
+                </div>
+              </div>
+              <div class="maintenance-form-row">
                 <button type="submit" id="maintenancePhase2_2Submit" class="btn-download">拉取并执行 2.2 步</button>
                 <span id="maintenancePhase2_2Status" class="maintenance-status-inline"></span>
+              </div>
+              <div class="maintenance-progress-wrap" id="maintenancePhase2_2Progress" aria-hidden="true">
+                <div class="maintenance-progress-bar"><span class="maintenance-progress-fill"></span></div>
+                <span class="maintenance-progress-pct" id="maintenancePhase2_2ProgressPct">0%</span>
               </div>
             </form>
           </div>
@@ -514,6 +645,10 @@
                 <button type="submit" id="maintenanceMappingUpdateSubmit" class="btn-download">上传并更新归属表</button>
                 <span id="maintenanceMappingUpdateStatus" class="maintenance-status-inline"></span>
               </div>
+              <div class="maintenance-progress-wrap" id="maintenanceMappingUpdateProgress" aria-hidden="true">
+                <div class="maintenance-progress-bar"><span class="maintenance-progress-fill"></span></div>
+                <span class="maintenance-progress-pct" id="maintenanceMappingUpdateProgressPct">0%</span>
+              </div>
             </form>
           </div>
           <div class="maintenance-card" id="maintenanceCardNewProducts">
@@ -527,6 +662,10 @@
               <div class="maintenance-form-row">
                 <button type="submit" id="maintenanceNewProductsSubmit" class="btn-download">上传并更新新产品监测表</button>
                 <span id="maintenanceNewProductsStatus" class="maintenance-status-inline"></span>
+              </div>
+              <div class="maintenance-progress-wrap" id="maintenanceNewProductsProgress" aria-hidden="true">
+                <div class="maintenance-progress-bar"><span class="maintenance-progress-fill"></span></div>
+                <span class="maintenance-progress-pct" id="maintenanceNewProductsProgressPct">0%</span>
               </div>
             </form>
           </div>
@@ -544,6 +683,7 @@
       <div id="error" class="error" style="display:none;"></div>
     </main>
   </div>
+  </div><!-- /#appWrap -->
 
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
   <script src="js/app.js"></script>

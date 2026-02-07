@@ -1,4 +1,5 @@
 # SLG Monitor 3.0 云上/本地运行依赖
-# 数据维护、流水线脚本、Excel 读写
+# 数据维护、流水线脚本、Excel 读写、MySQL 迁移与 API
 pandas>=1.3.0
 openpyxl>=3.0.0
+pymysql>=1.0.0

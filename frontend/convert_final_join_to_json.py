@@ -37,6 +37,9 @@ PRODUCT_DIMENSION_COLUMNS = [
     "T3 市场获量",
 ]
 
+# 4 个地区获量列：第一步未执行 step3 时从 target 生成 JSON 时填 0
+REGION_COLUMNS = ["亚洲 T1 市场获量", "欧美 T1 市场获量", "T2 市场获量", "T3 市场获量"]
+
 
 def convert_sheet_to_json(excel_path: Path, json_path: Path) -> None:
     df = pd.read_excel(excel_path)
@@ -63,8 +66,60 @@ def convert_sheet_to_json(excel_path: Path, json_path: Path) -> None:
         json.dump(data, f, ensure_ascii=False, indent=2)
 
 
+def write_empty_product_strategy_json(json_path: Path) -> None:
+    """当该周无爆量目标产品时仍写入带表头的空 JSON，前端可显示表头而非整页空白。"""
+    data = {"headers": list(PRODUCT_DIMENSION_COLUMNS), "rows": []}
+    json_path.parent.mkdir(parents=True, exist_ok=True)
+    with open(json_path, "w", encoding="utf-8") as f:
+        json.dump(data, f, ensure_ascii=False, indent=2)
+
+
+def _target_row_to_product_dimension_row(r, headers: list) -> list:
+    """把 target 表一行转成产品维度顺序的数组，缺列填空，4 个地区列填 0。"""
+    row = []
+    for col in headers:
+        if col in REGION_COLUMNS:
+            row.append(0)
+        elif col in r.index:
+            v = r[col]
+            if pd.isna(v):
+                row.append("")
+            elif isinstance(v, (int, float)) and not isinstance(v, bool):
+                row.append(int(v) if v == int(v) else v)
+            else:
+                row.append(str(v))
+        else:
+            row.append("")
+    return row
+
+
+def convert_target_to_json(target_path: Path, json_path: Path) -> bool:
+    """
+    当 final_join 不存在时，直接从 target 表生成产品维度 JSON：
+    前 6 列 + Unified ID 从 target 填充，4 个地区获量列填 0（第一步未请求分地区数据时）。
+    """
+    if not target_path.exists():
+        return False
+    try:
+        df = pd.read_excel(target_path)
+    except Exception:
+        return False
+    if df.empty:
+        return False
+    headers = list(PRODUCT_DIMENSION_COLUMNS)
+    rows = []
+    for _, r in df.iterrows():
+        rows.append(_target_row_to_product_dimension_row(r, headers))
+    data = {"headers": headers, "rows": rows}
+    json_path.parent.mkdir(parents=True, exist_ok=True)
+    with open(json_path, "w", encoding="utf-8") as f:
+        json.dump(data, f, ensure_ascii=False, indent=2)
+    return True
+
+
 def run(year: int, week_tag: str) -> None:
     final_dir = BASE_DIR / "final_join" / str(year) / week_tag
+    target_dir = BASE_DIR / "target" / str(year) / week_tag / "strategy_target"
     out_dir = BASE_DIR / "frontend" / "data" / str(year) / week_tag
     out_dir.mkdir(parents=True, exist_ok=True)
 
@@ -73,12 +128,20 @@ def run(year: int, week_tag: str) -> None:
         ("new", "target_strategy_new_with_ads_all.xlsx"),
     ]:
         excel_path = final_dir / filename
-        if not excel_path.exists():
-            print(f"跳过（不存在）: {excel_path}")
-            continue
         json_path = out_dir / f"product_strategy_{key}.json"
-        convert_sheet_to_json(excel_path, json_path)
-        print(f"已生成: {json_path}")
+        if excel_path.exists():
+            convert_sheet_to_json(excel_path, json_path)
+            print(f"已生成: {json_path}")
+            continue
+        # final_join 不存在（第一步未请求地区数据）：用 target 表填 6 列，4 个地区获量填 0
+        target_filename = "target_strategy_old.xlsx" if key == "old" else "target_strategy_new.xlsx"
+        target_path = target_dir / target_filename
+        if convert_target_to_json(target_path, json_path):
+            print(f"已生成（来自 target，4 地区获量为 0）: {json_path}")
+            continue
+        # 无 target 或 target 为空时，只写表头
+        write_empty_product_strategy_json(json_path)
+        print(f"已生成（空表）: {json_path}")
 
 
 def main():

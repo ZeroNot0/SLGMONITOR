@@ -3,8 +3,9 @@
 """
 功能一·获得目标产品：从数据监测表（output 表）中按规则筛出策略目标与非策略目标，写入 target/ 下。
 
-- 策略目标：产品归属在 mapping/产品归属.xlsx 中有记录，且 周安装变动 > +20%，且 当周周安装 > 1000 的行。
-- 非策略目标：产品归属不在策略表中，且 周安装变动 > +20%，且 当周周安装 > 1000 的行（不再用 P50）。
+- 策略目标（爆量产品）：当周周安装 > 1000，且 周安装变动 ≥ +20%，且 产品归属 非空。
+  标黄行中同时满足「当周周安装>1000」的才进入爆量产品表。
+- 非策略目标：同上（当周周安装>1000、周安装变动≥20%、产品归属非空），且 产品归属不在 mapping/产品归属.xlsx 中的行。
 
 old / new 划分：按「第三方记录最早上线时间」与截止日期（默认 2025-01-01）区分爆量旧产品 / 新产品。
 """
@@ -117,19 +118,19 @@ def run_generate_target(week_tag: str, year: int, old_new_cutoff: str = OLD_NEW_
     if col_product not in df.columns:
         raise ValueError("数据监测表缺少列: 产品归属")
 
-    # 目标产品条件：周安装变动 > +20%，当周周安装 > 1000，且有产品归属（在 mapping 中有记录）
+    # 爆量产品标准：当周周安装 > 1000 且 周安装变动 ≥ +20%，且 产品归属非空
     inst = pd.to_numeric(df[col_install], errors="coerce").fillna(0) if col_install in df.columns else pd.Series(0, index=df.index)
     pct_vals = df[col_change].apply(_parse_install_change) if col_change in df.columns else pd.Series(None, index=df.index)
     mask_inst = inst > 1000
-    mask_20 = pct_vals.notna() & (pct_vals > 20)
+    mask_20 = pct_vals.notna() & (pct_vals >= 20)
     mask_has_product = df[col_product].astype(str).str.strip() != ""
 
-    # 策略目标：产品归属在产品归属表中，且 周安装变动>20%、当周周安装>1000
-    strategy_mask = df[col_product].astype(str).str.strip().isin(strategy_set) & mask_inst & mask_20 & mask_has_product
+    # 策略目标（爆量产品）= 当周周安装>1000 且 周安装变动≥20% 且 产品归属非空
+    strategy_mask = mask_inst & mask_20 & mask_has_product
     strategy_df = df[strategy_mask].copy()
 
-    # 非策略目标：产品归属不在策略表中，且 周安装变动>20%、当周周安装>1000（不再用 P50）
-    non_strategy_mask = (~df[col_product].astype(str).str.strip().isin(strategy_set)) & mask_inst & mask_20 & mask_has_product
+    # 非策略目标：同上条件，且产品归属不在 mapping 中
+    non_strategy_mask = strategy_mask & (~df[col_product].astype(str).str.strip().isin(strategy_set))
     non_strategy_df = df[non_strategy_mask].copy()
 
     def split_old_new(sub_df):

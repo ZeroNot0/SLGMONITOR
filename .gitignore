@@ -28,13 +28,21 @@ ENV/
 *.swo
 *~
 
-# 可选：若不想把大量数据推上去，可取消下面注释（只保留代码与配置）
-# raw_csv/
-# intermediate/
-# output/
-# advertisements/
-# countiesdata/
-# final_join/
-# target/
-# request/country_data/
-# request/ad_creatives/
+# 表文件与数据目录（只保留代码与配置，不提交到 GitHub）
+*.xlsx
+*.xls
+*.csv
+raw_csv/
+intermediate/
+output/
+advertisements/
+countiesdata/
+final_join/
+target/
+request/country_data/
+request/ad_creatives/
+# 前端生成的数据 JSON（由 pipeline 生成）
+frontend/data/
+
+# 打包与备份
+*.zip

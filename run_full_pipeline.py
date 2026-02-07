@@ -20,13 +20,57 @@
 """
 
 import argparse
+import importlib.util
+import os
 import re
 import subprocess
 import sys
 import tempfile
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
 
 BASE_DIR = Path(__file__).parent
+
+
+def _load_script_module(name: str):
+    """从 scripts/ 按文件名加载模块（不依赖 scripts 包结构）。"""
+    path = BASE_DIR / "scripts" / name
+    if not path.exists():
+        return None
+    spec = importlib.util.spec_from_file_location(name.replace(".py", ""), path)
+    if spec is None or spec.loader is None:
+        return None
+    mod = importlib.util.module_from_spec(spec)
+    sys.modules[spec.name] = mod
+    spec.loader.exec_module(mod)
+    return mod
+
+
+def run_step1_in_process(week_tag: str, year: int) -> bool:
+    """第一步制表：在同一进程内顺序执行 step1→step5_5，避免 6 次子进程启动与重复加载，加快整体耗时。"""
+    steps = [
+        ("step1_merge_clean.py", "run_step1"),
+        ("step2_mapping.py", "run_step2"),
+        ("step3_metrics.py", "run_step3"),
+        ("step4_pivot.py", "run_step4"),
+        ("step5_final_report.py", "run_step5"),
+        ("step5_5_fix_arrow_color.py", "run_step5_5"),
+    ]
+    for script_name, func_name in steps:
+        mod = _load_script_module(script_name)
+        if mod is None:
+            print(f"  ❌ 未找到或无法加载: scripts/{script_name}")
+            return False
+        fn = getattr(mod, func_name, None)
+        if fn is None:
+            print(f"  ❌ {script_name} 中无函数: {func_name}")
+            return False
+        try:
+            fn(week_tag, year)
+        except Exception as e:
+            print(f"  ❌ {script_name} 执行失败: {e}")
+            return False
+    return True
 
 # 处理数量选项（API 请求阶段）
 LIMIT_CHOICES = ("top1", "top5", "top10", "top20", "all")
@@ -52,15 +96,28 @@ def parse_date(date_str: str):
 
 
 def ensure_raw_csv_for_step1(year: int, week_tag: str) -> None:
+    """保证 step1 能读到 raw_csv：存在 {year}_raw_csv 且指向 raw_csv/{year}。"""
     if not year or not week_tag:
         return
     legacy_dir = BASE_DIR / f"{year}_raw_csv"
     modern_dir = BASE_DIR / "raw_csv" / str(year)
-    if legacy_dir.exists():
-        return
     if not modern_dir.exists() or not (modern_dir / week_tag).exists():
         return
     try:
+        if legacy_dir.exists():
+            # 已是正确符号链接则不动
+            if legacy_dir.is_symlink() and legacy_dir.resolve() == modern_dir.resolve():
+                return
+            # 否则删除错误占位（文件/目录/错误链接），再建链接
+            if legacy_dir.is_symlink():
+                legacy_dir.unlink()
+            elif legacy_dir.is_dir():
+                import shutil
+                shutil.rmtree(legacy_dir, ignore_errors=True)
+            else:
+                legacy_dir.unlink()
+            if legacy_dir.exists():
+                return
         legacy_dir.symlink_to(modern_dir)
         print(f"  📎 已创建链接: {year}_raw_csv -> raw_csv/{year}")
     except OSError as e:
@@ -106,7 +163,7 @@ def run_frontend_script(script_name: str, year: int = None, week_tag: str = None
 
 
 def run_request_script(script_name: str, extra_args=None) -> bool:
-    """执行 request 下某脚本。"""
+    """执行 request 下某脚本（ST API 串行、子进程输出不缓冲，日志即时可见）。"""
     script = BASE_DIR / "request" / script_name
     if not script.exists():
         print(f"  ❌ 未找到: {script}")
@@ -114,8 +171,10 @@ def run_request_script(script_name: str, extra_args=None) -> bool:
     cmd = [sys.executable, str(script)]
     if extra_args:
         cmd.extend(extra_args)
+    env = os.environ.copy()
+    env["PYTHONUNBUFFERED"] = "1"
     try:
-        subprocess.run(cmd, check=True, cwd=str(BASE_DIR))
+        subprocess.run(cmd, check=True, cwd=str(BASE_DIR), env=env)
         return True
     except subprocess.CalledProcessError as e:
         print(f"  ❌ request/{script_name} 执行失败，退出码: {e.returncode}")
@@ -264,8 +323,29 @@ def run_step(num: int, week_tag: str, year: int, limit: str = "all", **kwargs) -
         print(f"  ❌ 未知步骤: {num}，可选: 1,2,3,4,5")
         return False
     step_def = STEP_DEFS[num]
-    # 步骤 3：拉取地区数据（仅支持策略目标；非策略时跳过）
+    # 步骤 3：拉取地区数据（仅支持策略目标；非策略时跳过）。支持 unified_id 单产品拉取。
     if num == 3:
+        unified_id = (kwargs.get("unified_id") or "").strip()
+        if unified_id:
+            print(f"\n🔹 步骤 3: 拉取地区数据（单产品 Unified ID: {unified_id}），即将调用 ST API（request/token.txt）", flush=True)
+            start_date, end_date = week_tag_to_dates(year, week_tag)
+            base_extra = ["--year", str(year), "--week", week_tag]
+            if start_date:
+                base_extra.extend(["--start_date", start_date])
+            if end_date:
+                base_extra.extend(["--end_date", end_date])
+            with tempfile.NamedTemporaryFile(mode="w", suffix=".txt", delete=False, encoding="utf-8") as f:
+                f.write(unified_id)
+                tmp_path = f.name
+            try:
+                ok = run_request_script(
+                    "fetch_country_data.py",
+                    ["--app_ids_file", tmp_path] + base_extra + ["--product_type", "strategy_old", "--concurrency", "1"],
+                )
+                # 不再写 xlsx，仅 json 供 build_final_join 与 MySQL 同步
+                return ok
+            finally:
+                Path(tmp_path).unlink(missing_ok=True)
         target_src = (kwargs.get("target_source") or "both").lower()
         if target_src == "non_strategy":
             print(f"\n🔹 步骤 3: 拉取地区数据 — 已选「仅非策略目标」，地区数据仅支持策略目标，跳过")
@@ -301,31 +381,39 @@ def run_step(num: int, week_tag: str, year: int, limit: str = "all", **kwargs) -
             try:
                 ok = run_request_script(
                     "fetch_country_data.py",
-                    ["--app_ids_file", tmp_path] + base_extra + ["--product_type", product_type],
+                    ["--app_ids_file", tmp_path] + base_extra + ["--product_type", product_type, "--concurrency", "1"],
                 )
                 if ok:
                     any_ok = True
             finally:
                 Path(tmp_path).unlink(missing_ok=True)
-        if any_ok:
-            run_script("convert_country_json_to_xlsx.py", week_tag, year)
+        # 不再写地区数据 xlsx，仅 json 供 build_final_join 与 MySQL 同步
         # 若本周无任一 strategy 目标文件，仍返回 True 避免整条流水线报错
         return True
-    # 步骤 4：拉取创意数据（从 target 取产品列表，按 limit、target_source、product_type 截断后调用 fetch_ad_creatives）
+    # 步骤 4：拉取创意数据（从 target 取产品列表，按 limit、target_source、product_type 截断后调用 fetch_ad_creatives）。支持 unified_id 单产品拉取。
     if num == 4:
-        target_src = (kwargs.get("target_source") or "both").lower()
-        product_scope = (kwargs.get("product_type") or "both").lower()
-        scope_label = {"old": "老产品", "new": "新产品", "both": "老+新"}.get(product_scope, product_scope)
-        print(f"\n🔹 步骤 4: 拉取创意数据（处理数量: {limit}，目标: {'仅策略' if target_src == 'strategy' else '仅非策略' if target_src == 'non_strategy' else '策略+非策略'}，产品: {scope_label}）")
-        _, app_list = get_target_products_with_limit(year, week_tag, limit, target_source=target_src, product_type=product_scope)
-        if not app_list:
-            return False
+        unified_id = (kwargs.get("unified_id") or "").strip()
+        if unified_id:
+            print(f"\n🔹 步骤 4: 拉取创意数据（单产品 Unified ID: {unified_id}），即将调用 ST API（request/token.txt）", flush=True)
+            app_list = [(unified_id, unified_id)]
+        else:
+            target_src = (kwargs.get("target_source") or "both").lower()
+            product_scope = (kwargs.get("product_type") or "both").lower()
+            scope_label = {"old": "老产品", "new": "新产品", "both": "老+新"}.get(product_scope, product_scope)
+            print(f"\n🔹 步骤 4: 拉取创意数据（处理数量: {limit}，目标: {'仅策略' if target_src == 'strategy' else '仅非策略' if target_src == 'non_strategy' else '策略+非策略'}，产品: {scope_label}）")
+            _, app_list = get_target_products_with_limit(year, week_tag, limit, target_source=target_src, product_type=product_scope)
+            if not app_list:
+                return False
         print(f"  目标产品数: {len(app_list)}")
         start_date, end_date = week_tag_to_dates(year, week_tag)
         extra = ["--year", str(year), "--week", week_tag]
-        if target_src == "non_strategy":
-            extra.extend(["--product_type", "non_strategy"])
-        elif target_src == "strategy":
+        if not unified_id:
+            target_src = (kwargs.get("target_source") or "both").lower()
+            if target_src == "non_strategy":
+                extra.extend(["--product_type", "non_strategy"])
+            elif target_src == "strategy":
+                extra.extend(["--product_type", "strategy_old"])
+        else:
             extra.extend(["--product_type", "strategy_old"])
         if start_date:
             extra.extend(["--start_date", start_date])
@@ -344,45 +432,83 @@ def run_step(num: int, week_tag: str, year: int, limit: str = "all", **kwargs) -
         finally:
             Path(tmp_path).unlink(missing_ok=True)
     # 步骤 5：前端数据更新（公司维度 JSON、产品维度 JSON、素材索引、weeks_index、题材/画风映射）
+    # 并行化：无依赖任务先并行执行，有依赖的再按批执行，减少总耗时
     if num == 5:
-        print("\n🔹 步骤 5: 前端数据更新（公司/产品/素材 JSON + 周索引 + 题材/画风映射）")
-        # 题材/画风：从 mapping/产品归属.xlsx 转 JSON，供产品详情页按 Unified ID 取题材、画风
-        run_frontend_script("convert_product_mapping_to_json.py")
+        print("\n🔹 步骤 5: 前端数据更新（公司/产品/素材 JSON + 周索引 + 题材/画风映射）[并行]")
         out_excel = BASE_DIR / "output" / str(year) / f"{week_tag}_SLG数据监测表.xlsx"
-        if out_excel.exists():
-            if not run_frontend_script("convert_excel_with_format.py", year=year, week_tag=week_tag):
-                return False
-        else:
-            print(f"  ⏭ 跳过 convert_excel_with_format（未找到 {out_excel}）")
         metrics_xlsx = BASE_DIR / "intermediate" / str(year) / week_tag / "metrics_total.xlsx"
+        target_strategy_dir = BASE_DIR / "target" / str(year) / week_tag / "strategy_target"
+        final_dir = BASE_DIR / "final_join" / str(year) / week_tag
+        ads_dir = BASE_DIR / "advertisements" / str(year) / week_tag
+
+        def _run_batch(tasks):
+            """并行执行一批 (label, callable)，全部成功返回 True。"""
+            if not tasks:
+                return True
+            results = {}
+            with ThreadPoolExecutor(max_workers=min(len(tasks), 6)) as ex:
+                f2l = {ex.submit(fn): label for label, fn in tasks}
+                for fut in as_completed(f2l):
+                    label = f2l[fut]
+                    try:
+                        results[label] = fut.result()
+                    except Exception as e:
+                        print(f"  ❌ {label} 异常: {e}")
+                        results[label] = False
+            ok = all(results.values())
+            for label, v in results.items():
+                if not v:
+                    print(f"  ❌ {label} 失败")
+            return ok
+
+        # 批次1：仅依赖 step1/2 产出，彼此无依赖，并行执行
+        batch1 = [
+            ("convert_product_mapping_to_json", lambda: run_frontend_script("convert_product_mapping_to_json.py")),
+        ]
+        if out_excel.exists():
+            batch1.append(("convert_excel_with_format", lambda: run_frontend_script("convert_excel_with_format.py", year=year, week_tag=week_tag)))
+        else:
+            print(f"  ⏭ 跳过 convert_excel_with_format（未找到 {out_excel.name}）")
         if metrics_xlsx.exists():
-            run_frontend_script("convert_metrics_to_json.py", year=year, week_tag=week_tag)
-            # 产品赛道排名：根据 metrics_total.json 计算排名，生成 metrics_rank.json 供产品详情页使用
-            run_frontend_script("build_metrics_rank.py", year=year, week_tag=week_tag)
+            batch1.append(("convert_metrics_to_json", lambda: run_frontend_script("convert_metrics_to_json.py", year=year, week_tag=week_tag)))
         else:
             print(f"  ⏭ 跳过 convert_metrics_to_json（未找到 {metrics_xlsx.relative_to(BASE_DIR)}）")
-        # 用 target + country_data 生成/更新 final_join，保证新数据跑完后 final_join 会更新
-        target_strategy_dir = BASE_DIR / "target" / str(year) / week_tag / "strategy_target"
         if target_strategy_dir.exists():
-            if not run_script("build_final_join.py", week_tag, year):
-                return False
+            batch1.append(("build_final_join", lambda: run_script("build_final_join.py", week_tag, year)))
         else:
             print(f"  ⏭ 跳过 build_final_join（未找到 target/{year}/{week_tag}/strategy_target）")
-        final_dir = BASE_DIR / "final_join" / str(year) / week_tag
-        if final_dir.exists():
-            if not run_frontend_script("convert_final_join_to_json.py", year=year, week_tag=week_tag):
-                return False
-        else:
-            print(f"  ⏭ 跳过 convert_final_join_to_json（未找到 final_join/{year}/{week_tag}）")
-        ads_dir = BASE_DIR / "advertisements" / str(year) / week_tag
         if ads_dir.exists():
-            if not run_frontend_script("build_creative_products_index.py", year=year, week_tag=week_tag):
-                return False
+            batch1.append(("build_creative_products_index", lambda: run_frontend_script("build_creative_products_index.py", year=year, week_tag=week_tag)))
         else:
             print(f"  ⏭ 跳过 build_creative_products_index（未找到 advertisements/{year}/{week_tag}）")
+        if not _run_batch(batch1):
+            return False
+
+        # 批次2：依赖批次1 产出（build_final_join 可能在本轮才生成 final_dir，故重新检查）
+        batch2 = []
+        if metrics_xlsx.exists():
+            batch2.append(("build_metrics_rank", lambda: run_frontend_script("build_metrics_rank.py", year=year, week_tag=week_tag)))
+        # 始终执行：有 final_join 时转表；无时脚本会写空表头 JSON，避免产品维度页整页空白
+        batch2.append(("convert_final_join_to_json", lambda: run_frontend_script("convert_final_join_to_json.py", year=year, week_tag=week_tag)))
+        if not _run_batch(batch2):
+            return False
+
+        # 批次3：周索引（最后执行，汇总所有周）
         if not run_frontend_script("build_weeks_index.py"):
             return False
         return True
+    # 步骤 1：默认单进程执行；若环境变量 STEP1_USE_SUBPROCESS=1 则改用 6 个子进程（便于对比耗时）
+    if num == 1:
+        scripts, label = step_def
+        use_subprocess = os.environ.get("STEP1_USE_SUBPROCESS", "").strip().lower() in ("1", "true", "yes")
+        if use_subprocess:
+            print(f"\n🔹 步骤 1: {label}（子进程）")
+            for script_name in scripts:
+                if not run_script(script_name, week_tag, year):
+                    return False
+            return True
+        print(f"\n🔹 步骤 1: {label}（单进程）")
+        return run_step1_in_process(week_tag, year)
     scripts, label = step_def
     if not scripts:
         print(f"  ⏭ 步骤 {num}（{label}）暂未实现，跳过")
@@ -400,6 +526,156 @@ def run_phase1(week_tag: str, year: int) -> bool:
     return run_step(1, week_tag, year) and run_step(2, week_tag, year)
 
 
+# 单产品按上线时间归入 old/new 的截止日期（与 generate_target 一致）
+OLD_NEW_CUTOFF_DATE = "2025-01-01"
+
+
+def _normalize_uid_for_match(v) -> str:
+    """统一 Unified ID 用于匹配：去空格，科学计数法转整数字符串。"""
+    if v is None or (isinstance(v, float) and (v != v or v == float("inf"))):
+        return ""
+    s = str(v).strip()
+    if not s:
+        return ""
+    if "e+" in s.lower() or "e-" in s.lower():
+        try:
+            n = float(s)
+            if abs(n) >= 1e15:
+                return str(int(n))
+        except (ValueError, OverflowError):
+            pass
+    return s
+
+
+def _parse_earliest_date_for_classify(v):
+    """将「第三方记录最早上线时间」转为 YYYY-MM-DD 或 None，用于判断 old/new。"""
+    try:
+        import pandas as pd
+    except ImportError:
+        return None
+    if pd.isna(v) or v is None:
+        return None
+    if hasattr(v, "strftime"):
+        return v.strftime("%Y-%m-%d")
+    s = str(v).strip()
+    if not s:
+        return None
+    try:
+        n = float(s.replace(",", ""))
+        if 40000 <= n <= 50000:
+            from datetime import datetime, timedelta
+            base = datetime(1899, 12, 30)
+            d = base + timedelta(days=int(n))
+            return d.strftime("%Y-%m-%d")
+    except (ValueError, TypeError):
+        pass
+    for sep in ["-", "/", "."]:
+        if sep in s:
+            parts = re.split(r"[-/.]", s)
+            if len(parts) >= 3:
+                try:
+                    y, m, d = int(parts[0]), int(parts[1]), int(parts[2])
+                    if 2000 <= y <= 2030 and 1 <= m <= 12 and 1 <= d <= 31:
+                        return f"{y:04d}-{m:02d}-{d:02d}"
+                except (ValueError, TypeError):
+                    pass
+    return None
+
+
+def classify_single_product_to_target(year: int, week_tag: str, unified_id: str) -> bool:
+    """
+    单产品拉取后按总表上线时间与游戏类别自动归类：从总表查该 Unified ID 对应行，
+    按「第三方记录最早上线时间」归入 target_strategy_old 或 target_strategy_new，
+    并追加到对应 xlsx，便于 build_final_join 与前端展示。
+    """
+    try:
+        import pandas as pd
+    except ImportError:
+        print("  ⚠️ 单产品归类需要 pandas，跳过")
+        return True
+    uid = (unified_id or "").strip()
+    if not uid:
+        return True
+    # 总表：优先 output 数据监测表，否则 pivot_table
+    out_file = BASE_DIR / "output" / str(year) / f"{week_tag}_SLG数据监测表.xlsx"
+    pivot_file = BASE_DIR / "intermediate" / str(year) / week_tag / "pivot_table.xlsx"
+    df_master = None
+    for path in (out_file, pivot_file):
+        if path.exists():
+            try:
+                df_master = pd.read_excel(path)
+                break
+            except Exception as e:
+                print(f"  ⚠️ 读取总表失败 {path.name}: {e}")
+                continue
+    col_uid = "Unified ID" if df_master is not None and "Unified ID" in df_master.columns else None
+    col_product = "产品归属" if df_master is not None and "产品归属" in df_master.columns else None
+    col_date = "第三方记录最早上线时间" if df_master is not None and "第三方记录最早上线时间" in df_master.columns else None
+    col_company = "公司归属" if df_master is not None and "公司归属" in df_master.columns else None
+    row = None
+    if df_master is not None and not df_master.empty:
+        if col_uid:
+            for _, r in df_master.iterrows():
+                if _normalize_uid_for_match(r.get(col_uid)) == _normalize_uid_for_match(uid):
+                    row = r
+                    break
+        if row is None and col_product:
+            for _, r in df_master.iterrows():
+                if _normalize_uid_for_match(r.get(col_product)) == _normalize_uid_for_match(uid):
+                    row = r
+                    break
+    product_name = (row.get(col_product) if row is not None and col_product else None) or uid
+    company = (row.get(col_company) if row is not None and col_company else "") or ""
+    date_val = row.get(col_date) if row is not None and col_date else None
+    date_str = _parse_earliest_date_for_classify(date_val)
+    is_new = bool(date_str and date_str >= OLD_NEW_CUTOFF_DATE)
+    key = "new" if is_new else "old"
+    filename = f"target_strategy_{key}.xlsx"
+    target_dir = BASE_DIR / "target" / str(year) / week_tag / "strategy_target"
+    target_path = target_dir / filename
+    target_dir.mkdir(parents=True, exist_ok=True)
+    base_cols = ["公司归属", "产品归属", "Unified ID", "第三方记录最早上线时间",
+                 "当周周安装", "上周周安装", "周安装变动", "当周周流水", "上周周流水", "周流水变动"]
+    new_row = {
+        "公司归属": company,
+        "产品归属": product_name,
+        "Unified ID": uid,
+        "第三方记录最早上线时间": date_val if row is not None else "",
+        "当周周安装": row.get("当周周安装") if row is not None else "",
+        "上周周安装": row.get("上周周安装") if row is not None else "",
+        "周安装变动": row.get("周安装变动") if row is not None else "",
+        "当周周流水": row.get("当周周流水") if row is not None else "",
+        "上周周流水": row.get("上周周流水") if row is not None else "",
+        "周流水变动": row.get("周流水变动") if row is not None else "",
+    }
+    if target_path.exists():
+        try:
+            existing = pd.read_excel(target_path)
+            col_uid_ex = "Unified ID" if "Unified ID" in existing.columns else "产品归属"
+            existing_uids = set(_normalize_uid_for_match(v) for v in existing[col_uid_ex].tolist())
+            if _normalize_uid_for_match(uid) in existing_uids:
+                print(f"  单产品已存在于 {filename}，跳过追加")
+                return True
+            cols = list(existing.columns)
+            new_df = pd.DataFrame([{c: new_row.get(c, "") for c in cols}])
+            combined = pd.concat([existing, new_df], ignore_index=True)
+            combined.to_excel(target_path, index=False)
+            print(f"  已按总表上线时间将单产品归入 {filename} 并追加")
+        except Exception as e:
+            print(f"  ⚠️ 追加单产品到 {filename} 失败: {e}")
+            return True
+    else:
+        try:
+            cols = [c for c in base_cols if c in new_row]
+            df_out = pd.DataFrame([{c: new_row.get(c, "") for c in cols}])
+            df_out.to_excel(target_path, index=False)
+            print(f"  已新建 {filename} 并写入单产品（按总表归类）")
+        except Exception as e:
+            print(f"  ⚠️ 新建 {filename} 写入单产品失败: {e}")
+            return True
+    return True
+
+
 def run_phase2(
     week_tag: str,
     year: int,
@@ -408,12 +684,15 @@ def run_phase2(
     limit: str,
     target_source: str = "both",
     product_type: str = "both",
+    unified_id: str | None = None,
 ) -> bool:
-    """第二步：根据目标产品表调 API。用户已选是否请求地区数据、创意数据、处理数量及策略/非策略目标、新/老产品。"""
+    """第二步：根据目标产品表调 API。用户已选是否请求地区数据、创意数据、处理数量及策略/非策略目标、新/老产品。unified_id 非空时仅拉取该单产品。"""
     if not fetch_country and not fetch_creatives:
         print("  第二步未选择任何 API 请求，跳过")
         return True
     kw = {"target_source": target_source, "product_type": product_type}
+    if unified_id and str(unified_id).strip():
+        kw["unified_id"] = str(unified_id).strip()
     if fetch_country and not run_step(3, week_tag, year, limit=limit, **kw):
         return False
     if fetch_creatives and not run_step(4, week_tag, year, limit=limit, **kw):

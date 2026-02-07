@@ -14,6 +14,7 @@ import argparse
 import json
 import sys
 import time
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
 
 # ST API 网络不稳定：失败时延迟后重试，最多请求 3 次
@@ -176,6 +177,52 @@ def save_xlsx(app_id, data, xlsx_dir=None):
 # 跳过时最多打印前几条详情，避免刷屏
 MAX_SKIP_LOGS = 3
 
+# 并发拉取时每个线程最多同时请求数（避免压垮 API 或触发限流）
+DEFAULT_CONCURRENCY = 1  # API 有限额，串行请求
+
+
+def _fetch_one(
+    app_id,
+    token,
+    start_date,
+    end_date,
+    os_platform,
+    date_granularity,
+    countries,
+    data_model,
+    json_dir,
+    xlsx_dir,
+    save_xlsx_too,
+    debug,
+):
+    """单个 app 拉取并落盘，供线程池调用。返回 (app_id, None) 成功，(app_id, exception) 失败。"""
+    app_id = app_id.strip()
+    if not app_id:
+        return (app_id, None)
+    try:
+        session = get_session(token)
+        if debug:
+            print(f"  [请求] app_id={app_id}, start_date={start_date}, end_date={end_date}, countries={countries}")
+        data = fetch_country_data_with_retry(
+            session,
+            app_id,
+            os_platform=os_platform,
+            start_date=start_date,
+            end_date=end_date,
+            date_granularity=date_granularity,
+            countries=countries,
+            data_model=data_model,
+            debug=debug,
+        )
+        if isinstance(data, dict) and "data" in data:
+            data = data["data"]
+        save_json(app_id, data, json_dir=json_dir)
+        if save_xlsx_too:
+            save_xlsx(app_id, data, xlsx_dir=xlsx_dir)
+        return (app_id, None)
+    except Exception as e:
+        return (app_id, e)
+
 
 def run(
     app_ids,
@@ -185,60 +232,67 @@ def run(
     date_granularity="weekly",
     countries="ALL",
     data_model="DM_2025_Q2",
-    save_xlsx_too=True,
+    save_xlsx_too=False,
     strict=False,
     year=None,
     week_tag=None,
     product_type=None,
     debug=False,
+    concurrency=None,
 ):
     """
     strict=False：单个 app 请求失败时跳过并继续；strict=True 时任一失败即抛错。
-    year、week_tag、product_type 若都提供，则写入 countiesdata/{年}/{周}/{product_type}/json 与 xlsx。
-    debug=True 时打印 API 返回结构（仅 --test 时使用）。
+    year、week_tag、product_type 若都提供，则写入 countiesdata/{年}/{周}/{product_type}/json（默认不写 xlsx，仅 json 供 build_final_join 与 MySQL 同步用）。
+    concurrency：并发数，默认 1（串行）；设为 1 则退化为串行。
     """
     json_dir = OUTPUT_JSON_DIR
     xlsx_dir = OUTPUT_XLSX_DIR
     if year is not None and week_tag and product_type:
         json_dir = BASE_DIR / "countiesdata" / str(year) / week_tag / product_type / "json"
         xlsx_dir = BASE_DIR / "countiesdata" / str(year) / week_tag / product_type / "xlsx"
-        print(f"  写入: countiesdata/{year}/{week_tag}/{product_type}/json 与 xlsx")
+        print(f"  写入: countiesdata/{year}/{week_tag}/{product_type}/json" + (" 与 xlsx" if save_xlsx_too else ""))
     token = load_token()
-    session = get_session(token)
+    workers = int(concurrency) if concurrency is not None else DEFAULT_CONCURRENCY
+    workers = max(1, min(workers, 20))
+    app_ids = [a.strip() for a in app_ids if a and a.strip()]
     ok, fail = 0, 0
-    for app_id in app_ids:
-        app_id = app_id.strip()
-        if not app_id:
-            continue
-        try:
-            if debug:
-                print(f"  [请求] app_id={app_id}, start_date={start_date}, end_date={end_date}, countries={countries}")
-            data = fetch_country_data_with_retry(
-                session,
-                app_id,
-                os_platform=os_platform,
-                start_date=start_date,
-                end_date=end_date,
-                date_granularity=date_granularity,
-                countries=countries,
-                data_model=data_model,
-                debug=debug,
+    if workers <= 1:
+        for app_id in app_ids:
+            _, exc = _fetch_one(
+                app_id, token, start_date, end_date, os_platform,
+                date_granularity, countries, data_model,
+                json_dir, xlsx_dir, save_xlsx_too, debug,
             )
-            # 如果返回的是 dict 且包含 data 字段，提取 data
-            if isinstance(data, dict) and "data" in data:
-                actual_data = data["data"]
-                print(f"  [INFO] API 返回包装在 data 字段中，提取后类型: {type(actual_data)}, 长度: {len(actual_data) if isinstance(actual_data, (list, dict)) else 'N/A'}")
-                data = actual_data
-            save_json(app_id, data, json_dir=json_dir)
-            if save_xlsx_too:
-                save_xlsx(app_id, data, xlsx_dir=xlsx_dir)
-            ok += 1
-        except Exception as e:
-            if fail < MAX_SKIP_LOGS:
-                print(f"  ⚠️ 跳过 {app_id}: {e}")
-            fail += 1
-            if strict:
-                raise
+            if exc is None:
+                ok += 1
+            else:
+                if fail < MAX_SKIP_LOGS:
+                    print(f"  ⚠️ 跳过 {app_id}: {exc}")
+                fail += 1
+                if strict:
+                    raise exc
+    else:
+        print(f"  地区数据并发数: {workers}")
+        with ThreadPoolExecutor(max_workers=workers) as executor:
+            futures = {
+                executor.submit(
+                    _fetch_one,
+                    app_id, token, start_date, end_date, os_platform,
+                    date_granularity, countries, data_model,
+                    json_dir, xlsx_dir, save_xlsx_too, debug,
+                ): app_id
+                for app_id in app_ids
+            }
+            for fut in as_completed(futures):
+                app_id, exc = fut.result()
+                if exc is None:
+                    ok += 1
+                else:
+                    if fail < MAX_SKIP_LOGS:
+                        print(f"  ⚠️ 跳过 {app_id}: {exc}")
+                    fail += 1
+                    if strict:
+                        raise exc
     if fail:
         if fail > MAX_SKIP_LOGS:
             print(f"  ... 其余 {fail - MAX_SKIP_LOGS} 个已跳过")
@@ -257,11 +311,12 @@ def main():
     parser.add_argument("--date_granularity", default="weekly", choices=["daily", "weekly", "monthly", "quarterly"], help="日期粒度，默认 weekly")
     parser.add_argument("--countries", default="ALL", help="国家：ALL=所有地区，或 WW/逗号分隔国家代码，默认 ALL")
     parser.add_argument("--data_model", default="DM_2025_Q2", choices=["DM_2025_Q1", "DM_2025_Q2"], help="数据模型，默认 DM_2025_Q2")
-    parser.add_argument("--no_xlsx", action="store_true", help="不写 xlsx")
+    parser.add_argument("--xlsx", action="store_true", help="同时写入 xlsx（默认仅写 json，供 build_final_join 与 MySQL 同步）")
     parser.add_argument("--strict", action="store_true", help="任一 app 请求失败即退出，默认跳过失败继续")
     parser.add_argument("--year", type=int, help="年份，与 --week、--product_type 一起指定时写入 countiesdata/{年}/{周}/{product_type}/")
     parser.add_argument("--week", dest="week_tag", help="周标签如 1201-1207")
     parser.add_argument("--product_type", choices=["strategy_old", "strategy_new"], help="与 --year、--week 一起时写入 countiesdata/{年}/{周}/strategy_old 或 strategy_new")
+    parser.add_argument("--concurrency", type=int, default=DEFAULT_CONCURRENCY, help=f"并发请求数，默认 {DEFAULT_CONCURRENCY}；设为 1 则串行")
     parser.add_argument("--test", action="store_true", help="测试模式：只请求第一个 app_id，打印详细调试信息")
     args = parser.parse_args()
 
@@ -287,12 +342,13 @@ def main():
         date_granularity=args.date_granularity,
         countries=args.countries,
         data_model=args.data_model,
-        save_xlsx_too=not args.no_xlsx,
+        save_xlsx_too=args.xlsx,
         strict=args.strict,
         year=args.year,
         week_tag=args.week_tag,
         product_type=args.product_type,
         debug=args.test,
+        concurrency=args.concurrency,
     )
 
 

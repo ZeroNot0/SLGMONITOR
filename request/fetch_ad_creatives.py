@@ -14,6 +14,7 @@ import json
 import re
 import sys
 import time
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
 
 # ST API 网络不稳定：失败时延迟后重试，最多请求 3 次
@@ -204,6 +205,55 @@ def save_xlsx(app_id, data, xlsx_dir=None, product_name=None, suffix=""):
 # 跳过时最多打印前几条详情，避免刷屏
 MAX_SKIP_LOGS = 3
 
+# 创意数据并发数（每产品 4 个市场，并发可显著缩短总耗时）
+DEFAULT_CONCURRENCY = 1  # API 有限额，串行请求
+
+
+def _fetch_one_region(
+    app_id,
+    product_name,
+    region,
+    token,
+    start_date,
+    end_date,
+    os_platform,
+    market_countries,
+    use_advertisements,
+    year,
+    week_tag,
+    product_type,
+    save_xlsx_too,
+):
+    """单次 (app_id, region) 拉取并落盘，供线程池调用。返回 (app_id, region, None) 成功，(app_id, region, exception) 失败。"""
+    app_id = (app_id or "").strip()
+    if not app_id:
+        return (app_id, region, None)
+    pname = (product_name or app_id).strip() or app_id
+    region_countries = market_countries.get(region)
+    if not region_countries:
+        return (app_id, region, None)
+    json_dir = xlsx_dir = None
+    if use_advertisements and year and week_tag:
+        json_dir, xlsx_dir = get_output_dirs(year, week_tag, product_type, app_id, pname)
+    try:
+        session = get_session(token)
+        data = fetch_ad_creatives_with_retry(
+            session,
+            app_id,
+            os_platform=os_platform,
+            start_date=start_date,
+            end_date=end_date,
+            countries=region_countries,
+            ad_types=",".join(AD_TYPES_VIDEO),
+            networks=",".join(NETWORKS),
+        )
+        save_json(app_id, data, json_dir=json_dir, suffix=region)
+        if save_xlsx_too:
+            save_xlsx(app_id, data, xlsx_dir=xlsx_dir, product_name=pname, suffix=region)
+        return (app_id, region, None)
+    except Exception as e:
+        return (app_id, region, e)
+
 
 def run(
     app_list,
@@ -211,45 +261,49 @@ def run(
     end_date=None,
     os_platform="unified",
     countries=None,
-    save_xlsx_too=True,
+    save_xlsx_too=False,
     year=None,
     week_tag=None,
     product_type="strategy_old",
     strict=False,
+    concurrency=None,
 ):
     """
     app_list: list of (app_id, product_name)。
     API: GET /v1/{os}/ad_intel/creatives。每个产品请求 4 次，分别对应 4 个市场（亚洲T1、欧美T1、T2、T3），
     只拉 video 类型、全部指定 networks；结果按市场存为 {app_id}_亚洲T1.json 等。
-    year, week_tag 若都提供，则写入 advertisements/{year}/{week_tag}/{product_type}/ 下。
+    year, week_tag 若都提供，则写入 advertisements/{year}/{week_tag}/{product_type}/ 下（默认仅 json，不写 xlsx）。
     strict=False：单个请求失败时跳过并继续；strict=True 时任一失败即抛错。
+    concurrency：并发数，默认 1（串行）。
     """
     token = load_token()
-    session = get_session(token)
     use_advertisements = year is not None and week_tag is not None
     market_countries = load_market_countries()
-    ok, fail = 0, 0
+    workers = int(concurrency) if concurrency is not None else DEFAULT_CONCURRENCY
+    workers = max(1, min(workers, 20))
 
+    tasks = []
     for app_id, product_name in app_list:
         app_id = (app_id or "").strip()
         if not app_id:
             continue
         pname = (product_name or app_id).strip() or app_id
-        json_dir = xlsx_dir = None
-        if use_advertisements:
-            json_dir, xlsx_dir = get_output_dirs(year, week_tag, product_type, app_id, pname)
-
         for region in REGIONS:
+            if market_countries.get(region):
+                tasks.append((app_id, pname, region))
+
+    ok, fail = 0, 0
+    if workers <= 1:
+        session = get_session(token)
+        for app_id, pname, region in tasks:
+            json_dir = xlsx_dir = None
+            if use_advertisements and year and week_tag:
+                json_dir, xlsx_dir = get_output_dirs(year, week_tag, product_type, app_id, pname)
             region_countries = market_countries.get(region)
-            if not region_countries:
-                continue
             try:
                 data = fetch_ad_creatives_with_retry(
-                    session,
-                    app_id,
-                    os_platform=os_platform,
-                    start_date=start_date,
-                    end_date=end_date,
+                    session, app_id, os_platform=os_platform,
+                    start_date=start_date, end_date=end_date,
                     countries=region_countries,
                     ad_types=",".join(AD_TYPES_VIDEO),
                     networks=",".join(NETWORKS),
@@ -264,6 +318,28 @@ def run(
                 fail += 1
                 if strict:
                     raise
+    else:
+        print(f"  创意数据并发数: {workers}")
+        with ThreadPoolExecutor(max_workers=workers) as executor:
+            futures = {
+                executor.submit(
+                    _fetch_one_region,
+                    app_id, pname, region, token,
+                    start_date, end_date, os_platform, market_countries,
+                    use_advertisements, year, week_tag, product_type, save_xlsx_too,
+                ): (app_id, region)
+                for app_id, pname, region in tasks
+            }
+            for fut in as_completed(futures):
+                app_id, region, exc = fut.result()
+                if exc is None:
+                    ok += 1
+                else:
+                    if fail < MAX_SKIP_LOGS:
+                        print(f"  ⚠️ 跳过 {app_id} {region}: {exc}")
+                    fail += 1
+                    if strict:
+                        raise exc
     if fail:
         if fail > MAX_SKIP_LOGS:
             print(f"  ... 其余 {fail - MAX_SKIP_LOGS} 次已跳过")
@@ -322,8 +398,9 @@ def main():
     parser.add_argument("--countries", default="WW", help="国家代码逗号分隔，默认 WW（全球）")
     parser.add_argument("--start_date", help="开始日期 YYYY-MM-DD（API 必填建议）")
     parser.add_argument("--end_date", help="结束日期 YYYY-MM-DD")
-    parser.add_argument("--no_xlsx", action="store_true", help="不写 xlsx")
+    parser.add_argument("--xlsx", action="store_true", help="同时写入 xlsx（默认仅写 json，供 MySQL 同步）")
     parser.add_argument("--strict", action="store_true", help="任一请求失败即退出，默认跳过失败继续")
+    parser.add_argument("--concurrency", type=int, default=DEFAULT_CONCURRENCY, help=f"并发请求数，默认 {DEFAULT_CONCURRENCY}；设为 1 则串行")
     args = parser.parse_args()
 
     app_list = parse_app_list(
@@ -358,11 +435,12 @@ def main():
         end_date=end_date,
         os_platform=args.os_platform,
         countries=args.countries,
-        save_xlsx_too=not args.no_xlsx,
+        save_xlsx_too=args.xlsx,
         year=args.year,
         week_tag=args.week_tag,
         product_type=args.product_type or "strategy_old",
         strict=args.strict,
+        concurrency=args.concurrency,
     )
 
 

@@ -39,17 +39,57 @@ def run_step2(week_tag: str = None, year: int = None):
         df = df.rename(columns={"Earliest Release Date": "第三方记录最早上线时间"})
 
     # === 读取映射表 ===
-    prod_map = pd.read_excel(BASE_DIR / "mapping" / "产品归属.xlsx")
+    prod_map_raw = pd.read_excel(BASE_DIR / "mapping" / "产品归属.xlsx")
     comp_map = pd.read_excel(BASE_DIR / "mapping" / "公司归属.xlsx")
     coef_map = pd.read_excel(BASE_DIR / "mapping" / "流水系数.xlsx")
 
     # ---------------------------------------------------
-    # 1. 产品归属
-    # 总表: Unified Name  → 产品归属表: B列 → 返回 E列
+    # 1. 产品归属（按列名取「产品名」与「产品归属」，避免列顺序变化导致匹配错）
+    # 总表用 Unified Name 与映射表的产品名列匹配，得到 产品归属
     # ---------------------------------------------------
-    prod_map = prod_map.iloc[:, [1, 4]]
-    prod_map.columns = ["Unified Name", "产品归属"]
+    def _norm_col(s):
+        return (s or "").strip()
+
+    prod_cols = {_norm_col(c): c for c in prod_map_raw.columns}
+    # 用作匹配的列：与总表 Unified Name 对应
+    name_candidates = ["产品名（实时更新中）", "Unified Name", "产品名", "Unified name"]
+    prod_name_col = None
+    for cand in name_candidates:
+        if cand in prod_cols:
+            prod_name_col = prod_cols[cand]
+            break
+    # 产品归属列
+    belong_cand = "产品归属"
+    prod_belong_col = prod_cols.get(belong_cand)
+
+    if prod_name_col and prod_belong_col:
+        prod_map = prod_map_raw[[prod_name_col, prod_belong_col]].copy()
+        prod_map = prod_map.rename(columns={prod_name_col: "Unified Name", prod_belong_col: "产品归属"})
+        prod_map["Unified Name"] = prod_map["Unified Name"].astype(str).str.strip()
+        prod_map = prod_map.dropna(subset=["Unified Name"])
+        prod_map = prod_map.drop_duplicates(subset=["Unified Name"], keep="first")
+    else:
+        # 兼容旧表：无上述列名时仍用 B 列、E 列（索引 1、4）
+        prod_map = prod_map_raw.iloc[:, [1, 4]].copy()
+        prod_map.columns = ["Unified Name", "产品归属"]
+
+    df["Unified Name"] = df["Unified Name"].astype(str).str.strip()
     df = df.merge(prod_map, on="Unified Name", how="left")
+
+    # 若按名称匹配后仍有空，且总表与映射表都有 Unified ID，则用 Unified ID 回填 产品归属
+    uid_in_df = "Unified ID" in df.columns
+    uid_in_map = next((c for c in prod_map_raw.columns if _norm_col(c) in ("Unified ID", "Unified id", "unified id")), None)
+    belong_in_map = prod_belong_col or prod_cols.get("产品归属")
+    if uid_in_df and uid_in_map and belong_in_map:
+        fallback = prod_map_raw[[uid_in_map, belong_in_map]].copy()
+        fallback.columns = ["_uid", "产品归属"]
+        fallback["_uid"] = fallback["_uid"].astype(str).str.strip()
+        fallback = fallback.dropna(subset=["_uid"]).drop_duplicates(subset=["_uid"], keep="first")
+        if df["产品归属"].isna().any():
+            df["_uid"] = df["Unified ID"].astype(str).str.strip()
+            filled = df["产品归属"].isna()
+            df.loc[filled, "产品归属"] = df.loc[filled, "_uid"].map(fallback.set_index("_uid")["产品归属"])
+            df = df.drop(columns=["_uid"])
 
     # ---------------------------------------------------
     # 2. 公司归属

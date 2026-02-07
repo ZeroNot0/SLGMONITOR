@@ -217,7 +217,7 @@ def run(year: int, week_tag: str) -> bool:
             print(f"     target 中 app_id 示例: {sample_ids}")
             if existing:
                 print(f"     已有 json 示例: {[f.name for f in existing]}")
-            print(f"     建议: 对该周先执行步骤 3（拉取地区数据），再执行 convert_country_json_to_xlsx，再执行步骤 5")
+            print(f"     建议: 对该周先执行步骤 3（拉取地区数据，仅写 json），再执行步骤 5（前端更新 + MySQL 同步）")
         else:
             print(f"  {filename}: 已匹配 {n_with_data}/{len(app_ids)} 个 app 的地区数据 → 写入四个市场获量")
         tier_df = build_tier_df(app_ids, country_to_tier, year=year, week_tag=week_tag, product_type=product_type)

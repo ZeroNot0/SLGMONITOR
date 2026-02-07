@@ -68,11 +68,12 @@ def run_step5(week_tag: str = None, year: int = None):
     df = df[~cond_delete].reset_index(drop=True)
 
     # =====================
-    # 列顺序（含 Unified ID 时保留，供 API 请求使用）
+    # 列顺序：保留 Unified ID 供 target / build_final_join 匹配地区数据，其余为产品归属与指标列
     # =====================
     final_cols = [
         "公司归属",
         "产品归属",
+        "Unified ID",
         "第三方记录最早上线时间",
         "当周周安装",
         "上周周安装",
@@ -81,8 +82,6 @@ def run_step5(week_tag: str = None, year: int = None):
         "上周周流水",
         "周流水变动"
     ]
-    if "Unified ID" in df.columns:
-        final_cols.insert(final_cols.index("产品归属") + 1, "Unified ID")
     df = df[[c for c in final_cols if c in df.columns]]
 
     # =====================
@@ -125,7 +124,7 @@ def run_step5(week_tag: str = None, year: int = None):
 
     # ---- 设置列宽 ----
     ws.column_dimensions["B"].width = 38   # 产品列 ≈10cm
-    for col in ["A","C","D","E","F","G","H","I"]:
+    for col in ["A", "C", "D", "E", "F", "G", "H", "I", "J"]:
         if col != "B":
             ws.column_dimensions[col].width = 18  # ≈5cm
 

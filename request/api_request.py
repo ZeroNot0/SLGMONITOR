@@ -45,7 +45,7 @@ def get_session(token=None):
     return session
 
 
-def get(session, path, params=None, timeout=60):
+def get(session, path, params=None, timeout=90):
     """
     发起 GET 请求。path 为相对 API_BASE 的路径，如 "/downloads/country".
     返回 response 对象，调用方负责 response.raise_for_status() 和 response.json()。
