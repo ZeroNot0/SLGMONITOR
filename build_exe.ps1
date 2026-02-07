@@ -15,7 +15,8 @@ pyinstaller --noconfirm --clean --onefile `
   --add-data "deploy;deploy" `
   --add-data "backend;backend" `
   --add-data "scripts;scripts" `
+  --add-data "pipeline\steps;pipeline\steps" `
   --add-data "request;request" `
-  app_launcher.py
+  app\app_launcher.py
 
 Write-Host "Build complete. EXE at dist\SLGMonitor.exe"

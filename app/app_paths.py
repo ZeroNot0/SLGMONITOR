@@ -7,7 +7,7 @@ from pathlib import Path
 def get_resource_root() -> Path:
     if hasattr(sys, "_MEIPASS"):
         return Path(getattr(sys, "_MEIPASS")).resolve()
-    return Path(__file__).resolve().parent
+    return Path(__file__).resolve().parent.parent
 
 
 def get_data_root() -> Path:

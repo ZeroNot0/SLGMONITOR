@@ -1,10 +1,16 @@
 import queue
 import threading
 import time
+import sys
+from pathlib import Path
 
 import webview
 
-from start_server import run_server
+ROOT_DIR = Path(__file__).resolve().parent.parent
+if str(ROOT_DIR) not in sys.path:
+    sys.path.insert(0, str(ROOT_DIR))
+
+from server.start_server import run_server
 
 
 def _start_server(port_queue):
