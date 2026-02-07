@@ -11,11 +11,25 @@
 """
 import json
 import argparse
+import os
 from pathlib import Path
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 MAPPING_XLSX = BASE_DIR / "mapping" / "产品归属.xlsx"
-DATA_DIR = Path(__file__).resolve().parent / "data"
+
+
+def _get_data_dir() -> Path:
+    appdata = os.environ.get("APPDATA")
+    if appdata:
+        return Path(appdata).expanduser().resolve() / "SLGMonitor" / "frontend" / "data"
+    try:
+        from app.app_paths import get_data_root
+        return get_data_root() / "frontend" / "data"
+    except Exception:
+        return Path(__file__).resolve().parent / "data"
+
+
+DATA_DIR = _get_data_dir()
 OUT_JSON = DATA_DIR / "product_theme_style_mapping.json"
 
 
@@ -91,7 +105,11 @@ def run() -> bool:
     out = {"byUnifiedId": by_unified_id, "byProductName": by_product_name}
     with open(OUT_JSON, "w", encoding="utf-8") as f:
         json.dump(out, f, ensure_ascii=False, indent=2)
-    print(f"  已生成题材/画风映射: {OUT_JSON.relative_to(BASE_DIR)}（byUnifiedId {len(by_unified_id)} 条, byProductName {len(by_product_name)} 条）")
+    try:
+        display_path = str(OUT_JSON.relative_to(BASE_DIR))
+    except Exception:
+        display_path = str(OUT_JSON)
+    print(f"  已生成题材/画风映射: {display_path}（byUnifiedId {len(by_unified_id)} 条, byProductName {len(by_product_name)} 条）")
     return True
 
 

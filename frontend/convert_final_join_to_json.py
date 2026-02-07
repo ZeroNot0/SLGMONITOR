@@ -7,11 +7,26 @@
 """
 import json
 import argparse
+import os
 from pathlib import Path
 
 import pandas as pd
 
 BASE_DIR = Path(__file__).resolve().parent.parent
+
+
+def _get_data_dir() -> Path:
+    appdata = os.environ.get("APPDATA")
+    if appdata:
+        return Path(appdata).expanduser().resolve() / "SLGMonitor" / "frontend" / "data"
+    try:
+        from app.app_paths import get_data_root
+        return get_data_root() / "frontend" / "data"
+    except Exception:
+        return Path(__file__).resolve().parent / "data"
+
+
+DATA_DIR = _get_data_dir()
 
 # 列名映射：xlsx 列名 -> 前端展示名（与产品维度页面一致）
 COLUMN_DISPLAY = {
@@ -120,7 +135,7 @@ def convert_target_to_json(target_path: Path, json_path: Path) -> bool:
 def run(year: int, week_tag: str) -> None:
     final_dir = BASE_DIR / "final_join" / str(year) / week_tag
     target_dir = BASE_DIR / "target" / str(year) / week_tag / "strategy_target"
-    out_dir = BASE_DIR / "frontend" / "data" / str(year) / week_tag
+    out_dir = DATA_DIR / str(year) / week_tag
     out_dir.mkdir(parents=True, exist_ok=True)
 
     for key, filename in [

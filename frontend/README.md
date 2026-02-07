@@ -61,7 +61,7 @@ python run_full_pipeline.py --year 2026 --week 0119-0125 --steps 5
 
 ```bash
 # 转换单个文件
-python frontend/convert_excel_with_format.py --year 2025 --week 1201-1207
+python server/start_server.py
 ```
 
 转换后的JSON文件保存在：`frontend/data/{year}/{week_tag}_formatted.json`
@@ -70,10 +70,10 @@ python frontend/convert_excel_with_format.py --year 2025 --week 1201-1207
 
 产品维度页数据来自 **final_join** 文件夹下的表，需先转为 JSON：
 
-```bash
+python pipeline/run_full_pipeline.py --year 2026 --week 0119-0125
 # 转换单个周期
 python frontend/convert_final_join_to_json.py --year 2025 --week 1201-1207
-```
+python pipeline/run_full_pipeline.py --year 2026 --week 0119-0125 --steps 5
 
 转换后生成：`frontend/data/{year}/{week_tag}/product_strategy_old.json`、`product_strategy_new.json`。前端「产品维度」切换「SLG爆量旧产品」/「SLG爆量新产品」时读取对应 JSON。
 
@@ -100,9 +100,6 @@ frontend/
 │       ├── product_strategy_new.json
 │       └── creative_products.json
 ├── convert_excel_with_format.py   # 从 output 表生成 data 下 formatted JSON
-├── convert_final_join_to_json.py  # 从 final_join 表生成 data/{年}/{周}/product_strategy_*.json
-├── build_creative_products_index.py  # 从 advertisements 生成 data/{年}/{周}/creative_products.json
-├── build_weeks_index.py    # 扫描 data 目录生成 weeks_index.json（新周自动出现在侧栏）
 └── README.md               # 本文件
 ```
 
@@ -132,4 +129,4 @@ frontend/
 
 - 确保 `output/` 目录下有对应的Excel文件
 - 建议使用Chrome或Firefox浏览器
-- 如果遇到CORS错误，使用 `start_server.py` 启动（已包含CORS支持）
+- 如果遇到CORS错误，使用 `server/start_server.py` 启动（已包含CORS支持）

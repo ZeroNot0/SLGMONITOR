@@ -257,7 +257,9 @@ def run(
     app_ids = [a.strip() for a in app_ids if a and a.strip()]
     ok, fail = 0, 0
     if workers <= 1:
-        for app_id in app_ids:
+        total = len(app_ids)
+        for idx, app_id in enumerate(app_ids, 1):
+            print(f"  🔹 拉取地区数据：{idx}/{total} app_id={app_id}")
             _, exc = _fetch_one(
                 app_id, token, start_date, end_date, os_platform,
                 date_granularity, countries, data_model,
@@ -273,6 +275,8 @@ def run(
                     raise exc
     else:
         print(f"  地区数据并发数: {workers}")
+        for idx, app_id in enumerate(app_ids, 1):
+            print(f"  🔹 拉取地区数据：{idx}/{len(app_ids)} app_id={app_id}")
         with ThreadPoolExecutor(max_workers=workers) as executor:
             futures = {
                 executor.submit(

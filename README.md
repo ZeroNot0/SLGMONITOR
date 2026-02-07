@@ -12,16 +12,16 @@
 
 ```bash
 # 默认执行步骤 1,2,5：数据监测表 + 目标产品 + 前端更新
-python run_full_pipeline.py --year 2026 --week 0119-0125
+python pipeline/run_full_pipeline.py --year 2026 --week 0119-0125
 
 # 或使用 --date（年-周）
-python run_full_pipeline.py --date 2026-0119-0125
+python pipeline/run_full_pipeline.py --date 2026-0119-0125
 ```
 
 ### 2. 启动前端服务
 
 ```bash
-python start_server.py
+python server/start_server.py
 ```
 
 浏览器访问：**http://localhost:8000/frontend/**
@@ -32,8 +32,9 @@ python start_server.py
 
 ```
 SLG Monitor 3.0/
-├── run_full_pipeline.py     # 完整流程入口（步骤 1,2,3,4,5）
-├── start_server.py          # 静态资源服务（frontend + data）
+├── app/                     # 桌面壳与路径管理
+├── pipeline/                # 完整流程入口（步骤 1,2,3,4,5）
+├── server/                  # 静态资源服务（frontend + data）
 ├── README.md                # 本文件
 ├── README_SCHEDULE.md       # 定期更新与 cron 说明
 │
@@ -52,7 +53,7 @@ SLG Monitor 3.0/
 │   ├── fetch_country_data.py
 │   └── fetch_ad_creatives.py
 ├── mapping/                # 映射表（产品归属、公司归属、流水系数、市场 T 度）
-├── scripts/                # 数据监测表与目标产品脚本
+├── pipeline/steps/          # 数据监测表与目标产品脚本
 │   ├── step1_merge_clean.py … step5_5_fix_arrow_color.py
 │   └── generate_target.py
 ├── frontend/                # 前端静态页与数据生成脚本
@@ -82,16 +83,16 @@ SLG Monitor 3.0/
 
 ```bash
 # 只做数据监测表 + 目标产品（不更新前端）
-python run_full_pipeline.py --year 2026 --week 0119-0125 --steps 1,2
+python pipeline/run_full_pipeline.py --year 2026 --week 0119-0125 --steps 1,2
 
 # 只更新前端（已有 output / final_join / advertisements 时）
-python run_full_pipeline.py --year 2026 --week 0119-0125 --steps 5
+python pipeline/run_full_pipeline.py --year 2026 --week 0119-0125 --steps 5
 
 # 查看帮助
-python run_full_pipeline.py --help
+python pipeline/run_full_pipeline.py --help
 ```
 
-**加入新一周数据时**：对新的 `--year` / `--week` 执行一次 `run_full_pipeline.py`（默认含步骤 5），前端侧栏会通过 `weeks_index.json` 自动出现该周。
+**加入新一周数据时**：对新的 `--year` / `--week` 执行一次 `pipeline/run_full_pipeline.py`（默认含步骤 5），前端侧栏会通过 `weeks_index.json` 自动出现该周。
 
 ---
 
@@ -101,6 +102,11 @@ python run_full_pipeline.py --help
 - **产品维度**：爆量产品地区数据（来自 `data/{年}/{周}/product_strategy_old.json`、`product_strategy_new.json`）。
 - **素材维度**：广告创意列表与视频（来自 `advertisements/` 与 `data/{年}/{周}/creative_products.json`）。
 - **组合分析**：每周趋势（静态图表）。
+- **数据底表**：产品/公司归属、各地区市场 T 度映射、题材/玩法/画风标签等底表展示，支持搜索、下载与更新。
+- **使用说明**：顶部导航进入，左侧文档目录，右侧渲染 Markdown。
+- **网络状态与提示**：左上角显示联网状态，境内提示 API 可能不稳定。
+- **产品详情**：新旧产品按上线时间（>= 2025-01-01 为新）区分，公司归属可点击跳转公司详情。
+- **API 管理**：超级管理员可管理 Token 与已使用请求数（用于拉取地区/创意数据时的提示）。
 
 左侧边栏按 **年 / 周** 选择周期，数据来自 `frontend/data/weeks_index.json`（由步骤 5 中的 `build_weeks_index.py` 生成）。
 
@@ -121,7 +127,7 @@ pip install pandas openpyxl
 
 ## 定期更新
 
-若需定时跑流程（如每周一更新），可使用 `schedule_update.py` 并配置 cron 或任务计划程序。详见 **README_SCHEDULE.md**。
+若需定时跑流程（如每周一更新），可使用 `pipeline/schedule_update.py` 并配置 cron 或任务计划程序。详见 **README_SCHEDULE.md**。
 
 ---
 

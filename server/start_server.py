@@ -108,6 +108,113 @@ def _excel_to_headers_rows(path: Path) -> tuple:
     return headers, rows
 
 
+def _normalize_headers(headers: list) -> list:
+    out = []
+    for h in headers or []:
+        if h is None:
+            out.append("")
+        else:
+            out.append(str(h).strip())
+    return out
+
+
+def _update_weeks_index_file(year: str, week: str) -> None:
+    try:
+        data = {}
+        if WEEKS_INDEX_PATH.is_file():
+            try:
+                data = json.loads(WEEKS_INDEX_PATH.read_text(encoding="utf-8")) or {}
+            except Exception:
+                data = {}
+        year = str(year)
+        weeks = list(data.get(year) or [])
+        if week not in weeks:
+            weeks.append(week)
+        weeks = sorted(set(weeks))
+        data[year] = weeks
+        WEEKS_INDEX_PATH.parent.mkdir(parents=True, exist_ok=True)
+        WEEKS_INDEX_PATH.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
+    except Exception:
+        pass
+
+
+def _default_monitor_rules() -> dict:
+    return {
+        "version": 1,
+        "delete_rules": [
+            {
+                "conditions": [
+                    {"metric": "当周周安装", "op": "<", "value": 400},
+                    {"metric": "上周周安装", "op": "<", "value": 400},
+                    {"metric": "当周周流水", "op": "<", "value": 20000},
+                    {"metric": "上周周流水", "op": "<", "value": 20000},
+                ]
+            }
+        ],
+        "strike_rules": [
+            {
+                "conditions": [
+                    {"metric": "当周周安装", "op": "<", "value": 400},
+                    {"metric": "上周周安装", "op": "<", "value": 400},
+                    {"metric": "当周周流水", "op": ">=", "value": 20000},
+                ]
+            },
+            {
+                "conditions": [
+                    {"metric": "当周周安装", "op": "<", "value": 400},
+                    {"metric": "上周周安装", "op": "<", "value": 400},
+                    {"metric": "上周周流水", "op": ">=", "value": 20000},
+                ]
+            },
+        ],
+        "yellow_rules": [
+            {
+                "conditions": [
+                    {"metric": "周安装变动", "op": ">=", "value": 20},
+                    {"metric": "当周周安装", "op": ">", "value": 1000},
+                ]
+            }
+        ],
+        "product_rules": {
+            "delete": [],
+            "strike": [],
+            "yellow": [],
+        },
+    }
+
+
+def _load_monitor_rules() -> dict:
+    if MONITOR_RULES_PATH.is_file():
+        try:
+            data = json.loads(MONITOR_RULES_PATH.read_text(encoding="utf-8"))
+            if isinstance(data, dict):
+                return data
+        except Exception:
+            pass
+    return _default_monitor_rules()
+
+
+def _save_monitor_rules(data: dict) -> None:
+    MONITOR_RULES_PATH.parent.mkdir(parents=True, exist_ok=True)
+    MONITOR_RULES_PATH.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
+
+
+def _list_weeks_from_index() -> list:
+    out = []
+    if WEEKS_INDEX_PATH.is_file():
+        try:
+            data = json.loads(WEEKS_INDEX_PATH.read_text(encoding="utf-8"))
+            for year, weeks in data.items():
+                if not re.match(r"^\d{4}$", str(year)):
+                    continue
+                for week in weeks or []:
+                    if re.match(r"^\d{4}-\d{4}$", str(week)):
+                        out.append((int(year), str(week)))
+        except Exception:
+            pass
+    return out
+
+
 DEFAULT_PORT = 8000
 RESOURCE_ROOT = get_resource_root()
 DATA_ROOT = get_data_root()
@@ -124,12 +231,16 @@ LABELS_DIR = DATA_ROOT / "labels"
 BASETABLE_SOURCES = {
     "product_mapping": MAPPING_DIR / "产品归属.xlsx",
     "company_mapping": MAPPING_DIR / "公司归属.xlsx",
+    "region_t_mapping": MAPPING_DIR / "各地区市场T度映射表.xlsx",
     "theme_label": LABELS_DIR / "题材标签表.xlsx",
     "gameplay_label": LABELS_DIR / "玩法标签表.xlsx",
     "art_style_label": LABELS_DIR / "画风标签表.xlsx",
 }
 THEME_STYLE_MAPPING_PATH = FRONTEND_DATA_DIR / "product_theme_style_mapping.json"
 INDEX_HTML_PATH = FRONTEND_DIR / "index.html"
+MONITOR_RULES_PATH = DATA_ROOT / "config" / "monitor_rules.json"
+API_USAGE_PATH = DATA_ROOT / "config" / "api_usage.json"
+API_TOKEN_PATH = DATA_ROOT / "request" / "token.txt"
 
 # 登录与权限：用户表路径、session 存储、Cookie 名
 AUTH_USERS_PATH = DATA_ROOT / "deploy" / "auth_users.json"
@@ -157,6 +268,54 @@ def _save_auth_users(users: list) -> bool:
         AUTH_USERS_PATH.write_text(
             json.dumps({"users": users}, ensure_ascii=False, indent=2), encoding="utf-8"
         )
+        return True
+    except Exception:
+        return False
+
+
+def _load_api_usage() -> dict:
+    if not API_USAGE_PATH.is_file():
+        return {"used": 0}
+    try:
+        data = json.loads(API_USAGE_PATH.read_text(encoding="utf-8"))
+        used = int(data.get("used") or 0)
+        return {"used": max(0, used)}
+    except Exception:
+        return {"used": 0}
+
+
+def _save_api_usage(used: int) -> bool:
+    try:
+        API_USAGE_PATH.parent.mkdir(parents=True, exist_ok=True)
+        API_USAGE_PATH.write_text(
+            json.dumps({"used": max(0, int(used))}, ensure_ascii=False, indent=2),
+            encoding="utf-8",
+        )
+        return True
+    except Exception:
+        return False
+
+
+def _increment_api_usage(delta: int) -> int:
+    current = _load_api_usage().get("used", 0)
+    new_val = max(0, int(current) + int(delta))
+    _save_api_usage(new_val)
+    return new_val
+
+
+def _read_api_token() -> str:
+    if not API_TOKEN_PATH.is_file():
+        return ""
+    try:
+        return API_TOKEN_PATH.read_text(encoding="utf-8").strip()
+    except Exception:
+        return ""
+
+
+def _write_api_token(token: str) -> bool:
+    try:
+        API_TOKEN_PATH.parent.mkdir(parents=True, exist_ok=True)
+        API_TOKEN_PATH.write_text(str(token or "").strip(), encoding="utf-8")
         return True
     except Exception:
         return False
@@ -373,22 +532,43 @@ class CORSRequestHandler(http.server.SimpleHTTPRequestHandler):
         year = (params.get("year") or [None])[0]
         week = (params.get("week") or [None])[0]
         if not year or not week:
-            self.send_error(400, "Missing year or week")
+            self.send_response(400)
+            self.send_header("Content-Type", "application/json; charset=utf-8")
+            self.send_header("Access-Control-Allow-Origin", "*")
+            self.end_headers()
+            self.wfile.write(json.dumps({"ok": False, "message": "Missing year or week"}, ensure_ascii=False).encode("utf-8"))
             return True
         year = str(year).strip()
         week = urllib.parse.unquote(str(week).strip())
         if not year.isdigit() or len(year) != 4:
-            self.send_error(400, "year must be 4 digits")
+            self.send_response(400)
+            self.send_header("Content-Type", "application/json; charset=utf-8")
+            self.send_header("Access-Control-Allow-Origin", "*")
+            self.end_headers()
+            self.wfile.write(json.dumps({"ok": False, "message": "year must be 4 digits"}, ensure_ascii=False).encode("utf-8"))
             return True
-        out_path = DATA_ROOT / "output" / year / ("%s_SLG数据监测表.xlsx" % week)
+        filename = "%s_SLG数据监测表.xlsx" % week
+        out_path = BASE_DIR / "output" / year / filename
         if not out_path.is_file():
-            self.send_error(404, "File not found: %s" % out_path.name)
+            alt_path = DATA_ROOT / "output" / year / filename
+            if alt_path.is_file():
+                out_path = alt_path
+        if not out_path.is_file():
+            self.send_response(404)
+            self.send_header("Content-Type", "application/json; charset=utf-8")
+            self.send_header("Access-Control-Allow-Origin", "*")
+            self.end_headers()
+            self.wfile.write(json.dumps({"ok": False, "message": "File not found"}, ensure_ascii=False).encode("utf-8"))
             return True
         try:
             with open(out_path, "rb") as f:
                 data = f.read()
         except Exception as e:
-            self.send_error(500, str(e)[:80])
+            self.send_response(500)
+            self.send_header("Content-Type", "application/json; charset=utf-8")
+            self.send_header("Access-Control-Allow-Origin", "*")
+            self.end_headers()
+            self.wfile.write(json.dumps({"ok": False, "message": str(e)[:80]}, ensure_ascii=False).encode("utf-8"))
             return True
         # 文件名含中文，HTTP 头仅支持 latin-1，用 RFC 5987 filename*=UTF-8'' 编码
         filename_utf8 = ("%s_SLG数据监测表.xlsx" % week).encode("utf-8")
@@ -587,7 +767,7 @@ class CORSRequestHandler(http.server.SimpleHTTPRequestHandler):
         return True
 
     def _handle_basetable(self):
-        """GET /api/basetable?name=product_mapping|company_mapping|theme_label|gameplay_label|art_style_label：返回底表 JSON {headers, rows}。"""
+        """GET /api/basetable?name=product_mapping|company_mapping|region_t_mapping|theme_label|gameplay_label|art_style_label：返回底表 JSON {headers, rows}。"""
         raw = self.path or ""
         if not raw.startswith("/api/basetable"):
             return False
@@ -765,6 +945,51 @@ class CORSRequestHandler(http.server.SimpleHTTPRequestHandler):
         self.end_headers()
         self.wfile.write(json.dumps({"ok": True, "affected": out.get("affected", 0)}, ensure_ascii=False).encode("utf-8"))
         return True
+
+    def _handle_api_management(self):
+        """GET/POST /api/api_management：读取或保存 API Token 与已使用次数。仅超级管理员。"""
+        raw = (self.path or "").split("?")[0].rstrip("/")
+        if raw != "/api/api_management":
+            return False
+        if not self._require_super_admin():
+            return True
+        if self.command == "GET":
+            data = _load_api_usage()
+            token = _read_api_token()
+            self.send_response(200)
+            self.send_header("Content-Type", "application/json; charset=utf-8")
+            self.send_header("Access-Control-Allow-Origin", "*")
+            self.end_headers()
+            self.wfile.write(json.dumps({"ok": True, "token": token, "used": data.get("used", 0)}, ensure_ascii=False).encode("utf-8"))
+            return True
+        if self.command == "POST":
+            length = int(self.headers.get("Content-Length", 0) or 0)
+            if length <= 0:
+                self.send_error(400, "Missing Content-Length")
+                return True
+            try:
+                body = self.rfile.read(length)
+                payload = json.loads(body.decode("utf-8")) if body else {}
+            except Exception:
+                self.send_error(400, "Invalid JSON")
+                return True
+            token = payload.get("token")
+            used = payload.get("used")
+            if token is not None:
+                _write_api_token(str(token))
+            if used is not None:
+                try:
+                    _save_api_usage(int(used))
+                except Exception:
+                    _save_api_usage(0)
+            data = _load_api_usage()
+            self.send_response(200)
+            self.send_header("Content-Type", "application/json; charset=utf-8")
+            self.send_header("Access-Control-Allow-Origin", "*")
+            self.end_headers()
+            self.wfile.write(json.dumps({"ok": True, "token": _read_api_token(), "used": data.get("used", 0)}, ensure_ascii=False).encode("utf-8"))
+            return True
+        return False
 
     def _handle_api_data(self):
         """GET /api/data/*：从 MySQL 读数据并返回 JSON；未启用 MySQL 或失败时返回 False 走原有逻辑。"""
@@ -1317,6 +1542,21 @@ class CORSRequestHandler(http.server.SimpleHTTPRequestHandler):
         self.wfile.write(json.dumps({"ok": True, "users": pending}, ensure_ascii=False).encode("utf-8"))
         return True
 
+    def _handle_monitor_rules_get(self):
+        """GET /api/monitor_rules：返回数据监测表规则。"""
+        path = (self.path or "").split("?")[0].rstrip("/")
+        if path != "/api/monitor_rules":
+            return False
+        if not self._require_super_admin():
+            return True
+        rules = _load_monitor_rules()
+        self.send_response(200)
+        self.send_header("Content-Type", "application/json; charset=utf-8")
+        self.send_header("Access-Control-Allow-Origin", "*")
+        self.end_headers()
+        self.wfile.write(json.dumps({"ok": True, "rules": rules}, ensure_ascii=False).encode("utf-8"))
+        return True
+
     def _handle_auth_approve(self):
         """POST /api/auth/approve：超级管理员审批，Body JSON {username}，将用户 status 设为 approved。"""
         path = (self.path or "").split("?")[0].rstrip("/")
@@ -1379,6 +1619,135 @@ class CORSRequestHandler(http.server.SimpleHTTPRequestHandler):
             self.wfile.write(json.dumps({"ok": False, "message": str(e)}, ensure_ascii=False).encode("utf-8"))
             return True
 
+    def _handle_auth_promote(self):
+        """POST /api/auth/promote：超级管理员将用户升级为 super_admin。Body JSON {username}。"""
+        path = (self.path or "").split("?")[0].rstrip("/")
+        if path != "/api/auth/promote":
+            return False
+        if not self._require_super_admin():
+            return True
+        try:
+            length = int(self.headers.get("Content-Length", 0) or 0)
+            if length <= 0:
+                self.send_response(400)
+                self.send_header("Content-Type", "application/json; charset=utf-8")
+                self.send_header("Access-Control-Allow-Origin", "*")
+                self.end_headers()
+                self.wfile.write(json.dumps({"ok": False, "message": "缺少请求体"}, ensure_ascii=False).encode("utf-8"))
+                return True
+            body = self.rfile.read(length)
+            data = json.loads(body.decode("utf-8"))
+            username = (data.get("username") or "").strip()
+            if not username:
+                self.send_response(200)
+                self.send_header("Content-Type", "application/json; charset=utf-8")
+                self.send_header("Access-Control-Allow-Origin", "*")
+                self.end_headers()
+                self.wfile.write(json.dumps({"ok": False, "message": "请指定用户名"}, ensure_ascii=False).encode("utf-8"))
+                return True
+            users = _load_auth_users()
+            found = False
+            for u in users:
+                if (u.get("username") or "").strip() == username:
+                    u["role"] = "super_admin"
+                    u["status"] = "approved"
+                    found = True
+                    break
+            if not found:
+                self.send_response(200)
+                self.send_header("Content-Type", "application/json; charset=utf-8")
+                self.send_header("Access-Control-Allow-Origin", "*")
+                self.end_headers()
+                self.wfile.write(json.dumps({"ok": False, "message": "用户不存在"}, ensure_ascii=False).encode("utf-8"))
+                return True
+            if not _save_auth_users(users):
+                self.send_response(500)
+                self.send_header("Content-Type", "application/json; charset=utf-8")
+                self.send_header("Access-Control-Allow-Origin", "*")
+                self.end_headers()
+                self.wfile.write(json.dumps({"ok": False, "message": "写入失败"}, ensure_ascii=False).encode("utf-8"))
+                return True
+            self.send_response(200)
+            self.send_header("Content-Type", "application/json; charset=utf-8")
+            self.send_header("Access-Control-Allow-Origin", "*")
+            self.end_headers()
+            self.wfile.write(json.dumps({"ok": True, "message": "已升级为超级管理员"}, ensure_ascii=False).encode("utf-8"))
+            return True
+        except Exception as e:
+            self.log_message("auth/promote error: %s", e)
+            self.send_response(500)
+            self.send_header("Content-Type", "application/json; charset=utf-8")
+            self.send_header("Access-Control-Allow-Origin", "*")
+            self.end_headers()
+            self.wfile.write(json.dumps({"ok": False, "message": str(e)}, ensure_ascii=False).encode("utf-8"))
+            return True
+
+    def _handle_auth_delete(self):
+        """POST /api/auth/delete：超级管理员删除用户。Body JSON {username}。"""
+        path = (self.path or "").split("?")[0].rstrip("/")
+        if path != "/api/auth/delete":
+            return False
+        if not self._require_super_admin():
+            return True
+        try:
+            length = int(self.headers.get("Content-Length", 0) or 0)
+            if length <= 0:
+                self.send_response(400)
+                self.send_header("Content-Type", "application/json; charset=utf-8")
+                self.send_header("Access-Control-Allow-Origin", "*")
+                self.end_headers()
+                self.wfile.write(json.dumps({"ok": False, "message": "缺少请求体"}, ensure_ascii=False).encode("utf-8"))
+                return True
+            body = self.rfile.read(length)
+            data = json.loads(body.decode("utf-8"))
+            username = (data.get("username") or "").strip()
+            if not username:
+                self.send_response(200)
+                self.send_header("Content-Type", "application/json; charset=utf-8")
+                self.send_header("Access-Control-Allow-Origin", "*")
+                self.end_headers()
+                self.wfile.write(json.dumps({"ok": False, "message": "请指定用户名"}, ensure_ascii=False).encode("utf-8"))
+                return True
+            info = self._get_session_info() or {}
+            if (info.get("username") or "").strip() == username:
+                self.send_response(200)
+                self.send_header("Content-Type", "application/json; charset=utf-8")
+                self.send_header("Access-Control-Allow-Origin", "*")
+                self.end_headers()
+                self.wfile.write(json.dumps({"ok": False, "message": "不能删除当前登录用户"}, ensure_ascii=False).encode("utf-8"))
+                return True
+            users = _load_auth_users()
+            before = len(users)
+            users = [u for u in users if (u.get("username") or "").strip() != username]
+            if len(users) == before:
+                self.send_response(200)
+                self.send_header("Content-Type", "application/json; charset=utf-8")
+                self.send_header("Access-Control-Allow-Origin", "*")
+                self.end_headers()
+                self.wfile.write(json.dumps({"ok": False, "message": "用户不存在"}, ensure_ascii=False).encode("utf-8"))
+                return True
+            if not _save_auth_users(users):
+                self.send_response(500)
+                self.send_header("Content-Type", "application/json; charset=utf-8")
+                self.send_header("Access-Control-Allow-Origin", "*")
+                self.end_headers()
+                self.wfile.write(json.dumps({"ok": False, "message": "写入失败"}, ensure_ascii=False).encode("utf-8"))
+                return True
+            self.send_response(200)
+            self.send_header("Content-Type", "application/json; charset=utf-8")
+            self.send_header("Access-Control-Allow-Origin", "*")
+            self.end_headers()
+            self.wfile.write(json.dumps({"ok": True, "message": "已删除用户"}, ensure_ascii=False).encode("utf-8"))
+            return True
+        except Exception as e:
+            self.log_message("auth/delete error: %s", e)
+            self.send_response(500)
+            self.send_header("Content-Type", "application/json; charset=utf-8")
+            self.send_header("Access-Control-Allow-Origin", "*")
+            self.end_headers()
+            self.wfile.write(json.dumps({"ok": False, "message": str(e)}, ensure_ascii=False).encode("utf-8"))
+            return True
+
     def do_GET(self):
         self._send_no_content = False
         self._allow_cache = False  # 默认不缓存，接口与 HTML 保持实时
@@ -1395,6 +1764,8 @@ class CORSRequestHandler(http.server.SimpleHTTPRequestHandler):
             return
         if self._handle_auth_pending_users():
             return
+        if self._handle_monitor_rules_get():
+            return
         if self._handle_video_proxy():
             return
         if self._handle_maintenance_download():
@@ -1410,6 +1781,8 @@ class CORSRequestHandler(http.server.SimpleHTTPRequestHandler):
         if self._handle_basetable():
             return
         if self._handle_advanced_query():
+            return
+        if self._handle_api_management():
             return
         if self._serve_frontend_index_with_weeks():
             return
@@ -1441,7 +1814,7 @@ class CORSRequestHandler(http.server.SimpleHTTPRequestHandler):
     def do_OPTIONS(self):
         """CORS 预检：允许对 maintenance、auth 接口的 POST，避免浏览器报 Method Not Allowed。"""
         path = (self.path or "").split("?")[0].rstrip("/")
-        if path in ("/api/maintenance/phase1", "/api/maintenance/phase1_table_only", "/api/maintenance/refresh_weeks_index", "/api/maintenance/phase2_1", "/api/maintenance/phase2_2", "/api/maintenance/mapping_update", "/api/maintenance/newproducts_update", "/api/maintenance/add_to_product_mapping", "/api/auth/login", "/api/auth/logout", "/api/auth/register", "/api/auth/approve", "/api/advanced_query/execute"):
+        if path in ("/api/maintenance/phase1", "/api/maintenance/phase1_table_only", "/api/maintenance/refresh_weeks_index", "/api/maintenance/rebuild_monitor_table", "/api/maintenance/phase2_1", "/api/maintenance/phase2_2", "/api/maintenance/mapping_update", "/api/maintenance/newproducts_update", "/api/maintenance/add_to_product_mapping", "/api/auth/login", "/api/auth/logout", "/api/auth/register", "/api/auth/approve", "/api/auth/promote", "/api/auth/delete", "/api/monitor_rules", "/api/advanced_query/execute", "/api/api_management"):
             self.send_response(200)
             self.send_header("Access-Control-Allow-Origin", "*")
             self.send_header("Access-Control-Allow-Methods", "POST, OPTIONS")
@@ -1515,7 +1888,7 @@ class CORSRequestHandler(http.server.SimpleHTTPRequestHandler):
                     "message": "上传文件数不足 13 个，当前仅 %d 个，无法处理。请补全后重试。" % saved
                 }, ensure_ascii=False).encode("utf-8"))
                 return True
-            from run_full_pipeline import ensure_raw_csv_for_step1, run_phase1, run_phase3
+            from pipeline.run_full_pipeline import ensure_raw_csv_for_step1, run_phase1, run_phase3
             ensure_raw_csv_for_step1(year, week_val)
             if not run_phase1(week_val, year):
                 self.send_response(200)
@@ -1559,7 +1932,7 @@ class CORSRequestHandler(http.server.SimpleHTTPRequestHandler):
             metrics_xlsx = DATA_ROOT / "intermediate" / str(year) / week_val / "metrics_total.xlsx"
             if metrics_xlsx.is_file():
                 try:
-                    from run_full_pipeline import run_frontend_script
+                    from pipeline.run_full_pipeline import run_frontend_script
                     run_frontend_script("convert_metrics_to_json.py", year=year, week_tag=week_val)
                 except Exception:
                     pass
@@ -1696,7 +2069,7 @@ class CORSRequestHandler(http.server.SimpleHTTPRequestHandler):
                 self.send_error(400, "week_tag must be like 0119-0125")
                 return True
             year = int(year_val)
-            from run_full_pipeline import run_phase3
+            from pipeline.run_full_pipeline import run_phase3
             step5_ok = run_phase3(week_val, year)
             refreshed_index = False
             try:
@@ -1746,6 +2119,118 @@ class CORSRequestHandler(http.server.SimpleHTTPRequestHandler):
                 pass
             return True
 
+    def _handle_monitor_rules_post(self):
+        """POST /api/monitor_rules：保存数据监测表规则。Body JSON: { rules }。"""
+        path = (self.path or "").split("?")[0].rstrip("/")
+        if path != "/api/monitor_rules":
+            return False
+        if not self._require_super_admin():
+            return True
+        try:
+            length = int(self.headers.get("Content-Length", 0) or 0)
+            if length <= 0:
+                self.send_error(400, "Missing Content-Length")
+                return True
+            body = self.rfile.read(length)
+            data = json.loads(body.decode("utf-8"))
+            rules = data.get("rules") if isinstance(data, dict) else None
+            if not isinstance(rules, dict):
+                self.send_error(400, "rules must be object")
+                return True
+            _save_monitor_rules(rules)
+            self.send_response(200)
+            self.send_header("Content-Type", "application/json; charset=utf-8")
+            self.send_header("Access-Control-Allow-Origin", "*")
+            self.end_headers()
+            self.wfile.write(json.dumps({"ok": True, "message": "规则已保存"}, ensure_ascii=False).encode("utf-8"))
+            return True
+        except Exception as e:
+            self.log_message("monitor_rules post error: %s", e)
+            self.send_response(500)
+            self.send_header("Content-Type", "application/json; charset=utf-8")
+            self.send_header("Access-Control-Allow-Origin", "*")
+            self.end_headers()
+            self.wfile.write(json.dumps({"ok": False, "message": str(e)}, ensure_ascii=False).encode("utf-8"))
+            return True
+
+    def _handle_maintenance_rebuild_monitor_table(self):
+        """POST /api/maintenance/rebuild_monitor_table：按规则重建数据监测表。Body JSON: { year, week_tag, scope, rules }。"""
+        path = (self.path or "").split("?")[0].rstrip("/")
+        if path != "/api/maintenance/rebuild_monitor_table":
+            return False
+        if not self._require_super_admin():
+            return True
+        try:
+            length = int(self.headers.get("Content-Length", 0) or 0)
+            if length <= 0:
+                self.send_error(400, "Missing Content-Length")
+                return True
+            body = self.rfile.read(length)
+            data = json.loads(body.decode("utf-8"))
+            year_val = str((data or {}).get("year") or "").strip()
+            week_val = str((data or {}).get("week_tag") or "").strip()
+            scope = str((data or {}).get("scope") or "current").strip().lower()
+            rules = (data or {}).get("rules")
+            if not year_val.isdigit() or len(year_val) != 4:
+                self.send_error(400, "year must be 4 digits")
+                return True
+            if not re.match(r"^\d{4}-\d{4}$", week_val):
+                self.send_error(400, "week_tag must be like 0119-0125")
+                return True
+            if isinstance(rules, dict):
+                _save_monitor_rules(rules)
+            weeks = []
+            if scope == "all":
+                weeks = _list_weeks_from_index()
+            if not weeks:
+                weeks = [(int(year_val), week_val)]
+
+            sys.path.insert(0, str(RESOURCE_ROOT))
+            from pipeline.run_full_pipeline import run_frontend_script
+            from pipeline.steps.step4_pivot import run_step4
+            from pipeline.steps.step5_final_report import run_step5
+            from pipeline.steps.step5_5_fix_arrow_color import run_step5_5
+
+            rebuilt = []
+            skipped = []
+            failed = []
+            for y, w in weeks:
+                metrics_path = BASE_DIR / "intermediate" / str(y) / w / "metrics_total.xlsx"
+                if not metrics_path.is_file():
+                    skipped.append(f"{y}-{w}")
+                    continue
+                try:
+                    run_step4(w, y)
+                    run_step5(w, y)
+                    run_step5_5(w, y)
+                    run_frontend_script("convert_excel_with_format.py", year=y, week_tag=w)
+                    rebuilt.append(f"{y}-{w}")
+                except Exception as e:
+                    failed.append(f"{y}-{w}: {e}")
+            try:
+                run_frontend_script("build_weeks_index.py")
+            except Exception:
+                pass
+            self.send_response(200)
+            self.send_header("Content-Type", "application/json; charset=utf-8")
+            self.send_header("Access-Control-Allow-Origin", "*")
+            self.end_headers()
+            self.wfile.write(json.dumps({
+                "ok": len(failed) == 0,
+                "rebuilt": rebuilt,
+                "skipped": skipped,
+                "failed": failed,
+            }, ensure_ascii=False).encode("utf-8"))
+            return True
+        except Exception as e:
+            self.log_message("maintenance/rebuild_monitor_table error: %s", e)
+            self.send_response(500)
+            self.send_header("Content-Type", "application/json; charset=utf-8")
+            self.send_header("Access-Control-Allow-Origin", "*")
+            self.end_headers()
+            self.wfile.write(json.dumps({"ok": False, "message": str(e)}, ensure_ascii=False).encode("utf-8"))
+            return True
+
     def _handle_maintenance_phase2_1(self):
         """POST /api/maintenance/phase2_1：流水线 2.1 步，拉取目标产品分地区数据。Body JSON: year, week_tag, target, product_type, limit。"""
         self.log_message("maintenance/phase2_1 开始执行（将调用 ST 地区数据 API）")
@@ -1764,7 +2249,8 @@ class CORSRequestHandler(http.server.SimpleHTTPRequestHandler):
             week_val = data.get("week_tag")
             target = (data.get("target") or "strategy").strip().lower()
             product_type = (data.get("product_type") or "both").strip().lower()
-            limit = (data.get("limit") or "all").strip().lower()
+            limit_raw = str(data.get("limit") or "all").strip()
+            limit = limit_raw.lower()
             if year_val is None and week_val is None:
                 self.send_error(400, "Missing year or week_tag")
                 return True
@@ -1780,11 +2266,13 @@ class CORSRequestHandler(http.server.SimpleHTTPRequestHandler):
                 target = "strategy"
             if product_type not in ("old", "new", "both"):
                 product_type = "both"
-            if limit not in ("top1", "top5", "top10", "top20", "all"):
+            if not limit.isdigit() and limit not in ("top1", "top5", "top10", "top20", "all"):
                 limit = "all"
+            if limit.isdigit():
+                limit = limit_raw
             year = int(year_val)
             unified_id = (data.get("unified_id") or "").strip() or None
-            from run_full_pipeline import run_phase2, run_phase3, classify_single_product_to_target
+            from pipeline.run_full_pipeline import run_phase2, run_phase3, classify_single_product_to_target, get_app_ids_from_strategy_file
             if not run_phase2(
                 week_val, year,
                 fetch_country=True,
@@ -1809,6 +2297,18 @@ class CORSRequestHandler(http.server.SimpleHTTPRequestHandler):
                 self.end_headers()
                 self.wfile.write(json.dumps({"ok": False, "message": "前端更新执行失败"}, ensure_ascii=False).encode("utf-8"))
                 return True
+            api_calls = 0
+            if unified_id:
+                api_calls = 1
+            elif target != "strategy":
+                api_calls = 0
+            else:
+                if product_type in ("old", "both"):
+                    api_calls += len(get_app_ids_from_strategy_file(year, week_val, "target_strategy_old.xlsx", limit=limit))
+                if product_type in ("new", "both"):
+                    api_calls += len(get_app_ids_from_strategy_file(year, week_val, "target_strategy_new.xlsx", limit=limit))
+            if api_calls > 0:
+                _increment_api_usage(api_calls)
             synced_mysql = False
             try:
                 from backend.db.config import use_mysql
@@ -1867,7 +2367,8 @@ class CORSRequestHandler(http.server.SimpleHTTPRequestHandler):
             week_val = data.get("week_tag")
             target = (data.get("target") or "strategy").strip().lower()
             product_type = (data.get("product_type") or "both").strip().lower()
-            limit = (data.get("limit") or "all").strip().lower()
+            limit_raw = str(data.get("limit") or "all").strip()
+            limit = limit_raw.lower()
             if year_val is None and week_val is None:
                 self.send_error(400, "Missing year or week_tag")
                 return True
@@ -1883,11 +2384,13 @@ class CORSRequestHandler(http.server.SimpleHTTPRequestHandler):
                 target = "strategy"
             if product_type not in ("old", "new", "both"):
                 product_type = "both"
-            if limit not in ("top1", "top5", "top10", "top20", "all"):
+            if not limit.isdigit() and limit not in ("top1", "top5", "top10", "top20", "all"):
                 limit = "all"
+            if limit.isdigit():
+                limit = limit_raw
             year = int(year_val)
             unified_id = (data.get("unified_id") or "").strip() or None
-            from run_full_pipeline import run_phase2, run_phase3, classify_single_product_to_target
+            from pipeline.run_full_pipeline import run_phase2, run_phase3, classify_single_product_to_target, get_target_products_with_limit
             if not run_phase2(
                 week_val, year,
                 fetch_country=False,
@@ -1912,6 +2415,14 @@ class CORSRequestHandler(http.server.SimpleHTTPRequestHandler):
                 self.end_headers()
                 self.wfile.write(json.dumps({"ok": False, "message": "前端更新执行失败"}, ensure_ascii=False).encode("utf-8"))
                 return True
+            api_calls = 0
+            if unified_id:
+                api_calls = 4
+            else:
+                _, app_list = get_target_products_with_limit(year, week_val, limit, target_source=target, product_type=product_type)
+                api_calls = len(app_list) * 4
+            if api_calls > 0:
+                _increment_api_usage(api_calls)
             synced_mysql = False
             try:
                 from backend.db.config import use_mysql
@@ -1997,7 +2508,7 @@ class CORSRequestHandler(http.server.SimpleHTTPRequestHandler):
                 ok, msg = run_mapping_update(Path(tmp_path))
                 if ok:
                     try:
-                        from run_full_pipeline import run_frontend_script
+                        from pipeline.run_full_pipeline import run_frontend_script
                         run_frontend_script("convert_product_mapping_to_json.py")
                     except Exception:
                         pass
@@ -2085,7 +2596,7 @@ class CORSRequestHandler(http.server.SimpleHTTPRequestHandler):
             ok, msg = True, "新产品监测表已保存，正在生成上线新游 JSON…"
             try:
                 sys.path.insert(0, str(RESOURCE_ROOT))
-                from run_full_pipeline import run_frontend_script
+                from pipeline.run_full_pipeline import run_frontend_script
                 if run_frontend_script("convert_newproducts_to_json.py"):
                     msg = "新产品监测表已更新，【产品维度】-【上线新游】将展示最新数据。"
                     try:
@@ -2117,6 +2628,222 @@ class CORSRequestHandler(http.server.SimpleHTTPRequestHandler):
             return True
         except Exception as e:
             self.log_message("maintenance/newproducts_update error: %s", e)
+            try:
+                self.send_response(500)
+                self.send_header("Content-Type", "application/json; charset=utf-8")
+                self.send_header("Access-Control-Allow-Origin", "*")
+                self.end_headers()
+                self.wfile.write(json.dumps({"ok": False, "message": str(e)}, ensure_ascii=False).encode("utf-8"))
+            except Exception:
+                pass
+            return True
+
+    def _handle_basetable_upload(self):
+        """POST /api/basetable/upload：上传并替换数据底表（xlsx），列名需与原表一致。"""
+        try:
+            ctype = self.headers.get("Content-Type", "")
+            if not ctype.startswith("multipart/form-data"):
+                self.send_error(400, "Content-Type must be multipart/form-data")
+                return True
+            length = int(self.headers.get("Content-Length", 0) or 0)
+            if length <= 0:
+                self.send_error(400, "Missing Content-Length")
+                return True
+            body = self.rfile.read(length)
+            fields, files_list = _parse_multipart_form_data(body, ctype)
+            name = (fields.get("name") or "").strip()
+            year = (fields.get("year") or "").strip()
+            week = (fields.get("week") or "").strip()
+            if not files_list:
+                self.send_response(200)
+                self.send_header("Content-Type", "application/json; charset=utf-8")
+                self.send_header("Access-Control-Allow-Origin", "*")
+                self.end_headers()
+                self.wfile.write(json.dumps({"ok": False, "message": "请选择并上传一个 Excel 文件（.xlsx）"}, ensure_ascii=False).encode("utf-8"))
+                return True
+            filename, content = files_list[0]
+            if not content or not (filename or "").lower().endswith(".xlsx"):
+                self.send_response(200)
+                self.send_header("Content-Type", "application/json; charset=utf-8")
+                self.send_header("Access-Control-Allow-Origin", "*")
+                self.end_headers()
+                self.wfile.write(json.dumps({"ok": False, "message": "请上传 .xlsx 格式的 Excel 文件"}, ensure_ascii=False).encode("utf-8"))
+                return True
+            allowed = set(BASETABLE_SOURCES.keys()) | {"metrics_total", "new_products"}
+            if name not in allowed:
+                self.send_response(200)
+                self.send_header("Content-Type", "application/json; charset=utf-8")
+                self.send_header("Access-Control-Allow-Origin", "*")
+                self.end_headers()
+                self.wfile.write(json.dumps({"ok": False, "message": "未知的底表类型"}, ensure_ascii=False).encode("utf-8"))
+                return True
+
+            import tempfile
+            with tempfile.NamedTemporaryFile(suffix=".xlsx", delete=False) as tmp:
+                tmp.write(content)
+                tmp_path = Path(tmp.name)
+            try:
+                up_headers, _ = _excel_to_headers_rows(tmp_path)
+                up_headers = _normalize_headers(up_headers)
+
+                if name == "metrics_total":
+                    if not year or not week:
+                        self.send_response(200)
+                        self.send_header("Content-Type", "application/json; charset=utf-8")
+                        self.send_header("Access-Control-Allow-Origin", "*")
+                        self.end_headers()
+                        self.wfile.write(json.dumps({"ok": False, "message": "缺少 year 或 week"}, ensure_ascii=False).encode("utf-8"))
+                        return True
+                    if not year.isdigit() or len(year) != 4 or not re.match(r"^\d{4}-\d{4}$", week):
+                        self.send_response(200)
+                        self.send_header("Content-Type", "application/json; charset=utf-8")
+                        self.send_header("Access-Control-Allow-Origin", "*")
+                        self.end_headers()
+                        self.wfile.write(json.dumps({"ok": False, "message": "year 或 week 格式不正确"}, ensure_ascii=False).encode("utf-8"))
+                        return True
+                    existing_json = FRONTEND_DATA_DIR / str(year) / week / "metrics_total.json"
+                    if existing_json.is_file():
+                        try:
+                            existing = json.loads(existing_json.read_text(encoding="utf-8"))
+                            ex_headers = _normalize_headers(existing.get("headers") or [])
+                            if ex_headers and ex_headers != up_headers:
+                                self.send_response(200)
+                                self.send_header("Content-Type", "application/json; charset=utf-8")
+                                self.send_header("Access-Control-Allow-Origin", "*")
+                                self.end_headers()
+                                self.wfile.write(json.dumps({"ok": False, "message": "列名不一致，无法更新"}, ensure_ascii=False).encode("utf-8"))
+                                return True
+                        except Exception:
+                            pass
+                    out_dir = DATA_ROOT / "intermediate" / str(year) / week
+                    out_dir.mkdir(parents=True, exist_ok=True)
+                    out_path = out_dir / "metrics_total.xlsx"
+                    out_path.write_bytes(content)
+                    try:
+                        from pipeline.run_full_pipeline import run_frontend_script
+                        ok = run_frontend_script("convert_metrics_to_json.py", year=int(year), week_tag=week)
+                    except Exception:
+                        ok = False
+                    if not ok:
+                        self.send_response(200)
+                        self.send_header("Content-Type", "application/json; charset=utf-8")
+                        self.send_header("Access-Control-Allow-Origin", "*")
+                        self.end_headers()
+                        self.wfile.write(json.dumps({"ok": False, "message": "已保存，但生成 metrics_total.json 失败"}, ensure_ascii=False).encode("utf-8"))
+                        return True
+                    _update_weeks_index_file(year, week)
+                    self.send_response(200)
+                    self.send_header("Content-Type", "application/json; charset=utf-8")
+                    self.send_header("Access-Control-Allow-Origin", "*")
+                    self.end_headers()
+                    self.wfile.write(json.dumps({"ok": True, "message": "产品总表已更新"}, ensure_ascii=False).encode("utf-8"))
+                    return True
+
+                if name == "new_products":
+                    existing_json = FRONTEND_DATA_DIR / "new_products.json"
+                    if existing_json.is_file():
+                        try:
+                            existing = json.loads(existing_json.read_text(encoding="utf-8"))
+                            ex_headers = _normalize_headers(existing.get("headers") or [])
+                            if ex_headers and ex_headers != up_headers:
+                                self.send_response(200)
+                                self.send_header("Content-Type", "application/json; charset=utf-8")
+                                self.send_header("Access-Control-Allow-Origin", "*")
+                                self.end_headers()
+                                self.wfile.write(json.dumps({"ok": False, "message": "列名不一致，无法更新"}, ensure_ascii=False).encode("utf-8"))
+                                return True
+                        except Exception:
+                            pass
+                    newproducts_dir = DATA_ROOT / "newproducts"
+                    newproducts_dir.mkdir(parents=True, exist_ok=True)
+                    out_path = newproducts_dir / "新产品监测表.xlsx"
+                    out_path.write_bytes(content)
+                    ok, msg = True, "新产品监测表已保存，正在生成 JSON…"
+                    try:
+                        from pipeline.run_full_pipeline import run_frontend_script
+                        if run_frontend_script("convert_newproducts_to_json.py"):
+                            msg = "新产品监测表已更新"
+                            try:
+                                from backend.db.config import use_mysql
+                                from backend.db.connection import get_connection
+                                from backend.db.sync_maintenance import sync_new_products_from_file
+                            except ImportError:
+                                pass
+                            else:
+                                if use_mysql():
+                                    conn = get_connection()
+                                    if conn:
+                                        try:
+                                            if sync_new_products_from_file(conn, DATA_ROOT):
+                                                msg = msg + "，已同步到 MySQL。"
+                                        finally:
+                                            conn.close()
+                        else:
+                            ok = False
+                            msg = "已保存，但生成 new_products.json 失败"
+                    except Exception as e:
+                        ok = False
+                        msg = "已保存，但生成 JSON 出错: %s" % e
+                    self.send_response(200)
+                    self.send_header("Content-Type", "application/json; charset=utf-8")
+                    self.send_header("Access-Control-Allow-Origin", "*")
+                    self.end_headers()
+                    self.wfile.write(json.dumps({"ok": ok, "message": msg}, ensure_ascii=False).encode("utf-8"))
+                    return True
+
+                target_path = BASETABLE_SOURCES.get(name)
+                if not target_path:
+                    self.send_response(200)
+                    self.send_header("Content-Type", "application/json; charset=utf-8")
+                    self.send_header("Access-Control-Allow-Origin", "*")
+                    self.end_headers()
+                    self.wfile.write(json.dumps({"ok": False, "message": "未找到底表路径"}, ensure_ascii=False).encode("utf-8"))
+                    return True
+                if target_path.is_file():
+                    ex_headers, _ = _excel_to_headers_rows(target_path)
+                    ex_headers = _normalize_headers(ex_headers)
+                    if ex_headers and ex_headers != up_headers:
+                        self.send_response(200)
+                        self.send_header("Content-Type", "application/json; charset=utf-8")
+                        self.send_header("Access-Control-Allow-Origin", "*")
+                        self.end_headers()
+                        self.wfile.write(json.dumps({"ok": False, "message": "列名不一致，无法更新"}, ensure_ascii=False).encode("utf-8"))
+                        return True
+                target_path.parent.mkdir(parents=True, exist_ok=True)
+                target_path.write_bytes(content)
+                if name == "product_mapping":
+                    try:
+                        from pipeline.run_full_pipeline import run_frontend_script
+                        run_frontend_script("convert_product_mapping_to_json.py")
+                    except Exception:
+                        pass
+                try:
+                    from backend.db.config import use_mysql
+                    from backend.db.connection import get_connection
+                    from backend.db.sync_maintenance import sync_basetable_from_files
+                except ImportError:
+                    pass
+                else:
+                    if use_mysql():
+                        conn = get_connection()
+                        if conn:
+                            try:
+                                sync_basetable_from_files(conn, DATA_ROOT)
+                            finally:
+                                conn.close()
+                self.send_response(200)
+                self.send_header("Content-Type", "application/json; charset=utf-8")
+                self.send_header("Access-Control-Allow-Origin", "*")
+                self.end_headers()
+                self.wfile.write(json.dumps({"ok": True, "message": "底表已更新"}, ensure_ascii=False).encode("utf-8"))
+                return True
+            finally:
+                try:
+                    tmp_path.unlink()
+                except Exception:
+                    pass
+        except Exception as e:
+            self.log_message("basetable/upload error: %s", e)
             try:
                 self.send_response(500)
                 self.send_header("Content-Type", "application/json; charset=utf-8")
@@ -2261,7 +2988,7 @@ class CORSRequestHandler(http.server.SimpleHTTPRequestHandler):
                     pass
             try:
                 sys.path.insert(0, str(RESOURCE_ROOT))
-                from run_full_pipeline import run_frontend_script
+                from pipeline.run_full_pipeline import run_frontend_script
                 run_frontend_script("convert_product_mapping_to_json.py")
             except Exception:
                 pass
@@ -2299,6 +3026,15 @@ class CORSRequestHandler(http.server.SimpleHTTPRequestHandler):
         if path == "/api/auth/approve":
             if self._handle_auth_approve():
                 return
+        if path == "/api/auth/promote":
+            if self._handle_auth_promote():
+                return
+        if path == "/api/auth/delete":
+            if self._handle_auth_delete():
+                return
+        if path == "/api/monitor_rules":
+            if self._handle_monitor_rules_post():
+                return
         if path == "/api/maintenance/phase1":
             if self._handle_maintenance_phase1():
                 return
@@ -2307,6 +3043,9 @@ class CORSRequestHandler(http.server.SimpleHTTPRequestHandler):
                 return
         if path == "/api/maintenance/phase1_table_only":
             if self._handle_maintenance_phase1_table_only():
+                return
+        if path == "/api/maintenance/rebuild_monitor_table":
+            if self._handle_maintenance_rebuild_monitor_table():
                 return
         if path == "/api/maintenance/phase2_1":
             if self._handle_maintenance_phase2_1():
@@ -2322,6 +3061,12 @@ class CORSRequestHandler(http.server.SimpleHTTPRequestHandler):
                 return
         if path == "/api/maintenance/add_to_product_mapping":
             if self._handle_maintenance_add_to_product_mapping():
+                return
+        if path == "/api/api_management":
+            if self._handle_api_management():
+                return
+        if path == "/api/basetable/upload":
+            if self._handle_basetable_upload():
                 return
         if path == "/api/advanced_query/execute":
             if self._handle_advanced_query_execute():

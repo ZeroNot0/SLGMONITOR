@@ -26,9 +26,14 @@
   const panelMaintenance = document.getElementById('panelMaintenance');
   const panelApproval = document.getElementById('panelApproval');
   const panelAdvancedQuery = document.getElementById('panelAdvancedQuery');
+  const panelManual = document.getElementById('panelManual');
   const sidebarApprovalTabs = document.getElementById('sidebarApprovalTabs');
   const sidebarAdvancedTables = document.getElementById('sidebarAdvancedTables');
+  const sidebarManualList = document.getElementById('sidebarManualList');
   const advancedQueryTableList = document.getElementById('advancedQueryTableList');
+  const manualDocList = document.getElementById('manualDocList');
+  const manualContent = document.getElementById('manualContent');
+  const manualTitle = document.getElementById('manualTitle');
   var currentApprovalTab = 'pending';  // 'pending' | 'existing'
   const advancedQuerySql = document.getElementById('advancedQuerySql');
   const advancedQueryRunBtn = document.getElementById('advancedQueryRunBtn');
@@ -38,6 +43,11 @@
   const advancedQueryResultHead = document.getElementById('advancedQueryResultHead');
   const advancedQueryResultBody = document.getElementById('advancedQueryResultBody');
   const advancedQueryEmpty = document.getElementById('advancedQueryEmpty');
+  const apiTokenInput = document.getElementById('apiTokenInput');
+  const apiUsedInput = document.getElementById('apiUsedInput');
+  const apiSaveBtn = document.getElementById('apiSaveBtn');
+  const apiStatus = document.getElementById('apiStatus');
+  const apiUsageHint = document.getElementById('apiUsageHint');
   const comboTitleEl = document.getElementById('comboTitle');
   const comboPeriodEl = document.getElementById('comboPeriod');
   const tableWrap = document.getElementById('tableWrap');
@@ -46,6 +56,7 @@
   const productSearchInput = document.getElementById('productSearchInput');
   const productSelect = document.getElementById('productSelect');
   const productToolbar = document.getElementById('productToolbar');
+  const productOverallNote = document.getElementById('productOverallNote');
   const productNewGameWrap = document.getElementById('productNewGameWrap');
   const productNewGameEmpty = document.getElementById('productNewGameEmpty');
   const productNewGameTableWrap = document.getElementById('productNewGameTableWrap');
@@ -64,9 +75,14 @@
   const creativeProductDataRow = document.getElementById('creativeProductDataRow');
   const creativeProductDataHead = document.getElementById('creativeProductDataHead');
   const creativeProductDataBody = document.getElementById('creativeProductDataBody');
-  const btnDownload = document.getElementById('btnDownload');
+  const btnCompanyTrendDownload = document.getElementById('btnCompanyTrendDownload');
+  const btnCompanyDetailDownload = document.getElementById('btnCompanyDetailDownload');
+  const btnProductDetailTrendDownload = document.getElementById('btnProductDetailTrendDownload');
   const btnDownloadMonitorTable = document.getElementById('btnDownloadMonitorTable');
+  const btnMonitorRules = document.getElementById('btnMonitorRules');
   const btnProductDownload = document.getElementById('btnProductDownload');
+  const btnProductPullCountry = document.getElementById('btnProductPullCountry');
+  const btnProductPullCreative = document.getElementById('btnProductPullCreative');
   const btnCreativeDownload = document.getElementById('btnCreativeDownload');
   const panelBasetable = document.getElementById('panelBasetable');
   const basetableSubNav = document.getElementById('basetableSubNav');
@@ -80,9 +96,13 @@
   const basetableMetricsToolbar = document.getElementById('basetableMetricsToolbar');
   const basetableMetricsSearch = document.getElementById('basetableMetricsSearch');
   const basetableMetricsHint = document.getElementById('basetableMetricsHint');
+  const basetableMetricsDownloadBtn = document.getElementById('basetableMetricsDownloadBtn');
+  const basetableMetricsUpdateBtn = document.getElementById('basetableMetricsUpdateBtn');
   const basetableOtherToolbar = document.getElementById('basetableOtherToolbar');
   const basetableOtherSearch = document.getElementById('basetableOtherSearch');
   const basetableOtherHint = document.getElementById('basetableOtherHint');
+  const basetableOtherDownloadBtn = document.getElementById('basetableOtherDownloadBtn');
+  const basetableOtherUpdateBtn = document.getElementById('basetableOtherUpdateBtn');
   const tableHead = document.getElementById('tableHead');
   const tableBody = document.getElementById('tableBody');
   const searchInput = document.getElementById('searchInput');
@@ -98,6 +118,35 @@
   const loginSubmit = document.getElementById('loginSubmit');
   const btnLogout = document.getElementById('btnLogout');
   const headerUsername = document.getElementById('headerUsername');
+  const networkStatus = document.getElementById('networkStatus');
+  const networkStatusText = document.getElementById('networkStatusText');
+  const headerGreeting = document.getElementById('headerGreeting');
+  const monitorRulesModal = document.getElementById('monitorRulesModal');
+  const monitorRulesClose = document.getElementById('monitorRulesClose');
+  const monitorRulesStatus = document.getElementById('monitorRulesStatus');
+  const monitorRulesSaveBtn = document.getElementById('monitorRulesSaveBtn');
+  const monitorRulesRunBtn = document.getElementById('monitorRulesRunBtn');
+  const monitorDeleteRules = document.getElementById('monitorDeleteRules');
+  const monitorStrikeRules = document.getElementById('monitorStrikeRules');
+  const monitorYellowRules = document.getElementById('monitorYellowRules');
+  const monitorDeleteAddRule = document.getElementById('monitorDeleteAddRule');
+  const monitorStrikeAddRule = document.getElementById('monitorStrikeAddRule');
+  const monitorYellowAddRule = document.getElementById('monitorYellowAddRule');
+  const monitorDeleteProducts = document.getElementById('monitorDeleteProducts');
+  const monitorStrikeProducts = document.getElementById('monitorStrikeProducts');
+  const monitorYellowProducts = document.getElementById('monitorYellowProducts');
+  const monitorDeleteAddProduct = document.getElementById('monitorDeleteAddProduct');
+  const monitorStrikeAddProduct = document.getElementById('monitorStrikeAddProduct');
+  const monitorYellowAddProduct = document.getElementById('monitorYellowAddProduct');
+  const productPullModal = document.getElementById('productPullModal');
+  const productPullClose = document.getElementById('productPullClose');
+  const productPullTitle = document.getElementById('productPullTitle');
+  const productPullLimit = document.getElementById('productPullLimit');
+  const productPullLimitCustom = document.getElementById('productPullLimitCustom');
+  const productPullName = document.getElementById('productPullName');
+  const productPullUnifiedId = document.getElementById('productPullUnifiedId');
+  const productPullStatus = document.getElementById('productPullStatus');
+  const productPullConfirm = document.getElementById('productPullConfirm');
 
   const API_BASE = document.location.pathname.startsWith('/frontend') ? '' : '';
   /** 数据接口统一走 /api/data/*（后端从 MySQL 或文件返回） */
@@ -109,14 +158,17 @@
   let currentYear = null;
   let currentWeek = null;
   let currentDimension = 'company';
+  let currentUsername = '';
   let currentCompanySubTab = 'overall';
   let currentProductSubTab = 'overall';  // 产品维度子导航：overall=大盘数据, new=上线新游, detail=详细数据
-  let currentBasetableTab = null;  // 数据底表子导航：metrics_total|product_mapping|company_mapping|new_products|theme_label|gameplay_label|art_style_label
+  let currentProductPullType = 'country';
+  let currentBasetableTab = null;  // 数据底表子导航：metrics_total|product_mapping|company_mapping|region_t_mapping|new_products|theme_label|gameplay_label|art_style_label
   let basetableCachedData = null;  // 非产品总表时缓存 { tab, headers, rows }，供搜索筛选
   const DETAIL_CACHE_MAX = 50;  // 公司/产品详情缓存条数上限，超出时删最旧
   let detailCache = { company: {}, product: {} };  // 详情页内存缓存，同页面重复进入时直接复用
-  const VALID_DIMS = ['company', 'company-detail', 'product', 'product-detail', 'creative', 'combo', 'basetable', 'maintenance', 'approval', 'advanced_query'];
+  const VALID_DIMS = ['company', 'company-detail', 'product', 'product-detail', 'creative', 'combo', 'basetable', 'maintenance', 'approval', 'advanced_query', 'manual'];
   let currentUserRole = '';  // 'super_admin' | 'user'，登录后由 /api/auth/check 设置
+  let monitorRulesDraft = null;
   (function () {
     var h = (window.location.hash || '#company').replace('#', '').toLowerCase();
     if (VALID_DIMS.indexOf(h) >= 0) currentDimension = h;
@@ -148,11 +200,330 @@
   let companyDetailProductMeta = null;   // { productColIdx, launchColIdx, ... }
   let companyDetailProductSortCol = -1;
   let companyDetailProductSortAsc = true;
+  let networkStatusTimer = null;
+  let networkStatusInited = false;
+  let greetingTimer = null;
+  let companyDetailTrendData = null;     // { weekLabels, companyInstalls, allProductNames, productData }
+  let productDetailTrendData = null;     // { weekLabels, installs, asiaT1, euT1, t2, t3 }
   const CREATIVE_REGIONS = [{ key: '亚洲T1', label: '亚洲 T1 市场' }, { key: '欧美T1', label: '欧美 T1 市场' }, { key: 'T2', label: 'T2 市场' }, { key: 'T3', label: 'T3 市场' }];
   const YELLOW_BG = '#fff2cc';
   const CREATIVE_TAG_OPTIONS = ['数字门跑酷', '塔防', '肉鸽/幸存者 like/割草'];
   let advancedQueryLastResult = null;  // { headers, rows } 供下载表格
   let currentProductUnifiedId = '';    // 产品详情页当前产品的 Unified ID，供「拉取该产品 2.1/2.2 步」使用
+  let apiUsageCount = 0;
+  let currentManualDoc = '';
+
+  const MANUAL_DOCS = [
+    { title: '系统功能与目标', file: '系统功能与目标.md' },
+    { title: '功能使用说明', file: 'SLG竞对数据监测系统-功能使用说明.md' },
+    { title: '登录与权限说明', file: '登录与权限说明.md' },
+    { title: '功能一_数据监测表与目标产品', file: '功能一_数据监测表与目标产品.md' },
+    { title: '数据底表与数据库结构说明', file: '数据底表与数据库结构说明.md' },
+    { title: '分地区数据API请求逻辑', file: '分地区数据API请求逻辑.md' },
+    { title: '高级查询启用MySQL步骤', file: '高级查询启用MySQL步骤.md' },
+    { title: '市场T度划分说明', file: '市场T度划分说明.md' },
+    { title: '当前实现的功能和核心文件路径', file: '当前实现的功能和核心文件路径.md' }
+  ];
+
+  const MONITOR_METRICS = [
+    '当周周安装',
+    '上周周安装',
+    '当周周流水',
+    '上周周流水',
+    '周安装变动',
+    '周流水变动'
+  ];
+  const MONITOR_OPS = ['>', '>=', '<', '<=', '=', '!='];
+
+  function defaultMonitorRules() {
+    return {
+      version: 1,
+      delete_rules: [
+        { conditions: [
+          { metric: '当周周安装', op: '<', value: 400 },
+          { metric: '上周周安装', op: '<', value: 400 },
+          { metric: '当周周流水', op: '<', value: 20000 },
+          { metric: '上周周流水', op: '<', value: 20000 }
+        ] }
+      ],
+      strike_rules: [
+        { conditions: [
+          { metric: '当周周安装', op: '<', value: 400 },
+          { metric: '上周周安装', op: '<', value: 400 },
+          { metric: '当周周流水', op: '>=', value: 20000 }
+        ] },
+        { conditions: [
+          { metric: '当周周安装', op: '<', value: 400 },
+          { metric: '上周周安装', op: '<', value: 400 },
+          { metric: '上周周流水', op: '>=', value: 20000 }
+        ] }
+      ],
+      yellow_rules: [
+        { conditions: [
+          { metric: '周安装变动', op: '>=', value: 20 },
+          { metric: '当周周安装', op: '>', value: 1000 }
+        ] }
+      ],
+      product_rules: {
+        delete: [],
+        strike: [],
+        yellow: []
+      }
+    };
+  }
+
+  function normalizeMonitorRules(rules) {
+    var base = defaultMonitorRules();
+    if (!rules || typeof rules !== 'object') return base;
+    var out = Object.assign({}, base, rules);
+    ['delete_rules', 'strike_rules', 'yellow_rules'].forEach(function (k) {
+      if (!Array.isArray(out[k])) out[k] = [];
+      out[k].forEach(function (rule, idx) {
+        if (!rule || typeof rule !== 'object') return;
+        if (idx > 0 && (!rule.join || (rule.join !== 'and' && rule.join !== 'or'))) {
+          rule.join = 'or';
+        }
+      });
+    });
+    var pr = out.product_rules && typeof out.product_rules === 'object' ? out.product_rules : {};
+    out.product_rules = {
+      delete: Array.isArray(pr.delete) ? pr.delete : [],
+      strike: Array.isArray(pr.strike) ? pr.strike : [],
+      yellow: Array.isArray(pr.yellow) ? pr.yellow : []
+    };
+    return out;
+  }
+
+  function showMonitorRulesModal() {
+    if (!monitorRulesModal) return;
+    if (monitorRulesStatus) monitorRulesStatus.textContent = '加载规则中...';
+    fetch('/api/monitor_rules', { credentials: 'include' })
+      .then(function (r) { return r.ok ? r.json() : null; })
+      .catch(function () { return null; })
+      .then(function (data) {
+        if (data && data.ok && data.rules) monitorRulesDraft = normalizeMonitorRules(data.rules);
+        else monitorRulesDraft = normalizeMonitorRules(null);
+        renderMonitorRules();
+        if (monitorRulesStatus) monitorRulesStatus.textContent = '';
+      });
+    monitorRulesModal.style.display = 'flex';
+  }
+
+  function hideMonitorRulesModal() {
+    if (monitorRulesModal) monitorRulesModal.style.display = 'none';
+  }
+
+  function renderMonitorRules() {
+    if (!monitorRulesDraft) monitorRulesDraft = normalizeMonitorRules(null);
+    renderRuleGroupList(monitorDeleteRules, monitorRulesDraft.delete_rules, 'delete');
+    renderRuleGroupList(monitorStrikeRules, monitorRulesDraft.strike_rules, 'strike');
+    renderRuleGroupList(monitorYellowRules, monitorRulesDraft.yellow_rules, 'yellow');
+    renderProductRuleList(monitorDeleteProducts, monitorRulesDraft.product_rules.delete, 'delete');
+    renderProductRuleList(monitorStrikeProducts, monitorRulesDraft.product_rules.strike, 'strike');
+    renderProductRuleList(monitorYellowProducts, monitorRulesDraft.product_rules.yellow, 'yellow');
+  }
+
+  function renderRuleGroupList(container, rules, action) {
+    if (!container) return;
+    container.innerHTML = '';
+    (rules || []).forEach(function (rule, ruleIdx) {
+      var group = document.createElement('div');
+      group.className = 'rule-group';
+      group.dataset.action = action;
+      group.dataset.index = String(ruleIdx);
+      var head = document.createElement('div');
+      head.className = 'rule-group-head';
+      head.innerHTML = '<span>规则 ' + (ruleIdx + 1) + '</span>';
+      if (ruleIdx > 0) {
+        var joinWrap = document.createElement('span');
+        var joinLabel = document.createElement('span');
+        joinLabel.textContent = '与上一条';
+        joinLabel.style.marginRight = '6px';
+        var joinSel = document.createElement('select');
+        joinSel.className = 'rule-join';
+        var optOr = document.createElement('option');
+        optOr.value = 'or';
+        optOr.textContent = 'OR';
+        var optAnd = document.createElement('option');
+        optAnd.value = 'and';
+        optAnd.textContent = 'AND';
+        joinSel.appendChild(optOr);
+        joinSel.appendChild(optAnd);
+        joinSel.value = (rule.join || 'or').toLowerCase() === 'and' ? 'and' : 'or';
+        joinWrap.appendChild(joinLabel);
+        joinWrap.appendChild(joinSel);
+        head.appendChild(joinWrap);
+      }
+      var removeBtn = document.createElement('button');
+      removeBtn.type = 'button';
+      removeBtn.className = 'btn-rule-remove';
+      removeBtn.textContent = '删除规则';
+      removeBtn.dataset.op = 'remove-rule';
+      head.appendChild(removeBtn);
+      group.appendChild(head);
+      var condWrap = document.createElement('div');
+      (rule.conditions || []).forEach(function (cond, condIdx) {
+        var row = document.createElement('div');
+        row.className = 'rule-condition';
+        row.dataset.condIndex = String(condIdx);
+        var metricSel = document.createElement('select');
+        metricSel.className = 'rule-metric';
+        MONITOR_METRICS.forEach(function (m) {
+          var opt = document.createElement('option');
+          opt.value = m;
+          opt.textContent = m;
+          if (cond.metric === m) opt.selected = true;
+          metricSel.appendChild(opt);
+        });
+        var opSel = document.createElement('select');
+        opSel.className = 'rule-operator';
+        MONITOR_OPS.forEach(function (op) {
+          var opt = document.createElement('option');
+          opt.value = op;
+          opt.textContent = op;
+          if (cond.op === op) opt.selected = true;
+          opSel.appendChild(opt);
+        });
+        var valInput = document.createElement('input');
+        valInput.type = 'number';
+        valInput.className = 'rule-value';
+        valInput.value = cond.value != null ? cond.value : '';
+        var rmBtn = document.createElement('button');
+        rmBtn.type = 'button';
+        rmBtn.className = 'btn-rule-remove';
+        rmBtn.textContent = '删除条件';
+        rmBtn.dataset.op = 'remove-cond';
+        row.appendChild(metricSel);
+        row.appendChild(opSel);
+        row.appendChild(valInput);
+        row.appendChild(rmBtn);
+        condWrap.appendChild(row);
+      });
+      group.appendChild(condWrap);
+      var addCond = document.createElement('button');
+      addCond.type = 'button';
+      addCond.className = 'btn-rule-add';
+      addCond.textContent = '添加条件';
+      addCond.dataset.op = 'add-cond';
+      group.appendChild(addCond);
+      container.appendChild(group);
+    });
+  }
+
+  function renderProductRuleList(container, rules, action) {
+    if (!container) return;
+    container.innerHTML = '';
+    (rules || []).forEach(function (rule, idx) {
+      var row = document.createElement('div');
+      row.className = 'rule-product-item';
+      row.dataset.action = action;
+      row.dataset.index = String(idx);
+      var sel = document.createElement('select');
+      var opt1 = document.createElement('option');
+      opt1.value = 'product_name';
+      opt1.textContent = '产品归属';
+      var opt2 = document.createElement('option');
+      opt2.value = 'unified_id';
+      opt2.textContent = 'Unified ID';
+      sel.appendChild(opt1);
+      sel.appendChild(opt2);
+      sel.value = rule.by === 'unified_id' ? 'unified_id' : 'product_name';
+      var input = document.createElement('input');
+      input.type = 'text';
+      input.placeholder = '输入名称或 ID';
+      input.value = rule.value || '';
+      var rm = document.createElement('button');
+      rm.type = 'button';
+      rm.className = 'btn-rule-remove';
+      rm.textContent = '删除';
+      rm.dataset.op = 'remove-product';
+      row.appendChild(sel);
+      row.appendChild(input);
+      row.appendChild(rm);
+      container.appendChild(row);
+    });
+  }
+
+  function addRule(action) {
+    if (!monitorRulesDraft) monitorRulesDraft = normalizeMonitorRules(null);
+    monitorRulesDraft[action + '_rules'].push({ join: 'or', conditions: [{ metric: '当周周安装', op: '>', value: 0 }] });
+    renderMonitorRules();
+  }
+
+  function addProductRule(action) {
+    if (!monitorRulesDraft) monitorRulesDraft = normalizeMonitorRules(null);
+    monitorRulesDraft.product_rules[action].push({ by: 'product_name', value: '' });
+    renderMonitorRules();
+  }
+
+  function updateRuleCondition(action, ruleIdx, condIdx, field, value) {
+    if (!monitorRulesDraft) return;
+    var list = monitorRulesDraft[action + '_rules'] || [];
+    if (!list[ruleIdx] || !list[ruleIdx].conditions || !list[ruleIdx].conditions[condIdx]) return;
+    list[ruleIdx].conditions[condIdx][field] = value;
+  }
+
+  function updateProductRule(action, idx, field, value) {
+    if (!monitorRulesDraft) return;
+    var list = monitorRulesDraft.product_rules[action] || [];
+    if (!list[idx]) return;
+    list[idx][field] = value;
+  }
+
+  function updateRuleJoin(action, ruleIdx, value) {
+    if (!monitorRulesDraft) return;
+    var list = monitorRulesDraft[action + '_rules'] || [];
+    if (!list[ruleIdx]) return;
+    list[ruleIdx].join = value === 'and' ? 'and' : 'or';
+  }
+
+  function collectMonitorRulesFromUI() {
+    if (!monitorRulesDraft) return normalizeMonitorRules(null);
+    return monitorRulesDraft;
+  }
+
+  function saveMonitorRules() {
+    if (!monitorRulesDraft) return;
+    if (monitorRulesStatus) monitorRulesStatus.textContent = '保存中...';
+    fetch('/api/monitor_rules', {
+      method: 'POST',
+      credentials: 'include',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ rules: collectMonitorRulesFromUI() })
+    })
+      .then(function (r) { return r.ok ? r.json() : null; })
+      .then(function (data) {
+        if (monitorRulesStatus) monitorRulesStatus.textContent = data && data.ok ? '规则已保存' : '保存失败';
+      })
+      .catch(function () { if (monitorRulesStatus) monitorRulesStatus.textContent = '保存失败'; });
+  }
+
+  function runMonitorRules() {
+    if (!currentYear || !currentWeek) {
+      if (monitorRulesStatus) monitorRulesStatus.textContent = '请先选择周';
+      return;
+    }
+    var scopeEl = document.querySelector('input[name="monitorRulesScope"]:checked');
+    var scope = scopeEl ? scopeEl.value : 'current';
+    if (monitorRulesStatus) monitorRulesStatus.textContent = '执行中...';
+    fetch('/api/maintenance/rebuild_monitor_table', {
+      method: 'POST',
+      credentials: 'include',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ year: currentYear, week_tag: currentWeek, scope: scope, rules: collectMonitorRulesFromUI() })
+    })
+      .then(function (r) { return r.ok ? r.json() : null; })
+      .then(function (data) {
+        if (data && data.ok) {
+          if (monitorRulesStatus) monitorRulesStatus.textContent = '已重建数据监测表';
+          hideMonitorRulesModal();
+          refreshCurrentView();
+        } else {
+          if (monitorRulesStatus) monitorRulesStatus.textContent = '执行失败';
+        }
+      })
+      .catch(function () { if (monitorRulesStatus) monitorRulesStatus.textContent = '执行失败'; });
+  }
 
   function normalizeProductName(s) {
     if (!s || typeof s !== 'string') return '';
@@ -283,6 +654,20 @@
     const styles = currentData.styles || [];
     filteredRows = filteredRows || currentData.rows.slice();
     const productColIndex = headers.indexOf('产品归属');
+    const installColIndex = headers.indexOf('当周周安装');
+
+    if (isProductDimension && sortCol === -1 && installColIndex >= 0) {
+      sortCol = installColIndex;
+      sortAsc = false;
+      filteredRows.sort((a, b) => {
+        const av = a[installColIndex];
+        const bv = b[installColIndex];
+        const anum = Number(av);
+        const bnum = Number(bv);
+        if (!Number.isNaN(anum) && !Number.isNaN(bnum)) return sortAsc ? anum - bnum : bnum - anum;
+        return sortAsc ? String(av ?? '').localeCompare(bv ?? '') : String(bv ?? '').localeCompare(av ?? '');
+      });
+    }
 
     tableHead.innerHTML = '';
     const theadTr = document.createElement('tr');
@@ -295,7 +680,7 @@
       const th = document.createElement('th');
       th.textContent = h;
       th.dataset.col = i;
-      th.dataset.sort = '';
+      th.dataset.sort = (i === sortCol && sortCol >= 0) ? (sortAsc ? 'asc' : 'desc') : '';
       if (styles[0] && styles[0][i]) applyCellStyle(th, styles[0][i], false);
       if (!isCompanyDimInitial) th.addEventListener('click', () => sortBy(i));
       theadTr.appendChild(th);
@@ -338,7 +723,12 @@
         if (cls) td.classList.add(cls);
         if (headers[colIdx] === '周安装变动') td.classList.add('cell-change-pct');
         if (styleRow && styleRow[colIdx]) applyCellStyle(td, styleRow[colIdx], isSummaryRow(row));
-        if (colIdx === productColIndex && styleRow && styleRow[colIdx] && isRedFont(styleRow[colIdx])) td.style.textDecoration = 'line-through';  // 仅产品归属列标红画删除线
+        if (colIdx === productColIndex && styleRow && styleRow[colIdx] && isRedFont(styleRow[colIdx])) {
+          td.style.textDecoration = 'line-through';
+          td.classList.add('strike-product');
+          var link = td.querySelector('a');
+          if (link) link.classList.add('strike-product');
+        }
         if (typeof cell === 'number' || (typeof cell === 'string' && /^[\d.-]+$/.test(cell))) td.classList.add('num');
         tr.appendChild(td);
       });
@@ -415,7 +805,12 @@
         if (cls) td.classList.add(cls);
         if (currentData.headers[colIdx] === '周安装变动') td.classList.add('cell-change-pct');
         if (styleRow && styleRow[colIdx]) applyCellStyle(td, styleRow[colIdx], isSummaryRow(row));
-        if (currentDimension === 'company' && colIdx === productColIndex && styleRow && styleRow[colIdx] && isRedFont(styleRow[colIdx])) td.style.textDecoration = 'line-through';
+        if (currentDimension === 'company' && colIdx === productColIndex && styleRow && styleRow[colIdx] && isRedFont(styleRow[colIdx])) {
+          td.style.textDecoration = 'line-through';
+          td.classList.add('strike-product');
+          var link = td.querySelector('a');
+          if (link) link.classList.add('strike-product');
+        }
         if (typeof cell === 'number' || (typeof cell === 'string' && /^[\d.-]+$/.test(cell))) td.classList.add('num');
         tr.appendChild(td);
       });
@@ -491,6 +886,7 @@
     hide(loadingEl);
     hide(emptyEl);
     hide(errorEl);
+    if (productOverallNote) productOverallNote.style.display = currentProductSubTab === 'overall' ? '' : 'none';
     if (currentProductSubTab === 'new') {
       if (productNewGameWrap) show(productNewGameWrap);
       if (productTitleEl) {
@@ -810,6 +1206,7 @@
     }
     if (tab === 'metrics_total') {
       if (!currentYear || !currentWeek) {
+        basetableCachedData = null;
         if (basetableMetricsToolbar) hide(basetableMetricsToolbar);
         if (basetableEmpty) { show(basetableEmpty); basetableEmpty.querySelector('.company-home-detail-prompt').textContent = '请从左侧选择周期（产品总表按周展示）'; }
         if (basetableTableWrap) hide(basetableTableWrap);
@@ -825,6 +1222,7 @@
           var headers = data.headers || [];
           var rows = data.rows || [];
           var total = data.total !== undefined ? data.total : rows.length;
+          basetableCachedData = { tab: tab, headers: headers, rows: rows };
           if (basetableEmpty) hide(basetableEmpty);
           if (basetableTableWrap) show(basetableTableWrap);
           basetableTableHead.innerHTML = '';
@@ -871,9 +1269,11 @@
         var headers = data.headers || [];
         var rows = data.rows || [];
         if (!headers.length && !rows.length) {
-          basetableCachedData = null;
-          if (basetableOtherToolbar) hide(basetableOtherToolbar);
-          if (basetableEmpty) { show(basetableEmpty); basetableEmpty.querySelector('.company-home-detail-prompt').textContent = '暂无数据或文件不存在'; }
+          basetableCachedData = { tab: tab, headers: headers, rows: rows };
+          if (basetableOtherToolbar) show(basetableOtherToolbar);
+          if (basetableOtherSearch) basetableOtherSearch.value = '';
+          if (basetableOtherHint) basetableOtherHint.textContent = '';
+          if (basetableEmpty) { show(basetableEmpty); basetableEmpty.querySelector('.company-home-detail-prompt').textContent = '暂无数据，可上传更新'; }
           if (basetableTableWrap) hide(basetableTableWrap);
         } else {
           basetableCachedData = { tab: tab, headers: headers, rows: rows };
@@ -977,17 +1377,22 @@
         return Promise.all(fallbacks).then(function () { return index; });
       })
       .then(index => {
+        return enrichCreativeProductNames(index, year, week).then(function () { return index; });
+      })
+      .then(index => {
         fillCreativeProductSelect();
         creativeProductDataRow.style.display = 'none';
         creativeRows = null;
         creativeFilteredRows = null;
         if (pendingCreativeProduct) {
+          var pendingStr = String(pendingCreativeProduct || '').trim();
           var ptype = creativeProductTable.value || 'strategy_old';
           var list = (index[ptype] || []);
           var foundIdx = -1;
           for (var i = 0; i < list.length; i++) {
             var p = list[i];
-            if (productNamesMatch(pendingCreativeProduct, p.product_name, p.display)) {
+            var appId = (p.app_id != null) ? String(p.app_id).trim() : '';
+            if ((pendingStr && appId && pendingStr === appId) || productNamesMatch(pendingCreativeProduct, p.product_name, p.display)) {
               foundIdx = i;
               break;
             }
@@ -997,7 +1402,8 @@
             var otherList = index[otherType] || [];
             for (var j = 0; j < otherList.length; j++) {
               var q = otherList[j];
-              if (productNamesMatch(pendingCreativeProduct, q.product_name, q.display)) {
+              var otherAppId = (q.app_id != null) ? String(q.app_id).trim() : '';
+              if ((pendingStr && otherAppId && pendingStr === otherAppId) || productNamesMatch(pendingCreativeProduct, q.product_name, q.display)) {
                 creativeProductTable.value = otherType;
                 fillCreativeProductSelect();
                 creativeProductSelect.value = String(j);
@@ -1027,6 +1433,48 @@
         setState('error');
         errorEl.textContent = '加载素材产品索引失败';
       });
+  }
+
+  function enrichCreativeProductNames(index, year, week) {
+    if (!index || !year || !week) return Promise.resolve();
+    var urlOld = DATA_API_BASE + '/product_strategy?year=' + encodeURIComponent(year) + '&week=' + encodeURIComponent(week) + '&type=old';
+    var urlNew = DATA_API_BASE + '/product_strategy?year=' + encodeURIComponent(year) + '&week=' + encodeURIComponent(week) + '&type=new';
+    return Promise.all([
+      fetch(urlOld, { credentials: 'include' }).then(function (r) { return r.ok ? r.json() : null; }).catch(function () { return null; }),
+      fetch(urlNew, { credentials: 'include' }).then(function (r) { return r.ok ? r.json() : null; }).catch(function () { return null; })
+    ]).then(function (results) {
+      var map = {};
+      function addToMap(data) {
+        if (!data || !data.headers || !data.rows) return;
+        var h = data.headers;
+        var uidIdx = h.indexOf('Unified ID');
+        var nameIdx = h.indexOf('产品归属');
+        if (uidIdx < 0 || nameIdx < 0) return;
+        data.rows.forEach(function (row) {
+          if (!row) return;
+          var uid = row[uidIdx] != null ? String(row[uidIdx]).trim() : '';
+          var name = row[nameIdx] != null ? String(row[nameIdx]).trim() : '';
+          if (uid && name && !map[uid]) map[uid] = name;
+        });
+      }
+      addToMap(results[0]);
+      addToMap(results[1]);
+      ['strategy_old', 'strategy_new'].forEach(function (ptype) {
+        var list = index[ptype] || [];
+        list.forEach(function (p) {
+          var appId = (p.app_id != null) ? String(p.app_id).trim() : '';
+          if (!appId || !map[appId]) return;
+          var mappedName = map[appId];
+          var display = (p.display != null) ? String(p.display).trim() : '';
+          var productName = (p.product_name != null) ? String(p.product_name).trim() : '';
+          var shouldReplace = !display || display === appId || productName === appId || !productName;
+          if (shouldReplace) {
+            p.product_name = mappedName;
+            p.display = mappedName;
+          }
+        });
+      });
+    });
   }
 
   function fillCreativeProductSelect() {
@@ -1267,6 +1715,127 @@
     return td;
   }
 
+  function escapeHtmlText(s) {
+    return String(s)
+      .replace(/&/g, '&amp;')
+      .replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;')
+      .replace(/"/g, '&quot;')
+      .replace(/'/g, '&#39;');
+  }
+
+  function renderInlineMarkdown(text) {
+    var out = escapeHtmlText(text || '');
+    out = out.replace(/`([^`]+)`/g, '<code>$1</code>');
+    out = out.replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>');
+    out = out.replace(/\*([^*]+)\*/g, '<em>$1</em>');
+    out = out.replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2" target="_blank" rel="noopener">$1</a>');
+    return out;
+  }
+
+  function renderMarkdown(md) {
+    var lines = String(md || '').replace(/\r\n/g, '\n').split('\n');
+    var html = '';
+    var inCode = false;
+    var codeLines = [];
+    var listType = null;
+    function closeList() {
+      if (!listType) return;
+      html += listType === 'ol' ? '</ol>' : '</ul>';
+      listType = null;
+    }
+    for (var i = 0; i < lines.length; i++) {
+      var line = lines[i];
+      if (line.trim().startsWith('```')) {
+        if (!inCode) {
+          inCode = true;
+          closeList();
+        } else {
+          inCode = false;
+          html += '<pre><code>' + escapeHtmlText(codeLines.join('\n')) + '</code></pre>';
+          codeLines = [];
+        }
+        continue;
+      }
+      if (inCode) {
+        codeLines.push(line);
+        continue;
+      }
+      if (!line.trim()) {
+        closeList();
+        continue;
+      }
+      var headingMatch = line.match(/^(#{1,4})\s+(.*)$/);
+      if (headingMatch) {
+        closeList();
+        var level = headingMatch[1].length;
+        html += '<h' + level + '>' + renderInlineMarkdown(headingMatch[2]) + '</h' + level + '>';
+        continue;
+      }
+      var olMatch = line.match(/^\s*\d+\.\s+(.*)$/);
+      if (olMatch) {
+        if (listType !== 'ol') {
+          closeList();
+          html += '<ol>';
+          listType = 'ol';
+        }
+        html += '<li>' + renderInlineMarkdown(olMatch[1]) + '</li>';
+        continue;
+      }
+      var ulMatch = line.match(/^\s*[-*+]\s+(.*)$/);
+      if (ulMatch) {
+        if (listType !== 'ul') {
+          closeList();
+          html += '<ul>';
+          listType = 'ul';
+        }
+        html += '<li>' + renderInlineMarkdown(ulMatch[1]) + '</li>';
+        continue;
+      }
+      closeList();
+      html += '<p>' + renderInlineMarkdown(line) + '</p>';
+    }
+    if (inCode) {
+      html += '<pre><code>' + escapeHtmlText(codeLines.join('\n')) + '</code></pre>';
+    }
+    closeList();
+    return html;
+  }
+
+  function renderManualList() {
+    if (!manualDocList) return;
+    manualDocList.innerHTML = '';
+    MANUAL_DOCS.forEach(function (doc) {
+      var li = document.createElement('li');
+      var a = document.createElement('a');
+      a.href = '#';
+      a.className = 'sidebar-table-link';
+      a.textContent = doc.title;
+      a.dataset.file = doc.file;
+      if (doc.file === currentManualDoc) a.classList.add('active');
+      li.appendChild(a);
+      manualDocList.appendChild(li);
+    });
+  }
+
+  function loadManualDoc(file) {
+    if (!manualContent) return;
+    if (!file) return;
+    currentManualDoc = file;
+    renderManualList();
+    var docMeta = MANUAL_DOCS.find(function (d) { return d.file === file; });
+    if (manualTitle) manualTitle.textContent = docMeta ? docMeta.title : '使用说明';
+    manualContent.innerHTML = '<p class="product-detail-desc">加载中…</p>';
+    fetch('/docs/' + encodeURIComponent(file))
+      .then(function (r) { return r.ok ? r.text() : Promise.reject(new Error('文档加载失败')); })
+      .then(function (text) {
+        manualContent.innerHTML = renderMarkdown(text);
+      })
+      .catch(function (err) {
+        manualContent.innerHTML = '<p class="product-detail-desc">' + escapeHtmlText(err.message || '文档加载失败') + '</p>';
+      });
+  }
+
   function setActiveWeekInSidebar(year, week) {
     var y = year != null ? String(year) : '';
     var w = week != null ? String(week) : '';
@@ -1292,7 +1861,9 @@
     var navDim = dim === 'product-detail' ? 'product' : (dim === 'company-detail' ? 'company' : dim);
     if (dim === 'maintenance') navDim = 'maintenance';
     if (dim === 'approval') navDim = 'approval';
+    if (dim === 'manual') navDim = 'manual';
     document.querySelectorAll('.top-nav-link').forEach(l => { l.classList.toggle('active', l.dataset.dim === navDim); });
+    if (panelManual) hide(panelManual);
     if (dim === 'company') {
       show(panelCompany);
       hide(panelCompanyDetail);
@@ -1466,15 +2037,30 @@
       hide(panelMaintenance);
       hide(panelApproval);
       show(panelAdvancedQuery);
+      hide(panelManual);
       hide(tableWrap);
       hide(loadingEl);
       hide(emptyEl);
       hide(errorEl);
       if (sidebarYearsEl) hide(sidebarYearsEl);
-      if (sidebarAdvancedTables) show(sidebarAdvancedTables);
-      if (advancedQueryEmpty) { show(advancedQueryEmpty); advancedQueryEmpty.textContent = '执行 SQL 或点击左侧表名查看数据'; }
-      if (advancedQueryResultWrap) hide(advancedQueryResultWrap);
-      if (typeof loadAdvancedQueryTables === 'function') loadAdvancedQueryTables();
+      if (sidebarAdvancedTables) hide(sidebarAdvancedTables);
+      if (typeof loadApiManagement === 'function') loadApiManagement();
+    } else if (dim === 'manual') {
+      hide(panelCompany);
+      hide(panelCompanyDetail);
+      hide(panelProduct);
+      hide(panelProductDetail);
+      hide(panelCreative);
+      hide(panelCombo);
+      hide(panelBasetable);
+      hide(panelMaintenance);
+      hide(panelApproval);
+      hide(panelAdvancedQuery);
+      show(panelManual);
+      hide(tableWrap);
+      hide(loadingEl);
+      hide(emptyEl);
+      hide(errorEl);
     } else {
       hide(panelCompany);
       hide(panelCompanyDetail);
@@ -1496,15 +2082,23 @@
     if (dim === 'advanced_query') {
       if (sidebarYearsEl) hide(sidebarYearsEl);
       if (sidebarApprovalTabs) hide(sidebarApprovalTabs);
-      if (sidebarAdvancedTables) show(sidebarAdvancedTables);
+      if (sidebarAdvancedTables) hide(sidebarAdvancedTables);
+      if (sidebarManualList) hide(sidebarManualList);
     } else if (dim === 'approval') {
       if (sidebarYearsEl) hide(sidebarYearsEl);
       if (sidebarApprovalTabs) show(sidebarApprovalTabs);
       if (sidebarAdvancedTables) hide(sidebarAdvancedTables);
+      if (sidebarManualList) hide(sidebarManualList);
+    } else if (dim === 'manual') {
+      if (sidebarYearsEl) hide(sidebarYearsEl);
+      if (sidebarApprovalTabs) hide(sidebarApprovalTabs);
+      if (sidebarAdvancedTables) hide(sidebarAdvancedTables);
+      if (sidebarManualList) show(sidebarManualList);
     } else {
       if (sidebarYearsEl) show(sidebarYearsEl);
       if (sidebarApprovalTabs) hide(sidebarApprovalTabs);
       if (sidebarAdvancedTables) hide(sidebarAdvancedTables);
+      if (sidebarManualList) hide(sidebarManualList);
     }
     if (dim === 'basetable' && currentBasetableTab) {
       loadBasetableContent(currentBasetableTab);
@@ -1548,9 +2142,36 @@
       /* 数据维护页无需预加载数据 */
     } else if (dim === 'approval') {
       /* 用户审批列表在 renderPanels 中调用 loadApprovalPendingUsers */
+    } else if (dim === 'advanced_query') {
+      if (typeof loadApiManagement === 'function') loadApiManagement();
+    } else if (dim === 'manual') {
+      if (!currentManualDoc && MANUAL_DOCS.length) currentManualDoc = MANUAL_DOCS[0].file;
+      if (currentManualDoc) loadManualDoc(currentManualDoc);
     } else {
       setState('empty');
     }
+  }
+
+  function refreshCurrentView() {
+    if (typeof window.__WEEKS_INDEX__ !== 'undefined') {
+      window.__WEEKS_INDEX__ = null;
+    }
+    if (typeof loadWeeksIndex === 'function') loadWeeksIndex();
+    if (currentDimension === 'approval') {
+      if (currentApprovalTab === 'pending' && typeof loadApprovalPendingUsers === 'function') loadApprovalPendingUsers();
+      if (currentApprovalTab === 'existing' && typeof loadApprovalExistingUsers === 'function') loadApprovalExistingUsers();
+      return;
+    }
+    if (currentDimension === 'advanced_query') {
+      if (typeof loadApiManagement === 'function') loadApiManagement();
+      return;
+    }
+    if (currentDimension === 'manual') {
+      if (!currentManualDoc && MANUAL_DOCS.length) currentManualDoc = MANUAL_DOCS[0].file;
+      if (currentManualDoc) loadManualDoc(currentManualDoc);
+      return;
+    }
+    loadDataForDimension(currentDimension);
   }
 
   /** 唯一的路由应用入口：同步状态、渲染面板、加载数据；仅由 hashchange 或初始化调用，不直接写 hash */
@@ -2100,6 +2721,12 @@
 
   function renderCompanyTrendCharts(weekLabels, companyInstalls, allProductNames, productData) {
     if (!window.Chart) return;
+    companyDetailTrendData = {
+      weekLabels: weekLabels || [],
+      companyInstalls: companyInstalls || [],
+      allProductNames: allProductNames || [],
+      productData: productData || {}
+    };
     destroyCompanyTrendCharts();
     var lineCtx = document.getElementById('companyDetailLineChart');
     var barCtx = document.getElementById('companyDetailStackedBarChart');
@@ -2244,9 +2871,24 @@
           var unifiedIdEl = document.getElementById('productDetailUnifiedId');
           var unifiedIdCopyBtn = document.getElementById('productDetailUnifiedIdCopy');
           var unifiedIdVal = resolvedUnifiedId || '';
-          if (companyEl) companyEl.textContent = panels.company || '—';
-          if (newOldEl) newOldEl.textContent = key === 'old' ? '旧产品' : '新产品';
-          if (launchEl) launchEl.textContent = (panels.launch != null && panels.launch !== '') ? String(panels.launch).replace(/\s+\d{2}:\d{2}:\d{2}$/, '') : '—';
+          var companyName = panels.company || '—';
+          if (companyEl) {
+            companyEl.textContent = companyName;
+            if (companyName && companyName !== '—') {
+              companyEl.dataset.company = companyName;
+              companyEl.classList.add('product-detail-company-link');
+            } else {
+              companyEl.dataset.company = '';
+              companyEl.classList.remove('product-detail-company-link');
+            }
+          }
+          var launchText = (panels.launch != null && panels.launch !== '') ? String(panels.launch).replace(/\s+\d{2}:\d{2}:\d{2}$/, '') : '—';
+          if (launchEl) launchEl.textContent = launchText;
+          var newByDate = isNewProductByLaunchDate(launchText);
+          if (newOldEl) {
+            if (newByDate != null) newOldEl.textContent = newByDate ? '新产品' : '旧产品';
+            else newOldEl.textContent = key === 'old' ? '旧产品' : '新产品';
+          }
           if (installEl) {
             if (panels.install != null && panels.install !== '') {
               var n = typeof panels.install === 'number' ? panels.install : (parseFloat(String(panels.install).replace(/,/g, '')) || parseInt(String(panels.install).replace(/,/g, ''), 10));
@@ -2470,11 +3112,24 @@
         var rankInstallEl = document.getElementById('productDetailRankInstall');
         var revenueEl = document.getElementById('productDetailRevenue');
         var rankRevenueEl = document.getElementById('productDetailRankRevenue');
-        if (companyEl) companyEl.textContent = (getVal('公司归属') != null && String(getVal('公司归属')).indexOf('汇总') === -1 ? getVal('公司归属') : (companyFromFormatted != null ? companyFromFormatted : (companyFromMetrics != null ? companyFromMetrics : '—')));
-        if (newOldEl) newOldEl.textContent = key === 'old' ? '旧产品' : '新产品';
-        if (launchEl) {
-          var t = launchFromTotal != null && launchFromTotal !== '' ? launchFromTotal : getVal('第三方记录最早上线时间');
-          launchEl.textContent = t != null && t !== '' ? String(t).replace(/\s+\d{2}:\d{2}:\d{2}$/, '') : '—';
+        var companyVal = (getVal('公司归属') != null && String(getVal('公司归属')).indexOf('汇总') === -1 ? getVal('公司归属') : (companyFromFormatted != null ? companyFromFormatted : (companyFromMetrics != null ? companyFromMetrics : '—')));
+        if (companyEl) {
+          companyEl.textContent = companyVal;
+          if (companyVal && companyVal !== '—') {
+            companyEl.dataset.company = companyVal;
+            companyEl.classList.add('product-detail-company-link');
+          } else {
+            companyEl.dataset.company = '';
+            companyEl.classList.remove('product-detail-company-link');
+          }
+        }
+        var t = launchFromTotal != null && launchFromTotal !== '' ? launchFromTotal : getVal('第三方记录最早上线时间');
+        var launchText = t != null && t !== '' ? String(t).replace(/\s+\d{2}:\d{2}:\d{2}$/, '') : '—';
+        if (launchEl) launchEl.textContent = launchText;
+        var newByDate = isNewProductByLaunchDate(launchText);
+        if (newOldEl) {
+          if (newByDate != null) newOldEl.textContent = newByDate ? '新产品' : '旧产品';
+          else newOldEl.textContent = key === 'old' ? '旧产品' : '新产品';
         }
         var unifiedIdEl = document.getElementById('productDetailUnifiedId');
         var unifiedIdCopyBtn = document.getElementById('productDetailUnifiedIdCopy');
@@ -2581,6 +3236,20 @@
     var m = s.length >= 4 ? parseInt(s.slice(0, 2), 10) || 0 : 0;
     var d = s.length >= 4 ? parseInt(s.slice(2, 4), 10) || 0 : 0;
     return y * 10000 + m * 100 + d;
+  }
+
+  function parseLaunchDateToYmd(value) {
+    if (value == null || value === '') return '';
+    var s = String(value).trim();
+    var match = s.match(/(\d{4})[-/](\d{1,2})[-/](\d{1,2})/);
+    if (!match) return '';
+    return match[1] + '-' + String(match[2]).padStart(2, '0') + '-' + String(match[3]).padStart(2, '0');
+  }
+
+  function isNewProductByLaunchDate(value) {
+    var ymd = parseLaunchDateToYmd(value);
+    if (!ymd) return null;
+    return ymd >= '2025-01-01';
   }
 
   function destroyProductDetailCharts() {
@@ -2707,6 +3376,7 @@
 
   function renderProductDetailTrendCharts(weekLabels, installs, asiaT1, euT1, t2, t3) {
     if (!window.Chart) return;
+    productDetailTrendData = { weekLabels: weekLabels || [], installs: installs || [], asiaT1: asiaT1 || [], euT1: euT1 || [], t2: t2 || [], t3: t3 || [] };
     destroyProductDetailCharts();
     var lineCtx = document.getElementById('productDetailLineChart');
     var barCtx = document.getElementById('productDetailStackedBarChart');
@@ -2832,12 +3502,12 @@
     setState('loading');
     // 优先使用 start_server 注入的周索引（访问 /frontend/ 时服务器会注入），不依赖 fetch
     var dataBase = (document.location.pathname || '').indexOf('frontend') >= 0 ? '/frontend' : base;
-    if (typeof window.__WEEKS_INDEX__ !== 'undefined' && window.__WEEKS_INDEX__ != null) {
+    var injectedIndex = (typeof window.__WEEKS_INDEX__ !== 'undefined') ? window.__WEEKS_INDEX__ : null;
+    if (injectedIndex != null) {
       try {
-        buildSidebar(window.__WEEKS_INDEX__);
+        buildSidebar(injectedIndex);
         if (typeof window.__PRODUCT_THEME_STYLE_MAPPING__ !== 'undefined' && window.__PRODUCT_THEME_STYLE_MAPPING__ != null) productThemeStyleMapping = window.__PRODUCT_THEME_STYLE_MAPPING__;
         else fetch(DATA_API_BASE + '/product_theme_style_mapping', { credentials: 'include' }).then(function (r) { return r.ok ? r.json() : null; }).catch(function () { return null; }).then(function (m) { productThemeStyleMapping = m && (m.byUnifiedId || m.byProductName) ? m : { byUnifiedId: {}, byProductName: {} }; });
-        return;
       } catch (e) {
         if (sidebarYearsEl) sidebarYearsEl.innerHTML = '<p class="empty">加载周索引出错</p>';
         setState('empty');
@@ -2845,9 +3515,9 @@
         return;
       }
     }
-    // 未注入时再请求 /frontend/data/weeks_index.json
+    // 未注入时再请求 /frontend/data/weeks_index.json；注入时也做一次拉取，防止缓存或陈旧数据
     if (typeof dataBase === 'undefined') dataBase = (document.location.pathname || '').indexOf('frontend') >= 0 ? '/frontend' : base;
-    var dataUrl = DATA_API_BASE + '/weeks_index';
+    var dataUrl = DATA_API_BASE + '/weeks_index?t=' + (Date.now ? Date.now() : 0);
     var controller = typeof AbortController !== 'undefined' ? new AbortController() : null;
     var timeoutId = controller ? window.setTimeout(function () {
       controller.abort();
@@ -2862,7 +3532,11 @@
       .then(function (data) {
         if (timeoutId) clearTimeout(timeoutId);
         try {
-          buildSidebar(data);
+          var injectedJson = injectedIndex != null ? JSON.stringify(injectedIndex) : '';
+          var fetchedJson = data != null ? JSON.stringify(data) : '';
+          if (!injectedIndex || injectedJson !== fetchedJson) {
+            buildSidebar(data);
+          }
           if (typeof window.__PRODUCT_THEME_STYLE_MAPPING__ !== 'undefined' && window.__PRODUCT_THEME_STYLE_MAPPING__ != null) productThemeStyleMapping = window.__PRODUCT_THEME_STYLE_MAPPING__;
           else fetch(DATA_API_BASE + '/product_theme_style_mapping', { credentials: 'include' }).then(function (r) { return r.ok ? r.json() : null; }).catch(function () { return null; }).then(function (m) { productThemeStyleMapping = m && (m.byUnifiedId || m.byProductName) ? m : { byUnifiedId: {}, byProductName: {} }; });
         } catch (e) {
@@ -2873,36 +3547,360 @@
       })
       .catch(function (err) {
         if (timeoutId) clearTimeout(timeoutId);
-        if (sidebarYearsEl) sidebarYearsEl.innerHTML = '<p class="empty">无周期数据（请确认已启动 start_server.py 并访问 http://localhost:端口/frontend/）</p>';
+        if (sidebarYearsEl) sidebarYearsEl.innerHTML = '<p class="empty">无周期数据（请确认已启动 server/start_server.py 并访问 http://localhost:端口/frontend/）</p>';
         setState('empty');
         console.warn('loadWeeksIndex failed:', err);
       });
   }
 
+  function downloadCsvByAnchor(filename, csv) {
+    var blob = new Blob([csv], { type: 'text/csv;charset=utf-8' });
+    var a = document.createElement('a');
+    a.href = URL.createObjectURL(blob);
+    a.download = filename || 'data.csv';
+    a.click();
+    URL.revokeObjectURL(a.href);
+  }
+
+  function downloadXlsxWithPrompt(filename, headers, rows) {
+    if (window.pywebview && window.pywebview.api && typeof window.pywebview.api.save_xlsx === 'function') {
+      window.pywebview.api.save_xlsx(filename, headers, rows)
+        .then(function (res) {
+          if (!res || !res.ok) {
+            if (res && res.cancelled) return;
+            alert('导出失败：' + ((res && res.message) ? res.message : '保存失败'));
+          }
+        })
+        .catch(function () {
+          alert('导出失败：无法连接桌面保存对话框');
+        });
+      return;
+    }
+    alert('当前环境无法弹出保存对话框，请使用桌面应用启动。');
+  }
+
+  function downloadCompanyDetailTable() {
+    if (!companyDetailProductRows || !companyDetailProductMeta) return;
+    var meta = companyDetailProductMeta;
+    var productColIdx = meta.productColIdx;
+    var launchColIdx = meta.launchColIdx;
+    var latestInstallColIdx = meta.latestInstallColIdx;
+    var installChangeColIdx = meta.installChangeColIdx;
+    var latestRevenueColIdx = meta.latestRevenueColIdx;
+    var revenueChangeColIdx = meta.revenueChangeColIdx;
+    var headers = ['产品名', '上线时间', '当周周安装', '周安装变动（最新周）', '当周周流水', '周流水变动（最新周）'];
+    var rows = companyDetailProductRows.map(function (r) {
+      var productName = productColIdx >= 0 && r[productColIdx] != null ? String(r[productColIdx]) : '';
+      var launch = launchColIdx >= 0 && r[launchColIdx] != null ? String(r[launchColIdx]).replace(/\s+\d{2}:\d{2}:\d{2}$/, '') : '';
+      var latestInstall = latestInstallColIdx >= 0 && r[latestInstallColIdx] != null && r[latestInstallColIdx] !== ''
+        ? (Number(r[latestInstallColIdx]) || 0).toLocaleString('en-US') : '';
+      var installChangeRaw = installChangeColIdx >= 0 ? (r[installChangeColIdx] != null ? formatCell('周安装变动', r[installChangeColIdx]) : '') : '';
+      var latestRevenue = latestRevenueColIdx >= 0 && r[latestRevenueColIdx] != null && r[latestRevenueColIdx] !== ''
+        ? '$' + (Math.round(Number(r[latestRevenueColIdx])) || 0).toLocaleString('en-US') : '';
+      var revenueChangeRaw = revenueChangeColIdx >= 0 ? (r[revenueChangeColIdx] != null ? formatCell('周流水变动', r[revenueChangeColIdx]) : '') : '';
+      return [productName, launch, latestInstall, installChangeRaw, latestRevenue, revenueChangeRaw];
+    });
+    var filename = (currentYear || '') + '_' + (currentWeek || '') + '_公司产品汇总.xlsx';
+    downloadXlsxWithPrompt(filename, headers, rows);
+  }
+
+  function downloadProductDetailTrendTable() {
+    if (!productDetailTrendData || !productDetailTrendData.weekLabels || !productDetailTrendData.weekLabels.length) return;
+    var headers = ['周标签', '当周周安装', '亚洲 T1', '欧美 T1', 'T2', 'T3'];
+    var rows = productDetailTrendData.weekLabels.map(function (w, i) {
+      return [
+        w,
+        productDetailTrendData.installs[i] != null ? productDetailTrendData.installs[i] : 0,
+        productDetailTrendData.asiaT1[i] != null ? productDetailTrendData.asiaT1[i] : 0,
+        productDetailTrendData.euT1[i] != null ? productDetailTrendData.euT1[i] : 0,
+        productDetailTrendData.t2[i] != null ? productDetailTrendData.t2[i] : 0,
+        productDetailTrendData.t3[i] != null ? productDetailTrendData.t3[i] : 0
+      ];
+    });
+    var name = selectedProductForDetail && selectedProductForDetail.name ? selectedProductForDetail.name : '产品';
+    var filename = (currentYear || '') + '_' + (currentWeek || '') + '_' + name + '_数据趋势.xlsx';
+    downloadXlsxWithPrompt(filename, headers, rows);
+  }
+
+  function downloadCompanyTrendTable() {
+    if (!companyDetailTrendData || !companyDetailTrendData.weekLabels || !companyDetailTrendData.weekLabels.length) return;
+    var headers = ['周标签', '公司当周周安装'];
+    (companyDetailTrendData.allProductNames || []).forEach(function (name) {
+      headers.push(name || '—');
+    });
+    var rows = companyDetailTrendData.weekLabels.map(function (w, i) {
+      var row = [
+        w,
+        companyDetailTrendData.companyInstalls[i] != null ? companyDetailTrendData.companyInstalls[i] : 0
+      ];
+      (companyDetailTrendData.allProductNames || []).forEach(function (name) {
+        var list = (companyDetailTrendData.productData && companyDetailTrendData.productData[name]) ? companyDetailTrendData.productData[name] : [];
+        row.push(list[i] != null ? list[i] : 0);
+      });
+      return row;
+    });
+    var name = selectedCompanyForDetail ? String(selectedCompanyForDetail).trim() : '公司';
+    var filename = (currentYear || '') + '_' + (currentWeek || '') + '_' + name + '_公司数据趋势.xlsx';
+    downloadXlsxWithPrompt(filename, headers, rows);
+  }
+
+  function buildCsv(headers, rows) {
+    var safeHeaders = (headers || []).map(function (h) { return h == null ? '' : String(h); });
+    var csvRows = (rows || []).map(function (row) {
+      return (row || []).map(function (c, colIdx) {
+        var s = String(c == null ? '' : c);
+        return (s.indexOf(',') >= 0 || s.indexOf('"') >= 0 || s.indexOf('\n') >= 0) ? '"' + s.replace(/"/g, '""') + '"' : s;
+      }).join(',');
+    });
+    return '\uFEFF' + safeHeaders.join(',') + '\n' + csvRows.join('\n');
+  }
+
+  function arrayBufferToBase64(buffer) {
+    var bytes = new Uint8Array(buffer || []);
+    var chunkSize = 0x8000;
+    var binary = '';
+    for (var i = 0; i < bytes.length; i += chunkSize) {
+      var chunk = bytes.subarray(i, i + chunkSize);
+      binary += String.fromCharCode.apply(null, chunk);
+    }
+    return btoa(binary);
+  }
+
+  function downloadBytesWithPrompt(filename, buffer) {
+    if (window.pywebview && window.pywebview.api && typeof window.pywebview.api.save_bytes === 'function') {
+      var base64 = arrayBufferToBase64(buffer);
+      window.pywebview.api.save_bytes(filename, base64)
+        .then(function (res) {
+          if (!res || !res.ok) {
+            if (res && res.cancelled) return;
+            alert('导出失败：' + ((res && res.message) ? res.message : '保存失败'));
+          }
+        })
+        .catch(function () { alert('导出失败：无法连接桌面保存对话框'); });
+      return true;
+    }
+    return false;
+  }
+
   function downloadTable() {
     if (!currentData || !filteredRows || !filteredRows.length) return;
     const headers = currentData.headers;
-    const rows = filteredRows.map(row => row.map((c, colIdx) => {
-      const s = formatCell(headers[colIdx], c);
-      return (s.includes(',') || s.includes('"') || s.includes('\n') ? '"' + String(s).replace(/"/g, '""') + '"' : s);
-    }).join(','));
-    const csv = '\uFEFF' + headers.join(',') + '\n' + rows.join('\n');
-    const blob = new Blob([csv], { type: 'text/csv;charset=utf-8' });
-    const a = document.createElement('a');
-    a.href = URL.createObjectURL(blob);
+    const rows = filteredRows.map(row => row.map((c, colIdx) => formatCell(headers[colIdx], c)));
     const suffix = currentDimension === 'product' ? '_爆量产品地区数据' : '_SLG数据监测表';
-    a.download = (currentYear || 'data') + '_' + (currentWeek || 'table') + suffix + '.csv';
-    a.click();
-    URL.revokeObjectURL(a.href);
+    const filename = (currentYear || 'data') + '_' + (currentWeek || 'table') + suffix + '.xlsx';
+    downloadXlsxWithPrompt(filename, headers, rows);
+  }
+
+  function getBasetableActiveLabel() {
+    var active = basetableSubNav ? basetableSubNav.querySelector('.company-detail-sub-link.active') : null;
+    if (active && active.textContent) return active.textContent.trim();
+    return currentBasetableTab || 'basetable';
+  }
+
+  function downloadBasetableTable() {
+    if (!basetableCachedData || !basetableCachedData.headers || !basetableCachedData.rows) return;
+    var headers = basetableCachedData.headers.slice();
+    var rows = basetableCachedData.rows.slice();
+    var hideColIdx = (basetableCachedData.tab === 'new_products') ? headers.indexOf('所属周') : -1;
+    if (hideColIdx >= 0) {
+      headers = headers.filter(function (_, i) { return i !== hideColIdx; });
+      rows = rows.map(function (row) { return (row || []).filter(function (_, i) { return i !== hideColIdx; }); });
+    }
+    if (!headers.length || !rows.length) return;
+    var prefix = (basetableCachedData.tab === 'metrics_total' && currentYear && currentWeek) ? (currentYear + '_' + currentWeek + '_') : '';
+    var filename = prefix + getBasetableActiveLabel() + '.xlsx';
+    downloadXlsxWithPrompt(filename, headers, rows);
+  }
+
+  function uploadBasetableFile(file) {
+    if (!file) return;
+    if (!currentBasetableTab) {
+      alert('请先选择要更新的底表。');
+      return;
+    }
+    if (currentBasetableTab === 'metrics_total' && (!currentYear || !currentWeek)) {
+      alert('请先选择周期（产品总表按周展示）。');
+      return;
+    }
+    var form = new FormData();
+    form.append('name', currentBasetableTab);
+    if (currentBasetableTab === 'metrics_total') {
+      form.append('year', currentYear);
+      form.append('week', currentWeek);
+    }
+    form.append('file', file);
+    var btn = currentBasetableTab === 'metrics_total' ? basetableMetricsUpdateBtn : basetableOtherUpdateBtn;
+    if (btn) btn.disabled = true;
+    fetch('/api/basetable/upload', { method: 'POST', body: form, credentials: 'include' })
+      .then(function (r) { return r.json(); })
+      .then(function (res) {
+        if (btn) btn.disabled = false;
+        if (!res || !res.ok) {
+          alert((res && res.message) ? res.message : '更新失败');
+          return;
+        }
+        alert(res.message || '更新成功');
+        if (currentBasetableTab === 'metrics_total' && typeof loadWeeksIndex === 'function') {
+          loadWeeksIndex();
+        }
+        loadBasetableContent(currentBasetableTab);
+      })
+      .catch(function () {
+        if (btn) btn.disabled = false;
+        alert('更新失败：请求异常');
+      });
+  }
+
+  function triggerBasetableUpload() {
+    var input = document.createElement('input');
+    input.type = 'file';
+    input.accept = '.xlsx';
+    input.onchange = function () {
+      var file = input.files && input.files[0] ? input.files[0] : null;
+      if (!file) return;
+      uploadBasetableFile(file);
+    };
+    input.click();
   }
 
   function downloadMonitorTable() {
     if (!currentYear || !currentWeek) return;
     var url = '/api/maintenance/download?year=' + encodeURIComponent(currentYear) + '&week=' + encodeURIComponent(currentWeek);
+    var filename = (currentWeek || 'table') + '_SLG数据监测表.xlsx';
+    if (window.pywebview && window.pywebview.api && typeof window.pywebview.api.save_bytes === 'function') {
+      fetch(url, { credentials: 'include' })
+        .then(function (r) { return r.ok ? r.arrayBuffer() : Promise.reject(new Error('download failed')); })
+        .then(function (buf) {
+          if (!downloadBytesWithPrompt(filename, buf)) {
+            var a = document.createElement('a');
+            a.href = url;
+            a.download = filename;
+            a.click();
+          }
+        })
+        .catch(function () {
+          var a = document.createElement('a');
+          a.href = url;
+          a.download = filename;
+          a.click();
+        });
+      return;
+    }
     var a = document.createElement('a');
     a.href = url;
-    a.download = (currentWeek || 'table') + '_SLG数据监测表.xlsx';
+    a.download = filename;
     a.click();
+  }
+
+  function showProductPullModal(type) {
+    if (!productPullModal) return;
+    currentProductPullType = type || 'country';
+    if (productPullTitle) {
+      productPullTitle.textContent = currentProductPullType === 'creative'
+        ? '拉取产品分地区创意数据（2.2 步）'
+        : '拉取产品分地区获量数据（2.1 步）';
+    }
+    if (productPullLimit) productPullLimit.value = 'top5';
+    if (productPullLimitCustom) {
+      productPullLimitCustom.value = '';
+      productPullLimitCustom.style.display = 'none';
+    }
+    if (productPullName) productPullName.value = '';
+    if (productPullUnifiedId) productPullUnifiedId.value = '';
+    if (productPullStatus) productPullStatus.textContent = '';
+    productPullModal.style.display = 'flex';
+  }
+
+  function hideProductPullModal() {
+    if (productPullModal) productPullModal.style.display = 'none';
+  }
+
+  function findUnifiedIdByProductName(name) {
+    if (!name || !currentData || !currentData.headers || !currentData.rows) return '';
+    var headers = currentData.headers;
+    var idxName = headers.indexOf('产品归属');
+    var idxUid = headers.indexOf('Unified ID');
+    if (idxName < 0 || idxUid < 0) return '';
+    var target = normalizeProductName(name);
+    if (!target) return '';
+    for (var i = 0; i < currentData.rows.length; i++) {
+      var row = currentData.rows[i] || [];
+      var product = row[idxName];
+      if (productNameExactMatch(target, product) || normalizeProductName(product) === target) {
+        return (row[idxUid] || '').toString().trim();
+      }
+    }
+    return '';
+  }
+
+  function getProductPullLimit() {
+    if (!productPullLimit) return 'all';
+    var val = (productPullLimit.value || 'all').toString();
+    if (val === 'custom') {
+      var custom = productPullLimitCustom ? String(productPullLimitCustom.value || '').trim() : '';
+      if (!custom || !/^\d+$/.test(custom) || parseInt(custom, 10) <= 0) return '';
+      return custom;
+    }
+    return val;
+  }
+
+  function runProductPull() {
+    if (!currentYear || !currentWeek) {
+      if (productPullStatus) productPullStatus.textContent = '请先选择周期';
+      return;
+    }
+    var limitVal = getProductPullLimit();
+    if (!limitVal) {
+      if (productPullStatus) productPullStatus.textContent = '请输入有效数量';
+      return;
+    }
+    var nameVal = productPullName ? String(productPullName.value || '').trim() : '';
+    var uidVal = productPullUnifiedId ? String(productPullUnifiedId.value || '').trim() : '';
+    if (!uidVal && nameVal) {
+      uidVal = findUnifiedIdByProductName(nameVal);
+      if (!uidVal) {
+        if (productPullStatus) productPullStatus.textContent = '未找到该产品对应的 Unified ID';
+        return;
+      }
+    }
+    var productType = productSelect ? String(productSelect.value || 'old') : 'old';
+    var stepLabel = currentProductPullType === 'creative' ? '2.2 步' : '2.1 步';
+    var actionLabel = currentProductPullType === 'creative' ? '创意数据' : '获量数据';
+    var targetLabel = uidVal ? ('单产品（' + (nameVal || uidVal) + '）') : ('Top 列表');
+    var limitLabel = limitVal === 'all' ? '全部' : limitVal.toString();
+    var summary = '将拉取' + actionLabel + '，数量：' + limitLabel + '，范围：' + targetLabel + '。确认继续？';
+    if (!window.confirm(summary)) return;
+    if (!window.confirm('【' + stepLabel + '】' + getMaintenanceConfirmMsg())) return;
+    var url = currentProductPullType === 'creative' ? MAINTENANCE_PHASE2_2_URL : MAINTENANCE_PHASE2_1_URL;
+    if (productPullStatus) productPullStatus.textContent = '拉取中...';
+    var body = {
+      year: currentYear,
+      week_tag: currentWeek,
+      target: 'strategy',
+      product_type: productType,
+      limit: limitVal
+    };
+    if (uidVal) body.unified_id = uidVal;
+    fetch(url, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(body),
+      credentials: 'include'
+    })
+      .then(function (r) { return r.json().catch(function () { return {}; }); })
+      .then(function (data) {
+        if (data && data.ok) {
+          if (productPullStatus) productPullStatus.textContent = '拉取完成，请刷新页面查看结果';
+          hideProductPullModal();
+          refreshCurrentView();
+          if (typeof loadApiManagement === 'function') loadApiManagement();
+        } else {
+          if (productPullStatus) productPullStatus.textContent = (data && data.message) ? data.message : '拉取失败';
+        }
+      })
+      .catch(function () {
+        if (productPullStatus) productPullStatus.textContent = '拉取失败';
+      });
   }
 
   if (searchInput) searchInput.addEventListener('input', filterRows);
@@ -2928,9 +3926,133 @@
       }
     }
   });
-  if (btnDownload) btnDownload.addEventListener('click', downloadTable);
   if (btnDownloadMonitorTable) btnDownloadMonitorTable.addEventListener('click', downloadMonitorTable);
   if (btnProductDownload) btnProductDownload.addEventListener('click', downloadTable);
+  if (basetableMetricsDownloadBtn) basetableMetricsDownloadBtn.addEventListener('click', downloadBasetableTable);
+  if (basetableOtherDownloadBtn) basetableOtherDownloadBtn.addEventListener('click', downloadBasetableTable);
+  if (basetableMetricsUpdateBtn) basetableMetricsUpdateBtn.addEventListener('click', triggerBasetableUpload);
+  if (basetableOtherUpdateBtn) basetableOtherUpdateBtn.addEventListener('click', triggerBasetableUpload);
+  if (btnProductPullCountry) btnProductPullCountry.addEventListener('click', function () { showProductPullModal('country'); });
+  if (btnProductPullCreative) btnProductPullCreative.addEventListener('click', function () { showProductPullModal('creative'); });
+  if (productPullClose) productPullClose.addEventListener('click', hideProductPullModal);
+  if (productPullConfirm) productPullConfirm.addEventListener('click', runProductPull);
+  if (btnCompanyTrendDownload) btnCompanyTrendDownload.addEventListener('click', downloadCompanyTrendTable);
+  if (btnCompanyDetailDownload) btnCompanyDetailDownload.addEventListener('click', downloadCompanyDetailTable);
+  if (btnProductDetailTrendDownload) btnProductDetailTrendDownload.addEventListener('click', downloadProductDetailTrendTable);
+  if (productPullLimit) {
+    productPullLimit.addEventListener('change', function () {
+      if (!productPullLimitCustom) return;
+      productPullLimitCustom.style.display = (productPullLimit.value === 'custom') ? '' : 'none';
+    });
+  }
+  if (productPullModal) {
+    var pullMask = productPullModal.querySelector('.modal-mask');
+    if (pullMask) pullMask.addEventListener('click', hideProductPullModal);
+  }
+  if (btnMonitorRules) btnMonitorRules.addEventListener('click', function () { showMonitorRulesModal(); });
+  if (monitorRulesClose) monitorRulesClose.addEventListener('click', hideMonitorRulesModal);
+  if (monitorRulesSaveBtn) monitorRulesSaveBtn.addEventListener('click', saveMonitorRules);
+  if (monitorRulesRunBtn) monitorRulesRunBtn.addEventListener('click', runMonitorRules);
+  if (monitorRulesModal) {
+    var mask = monitorRulesModal.querySelector('.modal-mask');
+    if (mask) mask.addEventListener('click', hideMonitorRulesModal);
+  }
+  if (monitorDeleteAddRule) monitorDeleteAddRule.addEventListener('click', function () { addRule('delete'); });
+  if (monitorStrikeAddRule) monitorStrikeAddRule.addEventListener('click', function () { addRule('strike'); });
+  if (monitorYellowAddRule) monitorYellowAddRule.addEventListener('click', function () { addRule('yellow'); });
+  if (monitorDeleteAddProduct) monitorDeleteAddProduct.addEventListener('click', function () { addProductRule('delete'); });
+  if (monitorStrikeAddProduct) monitorStrikeAddProduct.addEventListener('click', function () { addProductRule('strike'); });
+  if (monitorYellowAddProduct) monitorYellowAddProduct.addEventListener('click', function () { addProductRule('yellow'); });
+
+  function bindRuleGroupEvents(container, action) {
+    if (!container) return;
+    container.addEventListener('click', function (e) {
+      var btn = e.target && e.target.dataset ? e.target : null;
+      if (!btn || !btn.dataset.op) return;
+      var group = btn.closest('.rule-group');
+      if (!group) return;
+      var ruleIdx = parseInt(group.dataset.index || '0', 10);
+      if (!monitorRulesDraft) return;
+      if (btn.dataset.op === 'remove-rule') {
+        monitorRulesDraft[action + '_rules'].splice(ruleIdx, 1);
+        renderMonitorRules();
+        return;
+      }
+      if (btn.dataset.op === 'add-cond') {
+        monitorRulesDraft[action + '_rules'][ruleIdx].conditions.push({ metric: '当周周安装', op: '>', value: 0 });
+        renderMonitorRules();
+        return;
+      }
+      if (btn.dataset.op === 'remove-cond') {
+        var condRow = btn.closest('.rule-condition');
+        var condIdx = condRow ? parseInt(condRow.dataset.condIndex || '0', 10) : -1;
+        if (condIdx >= 0) {
+          monitorRulesDraft[action + '_rules'][ruleIdx].conditions.splice(condIdx, 1);
+          renderMonitorRules();
+        }
+      }
+    });
+    container.addEventListener('change', function (e) {
+      var target = e.target;
+      var group = target.closest('.rule-group');
+      var condRow = target.closest('.rule-condition');
+      if (!group || !condRow) return;
+      var ruleIdx = parseInt(group.dataset.index || '0', 10);
+      var condIdx = parseInt(condRow.dataset.condIndex || '0', 10);
+      if (target.classList.contains('rule-metric')) updateRuleCondition(action, ruleIdx, condIdx, 'metric', target.value);
+      if (target.classList.contains('rule-operator')) updateRuleCondition(action, ruleIdx, condIdx, 'op', target.value);
+      if (target.classList.contains('rule-value')) updateRuleCondition(action, ruleIdx, condIdx, 'value', target.value === '' ? '' : Number(target.value));
+    });
+    container.addEventListener('change', function (e) {
+      var target = e.target;
+      if (!target.classList.contains('rule-join')) return;
+      var group = target.closest('.rule-group');
+      if (!group) return;
+      var ruleIdx = parseInt(group.dataset.index || '0', 10);
+      updateRuleJoin(action, ruleIdx, target.value);
+    });
+  }
+
+  function bindProductRuleEvents(container, action) {
+    if (!container) return;
+    container.addEventListener('click', function (e) {
+      var btn = e.target && e.target.dataset ? e.target : null;
+      if (!btn || btn.dataset.op !== 'remove-product') return;
+      var row = btn.closest('.rule-product-item');
+      if (!row) return;
+      var idx = parseInt(row.dataset.index || '0', 10);
+      if (!monitorRulesDraft) return;
+      monitorRulesDraft.product_rules[action].splice(idx, 1);
+      renderMonitorRules();
+    });
+    container.addEventListener('change', function (e) {
+      var target = e.target;
+      var row = target.closest('.rule-product-item');
+      if (!row) return;
+      var idx = parseInt(row.dataset.index || '0', 10);
+      if (target.tagName === 'SELECT') updateProductRule(action, idx, 'by', target.value);
+      if (target.tagName === 'INPUT') updateProductRule(action, idx, 'value', target.value || '');
+    });
+    container.addEventListener('input', function (e) {
+      var target = e.target;
+      var row = target.closest('.rule-product-item');
+      if (!row) return;
+      var idx = parseInt(row.dataset.index || '0', 10);
+      if (target.tagName === 'INPUT') updateProductRule(action, idx, 'value', target.value || '');
+    });
+  }
+
+  bindRuleGroupEvents(monitorDeleteRules, 'delete');
+  bindRuleGroupEvents(monitorStrikeRules, 'strike');
+  bindRuleGroupEvents(monitorYellowRules, 'yellow');
+  bindProductRuleEvents(monitorDeleteProducts, 'delete');
+  bindProductRuleEvents(monitorStrikeProducts, 'strike');
+  bindProductRuleEvents(monitorYellowProducts, 'yellow');
+  document.querySelectorAll('.panel-refresh-btn').forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      refreshCurrentView();
+    });
+  });
 
   if (productSelect) productSelect.addEventListener('change', function () {
     if (currentDimension === 'product' && currentYear && currentWeek) loadProductWeek(currentYear, currentWeek);
@@ -2985,13 +4107,8 @@
       r.region || '',
       (r.tags || '').replace(/"/g, '""')
     ]);
-    const csv = '\uFEFF' + headers.join(',') + '\n' + rows.map(row => row.map(c => (c.includes(',') || c.includes('"') || c.includes('\n') ? '"' + c + '"' : c)).join(',')).join('\n');
-    const blob = new Blob([csv], { type: 'text/csv;charset=utf-8' });
-    const a = document.createElement('a');
-    a.href = URL.createObjectURL(blob);
-    a.download = (currentYear || '') + '_' + (currentWeek || '') + '_素材维度.csv';
-    a.click();
-    URL.revokeObjectURL(a.href);
+    const filename = (currentYear || '') + '_' + (currentWeek || '') + '_素材维度.xlsx';
+    downloadXlsxWithPrompt(filename, headers, rows);
   });
 
   if (tableBody) tableBody.addEventListener('click', function (e) {
@@ -3015,10 +4132,6 @@
       return;
     }
     var tr = start && start.closest ? start.closest('tr') : null;
-    if (tr && tr.classList.contains('target-product-row') && tr.dataset.product) {
-      e.preventDefault();
-      openCreative(tr.dataset.product);
-    }
   });
 
   document.querySelectorAll('.top-nav-link').forEach(link => {
@@ -3027,6 +4140,15 @@
       goToDimension(this.dataset.dim);
     });
   });
+
+  if (manualDocList) {
+    manualDocList.addEventListener('click', function (e) {
+      var link = e.target && e.target.closest ? e.target.closest('a.sidebar-table-link') : null;
+      if (!link || !link.dataset.file) return;
+      e.preventDefault();
+      loadManualDoc(link.dataset.file);
+    });
+  }
 
   // 唯一驱动：浏览器前进/后退或程序 setRoute 后由 hash 驱动；仅当维度变化时应用，避免重复执行
   window.addEventListener('hashchange', function () {
@@ -3101,8 +4223,8 @@
   var btnProductDetailToCreative = document.getElementById('btnProductDetailToCreative');
   if (btnProductDetailToCreative) {
     btnProductDetailToCreative.addEventListener('click', function () {
-      if (selectedProductForDetail && selectedProductForDetail.name) {
-        openCreative(selectedProductForDetail.name, selectedProductForDetail.key);
+      if (selectedProductForDetail && (selectedProductForDetail.unifiedId || selectedProductForDetail.name)) {
+        openCreative(selectedProductForDetail.unifiedId || selectedProductForDetail.name, selectedProductForDetail.key);
       }
     });
   }
@@ -3119,6 +4241,14 @@
         this.classList.add('active');
         if (currentDimension === 'company') showCompanySubTabContent();
       });
+    });
+  }
+
+  var productDetailCompanyEl = document.getElementById('productDetailCompany');
+  if (productDetailCompanyEl) {
+    productDetailCompanyEl.addEventListener('click', function () {
+      var company = (productDetailCompanyEl.dataset && productDetailCompanyEl.dataset.company) ? productDetailCompanyEl.dataset.company.trim() : '';
+      if (company) openCompanyDetail(company);
     });
   }
 
@@ -3281,7 +4411,9 @@
   var maintenancePhase2_1Form = document.getElementById('maintenancePhase2_1Form');
   var maintenancePhase2_1Submit = document.getElementById('maintenancePhase2_1Submit');
   var maintenancePhase2_1Status = document.getElementById('maintenancePhase2_1Status');
-  var MAINTENANCE_API_CONFIRM_MSG = '⚠️ API 限额为 3000 次/每月，请谨慎使用！\n\n确认要执行本次拉取吗？';
+  function getMaintenanceConfirmMsg() {
+    return getApiConfirmMessage();
+  }
   if (maintenancePhase2_1Form && maintenancePhase2_1Status) {
     maintenancePhase2_1Form.addEventListener('submit', function (e) {
       e.preventDefault();
@@ -3307,7 +4439,7 @@
         maintenancePhase2_1Status.className = 'maintenance-status-inline err';
         return;
       }
-      if (!window.confirm('【2.1 步】' + MAINTENANCE_API_CONFIRM_MSG)) {
+      if (!window.confirm('【2.1 步】' + getMaintenanceConfirmMsg())) {
         return;
       }
       if (maintenancePhase2_1Submit) {
@@ -3332,6 +4464,7 @@
           maintenancePhase2_1Status.textContent = data.message || '2.1 步执行完成，分地区数据已更新。';
           maintenancePhase2_1Status.className = 'maintenance-status-inline ok';
           if (typeof loadWeeksIndex === 'function') loadWeeksIndex();
+          if (typeof loadApiManagement === 'function') loadApiManagement();
         })
         .catch(function (err) {
           maintenancePhase2_1Status.textContent = err.message || '请求失败，请确认后端已启动（' + MAINTENANCE_PHASE2_1_URL + '）';
@@ -3377,7 +4510,7 @@
         maintenancePhase2_2Status.className = 'maintenance-status-inline err';
         return;
       }
-      if (!window.confirm('【2.2 步】' + MAINTENANCE_API_CONFIRM_MSG)) {
+      if (!window.confirm('【2.2 步】' + getMaintenanceConfirmMsg())) {
         return;
       }
       if (maintenancePhase2_2Submit) {
@@ -3402,6 +4535,7 @@
           maintenancePhase2_2Status.textContent = data.message || '2.2 步执行完成，创意数据已更新。';
           maintenancePhase2_2Status.className = 'maintenance-status-inline ok';
           if (typeof loadWeeksIndex === 'function') loadWeeksIndex();
+          if (typeof loadApiManagement === 'function') loadApiManagement();
         })
         .catch(function (err) {
           maintenancePhase2_2Status.textContent = err.message || '请求失败，请确认后端已启动（' + MAINTENANCE_PHASE2_2_URL + '）';
@@ -3534,10 +4668,76 @@
     if (headerUsername) headerUsername.textContent = name ? name + ' · ' : '';
   }
 
+  function getGreetingByHour(hour) {
+    if (hour < 5) return '夜深了';
+    if (hour < 11) return '早上好';
+    if (hour < 14) return '中午好';
+    if (hour < 18) return '下午好';
+    return '晚上好';
+  }
+
+  function updateGreeting() {
+    if (!headerGreeting) return;
+    var now = new Date();
+    headerGreeting.textContent = getGreetingByHour(now.getHours());
+  }
+
+  function setNetworkStatus(isOnline, label, title) {
+    if (!networkStatus) return;
+    networkStatus.classList.toggle('online', !!isOnline);
+    networkStatus.classList.toggle('offline', !isOnline);
+    if (networkStatusText) networkStatusText.textContent = label || '';
+    if (title) networkStatus.title = title;
+    else if (label) networkStatus.title = label;
+  }
+
+  function detectNetworkStatus() {
+    if (!networkStatus) return;
+    if (typeof navigator !== 'undefined' && navigator.onLine === false) {
+      setNetworkStatus(false, '未联网', '未联网，API请求数据功能不可用');
+      return;
+    }
+    setNetworkStatus(true, '联网检测中', '正在检测网络环境');
+    var controller = typeof AbortController !== 'undefined' ? new AbortController() : null;
+    var timeoutId = controller ? window.setTimeout(function () {
+      controller.abort();
+    }, 5000) : null;
+    fetch('https://ipapi.co/json/', { cache: 'no-store', signal: controller ? controller.signal : undefined })
+      .then(function (r) { return r.ok ? r.json() : Promise.reject(new Error('geo failed')); })
+      .then(function (data) {
+        if (timeoutId) clearTimeout(timeoutId);
+        var code = data && data.country_code ? String(data.country_code).toUpperCase() : '';
+        if (code === 'CN') {
+          setNetworkStatus(true, '境内网络', '境内网络环境下API请求数据功能不稳定，建议打开VPN');
+        } else if (code) {
+          setNetworkStatus(true, '境外网络', '当前API请求数据功能可用');
+        } else {
+          setNetworkStatus(true, '已联网', '已联网，暂未识别网络环境');
+        }
+      })
+      .catch(function () {
+        if (timeoutId) clearTimeout(timeoutId);
+        setNetworkStatus(true, '已联网', '已联网，暂未识别网络环境');
+      });
+  }
+
+  function initNetworkStatus() {
+    if (networkStatusInited) return;
+    networkStatusInited = true;
+    detectNetworkStatus();
+    window.addEventListener('online', detectNetworkStatus);
+    window.addEventListener('offline', detectNetworkStatus);
+    networkStatusTimer = window.setInterval(detectNetworkStatus, 60000);
+    updateGreeting();
+    greetingTimer = window.setInterval(updateGreeting, 600000);
+  }
+
   /** forceCompany: true 表示刚登录，跳转公司维度首页；false 表示刷新/已登录，保留当前 URL hash 页面 */
   function runApp(forceCompany) {
     if (forceCompany) setRoute('company');
     hideLoginOverlay();
+    initNetworkStatus();
+    renderManualList();
     loadWeeksIndex();
   }
 
@@ -3559,6 +4759,7 @@
           if (currentUserRole !== 'super_admin' && (name === 'admin' || name.indexOf('super_admin_') === 0)) {
             currentUserRole = 'super_admin';
           }
+          currentUsername = data.username || '';
           setHeaderUsername(data.username);
           updateNavByRole();
           runApp(false);
@@ -3595,6 +4796,7 @@
             if (currentUserRole !== 'super_admin' && (name === 'admin' || name.indexOf('super_admin_') === 0)) {
               currentUserRole = 'super_admin';
             }
+            currentUsername = data.username || '';
             setHeaderUsername(data.username);
             updateNavByRole();
             runApp(true);
@@ -3699,6 +4901,61 @@
     });
   }
 
+  function updateApiUsageHint(used) {
+    apiUsageCount = (typeof used === 'number' && !Number.isNaN(used)) ? used : 0;
+    if (apiUsageHint) apiUsageHint.textContent = '当前已使用 ' + apiUsageCount + ' 次请求';
+  }
+
+  function loadApiManagement() {
+    if (!apiTokenInput && !apiUsedInput && !apiUsageHint) return;
+    fetch('/api/api_management', { credentials: 'include' })
+      .then(function (r) { return r.ok ? r.json() : null; })
+      .then(function (data) {
+        if (!data || !data.ok) return;
+        if (apiTokenInput) apiTokenInput.value = data.token || '';
+        if (apiUsedInput) apiUsedInput.value = (data.used != null) ? data.used : '';
+        updateApiUsageHint((data.used != null) ? Number(data.used) : 0);
+      })
+      .catch(function () {});
+  }
+
+  function saveApiManagement() {
+    if (!apiSaveBtn) return;
+    var tokenVal = apiTokenInput ? String(apiTokenInput.value || '') : '';
+    var usedRaw = apiUsedInput ? String(apiUsedInput.value || '').trim() : '';
+    var usedVal = usedRaw !== '' ? parseInt(usedRaw, 10) : null;
+    if (usedRaw !== '' && (Number.isNaN(usedVal) || usedVal < 0)) {
+      if (apiStatus) apiStatus.textContent = '已使用次数需为非负数字';
+      return;
+    }
+    if (apiStatus) apiStatus.textContent = '保存中...';
+    apiSaveBtn.disabled = true;
+    fetch('/api/api_management', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      credentials: 'include',
+      body: JSON.stringify({ token: tokenVal, used: usedVal })
+    })
+      .then(function (r) { return r.ok ? r.json() : null; })
+      .then(function (data) {
+        if (!data || !data.ok) {
+          if (apiStatus) apiStatus.textContent = '保存失败';
+          return;
+        }
+        if (apiStatus) apiStatus.textContent = '已保存';
+        if (apiTokenInput) apiTokenInput.value = data.token || '';
+        if (apiUsedInput) apiUsedInput.value = (data.used != null) ? data.used : '';
+        updateApiUsageHint((data.used != null) ? Number(data.used) : 0);
+      })
+      .catch(function () { if (apiStatus) apiStatus.textContent = '保存失败'; })
+      .finally(function () { apiSaveBtn.disabled = false; });
+  }
+
+  function getApiConfirmMessage() {
+    var usedText = (apiUsageCount != null) ? ('当前已使用 ' + apiUsageCount + ' 次') : '当前已使用次数未知';
+    return '⚠️ API 限额为 3000 次/每月，请谨慎使用！\n' + usedText + '\n\n确认要执行本次拉取吗？';
+  }
+
   function renderAdvancedQueryResult(headers, rows) {
     advancedQueryLastResult = headers && rows ? { headers: headers, rows: rows } : null;
     if (!advancedQueryResultHead || !advancedQueryResultBody) return;
@@ -3799,7 +5056,7 @@
         var msg = (err && err.message) ? err.message : '加载失败';
         var hint = '';
         if (msg.indexOf('高级查询需启用 MySQL') !== -1) {
-          hint = '请按以下步骤操作：<br>1. 设置环境变量 USE_MYSQL=1<br>2. 启动 MySQL 并导入 backend/db/schema.sql<br>3. 启动时传入 MYSQL_USER、MYSQL_PASSWORD、MYSQL_DATABASE<br>4. 重启 start_server.py<br>详见 docs/高级查询启用MySQL步骤.md';
+          hint = '请按以下步骤操作：<br>1. 设置环境变量 USE_MYSQL=1<br>2. 启动 MySQL 并导入 backend/db/schema.sql<br>3. 启动时传入 MYSQL_USER、MYSQL_PASSWORD、MYSQL_DATABASE<br>4. 重启 server/start_server.py<br>详见 docs/高级查询启用MySQL步骤.md';
         } else {
           hint = msg;
         }
@@ -3854,12 +5111,67 @@
           var tdName = document.createElement('td');
           tdName.textContent = username;
           var tdRole = document.createElement('td');
-          tdRole.textContent = (u.role || 'user') === 'super_admin' ? '超级管理员' : '普通用户';
+          var isSuperAdmin = (u.role || 'user') === 'super_admin';
+          tdRole.textContent = isSuperAdmin ? '超级管理员' : '普通用户';
           var tdStatus = document.createElement('td');
           tdStatus.textContent = (u.status || 'approved') === 'approved' ? '已通过' : (u.status || '—');
+          var tdAction = document.createElement('td');
+          var actionWrap = document.createElement('div');
+          actionWrap.style.display = 'flex';
+          actionWrap.style.gap = '6px';
+          if (!isSuperAdmin) {
+            var promoteBtn = document.createElement('button');
+            promoteBtn.type = 'button';
+            promoteBtn.className = 'btn-approve';
+            promoteBtn.textContent = '升级为超级管理员';
+            promoteBtn.dataset.username = username;
+            promoteBtn.addEventListener('click', function () {
+              if (!window.confirm('确认将用户【' + username + '】升级为超级管理员？')) return;
+              promoteBtn.disabled = true;
+              fetch('/api/auth/promote', {
+                method: 'POST',
+                credentials: 'include',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ username: username })
+              })
+                .then(function (res) { return res.json(); })
+                .then(function (result) {
+                  if (result && result.ok) loadApprovalExistingUsers();
+                  else { promoteBtn.disabled = false; if (result && result.message) alert(result.message); }
+                })
+                .catch(function () { promoteBtn.disabled = false; });
+            });
+            actionWrap.appendChild(promoteBtn);
+          }
+          var deleteBtn = document.createElement('button');
+          deleteBtn.type = 'button';
+          deleteBtn.className = 'btn-approve';
+          deleteBtn.textContent = '删除用户';
+          if (currentUsername && currentUsername === username) {
+            deleteBtn.disabled = true;
+          }
+          deleteBtn.addEventListener('click', function () {
+            if (!window.confirm('确认删除用户【' + username + '】？该操作不可恢复。')) return;
+            deleteBtn.disabled = true;
+            fetch('/api/auth/delete', {
+              method: 'POST',
+              credentials: 'include',
+              headers: { 'Content-Type': 'application/json' },
+              body: JSON.stringify({ username: username })
+            })
+              .then(function (res) { return res.json(); })
+              .then(function (result) {
+                if (result && result.ok) loadApprovalExistingUsers();
+                else { deleteBtn.disabled = false; if (result && result.message) alert(result.message); }
+              })
+              .catch(function () { deleteBtn.disabled = false; });
+          });
+          actionWrap.appendChild(deleteBtn);
+          tdAction.appendChild(actionWrap);
           tr.appendChild(tdName);
           tr.appendChild(tdRole);
           tr.appendChild(tdStatus);
+          tr.appendChild(tdAction);
           bodyEl.appendChild(tr);
         });
       })
@@ -3955,7 +5267,7 @@
         alert('当前产品无 Unified ID，无法执行单产品拉取。');
         return;
       }
-      if (!window.confirm('【' + stepLabel + '】' + MAINTENANCE_API_CONFIRM_MSG + '\n将对该产品（Unified ID: ' + uid + '）及所选周期 ' + year + '年 ' + week + ' 执行一次拉取。')) return;
+      if (!window.confirm('【' + stepLabel + '】' + getMaintenanceConfirmMsg() + '\n将对该产品（Unified ID: ' + uid + '）及所选周期 ' + year + '年 ' + week + ' 执行一次拉取。')) return;
       var origText = (url === MAINTENANCE_PHASE2_1_URL ? btn2_1 : btn2_2).textContent;
       if (url === MAINTENANCE_PHASE2_1_URL && btn2_1) { btn2_1.disabled = true; btn2_1.textContent = '拉取中…'; }
       if (url === MAINTENANCE_PHASE2_2_URL && btn2_2) { btn2_2.disabled = true; btn2_2.textContent = '拉取中…'; }
@@ -3971,6 +5283,7 @@
           if (data.ok) {
             if (typeof loadWeeksIndex === 'function') loadWeeksIndex();
             if (currentDimension === 'product-detail' && typeof loadProductDetail === 'function') loadProductDetail();
+            if (typeof loadApiManagement === 'function') loadApiManagement();
           }
         })
         .catch(function (err) {
@@ -4075,20 +5388,15 @@
         }
         var headers = advancedQueryLastResult.headers;
         var rows = advancedQueryLastResult.rows;
-        var csv = headers.map(function (h) { return '"' + String(h).replace(/"/g, '""') + '"'; }).join(',') + '\n';
-        rows.forEach(function (row) {
-          csv += headers.map(function (_, i) {
-            var v = row && row[i];
-            return '"' + String(v != null ? v : '').replace(/"/g, '""') + '"';
-          }).join(',') + '\n';
-        });
-        var blob = new Blob(['\ufeff' + csv], { type: 'text/csv;charset=utf-8' });
-        var url = URL.createObjectURL(blob);
-        var a = document.createElement('a');
-        a.href = url;
-        a.download = 'advanced_query_result.csv';
-        a.click();
-        URL.revokeObjectURL(url);
+        downloadXlsxWithPrompt('advanced_query_result.xlsx', headers, rows);
+      });
+    }
+  }
+
+  function bindApiManagementPanel() {
+    if (apiSaveBtn) {
+      apiSaveBtn.addEventListener('click', function () {
+        saveApiManagement();
       });
     }
   }
@@ -4104,6 +5412,7 @@
     bindProductDetailUnifiedIdCopy();
     bindProductDetailSinglePull();
     bindProductDetailPinAndRefresh();
+    bindApiManagementPanel();
     bindAdvancedQueryPanel();
   }
   if (document.readyState === 'loading') {

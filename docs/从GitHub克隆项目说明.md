@@ -88,7 +88,7 @@ echo "你的Token字符串" > request/token.txt
 在项目根目录执行：
 
 ```bash
-python start_server.py
+python server/start_server.py
 ```
 
 浏览器访问：**http://localhost:8000/frontend/**  
@@ -100,7 +100,7 @@ python start_server.py
 需确保 **raw_csv/** 下已有对应周的数据，例如：
 
 ```bash
-python run_full_pipeline.py --year 2026 --week 0119-0125
+python pipeline/run_full_pipeline.py --year 2026 --week 0119-0125
 ```
 
 默认会执行：步骤 1（数据监测表）、步骤 2（目标产品）、步骤 5（前端更新）。  
@@ -112,7 +112,7 @@ python run_full_pipeline.py --year 2026 --week 0119-0125
 
 ```bash
 # 示例：拉取地区数据 + 广告创意（需先有 target 表，即至少跑过步骤 1+2）
-python run_full_pipeline.py --year 2026 --week 0119-0125 --steps 1,2 --api country,creatives --limit top5
+python pipeline/run_full_pipeline.py --year 2026 --week 0119-0125 --steps 1,2 --api country,creatives --limit top5
 ```
 
 详见 **README.md** 与 **docs/Sensor_Tower_API使用文档.md**。
@@ -125,8 +125,8 @@ python run_full_pipeline.py --year 2026 --week 0119-0125 --steps 1,2 --api count
 
 | 目录 | 说明 |
 |------|------|
-| **run_full_pipeline.py** | 一键流程入口（数据监测表 → 目标产品 → 可选 API → 前端更新） |
-| **start_server.py** | 启动前端静态服务 |
+| **pipeline/run_full_pipeline.py** | 一键流程入口（数据监测表 → 目标产品 → 可选 API → 前端更新） |
+| **server/start_server.py** | 启动前端静态服务 |
 | **raw_csv/** | 原始 CSV（按年/周），需自行准备或从同事处获取 |
 | **mapping/** | 映射表（产品归属、公司归属、市场 T 度等） |
 | **request/** | API 脚本；**request/token.txt** 需本地新建并填入 Token |
@@ -141,10 +141,10 @@ python run_full_pipeline.py --year 2026 --week 0119-0125 --steps 1,2 --api count
 
 | 问题 | 处理 |
 |------|------|
-| 端口 8000 已被占用 | 服务会自动尝试 8001；或手动指定：`python start_server.py --port 8001` |
+| 端口 8000 已被占用 | 服务会自动尝试 8001；或手动指定：`python server/start_server.py --port 8001` |
 | 提示未找到 `request/token.txt` | 仅在使用地区/创意 API 时需要；不用 API 可跳过；若要用，请按上文「必要配置」创建并填入 Token |
 | 克隆后没有 raw_csv 或没有某周数据 | 若仓库未包含这些数据，需从内网或同事处拷贝到对应 `raw_csv/{年}/{周}/` 下 |
-| 前端打开是空白或没有周选项 | 先跑一次 `run_full_pipeline.py --year ... --week ...`（至少步骤 1,2,5），生成 `frontend/data/weeks_index.json` 与各周数据 |
+| 前端打开是空白或没有周选项 | 先跑一次 `pipeline/run_full_pipeline.py --year ... --week ...`（至少步骤 1,2,5），生成 `frontend/data/weeks_index.json` 与各周数据 |
 
 ---
 

@@ -44,6 +44,11 @@
   <header class="header">
     <span class="logo">SLG竞对数据监测系统</span>
     <span class="header-right">
+      <span id="networkStatus" class="network-status offline" title="未联网，API请求数据功能不可用">
+        <span class="network-dot"></span>
+        <span id="networkStatusText" class="network-text">未联网</span>
+      </span>
+      <span id="headerGreeting" class="header-greeting"></span>
       <span id="headerUsername" class="header-username"></span>
       <button type="button" id="btnLogout" class="btn-logout">退出</button>
     </span>
@@ -53,11 +58,11 @@
     <a href="#" class="top-nav-link active" data-dim="company">公司维度</a>
     <a href="#" class="top-nav-link" data-dim="product">产品维度</a>
     <a href="#" class="top-nav-link" data-dim="creative">素材维度</a>
-    <a href="#" class="top-nav-link" data-dim="combo">组合分析</a>
     <a href="#" class="top-nav-link" data-dim="basetable">数据底表</a>
     <a href="#" class="top-nav-link nav-admin-only" data-dim="maintenance" style="display:none;">数据维护</a>
     <a href="#" class="top-nav-link nav-admin-only" data-dim="approval" style="display:none;">用户管理</a>
-    <a href="#" class="top-nav-link nav-admin-only" data-dim="advanced_query" style="display:none;">高级查询</a>
+    <a href="#" class="top-nav-link nav-admin-only" data-dim="advanced_query" style="display:none;">API管理</a>
+    <a href="#" class="top-nav-link" data-dim="manual">使用说明</a>
   </nav>
 
   <div id="layout" class="layout">
@@ -74,11 +79,16 @@
         <div class="sidebar-year-title">数据库表</div>
         <ul id="advancedQueryTableList" class="sidebar-week-list"></ul>
       </div>
+      <div id="sidebarManualList" class="sidebar-advanced-tables" style="display:none;">
+        <div class="sidebar-year-title">使用说明</div>
+        <ul id="manualDocList" class="sidebar-week-list"></ul>
+      </div>
     </aside>
 
     <main class="main">
       <!-- 公司维度：大盘数据 + 详细数据（样式与公司详细信息看板统一） -->
       <div id="panelCompany" class="main-panel">
+        <button type="button" class="panel-refresh-btn" title="刷新">刷新</button>
         <h1 class="main-title" id="mainTitle">请从左侧选择周期</h1>
         <nav class="company-detail-sub-nav" id="companyHomeSubNav">
           <a href="#" class="company-detail-sub-link active" data-tab="overall">大盘数据</a>
@@ -88,8 +98,8 @@
           <div class="toolbar">
             <label class="search-label">搜索:</label>
             <input type="text" id="searchInput" class="search-input" placeholder="搜索表格内容...">
-            <button type="button" class="btn-download" id="btnDownload">下载表格</button>
             <button type="button" class="btn-download" id="btnDownloadMonitorTable">下载数据监测表</button>
+            <button type="button" class="btn-download nav-admin-only" id="btnMonitorRules" style="display:none;">设定数据监测表规则</button>
           </div>
         </div>
         <div id="companyHomeDetailPlaceholder" class="company-home-detail-placeholder" style="display:none;">
@@ -100,6 +110,7 @@
 
       <!-- 公司详细信息看板（从公司维度大盘数据点击公司归属进入） -->
       <div id="panelCompanyDetail" class="main-panel" style="display:none;">
+        <button type="button" class="panel-refresh-btn" title="刷新">刷新</button>
         <h1 class="main-title" id="companyDetailTitle">公司详细信息</h1>
         <nav class="company-detail-sub-nav" id="companyDetailSubNav">
           <a href="#" class="company-detail-sub-link" data-tab="market">大盘数据</a>
@@ -117,17 +128,23 @@
         </div>
         <div class="product-detail-trend">
           <h2 class="product-detail-section-title">公司产品汇总</h2>
-          <p id="companyDetailTableDateRange" class="product-detail-desc">20xx年-xx月-xx日 ~ 20xx年-xx月-xx日</p>
+          <div class="detail-table-toolbar">
+            <p id="companyDetailTableDateRange" class="product-detail-desc">20xx年-xx月-xx日 ~ 20xx年-xx月-xx日</p>
+            <button type="button" id="btnCompanyDetailDownload" class="btn-download">下载表格</button>
+          </div>
           <div class="company-product-table-wrap">
             <table class="data-table company-product-table">
-              <thead><tr><th data-col="0" class="sortable">产品名</th><th data-col="1" class="sortable">上线时间</th><th data-col="2" class="sortable">最新周安装</th><th data-col="3" class="sortable">周安装变动（最新周）</th><th data-col="4" class="sortable">最新周流水</th><th data-col="5" class="sortable">周流水变动（最新周）</th></tr></thead>
+              <thead><tr><th data-col="0" class="sortable">产品名</th><th data-col="1" class="sortable">上线时间</th><th data-col="2" class="sortable">当周周安装</th><th data-col="3" class="sortable">周安装变动（最新周）</th><th data-col="4" class="sortable">当周周流水</th><th data-col="5" class="sortable">周流水变动（最新周）</th></tr></thead>
               <tbody id="companyDetailProductBody"></tbody>
             </table>
           </div>
         </div>
         <div class="product-detail-trend">
           <h2 class="product-detail-section-title">公司数据趋势</h2>
-          <p class="product-detail-desc">折线图：各周产品按公司聚合的当周周安装；堆叠柱状图：各产品在当周周安装的占额</p>
+          <div class="detail-table-toolbar">
+            <p class="product-detail-desc">折线图：各周产品按公司聚合的当周周安装；堆叠柱状图：各产品在当周周安装的占额</p>
+            <button type="button" id="btnCompanyTrendDownload" class="btn-download">下载表格</button>
+          </div>
           <div class="product-detail-trend-charts">
             <div class="product-detail-trend-chart-wrap">
               <p class="product-detail-desc">当周周安装（公司汇总，折线图）</p>
@@ -157,6 +174,7 @@
 
       <!-- 产品维度：大盘数据 / 上线新游 / 详细数据，与公司维度布局统一 -->
       <div id="panelProduct" class="main-panel" style="display:none;">
+        <button type="button" class="panel-refresh-btn" title="刷新">刷新</button>
         <h1 class="main-title" id="productTitle">请从左侧选择周期</h1>
         <nav class="company-detail-sub-nav" id="productHomeSubNav">
           <a href="#" class="company-detail-sub-link active" data-tab="overall">大盘数据</a>
@@ -174,7 +192,10 @@
           <label class="search-label">搜索:</label>
           <input type="text" id="productSearchInput" class="search-input" placeholder="搜索表格内容...">
           <button type="button" class="btn-download" id="btnProductDownload">下载表格</button>
+          <button type="button" class="btn-download" id="btnProductPullCountry">拉取产品分地区获量数据</button>
+          <button type="button" class="btn-download" id="btnProductPullCreative">拉取产品分地区创意数据</button>
         </div>
+        <p id="productOverallNote" class="product-detail-desc" style="margin-top:6px;">该页面展示数据监测表中的标黄项。</p>
         <div id="productNewGameWrap" class="product-newgame-wrap" style="display:none;">
           <div class="product-toolbar product-newgame-toolbar">
             <label class="search-label">搜索:</label>
@@ -202,6 +223,7 @@
 
       <!-- 产品详细信息看板（与产品维度首页导航统一：大盘数据 | 上线新游 | 详细数据） -->
       <div id="panelProductDetail" class="main-panel" style="display:none;">
+        <button type="button" class="panel-refresh-btn" title="刷新">刷新</button>
         <h1 class="main-title" id="productDetailTitle">产品详细信息</h1>
         <nav class="product-detail-sub-nav" id="productDetailSubNav">
           <a href="#" class="product-detail-sub-link" data-tab="market">大盘数据</a>
@@ -233,8 +255,8 @@
           </div>
           <div class="product-detail-single-pull" id="productDetailSinglePullWrap" style="display:none;">
             <span class="product-detail-desc">按当前产品 Unified ID 与所选周期执行一次拉取：</span>
-            <button type="button" id="productDetailPull2_1" class="btn-download btn-pull-single">拉取该产品 2.1 步</button>
-            <button type="button" id="productDetailPull2_2" class="btn-download btn-pull-single">拉取该产品 2.2 步</button>
+            <button type="button" id="productDetailPull2_1" class="btn-download btn-pull-single">拉取该产品分地区获量数据</button>
+            <button type="button" id="productDetailPull2_2" class="btn-download btn-pull-single">拉取该产品分地区创意数据</button>
           </div>
         </div>
         <div class="product-detail-metrics">
@@ -249,7 +271,10 @@
         </div>
         <div class="product-detail-trend">
           <h2 class="product-detail-section-title">产品数据趋势</h2>
-          <p class="product-detail-desc">总时间线（周维度）安装变化和分地区获量情况。折线图（当周周安装）+ 累计叠加柱状图（各市场获量）</p>
+          <div class="detail-table-toolbar">
+            <p class="product-detail-desc">总时间线（周维度）安装变化和分地区获量情况。折线图（当周周安装）+ 累计叠加柱状图（各市场获量）</p>
+            <button type="button" id="btnProductDetailTrendDownload" class="btn-download">下载表格</button>
+          </div>
           <div class="product-detail-trend-charts">
             <div class="product-detail-trend-chart-wrap">
               <p class="product-detail-desc">当周周安装（折线图）</p>
@@ -283,6 +308,7 @@
 
       <!-- 素材维度：广告创意与视频 -->
       <div id="panelCreative" class="main-panel" style="display:none;">
+        <button type="button" class="panel-refresh-btn" title="刷新">刷新</button>
         <h1 class="main-title" id="creativeTitle">请从左侧选择周期</h1>
         <p id="creativePeriodHint" class="creative-period-hint" style="display:none;"></p>
         <div class="creative-toolbar">
@@ -332,6 +358,7 @@
 
       <!-- 组合分析：每周趋势（静态展示） -->
       <div id="panelCombo" class="main-panel" style="display:none;">
+        <button type="button" class="panel-refresh-btn" title="刷新">刷新</button>
         <h1 class="main-title" id="comboTitle">请从左侧选择周期</h1>
         <div id="comboDeveloping" class="combo-developing" style="display:none;">功能开发中</div>
         <div class="combo-toolbar">
@@ -395,11 +422,13 @@
 
       <!-- 数据底表：侧边栏仍为时间，左侧子导航为各底表，主区展示表格 -->
       <div id="panelBasetable" class="main-panel" style="display:none;">
+        <button type="button" class="panel-refresh-btn" title="刷新">刷新</button>
         <h1 class="main-title" id="basetableTitle">数据底表</h1>
         <nav class="company-detail-sub-nav" id="basetableSubNav">
           <a href="#" class="company-detail-sub-link" data-tab="metrics_total">产品总表</a>
           <a href="#" class="company-detail-sub-link" data-tab="product_mapping">产品归属表</a>
           <a href="#" class="company-detail-sub-link" data-tab="company_mapping">公司归属表</a>
+          <a href="#" class="company-detail-sub-link" data-tab="region_t_mapping">各地区市场T度映射表</a>
           <a href="#" class="company-detail-sub-link" data-tab="new_products">新产品监测表</a>
           <a href="#" class="company-detail-sub-link" data-tab="theme_label">题材标签表</a>
           <a href="#" class="company-detail-sub-link" data-tab="gameplay_label">玩法标签表</a>
@@ -409,11 +438,15 @@
         <div id="basetableMetricsToolbar" class="product-toolbar product-newgame-toolbar" style="display:none;">
           <label class="search-label">搜索:</label>
           <input type="text" id="basetableMetricsSearch" class="search-input" placeholder="输入关键词搜索产品总表…">
+          <button type="button" class="btn-download" id="basetableMetricsDownloadBtn">下载表格</button>
+          <button type="button" class="btn-download" id="basetableMetricsUpdateBtn">更新表格</button>
           <span id="basetableMetricsHint" class="product-period" style="margin-left:0.5rem;"></span>
         </div>
         <div id="basetableOtherToolbar" class="product-toolbar product-newgame-toolbar" style="display:none;">
           <label class="search-label">搜索:</label>
           <input type="text" id="basetableOtherSearch" class="search-input" placeholder="输入关键词筛选当前表格…">
+          <button type="button" class="btn-download" id="basetableOtherDownloadBtn">下载表格</button>
+          <button type="button" class="btn-download" id="basetableOtherUpdateBtn">更新表格</button>
           <span id="basetableOtherHint" class="product-period" style="margin-left:0.5rem;"></span>
         </div>
         <div id="basetableEmpty" class="company-home-detail-placeholder" style="display:none;">
@@ -427,8 +460,18 @@
         </div>
       </div>
 
+      <!-- 使用说明：左侧目录，右侧渲染 Markdown -->
+      <div id="panelManual" class="main-panel manual-panel" style="display:none;">
+        <button type="button" class="panel-refresh-btn" title="刷新">刷新</button>
+        <h1 class="main-title" id="manualTitle">使用说明</h1>
+        <div id="manualContent" class="manual-content">
+          <p class="product-detail-desc">请从左侧选择说明文档</p>
+        </div>
+      </div>
+
       <!-- 用户管理：超级管理员可见，侧栏「待审批用户」/「现有用户」 -->
       <div id="panelApproval" class="main-panel approval-panel" style="display:none;">
+        <button type="button" class="panel-refresh-btn" title="刷新">刷新</button>
         <h1 class="main-title">用户管理</h1>
         <div id="approvalViewPending" class="approval-view">
           <p class="product-detail-desc">审批通过后，用户方可登录系统。</p>
@@ -451,37 +494,36 @@
           <div id="approvalExistingWrap" class="approval-list-wrap">
             <p id="approvalExistingEmpty" class="approval-empty">暂无用户</p>
             <table class="data-table approval-table" id="approvalExistingTable" style="display:none;">
-              <thead><tr><th>用户名</th><th>角色</th><th>状态</th></tr></thead>
+              <thead><tr><th>用户名</th><th>角色</th><th>状态</th><th>操作</th></tr></thead>
               <tbody id="approvalExistingTableBody"></tbody>
             </table>
           </div>
         </div>
       </div>
 
-      <!-- 高级查询：侧边栏为表列表，主区 SQL 输入 + 结果表 + 下载 -->
-      <div id="panelAdvancedQuery" class="main-panel advanced-query-panel" style="display:none;">
-        <h1 class="main-title">高级查询</h1>
-        <p class="product-detail-desc">左侧选择表可查看表结构及部分数据；下方输入 SQL 执行增删改查，结果支持下载。</p>
-        <div class="advanced-query-sql-wrap">
-          <label class="search-label">SQL：</label>
-          <textarea id="advancedQuerySql" class="advanced-query-sql" rows="4" placeholder="输入 SELECT / INSERT / UPDATE / DELETE 等语句…"></textarea>
-          <div class="advanced-query-toolbar">
-            <button type="button" id="advancedQueryRunBtn" class="btn-download">执行</button>
-            <button type="button" id="advancedQueryDownloadBtn" class="btn-download">下载表格</button>
-            <span id="advancedQueryStatus" class="advanced-query-status"></span>
+      <!-- API 管理：填写 Token 与已使用请求数 -->
+      <div id="panelAdvancedQuery" class="main-panel api-management-panel" style="display:none;">
+        <button type="button" class="panel-refresh-btn" title="刷新">刷新</button>
+        <h1 class="main-title">API管理</h1>
+        <p class="product-detail-desc">填写 API Token 会覆盖 request/token.txt；使用次数会在每次 API 拉取时自动累计。</p>
+        <div class="api-management-form">
+          <label class="search-label" for="apiTokenInput">API Token：</label>
+          <textarea id="apiTokenInput" class="advanced-query-sql" rows="3" placeholder="粘贴 API Token"></textarea>
+          <div class="api-management-row">
+            <label class="search-label" for="apiUsedInput">已使用请求数：</label>
+            <input type="number" id="apiUsedInput" class="search-input" min="0" placeholder="例如 1200">
           </div>
+          <div class="advanced-query-toolbar">
+            <button type="button" id="apiSaveBtn" class="btn-download">保存设置</button>
+            <span id="apiStatus" class="advanced-query-status"></span>
+          </div>
+          <div id="apiUsageHint" class="api-usage-hint"></div>
         </div>
-        <div id="advancedQueryResultWrap" class="table-wrap">
-          <table class="data-table" id="advancedQueryResultTable">
-            <thead id="advancedQueryResultHead"></thead>
-            <tbody id="advancedQueryResultBody"></tbody>
-          </table>
-        </div>
-        <div id="advancedQueryEmpty" class="product-newgame-empty" style="display:none;">执行 SQL 或点击左侧表名查看数据</div>
       </div>
 
       <!-- 数据维护：大卡片功能入口，无侧边栏 -->
       <div id="panelMaintenance" class="main-panel maintenance-panel" style="display:none;">
+        <button type="button" class="panel-refresh-btn" title="刷新">刷新</button>
         <h1 class="main-title">数据维护</h1>
         <p class="product-detail-desc maintenance-desc">选择下方功能卡片，上传数据并由后端处理，完成前端数据更新。</p>
         <div class="maintenance-cards">
@@ -633,9 +675,10 @@
               </div>
             </form>
           </div>
-          <div class="maintenance-card" id="maintenanceCardMappingUpdate">
+          <div class="maintenance-card deprecated" id="maintenanceCardMappingUpdate">
             <h2 class="maintenance-card-title">产品/公司归属表更新</h2>
             <p class="maintenance-card-desc">上传包含必填列的产品归属表 Excel（.xlsx），系统将合并进 mapping 总表，用于与总表匹配及监测/目标产品。必填列：产品名（实时更新中）、Unified ID、产品归属、题材、画风、发行商；公司归属可选，缺则按发行商在公司归属表中查找补全。合成表包含 7 列；若已有行与上传行任一一列不同则用上传行更新。</p>
+            <p class="maintenance-card-moved">功能已转移至【数据底表】-【产品归属表】-【更新表格】</p>
             <form id="maintenanceMappingUpdateForm" class="maintenance-card-form">
               <div class="maintenance-field">
                 <label class="maintenance-label">选择 Excel 文件（.xlsx）</label>
@@ -651,9 +694,10 @@
               </div>
             </form>
           </div>
-          <div class="maintenance-card" id="maintenanceCardNewProducts">
+          <div class="maintenance-card deprecated" id="maintenanceCardNewProducts">
             <h2 class="maintenance-card-title">新产品监测表</h2>
             <p class="maintenance-card-desc">上传新产品监测表 Excel（.xlsx），保存到 newproducts/ 并生成 frontend/data/new_products.json，供【产品维度】-【上线新游】页面展示。建议列：产品名（实时更新中）、产品归属、题材、画风、发行商、公司归属、开测时间、是否下架。</p>
+            <p class="maintenance-card-moved">功能已转移至【数据底表】-【新产品监测表】-【更新表格】</p>
             <form id="maintenanceNewProductsForm" class="maintenance-card-form">
               <div class="maintenance-field">
                 <label class="maintenance-label">选择 Excel 文件（.xlsx）</label>
@@ -686,6 +730,93 @@
   </div><!-- /#appWrap -->
 
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+  <div id="monitorRulesModal" class="modal" style="display:none;">
+    <div class="modal-mask"></div>
+    <div class="modal-panel">
+      <div class="modal-header">
+        <h3 class="modal-title">设定数据监测表规则</h3>
+        <button type="button" id="monitorRulesClose" class="modal-close">×</button>
+      </div>
+      <div class="modal-body">
+        <div class="modal-section">
+          <div class="modal-section-title">执行范围</div>
+          <div class="modal-row">
+            <label><input type="radio" name="monitorRulesScope" value="current" checked> 仅当前周</label>
+            <label><input type="radio" name="monitorRulesScope" value="all"> 所有周</label>
+          </div>
+        </div>
+
+        <div class="modal-section">
+          <div class="modal-section-title">删除规则</div>
+          <div id="monitorDeleteRules" class="rule-group-list"></div>
+          <button type="button" class="btn-rule-add" id="monitorDeleteAddRule">添加删除规则</button>
+          <div class="modal-section-title">删除指定产品</div>
+          <div id="monitorDeleteProducts" class="rule-product-list"></div>
+          <button type="button" class="btn-rule-add" id="monitorDeleteAddProduct">添加产品</button>
+        </div>
+
+        <div class="modal-section">
+          <div class="modal-section-title">划删除线规则</div>
+          <div id="monitorStrikeRules" class="rule-group-list"></div>
+          <button type="button" class="btn-rule-add" id="monitorStrikeAddRule">添加划线规则</button>
+          <div class="modal-section-title">划线指定产品</div>
+          <div id="monitorStrikeProducts" class="rule-product-list"></div>
+          <button type="button" class="btn-rule-add" id="monitorStrikeAddProduct">添加产品</button>
+        </div>
+
+        <div class="modal-section">
+          <div class="modal-section-title">标黄规则</div>
+          <div id="monitorYellowRules" class="rule-group-list"></div>
+          <button type="button" class="btn-rule-add" id="monitorYellowAddRule">添加标黄规则</button>
+          <div class="modal-section-title">标黄指定产品</div>
+          <div id="monitorYellowProducts" class="rule-product-list"></div>
+          <button type="button" class="btn-rule-add" id="monitorYellowAddProduct">添加产品</button>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <span id="monitorRulesStatus" class="modal-status"></span>
+        <button type="button" class="btn-download" id="monitorRulesSaveBtn">保存规则</button>
+        <button type="button" class="btn-download" id="monitorRulesRunBtn">制数据监测表</button>
+      </div>
+    </div>
+  </div>
+  <div id="productPullModal" class="modal" style="display:none;">
+    <div class="modal-mask"></div>
+    <div class="modal-panel">
+      <div class="modal-header">
+        <h3 class="modal-title" id="productPullTitle">拉取产品数据</h3>
+        <button type="button" id="productPullClose" class="modal-close">×</button>
+      </div>
+      <div class="modal-body">
+        <div class="modal-section">
+          <div class="modal-section-title">拉取数量</div>
+          <div class="modal-row">
+            <select id="productPullLimit" class="product-select">
+              <option value="top1">Top1</option>
+              <option value="top5">Top5</option>
+              <option value="top10">Top10</option>
+              <option value="top20">Top20</option>
+              <option value="all">All</option>
+              <option value="custom">自定义</option>
+            </select>
+            <input type="number" id="productPullLimitCustom" class="search-input" placeholder="输入数量" style="width:140px;display:none;">
+          </div>
+        </div>
+        <div class="modal-section">
+          <div class="modal-section-title">指定产品（可选）</div>
+          <div class="modal-row">
+            <input type="text" id="productPullName" class="search-input" placeholder="产品归属">
+            <input type="text" id="productPullUnifiedId" class="search-input" placeholder="Unified ID">
+          </div>
+          <p class="product-detail-desc" style="margin-top:6px;">填写产品归属或 Unified ID 将按单产品拉取；留空则按 Top 列表拉取。</p>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <span id="productPullStatus" class="modal-status"></span>
+        <button type="button" class="btn-download" id="productPullConfirm">确认拉取</button>
+      </div>
+    </div>
+  </div>
   <script src="js/app.js"></script>
 </body>
 </html>

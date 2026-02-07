@@ -43,7 +43,7 @@ def _excel_to_headers_rows(path):
 
 
 def sync_basetable_from_files(conn, base_dir: Path = None) -> bool:
-    """将 mapping/、labels/ 下 Excel 同步到 basetable（产品/公司归属、题材/玩法/画风标签）。"""
+    """将 mapping/、labels/ 下 Excel 同步到 basetable（产品/公司归属、市场T度映射、题材/玩法/画风标签）。"""
     if not conn or not pymysql:
         return False
     base_dir = base_dir or _get_base_dir()
@@ -52,18 +52,22 @@ def sync_basetable_from_files(conn, base_dir: Path = None) -> bool:
     sources = {
         "product_mapping": mapping_dir / "产品归属.xlsx",
         "company_mapping": mapping_dir / "公司归属.xlsx",
+        "region_t_mapping": mapping_dir / "各地区市场T度映射表.xlsx",
         "theme_label": labels_dir / "题材标签表.xlsx",
         "gameplay_label": labels_dir / "玩法标签表.xlsx",
         "art_style_label": labels_dir / "画风标签表.xlsx",
     }
     # 标签表缺省表头（文件缺失时仍写入一条空底表记录，保证数据底表 5 张在库中均存在）
     default_label_headers = ["序号", "标签名", "备注"]
+    default_region_headers = ["地区", "地区代码", "市场T度"]
     try:
         with conn.cursor() as cur:
             for name, xlsx_path in sources.items():
                 headers, rows = _excel_to_headers_rows(xlsx_path)
                 if not headers and not rows and name in ("theme_label", "gameplay_label", "art_style_label"):
                     headers, rows = default_label_headers, []
+                if not headers and not rows and name == "region_t_mapping":
+                    headers, rows = default_region_headers, []
                 if headers or rows:
                     h_val = json.dumps(headers, ensure_ascii=False)
                     r_val = json.dumps(rows, ensure_ascii=False)

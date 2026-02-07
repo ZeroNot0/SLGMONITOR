@@ -56,6 +56,16 @@ def run_step1(week_tag: str, year: int = None):
     RAW_DIR = BASE_DIR / f"{year}_raw_csv" / week_tag
 
     if not RAW_DIR.exists():
+        try:
+            from app.app_paths import get_data_root
+            data_root = get_data_root()
+            alt_dir = data_root / "raw_csv" / str(year) / week_tag
+            if alt_dir.exists():
+                RAW_DIR = alt_dir
+        except Exception:
+            pass
+
+    if not RAW_DIR.exists():
         raise ValueError(f"❌ 未找到目录: {RAW_DIR}")
 
     # === 标准化后 CSV 输出目录 ===
@@ -124,10 +134,15 @@ def run_step1(week_tag: str, year: int = None):
     print(f"🔹 使用去重列: {unified_col}")
 
     # =================================================
-    # 5. Step A: 按 Unified ID 去重
+    # 5. Step A: 按 Unified ID 去重（仅对非空 Unified ID 生效）
     # =================================================
     before = len(merged_df)
-    df_uid = merged_df.drop_duplicates(subset=[unified_col], keep="first")
+    uid_series = merged_df[unified_col].astype(str).str.strip()
+    has_uid = uid_series.notna() & (uid_series != "") & (uid_series.str.lower() != "nan")
+    df_with_uid = merged_df[has_uid].copy()
+    df_no_uid = merged_df[~has_uid].copy()
+    df_with_uid = df_with_uid.drop_duplicates(subset=[unified_col], keep="first")
+    df_uid = pd.concat([df_with_uid, df_no_uid], ignore_index=True)
     after = len(df_uid)
 
     print("\n🔹 Step 1.3: Unified ID 去重")

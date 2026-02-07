@@ -38,10 +38,24 @@ def run_step2(week_tag: str = None, year: int = None):
     if "Earliest Release Date" in df.columns and "第三方记录最早上线时间" not in df.columns:
         df = df.rename(columns={"Earliest Release Date": "第三方记录最早上线时间"})
 
-    # === 读取映射表 ===
-    prod_map_raw = pd.read_excel(BASE_DIR / "mapping" / "产品归属.xlsx")
-    comp_map = pd.read_excel(BASE_DIR / "mapping" / "公司归属.xlsx")
-    coef_map = pd.read_excel(BASE_DIR / "mapping" / "流水系数.xlsx")
+    # === 读取映射表（优先 AppData，回退到项目根目录） ===
+    try:
+        from app.app_paths import get_data_root
+        data_root = get_data_root()
+    except Exception:
+        data_root = None
+
+    mapping_root = data_root / "mapping" if data_root else None
+    fallback_mapping_root = BASE_DIR / "mapping"
+
+    def _pick_mapping_path(filename: str) -> Path:
+        if mapping_root and (mapping_root / filename).is_file():
+            return mapping_root / filename
+        return fallback_mapping_root / filename
+
+    prod_map_raw = pd.read_excel(_pick_mapping_path("产品归属.xlsx"))
+    comp_map = pd.read_excel(_pick_mapping_path("公司归属.xlsx"))
+    coef_map = pd.read_excel(_pick_mapping_path("流水系数.xlsx"))
 
     # ---------------------------------------------------
     # 1. 产品归属（按列名取「产品名」与「产品归属」，避免列顺序变化导致匹配错）
@@ -94,10 +108,15 @@ def run_step2(week_tag: str = None, year: int = None):
     # ---------------------------------------------------
     # 2. 公司归属
     # 总表: Unified Publisher Name → 公司归属表: B列 → 返回 C列
+    # 兼容大小写差异（如 Top Games vs TOP GAMES）
     # ---------------------------------------------------
     comp_map = comp_map.iloc[:, [1, 2]]
     comp_map.columns = ["Unified Publisher Name", "公司归属"]
-    df = df.merge(comp_map, on="Unified Publisher Name", how="left")
+    df["_publisher_norm"] = df["Unified Publisher Name"].astype(str).str.strip().str.lower()
+    comp_map["_publisher_norm"] = comp_map["Unified Publisher Name"].astype(str).str.strip().str.lower()
+    comp_map = comp_map.dropna(subset=["_publisher_norm"]).drop_duplicates(subset=["_publisher_norm"], keep="first")
+    df = df.merge(comp_map[["_publisher_norm", "公司归属"]], on="_publisher_norm", how="left")
+    df = df.drop(columns=["_publisher_norm"])
 
     # ---------------------------------------------------
     # 3. 流水系数

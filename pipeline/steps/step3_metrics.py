@@ -3,7 +3,7 @@ from pathlib import Path
 
 def run_step3(week_tag: str = None, year: int = None):
 
-    BASE_DIR = Path(__file__).parent.parent
+    BASE_DIR = Path(__file__).resolve().parent.parent.parent
 
     # === 构建输入文件路径 ===
     if week_tag and year:

@@ -16,4 +16,4 @@ COPY . .
 
 EXPOSE 8000
 
-CMD ["python", "start_server.py", "--port", "8000"]
+CMD ["python", "server/start_server.py", "--port", "8000"]

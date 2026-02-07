@@ -8,11 +8,25 @@
 格式：{ "Unified ID": { "rankInstall": n, "rankRevenue": m }, ... }
 """
 import json
+import os
 import re
 from pathlib import Path
 
 BASE_DIR = Path(__file__).resolve().parent.parent
-DATA_DIR = Path(__file__).resolve().parent / "data"
+
+
+def _get_data_dir() -> Path:
+    appdata = os.environ.get("APPDATA")
+    if appdata:
+        return Path(appdata).expanduser().resolve() / "SLGMonitor" / "frontend" / "data"
+    try:
+        from app.app_paths import get_data_root
+        return get_data_root() / "frontend" / "data"
+    except Exception:
+        return Path(__file__).resolve().parent / "data"
+
+
+DATA_DIR = _get_data_dir()
 
 
 def _parse_downloads(val):
@@ -92,7 +106,15 @@ def build_metrics_rank(year: int, week_tag: str) -> bool:
     global_path = DATA_DIR / "metrics_rank.json"
     with open(global_path, "w", encoding="utf-8") as f:
         json.dump(result, f, ensure_ascii=False, indent=2)
-    print(f"  ✅ 已生成: {out_path.relative_to(BASE_DIR)} 与 {global_path.relative_to(BASE_DIR)}（{len(result)} 个产品）")
+    try:
+        out_display = str(out_path.relative_to(BASE_DIR))
+    except Exception:
+        out_display = str(out_path)
+    try:
+        global_display = str(global_path.relative_to(BASE_DIR))
+    except Exception:
+        global_display = str(global_path)
+    print(f"  ✅ 已生成: {out_display} 与 {global_display}（{len(result)} 个产品）")
     return True
 
 

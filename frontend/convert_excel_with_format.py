@@ -5,6 +5,7 @@
 """
 
 import json
+import os
 import re
 from pathlib import Path
 
@@ -13,8 +14,172 @@ from openpyxl import load_workbook
 from openpyxl.styles import Font, PatternFill
 
 BASE_DIR = Path(__file__).parent.parent
-TARGET_ROW_BG = "#FFF2CC"  # 标黄行黄底：周安装变动≥20% 且 当周周安装>1000
+
+
+def _get_data_dir() -> Path:
+    appdata = os.environ.get("APPDATA")
+    if appdata:
+        return Path(appdata).expanduser().resolve() / "SLGMonitor" / "frontend" / "data"
+    try:
+        from app.app_paths import get_data_root
+        return get_data_root() / "frontend" / "data"
+    except Exception:
+        return Path(__file__).resolve().parent / "data"
+
+
+DATA_DIR = _get_data_dir()
+TARGET_ROW_BG = "#FFF2CC"  # 标黄行黄底（由规则决定）
 SUMMARY_ROW_BG = "#D9E1F2"  # 汇总行浅蓝
+
+
+def _default_monitor_rules() -> dict:
+    return {
+        "version": 1,
+        "delete_rules": [
+            {
+                "conditions": [
+                    {"metric": "当周周安装", "op": "<", "value": 400},
+                    {"metric": "上周周安装", "op": "<", "value": 400},
+                    {"metric": "当周周流水", "op": "<", "value": 20000},
+                    {"metric": "上周周流水", "op": "<", "value": 20000},
+                ]
+            }
+        ],
+        "strike_rules": [
+            {
+                "conditions": [
+                    {"metric": "当周周安装", "op": "<", "value": 400},
+                    {"metric": "上周周安装", "op": "<", "value": 400},
+                    {"metric": "当周周流水", "op": ">=", "value": 20000},
+                ]
+            },
+            {
+                "conditions": [
+                    {"metric": "当周周安装", "op": "<", "value": 400},
+                    {"metric": "上周周安装", "op": "<", "value": 400},
+                    {"metric": "上周周流水", "op": ">=", "value": 20000},
+                ]
+            },
+        ],
+        "yellow_rules": [
+            {
+                "conditions": [
+                    {"metric": "周安装变动", "op": ">=", "value": 20},
+                    {"metric": "当周周安装", "op": ">", "value": 1000},
+                ]
+            }
+        ],
+        "product_rules": {
+            "delete": [],
+            "strike": [],
+            "yellow": [],
+        },
+    }
+
+
+def _load_monitor_rules() -> dict:
+    try:
+        from app.app_paths import get_data_root
+        path = get_data_root() / "config" / "monitor_rules.json"
+        if path.is_file():
+            data = json.loads(path.read_text(encoding="utf-8"))
+            if isinstance(data, dict):
+                return data
+    except Exception:
+        pass
+    return _default_monitor_rules()
+
+
+def _normalize_rules(rules: dict) -> dict:
+    base = _default_monitor_rules()
+    if not isinstance(rules, dict):
+        return base
+    out = {**base, **rules}
+    for key in ("delete_rules", "strike_rules", "yellow_rules"):
+        if not isinstance(out.get(key), list):
+            out[key] = []
+        for idx, rule in enumerate(out[key]):
+            if not isinstance(rule, dict):
+                continue
+            if idx > 0 and rule.get("join") not in ("and", "or"):
+                rule["join"] = "or"
+    pr = out.get("product_rules") if isinstance(out.get("product_rules"), dict) else {}
+    out["product_rules"] = {
+        "delete": pr.get("delete") if isinstance(pr.get("delete"), list) else [],
+        "strike": pr.get("strike") if isinstance(pr.get("strike"), list) else [],
+        "yellow": pr.get("yellow") if isinstance(pr.get("yellow"), list) else [],
+    }
+    return out
+
+
+def _norm_str(val) -> str:
+    return str(val).strip().lower() if val is not None else ""
+
+
+def _eval_condition(val, op, target) -> bool:
+    try:
+        v = float(val)
+        t = float(target)
+    except Exception:
+        return False
+    if op == ">":
+        return v > t
+    if op == ">=":
+        return v >= t
+    if op == "<":
+        return v < t
+    if op == "<=":
+        return v <= t
+    if op == "=":
+        return v == t
+    if op == "!=":
+        return v != t
+    return False
+
+
+def _rule_match(rule: dict, metrics: dict) -> bool:
+    conds = rule.get("conditions") if isinstance(rule, dict) else None
+    if not conds or not isinstance(conds, list):
+        return False
+    any_cond = False
+    for cond in conds:
+        if not isinstance(cond, dict):
+            return False
+        metric = cond.get("metric")
+        op = cond.get("op")
+        target = cond.get("value")
+        if metric not in metrics:
+            return False
+        if op not in (">", ">=", "<", "<=", "=", "!="):
+            return False
+        if target is None or target == "":
+            return False
+        any_cond = True
+        if not _eval_condition(metrics.get(metric), op, target):
+            return False
+    return any_cond
+
+
+def _build_product_rule_sets(product_rules: dict):
+    def _collect(key, by_value):
+        out = set()
+        for item in product_rules.get(key, []):
+            if not isinstance(item, dict):
+                continue
+            if item.get("by") != by_value:
+                continue
+            val = item.get("value")
+            if val is None:
+                continue
+            v = _norm_str(val)
+            if v:
+                out.add(v)
+        return out
+
+    return {
+        "yellow_name": _collect("yellow", "product_name"),
+        "yellow_id": _collect("yellow", "unified_id"),
+    }
 
 
 def _parse_install_change(val):
@@ -39,7 +204,7 @@ def _parse_install_count(val):
     if val is None or (isinstance(val, float) and pd.isna(val)):
         return 0
     try:
-        return float(str(val).strip().replace(",", ""))
+        return float(str(val).strip().replace("$", "").replace(",", ""))
     except (ValueError, TypeError):
         return 0
 
@@ -100,7 +265,7 @@ def get_cell_style(cell):
 def convert_excel_to_json_with_format(year, week_tag):
     """将Excel文件转换为JSON，保留格式信息"""
     excel_file = BASE_DIR / "output" / str(year) / f"{week_tag}_SLG数据监测表.xlsx"
-    json_file = BASE_DIR / "frontend" / "data" / str(year) / f"{week_tag}_formatted.json"
+    json_file = DATA_DIR / str(year) / f"{week_tag}_formatted.json"
     
     if not excel_file.exists():
         raise FileNotFoundError(f"Excel文件不存在: {excel_file}")
@@ -135,27 +300,69 @@ def convert_excel_to_json_with_format(year, week_tag):
         data["rows"].append(row_data)
         data["styles"].append(row_styles)
     
-    # 标黄规则：周安装变动 ≥ 20% 且 当周周安装 > 1000；汇总行保持浅蓝
+    # 标黄规则：按用户配置；汇总行保持浅蓝
+    rules = _normalize_rules(_load_monitor_rules())
+    product_rule_sets = _build_product_rule_sets(rules.get("product_rules", {}))
     headers = data["headers"]
     col_company = headers.index("公司归属") if "公司归属" in headers else -1
+    col_product = headers.index("产品归属") if "产品归属" in headers else -1
+    col_uid = headers.index("Unified ID") if "Unified ID" in headers else -1
     col_inst_this = headers.index("当周周安装") if "当周周安装" in headers else -1
+    col_inst_last = headers.index("上周周安装") if "上周周安装" in headers else -1
+    col_rev_this = headers.index("当周周流水") if "当周周流水" in headers else -1
+    col_rev_last = headers.index("上周周流水") if "上周周流水" in headers else -1
     col_inst_chg = headers.index("周安装变动") if "周安装变动" in headers else -1
+    col_rev_chg = headers.index("周流水变动") if "周流水变动" in headers else -1
+
+    def _combine_rule_list(rule_list, metrics):
+        if not rule_list:
+            return False
+        result = _rule_match(rule_list[0], metrics)
+        for rule in rule_list[1:]:
+            join = str((rule or {}).get("join") or "or").strip().lower()
+            match = _rule_match(rule, metrics)
+            if join == "and":
+                result = result and match
+            else:
+                result = result or match
+        return result
+
+    def _match_product_rule(product_name, unified_id):
+        if product_name and _norm_str(product_name) in product_rule_sets.get("yellow_name", set()):
+            return True
+        if unified_id and _norm_str(unified_id) in product_rule_sets.get("yellow_id", set()):
+            return True
+        return False
+
     for row_idx, row in enumerate(data["rows"]):
         style_row = data["styles"][row_idx + 1]  # styles[0] 为表头
         company_val = str(row[col_company]).strip() if col_company >= 0 and col_company < len(row) else ""
         is_summary = company_val.endswith("汇总")
         if is_summary:
             for s in style_row:
-                s["bg_color"] = SUMMARY_ROW_BG  # 汇总行统一浅蓝，不标黄
+                s["bg_color"] = SUMMARY_ROW_BG
             continue
+        product_val = str(row[col_product]).strip() if col_product >= 0 and col_product < len(row) else ""
+        uid_val = str(row[col_uid]).strip() if col_uid >= 0 and col_uid < len(row) else ""
         inst_this = _parse_install_count(row[col_inst_this]) if col_inst_this >= 0 and col_inst_this < len(row) else 0
-        chg = _parse_install_change(row[col_inst_chg]) if col_inst_chg >= 0 and col_inst_chg < len(row) else None
-        if chg is not None and chg >= 20 and inst_this > 1000:
+        inst_last = _parse_install_count(row[col_inst_last]) if col_inst_last >= 0 and col_inst_last < len(row) else 0
+        rev_this = _parse_install_count(row[col_rev_this]) if col_rev_this >= 0 and col_rev_this < len(row) else 0
+        rev_last = _parse_install_count(row[col_rev_last]) if col_rev_last >= 0 and col_rev_last < len(row) else 0
+        inst_chg = _parse_install_change(row[col_inst_chg]) if col_inst_chg >= 0 and col_inst_chg < len(row) else None
+        rev_chg = _parse_install_change(row[col_rev_chg]) if col_rev_chg >= 0 and col_rev_chg < len(row) else None
+        metrics = {
+            "当周周安装": inst_this,
+            "上周周安装": inst_last,
+            "当周周流水": rev_this,
+            "上周周流水": rev_last,
+            "周安装变动": inst_chg,
+            "周流水变动": rev_chg,
+        }
+        yellow_hit = _match_product_rule(product_val, uid_val) or _combine_rule_list(rules.get("yellow_rules", []), metrics)
+        if yellow_hit:
             for s in style_row:
-                s["bg_color"] = TARGET_ROW_BG
-        else:
-            for s in style_row:
-                s["bg_color"] = None
+                if not s.get("bg_color"):
+                    s["bg_color"] = TARGET_ROW_BG
     
     # 保存JSON
     json_file.parent.mkdir(parents=True, exist_ok=True)

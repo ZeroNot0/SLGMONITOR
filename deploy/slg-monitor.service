@@ -5,7 +5,7 @@ After=network.target
 [Service]
 Type=simple
 WorkingDirectory=/www/wwwroot/slgmonitor
-ExecStart=/usr/bin/python3 start_server.py --port 8000
+ExecStart=/usr/bin/python3 server/start_server.py --port 8000
 Restart=on-failure
 RestartSec=5
 

@@ -6,11 +6,25 @@
 同时计算并写入 data_range（数据起止日期），供前端「数据时间」等展示在跑完脚本后自动更新。
 """
 import json
+import os
 import re
 from pathlib import Path
 
 BASE_DIR = Path(__file__).resolve().parent
-DATA_DIR = BASE_DIR / "data"
+
+
+def _get_data_dir() -> Path:
+    appdata = os.environ.get("APPDATA")
+    if appdata:
+        return Path(appdata).expanduser().resolve() / "SLGMonitor" / "frontend" / "data"
+    try:
+        from app.app_paths import get_data_root
+        return get_data_root() / "frontend" / "data"
+    except Exception:
+        return BASE_DIR / "data"
+
+
+DATA_DIR = _get_data_dir()
 WEEKS_INDEX_FILE = DATA_DIR / "weeks_index.json"
 
 # 周标签格式: MMDD-MMDD，如 1201-1207、1229-0104（跨年）
@@ -67,11 +81,15 @@ def build_weeks_index():
             continue
         weeks = set()
         for item in year_dir.iterdir():
-            if item.is_file() and item.name.endswith("_formatted.json"):
-                week = item.name[: -len("_formatted.json")]
-                weeks.add(week)
-            elif item.is_dir():
-                weeks.add(item.name)
+            name = item.name
+            if name.startswith("._"):
+                continue
+            if item.is_file() and name.endswith("_formatted.json"):
+                week = name[: -len("_formatted.json")]
+                if week and not week.startswith("._"):
+                    weeks.add(week)
+            elif item.is_dir() and not name.startswith("._"):
+                weeks.add(name)
         if weeks:
             index[year] = sorted(weeks)
     return index
@@ -81,6 +99,8 @@ def ensure_creative_products_for_all_weeks(index: dict) -> None:
     """为侧栏中每一周确保 data/{年}/{周}/creative_products.json 存在，无则写空，使素材维度与公司/产品维度周期一致。"""
     for year, weeks in index.items():
         for week in weeks:
+            if not week or str(week).startswith("._"):
+                continue
             out_dir = DATA_DIR / year / week
             out_file = out_dir / "creative_products.json"
             if out_file.exists():

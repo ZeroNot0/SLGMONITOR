@@ -28,6 +28,12 @@ if str(BASE_DIR) not in sys.path:
 
 from request.api_request import load_token, get_session, get, ensure_dir
 
+try:
+    from app.app_paths import get_data_root
+    ADS_ROOT = get_data_root() / "advertisements"
+except Exception:
+    ADS_ROOT = BASE_DIR / "advertisements"
+
 # 未指定 --year/--week 时的兜底输出（request 下）
 FALLBACK_JSON_DIR = REQUEST_DIR / "ad_creatives" / "json"
 FALLBACK_XLSX_DIR = REQUEST_DIR / "ad_creatives" / "xlsx"
@@ -166,7 +172,7 @@ def get_output_dirs(year, week_tag, product_type, app_id, product_name):
     路径：advertisements/{year}/{week_tag}/{product_type}/{app_id}_{product_name}/json 与 xlsx
     """
     folder = f"{app_id}_{_safe_folder_name(product_name)}"
-    base = BASE_DIR / "advertisements" / str(year) / week_tag / product_type / folder
+    base = ADS_ROOT / str(year) / week_tag / product_type / folder
     return base / "json", base / "xlsx"
 
 
@@ -236,6 +242,7 @@ def _fetch_one_region(
     if use_advertisements and year and week_tag:
         json_dir, xlsx_dir = get_output_dirs(year, week_tag, product_type, app_id, pname)
     try:
+        print(f"  🔹 拉取创意数据：app_id={app_id} 产品={pname} 地区={region}")
         session = get_session(token)
         data = fetch_ad_creatives_with_retry(
             session,
@@ -296,6 +303,7 @@ def run(
     if workers <= 1:
         session = get_session(token)
         for app_id, pname, region in tasks:
+            print(f"  🔹 拉取创意数据：app_id={app_id} 产品={pname} 地区={region}")
             json_dir = xlsx_dir = None
             if use_advertisements and year and week_tag:
                 json_dir, xlsx_dir = get_output_dirs(year, week_tag, product_type, app_id, pname)

@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import datetime
 from decimal import Decimal
+from typing import Optional, Dict
 
 MAX_SELECT_ROWS = 10000
 SAMPLE_ROWS = 50
@@ -42,7 +43,7 @@ def get_tables(conn) -> list:
         return []
 
 
-def get_table_info(conn, table_name: str) -> dict | None:
+def get_table_info(conn, table_name: str) -> Optional[Dict]:
     """返回表结构（DESCRIBE）及前 SAMPLE_ROWS 行数据。表名仅允许字母数字下划线。"""
     if not conn or not table_name:
         return None

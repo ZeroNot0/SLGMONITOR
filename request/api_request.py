@@ -13,8 +13,11 @@ from pathlib import Path
 BASE_DIR = Path(__file__).resolve().parent.parent
 REQUEST_DIR = Path(__file__).resolve().parent
 
-# 默认 token 文件路径
-TOKEN_FILE = REQUEST_DIR / "token.txt"
+try:
+    from app.app_paths import get_data_root
+    TOKEN_FILE = get_data_root() / "request" / "token.txt"
+except Exception:
+    TOKEN_FILE = REQUEST_DIR / "token.txt"
 
 # API 基础地址（请根据实际 Sensor Tower / 内部 API 文档替换）
 # 可从环境变量 OVERRIDE_API_BASE 覆盖
@@ -25,7 +28,11 @@ def load_token(token_path=None):
     """从 request/token.txt 读取 API token，去掉首尾空白。"""
     path = Path(token_path or TOKEN_FILE)
     if not path.exists():
-        raise FileNotFoundError(f"未找到 token 文件: {path}，请创建并填入 API token")
+        fallback = REQUEST_DIR / "token.txt"
+        if fallback.exists():
+            path = fallback
+        else:
+            raise FileNotFoundError(f"未找到 token 文件: {path}，请创建并填入 API token")
     token = path.read_text(encoding="utf-8").strip()
     if not token:
         raise ValueError(f"token 文件为空: {path}")

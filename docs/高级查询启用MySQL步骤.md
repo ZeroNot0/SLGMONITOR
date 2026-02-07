@@ -37,7 +37,7 @@ mysql -u root -p slg_monitor < backend/db/schema.sql
 
 ## 三、启动服务时开启 MySQL
 
-**必须**在启动 `start_server.py` 时加上 `USE_MYSQL=1` 和数据库账号信息。
+**必须**在启动 `server/start_server.py` 时加上 `USE_MYSQL=1` 和数据库账号信息。
 
 ### 方式 1：本机测试（推荐先这样试）
 
@@ -46,13 +46,13 @@ mysql -u root -p slg_monitor < backend/db/schema.sql
 ```bash
 cd "/Users/codfz1/Desktop/Tuyoo Internship/SLG Monitor 3.0"
 
-USE_MYSQL=1 MYSQL_USER=root MYSQL_PASSWORD=你的root密码 MYSQL_DATABASE=slg_monitor python start_server.py --port 8000
+USE_MYSQL=1 MYSQL_USER=root MYSQL_PASSWORD=你的root密码 MYSQL_DATABASE=slg_monitor python server/start_server.py --port 8000
 ```
 
 无密码示例：
 
 ```bash
-USE_MYSQL=1 MYSQL_USER=root MYSQL_PASSWORD= MYSQL_DATABASE=slg_monitor python start_server.py --port 8000
+USE_MYSQL=1 MYSQL_USER=root MYSQL_PASSWORD= MYSQL_DATABASE=slg_monitor python server/start_server.py --port 8000
 ```
 
 ### 方式 2：已用 systemd / 宝塔部署

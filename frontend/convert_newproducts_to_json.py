@@ -6,6 +6,7 @@
 前端按左侧所选周过滤展示。
 """
 import json
+import os
 import re
 from datetime import datetime
 from pathlib import Path
@@ -13,7 +14,20 @@ import math
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 NEWPRODUCTS_DIR = BASE_DIR / "newproducts"
-DATA_DIR = Path(__file__).resolve().parent / "data"
+
+
+def _get_data_dir() -> Path:
+    appdata = os.environ.get("APPDATA")
+    if appdata:
+        return Path(appdata).expanduser().resolve() / "SLGMonitor" / "frontend" / "data"
+    try:
+        from app.app_paths import get_data_root
+        return get_data_root() / "frontend" / "data"
+    except Exception:
+        return Path(__file__).resolve().parent / "data"
+
+
+DATA_DIR = _get_data_dir()
 OUT_JSON = DATA_DIR / "new_products.json"
 WEEKS_INDEX_PATH = DATA_DIR / "weeks_index.json"
 

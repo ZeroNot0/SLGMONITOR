@@ -35,7 +35,7 @@ MYSQL_USER=root MYSQL_PASSWORD=你的root密码 MYSQL_DATABASE=slg_monitor pytho
 ### 3. 启动服务并用 MySQL 读数据
 
 ```bash
-USE_MYSQL=1 MYSQL_USER=root MYSQL_PASSWORD=你的root密码 MYSQL_DATABASE=slg_monitor python start_server.py --port 8000
+USE_MYSQL=1 MYSQL_USER=root MYSQL_PASSWORD=你的root密码 MYSQL_DATABASE=slg_monitor python server/start_server.py --port 8000
 ```
 
 浏览器访问：`http://127.0.0.1:8000/frontend/`，登录后选年/周，能正常看到公司维度、产品维度等数据即表示本地 MySQL 模式正常。确认无误后，再在云服务器上按下面「步骤 1～3」做迁移与启用。
@@ -115,7 +115,7 @@ sudo systemctl status slg-monitor
 ```bash
 cd /www/wwwroot/slg-monitor
 source venv/bin/activate
-USE_MYSQL=1 MYSQL_PASSWORD=你的密码 python start_server.py --port 8000
+USE_MYSQL=1 MYSQL_PASSWORD=你的密码 python server/start_server.py --port 8000
 ```
 
 ---

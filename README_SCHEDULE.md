@@ -8,18 +8,18 @@
 
 ### 主要脚本
 
-1. **`run_full_pipeline.py`** - 完整数据流程
+1. **`pipeline/run_full_pipeline.py`** - 完整数据流程
    ```bash
-   python run_full_pipeline.py --week 1201-1207 --year 2025 --target_type old --limit 10
+   python pipeline/run_full_pipeline.py --week 1201-1207 --year 2025 --target_type old --limit 10
    ```
 
-2. **`schedule_update.py`** - 定期更新脚本（推荐）
+2. **`pipeline/schedule_update.py`** - 定期更新脚本（推荐）
    ```bash
    # 更新当前周的数据
-   python schedule_update.py
+   python pipeline/schedule_update.py
    
    # 更新指定周的数据
-   python schedule_update.py --week 1201-1207 --year 2025
+   python pipeline/schedule_update.py --week 1201-1207 --year 2025
    ```
 
 ### 已废弃的脚本
@@ -40,7 +40,7 @@ crontab -e
 
 添加任务（例如：每周一早上8点运行）：
 ```bash
-0 8 * * 1 cd /Users/codfz1/Desktop/Tuyoo\ Internship/SLG\ Monitor\ 3.0 && /opt/anaconda3/envs/deeppython/bin/python schedule_update.py >> logs/update.log 2>&1
+0 8 * * 1 cd /Users/codfz1/Desktop/Tuyoo\ Internship/SLG\ Monitor\ 3.0 && /opt/anaconda3/envs/deeppython/bin/python pipeline/schedule_update.py >> logs/update.log 2>&1
 ```
 
 ### Windows (任务计划程序)
@@ -50,12 +50,12 @@ crontab -e
 3. 触发器：每周一早上8点
 4. 操作：启动程序
    - 程序：`C:\path\to\python.exe`
-   - 参数：`schedule_update.py`
+   - 参数：`pipeline/schedule_update.py`
    - 起始于：项目目录路径
 
 ## 数据流程
 
-1. **后端定期运行** `schedule_update.py` 或 `run_full_pipeline.py`
+1. **后端定期运行** `pipeline/schedule_update.py` 或 `pipeline/run_full_pipeline.py`
 2. **生成Excel文件** 到 `output/{year}/` 目录
 3. **前端自动读取** Excel文件并展示（无需重启）
 
@@ -70,5 +70,5 @@ crontab -e
 
 建议将输出重定向到日志文件：
 ```bash
-python schedule_update.py >> logs/update_$(date +%Y%m%d).log 2>&1
+python pipeline/schedule_update.py >> logs/update_$(date +%Y%m%d).log 2>&1
 ```

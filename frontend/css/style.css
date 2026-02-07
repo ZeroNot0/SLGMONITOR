@@ -45,9 +45,41 @@ body {
   gap: 0.75rem;
 }
 
+.network-status {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.85rem;
+  color: #cbd3d4;
+}
+
+.network-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #c0392b;
+  box-shadow: 0 0 0 2px rgba(192, 57, 43, 0.25);
+}
+
+.network-status.online .network-dot {
+  background: #2ecc71;
+  box-shadow: 0 0 0 2px rgba(46, 204, 113, 0.25);
+}
+
 .header-username {
   font-size: 0.9rem;
   color: #95a5a6;
+}
+
+.header-greeting {
+  font-size: 0.9rem;
+  color: #b9c3c7;
+}
+
+.product-detail-company-link {
+  color: #2c6ed5;
+  cursor: pointer;
+  text-decoration: underline;
 }
 
 .btn-logout {
@@ -242,6 +274,23 @@ body {
   min-height: calc(100vh - 48px - 44px);
 }
 
+.main-panel { position: relative; }
+
+.panel-refresh-btn {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  padding: 0.25rem 0.6rem;
+  font-size: 0.8rem;
+  color: #fff;
+  background: #5a8fd4;
+  border: 1px solid #4f81bd;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.panel-refresh-btn:hover { background: #4f81bd; }
+
 /* 左侧边栏：按年 / 月 / 周 */
 .sidebar {
   width: 240px;
@@ -316,6 +365,70 @@ body {
 }
 .sidebar-advanced-tables .sidebar-table-link:hover { background: #e8f4fc; }
 .sidebar-advanced-tables .sidebar-table-link.active { background: var(--top-nav-active); color: #fff; }
+
+.manual-panel {
+  padding-bottom: 2rem;
+}
+
+.manual-content {
+  background: #fff;
+  border: 1px solid #e6e9ef;
+  border-radius: 6px;
+  padding: 1rem 1.25rem;
+  line-height: 1.7;
+  color: #2c3e50;
+}
+
+.manual-content h1,
+.manual-content h2,
+.manual-content h3,
+.manual-content h4 {
+  margin: 1rem 0 0.5rem;
+  color: #2c3e50;
+}
+
+.manual-content p {
+  margin: 0.5rem 0;
+}
+
+.manual-content ul,
+.manual-content ol {
+  margin: 0.5rem 0 0.5rem 1.25rem;
+  padding: 0;
+}
+
+.manual-content li {
+  margin: 0.25rem 0;
+}
+
+.manual-content code {
+  background: #f4f6f8;
+  padding: 0 0.25rem;
+  border-radius: 3px;
+  font-family: Consolas, Menlo, Monaco, "Courier New", monospace;
+  font-size: 0.9em;
+}
+
+.manual-content pre {
+  background: #f4f6f8;
+  padding: 0.75rem 1rem;
+  border-radius: 4px;
+  overflow: auto;
+}
+
+.manual-content pre code {
+  background: transparent;
+  padding: 0;
+}
+
+.manual-content a {
+  color: #2c6ed5;
+  text-decoration: none;
+}
+
+.manual-content a:hover {
+  text-decoration: underline;
+}
 
 /* 高级查询：未启用 MySQL 时的操作提示 */
 .advanced-query-mysql-hint {
@@ -637,6 +750,53 @@ body {
 .product-detail-jump-btn {
   padding: 0.5rem 1.5rem;
   font-size: 0.95rem;
+}
+
+.detail-table-toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  margin-bottom: 0.5rem;
+}
+
+.detail-table-toolbar .product-detail-desc {
+  margin: 0;
+}
+
+.maintenance-card.deprecated .maintenance-card-title,
+.maintenance-card.deprecated .maintenance-card-desc {
+  text-decoration: line-through;
+  text-decoration-color: #e74c3c;
+}
+
+.maintenance-card-moved {
+  color: #e74c3c;
+  font-size: 0.85rem;
+  margin: 0 0 0.75rem;
+}
+
+.api-management-form {
+  max-width: 720px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.api-management-row {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.api-management-row .search-label {
+  min-width: 120px;
+}
+
+.api-usage-hint {
+  font-size: 0.9rem;
+  color: #7f8c8d;
 }
 
 /* 公司详细信息看板（复用产品详细样式） */
@@ -1115,8 +1275,16 @@ body {
 .data-table td {
   padding: 0.4rem 0.6rem;
   border: 1px solid var(--table-border);
-  text-align: center;
+  user-select: text;
   white-space: nowrap;
+}
+
+.data-table td,
+.company-product-table th,
+.company-product-table td,
+.creative-product-data-table th,
+.creative-product-data-table td {
+  user-select: text;
 }
 
 .data-table th {
@@ -1127,7 +1295,7 @@ body {
   color: var(--table-header-text);
   font-weight: 600;
   cursor: pointer;
-  user-select: none;
+  user-select: text;
 }
 
 .data-table th:hover { background: #5a8fd4; }
@@ -1157,10 +1325,14 @@ body {
 /* 汇总行加粗 */
 .data-table tr.row-summary td { font-weight: 700; }
 
-/* 目标产品行：黄底 + 蓝字，可点击跳转素材维度 */
-.data-table tr.target-product-row { cursor: pointer; }
-.data-table tr.target-product-row td { background: #FFF2CC !important; color: #0066cc !important; }
-.data-table tr.target-product-row:hover td { background: #FFE699 !important; color: #0044aa !important; }
+/* 目标产品行：黄底，保留原有单元格颜色 */
+.data-table tr.target-product-row td { background: #FFF2CC !important; }
+.data-table tr.target-product-row:hover td { background: #FFE699 !important; }
+
+.data-table td.strike-product,
+.data-table td.strike-product .product-link {
+  color: #e74c3c !important;
+}
 
 .data-table th[data-sort="asc"]::after { content: " ↑"; opacity: 0.8; }
 
@@ -1175,3 +1347,176 @@ body {
 
 /* 赛道排名功能暂时关闭，隐藏对应卡片 */
 .rank-card-hidden { display: none !important; }
+
+/* 数据监测表规则弹窗 */
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 9998;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-mask {
+  position: absolute;
+  inset: 0;
+  background: rgba(44, 62, 80, 0.55);
+}
+
+.modal-panel {
+  position: relative;
+  width: min(980px, 92vw);
+  max-height: 88vh;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 20px 60px rgba(0,0,0,0.25);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.modal-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 18px;
+  background: #f7f8fa;
+  border-bottom: 1px solid #e3e6ea;
+}
+
+.modal-title { margin: 0; font-size: 16px; }
+
+.modal-close {
+  border: none;
+  background: none;
+  font-size: 20px;
+  cursor: pointer;
+  color: #7f8c8d;
+}
+
+.modal-body {
+  padding: 16px 18px;
+  overflow: auto;
+}
+
+.modal-section {
+  border: 1px solid #e3e6ea;
+  border-radius: 8px;
+  padding: 12px;
+  margin-bottom: 14px;
+  background: #fcfcfd;
+}
+
+.modal-section-title {
+  font-size: 13px;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: #34495e;
+}
+
+.modal-row {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.modal-row .search-input,
+.modal-row .product-select {
+  min-width: 180px;
+}
+
+.rule-group {
+  border: 1px dashed #d5dbe0;
+  border-radius: 6px;
+  padding: 10px;
+  margin-bottom: 10px;
+  background: #fff;
+}
+
+.rule-group-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 12px;
+  color: #7f8c8d;
+  margin-bottom: 6px;
+}
+
+.rule-group-head select {
+  padding: 4px 6px;
+  border: 1px solid #d0d7de;
+  border-radius: 4px;
+  font-size: 12px;
+  margin-left: 6px;
+}
+
+.rule-condition {
+  display: grid;
+  grid-template-columns: 1.2fr 0.8fr 1fr auto;
+  gap: 8px;
+  align-items: center;
+  margin-bottom: 6px;
+}
+
+.rule-condition select,
+.rule-condition input {
+  padding: 6px 8px;
+  border: 1px solid #d0d7de;
+  border-radius: 4px;
+  font-size: 12px;
+}
+
+.btn-rule-add {
+  margin-top: 6px;
+  padding: 4px 10px;
+  border: 1px solid #bdc3c7;
+  background: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.rule-product-item {
+  display: grid;
+  grid-template-columns: 1fr 2fr auto;
+  gap: 8px;
+  align-items: center;
+  margin-bottom: 6px;
+}
+
+.rule-product-item select,
+.rule-product-item input {
+  padding: 6px 8px;
+  border: 1px solid #d0d7de;
+  border-radius: 4px;
+  font-size: 12px;
+}
+
+.btn-rule-remove {
+  border: none;
+  background: #f5f5f5;
+  color: #7f8c8d;
+  padding: 4px 8px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.modal-footer {
+  padding: 12px 18px;
+  border-top: 1px solid #e3e6ea;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: flex-end;
+}
+
+.modal-status {
+  margin-right: auto;
+  color: #7f8c8d;
+  font-size: 12px;
+}

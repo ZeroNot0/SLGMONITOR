@@ -28,10 +28,16 @@ import sys
 import tempfile
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
+from typing import Optional
 
 PIPELINE_DIR = Path(__file__).resolve().parent
 ROOT_DIR = PIPELINE_DIR.parent
 STEPS_DIR = PIPELINE_DIR / "steps"
+try:
+    from app.app_paths import get_data_root
+    ADS_ROOT = get_data_root() / "advertisements"
+except Exception:
+    ADS_ROOT = ROOT_DIR / "advertisements"
 
 
 def _load_script_module(name: str):
@@ -77,6 +83,19 @@ def run_step1_in_process(week_tag: str, year: int) -> bool:
 # 处理数量选项（API 请求阶段）
 LIMIT_CHOICES = ("top1", "top5", "top10", "top20", "all")
 LIMIT_MAP = {"top1": 1, "top5": 5, "top10": 10, "top20": 20, "all": None}
+
+
+def _limit_to_n(limit):
+    if isinstance(limit, int):
+        return limit
+    s = str(limit or "").strip().lower()
+    if not s:
+        return None
+    if s.isdigit():
+        return int(s)
+    if s in LIMIT_MAP:
+        return LIMIT_MAP.get(s)
+    return None
 
 
 def parse_date(date_str: str):
@@ -204,7 +223,7 @@ TARGET_SOURCE_CHOICES = ("strategy", "non_strategy", "both")
 
 
 def get_target_products_with_limit(
-    year: int, week_tag: str, limit: str, target_source: str = "both", product_type: str = "both"
+    year: int, week_tag: str, limit, target_source: str = "both", product_type: str = "both"
 ):
     """
     从 target/{年}/{周}/ 下按 target_source 读取 strategy_target 和/或 non_strategy_target 的 xlsx。
@@ -264,7 +283,7 @@ def get_target_products_with_limit(
             except Exception as e:
                 print(f"  ⚠️ 读取 {f} 失败: {e}")
                 continue
-    n = LIMIT_MAP.get(limit) if limit in LIMIT_MAP else None
+    n = _limit_to_n(limit)
     if n is not None:
         seen_order = seen_order[:n]
     app_ids = [x[0] for x in seen_order]
@@ -272,7 +291,7 @@ def get_target_products_with_limit(
     return app_ids, app_list
 
 
-def get_app_ids_from_strategy_file(year: int, week_tag: str, filename: str, limit: str = "all"):
+def get_app_ids_from_strategy_file(year: int, week_tag: str, filename: str, limit = "all"):
     """
     从 target/{年}/{周}/strategy_target/{filename} 读取 Unified ID 列，返回 app_ids 列表。
     filename 如 target_strategy_old.xlsx、target_strategy_new.xlsx。
@@ -293,7 +312,7 @@ def get_app_ids_from_strategy_file(year: int, week_tag: str, filename: str, limi
         return []
     ids = df[col_uid].dropna().astype(str).str.strip().replace("", pd.NA).dropna().unique().tolist()
     ids = [x for x in ids if (x or "").strip()]
-    n = LIMIT_MAP.get(limit) if limit in LIMIT_MAP else None
+    n = _limit_to_n(limit)
     if n is not None:
         ids = ids[:n]
     return ids
@@ -441,7 +460,7 @@ def run_step(num: int, week_tag: str, year: int, limit: str = "all", **kwargs) -
         metrics_xlsx = ROOT_DIR / "intermediate" / str(year) / week_tag / "metrics_total.xlsx"
         target_strategy_dir = ROOT_DIR / "target" / str(year) / week_tag / "strategy_target"
         final_dir = ROOT_DIR / "final_join" / str(year) / week_tag
-        ads_dir = ROOT_DIR / "advertisements" / str(year) / week_tag
+        ads_dir = ADS_ROOT / str(year) / week_tag
 
         def _run_batch(tasks):
             """并行执行一批 (label, callable)，全部成功返回 True。"""
@@ -686,7 +705,7 @@ def run_phase2(
     limit: str,
     target_source: str = "both",
     product_type: str = "both",
-    unified_id: str | None = None,
+    unified_id: Optional[str] = None,
 ) -> bool:
     """第二步：根据目标产品表调 API。用户已选是否请求地区数据、创意数据、处理数量及策略/非策略目标、新/老产品。unified_id 非空时仅拉取该单产品。"""
     if not fetch_country and not fetch_creatives:

@@ -5,7 +5,7 @@ from openpyxl.styles import Font
 
 def run_step5_5(week_tag: str = None, year: int = None):
 
-    BASE_DIR = Path(__file__).parent.parent
+    BASE_DIR = Path(__file__).resolve().parent.parent.parent
     
     # === 构建文件路径 ===
     if week_tag and year:

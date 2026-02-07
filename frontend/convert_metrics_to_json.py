@@ -11,13 +11,27 @@
   python frontend/convert_metrics_to_json.py --year 2026 --week 0112-0118
 """
 import json
+import os
 from pathlib import Path
 
 from openpyxl import load_workbook
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 INTERMEDIATE_DIR = BASE_DIR / "intermediate"
-DATA_DIR = Path(__file__).resolve().parent / "data"
+
+
+def _get_data_dir() -> Path:
+    appdata = os.environ.get("APPDATA")
+    if appdata:
+        return Path(appdata).expanduser().resolve() / "SLGMonitor" / "frontend" / "data"
+    try:
+        from app.app_paths import get_data_root
+        return get_data_root() / "frontend" / "data"
+    except Exception:
+        return Path(__file__).resolve().parent / "data"
+
+
+DATA_DIR = _get_data_dir()
 
 
 def _cell_value(v):
@@ -66,7 +80,11 @@ def convert_metrics_to_json(year: int, week_tag: str) -> bool:
     data = {"headers": headers, "rows": rows}
     with open(json_path, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
-    print(f"  ✅ 已生成: {json_path.relative_to(BASE_DIR)}（{len(rows)} 行）")
+    try:
+        display_path = str(json_path.relative_to(BASE_DIR))
+    except Exception:
+        display_path = str(json_path)
+    print(f"  ✅ 已生成: {display_path}（{len(rows)} 行）")
     return True
 
 

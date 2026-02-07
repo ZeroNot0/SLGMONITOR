@@ -64,4 +64,4 @@ export MYSQL_DATABASE=slg_monitor
 export MYSQL_HOST="${MYSQL_HOST:-127.0.0.1}"
 export MYSQL_PORT="${MYSQL_PORT:-3306}"
 
-exec python start_server.py --port "$PORT"
+exec python server/start_server.py --port "$PORT"

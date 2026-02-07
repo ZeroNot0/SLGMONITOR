@@ -46,6 +46,7 @@ AUTH_USERS_PATH = BASE_DIR / "deploy" / "auth_users.json"
 BASETABLE_SOURCES = {
     "product_mapping": MAPPING_DIR / "产品归属.xlsx",
     "company_mapping": MAPPING_DIR / "公司归属.xlsx",
+    "region_t_mapping": MAPPING_DIR / "各地区市场T度映射表.xlsx",
     "theme_label": LABELS_DIR / "题材标签表.xlsx",
     "gameplay_label": LABELS_DIR / "玩法标签表.xlsx",
     "art_style_label": LABELS_DIR / "画风标签表.xlsx",

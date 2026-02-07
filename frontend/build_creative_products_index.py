@@ -7,11 +7,29 @@
 """
 import json
 import argparse
+import os
 from pathlib import Path
 
 BASE_DIR = Path(__file__).resolve().parent.parent
-ADS_DIR = BASE_DIR / "advertisements"
-DATA_DIR = BASE_DIR / "frontend" / "data"
+try:
+    from app.app_paths import get_data_root
+    ADS_DIR = get_data_root() / "advertisements"
+except Exception:
+    ADS_DIR = BASE_DIR / "advertisements"
+
+
+def _get_data_dir() -> Path:
+    appdata = os.environ.get("APPDATA")
+    if appdata:
+        return Path(appdata).expanduser().resolve() / "SLGMonitor" / "frontend" / "data"
+    try:
+        from app.app_paths import get_data_root
+        return get_data_root() / "frontend" / "data"
+    except Exception:
+        return Path(__file__).resolve().parent / "data"
+
+
+DATA_DIR = _get_data_dir()
 
 # 地区与 JSON 文件名后缀一致（fetch_ad_creatives 写入）
 REGIONS = ["亚洲T1", "欧美T1", "T2", "T3"]

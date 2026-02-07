@@ -68,7 +68,7 @@ python request/fetch_country_data.py --app_ids_file <临时文件> [--start_date
   - `request/country_data/xlsx/{app_id}.xlsx`（若未关掉 xlsx）
 - **目录结构**：按 **app_id** 存文件，**不按年/周分子目录**；同一 app 多次跑步骤 3 会覆盖原文件。
 - **后续使用**：  
-  步骤 5 会跑 `scripts/build_final_join.py`，读取 **target 表** + **上述 json/xlsx**，按 `mapping/市场T度.csv` 把国家归到亚洲 T1 / 欧美 T1 / T2 / T3，汇总安装与流水，写入 **final_join**，再转成前端「产品维度」用的 JSON。
+  步骤 5 会跑 `pipeline/steps/build_final_join.py`，读取 **target 表** + **上述 json/xlsx**，按 `mapping/市场T度.csv` 把国家归到亚洲 T1 / 欧美 T1 / T2 / T3，汇总安装与流水，写入 **final_join**，再转成前端「产品维度」用的 JSON。
 
 ---
 

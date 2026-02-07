@@ -24,7 +24,7 @@ from pathlib import Path
 
 import pandas as pd
 
-BASE_DIR = Path(__file__).resolve().parent.parent
+BASE_DIR = Path(__file__).resolve().parent.parent.parent
 TARGET_BASE = BASE_DIR / "target"
 # 地区数据优先从 countiesdata（仿照 advertisements）读取，再回退到 request/country_data
 COUNTIESDATA_BASE = BASE_DIR / "countiesdata"

@@ -17,7 +17,7 @@ from pathlib import Path
 
 import pandas as pd
 
-BASE_DIR = Path(__file__).resolve().parent.parent
+BASE_DIR = Path(__file__).resolve().parent.parent.parent
 MAPPING_DIR = BASE_DIR / "mapping"
 
 # 爆量旧产品 / 新产品 划分：上线时间早于该日期的为 old，否则为 new
