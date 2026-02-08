@@ -26,6 +26,7 @@ import re
 import subprocess
 import sys
 import tempfile
+import runpy
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
 from typing import Optional
@@ -54,7 +55,7 @@ def _load_script_module(name: str):
     return mod
 
 
-def run_step1_in_process(week_tag: str, year: int) -> bool:
+def run_step1_in_process(week_tag: str, year: int, write_normalized: bool = True) -> bool:
     """第一步制表：在同一进程内顺序执行 step1→step5_5，避免 6 次子进程启动与重复加载，加快整体耗时。"""
     steps = [
         ("step1_merge_clean.py", "run_step1"),
@@ -74,7 +75,13 @@ def run_step1_in_process(week_tag: str, year: int) -> bool:
             print(f"  ❌ {script_name} 中无函数: {func_name}")
             return False
         try:
-            fn(week_tag, year)
+            if func_name == "run_step1":
+                try:
+                    fn(week_tag, year, write_normalized=write_normalized)
+                except TypeError:
+                    fn(week_tag, year)
+            else:
+                fn(week_tag, year)
         except Exception as e:
             print(f"  ❌ {script_name} 执行失败: {e}")
             return False
@@ -155,6 +162,8 @@ def run_script(script_name: str, week_tag: str, year: int, extra_args=None) -> b
     if extra_args:
         cmd.extend(extra_args)
     try:
+        if hasattr(sys, "_MEIPASS"):
+            return _run_script_in_process(script, cmd[1:])
         subprocess.run(cmd, check=True, cwd=str(ROOT_DIR))
         return True
     except subprocess.CalledProcessError as e:
@@ -176,6 +185,8 @@ def run_frontend_script(script_name: str, year: int = None, week_tag: str = None
     if extra_args:
         cmd.extend(extra_args)
     try:
+        if hasattr(sys, "_MEIPASS"):
+            return _run_script_in_process(script, cmd[1:])
         subprocess.run(cmd, check=True, cwd=str(ROOT_DIR))
         return True
     except subprocess.CalledProcessError as e:
@@ -195,11 +206,40 @@ def run_request_script(script_name: str, extra_args=None) -> bool:
     env = os.environ.copy()
     env["PYTHONUNBUFFERED"] = "1"
     try:
+        if hasattr(sys, "_MEIPASS"):
+            return _run_script_in_process(script, cmd[1:])
         subprocess.run(cmd, check=True, cwd=str(ROOT_DIR), env=env)
         return True
     except subprocess.CalledProcessError as e:
         print(f"  ❌ request/{script_name} 执行失败，退出码: {e.returncode}")
         return False
+
+
+def _run_script_in_process(script: Path, argv: list) -> bool:
+    """在冻结版中直接执行脚本，避免调用不存在的 python.exe。"""
+    if not script.exists():
+        print(f"  ❌ 未找到: {script}")
+        return False
+    old_argv = sys.argv[:]
+    try:
+        args = list(argv or [])
+        if not args:
+            args = [str(script)]
+        elif str(args[0]) != str(script):
+            args = [str(script)] + args
+        sys.argv = args
+        runpy.run_path(str(script), run_name="__main__")
+        return True
+    except SystemExit as exc:
+        code = exc.code if isinstance(exc.code, int) else 0
+        if code not in (0, None):
+            print(f"  ❌ {script.name} 执行失败，退出码: {code}")
+        return code in (0, None)
+    except Exception as exc:
+        print(f"  ❌ {script.name} 执行失败: {exc}")
+        return False
+    finally:
+        sys.argv = old_argv
 
 
 def week_tag_to_dates(year: int, week_tag: str):
@@ -463,19 +503,27 @@ def run_step(num: int, week_tag: str, year: int, limit: str = "all", **kwargs) -
         ads_dir = ADS_ROOT / str(year) / week_tag
 
         def _run_batch(tasks):
-            """并行执行一批 (label, callable)，全部成功返回 True。"""
+            """执行一批 (label, callable)，全部成功返回 True。冻结版改为串行避免 argv 冲突。"""
             if not tasks:
                 return True
             results = {}
-            with ThreadPoolExecutor(max_workers=min(len(tasks), 6)) as ex:
-                f2l = {ex.submit(fn): label for label, fn in tasks}
-                for fut in as_completed(f2l):
-                    label = f2l[fut]
+            if hasattr(sys, "_MEIPASS"):
+                for label, fn in tasks:
                     try:
-                        results[label] = fut.result()
+                        results[label] = fn()
                     except Exception as e:
                         print(f"  ❌ {label} 异常: {e}")
                         results[label] = False
+            else:
+                with ThreadPoolExecutor(max_workers=min(len(tasks), 6)) as ex:
+                    f2l = {ex.submit(fn): label for label, fn in tasks}
+                    for fut in as_completed(f2l):
+                        label = f2l[fut]
+                        try:
+                            results[label] = fut.result()
+                        except Exception as e:
+                            print(f"  ❌ {label} 异常: {e}")
+                            results[label] = False
             ok = all(results.values())
             for label, v in results.items():
                 if not v:
@@ -541,10 +589,12 @@ def run_step(num: int, week_tag: str, year: int, limit: str = "all", **kwargs) -
     return True
 
 
-def run_phase1(week_tag: str, year: int) -> bool:
+def run_phase1(week_tag: str, year: int, write_normalized: bool = True) -> bool:
     """第一步：制作数据监测表 + 获得目标产品表。"""
     ensure_raw_csv_for_step1(year, week_tag)
-    return run_step(1, week_tag, year) and run_step(2, week_tag, year)
+    if write_normalized:
+        return run_step(1, week_tag, year) and run_step(2, week_tag, year)
+    return run_step1_in_process(week_tag, year, write_normalized=False) and run_step(2, week_tag, year)
 
 
 # 单产品按上线时间归入 old/new 的截止日期（与 generate_target 一致）

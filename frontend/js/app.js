@@ -4406,6 +4406,125 @@
     });
   }
 
+  // 数据维护：第一步批量执行（扫描根目录）
+  var MAINTENANCE_PHASE1_BATCH_START_URL = '/api/maintenance/phase1_batch_start';
+  var MAINTENANCE_PHASE1_BATCH_STATUS_URL = '/api/maintenance/phase1_batch_status';
+  var maintenancePhase1BatchForm = document.getElementById('maintenancePhase1BatchForm');
+  var maintenancePhase1BatchFolder = document.getElementById('maintenancePhase1BatchFolder');
+  var maintenancePhase1BatchPick = document.getElementById('maintenancePhase1BatchPick');
+  var maintenancePhase1BatchPicker = document.getElementById('maintenancePhase1BatchFolderPicker');
+  var maintenancePhase1BatchSubmit = document.getElementById('maintenancePhase1BatchSubmit');
+  var maintenancePhase1BatchStatus = document.getElementById('maintenancePhase1BatchStatus');
+  var maintenancePhase1BatchCurrent = document.getElementById('maintenancePhase1BatchCurrent');
+  var maintenancePhase1BatchPoll = null;
+  function clearPhase1BatchPoll() {
+    if (maintenancePhase1BatchPoll) {
+      clearInterval(maintenancePhase1BatchPoll);
+      maintenancePhase1BatchPoll = null;
+    }
+  }
+  function updatePhase1BatchStatus(status) {
+    if (!maintenancePhase1BatchStatus) return;
+    var total = status.total || 0;
+    var done = status.done || 0;
+    var current = status.current || '';
+    if (status.running) {
+      maintenancePhase1BatchStatus.textContent = '批量执行中：' + done + '/' + total;
+      maintenancePhase1BatchStatus.className = 'maintenance-status-inline';
+    } else {
+      var errors = status.errors || [];
+      var okCount = total - errors.length;
+      maintenancePhase1BatchStatus.textContent = '批量执行完成：成功 ' + okCount + '，失败 ' + errors.length;
+      maintenancePhase1BatchStatus.className = errors.length ? 'maintenance-status-inline err' : 'maintenance-status-inline ok';
+    }
+    if (maintenancePhase1BatchCurrent) {
+      maintenancePhase1BatchCurrent.textContent = current ? ('当前：' + current) : '';
+    }
+  }
+  function pollPhase1BatchStatus(endProgress) {
+    fetch(MAINTENANCE_PHASE1_BATCH_STATUS_URL, { method: 'GET' })
+      .then(function (r) { return r.ok ? r.json() : null; })
+      .then(function (data) {
+        if (!data || !data.status) return;
+        updatePhase1BatchStatus(data.status);
+        if (!data.status.running) {
+          clearPhase1BatchPoll();
+          if (endProgress) endProgress();
+          if (maintenancePhase1BatchSubmit) {
+            maintenancePhase1BatchSubmit.disabled = false;
+            maintenancePhase1BatchSubmit.textContent = '批量执行第一步';
+          }
+        }
+      })
+      .catch(function () {});
+  }
+  if (maintenancePhase1BatchPick && maintenancePhase1BatchPicker) {
+    maintenancePhase1BatchPick.addEventListener('click', function () {
+      maintenancePhase1BatchPicker.click();
+    });
+    maintenancePhase1BatchPicker.addEventListener('change', function () {
+      var files = maintenancePhase1BatchPicker.files;
+      if (!files || !files.length) return;
+      var first = files[0];
+      var fullPath = first.path || '';
+      var relPath = first.webkitRelativePath || '';
+      if (fullPath) {
+        var root = fullPath;
+        if (relPath && fullPath.toLowerCase().endsWith(relPath.toLowerCase())) {
+          root = fullPath.slice(0, fullPath.length - relPath.length);
+        }
+        root = root.replace(/[\\/]+$/, '');
+        if (maintenancePhase1BatchFolder) maintenancePhase1BatchFolder.value = root;
+      } else if (maintenancePhase1BatchStatus) {
+        maintenancePhase1BatchStatus.textContent = '已选择文件夹，请粘贴完整路径';
+        maintenancePhase1BatchStatus.className = 'maintenance-status-inline err';
+      }
+    });
+  }
+  if (maintenancePhase1BatchForm && maintenancePhase1BatchStatus && maintenancePhase1BatchFolder) {
+    maintenancePhase1BatchForm.addEventListener('submit', function (e) {
+      e.preventDefault();
+      var rootVal = maintenancePhase1BatchFolder.value || '';
+      if (!rootVal.trim()) {
+        maintenancePhase1BatchStatus.textContent = '请填写原始数据根目录';
+        maintenancePhase1BatchStatus.className = 'maintenance-status-inline err';
+        return;
+      }
+      if (maintenancePhase1BatchSubmit) {
+        maintenancePhase1BatchSubmit.disabled = true;
+        maintenancePhase1BatchSubmit.textContent = '批量执行中…';
+      }
+      maintenancePhase1BatchStatus.textContent = '正在启动批量执行…';
+      maintenancePhase1BatchStatus.className = 'maintenance-status-inline';
+      var endProgress = maintenanceProgressStart('maintenancePhase1BatchProgress', 'maintenancePhase1BatchProgressPct');
+      clearPhase1BatchPoll();
+      fetch(MAINTENANCE_PHASE1_BATCH_START_URL, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ root_dir: rootVal.trim(), write_normalized: false })
+      })
+        .then(function (r) { return r.ok ? r.json() : null; })
+        .then(function (data) {
+          if (!data || data.ok === false) {
+            throw new Error((data && data.message) || '启动失败');
+          }
+          pollPhase1BatchStatus(endProgress);
+          maintenancePhase1BatchPoll = setInterval(function () {
+            pollPhase1BatchStatus(endProgress);
+          }, 1500);
+        })
+        .catch(function (err) {
+          maintenancePhase1BatchStatus.textContent = err.message || '请求失败，请确认后端已启动';
+          maintenancePhase1BatchStatus.className = 'maintenance-status-inline err';
+          endProgress();
+          if (maintenancePhase1BatchSubmit) {
+            maintenancePhase1BatchSubmit.disabled = false;
+            maintenancePhase1BatchSubmit.textContent = '批量执行第一步';
+          }
+        });
+    });
+  }
+
   // 数据维护：2.1 步卡片 — 拉取目标产品分地区数据
   var MAINTENANCE_PHASE2_1_URL = '/api/maintenance/phase2_1';
   var maintenancePhase2_1Form = document.getElementById('maintenancePhase2_1Form');

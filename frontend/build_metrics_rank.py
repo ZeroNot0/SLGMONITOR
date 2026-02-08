@@ -16,6 +16,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 
 def _get_data_dir() -> Path:
+    override = os.environ.get("SLG_MONITOR_DATA_DIR", "").strip()
+    if override:
+        return Path(override).expanduser().resolve() / "frontend" / "data"
     appdata = os.environ.get("APPDATA")
     if appdata:
         return Path(appdata).expanduser().resolve() / "SLGMonitor" / "frontend" / "data"

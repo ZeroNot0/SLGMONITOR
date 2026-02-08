@@ -19,6 +19,7 @@ import argparse
 import csv
 import json
 import subprocess
+import runpy
 import sys
 from pathlib import Path
 
@@ -245,11 +246,19 @@ def run(year: int, week_tag: str) -> bool:
     convert_script = BASE_DIR / "frontend" / "convert_final_join_to_json.py"
     if convert_script.exists():
         try:
-            subprocess.run(
-                [sys.executable, str(convert_script), "--year", str(year), "--week", week_tag],
-                check=True,
-                cwd=str(BASE_DIR),
-            )
+            if hasattr(sys, "_MEIPASS"):
+                old_argv = sys.argv[:]
+                try:
+                    sys.argv = [str(convert_script), "--year", str(year), "--week", week_tag]
+                    runpy.run_path(str(convert_script), run_name="__main__")
+                finally:
+                    sys.argv = old_argv
+            else:
+                subprocess.run(
+                    [sys.executable, str(convert_script), "--year", str(year), "--week", week_tag],
+                    check=True,
+                    cwd=str(BASE_DIR),
+                )
         except subprocess.CalledProcessError as e:
             print(f"  ⚠️ 生成前端 JSON 失败（退出码 {e.returncode}），产品维度页可能仍为旧数据")
     else:

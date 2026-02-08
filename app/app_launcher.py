@@ -1,4 +1,5 @@
 import base64
+import os
 import queue
 import threading
 import time
@@ -10,6 +11,11 @@ import webview
 ROOT_DIR = Path(__file__).resolve().parent.parent
 if str(ROOT_DIR) not in sys.path:
     sys.path.insert(0, str(ROOT_DIR))
+
+if hasattr(sys, "_MEIPASS"):
+    exe_dir = Path(sys.executable).resolve().parent
+    data_dir = exe_dir / "SLGMonitorData"
+    os.environ.setdefault("SLG_MONITOR_DATA_DIR", str(data_dir))
 
 from server.start_server import run_server
 

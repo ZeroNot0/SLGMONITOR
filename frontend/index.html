@@ -554,6 +554,30 @@
                 <span class="maintenance-progress-pct" id="maintenancePhase1ProgressPct">0%</span>
               </div>
             </form>
+            <p class="maintenance-card-desc" style="margin-top:16px;">批量执行第一步：选择原始数据根目录，系统将自动扫描 2025/2026 下的周目录（如 1201-1207），逐个执行第一步并实时显示当前周。示例路径：D:\SLGFiles\raw_csv</p>
+            <form id="maintenancePhase1BatchForm" class="maintenance-card-form">
+              <div class="maintenance-form-row">
+                <div class="maintenance-field maintenance-field-wide">
+                  <label class="maintenance-label">原始数据根目录</label>
+                  <div class="maintenance-form-row">
+                    <input type="text" id="maintenancePhase1BatchFolder" class="maintenance-input" placeholder="如 D:\\SLGFiles\\raw_csv">
+                    <button type="button" id="maintenancePhase1BatchPick" class="btn-download">选择文件夹</button>
+                    <input type="file" id="maintenancePhase1BatchFolderPicker" webkitdirectory directory multiple class="maintenance-file-input" style="display:none;">
+                  </div>
+                </div>
+              </div>
+              <div class="maintenance-form-row">
+                <button type="submit" id="maintenancePhase1BatchSubmit" class="btn-download">批量执行第一步</button>
+                <span id="maintenancePhase1BatchStatus" class="maintenance-status-inline"></span>
+              </div>
+              <div class="maintenance-progress-wrap" id="maintenancePhase1BatchProgress" aria-hidden="true">
+                <div class="maintenance-progress-bar"><span class="maintenance-progress-fill"></span></div>
+                <span class="maintenance-progress-pct" id="maintenancePhase1BatchProgressPct">0%</span>
+              </div>
+              <div class="maintenance-form-row">
+                <span id="maintenancePhase1BatchCurrent" class="maintenance-status-inline"></span>
+              </div>
+            </form>
           </div>
           <div class="maintenance-card" id="maintenanceCardPhase2_1">
             <h2 class="maintenance-card-title">产品维度拉取目标产品分地区数据（2.1 步）</h2>

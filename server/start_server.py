@@ -7,6 +7,7 @@
 同网共享：绑定 0.0.0.0 后，同事可通过 http://<本机IP>:端口/frontend/ 访问。
 """
 import argparse
+import logging
 import hashlib
 import http.server
 import io
@@ -15,6 +16,7 @@ import re
 import secrets
 import socketserver
 import os
+import shutil
 import subprocess
 import sys
 import threading
@@ -215,9 +217,118 @@ def _list_weeks_from_index() -> list:
     return out
 
 
+def _phase1_batch_add_error(year: int, week_tag: str, message: str) -> None:
+    with PHASE1_BATCH_LOCK:
+        PHASE1_BATCH_STATE["errors"].append({
+            "year": year,
+            "week_tag": week_tag,
+            "message": message,
+        })
+
+
+def _scan_phase1_batch_root(root_dir: Path) -> list:
+    tasks = []
+    if not root_dir or not root_dir.exists():
+        return tasks
+    for year_dir in sorted(root_dir.iterdir()):
+        if not year_dir.is_dir():
+            continue
+        if not re.match(r"^\d{4}$", year_dir.name):
+            continue
+        year = int(year_dir.name)
+        for week_dir in sorted(year_dir.iterdir()):
+            if not week_dir.is_dir():
+                continue
+            week_tag = week_dir.name
+            if not re.match(r"^\d{4}-\d{4}$", week_tag):
+                continue
+            tasks.append((year, week_tag, week_dir))
+    return tasks
+
+
+def _run_phase1_batch(root_dir: Path, write_normalized: bool = False) -> None:
+    tasks = _scan_phase1_batch_root(root_dir)
+    _phase1_batch_update(
+        running=True,
+        root_dir=str(root_dir),
+        current="",
+        total=len(tasks),
+        done=0,
+        errors=[],
+        started_at=time.strftime("%Y-%m-%d %H:%M:%S"),
+        finished_at="",
+    )
+    if not tasks:
+        _phase1_batch_update(running=False, finished_at=time.strftime("%Y-%m-%d %H:%M:%S"))
+        return
+    try:
+        from pipeline.run_full_pipeline import ensure_raw_csv_for_step1, run_phase1, run_phase3
+    except Exception as exc:
+        _phase1_batch_add_error(0, "", f"无法加载流水线模块: {exc}")
+        _phase1_batch_update(running=False, finished_at=time.strftime("%Y-%m-%d %H:%M:%S"))
+        return
+    done = 0
+    for year, week_tag, week_dir in tasks:
+        _phase1_batch_update(current=f"{year}-{week_tag}")
+        csv_files = sorted(week_dir.glob(f"{week_tag}-*.csv"))
+        if len(csv_files) < 13:
+            _phase1_batch_add_error(year, week_tag, f"CSV 数量不足 13，仅 {len(csv_files)} 个")
+            done += 1
+            _phase1_batch_update(done=done)
+            continue
+        dest_dir = DATA_ROOT / "raw_csv" / str(year) / week_tag
+        if dest_dir.exists():
+            shutil.rmtree(dest_dir, ignore_errors=True)
+        dest_dir.mkdir(parents=True, exist_ok=True)
+        copy_ok = True
+        for f in csv_files:
+            try:
+                shutil.copy2(f, dest_dir / f.name)
+            except Exception as exc:
+                _phase1_batch_add_error(year, week_tag, f"复制失败: {exc}")
+                copy_ok = False
+                break
+        if not copy_ok:
+            done += 1
+            _phase1_batch_update(done=done)
+            continue
+        ensure_raw_csv_for_step1(year, week_tag)
+        ok = run_phase1(week_tag, year, write_normalized=write_normalized)
+        if ok:
+            if not run_phase3(week_tag, year):
+                _phase1_batch_add_error(year, week_tag, "前端更新执行失败")
+        else:
+            _phase1_batch_add_error(year, week_tag, "第一步流水线执行失败")
+        done += 1
+        _phase1_batch_update(done=done)
+    _phase1_batch_update(running=False, current="", finished_at=time.strftime("%Y-%m-%d %H:%M:%S"))
+
+
+def _setup_file_logging(log_path: Path) -> None:
+    """Write server logs to a file when running in no-console mode."""
+    try:
+        log_path.parent.mkdir(parents=True, exist_ok=True)
+        log_file = open(log_path, "a", encoding="utf-8", buffering=1)
+        sys.stdout = log_file
+        sys.stderr = log_file
+        logging.basicConfig(
+            level=logging.INFO,
+            format="%(asctime)s [%(levelname)s] %(message)s",
+            stream=log_file,
+        )
+        logging.info("Logging initialized: %s", log_path)
+    except Exception:
+        pass
+
+
 DEFAULT_PORT = 8000
 RESOURCE_ROOT = get_resource_root()
 DATA_ROOT = get_data_root()
+LOG_PATH = os.environ.get("SLG_MONITOR_LOG", "").strip()
+if LOG_PATH:
+    _setup_file_logging(Path(LOG_PATH))
+else:
+    _setup_file_logging(DATA_ROOT / "logs" / "server.log")
 ensure_seed_data(RESOURCE_ROOT, DATA_ROOT)
 BASE_DIR = RESOURCE_ROOT
 # 设为 True 时禁止写操作（PUT/POST/DELETE/PATCH 返回 405）；做权限管理后可改回 True
@@ -248,6 +359,30 @@ AUTH_SESSIONS = {}  # session_id -> {"username": str}
 AUTH_SESSIONS_LOCK = threading.Lock()
 AUTH_COOKIE_NAME = "slg_session"
 AUTH_COOKIE_MAX_AGE = 7 * 24 * 3600  # 7 天
+
+# 批量执行第一步状态
+PHASE1_BATCH_LOCK = threading.Lock()
+PHASE1_BATCH_STATE = {
+    "running": False,
+    "root_dir": "",
+    "current": "",
+    "total": 0,
+    "done": 0,
+    "errors": [],
+    "started_at": "",
+    "finished_at": "",
+}
+
+
+def _phase1_batch_snapshot() -> dict:
+    with PHASE1_BATCH_LOCK:
+        return dict(PHASE1_BATCH_STATE)
+
+
+def _phase1_batch_update(**kwargs) -> None:
+    with PHASE1_BATCH_LOCK:
+        for k, v in kwargs.items():
+            PHASE1_BATCH_STATE[k] = v
 
 
 def _load_auth_users():
@@ -1080,12 +1215,7 @@ class CORSRequestHandler(http.server.SimpleHTTPRequestHandler):
                 out = api_data.get_product_detail_panels(year, week, unified_id=unified_id, product_name=product_name)
                 if out is not None:
                     return send_json(out)
-            self.send_response(404)
-            self.send_header("Content-Type", "application/json; charset=utf-8")
-            self.send_header("Access-Control-Allow-Origin", "*")
-            self.end_headers()
-            self.wfile.write(json.dumps({"error": "no data for this product in this week"}, ensure_ascii=False).encode("utf-8"))
-            return True
+            return send_json({})
         if raw == "/api/data/company_detail_panels":
             year = (params.get("year") or [""])[0].strip()
             week = (params.get("week") or [""])[0].strip()
@@ -1766,6 +1896,8 @@ class CORSRequestHandler(http.server.SimpleHTTPRequestHandler):
             return
         if self._handle_monitor_rules_get():
             return
+        if self._handle_maintenance_phase1_batch_status():
+            return
         if self._handle_video_proxy():
             return
         if self._handle_maintenance_download():
@@ -1814,7 +1946,7 @@ class CORSRequestHandler(http.server.SimpleHTTPRequestHandler):
     def do_OPTIONS(self):
         """CORS 预检：允许对 maintenance、auth 接口的 POST，避免浏览器报 Method Not Allowed。"""
         path = (self.path or "").split("?")[0].rstrip("/")
-        if path in ("/api/maintenance/phase1", "/api/maintenance/phase1_table_only", "/api/maintenance/refresh_weeks_index", "/api/maintenance/rebuild_monitor_table", "/api/maintenance/phase2_1", "/api/maintenance/phase2_2", "/api/maintenance/mapping_update", "/api/maintenance/newproducts_update", "/api/maintenance/add_to_product_mapping", "/api/auth/login", "/api/auth/logout", "/api/auth/register", "/api/auth/approve", "/api/auth/promote", "/api/auth/delete", "/api/monitor_rules", "/api/advanced_query/execute", "/api/api_management"):
+        if path in ("/api/maintenance/phase1", "/api/maintenance/phase1_table_only", "/api/maintenance/phase1_batch_start", "/api/maintenance/refresh_weeks_index", "/api/maintenance/rebuild_monitor_table", "/api/maintenance/phase2_1", "/api/maintenance/phase2_2", "/api/maintenance/mapping_update", "/api/maintenance/newproducts_update", "/api/maintenance/add_to_product_mapping", "/api/auth/login", "/api/auth/logout", "/api/auth/register", "/api/auth/approve", "/api/auth/promote", "/api/auth/delete", "/api/monitor_rules", "/api/advanced_query/execute", "/api/api_management"):
             self.send_response(200)
             self.send_header("Access-Control-Allow-Origin", "*")
             self.send_header("Access-Control-Allow-Methods", "POST, OPTIONS")
@@ -2109,6 +2241,94 @@ class CORSRequestHandler(http.server.SimpleHTTPRequestHandler):
             return True
         except Exception as e:
             self.log_message("maintenance/phase1_table_only error: %s", e)
+            try:
+                self.send_response(500)
+                self.send_header("Content-Type", "application/json; charset=utf-8")
+                self.send_header("Access-Control-Allow-Origin", "*")
+                self.end_headers()
+                self.wfile.write(json.dumps({"ok": False, "message": str(e)}, ensure_ascii=False).encode("utf-8"))
+            except Exception:
+                pass
+            return True
+
+    def _handle_maintenance_phase1_batch_start(self):
+        """POST /api/maintenance/phase1_batch_start：批量执行第一步。Body JSON: { root_dir, write_normalized? }。"""
+        raw = (self.path or "").split("?")[0].rstrip("/")
+        if raw != "/api/maintenance/phase1_batch_start":
+            return False
+        try:
+            length = int(self.headers.get("Content-Length", 0) or 0)
+            if length <= 0:
+                self.send_error(400, "Missing Content-Length")
+                return True
+            body = self.rfile.read(length)
+            try:
+                data = json.loads(body.decode("utf-8"))
+            except Exception:
+                self.send_error(400, "Invalid JSON")
+                return True
+            root_val = str(data.get("root_dir") or "").strip()
+            if not root_val:
+                self.send_error(400, "root_dir required")
+                return True
+            root_dir = Path(root_val).expanduser()
+            if not root_dir.exists() or not root_dir.is_dir():
+                self.send_error(400, "root_dir not found")
+                return True
+            write_normalized = bool(data.get("write_normalized", False))
+            snapshot = _phase1_batch_snapshot()
+            if snapshot.get("running"):
+                self.send_response(200)
+                self.send_header("Content-Type", "application/json; charset=utf-8")
+                self.send_header("Access-Control-Allow-Origin", "*")
+                self.end_headers()
+                self.wfile.write(json.dumps({
+                    "ok": False,
+                    "message": "批量任务正在执行中",
+                    "status": snapshot,
+                }, ensure_ascii=False).encode("utf-8"))
+                return True
+            t = threading.Thread(target=_run_phase1_batch, args=(root_dir, write_normalized), daemon=True)
+            t.start()
+            self.send_response(200)
+            self.send_header("Content-Type", "application/json; charset=utf-8")
+            self.send_header("Access-Control-Allow-Origin", "*")
+            self.end_headers()
+            self.wfile.write(json.dumps({
+                "ok": True,
+                "message": "已开始批量执行第一步",
+            }, ensure_ascii=False).encode("utf-8"))
+            return True
+        except Exception as e:
+            self.log_message("maintenance/phase1_batch_start error: %s", e)
+            try:
+                self.send_response(500)
+                self.send_header("Content-Type", "application/json; charset=utf-8")
+                self.send_header("Access-Control-Allow-Origin", "*")
+                self.end_headers()
+                self.wfile.write(json.dumps({"ok": False, "message": str(e)}, ensure_ascii=False).encode("utf-8"))
+            except Exception:
+                pass
+            return True
+
+    def _handle_maintenance_phase1_batch_status(self):
+        """GET /api/maintenance/phase1_batch_status：返回批量执行进度。"""
+        raw = (self.path or "").split("?")[0].rstrip("/")
+        if raw != "/api/maintenance/phase1_batch_status":
+            return False
+        try:
+            snapshot = _phase1_batch_snapshot()
+            self.send_response(200)
+            self.send_header("Content-Type", "application/json; charset=utf-8")
+            self.send_header("Access-Control-Allow-Origin", "*")
+            self.end_headers()
+            self.wfile.write(json.dumps({
+                "ok": True,
+                "status": snapshot,
+            }, ensure_ascii=False).encode("utf-8"))
+            return True
+        except Exception as e:
+            self.log_message("maintenance/phase1_batch_status error: %s", e)
             try:
                 self.send_response(500)
                 self.send_header("Content-Type", "application/json; charset=utf-8")
@@ -3037,6 +3257,9 @@ class CORSRequestHandler(http.server.SimpleHTTPRequestHandler):
                 return
         if path == "/api/maintenance/phase1":
             if self._handle_maintenance_phase1():
+                return
+        if path == "/api/maintenance/phase1_batch_start":
+            if self._handle_maintenance_phase1_batch_start():
                 return
         if path == "/api/maintenance/refresh_weeks_index":
             if self._handle_maintenance_refresh_weeks_index():

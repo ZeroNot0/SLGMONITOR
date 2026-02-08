@@ -6,17 +6,26 @@ import argparse
 # Sensor Tower CSV 读取函数
 # =================================================
 def read_sensor_tower_csv(path: Path) -> pd.DataFrame:
-    return pd.read_csv(
-        path,
-        encoding="utf-16",
-        sep="\t",
-        engine="python"
-    )
+    try:
+        return pd.read_csv(
+            path,
+            encoding="utf-16",
+            sep="\t",
+            engine="c",
+            low_memory=False,
+        )
+    except Exception:
+        return pd.read_csv(
+            path,
+            encoding="utf-16",
+            sep="\t",
+            engine="python",
+        )
 
 # =================================================
 # STEP1 主流程
 # =================================================
-def run_step1(week_tag: str, year: int = None):
+def run_step1(week_tag: str, year: int = None, write_normalized: bool = True):
 
     # === 项目根目录 SLG Monitor ===
     BASE_DIR = Path(__file__).resolve().parent.parent.parent
@@ -75,7 +84,8 @@ def run_step1(week_tag: str, year: int = None):
     OUTPUT_DIR = BASE_DIR / "intermediate" / str(year) / week_tag
 
     # ✅ 关键修正：允许自动创建所有父目录
-    NORMALIZED_DIR.mkdir(parents=True, exist_ok=True)
+    if write_normalized:
+        NORMALIZED_DIR.mkdir(parents=True, exist_ok=True)
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
     FINAL_OUTPUT_PATH = OUTPUT_DIR / "merged_deduplicated.xlsx"
@@ -93,29 +103,16 @@ def run_step1(week_tag: str, year: int = None):
     # =================================================
     # 2. 标准化 CSV (utf-16/tab → utf-8)
     # =================================================
-    normalized_files = []
+    df_list = []
 
-    print("\n🔹 Step 1.1: 标准化 CSV 编码")
+    print("\n🔹 Step 1.1: 读取 CSV 并合并")
     for f in csv_files:
         print(f"读取: {f.name}")
         df = read_sensor_tower_csv(f)
-
-        out_path = NORMALIZED_DIR / f.name
-        df.to_csv(out_path, index=False, encoding="utf-8-sig")
-
-        normalized_files.append(out_path)
-        print(f"  ✅ 输出: normalized/{out_path.name}")
-
-    print("✅ CSV 标准化完成")
-
-    # =================================================
-    # 3. 读取所有 normalized CSV → 合并
-    # =================================================
-    df_list = []
-
-    print("\n🔹 Step 1.2: 读取标准化 CSV 并合并")
-    for f in normalized_files:
-        df = pd.read_csv(f, encoding="utf-8-sig")
+        if write_normalized:
+            out_path = NORMALIZED_DIR / f.name
+            df.to_csv(out_path, index=False, encoding="utf-8-sig")
+            print(f"  ✅ 输出: normalized/{out_path.name}")
         df_list.append(df)
 
     merged_df = pd.concat(df_list, ignore_index=True)
@@ -212,6 +209,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--week", required=True, help="例如 0105-0111")
     parser.add_argument("--year", type=int, help="年份，例如 2025（可选，会自动检测）")
+    parser.add_argument("--no-normalize", action="store_true", help="不输出 normalized 目录（更快）")
     args = parser.parse_args()
 
-    run_step1(args.week, args.year)
+    run_step1(args.week, args.year, write_normalized=not args.no_normalize)
