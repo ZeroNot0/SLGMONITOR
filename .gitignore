@@ -52,4 +52,6 @@ frontend/data/
 *.zip
 dist/
 build/
+dist_*/
+build_*/
 *.spec
